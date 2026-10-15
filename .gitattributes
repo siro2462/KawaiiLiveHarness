@@ -1,0 +1,2 @@
+# Keep the initial source snapshot byte-for-byte, including existing line endings.
+* -text

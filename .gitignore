@@ -1,0 +1,52 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+
+# Environments and dependencies
+.venv/
+venv/
+dependencies/
+morphology_dependencies/
+embedding-python/
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Models, adapters and training assets
+models/
+quant_cache/
+module_cache/
+data/
+raw/
+adapter/
+adapters/
+checkpoint*/
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.gguf
+*.onnx
+
+# Runtime state, experiment outputs and local exports
+runs/
+audit/
+baseline/
+logs/
+*.log
+*.lock
+*.tmp
+*.sqlite
+*.sqlite3
+*.db
+*.db-*
+*.sqlite-*
+*.zip
+state.json
+*.egg-info/
+.DS_Store
