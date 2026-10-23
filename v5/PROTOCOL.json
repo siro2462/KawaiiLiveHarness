@@ -1,0 +1,57 @@
+{
+  "experiment": "current_fixed_alpha_planner_surface_continuous_offline",
+  "created_jst": "2026-10-23T17:05:03.633778+09:00",
+  "seeds": [
+    20260925
+  ],
+  "max_calls": 110,
+  "max_surface_calls": 55,
+  "max_replan_calls": 55,
+  "prefix_reuse": [],
+  "target_chars": 2500,
+  "chars_per_minute_assumption": 250,
+  "history_window": {
+    "turns": 2,
+    "max_chars": 800
+  },
+  "semantic_guard": false,
+  "quality_retries": 0,
+  "training": false,
+  "real_tts": false,
+  "production": false,
+  "initial_plan_cache": {},
+  "stop_on_invalid_plan": true,
+  "eligible_memory_ids": [
+    "F01",
+    "F02",
+    "F03",
+    "F04",
+    "F05",
+    "F06",
+    "F07",
+    "F08",
+    "F09",
+    "F10",
+    "F11",
+    "F12",
+    "F13",
+    "F14",
+    "F15",
+    "F16",
+    "F17",
+    "F18",
+    "F19",
+    "F20"
+  ],
+  "new_orchestration_notes": [
+    "Alpha chooses an unseen eligible synthetic Memory from actual generated recent text; initial seed and one broad-cue fallback are disclosed.",
+    "Current Memory pinned until each source Fact was presented once; presentation is not semantic confirmation.",
+    "Learned Planner called before every Surface utterance; no cached or Gold Plans. Fixed schema, prompt and Flow application.",
+    "Original source Flow sidecar only covers F01/F08/F13; others retain existing fixed-source-order fallback.",
+    "No retries for quality or invalid Plan. Stop with saved partial evidence on schema failure.",
+    "Target is text amount; stop at utterance boundary or eligible-source exhaustion, no padding."
+  ],
+  "models": "MODELS.json",
+  "original_protocol_sha256": "e62f8ee78d325f48da0bcda31fe1d45ed97f1eff82068cf5a787aceea37b6e1e",
+  "external_freeze_manifest_notice": "The original absolute-path freeze manifest remains in the local immutable run. This export freezes each bundled source in SOURCE_MANIFEST.json; it is not a relocatable ready-to-run protocol."
+}

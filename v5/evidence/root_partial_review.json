@@ -1,0 +1,77 @@
+{
+  "scope": "Failure diagnostic and all8 speech bodies/all9 Planner text/RAW read by root; not a full actual-input semantic review or successful-run finalization",
+  "root_speech_bodies_read": [
+    "R0002",
+    "R0004",
+    "R0006",
+    "R0008",
+    "R0010",
+    "R0012",
+    "R0014",
+    "R0016"
+  ],
+  "root_planner_texts_read": [
+    "R0001",
+    "R0003",
+    "R0005",
+    "R0007",
+    "R0009",
+    "R0011",
+    "R0013",
+    "R0015",
+    "R0017"
+  ],
+  "full_actual_input_semantic_review_done": false,
+  "human_quality_labels": 0,
+  "source_run_status": "failed",
+  "observations": [
+    {
+      "call_id": "R0002",
+      "quote": "あ、そういえばさ、買い物帰りに気づいたんだけど、青い手袋、片方ないんだよね。……どこで落としたのか、さっぱり分かんなくて。",
+      "meaning_quality": "unverified; no automatic semantic promotion"
+    },
+    {
+      "call_id": "R0004",
+      "quote": "さっき歩いた道を引き返して、横断歩道のそばとかも探してみたんだけどさ。……結局、エコバッグの内ポケットに入ってたんだよね。",
+      "meaning_quality": "unverified; no automatic semantic promotion"
+    },
+    {
+      "call_id": "R0006",
+      "quote": "あー、本当によかった。見つかって、ほっとしたよ。",
+      "meaning_quality": "unverified; no automatic semantic promotion"
+    },
+    {
+      "call_id": "R0008",
+      "quote": "そういえば、机の引き出しに、緑のノートと茶色のノートがあったんだけどさ。……その緑のノートの方に、買い物の記録を書いてたんだよね。",
+      "meaning_quality": "unverified; no automatic semantic promotion"
+    },
+    {
+      "call_id": "R0010",
+      "quote": "茶色のノートの方は、何も書いてなかったんだよね。……だから、緑のノートの方だけを、本棚に移しておいたよ。",
+      "meaning_quality": "unverified; no automatic semantic promotion"
+    },
+    {
+      "call_id": "R0012",
+      "quote": "茶色のノートの方は、そのまま引き出しに残してるんだよね。",
+      "meaning_quality": "unverified; no automatic semantic promotion"
+    },
+    {
+      "call_id": "R0014",
+      "quote": "そういえば、買い物メモを紙に書いて、机の上に置いておいたことがあったんだけど……。\nいざお店に着いてから、あ、メモを家に置いてきたんだって気づいたんだよね。",
+      "meaning_quality": "unverified; no automatic semantic promotion"
+    },
+    {
+      "call_id": "R0016",
+      "quote": "それでさ、もう同じ忘れ物はしたくないなーって思って。\nスマホのメモなら、家に置いてきちゃうこともないかなって考えたんだよね。",
+      "meaning_quality": "unverified; no automatic semantic promotion"
+    }
+  ],
+  "failure": {
+    "call_id": "R0017",
+    "stop_reason": "token_cap",
+    "output_tokens": 256,
+    "context_cut_tokens": 0,
+    "error": "Unterminated JSON string; repetitive flow_id_flow_2 sequence",
+    "repair_or_regeneration_performed": false
+  }
+}

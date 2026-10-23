@@ -1,0 +1,162 @@
+{
+  "status": "pass",
+  "scope": "saved partial artifacts only; original run failed, not normal completion or semantic approval",
+  "all17_request_output_hashes": true,
+  "official_processor_and_decodes": true,
+  "all8_journals": true,
+  "all8_real_history_inputs_exact": true,
+  "all14_targets_once": true,
+  "model_adapter_identities": true,
+  "source_memory_links_unchanged": true,
+  "failed_plan_preserved": true,
+  "new_model_calls_for_report": 0,
+  "counts": {
+    "surface": 8,
+    "delivered": 8,
+    "planner": 9,
+    "valid_plans": 8,
+    "invalid_plans": 1,
+    "source_fact_targets": 14,
+    "delivered_chars": 429,
+    "estimated_minutes_at_250chars": 1.716,
+    "target_chars": 2500,
+    "target_met": false,
+    "planner_applied": 3,
+    "planner_order_changes": 0,
+    "topic_sequence": [
+      "F01",
+      "F20",
+      "F08"
+    ],
+    "controller_wall_seconds": 1827.886303,
+    "model_generation_seconds": 1279.965,
+    "surface_generation_seconds": 344.24,
+    "planner_generation_seconds": 935.725,
+    "semantic_guard_calls": 0,
+    "training_updates": 0,
+    "quality_retries": 0,
+    "actual_tts": false,
+    "human_quality_labels": 0
+  },
+  "entries": [
+    {
+      "call_id": "R0001",
+      "role": "planner",
+      "seconds": 103.035,
+      "context_cut_tokens": 0,
+      "tokens": 76
+    },
+    {
+      "call_id": "R0002",
+      "role": "surface",
+      "seconds": 50.004,
+      "context_cut_tokens": 0,
+      "tokens": 39
+    },
+    {
+      "call_id": "R0003",
+      "role": "planner",
+      "seconds": 97.397,
+      "context_cut_tokens": 0,
+      "tokens": 76
+    },
+    {
+      "call_id": "R0004",
+      "role": "surface",
+      "seconds": 46.35,
+      "context_cut_tokens": 0,
+      "tokens": 35
+    },
+    {
+      "call_id": "R0005",
+      "role": "planner",
+      "seconds": 98.072,
+      "context_cut_tokens": 0,
+      "tokens": 77
+    },
+    {
+      "call_id": "R0006",
+      "role": "surface",
+      "seconds": 29.909,
+      "context_cut_tokens": 0,
+      "tokens": 17
+    },
+    {
+      "call_id": "R0007",
+      "role": "planner",
+      "seconds": 63.86,
+      "context_cut_tokens": 0,
+      "tokens": 47
+    },
+    {
+      "call_id": "R0008",
+      "role": "surface",
+      "seconds": 49.825,
+      "context_cut_tokens": 0,
+      "tokens": 39
+    },
+    {
+      "call_id": "R0009",
+      "role": "planner",
+      "seconds": 92.91,
+      "context_cut_tokens": 0,
+      "tokens": 71
+    },
+    {
+      "call_id": "R0010",
+      "role": "surface",
+      "seconds": 40.769,
+      "context_cut_tokens": 0,
+      "tokens": 29
+    },
+    {
+      "call_id": "R0011",
+      "role": "planner",
+      "seconds": 91.033,
+      "context_cut_tokens": 0,
+      "tokens": 71
+    },
+    {
+      "call_id": "R0012",
+      "role": "surface",
+      "seconds": 27.721,
+      "context_cut_tokens": 0,
+      "tokens": 14
+    },
+    {
+      "call_id": "R0013",
+      "role": "planner",
+      "seconds": 60.655,
+      "context_cut_tokens": 0,
+      "tokens": 44
+    },
+    {
+      "call_id": "R0014",
+      "role": "surface",
+      "seconds": 53.388,
+      "context_cut_tokens": 0,
+      "tokens": 44
+    },
+    {
+      "call_id": "R0015",
+      "role": "planner",
+      "seconds": 56.765,
+      "context_cut_tokens": 0,
+      "tokens": 38
+    },
+    {
+      "call_id": "R0016",
+      "role": "surface",
+      "seconds": 46.274,
+      "context_cut_tokens": 0,
+      "tokens": 35
+    },
+    {
+      "call_id": "R0017",
+      "role": "planner",
+      "seconds": 271.998,
+      "context_cut_tokens": 0,
+      "tokens": 256
+    }
+  ]
+}

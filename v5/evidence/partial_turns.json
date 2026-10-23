@@ -1,0 +1,1761 @@
+{
+  "derived": true,
+  "scope": "All eight saved text turns; not a successful10min completion",
+  "turns": [
+    {
+      "turn": 1,
+      "call_id": "R0002",
+      "memory_id": "F01",
+      "source_facts": [
+        {
+          "id": "F01-1",
+          "claim": "買い物帰りに青い手袋が片方ないことに気づいた。",
+          "kind": "event"
+        },
+        {
+          "id": "F01-2",
+          "claim": "手袋を落とした場所が分からなかった。",
+          "kind": "event"
+        },
+        {
+          "id": "F01-3",
+          "claim": "歩いた道を引き返して横断歩道のそばを探した。",
+          "kind": "event"
+        },
+        {
+          "id": "F01-4",
+          "claim": "手袋はエコバッグの内ポケットに入っていた。",
+          "kind": "event"
+        },
+        {
+          "id": "F01-5",
+          "claim": "見つかってほっとした。",
+          "kind": "event"
+        }
+      ],
+      "case": {
+        "schema": "surface-contract-1",
+        "pair_id": "L-T001",
+        "facts": [
+          {
+            "id": "F01-1",
+            "claim": "買い物帰りに青い手袋が片方ないことに気づいた。",
+            "kind": "event"
+          },
+          {
+            "id": "F01-2",
+            "claim": "手袋を落とした場所が分からなかった。",
+            "kind": "event"
+          }
+        ],
+        "history": [],
+        "operation": "start",
+        "relation": {
+          "type": "none",
+          "summary": "同じ出来事の未提示の続き。"
+        },
+        "flow": [
+          {
+            "fact_ids": [
+              "F01-1"
+            ],
+            "relation": "sequence",
+            "label": "気づき・発見"
+          },
+          {
+            "fact_ids": [
+              "F01-2"
+            ],
+            "relation": "sequence",
+            "label": "出来事の進展"
+          }
+        ]
+      },
+      "actual_surface_prompt": "雑談配信で、その場で話しているような自然な日本語の発話にする。\n出来事、考え、感情、問い、比喩、仮定の区別を保つ。数量・否定・時点・確実性・決定と実行を変えない。\n必要なところだけ自然に言い淀みや言い直しを使う。語尾やつなぎを同じ形にそろえる必要はない。\n新しい事実・理由・感情を足さず、発話本文だけを出す。ID、見出し、説明、注記は出さない。\n\n【直前の発話：最大2回、文脈用】\nなし\n\n【今回の会話操作】\n話を始める\n\n【話題の関係】\n同じ出来事の未提示の続き。\n\n【今回話す内容】\n[F01-1] 買い物帰りに青い手袋が片方ないことに気づいた。\n[F01-2] 手袋を落とした場所が分からなかった。\n\n【話の展開】\n気づき・発見（F01-1） → 出来事の進展（F01-2）\n\n直前の発話を受け、今回の内容へ進む。履歴にある話を丸ごと説明し直さない。関係のない出来事を同じ日や因果で結ばない。履歴の未検証の内容を新事実の根拠にしない。",
+      "body": "あ、そういえばさ、買い物帰りに気づいたんだけど、青い手袋、片方ないんだよね。……どこで落としたのか、さっぱり分かんなくて。",
+      "raw_output": "あ、そういえばさ、買い物帰りに気づいたんだけど、青い手袋、片方ないんだよね。……どこで落としたのか、さっぱり分かんなくて。<turn|>",
+      "delivered": true,
+      "format_reason": null,
+      "planner_call_id": "R0001",
+      "actual_planner_prompt": "出力はPlanのJSONを1個だけ。説明文や見出しは付けない。キーはuse_memory、memory_id、topic、flowの4つを全て含め、他のキーは使わない。use_memoryはtrueかfalse。trueならmemory_idは候補のidをそのまま使う。falseでもmemory_idを省略せずnullにする。topicは空でない文字列。flowは空でない文字列を2〜4個並べた配列。\n\n【直近の確定発話】\n\n\n【現在状態】\n{\"speech_history_status\":\"unverified generated speech; original Memory is factual grounding\",\"factual_grounding_memory_id\":\"F01\",\"plan_refresh_reason\":\"post_actual_offline_text_delivery\",\"memory_rules\":\"具体的経験・物・数量・時点は元Memoryを根拠にする。話を続ける、掘り下げる、関連する方向へ変える判断は自由。\",\"progress\":{\"memory_id\":\"F01\",\"source_sha256\":\"58e3c24193314231422272b7bdab134afb9ef809d9d9b1ae21af4807a40952a9\",\"selection_order\":[\"F01-1\",\"F01-2\",\"F01-3\",\"F01-4\",\"F01-5\"],\"mapping\":{\"adopted\":false,\"reason\":\"Planner abstained; fixed source order\",\"method\":\"no semantic interpretation\"},\"facts\":{\"F01-1\":{\"presentations\":0,\"delivery\":\"not_presented\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null},\"F01-2\":{\"presentations\":0,\"delivery\":\"not_presented\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null},\"F01-3\":{\"presentations\":0,\"delivery\":\"not_presented\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null},\"F01-4\":{\"presentations\":0,\"delivery\":\"not_presented\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null},\"F01-5\":{\"presentations\":0,\"delivery\":\"not_presented\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null}},\"last_delivery_seq\":0,\"pending_target_ids\":[\"F01-1\",\"F01-2\",\"F01-3\",\"F01-4\",\"F01-5\"],\"progress_definition\":\"presentation/delivery != verified semantic coverage\"},\"unused_fact_ids\":[\"F01-1\",\"F01-2\",\"F01-3\",\"F01-4\",\"F01-5\"],\"external_event\":null,\"progress_warning\":\"提示済み/模擬再生済みは意味確認済みではない。再提示せず未提示のFactから次の焦点を選ぶ。\"}\n\n【Memory候補】\nid: F01\nbody: 買い物帰りに青い手袋が片方ないことに気づいた。手袋を落とした場所が分からなかった。歩いた道を引き返して横断歩道のそばを探した。手袋はエコバッグの内ポケットに入っていた。見つかってほっとした。\n\n【前回Plan】\nなし\n",
+      "planner_raw": "{\"topic\":\"手袋を落とした場所が分からなかった\",\"flow\":[\"買い物帰りに青い手袋が片方ないことに気づいた\",\"歩いた道を引き返して横断歩道のそばを探した\",\"手袋はエコバッグの内ポケットに入っていた\",\"見つかってほっとした\"],\"memory_id\":\"F01\",\"use_memory\":true}",
+      "plan": {
+        "topic": "手袋を落とした場所が分からなかった",
+        "flow": [
+          "買い物帰りに青い手袋が片方ないことに気づいた",
+          "歩いた道を引き返して横断歩道のそばを探した",
+          "手袋はエコバッグの内ポケットに入っていた",
+          "見つかってほっとした"
+        ],
+        "memory_id": "F01",
+        "use_memory": true
+      },
+      "mapping": {
+        "method": "unique exact source spans or explicit IDs; constrained stable order",
+        "semantic_grounding": false,
+        "source_contract": true,
+        "adopted": true,
+        "changed": false,
+        "reason": "Apply grounded source-ID priorities under dependencies",
+        "steps": [
+          {
+            "flow_index": 0,
+            "flow": "買い物帰りに青い手袋が片方ないことに気づいた",
+            "explicit_ids": [],
+            "source_spans": [
+              {
+                "fact_id": "F01-1",
+                "span": "青い手袋が片方ない"
+              }
+            ],
+            "matched_ids": [
+              "F01-1"
+            ]
+          },
+          {
+            "flow_index": 1,
+            "flow": "歩いた道を引き返して横断歩道のそばを探した",
+            "explicit_ids": [],
+            "source_spans": [
+              {
+                "fact_id": "F01-3",
+                "span": "歩いた道を引き返して"
+              },
+              {
+                "fact_id": "F01-3",
+                "span": "横断歩道のそばを探した"
+              }
+            ],
+            "matched_ids": [
+              "F01-3"
+            ]
+          },
+          {
+            "flow_index": 2,
+            "flow": "手袋はエコバッグの内ポケットに入っていた",
+            "explicit_ids": [],
+            "source_spans": [
+              {
+                "fact_id": "F01-4",
+                "span": "エコバッグの内ポケットに入っていた"
+              }
+            ],
+            "matched_ids": [
+              "F01-4"
+            ]
+          },
+          {
+            "flow_index": 3,
+            "flow": "見つかってほっとした",
+            "explicit_ids": [],
+            "source_spans": [
+              {
+                "fact_id": "F01-5",
+                "span": "見つかってほっとした"
+              }
+            ],
+            "matched_ids": [
+              "F01-5"
+            ]
+          }
+        ],
+        "proposed_order": [
+          "F01-1",
+          "F01-2",
+          "F01-3",
+          "F01-4",
+          "F01-5"
+        ],
+        "constrained_order": [
+          "F01-1",
+          "F01-2",
+          "F01-3",
+          "F01-4",
+          "F01-5"
+        ],
+        "dependency_conflicts": [],
+        "unmentioned_ids": [
+          "F01-2"
+        ]
+      },
+      "progress_after": {
+        "memory_id": "F01",
+        "source_sha256": "58e3c24193314231422272b7bdab134afb9ef809d9d9b1ae21af4807a40952a9",
+        "selection_order": [
+          "F01-1",
+          "F01-2",
+          "F01-3",
+          "F01-4",
+          "F01-5"
+        ],
+        "mapping": {
+          "method": "unique exact source spans or explicit IDs; constrained stable order",
+          "semantic_grounding": false,
+          "source_contract": true,
+          "adopted": true,
+          "changed": false,
+          "reason": "Apply grounded source-ID priorities under dependencies",
+          "steps": [
+            {
+              "flow_index": 0,
+              "flow": "買い物帰りに青い手袋が片方ないことに気づいた",
+              "explicit_ids": [],
+              "source_spans": [
+                {
+                  "fact_id": "F01-1",
+                  "span": "青い手袋が片方ない"
+                }
+              ],
+              "matched_ids": [
+                "F01-1"
+              ]
+            },
+            {
+              "flow_index": 1,
+              "flow": "歩いた道を引き返して横断歩道のそばを探した",
+              "explicit_ids": [],
+              "source_spans": [
+                {
+                  "fact_id": "F01-3",
+                  "span": "歩いた道を引き返して"
+                },
+                {
+                  "fact_id": "F01-3",
+                  "span": "横断歩道のそばを探した"
+                }
+              ],
+              "matched_ids": [
+                "F01-3"
+              ]
+            },
+            {
+              "flow_index": 2,
+              "flow": "手袋はエコバッグの内ポケットに入っていた",
+              "explicit_ids": [],
+              "source_spans": [
+                {
+                  "fact_id": "F01-4",
+                  "span": "エコバッグの内ポケットに入っていた"
+                }
+              ],
+              "matched_ids": [
+                "F01-4"
+              ]
+            },
+            {
+              "flow_index": 3,
+              "flow": "見つかってほっとした",
+              "explicit_ids": [],
+              "source_spans": [
+                {
+                  "fact_id": "F01-5",
+                  "span": "見つかってほっとした"
+                }
+              ],
+              "matched_ids": [
+                "F01-5"
+              ]
+            }
+          ],
+          "proposed_order": [
+            "F01-1",
+            "F01-2",
+            "F01-3",
+            "F01-4",
+            "F01-5"
+          ],
+          "constrained_order": [
+            "F01-1",
+            "F01-2",
+            "F01-3",
+            "F01-4",
+            "F01-5"
+          ],
+          "dependency_conflicts": [],
+          "unmentioned_ids": [
+            "F01-2"
+          ]
+        },
+        "facts": {
+          "F01-1": {
+            "presentations": 1,
+            "delivery": "text_delivered_unverified",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          },
+          "F01-2": {
+            "presentations": 1,
+            "delivery": "text_delivered_unverified",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          },
+          "F01-3": {
+            "presentations": 0,
+            "delivery": "not_presented",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          },
+          "F01-4": {
+            "presentations": 0,
+            "delivery": "not_presented",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          },
+          "F01-5": {
+            "presentations": 0,
+            "delivery": "not_presented",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          }
+        },
+        "last_delivery_seq": 1,
+        "pending_target_ids": [
+          "F01-3",
+          "F01-4",
+          "F01-5"
+        ],
+        "progress_definition": "presentation/delivery != verified semantic coverage"
+      },
+      "source_turn_sha256": "7f6f9ef3ea615b707983f6bbf3f2a399c3f905418b90d87900313cf8faffcf9b"
+    },
+    {
+      "turn": 2,
+      "call_id": "R0004",
+      "memory_id": "F01",
+      "source_facts": [
+        {
+          "id": "F01-1",
+          "claim": "買い物帰りに青い手袋が片方ないことに気づいた。",
+          "kind": "event"
+        },
+        {
+          "id": "F01-2",
+          "claim": "手袋を落とした場所が分からなかった。",
+          "kind": "event"
+        },
+        {
+          "id": "F01-3",
+          "claim": "歩いた道を引き返して横断歩道のそばを探した。",
+          "kind": "event"
+        },
+        {
+          "id": "F01-4",
+          "claim": "手袋はエコバッグの内ポケットに入っていた。",
+          "kind": "event"
+        },
+        {
+          "id": "F01-5",
+          "claim": "見つかってほっとした。",
+          "kind": "event"
+        }
+      ],
+      "case": {
+        "schema": "surface-contract-1",
+        "pair_id": "L-T002",
+        "facts": [
+          {
+            "id": "F01-3",
+            "claim": "歩いた道を引き返して横断歩道のそばを探した。",
+            "kind": "event"
+          },
+          {
+            "id": "F01-4",
+            "claim": "手袋はエコバッグの内ポケットに入っていた。",
+            "kind": "event"
+          }
+        ],
+        "history": [
+          {
+            "text": "あ、そういえばさ、買い物帰りに気づいたんだけど、青い手袋、片方ないんだよね。……どこで落としたのか、さっぱり分かんなくて。",
+            "memory_id": "F01",
+            "origin": "offline text delivered, semantically unverified"
+          }
+        ],
+        "operation": "continue",
+        "relation": {
+          "type": "sequence",
+          "summary": "同じ出来事の未提示部分に進む。直前の本文は発話済みだが未検証。新事実の根拠にしない。"
+        },
+        "flow": [
+          {
+            "fact_ids": [
+              "F01-3"
+            ],
+            "relation": "sequence",
+            "label": "出来事の進展"
+          },
+          {
+            "fact_ids": [
+              "F01-4"
+            ],
+            "relation": "sequence",
+            "label": "気づき・発見"
+          }
+        ]
+      },
+      "actual_surface_prompt": "雑談配信で、その場で話しているような自然な日本語の発話にする。\n出来事、考え、感情、問い、比喩、仮定の区別を保つ。数量・否定・時点・確実性・決定と実行を変えない。\n必要なところだけ自然に言い淀みや言い直しを使う。語尾やつなぎを同じ形にそろえる必要はない。\n新しい事実・理由・感情を足さず、発話本文だけを出す。ID、見出し、説明、注記は出さない。\n\n【直前の発話：最大2回、文脈用】\n[1] あ、そういえばさ、買い物帰りに気づいたんだけど、青い手袋、片方ないんだよね。……どこで落としたのか、さっぱり分かんなくて。\n\n【今回の会話操作】\n同じ出来事の続きを話す\n\n【話題の関係】\n同じ出来事の未提示部分に進む。直前の本文は発話済みだが未検証。新事実の根拠にしない。\n\n【今回話す内容】\n[F01-3] 歩いた道を引き返して横断歩道のそばを探した。\n[F01-4] 手袋はエコバッグの内ポケットに入っていた。\n\n【話の展開】\n出来事の進展（F01-3） → 気づき・発見（F01-4）\n\n直前の発話を受け、今回の内容へ進む。履歴にある話を丸ごと説明し直さない。関係のない出来事を同じ日や因果で結ばない。履歴の未検証の内容を新事実の根拠にしない。",
+      "body": "さっき歩いた道を引き返して、横断歩道のそばとかも探してみたんだけどさ。……結局、エコバッグの内ポケットに入ってたんだよね。",
+      "raw_output": "さっき歩いた道を引き返して、横断歩道のそばとかも探してみたんだけどさ。……結局、エコバッグの内ポケットに入ってたんだよね。<turn|>",
+      "delivered": true,
+      "format_reason": null,
+      "planner_call_id": "R0003",
+      "actual_planner_prompt": "出力はPlanのJSONを1個だけ。説明文や見出しは付けない。キーはuse_memory、memory_id、topic、flowの4つを全て含め、他のキーは使わない。use_memoryはtrueかfalse。trueならmemory_idは候補のidをそのまま使う。falseでもmemory_idを省略せずnullにする。topicは空でない文字列。flowは空でない文字列を2〜4個並べた配列。\n\n【直近の確定発話】\nあ、そういえばさ、買い物帰りに気づいたんだけど、青い手袋、片方ないんだよね。……どこで落としたのか、さっぱり分かんなくて。\n\n【現在状態】\n{\"speech_history_status\":\"unverified generated speech; original Memory is factual grounding\",\"factual_grounding_memory_id\":\"F01\",\"plan_refresh_reason\":\"post_actual_offline_text_delivery\",\"memory_rules\":\"具体的経験・物・数量・時点は元Memoryを根拠にする。話を続ける、掘り下げる、関連する方向へ変える判断は自由。\",\"progress\":{\"memory_id\":\"F01\",\"source_sha256\":\"58e3c24193314231422272b7bdab134afb9ef809d9d9b1ae21af4807a40952a9\",\"selection_order\":[\"F01-1\",\"F01-2\",\"F01-3\",\"F01-4\",\"F01-5\"],\"mapping\":{\"method\":\"unique exact source spans or explicit IDs; constrained stable order\",\"semantic_grounding\":false,\"source_contract\":true,\"adopted\":true,\"changed\":false,\"reason\":\"Apply grounded source-ID priorities under dependencies\",\"steps\":[{\"flow_index\":0,\"flow\":\"買い物帰りに青い手袋が片方ないことに気づいた\",\"explicit_ids\":[],\"source_spans\":[{\"fact_id\":\"F01-1\",\"span\":\"青い手袋が片方ない\"}],\"matched_ids\":[\"F01-1\"]},{\"flow_index\":1,\"flow\":\"歩いた道を引き返して横断歩道のそばを探した\",\"explicit_ids\":[],\"source_spans\":[{\"fact_id\":\"F01-3\",\"span\":\"歩いた道を引き返して\"},{\"fact_id\":\"F01-3\",\"span\":\"横断歩道のそばを探した\"}],\"matched_ids\":[\"F01-3\"]},{\"flow_index\":2,\"flow\":\"手袋はエコバッグの内ポケットに入っていた\",\"explicit_ids\":[],\"source_spans\":[{\"fact_id\":\"F01-4\",\"span\":\"エコバッグの内ポケットに入っていた\"}],\"matched_ids\":[\"F01-4\"]},{\"flow_index\":3,\"flow\":\"見つかってほっとした\",\"explicit_ids\":[],\"source_spans\":[{\"fact_id\":\"F01-5\",\"span\":\"見つかってほっとした\"}],\"matched_ids\":[\"F01-5\"]}],\"proposed_order\":[\"F01-1\",\"F01-2\",\"F01-3\",\"F01-4\",\"F01-5\"],\"constrained_order\":[\"F01-1\",\"F01-2\",\"F01-3\",\"F01-4\",\"F01-5\"],\"dependency_conflicts\":[],\"unmentioned_ids\":[\"F01-2\"]},\"facts\":{\"F01-1\":{\"presentations\":1,\"delivery\":\"text_delivered_unverified\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null},\"F01-2\":{\"presentations\":1,\"delivery\":\"text_delivered_unverified\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null},\"F01-3\":{\"presentations\":0,\"delivery\":\"not_presented\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null},\"F01-4\":{\"presentations\":0,\"delivery\":\"not_presented\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null},\"F01-5\":{\"presentations\":0,\"delivery\":\"not_presented\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null}},\"last_delivery_seq\":1,\"pending_target_ids\":[\"F01-3\",\"F01-4\",\"F01-5\"],\"progress_definition\":\"presentation/delivery != verified semantic coverage\"},\"unused_fact_ids\":[\"F01-3\",\"F01-4\",\"F01-5\"],\"external_event\":null,\"progress_warning\":\"提示済み/模擬再生済みは意味確認済みではない。再提示せず未提示のFactから次の焦点を選ぶ。\"}\n\n【Memory候補】\nid: F01\nbody: 買い物帰りに青い手袋が片方ないことに気づいた。手袋を落とした場所が分からなかった。歩いた道を引き返して横断歩道のそばを探した。手袋はエコバッグの内ポケットに入っていた。見つかってほっとした。\n\n【前回Plan】\n{\"topic\":\"手袋を落とした場所が分からなかった\",\"flow\":[\"買い物帰りに青い手袋が片方ないことに気づいた\",\"歩いた道を引き返して横断歩道のそばを探した\",\"手袋はエコバッグの内ポケットに入っていた\",\"見つかってほっとした\"],\"memory_id\":\"F01\",\"use_memory\":true}\n",
+      "planner_raw": "{\"topic\":\"手袋を落とした場所が分からなかった\",\"flow\":[\"買い物帰りに青い手袋が片方ないことに気づいた\",\"歩いた道を引き返して横断歩道のそばを探した\",\"手袋はエコバッグの内ポケットに入っていた\",\"見つかってほっとした\"],\"memory_id\":\"F01\",\"use_memory\":true}",
+      "plan": {
+        "topic": "手袋を落とした場所が分からなかった",
+        "flow": [
+          "買い物帰りに青い手袋が片方ないことに気づいた",
+          "歩いた道を引き返して横断歩道のそばを探した",
+          "手袋はエコバッグの内ポケットに入っていた",
+          "見つかってほっとした"
+        ],
+        "memory_id": "F01",
+        "use_memory": true
+      },
+      "mapping": {
+        "method": "unique exact source spans or explicit IDs; constrained stable order",
+        "semantic_grounding": false,
+        "source_contract": true,
+        "adopted": true,
+        "changed": false,
+        "reason": "Apply grounded source-ID priorities under dependencies",
+        "steps": [
+          {
+            "flow_index": 0,
+            "flow": "買い物帰りに青い手袋が片方ないことに気づいた",
+            "explicit_ids": [],
+            "source_spans": [
+              {
+                "fact_id": "F01-1",
+                "span": "青い手袋が片方ない"
+              }
+            ],
+            "matched_ids": [
+              "F01-1"
+            ]
+          },
+          {
+            "flow_index": 1,
+            "flow": "歩いた道を引き返して横断歩道のそばを探した",
+            "explicit_ids": [],
+            "source_spans": [
+              {
+                "fact_id": "F01-3",
+                "span": "歩いた道を引き返して"
+              },
+              {
+                "fact_id": "F01-3",
+                "span": "横断歩道のそばを探した"
+              }
+            ],
+            "matched_ids": [
+              "F01-3"
+            ]
+          },
+          {
+            "flow_index": 2,
+            "flow": "手袋はエコバッグの内ポケットに入っていた",
+            "explicit_ids": [],
+            "source_spans": [
+              {
+                "fact_id": "F01-4",
+                "span": "エコバッグの内ポケットに入っていた"
+              }
+            ],
+            "matched_ids": [
+              "F01-4"
+            ]
+          },
+          {
+            "flow_index": 3,
+            "flow": "見つかってほっとした",
+            "explicit_ids": [],
+            "source_spans": [
+              {
+                "fact_id": "F01-5",
+                "span": "見つかってほっとした"
+              }
+            ],
+            "matched_ids": [
+              "F01-5"
+            ]
+          }
+        ],
+        "proposed_order": [
+          "F01-1",
+          "F01-2",
+          "F01-3",
+          "F01-4",
+          "F01-5"
+        ],
+        "constrained_order": [
+          "F01-1",
+          "F01-2",
+          "F01-3",
+          "F01-4",
+          "F01-5"
+        ],
+        "dependency_conflicts": [],
+        "unmentioned_ids": [
+          "F01-2"
+        ]
+      },
+      "progress_after": {
+        "memory_id": "F01",
+        "source_sha256": "58e3c24193314231422272b7bdab134afb9ef809d9d9b1ae21af4807a40952a9",
+        "selection_order": [
+          "F01-1",
+          "F01-2",
+          "F01-3",
+          "F01-4",
+          "F01-5"
+        ],
+        "mapping": {
+          "method": "unique exact source spans or explicit IDs; constrained stable order",
+          "semantic_grounding": false,
+          "source_contract": true,
+          "adopted": true,
+          "changed": false,
+          "reason": "Apply grounded source-ID priorities under dependencies",
+          "steps": [
+            {
+              "flow_index": 0,
+              "flow": "買い物帰りに青い手袋が片方ないことに気づいた",
+              "explicit_ids": [],
+              "source_spans": [
+                {
+                  "fact_id": "F01-1",
+                  "span": "青い手袋が片方ない"
+                }
+              ],
+              "matched_ids": [
+                "F01-1"
+              ]
+            },
+            {
+              "flow_index": 1,
+              "flow": "歩いた道を引き返して横断歩道のそばを探した",
+              "explicit_ids": [],
+              "source_spans": [
+                {
+                  "fact_id": "F01-3",
+                  "span": "歩いた道を引き返して"
+                },
+                {
+                  "fact_id": "F01-3",
+                  "span": "横断歩道のそばを探した"
+                }
+              ],
+              "matched_ids": [
+                "F01-3"
+              ]
+            },
+            {
+              "flow_index": 2,
+              "flow": "手袋はエコバッグの内ポケットに入っていた",
+              "explicit_ids": [],
+              "source_spans": [
+                {
+                  "fact_id": "F01-4",
+                  "span": "エコバッグの内ポケットに入っていた"
+                }
+              ],
+              "matched_ids": [
+                "F01-4"
+              ]
+            },
+            {
+              "flow_index": 3,
+              "flow": "見つかってほっとした",
+              "explicit_ids": [],
+              "source_spans": [
+                {
+                  "fact_id": "F01-5",
+                  "span": "見つかってほっとした"
+                }
+              ],
+              "matched_ids": [
+                "F01-5"
+              ]
+            }
+          ],
+          "proposed_order": [
+            "F01-1",
+            "F01-2",
+            "F01-3",
+            "F01-4",
+            "F01-5"
+          ],
+          "constrained_order": [
+            "F01-1",
+            "F01-2",
+            "F01-3",
+            "F01-4",
+            "F01-5"
+          ],
+          "dependency_conflicts": [],
+          "unmentioned_ids": [
+            "F01-2"
+          ]
+        },
+        "facts": {
+          "F01-1": {
+            "presentations": 1,
+            "delivery": "text_delivered_unverified",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          },
+          "F01-2": {
+            "presentations": 1,
+            "delivery": "text_delivered_unverified",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          },
+          "F01-3": {
+            "presentations": 1,
+            "delivery": "text_delivered_unverified",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          },
+          "F01-4": {
+            "presentations": 1,
+            "delivery": "text_delivered_unverified",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          },
+          "F01-5": {
+            "presentations": 0,
+            "delivery": "not_presented",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          }
+        },
+        "last_delivery_seq": 2,
+        "pending_target_ids": [
+          "F01-5"
+        ],
+        "progress_definition": "presentation/delivery != verified semantic coverage"
+      },
+      "source_turn_sha256": "16e614290d5bb1b6e476807729ad1d4bfb35b6d75140ee9e391e86c0e93c2c32"
+    },
+    {
+      "turn": 3,
+      "call_id": "R0006",
+      "memory_id": "F01",
+      "source_facts": [
+        {
+          "id": "F01-1",
+          "claim": "買い物帰りに青い手袋が片方ないことに気づいた。",
+          "kind": "event"
+        },
+        {
+          "id": "F01-2",
+          "claim": "手袋を落とした場所が分からなかった。",
+          "kind": "event"
+        },
+        {
+          "id": "F01-3",
+          "claim": "歩いた道を引き返して横断歩道のそばを探した。",
+          "kind": "event"
+        },
+        {
+          "id": "F01-4",
+          "claim": "手袋はエコバッグの内ポケットに入っていた。",
+          "kind": "event"
+        },
+        {
+          "id": "F01-5",
+          "claim": "見つかってほっとした。",
+          "kind": "event"
+        }
+      ],
+      "case": {
+        "schema": "surface-contract-1",
+        "pair_id": "L-T003",
+        "facts": [
+          {
+            "id": "F01-5",
+            "claim": "見つかってほっとした。",
+            "kind": "event"
+          }
+        ],
+        "history": [
+          {
+            "text": "あ、そういえばさ、買い物帰りに気づいたんだけど、青い手袋、片方ないんだよね。……どこで落としたのか、さっぱり分かんなくて。",
+            "memory_id": "F01",
+            "origin": "offline text delivered, semantically unverified"
+          },
+          {
+            "text": "さっき歩いた道を引き返して、横断歩道のそばとかも探してみたんだけどさ。……結局、エコバッグの内ポケットに入ってたんだよね。",
+            "memory_id": "F01",
+            "origin": "offline text delivered, semantically unverified"
+          }
+        ],
+        "operation": "continue",
+        "relation": {
+          "type": "sequence",
+          "summary": "同じ出来事の未提示部分に進む。直前の本文は発話済みだが未検証。新事実の根拠にしない。"
+        },
+        "flow": [
+          {
+            "fact_ids": [
+              "F01-5"
+            ],
+            "relation": "sequence",
+            "label": "気づき・発見"
+          }
+        ]
+      },
+      "actual_surface_prompt": "雑談配信で、その場で話しているような自然な日本語の発話にする。\n出来事、考え、感情、問い、比喩、仮定の区別を保つ。数量・否定・時点・確実性・決定と実行を変えない。\n必要なところだけ自然に言い淀みや言い直しを使う。語尾やつなぎを同じ形にそろえる必要はない。\n新しい事実・理由・感情を足さず、発話本文だけを出す。ID、見出し、説明、注記は出さない。\n\n【直前の発話：最大2回、文脈用】\n[1] あ、そういえばさ、買い物帰りに気づいたんだけど、青い手袋、片方ないんだよね。……どこで落としたのか、さっぱり分かんなくて。\n\n[2] さっき歩いた道を引き返して、横断歩道のそばとかも探してみたんだけどさ。……結局、エコバッグの内ポケットに入ってたんだよね。\n\n【今回の会話操作】\n同じ出来事の続きを話す\n\n【話題の関係】\n同じ出来事の未提示部分に進む。直前の本文は発話済みだが未検証。新事実の根拠にしない。\n\n【今回話す内容】\n[F01-5] 見つかってほっとした。\n\n【話の展開】\n気づき・発見（F01-5）\n\n直前の発話を受け、今回の内容へ進む。履歴にある話を丸ごと説明し直さない。関係のない出来事を同じ日や因果で結ばない。履歴の未検証の内容を新事実の根拠にしない。",
+      "body": "あー、本当によかった。見つかって、ほっとしたよ。",
+      "raw_output": "あー、本当によかった。見つかって、ほっとしたよ。<turn|>",
+      "delivered": true,
+      "format_reason": null,
+      "planner_call_id": "R0005",
+      "actual_planner_prompt": "出力はPlanのJSONを1個だけ。説明文や見出しは付けない。キーはuse_memory、memory_id、topic、flowの4つを全て含め、他のキーは使わない。use_memoryはtrueかfalse。trueならmemory_idは候補のidをそのまま使う。falseでもmemory_idを省略せずnullにする。topicは空でない文字列。flowは空でない文字列を2〜4個並べた配列。\n\n【直近の確定発話】\nあ、そういえばさ、買い物帰りに気づいたんだけど、青い手袋、片方ないんだよね。……どこで落としたのか、さっぱり分かんなくて。\nさっき歩いた道を引き返して、横断歩道のそばとかも探してみたんだけどさ。……結局、エコバッグの内ポケットに入ってたんだよね。\n\n【現在状態】\n{\"speech_history_status\":\"unverified generated speech; original Memory is factual grounding\",\"factual_grounding_memory_id\":\"F01\",\"plan_refresh_reason\":\"post_actual_offline_text_delivery\",\"memory_rules\":\"具体的経験・物・数量・時点は元Memoryを根拠にする。話を続ける、掘り下げる、関連する方向へ変える判断は自由。\",\"progress\":{\"memory_id\":\"F01\",\"source_sha256\":\"58e3c24193314231422272b7bdab134afb9ef809d9d9b1ae21af4807a40952a9\",\"selection_order\":[\"F01-1\",\"F01-2\",\"F01-3\",\"F01-4\",\"F01-5\"],\"mapping\":{\"method\":\"unique exact source spans or explicit IDs; constrained stable order\",\"semantic_grounding\":false,\"source_contract\":true,\"adopted\":true,\"changed\":false,\"reason\":\"Apply grounded source-ID priorities under dependencies\",\"steps\":[{\"flow_index\":0,\"flow\":\"買い物帰りに青い手袋が片方ないことに気づいた\",\"explicit_ids\":[],\"source_spans\":[{\"fact_id\":\"F01-1\",\"span\":\"青い手袋が片方ない\"}],\"matched_ids\":[\"F01-1\"]},{\"flow_index\":1,\"flow\":\"歩いた道を引き返して横断歩道のそばを探した\",\"explicit_ids\":[],\"source_spans\":[{\"fact_id\":\"F01-3\",\"span\":\"歩いた道を引き返して\"},{\"fact_id\":\"F01-3\",\"span\":\"横断歩道のそばを探した\"}],\"matched_ids\":[\"F01-3\"]},{\"flow_index\":2,\"flow\":\"手袋はエコバッグの内ポケットに入っていた\",\"explicit_ids\":[],\"source_spans\":[{\"fact_id\":\"F01-4\",\"span\":\"エコバッグの内ポケットに入っていた\"}],\"matched_ids\":[\"F01-4\"]},{\"flow_index\":3,\"flow\":\"見つかってほっとした\",\"explicit_ids\":[],\"source_spans\":[{\"fact_id\":\"F01-5\",\"span\":\"見つかってほっとした\"}],\"matched_ids\":[\"F01-5\"]}],\"proposed_order\":[\"F01-1\",\"F01-2\",\"F01-3\",\"F01-4\",\"F01-5\"],\"constrained_order\":[\"F01-1\",\"F01-2\",\"F01-3\",\"F01-4\",\"F01-5\"],\"dependency_conflicts\":[],\"unmentioned_ids\":[\"F01-2\"]},\"facts\":{\"F01-1\":{\"presentations\":1,\"delivery\":\"text_delivered_unverified\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null},\"F01-2\":{\"presentations\":1,\"delivery\":\"text_delivered_unverified\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null},\"F01-3\":{\"presentations\":1,\"delivery\":\"text_delivered_unverified\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null},\"F01-4\":{\"presentations\":1,\"delivery\":\"text_delivered_unverified\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null},\"F01-5\":{\"presentations\":0,\"delivery\":\"not_presented\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null}},\"last_delivery_seq\":2,\"pending_target_ids\":[\"F01-5\"],\"progress_definition\":\"presentation/delivery != verified semantic coverage\"},\"unused_fact_ids\":[\"F01-5\"],\"external_event\":null,\"progress_warning\":\"提示済み/模擬再生済みは意味確認済みではない。再提示せず未提示のFactから次の焦点を選ぶ。\"}\n\n【Memory候補】\nid: F01\nbody: 買い物帰りに青い手袋が片方ないことに気づいた。手袋を落とした場所が分からなかった。歩いた道を引き返して横断歩道のそばを探した。手袋はエコバッグの内ポケットに入っていた。見つかってほっとした。\n\n【前回Plan】\n{\"topic\":\"手袋を落とした場所が分からなかった\",\"flow\":[\"買い物帰りに青い手袋が片方ないことに気づいた\",\"歩いた道を引き返して横断歩道のそばを探した\",\"手袋はエコバッグの内ポケットに入っていた\",\"見つかってほっとした\"],\"memory_id\":\"F01\",\"use_memory\":true}\n",
+      "planner_raw": "{\"topic\":\"青い手袋が片方ないことに気づいた\",\"flow\":[\"買い物帰りに青い手袋が片方ないことに気づいた\",\"歩いた道を引き返して横断歩道のそばを探した\",\"手袋はエコバッグの内ポケットに入っていた\",\"見つかってほっとした\"],\"memory_id\":\"F01\",\"use_memory\":true}",
+      "plan": {
+        "topic": "青い手袋が片方ないことに気づいた",
+        "flow": [
+          "買い物帰りに青い手袋が片方ないことに気づいた",
+          "歩いた道を引き返して横断歩道のそばを探した",
+          "手袋はエコバッグの内ポケットに入っていた",
+          "見つかってほっとした"
+        ],
+        "memory_id": "F01",
+        "use_memory": true
+      },
+      "mapping": {
+        "method": "unique exact source spans or explicit IDs; constrained stable order",
+        "semantic_grounding": false,
+        "source_contract": true,
+        "adopted": true,
+        "changed": false,
+        "reason": "Apply grounded source-ID priorities under dependencies",
+        "steps": [
+          {
+            "flow_index": 0,
+            "flow": "買い物帰りに青い手袋が片方ないことに気づいた",
+            "explicit_ids": [],
+            "source_spans": [
+              {
+                "fact_id": "F01-1",
+                "span": "青い手袋が片方ない"
+              }
+            ],
+            "matched_ids": [
+              "F01-1"
+            ]
+          },
+          {
+            "flow_index": 1,
+            "flow": "歩いた道を引き返して横断歩道のそばを探した",
+            "explicit_ids": [],
+            "source_spans": [
+              {
+                "fact_id": "F01-3",
+                "span": "歩いた道を引き返して"
+              },
+              {
+                "fact_id": "F01-3",
+                "span": "横断歩道のそばを探した"
+              }
+            ],
+            "matched_ids": [
+              "F01-3"
+            ]
+          },
+          {
+            "flow_index": 2,
+            "flow": "手袋はエコバッグの内ポケットに入っていた",
+            "explicit_ids": [],
+            "source_spans": [
+              {
+                "fact_id": "F01-4",
+                "span": "エコバッグの内ポケットに入っていた"
+              }
+            ],
+            "matched_ids": [
+              "F01-4"
+            ]
+          },
+          {
+            "flow_index": 3,
+            "flow": "見つかってほっとした",
+            "explicit_ids": [],
+            "source_spans": [
+              {
+                "fact_id": "F01-5",
+                "span": "見つかってほっとした"
+              }
+            ],
+            "matched_ids": [
+              "F01-5"
+            ]
+          }
+        ],
+        "proposed_order": [
+          "F01-1",
+          "F01-2",
+          "F01-3",
+          "F01-4",
+          "F01-5"
+        ],
+        "constrained_order": [
+          "F01-1",
+          "F01-2",
+          "F01-3",
+          "F01-4",
+          "F01-5"
+        ],
+        "dependency_conflicts": [],
+        "unmentioned_ids": [
+          "F01-2"
+        ]
+      },
+      "progress_after": {
+        "memory_id": "F01",
+        "source_sha256": "58e3c24193314231422272b7bdab134afb9ef809d9d9b1ae21af4807a40952a9",
+        "selection_order": [
+          "F01-1",
+          "F01-2",
+          "F01-3",
+          "F01-4",
+          "F01-5"
+        ],
+        "mapping": {
+          "method": "unique exact source spans or explicit IDs; constrained stable order",
+          "semantic_grounding": false,
+          "source_contract": true,
+          "adopted": true,
+          "changed": false,
+          "reason": "Apply grounded source-ID priorities under dependencies",
+          "steps": [
+            {
+              "flow_index": 0,
+              "flow": "買い物帰りに青い手袋が片方ないことに気づいた",
+              "explicit_ids": [],
+              "source_spans": [
+                {
+                  "fact_id": "F01-1",
+                  "span": "青い手袋が片方ない"
+                }
+              ],
+              "matched_ids": [
+                "F01-1"
+              ]
+            },
+            {
+              "flow_index": 1,
+              "flow": "歩いた道を引き返して横断歩道のそばを探した",
+              "explicit_ids": [],
+              "source_spans": [
+                {
+                  "fact_id": "F01-3",
+                  "span": "歩いた道を引き返して"
+                },
+                {
+                  "fact_id": "F01-3",
+                  "span": "横断歩道のそばを探した"
+                }
+              ],
+              "matched_ids": [
+                "F01-3"
+              ]
+            },
+            {
+              "flow_index": 2,
+              "flow": "手袋はエコバッグの内ポケットに入っていた",
+              "explicit_ids": [],
+              "source_spans": [
+                {
+                  "fact_id": "F01-4",
+                  "span": "エコバッグの内ポケットに入っていた"
+                }
+              ],
+              "matched_ids": [
+                "F01-4"
+              ]
+            },
+            {
+              "flow_index": 3,
+              "flow": "見つかってほっとした",
+              "explicit_ids": [],
+              "source_spans": [
+                {
+                  "fact_id": "F01-5",
+                  "span": "見つかってほっとした"
+                }
+              ],
+              "matched_ids": [
+                "F01-5"
+              ]
+            }
+          ],
+          "proposed_order": [
+            "F01-1",
+            "F01-2",
+            "F01-3",
+            "F01-4",
+            "F01-5"
+          ],
+          "constrained_order": [
+            "F01-1",
+            "F01-2",
+            "F01-3",
+            "F01-4",
+            "F01-5"
+          ],
+          "dependency_conflicts": [],
+          "unmentioned_ids": [
+            "F01-2"
+          ]
+        },
+        "facts": {
+          "F01-1": {
+            "presentations": 1,
+            "delivery": "text_delivered_unverified",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          },
+          "F01-2": {
+            "presentations": 1,
+            "delivery": "text_delivered_unverified",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          },
+          "F01-3": {
+            "presentations": 1,
+            "delivery": "text_delivered_unverified",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          },
+          "F01-4": {
+            "presentations": 1,
+            "delivery": "text_delivered_unverified",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          },
+          "F01-5": {
+            "presentations": 1,
+            "delivery": "text_delivered_unverified",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          }
+        },
+        "last_delivery_seq": 3,
+        "pending_target_ids": [],
+        "progress_definition": "presentation/delivery != verified semantic coverage"
+      },
+      "source_turn_sha256": "7daebd56f74f2138ab94f8f1e958660d72f5b5be5fa226ab2c9a03f54f4d0e7d"
+    },
+    {
+      "turn": 4,
+      "call_id": "R0008",
+      "memory_id": "F20",
+      "source_facts": [
+        {
+          "id": "F20-1",
+          "claim": "机の引き出しに緑のノートと茶色のノートがあった。",
+          "kind": "event"
+        },
+        {
+          "id": "F20-2",
+          "claim": "緑のノートには買い物の記録を書いていた。",
+          "kind": "event"
+        },
+        {
+          "id": "F20-3",
+          "claim": "茶色のノートには何も書いていなかった。",
+          "kind": "event"
+        },
+        {
+          "id": "F20-4",
+          "claim": "緑のノートだけを本棚へ移した。",
+          "kind": "event"
+        },
+        {
+          "id": "F20-5",
+          "claim": "茶色のノートは引き出しに残した。",
+          "kind": "event"
+        }
+      ],
+      "case": {
+        "schema": "surface-contract-1",
+        "pair_id": "L-T004",
+        "facts": [
+          {
+            "id": "F20-1",
+            "claim": "机の引き出しに緑のノートと茶色のノートがあった。",
+            "kind": "event"
+          },
+          {
+            "id": "F20-2",
+            "claim": "緑のノートには買い物の記録を書いていた。",
+            "kind": "event"
+          }
+        ],
+        "history": [
+          {
+            "text": "さっき歩いた道を引き返して、横断歩道のそばとかも探してみたんだけどさ。……結局、エコバッグの内ポケットに入ってたんだよね。",
+            "memory_id": "F01",
+            "origin": "offline text delivered, semantically unverified"
+          },
+          {
+            "text": "あー、本当によかった。見つかって、ほっとしたよ。",
+            "memory_id": "F01",
+            "origin": "offline text delivered, semantically unverified"
+          }
+        ],
+        "operation": "related_shift",
+        "relation": {
+          "type": "association",
+          "summary": "共通要素「買い物」を参考に別の経験へ移る。同日や因果にまとめない。"
+        },
+        "flow": [
+          {
+            "fact_ids": [
+              "F20-1"
+            ],
+            "relation": "sequence",
+            "label": "出来事の進展"
+          },
+          {
+            "fact_ids": [
+              "F20-2"
+            ],
+            "relation": "sequence",
+            "label": "出来事の進展"
+          }
+        ]
+      },
+      "actual_surface_prompt": "雑談配信で、その場で話しているような自然な日本語の発話にする。\n出来事、考え、感情、問い、比喩、仮定の区別を保つ。数量・否定・時点・確実性・決定と実行を変えない。\n必要なところだけ自然に言い淀みや言い直しを使う。語尾やつなぎを同じ形にそろえる必要はない。\n新しい事実・理由・感情を足さず、発話本文だけを出す。ID、見出し、説明、注記は出さない。\n\n【直前の発話：最大2回、文脈用】\n[1] さっき歩いた道を引き返して、横断歩道のそばとかも探してみたんだけどさ。……結局、エコバッグの内ポケットに入ってたんだよね。\n\n[2] あー、本当によかった。見つかって、ほっとしたよ。\n\n【今回の会話操作】\n関連する別の話題へ移る\n\n【話題の関係】\n共通要素「買い物」を参考に別の経験へ移る。同日や因果にまとめない。\n\n【今回話す内容】\n[F20-1] 机の引き出しに緑のノートと茶色のノートがあった。\n[F20-2] 緑のノートには買い物の記録を書いていた。\n\n【話の展開】\n出来事の進展（F20-1） → 出来事の進展（F20-2）\n\n直前の発話を受け、今回の内容へ進む。履歴にある話を丸ごと説明し直さない。関係のない出来事を同じ日や因果で結ばない。履歴の未検証の内容を新事実の根拠にしない。",
+      "body": "そういえば、机の引き出しに、緑のノートと茶色のノートがあったんだけどさ。……その緑のノートの方に、買い物の記録を書いてたんだよね。",
+      "raw_output": "そういえば、机の引き出しに、緑のノートと茶色のノートがあったんだけどさ。……その緑のノートの方に、買い物の記録を書いてたんだよね。<turn|>",
+      "delivered": true,
+      "format_reason": null,
+      "planner_call_id": "R0007",
+      "actual_planner_prompt": "出力はPlanのJSONを1個だけ。説明文や見出しは付けない。キーはuse_memory、memory_id、topic、flowの4つを全て含め、他のキーは使わない。use_memoryはtrueかfalse。trueならmemory_idは候補のidをそのまま使う。falseでもmemory_idを省略せずnullにする。topicは空でない文字列。flowは空でない文字列を2〜4個並べた配列。\n\n【直近の確定発話】\nさっき歩いた道を引き返して、横断歩道のそばとかも探してみたんだけどさ。……結局、エコバッグの内ポケットに入ってたんだよね。\nあー、本当によかった。見つかって、ほっとしたよ。\n\n【現在状態】\n{\"speech_history_status\":\"unverified generated speech; original Memory is factual grounding\",\"factual_grounding_memory_id\":\"F20\",\"plan_refresh_reason\":\"post_actual_offline_text_delivery\",\"memory_rules\":\"具体的経験・物・数量・時点は元Memoryを根拠にする。話を続ける、掘り下げる、関連する方向へ変える判断は自由。\",\"progress\":{\"memory_id\":\"F20\",\"source_sha256\":\"2256a3a48606bbdfffd320fe2f43ebc0c01fb91a5a33f73e1bf9f620f51b0ec7\",\"selection_order\":[\"F20-1\",\"F20-2\",\"F20-3\",\"F20-4\",\"F20-5\"],\"mapping\":{\"adopted\":false,\"reason\":\"Planner abstained; fixed source order\",\"method\":\"no semantic interpretation\"},\"facts\":{\"F20-1\":{\"presentations\":0,\"delivery\":\"not_presented\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null},\"F20-2\":{\"presentations\":0,\"delivery\":\"not_presented\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null},\"F20-3\":{\"presentations\":0,\"delivery\":\"not_presented\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null},\"F20-4\":{\"presentations\":0,\"delivery\":\"not_presented\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null},\"F20-5\":{\"presentations\":0,\"delivery\":\"not_presented\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null}},\"last_delivery_seq\":0,\"pending_target_ids\":[\"F20-1\",\"F20-2\",\"F20-3\",\"F20-4\",\"F20-5\"],\"progress_definition\":\"presentation/delivery != verified semantic coverage\"},\"unused_fact_ids\":[\"F20-1\",\"F20-2\",\"F20-3\",\"F20-4\",\"F20-5\"],\"external_event\":null,\"progress_warning\":\"提示済み/模擬再生済みは意味確認済みではない。再提示せず未提示のFactから次の焦点を選ぶ。\"}\n\n【Memory候補】\nid: F20\nbody: 机の引き出しに緑のノートと茶色のノートがあった。緑のノートには買い物の記録を書いていた。茶色のノートには何も書いていなかった。緑のノートだけを本棚へ移した。茶色のノートは引き出しに残した。\n\n【前回Plan】\nなし\n",
+      "planner_raw": "{\"use_memory\":false,\"memory_id\":null,\"topic\":\"買い物の記録を緑のノートに書いていた\",\"flow\":[\"緑のノートを本棚へ移した\",\"茶色のノートは引き出しに残した\"]}",
+      "plan": {
+        "use_memory": false,
+        "memory_id": null,
+        "topic": "買い物の記録を緑のノートに書いていた",
+        "flow": [
+          "緑のノートを本棚へ移した",
+          "茶色のノートは引き出しに残した"
+        ]
+      },
+      "mapping": {
+        "adopted": false,
+        "reason": "Planner abstained; fixed source order",
+        "method": "no semantic interpretation"
+      },
+      "progress_after": {
+        "memory_id": "F20",
+        "source_sha256": "2256a3a48606bbdfffd320fe2f43ebc0c01fb91a5a33f73e1bf9f620f51b0ec7",
+        "selection_order": [
+          "F20-1",
+          "F20-2",
+          "F20-3",
+          "F20-4",
+          "F20-5"
+        ],
+        "mapping": {
+          "adopted": false,
+          "reason": "Planner abstained; fixed source order",
+          "method": "no semantic interpretation"
+        },
+        "facts": {
+          "F20-1": {
+            "presentations": 1,
+            "delivery": "text_delivered_unverified",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          },
+          "F20-2": {
+            "presentations": 1,
+            "delivery": "text_delivered_unverified",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          },
+          "F20-3": {
+            "presentations": 0,
+            "delivery": "not_presented",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          },
+          "F20-4": {
+            "presentations": 0,
+            "delivery": "not_presented",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          },
+          "F20-5": {
+            "presentations": 0,
+            "delivery": "not_presented",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          }
+        },
+        "last_delivery_seq": 4,
+        "pending_target_ids": [
+          "F20-3",
+          "F20-4",
+          "F20-5"
+        ],
+        "progress_definition": "presentation/delivery != verified semantic coverage"
+      },
+      "source_turn_sha256": "6f8f3e3f9eab5b977b2a5a882871ef945c961fad781077a7e5880cb30c656f8b"
+    },
+    {
+      "turn": 5,
+      "call_id": "R0010",
+      "memory_id": "F20",
+      "source_facts": [
+        {
+          "id": "F20-1",
+          "claim": "机の引き出しに緑のノートと茶色のノートがあった。",
+          "kind": "event"
+        },
+        {
+          "id": "F20-2",
+          "claim": "緑のノートには買い物の記録を書いていた。",
+          "kind": "event"
+        },
+        {
+          "id": "F20-3",
+          "claim": "茶色のノートには何も書いていなかった。",
+          "kind": "event"
+        },
+        {
+          "id": "F20-4",
+          "claim": "緑のノートだけを本棚へ移した。",
+          "kind": "event"
+        },
+        {
+          "id": "F20-5",
+          "claim": "茶色のノートは引き出しに残した。",
+          "kind": "event"
+        }
+      ],
+      "case": {
+        "schema": "surface-contract-1",
+        "pair_id": "L-T005",
+        "facts": [
+          {
+            "id": "F20-3",
+            "claim": "茶色のノートには何も書いていなかった。",
+            "kind": "event"
+          },
+          {
+            "id": "F20-4",
+            "claim": "緑のノートだけを本棚へ移した。",
+            "kind": "event"
+          }
+        ],
+        "history": [
+          {
+            "text": "あー、本当によかった。見つかって、ほっとしたよ。",
+            "memory_id": "F01",
+            "origin": "offline text delivered, semantically unverified"
+          },
+          {
+            "text": "そういえば、机の引き出しに、緑のノートと茶色のノートがあったんだけどさ。……その緑のノートの方に、買い物の記録を書いてたんだよね。",
+            "memory_id": "F20",
+            "origin": "offline text delivered, semantically unverified"
+          }
+        ],
+        "operation": "continue",
+        "relation": {
+          "type": "sequence",
+          "summary": "同じ出来事の未提示部分に進む。直前の本文は発話済みだが未検証。新事実の根拠にしない。"
+        },
+        "flow": [
+          {
+            "fact_ids": [
+              "F20-3"
+            ],
+            "relation": "sequence",
+            "label": "出来事の進展"
+          },
+          {
+            "fact_ids": [
+              "F20-4"
+            ],
+            "relation": "sequence",
+            "label": "出来事の進展"
+          }
+        ]
+      },
+      "actual_surface_prompt": "雑談配信で、その場で話しているような自然な日本語の発話にする。\n出来事、考え、感情、問い、比喩、仮定の区別を保つ。数量・否定・時点・確実性・決定と実行を変えない。\n必要なところだけ自然に言い淀みや言い直しを使う。語尾やつなぎを同じ形にそろえる必要はない。\n新しい事実・理由・感情を足さず、発話本文だけを出す。ID、見出し、説明、注記は出さない。\n\n【直前の発話：最大2回、文脈用】\n[1] あー、本当によかった。見つかって、ほっとしたよ。\n\n[2] そういえば、机の引き出しに、緑のノートと茶色のノートがあったんだけどさ。……その緑のノートの方に、買い物の記録を書いてたんだよね。\n\n【今回の会話操作】\n同じ出来事の続きを話す\n\n【話題の関係】\n同じ出来事の未提示部分に進む。直前の本文は発話済みだが未検証。新事実の根拠にしない。\n\n【今回話す内容】\n[F20-3] 茶色のノートには何も書いていなかった。\n[F20-4] 緑のノートだけを本棚へ移した。\n\n【話の展開】\n出来事の進展（F20-3） → 出来事の進展（F20-4）\n\n直前の発話を受け、今回の内容へ進む。履歴にある話を丸ごと説明し直さない。関係のない出来事を同じ日や因果で結ばない。履歴の未検証の内容を新事実の根拠にしない。",
+      "body": "茶色のノートの方は、何も書いてなかったんだよね。……だから、緑のノートの方だけを、本棚に移しておいたよ。",
+      "raw_output": "茶色のノートの方は、何も書いてなかったんだよね。……だから、緑のノートの方だけを、本棚に移しておいたよ。<turn|>",
+      "delivered": true,
+      "format_reason": null,
+      "planner_call_id": "R0009",
+      "actual_planner_prompt": "出力はPlanのJSONを1個だけ。説明文や見出しは付けない。キーはuse_memory、memory_id、topic、flowの4つを全て含め、他のキーは使わない。use_memoryはtrueかfalse。trueならmemory_idは候補のidをそのまま使う。falseでもmemory_idを省略せずnullにする。topicは空でない文字列。flowは空でない文字列を2〜4個並べた配列。\n\n【直近の確定発話】\nあー、本当によかった。見つかって、ほっとしたよ。\nそういえば、机の引き出しに、緑のノートと茶色のノートがあったんだけどさ。……その緑のノートの方に、買い物の記録を書いてたんだよね。\n\n【現在状態】\n{\"speech_history_status\":\"unverified generated speech; original Memory is factual grounding\",\"factual_grounding_memory_id\":\"F20\",\"plan_refresh_reason\":\"post_actual_offline_text_delivery\",\"memory_rules\":\"具体的経験・物・数量・時点は元Memoryを根拠にする。話を続ける、掘り下げる、関連する方向へ変える判断は自由。\",\"progress\":{\"memory_id\":\"F20\",\"source_sha256\":\"2256a3a48606bbdfffd320fe2f43ebc0c01fb91a5a33f73e1bf9f620f51b0ec7\",\"selection_order\":[\"F20-1\",\"F20-2\",\"F20-3\",\"F20-4\",\"F20-5\"],\"mapping\":{\"adopted\":false,\"reason\":\"Planner abstained; fixed source order\",\"method\":\"no semantic interpretation\"},\"facts\":{\"F20-1\":{\"presentations\":1,\"delivery\":\"text_delivered_unverified\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null},\"F20-2\":{\"presentations\":1,\"delivery\":\"text_delivered_unverified\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null},\"F20-3\":{\"presentations\":0,\"delivery\":\"not_presented\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null},\"F20-4\":{\"presentations\":0,\"delivery\":\"not_presented\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null},\"F20-5\":{\"presentations\":0,\"delivery\":\"not_presented\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null}},\"last_delivery_seq\":4,\"pending_target_ids\":[\"F20-3\",\"F20-4\",\"F20-5\"],\"progress_definition\":\"presentation/delivery != verified semantic coverage\"},\"unused_fact_ids\":[\"F20-3\",\"F20-4\",\"F20-5\"],\"external_event\":null,\"progress_warning\":\"提示済み/模擬再生済みは意味確認済みではない。再提示せず未提示のFactから次の焦点を選ぶ。\"}\n\n【Memory候補】\nid: F20\nbody: 机の引き出しに緑のノートと茶色のノートがあった。緑のノートには買い物の記録を書いていた。茶色のノートには何も書いていなかった。緑のノートだけを本棚へ移した。茶色のノートは引き出しに残した。\n\n【前回Plan】\n{\"use_memory\":false,\"memory_id\":null,\"topic\":\"買い物の記録を緑のノートに書いていた\",\"flow\":[\"緑のノートを本棚へ移した\",\"茶色のノートは引き出しに残した\"]}\n",
+      "planner_raw": "{\"use_memory\":true,\"memory_id\":\"F20\",\"topic\":\"引き出しに緑のノートと茶色のノートがあった\",\"flow\":[\"緑のノートに買い物の記録を書いていた\",\"茶色のノートは何も書いていなかった\",\"緑のノートだけを本棚へ移した\",\"茶色のノートは引き出しに残した\"]}",
+      "plan": {
+        "use_memory": true,
+        "memory_id": "F20",
+        "topic": "引き出しに緑のノートと茶色のノートがあった",
+        "flow": [
+          "緑のノートに買い物の記録を書いていた",
+          "茶色のノートは何も書いていなかった",
+          "緑のノートだけを本棚へ移した",
+          "茶色のノートは引き出しに残した"
+        ]
+      },
+      "mapping": {
+        "adopted": false,
+        "changed": false,
+        "reason": "No audited source contract; fixed source order",
+        "method": "source-ID/dependency application, not semantic grounding"
+      },
+      "progress_after": {
+        "memory_id": "F20",
+        "source_sha256": "2256a3a48606bbdfffd320fe2f43ebc0c01fb91a5a33f73e1bf9f620f51b0ec7",
+        "selection_order": [
+          "F20-1",
+          "F20-2",
+          "F20-3",
+          "F20-4",
+          "F20-5"
+        ],
+        "mapping": {
+          "adopted": false,
+          "changed": false,
+          "reason": "No audited source contract; fixed source order",
+          "method": "source-ID/dependency application, not semantic grounding"
+        },
+        "facts": {
+          "F20-1": {
+            "presentations": 1,
+            "delivery": "text_delivered_unverified",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          },
+          "F20-2": {
+            "presentations": 1,
+            "delivery": "text_delivered_unverified",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          },
+          "F20-3": {
+            "presentations": 1,
+            "delivery": "text_delivered_unverified",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          },
+          "F20-4": {
+            "presentations": 1,
+            "delivery": "text_delivered_unverified",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          },
+          "F20-5": {
+            "presentations": 0,
+            "delivery": "not_presented",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          }
+        },
+        "last_delivery_seq": 5,
+        "pending_target_ids": [
+          "F20-5"
+        ],
+        "progress_definition": "presentation/delivery != verified semantic coverage"
+      },
+      "source_turn_sha256": "fe1a35cfbafad631cf8e0f389593dce270847ecb6386218496d2cce61010c7b2"
+    },
+    {
+      "turn": 6,
+      "call_id": "R0012",
+      "memory_id": "F20",
+      "source_facts": [
+        {
+          "id": "F20-1",
+          "claim": "机の引き出しに緑のノートと茶色のノートがあった。",
+          "kind": "event"
+        },
+        {
+          "id": "F20-2",
+          "claim": "緑のノートには買い物の記録を書いていた。",
+          "kind": "event"
+        },
+        {
+          "id": "F20-3",
+          "claim": "茶色のノートには何も書いていなかった。",
+          "kind": "event"
+        },
+        {
+          "id": "F20-4",
+          "claim": "緑のノートだけを本棚へ移した。",
+          "kind": "event"
+        },
+        {
+          "id": "F20-5",
+          "claim": "茶色のノートは引き出しに残した。",
+          "kind": "event"
+        }
+      ],
+      "case": {
+        "schema": "surface-contract-1",
+        "pair_id": "L-T006",
+        "facts": [
+          {
+            "id": "F20-5",
+            "claim": "茶色のノートは引き出しに残した。",
+            "kind": "event"
+          }
+        ],
+        "history": [
+          {
+            "text": "そういえば、机の引き出しに、緑のノートと茶色のノートがあったんだけどさ。……その緑のノートの方に、買い物の記録を書いてたんだよね。",
+            "memory_id": "F20",
+            "origin": "offline text delivered, semantically unverified"
+          },
+          {
+            "text": "茶色のノートの方は、何も書いてなかったんだよね。……だから、緑のノートの方だけを、本棚に移しておいたよ。",
+            "memory_id": "F20",
+            "origin": "offline text delivered, semantically unverified"
+          }
+        ],
+        "operation": "continue",
+        "relation": {
+          "type": "sequence",
+          "summary": "同じ出来事の未提示部分に進む。直前の本文は発話済みだが未検証。新事実の根拠にしない。"
+        },
+        "flow": [
+          {
+            "fact_ids": [
+              "F20-5"
+            ],
+            "relation": "sequence",
+            "label": "出来事の進展"
+          }
+        ]
+      },
+      "actual_surface_prompt": "雑談配信で、その場で話しているような自然な日本語の発話にする。\n出来事、考え、感情、問い、比喩、仮定の区別を保つ。数量・否定・時点・確実性・決定と実行を変えない。\n必要なところだけ自然に言い淀みや言い直しを使う。語尾やつなぎを同じ形にそろえる必要はない。\n新しい事実・理由・感情を足さず、発話本文だけを出す。ID、見出し、説明、注記は出さない。\n\n【直前の発話：最大2回、文脈用】\n[1] そういえば、机の引き出しに、緑のノートと茶色のノートがあったんだけどさ。……その緑のノートの方に、買い物の記録を書いてたんだよね。\n\n[2] 茶色のノートの方は、何も書いてなかったんだよね。……だから、緑のノートの方だけを、本棚に移しておいたよ。\n\n【今回の会話操作】\n同じ出来事の続きを話す\n\n【話題の関係】\n同じ出来事の未提示部分に進む。直前の本文は発話済みだが未検証。新事実の根拠にしない。\n\n【今回話す内容】\n[F20-5] 茶色のノートは引き出しに残した。\n\n【話の展開】\n出来事の進展（F20-5）\n\n直前の発話を受け、今回の内容へ進む。履歴にある話を丸ごと説明し直さない。関係のない出来事を同じ日や因果で結ばない。履歴の未検証の内容を新事実の根拠にしない。",
+      "body": "茶色のノートの方は、そのまま引き出しに残してるんだよね。",
+      "raw_output": "茶色のノートの方は、そのまま引き出しに残してるんだよね。<turn|>",
+      "delivered": true,
+      "format_reason": null,
+      "planner_call_id": "R0011",
+      "actual_planner_prompt": "出力はPlanのJSONを1個だけ。説明文や見出しは付けない。キーはuse_memory、memory_id、topic、flowの4つを全て含め、他のキーは使わない。use_memoryはtrueかfalse。trueならmemory_idは候補のidをそのまま使う。falseでもmemory_idを省略せずnullにする。topicは空でない文字列。flowは空でない文字列を2〜4個並べた配列。\n\n【直近の確定発話】\nそういえば、机の引き出しに、緑のノートと茶色のノートがあったんだけどさ。……その緑のノートの方に、買い物の記録を書いてたんだよね。\n茶色のノートの方は、何も書いてなかったんだよね。……だから、緑のノートの方だけを、本棚に移しておいたよ。\n\n【現在状態】\n{\"speech_history_status\":\"unverified generated speech; original Memory is factual grounding\",\"factual_grounding_memory_id\":\"F20\",\"plan_refresh_reason\":\"post_actual_offline_text_delivery\",\"memory_rules\":\"具体的経験・物・数量・時点は元Memoryを根拠にする。話を続ける、掘り下げる、関連する方向へ変える判断は自由。\",\"progress\":{\"memory_id\":\"F20\",\"source_sha256\":\"2256a3a48606bbdfffd320fe2f43ebc0c01fb91a5a33f73e1bf9f620f51b0ec7\",\"selection_order\":[\"F20-1\",\"F20-2\",\"F20-3\",\"F20-4\",\"F20-5\"],\"mapping\":{\"adopted\":false,\"changed\":false,\"reason\":\"No audited source contract; fixed source order\",\"method\":\"source-ID/dependency application, not semantic grounding\"},\"facts\":{\"F20-1\":{\"presentations\":1,\"delivery\":\"text_delivered_unverified\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null},\"F20-2\":{\"presentations\":1,\"delivery\":\"text_delivered_unverified\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null},\"F20-3\":{\"presentations\":1,\"delivery\":\"text_delivered_unverified\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null},\"F20-4\":{\"presentations\":1,\"delivery\":\"text_delivered_unverified\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null},\"F20-5\":{\"presentations\":0,\"delivery\":\"not_presented\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null}},\"last_delivery_seq\":5,\"pending_target_ids\":[\"F20-5\"],\"progress_definition\":\"presentation/delivery != verified semantic coverage\"},\"unused_fact_ids\":[\"F20-5\"],\"external_event\":null,\"progress_warning\":\"提示済み/模擬再生済みは意味確認済みではない。再提示せず未提示のFactから次の焦点を選ぶ。\"}\n\n【Memory候補】\nid: F20\nbody: 机の引き出しに緑のノートと茶色のノートがあった。緑のノートには買い物の記録を書いていた。茶色のノートには何も書いていなかった。緑のノートだけを本棚へ移した。茶色のノートは引き出しに残した。\n\n【前回Plan】\n{\"use_memory\":true,\"memory_id\":\"F20\",\"topic\":\"引き出しに緑のノートと茶色のノートがあった\",\"flow\":[\"緑のノートに買い物の記録を書いていた\",\"茶色のノートは何も書いていなかった\",\"緑のノートだけを本棚へ移した\",\"茶色のノートは引き出しに残した\"]}\n",
+      "planner_raw": "{\"flow\":[\"緑のノートに買い物の記録を書いていた\",\"茶色のノートは何も書いていなかった\",\"緑のノートだけを本棚へ移した\",\"茶色のノートは引き出しに残した\"],\"topic\":\"引き出しに緑のノートと茶色のノートがあった\",\"memory_id\":\"F20\",\"use_memory\":true}",
+      "plan": {
+        "flow": [
+          "緑のノートに買い物の記録を書いていた",
+          "茶色のノートは何も書いていなかった",
+          "緑のノートだけを本棚へ移した",
+          "茶色のノートは引き出しに残した"
+        ],
+        "topic": "引き出しに緑のノートと茶色のノートがあった",
+        "memory_id": "F20",
+        "use_memory": true
+      },
+      "mapping": {
+        "adopted": false,
+        "changed": false,
+        "reason": "No audited source contract; fixed source order",
+        "method": "source-ID/dependency application, not semantic grounding"
+      },
+      "progress_after": {
+        "memory_id": "F20",
+        "source_sha256": "2256a3a48606bbdfffd320fe2f43ebc0c01fb91a5a33f73e1bf9f620f51b0ec7",
+        "selection_order": [
+          "F20-1",
+          "F20-2",
+          "F20-3",
+          "F20-4",
+          "F20-5"
+        ],
+        "mapping": {
+          "adopted": false,
+          "changed": false,
+          "reason": "No audited source contract; fixed source order",
+          "method": "source-ID/dependency application, not semantic grounding"
+        },
+        "facts": {
+          "F20-1": {
+            "presentations": 1,
+            "delivery": "text_delivered_unverified",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          },
+          "F20-2": {
+            "presentations": 1,
+            "delivery": "text_delivered_unverified",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          },
+          "F20-3": {
+            "presentations": 1,
+            "delivery": "text_delivered_unverified",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          },
+          "F20-4": {
+            "presentations": 1,
+            "delivery": "text_delivered_unverified",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          },
+          "F20-5": {
+            "presentations": 1,
+            "delivery": "text_delivered_unverified",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          }
+        },
+        "last_delivery_seq": 6,
+        "pending_target_ids": [],
+        "progress_definition": "presentation/delivery != verified semantic coverage"
+      },
+      "source_turn_sha256": "5cb211359fddae601ad72369bb83c8e835c29b1d82e0ba000db407a1df511907"
+    },
+    {
+      "turn": 7,
+      "call_id": "R0014",
+      "memory_id": "F08",
+      "source_facts": [
+        {
+          "id": "F08-1",
+          "claim": "買い物メモを紙に書いて机の上に置いた。",
+          "kind": "event"
+        },
+        {
+          "id": "F08-2",
+          "claim": "店に着いてから紙のメモを家に置いてきたと気づいた。",
+          "kind": "event"
+        },
+        {
+          "id": "F08-3",
+          "claim": "同じ忘れ物を繰り返したくないと思った。",
+          "kind": "intent"
+        },
+        {
+          "id": "F08-4",
+          "claim": "スマホのメモなら家に忘れにくいと考えた。",
+          "kind": "event"
+        },
+        {
+          "id": "F08-5",
+          "claim": "次回からスマホにもメモを保存することにした。",
+          "kind": "intent"
+        }
+      ],
+      "case": {
+        "schema": "surface-contract-1",
+        "pair_id": "L-T007",
+        "facts": [
+          {
+            "id": "F08-1",
+            "claim": "買い物メモを紙に書いて机の上に置いた。",
+            "kind": "event"
+          },
+          {
+            "id": "F08-2",
+            "claim": "店に着いてから紙のメモを家に置いてきたと気づいた。",
+            "kind": "event"
+          }
+        ],
+        "history": [
+          {
+            "text": "茶色のノートの方は、何も書いてなかったんだよね。……だから、緑のノートの方だけを、本棚に移しておいたよ。",
+            "memory_id": "F20",
+            "origin": "offline text delivered, semantically unverified"
+          },
+          {
+            "text": "茶色のノートの方は、そのまま引き出しに残してるんだよね。",
+            "memory_id": "F20",
+            "origin": "offline text delivered, semantically unverified"
+          }
+        ],
+        "operation": "related_shift",
+        "relation": {
+          "type": "association",
+          "summary": "共通要素「買い物」を参考に別の経験へ移る。同日や因果にまとめない。"
+        },
+        "flow": [
+          {
+            "fact_ids": [
+              "F08-1"
+            ],
+            "relation": "sequence",
+            "label": "出来事の進展"
+          },
+          {
+            "fact_ids": [
+              "F08-2"
+            ],
+            "relation": "sequence",
+            "label": "気づき・発見"
+          }
+        ]
+      },
+      "actual_surface_prompt": "雑談配信で、その場で話しているような自然な日本語の発話にする。\n出来事、考え、感情、問い、比喩、仮定の区別を保つ。数量・否定・時点・確実性・決定と実行を変えない。\n必要なところだけ自然に言い淀みや言い直しを使う。語尾やつなぎを同じ形にそろえる必要はない。\n新しい事実・理由・感情を足さず、発話本文だけを出す。ID、見出し、説明、注記は出さない。\n\n【直前の発話：最大2回、文脈用】\n[1] 茶色のノートの方は、何も書いてなかったんだよね。……だから、緑のノートの方だけを、本棚に移しておいたよ。\n\n[2] 茶色のノートの方は、そのまま引き出しに残してるんだよね。\n\n【今回の会話操作】\n関連する別の話題へ移る\n\n【話題の関係】\n共通要素「買い物」を参考に別の経験へ移る。同日や因果にまとめない。\n\n【今回話す内容】\n[F08-1] 買い物メモを紙に書いて机の上に置いた。\n[F08-2] 店に着いてから紙のメモを家に置いてきたと気づいた。\n\n【話の展開】\n出来事の進展（F08-1） → 気づき・発見（F08-2）\n\n直前の発話を受け、今回の内容へ進む。履歴にある話を丸ごと説明し直さない。関係のない出来事を同じ日や因果で結ばない。履歴の未検証の内容を新事実の根拠にしない。",
+      "body": "そういえば、買い物メモを紙に書いて、机の上に置いておいたことがあったんだけど……。\nいざお店に着いてから、あ、メモを家に置いてきたんだって気づいたんだよね。",
+      "raw_output": "そういえば、買い物メモを紙に書いて、机の上に置いておいたことがあったんだけど……。\nいざお店に着いてから、あ、メモを家に置いてきたんだって気づいたんだよね。<turn|>",
+      "delivered": true,
+      "format_reason": null,
+      "planner_call_id": "R0013",
+      "actual_planner_prompt": "出力はPlanのJSONを1個だけ。説明文や見出しは付けない。キーはuse_memory、memory_id、topic、flowの4つを全て含め、他のキーは使わない。use_memoryはtrueかfalse。trueならmemory_idは候補のidをそのまま使う。falseでもmemory_idを省略せずnullにする。topicは空でない文字列。flowは空でない文字列を2〜4個並べた配列。\n\n【直近の確定発話】\n茶色のノートの方は、何も書いてなかったんだよね。……だから、緑のノートの方だけを、本棚に移しておいたよ。\n茶色のノートの方は、そのまま引き出しに残してるんだよね。\n\n【現在状態】\n{\"speech_history_status\":\"unverified generated speech; original Memory is factual grounding\",\"factual_grounding_memory_id\":\"F08\",\"plan_refresh_reason\":\"post_actual_offline_text_delivery\",\"memory_rules\":\"具体的経験・物・数量・時点は元Memoryを根拠にする。話を続ける、掘り下げる、関連する方向へ変える判断は自由。\",\"progress\":{\"memory_id\":\"F08\",\"source_sha256\":\"cd0ffc1e0eabc6440dff897a1282d75af5508c36f0b70464e13b63d437e3e5f2\",\"selection_order\":[\"F08-1\",\"F08-2\",\"F08-3\",\"F08-4\",\"F08-5\"],\"mapping\":{\"adopted\":false,\"reason\":\"Planner abstained; fixed source order\",\"method\":\"no semantic interpretation\"},\"facts\":{\"F08-1\":{\"presentations\":0,\"delivery\":\"not_presented\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null},\"F08-2\":{\"presentations\":0,\"delivery\":\"not_presented\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null},\"F08-3\":{\"presentations\":0,\"delivery\":\"not_presented\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null},\"F08-4\":{\"presentations\":0,\"delivery\":\"not_presented\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null},\"F08-5\":{\"presentations\":0,\"delivery\":\"not_presented\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null}},\"last_delivery_seq\":0,\"pending_target_ids\":[\"F08-1\",\"F08-2\",\"F08-3\",\"F08-4\",\"F08-5\"],\"progress_definition\":\"presentation/delivery != verified semantic coverage\"},\"unused_fact_ids\":[\"F08-1\",\"F08-2\",\"F08-3\",\"F08-4\",\"F08-5\"],\"external_event\":null,\"progress_warning\":\"提示済み/模擬再生済みは意味確認済みではない。再提示せず未提示のFactから次の焦点を選ぶ。\"}\n\n【Memory候補】\nid: F08\nbody: 買い物メモを紙に書いて机の上に置いた。店に着いてから紙のメモを家に置いてきたと気づいた。同じ忘れ物を繰り返したくないと思った。スマホのメモなら家に忘れにくいと考えた。次回からスマホにもメモを保存することにした。\n\n【前回Plan】\nなし\n",
+      "planner_raw": "{\"use_memory\":false,\"memory_id\":null,\"topic\":\"メモを書き忘れた経験\",\"flow\":[\"メモを書き忘れた経験\",\"スマホのメモを使うきっかけ\",\"スマホのメモの利点\"]}",
+      "plan": {
+        "use_memory": false,
+        "memory_id": null,
+        "topic": "メモを書き忘れた経験",
+        "flow": [
+          "メモを書き忘れた経験",
+          "スマホのメモを使うきっかけ",
+          "スマホのメモの利点"
+        ]
+      },
+      "mapping": {
+        "adopted": false,
+        "reason": "Planner abstained; fixed source order",
+        "method": "no semantic interpretation"
+      },
+      "progress_after": {
+        "memory_id": "F08",
+        "source_sha256": "cd0ffc1e0eabc6440dff897a1282d75af5508c36f0b70464e13b63d437e3e5f2",
+        "selection_order": [
+          "F08-1",
+          "F08-2",
+          "F08-3",
+          "F08-4",
+          "F08-5"
+        ],
+        "mapping": {
+          "adopted": false,
+          "reason": "Planner abstained; fixed source order",
+          "method": "no semantic interpretation"
+        },
+        "facts": {
+          "F08-1": {
+            "presentations": 1,
+            "delivery": "text_delivered_unverified",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          },
+          "F08-2": {
+            "presentations": 1,
+            "delivery": "text_delivered_unverified",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          },
+          "F08-3": {
+            "presentations": 0,
+            "delivery": "not_presented",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          },
+          "F08-4": {
+            "presentations": 0,
+            "delivery": "not_presented",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          },
+          "F08-5": {
+            "presentations": 0,
+            "delivery": "not_presented",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          }
+        },
+        "last_delivery_seq": 7,
+        "pending_target_ids": [
+          "F08-3",
+          "F08-4",
+          "F08-5"
+        ],
+        "progress_definition": "presentation/delivery != verified semantic coverage"
+      },
+      "source_turn_sha256": "7ce16e919dd98f37dcdf0e5691ea7d9bc4117d1754cd76db1d33462dd31d2828"
+    },
+    {
+      "turn": 8,
+      "call_id": "R0016",
+      "memory_id": "F08",
+      "source_facts": [
+        {
+          "id": "F08-1",
+          "claim": "買い物メモを紙に書いて机の上に置いた。",
+          "kind": "event"
+        },
+        {
+          "id": "F08-2",
+          "claim": "店に着いてから紙のメモを家に置いてきたと気づいた。",
+          "kind": "event"
+        },
+        {
+          "id": "F08-3",
+          "claim": "同じ忘れ物を繰り返したくないと思った。",
+          "kind": "intent"
+        },
+        {
+          "id": "F08-4",
+          "claim": "スマホのメモなら家に忘れにくいと考えた。",
+          "kind": "event"
+        },
+        {
+          "id": "F08-5",
+          "claim": "次回からスマホにもメモを保存することにした。",
+          "kind": "intent"
+        }
+      ],
+      "case": {
+        "schema": "surface-contract-1",
+        "pair_id": "L-T008",
+        "facts": [
+          {
+            "id": "F08-3",
+            "claim": "同じ忘れ物を繰り返したくないと思った。",
+            "kind": "intent"
+          },
+          {
+            "id": "F08-4",
+            "claim": "スマホのメモなら家に忘れにくいと考えた。",
+            "kind": "event"
+          }
+        ],
+        "history": [
+          {
+            "text": "茶色のノートの方は、そのまま引き出しに残してるんだよね。",
+            "memory_id": "F20",
+            "origin": "offline text delivered, semantically unverified"
+          },
+          {
+            "text": "そういえば、買い物メモを紙に書いて、机の上に置いておいたことがあったんだけど……。\nいざお店に着いてから、あ、メモを家に置いてきたんだって気づいたんだよね。",
+            "memory_id": "F08",
+            "origin": "offline text delivered, semantically unverified"
+          }
+        ],
+        "operation": "continue",
+        "relation": {
+          "type": "sequence",
+          "summary": "同じ出来事の未提示部分に進む。直前の本文は発話済みだが未検証。新事実の根拠にしない。"
+        },
+        "flow": [
+          {
+            "fact_ids": [
+              "F08-3"
+            ],
+            "relation": "sequence",
+            "label": "予定・判断"
+          },
+          {
+            "fact_ids": [
+              "F08-4"
+            ],
+            "relation": "sequence",
+            "label": "出来事の進展"
+          }
+        ]
+      },
+      "actual_surface_prompt": "雑談配信で、その場で話しているような自然な日本語の発話にする。\n出来事、考え、感情、問い、比喩、仮定の区別を保つ。数量・否定・時点・確実性・決定と実行を変えない。\n必要なところだけ自然に言い淀みや言い直しを使う。語尾やつなぎを同じ形にそろえる必要はない。\n新しい事実・理由・感情を足さず、発話本文だけを出す。ID、見出し、説明、注記は出さない。\n\n【直前の発話：最大2回、文脈用】\n[1] 茶色のノートの方は、そのまま引き出しに残してるんだよね。\n\n[2] そういえば、買い物メモを紙に書いて、机の上に置いておいたことがあったんだけど……。\nいざお店に着いてから、あ、メモを家に置いてきたんだって気づいたんだよね。\n\n【今回の会話操作】\n同じ出来事の続きを話す\n\n【話題の関係】\n同じ出来事の未提示部分に進む。直前の本文は発話済みだが未検証。新事実の根拠にしない。\n\n【今回話す内容】\n[F08-3] 同じ忘れ物を繰り返したくないと思った。\n[F08-4] スマホのメモなら家に忘れにくいと考えた。\n\n【話の展開】\n予定・判断（F08-3） → 出来事の進展（F08-4）\n\n直前の発話を受け、今回の内容へ進む。履歴にある話を丸ごと説明し直さない。関係のない出来事を同じ日や因果で結ばない。履歴の未検証の内容を新事実の根拠にしない。",
+      "body": "それでさ、もう同じ忘れ物はしたくないなーって思って。\nスマホのメモなら、家に置いてきちゃうこともないかなって考えたんだよね。",
+      "raw_output": "それでさ、もう同じ忘れ物はしたくないなーって思って。\nスマホのメモなら、家に置いてきちゃうこともないかなって考えたんだよね。<turn|>",
+      "delivered": true,
+      "format_reason": null,
+      "planner_call_id": "R0015",
+      "actual_planner_prompt": "出力はPlanのJSONを1個だけ。説明文や見出しは付けない。キーはuse_memory、memory_id、topic、flowの4つを全て含め、他のキーは使わない。use_memoryはtrueかfalse。trueならmemory_idは候補のidをそのまま使う。falseでもmemory_idを省略せずnullにする。topicは空でない文字列。flowは空でない文字列を2〜4個並べた配列。\n\n【直近の確定発話】\n茶色のノートの方は、そのまま引き出しに残してるんだよね。\nそういえば、買い物メモを紙に書いて、机の上に置いておいたことがあったんだけど……。\nいざお店に着いてから、あ、メモを家に置いてきたんだって気づいたんだよね。\n\n【現在状態】\n{\"speech_history_status\":\"unverified generated speech; original Memory is factual grounding\",\"factual_grounding_memory_id\":\"F08\",\"plan_refresh_reason\":\"post_actual_offline_text_delivery\",\"memory_rules\":\"具体的経験・物・数量・時点は元Memoryを根拠にする。話を続ける、掘り下げる、関連する方向へ変える判断は自由。\",\"progress\":{\"memory_id\":\"F08\",\"source_sha256\":\"cd0ffc1e0eabc6440dff897a1282d75af5508c36f0b70464e13b63d437e3e5f2\",\"selection_order\":[\"F08-1\",\"F08-2\",\"F08-3\",\"F08-4\",\"F08-5\"],\"mapping\":{\"adopted\":false,\"reason\":\"Planner abstained; fixed source order\",\"method\":\"no semantic interpretation\"},\"facts\":{\"F08-1\":{\"presentations\":1,\"delivery\":\"text_delivered_unverified\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null},\"F08-2\":{\"presentations\":1,\"delivery\":\"text_delivered_unverified\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null},\"F08-3\":{\"presentations\":0,\"delivery\":\"not_presented\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null},\"F08-4\":{\"presentations\":0,\"delivery\":\"not_presented\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null},\"F08-5\":{\"presentations\":0,\"delivery\":\"not_presented\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null}},\"last_delivery_seq\":7,\"pending_target_ids\":[\"F08-3\",\"F08-4\",\"F08-5\"],\"progress_definition\":\"presentation/delivery != verified semantic coverage\"},\"unused_fact_ids\":[\"F08-3\",\"F08-4\",\"F08-5\"],\"external_event\":null,\"progress_warning\":\"提示済み/模擬再生済みは意味確認済みではない。再提示せず未提示のFactから次の焦点を選ぶ。\"}\n\n【Memory候補】\nid: F08\nbody: 買い物メモを紙に書いて机の上に置いた。店に着いてから紙のメモを家に置いてきたと気づいた。同じ忘れ物を繰り返したくないと思った。スマホのメモなら家に忘れにくいと考えた。次回からスマホにもメモを保存することにした。\n\n【前回Plan】\n{\"use_memory\":false,\"memory_id\":null,\"topic\":\"メモを書き忘れた経験\",\"flow\":[\"メモを書き忘れた経験\",\"スマホのメモを使うきっかけ\",\"スマホのメモの利点\"]}\n",
+      "planner_raw": "{\"use_memory\":true,\"memory_id\":\"F08\",\"topic\":\"スマホのメモを使うきっかけ\",\"flow\":[\"スマホのメモを使うきっかけ\",\"スマホのメモの利点\"]}",
+      "plan": {
+        "use_memory": true,
+        "memory_id": "F08",
+        "topic": "スマホのメモを使うきっかけ",
+        "flow": [
+          "スマホのメモを使うきっかけ",
+          "スマホのメモの利点"
+        ]
+      },
+      "mapping": {
+        "method": "unique exact source spans or explicit IDs; constrained stable order",
+        "semantic_grounding": false,
+        "source_contract": true,
+        "adopted": false,
+        "changed": false,
+        "reason": "Ambiguous or unbound Flow step; fixed source order",
+        "steps": [
+          {
+            "flow_index": 0,
+            "flow": "スマホのメモを使うきっかけ",
+            "explicit_ids": [],
+            "source_spans": [],
+            "matched_ids": []
+          }
+        ]
+      },
+      "progress_after": {
+        "memory_id": "F08",
+        "source_sha256": "cd0ffc1e0eabc6440dff897a1282d75af5508c36f0b70464e13b63d437e3e5f2",
+        "selection_order": [
+          "F08-1",
+          "F08-2",
+          "F08-3",
+          "F08-4",
+          "F08-5"
+        ],
+        "mapping": {
+          "method": "unique exact source spans or explicit IDs; constrained stable order",
+          "semantic_grounding": false,
+          "source_contract": true,
+          "adopted": false,
+          "changed": false,
+          "reason": "Ambiguous or unbound Flow step; fixed source order",
+          "steps": [
+            {
+              "flow_index": 0,
+              "flow": "スマホのメモを使うきっかけ",
+              "explicit_ids": [],
+              "source_spans": [],
+              "matched_ids": []
+            }
+          ]
+        },
+        "facts": {
+          "F08-1": {
+            "presentations": 1,
+            "delivery": "text_delivered_unverified",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          },
+          "F08-2": {
+            "presentations": 1,
+            "delivery": "text_delivered_unverified",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          },
+          "F08-3": {
+            "presentations": 1,
+            "delivery": "text_delivered_unverified",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          },
+          "F08-4": {
+            "presentations": 1,
+            "delivery": "text_delivered_unverified",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          },
+          "F08-5": {
+            "presentations": 0,
+            "delivery": "not_presented",
+            "semantic_status": "unverified",
+            "exact_source_quote": null
+          }
+        },
+        "last_delivery_seq": 8,
+        "pending_target_ids": [
+          "F08-5"
+        ],
+        "progress_definition": "presentation/delivery != verified semantic coverage"
+      },
+      "source_turn_sha256": "e23ab4f6373759a6ea090de25dc41834cee63a7561f2747d10e5860eec450089"
+    }
+  ]
+}

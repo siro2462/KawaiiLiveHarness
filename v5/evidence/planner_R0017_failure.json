@@ -1,0 +1,189 @@
+{
+  "source_relative_to_talk": "harness_beta/runs/current_continuous10_20261023_v1/plans/R0017.json",
+  "source_sha256": "6e5e7fcdaebd67a0a8a87ffdf68af71c992d68305009ad2216ff03a978ed8033",
+  "derived_fields_only": true,
+  "record": {
+    "call_id": "R0017",
+    "turn": 9,
+    "memory_id": "F08",
+    "planner_input": {
+      "recent": "そういえば、買い物メモを紙に書いて、机の上に置いておいたことがあったんだけど……。\nいざお店に着いてから、あ、メモを家に置いてきたんだって気づいたんだよね。\nそれでさ、もう同じ忘れ物はしたくないなーって思って。\nスマホのメモなら、家に置いてきちゃうこともないかなって考えたんだよね。",
+      "memory_candidates": [
+        {
+          "id": "F08",
+          "body": "買い物メモを紙に書いて机の上に置いた。店に着いてから紙のメモを家に置いてきたと気づいた。同じ忘れ物を繰り返したくないと思った。スマホのメモなら家に忘れにくいと考えた。次回からスマホにもメモを保存することにした。"
+        }
+      ],
+      "previous_plan": {
+        "use_memory": true,
+        "memory_id": "F08",
+        "topic": "スマホのメモを使うきっかけ",
+        "flow": [
+          "スマホのメモを使うきっかけ",
+          "スマホのメモの利点"
+        ]
+      },
+      "current_state": {
+        "speech_history_status": "unverified generated speech; original Memory is factual grounding",
+        "factual_grounding_memory_id": "F08",
+        "plan_refresh_reason": "post_actual_offline_text_delivery",
+        "memory_rules": "具体的経験・物・数量・時点は元Memoryを根拠にする。話を続ける、掘り下げる、関連する方向へ変える判断は自由。",
+        "progress": {
+          "memory_id": "F08",
+          "source_sha256": "cd0ffc1e0eabc6440dff897a1282d75af5508c36f0b70464e13b63d437e3e5f2",
+          "selection_order": [
+            "F08-1",
+            "F08-2",
+            "F08-3",
+            "F08-4",
+            "F08-5"
+          ],
+          "mapping": {
+            "method": "unique exact source spans or explicit IDs; constrained stable order",
+            "semantic_grounding": false,
+            "source_contract": true,
+            "adopted": false,
+            "changed": false,
+            "reason": "Ambiguous or unbound Flow step; fixed source order",
+            "steps": [
+              {
+                "flow_index": 0,
+                "flow": "スマホのメモを使うきっかけ",
+                "explicit_ids": [],
+                "source_spans": [],
+                "matched_ids": []
+              }
+            ]
+          },
+          "facts": {
+            "F08-1": {
+              "presentations": 1,
+              "delivery": "text_delivered_unverified",
+              "semantic_status": "unverified",
+              "exact_source_quote": null
+            },
+            "F08-2": {
+              "presentations": 1,
+              "delivery": "text_delivered_unverified",
+              "semantic_status": "unverified",
+              "exact_source_quote": null
+            },
+            "F08-3": {
+              "presentations": 1,
+              "delivery": "text_delivered_unverified",
+              "semantic_status": "unverified",
+              "exact_source_quote": null
+            },
+            "F08-4": {
+              "presentations": 1,
+              "delivery": "text_delivered_unverified",
+              "semantic_status": "unverified",
+              "exact_source_quote": null
+            },
+            "F08-5": {
+              "presentations": 0,
+              "delivery": "not_presented",
+              "semantic_status": "unverified",
+              "exact_source_quote": null
+            }
+          },
+          "last_delivery_seq": 8,
+          "pending_target_ids": [
+            "F08-5"
+          ],
+          "progress_definition": "presentation/delivery != verified semantic coverage"
+        },
+        "unused_fact_ids": [
+          "F08-5"
+        ],
+        "external_event": null,
+        "progress_warning": "提示済み/模擬再生済みは意味確認済みではない。再提示せず未提示のFactから次の焦点を選ぶ。"
+      }
+    },
+    "request": {
+      "prompt": "出力はPlanのJSONを1個だけ。説明文や見出しは付けない。キーはuse_memory、memory_id、topic、flowの4つを全て含め、他のキーは使わない。use_memoryはtrueかfalse。trueならmemory_idは候補のidをそのまま使う。falseでもmemory_idを省略せずnullにする。topicは空でない文字列。flowは空でない文字列を2〜4個並べた配列。\n\n【直近の確定発話】\nそういえば、買い物メモを紙に書いて、机の上に置いておいたことがあったんだけど……。\nいざお店に着いてから、あ、メモを家に置いてきたんだって気づいたんだよね。\nそれでさ、もう同じ忘れ物はしたくないなーって思って。\nスマホのメモなら、家に置いてきちゃうこともないかなって考えたんだよね。\n\n【現在状態】\n{\"speech_history_status\":\"unverified generated speech; original Memory is factual grounding\",\"factual_grounding_memory_id\":\"F08\",\"plan_refresh_reason\":\"post_actual_offline_text_delivery\",\"memory_rules\":\"具体的経験・物・数量・時点は元Memoryを根拠にする。話を続ける、掘り下げる、関連する方向へ変える判断は自由。\",\"progress\":{\"memory_id\":\"F08\",\"source_sha256\":\"cd0ffc1e0eabc6440dff897a1282d75af5508c36f0b70464e13b63d437e3e5f2\",\"selection_order\":[\"F08-1\",\"F08-2\",\"F08-3\",\"F08-4\",\"F08-5\"],\"mapping\":{\"method\":\"unique exact source spans or explicit IDs; constrained stable order\",\"semantic_grounding\":false,\"source_contract\":true,\"adopted\":false,\"changed\":false,\"reason\":\"Ambiguous or unbound Flow step; fixed source order\",\"steps\":[{\"flow_index\":0,\"flow\":\"スマホのメモを使うきっかけ\",\"explicit_ids\":[],\"source_spans\":[],\"matched_ids\":[]}]},\"facts\":{\"F08-1\":{\"presentations\":1,\"delivery\":\"text_delivered_unverified\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null},\"F08-2\":{\"presentations\":1,\"delivery\":\"text_delivered_unverified\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null},\"F08-3\":{\"presentations\":1,\"delivery\":\"text_delivered_unverified\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null},\"F08-4\":{\"presentations\":1,\"delivery\":\"text_delivered_unverified\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null},\"F08-5\":{\"presentations\":0,\"delivery\":\"not_presented\",\"semantic_status\":\"unverified\",\"exact_source_quote\":null}},\"last_delivery_seq\":8,\"pending_target_ids\":[\"F08-5\"],\"progress_definition\":\"presentation/delivery != verified semantic coverage\"},\"unused_fact_ids\":[\"F08-5\"],\"external_event\":null,\"progress_warning\":\"提示済み/模擬再生済みは意味確認済みではない。再提示せず未提示のFactから次の焦点を選ぶ。\"}\n\n【Memory候補】\nid: F08\nbody: 買い物メモを紙に書いて机の上に置いた。店に着いてから紙のメモを家に置いてきたと気づいた。同じ忘れ物を繰り返したくないと思った。スマホのメモなら家に忘れにくいと考えた。次回からスマホにもメモを保存することにした。\n\n【前回Plan】\n{\"use_memory\":true,\"memory_id\":\"F08\",\"topic\":\"スマホのメモを使うきっかけ\",\"flow\":[\"スマホのメモを使うきっかけ\",\"スマホのメモの利点\"]}\n",
+      "recent": "そういえば、買い物メモを紙に書いて、机の上に置いておいたことがあったんだけど……。\nいざお店に着いてから、あ、メモを家に置いてきたんだって気づいたんだよね。\nそれでさ、もう同じ忘れ物はしたくないなーって思って。\nスマホのメモなら、家に置いてきちゃうこともないかなって考えたんだよね。",
+      "candidate_ids": [
+        "F08"
+      ]
+    },
+    "raw": {
+      "text": "{\"flow\":[\"スマホのメモを使うきっかけ\",\"スマホの{\"\n  ,\"flow_id_flow_2_topic_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2",
+      "raw_output": "{\"flow\":[\"スマホのメモを使うきっかけ\",\"スマホの{\"\n  ,\"flow_id_flow_2_topic_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2",
+      "strict_schema_valid": false,
+      "strict_schema_error": "Unterminated string starting at: line 2 column 4 (char 36)",
+      "stop_reason": "token_cap",
+      "output_tokens": 256,
+      "context_cut_tokens": 0,
+      "seconds": 271.998
+    },
+    "before": {
+      "memory_id": "F08",
+      "source_sha256": "cd0ffc1e0eabc6440dff897a1282d75af5508c36f0b70464e13b63d437e3e5f2",
+      "selection_order": [
+        "F08-1",
+        "F08-2",
+        "F08-3",
+        "F08-4",
+        "F08-5"
+      ],
+      "mapping": {
+        "method": "unique exact source spans or explicit IDs; constrained stable order",
+        "semantic_grounding": false,
+        "source_contract": true,
+        "adopted": false,
+        "changed": false,
+        "reason": "Ambiguous or unbound Flow step; fixed source order",
+        "steps": [
+          {
+            "flow_index": 0,
+            "flow": "スマホのメモを使うきっかけ",
+            "explicit_ids": [],
+            "source_spans": [],
+            "matched_ids": []
+          }
+        ]
+      },
+      "facts": {
+        "F08-1": {
+          "presentations": 1,
+          "delivery": "text_delivered_unverified",
+          "semantic_status": "unverified",
+          "exact_source_quote": null
+        },
+        "F08-2": {
+          "presentations": 1,
+          "delivery": "text_delivered_unverified",
+          "semantic_status": "unverified",
+          "exact_source_quote": null
+        },
+        "F08-3": {
+          "presentations": 1,
+          "delivery": "text_delivered_unverified",
+          "semantic_status": "unverified",
+          "exact_source_quote": null
+        },
+        "F08-4": {
+          "presentations": 1,
+          "delivery": "text_delivered_unverified",
+          "semantic_status": "unverified",
+          "exact_source_quote": null
+        },
+        "F08-5": {
+          "presentations": 0,
+          "delivery": "not_presented",
+          "semantic_status": "unverified",
+          "exact_source_quote": null
+        }
+      },
+      "last_delivery_seq": 8,
+      "pending_target_ids": [
+        "F08-5"
+      ],
+      "progress_definition": "presentation/delivery != verified semantic coverage"
+    },
+    "plan": null,
+    "syntax_valid": false,
+    "error": "Unterminated string starting at: line 2 column 4 (char 36)"
+  }
+}

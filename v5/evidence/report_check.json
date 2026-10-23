@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "report_only_completed": true,
+  "source_run_completed": false,
+  "source_files_unchanged": true,
+  "all8_bodies_and_raw_inputs_preserved": true,
+  "html_sha256": "f617e05f42c5ee4c7277d19320477c39bdb5609665a921149c4bca8d9f062604",
+  "speech_sha256": "7762c0e07b3121b69a89c82849de1a2c45255df900e7c7965b9a9f60d534c855",
+  "source_manifest_sha256": "3e646d31576bf2ccdab991434d2094f56e928d9fd586fa0cadd9ff5ddec43e26"
+}

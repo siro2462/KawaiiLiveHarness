@@ -1,0 +1,47 @@
+{
+  "common.py": {
+    "source": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\incremental_applyfix_20261022_v2\\executed_source\\common.py",
+    "sha256": "bd4a4b23679c6612420a3f62ec6d948d7d823f6a933eb1194c0c5a86b426a39f",
+    "bytes_identical": true
+  },
+  "driver_cpu.py": {
+    "source": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\incremental_applyfix_20261022_v2\\executed_source\\driver_cpu.py",
+    "sha256": "7249db3a88e406adbbb9b95f575eaf10bafdb486334c4892fb09c45d89b9afa1",
+    "bytes_identical": true
+  },
+  "runtime.py": {
+    "source": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\incremental_applyfix_20261022_v2\\executed_source\\runtime.py",
+    "sha256": "9be06fa22b2b2f268e230335e6996e8d059e08b6e3ba7c90578db77bfb8a4f4e",
+    "bytes_identical": true
+  },
+  "flow_apply.py": {
+    "source": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\incremental_applyfix_20261022_v2\\executed_source\\flow_apply.py",
+    "sha256": "5a702f70baa100c2c90f23103f04fac8f8d3865ddf1fa7cd353fa9730072c18b",
+    "bytes_identical": true
+  },
+  "fact_contract.json": {
+    "source": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\incremental_applyfix_20261022_v2\\executed_source\\fact_contract.json",
+    "sha256": "36b5e48351fc6d8e8663246a6bb4ec6993778ea6706aa21531fcf03278d80f49",
+    "bytes_identical": true
+  },
+  "contract_runtime.py": {
+    "source": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\incremental_applyfix_20261022_v2\\executed_source\\contract_runtime.py",
+    "sha256": "543cd52feebb061712ecdc410f2e77208ed38a4dce8c5a0ab2fa8075b87110f6",
+    "bytes_identical": true
+  },
+  "gpu_worker.py": {
+    "source": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\incremental_applyfix_20261022_v2\\executed_source\\gpu_worker.py",
+    "sha256": "e8c736f71f4e8d5e100571ca5919efe24bbd20dce1b45af2f504892169a8a995",
+    "bytes_identical": true
+  },
+  "request_protocol.py": {
+    "source": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\incremental_applyfix_20261022_v2\\executed_source\\request_protocol.py",
+    "sha256": "ecbe1a33ef1cc2b0d01d8c013ec599503844ea92534c68dedf58cb2b3bd17489",
+    "bytes_identical": true
+  },
+  "token_journal.py": {
+    "source": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\incremental_applyfix_20261022_v2\\executed_source\\token_journal.py",
+    "sha256": "fd86eae0677c6ff0619c80c534783bfad02c329d58ac58faaf4c6b895ef8de1e",
+    "bytes_identical": true
+  }
+}

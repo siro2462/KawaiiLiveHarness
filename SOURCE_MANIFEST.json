@@ -1,295 +1,835 @@
 {
-  "created_at": "2026-10-15T13:48:09.931388+00:00",
-  "kind": "Harness v5 source snapshot",
+  "version": "v5-current-20261023",
+  "client_date_jst": "2026-10-23",
+  "kind": "current architecture source snapshot; original long run failed",
+  "old_v5_tag_unchanged": true,
+  "runtime_source": "harness_beta/runs/current_continuous10_20261023_v1/executed_source",
   "source_layout": "work/astra/_talk",
-  "source_bytes_preserved": true,
-  "v5_files": 34,
-  "reference_files": 23,
+  "copied_source_bytes_preserved": true,
+  "not_bundled": [
+    "model weights",
+    "LoRA weights",
+    "tokenizers",
+    "NF4 caches",
+    "reference transcripts/ZIP",
+    "training corpus",
+    "Memory databases",
+    "credentials/environments"
+  ],
   "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 91,
+      "sha256": "6e6f57f6cc3be5c0f8f7e136d9ae343bce7a68a40b72c393e00cf52e398d9d9e",
+      "kind": "inherited-repository-file"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 596,
+      "sha256": "4851460fc0e902e214d2a3af56793bf23569845ddde628f9ba6b8bf6ddecc7cc",
+      "kind": "inherited-repository-file"
+    },
+    {
+      "path": "DEPENDENCIES.md",
+      "bytes": 2271,
+      "sha256": "f522cd5ce6d8c8d84a1f4ccb34c79e074f49a490f9e71ec047f9089dc8bcf3e5",
+      "kind": "generated"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2734,
+      "sha256": "45a165289a5d9c83a415e83c55ab6ee2ab050ff8aae067146e26ccdf113a5225",
+      "kind": "generated"
+    },
     {
       "path": "_talk/lora_v4_gemma_runtime/alpha_contract.py",
       "bytes": 1773,
-      "sha256": "ca513201b244595d7a13adaefe9ad00839e425959bea65a1df6917155662f465"
+      "sha256": "ca513201b244595d7a13adaefe9ad00839e425959bea65a1df6917155662f465",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/alpha_contract.py",
+      "source_sha256": "ca513201b244595d7a13adaefe9ad00839e425959bea65a1df6917155662f465"
     },
     {
       "path": "_talk/lora_v4_gemma_runtime/build_review_report.py",
       "bytes": 7588,
-      "sha256": "23344440f8a48ee3d1834a164b5871a7c44dcdb8f5e61b0b27a50af71d73adab"
+      "sha256": "23344440f8a48ee3d1834a164b5871a7c44dcdb8f5e61b0b27a50af71d73adab",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/build_review_report.py",
+      "source_sha256": "23344440f8a48ee3d1834a164b5871a7c44dcdb8f5e61b0b27a50af71d73adab"
     },
     {
       "path": "_talk/lora_v4_gemma_runtime/context_runtime.py",
       "bytes": 5895,
-      "sha256": "d48f60eb41ad64a61b11a6f3fd5f24fce664d146beb173a69c446082a0de6678"
+      "sha256": "d48f60eb41ad64a61b11a6f3fd5f24fce664d146beb173a69c446082a0de6678",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/context_runtime.py",
+      "source_sha256": "d48f60eb41ad64a61b11a6f3fd5f24fce664d146beb173a69c446082a0de6678"
     },
     {
       "path": "_talk/lora_v4_gemma_runtime/design_v5_alpha.md",
       "bytes": 8087,
-      "sha256": "b8f1edf6ef22d6455352feffef8d27e3f9bea34115d2cb7eb3a38ede8c2aa052"
+      "sha256": "b8f1edf6ef22d6455352feffef8d27e3f9bea34115d2cb7eb3a38ede8c2aa052",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/design_v5_alpha.md",
+      "source_sha256": "b8f1edf6ef22d6455352feffef8d27e3f9bea34115d2cb7eb3a38ede8c2aa052"
+    },
+    {
+      "path": "_talk/lora_v4_gemma_runtime/eval/README.md",
+      "bytes": 2091,
+      "sha256": "48a204240106d39c7b612ecf170e5c725f0dabdd75598cc9e4ef60e0318b34c8",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/eval/README.md",
+      "source_sha256": "48a204240106d39c7b612ecf170e5c725f0dabdd75598cc9e4ef60e0318b34c8"
+    },
+    {
+      "path": "_talk/lora_v4_gemma_runtime/eval/build_quality_report.py",
+      "bytes": 8548,
+      "sha256": "e93654fd7b6d576d0e44ef0da960983202873f009b7c31d9d33adc4bc69325f4",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/eval/build_quality_report.py",
+      "source_sha256": "e93654fd7b6d576d0e44ef0da960983202873f009b7c31d9d33adc4bc69325f4"
+    },
+    {
+      "path": "_talk/lora_v4_gemma_runtime/eval/implementation_plan.md",
+      "bytes": 3256,
+      "sha256": "8333cb08e7d394e34f398ca477c10958e3d602a2bcaedab44c9aae1baeeadf17",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/eval/implementation_plan.md",
+      "source_sha256": "8333cb08e7d394e34f398ca477c10958e3d602a2bcaedab44c9aae1baeeadf17"
+    },
+    {
+      "path": "_talk/lora_v4_gemma_runtime/eval/quality_eval.py",
+      "bytes": 21387,
+      "sha256": "a2ef7b8c86ae2671c677edd7c16dee9bc208f37b1765d141d1f3d1e8e7efe305",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/eval/quality_eval.py",
+      "source_sha256": "a2ef7b8c86ae2671c677edd7c16dee9bc208f37b1765d141d1f3d1e8e7efe305"
+    },
+    {
+      "path": "_talk/lora_v4_gemma_runtime/eval/quality_metrics.py",
+      "bytes": 3878,
+      "sha256": "78543501e14755172be1bedbcab431fef8967372898ecb0bd9a85d18d22b7066",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/eval/quality_metrics.py",
+      "source_sha256": "78543501e14755172be1bedbcab431fef8967372898ecb0bd9a85d18d22b7066"
+    },
+    {
+      "path": "_talk/lora_v4_gemma_runtime/eval/supervise_quality_eval.py",
+      "bytes": 4001,
+      "sha256": "76fe9e5666f360b14d746b2780fedcc78c6d7b30d31f62d95b7ca1a4840cefd9",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/eval/supervise_quality_eval.py",
+      "source_sha256": "76fe9e5666f360b14d746b2780fedcc78c6d7b30d31f62d95b7ca1a4840cefd9"
+    },
+    {
+      "path": "_talk/lora_v4_gemma_runtime/eval/test_quality_eval.py",
+      "bytes": 5348,
+      "sha256": "05fd88c4ea349619c23dbaf648984870c351b6989ceb97b191382ce3d4d85769",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/eval/test_quality_eval.py",
+      "source_sha256": "05fd88c4ea349619c23dbaf648984870c351b6989ceb97b191382ce3d4d85769"
     },
     {
       "path": "_talk/lora_v4_gemma_runtime/evaluate_fact_gate.py",
       "bytes": 6609,
-      "sha256": "32f906cc7d9bfcd118b000dc3292f857ae31cab1ee28fba25aece13b9c16c5e4"
+      "sha256": "32f906cc7d9bfcd118b000dc3292f857ae31cab1ee28fba25aece13b9c16c5e4",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/evaluate_fact_gate.py",
+      "source_sha256": "32f906cc7d9bfcd118b000dc3292f857ae31cab1ee28fba25aece13b9c16c5e4"
     },
     {
       "path": "_talk/lora_v4_gemma_runtime/evaluation_cases.py",
       "bytes": 3924,
-      "sha256": "eec607a9865cde6b8d8c3865ebce0a55b61f93430c20e0d4f51f67c796c938b8"
+      "sha256": "eec607a9865cde6b8d8c3865ebce0a55b61f93430c20e0d4f51f67c796c938b8",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/evaluation_cases.py",
+      "source_sha256": "eec607a9865cde6b8d8c3865ebce0a55b61f93430c20e0d4f51f67c796c938b8"
     },
     {
       "path": "_talk/lora_v4_gemma_runtime/evaluation_support.py",
       "bytes": 3749,
-      "sha256": "dce8faa44a0a1f0a502773feac7a038f5c4be2d27b4bb2b272f14fd3d5568f86"
+      "sha256": "dce8faa44a0a1f0a502773feac7a038f5c4be2d27b4bb2b272f14fd3d5568f86",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/evaluation_support.py",
+      "source_sha256": "dce8faa44a0a1f0a502773feac7a038f5c4be2d27b4bb2b272f14fd3d5568f86"
     },
     {
       "path": "_talk/lora_v4_gemma_runtime/fact_gate.py",
       "bytes": 22386,
-      "sha256": "8f037dcc6821fd7f154b83821f542a3f2c813bcb66f5d25ef1b152d43f0c3e32"
+      "sha256": "8f037dcc6821fd7f154b83821f542a3f2c813bcb66f5d25ef1b152d43f0c3e32",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/fact_gate.py",
+      "source_sha256": "8f037dcc6821fd7f154b83821f542a3f2c813bcb66f5d25ef1b152d43f0c3e32"
     },
     {
       "path": "_talk/lora_v4_gemma_runtime/fact_validation_cases.md",
       "bytes": 2873,
-      "sha256": "936d5f7894f566b5f12e5c9dceb896cd4a63ea282ce0b2fe44fd2f5090b5600d"
+      "sha256": "936d5f7894f566b5f12e5c9dceb896cd4a63ea282ce0b2fe44fd2f5090b5600d",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/fact_validation_cases.md",
+      "source_sha256": "936d5f7894f566b5f12e5c9dceb896cd4a63ea282ce0b2fe44fd2f5090b5600d"
     },
     {
       "path": "_talk/lora_v4_gemma_runtime/generation_errors.py",
       "bytes": 1818,
-      "sha256": "4accb36b197fa1b9dab0cb6f5d9721d7dc4f20f443f904f6de160126cb17b641"
+      "sha256": "4accb36b197fa1b9dab0cb6f5d9721d7dc4f20f443f904f6de160126cb17b641",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/generation_errors.py",
+      "source_sha256": "4accb36b197fa1b9dab0cb6f5d9721d7dc4f20f443f904f6de160126cb17b641"
     },
     {
       "path": "_talk/lora_v4_gemma_runtime/grounded_implementation_plan.md",
       "bytes": 3695,
-      "sha256": "7c5f1dede2265faefe5b9c660557bc70e9a4ed33f0929bef8b4675d82a8ea918"
+      "sha256": "7c5f1dede2265faefe5b9c660557bc70e9a4ed33f0929bef8b4675d82a8ea918",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/grounded_implementation_plan.md",
+      "source_sha256": "7c5f1dede2265faefe5b9c660557bc70e9a4ed33f0929bef8b4675d82a8ea918"
     },
     {
       "path": "_talk/lora_v4_gemma_runtime/implementation_plan.md",
       "bytes": 4737,
-      "sha256": "b8aa15b58cf82c7624c6bb57780ecfe133d95e6bf95fa73efa64c46c67564964"
+      "sha256": "b8aa15b58cf82c7624c6bb57780ecfe133d95e6bf95fa73efa64c46c67564964",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/implementation_plan.md",
+      "source_sha256": "b8aa15b58cf82c7624c6bb57780ecfe133d95e6bf95fa73efa64c46c67564964"
     },
     {
       "path": "_talk/lora_v4_gemma_runtime/inference_runtime.py",
       "bytes": 3455,
-      "sha256": "47eb39d454d307e864e6eae7ff459d1111a4e6b3140d921998b55eab57f75666"
+      "sha256": "47eb39d454d307e864e6eae7ff459d1111a4e6b3140d921998b55eab57f75666",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/inference_runtime.py",
+      "source_sha256": "47eb39d454d307e864e6eae7ff459d1111a4e6b3140d921998b55eab57f75666"
     },
     {
       "path": "_talk/lora_v4_gemma_runtime/inference_v5.py",
       "bytes": 3725,
-      "sha256": "12d200d70ed2de80dff8bf8d9a0e35f7491908806d1fc0fc21b05f644438d419"
+      "sha256": "12d200d70ed2de80dff8bf8d9a0e35f7491908806d1fc0fc21b05f644438d419",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/inference_v5.py",
+      "source_sha256": "12d200d70ed2de80dff8bf8d9a0e35f7491908806d1fc0fc21b05f644438d419"
     },
     {
       "path": "_talk/lora_v4_gemma_runtime/original_runtime.py",
       "bytes": 1448,
-      "sha256": "f99c620b8482182a118cbcbcd7f5ad0654a293b2aa7acaa81c0f753b85685ff1"
+      "sha256": "f99c620b8482182a118cbcbcd7f5ad0654a293b2aa7acaa81c0f753b85685ff1",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/original_runtime.py",
+      "source_sha256": "f99c620b8482182a118cbcbcd7f5ad0654a293b2aa7acaa81c0f753b85685ff1"
     },
     {
       "path": "_talk/lora_v4_gemma_runtime/planner_policy.py",
       "bytes": 5536,
-      "sha256": "51517898f0ced1f8e6e3ffc1a027bd403dc3b4cb314df281ec5bc1a7088482df"
+      "sha256": "51517898f0ced1f8e6e3ffc1a027bd403dc3b4cb314df281ec5bc1a7088482df",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/planner_policy.py",
+      "source_sha256": "51517898f0ced1f8e6e3ffc1a027bd403dc3b4cb314df281ec5bc1a7088482df"
     },
     {
       "path": "_talk/lora_v4_gemma_runtime/planner_probe.py",
       "bytes": 3864,
-      "sha256": "fb7ccd5fcc9053e62a9b6e5f0d800de80e376763347a74b79e0e79d654c851c9"
+      "sha256": "fb7ccd5fcc9053e62a9b6e5f0d800de80e376763347a74b79e0e79d654c851c9",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/planner_probe.py",
+      "source_sha256": "fb7ccd5fcc9053e62a9b6e5f0d800de80e376763347a74b79e0e79d654c851c9"
     },
     {
       "path": "_talk/lora_v4_gemma_runtime/prepare_probe.py",
       "bytes": 6148,
-      "sha256": "db257418d23a7f470a5166f496577cf1a556a6b1d38a2a056f74f603022520e3"
+      "sha256": "db257418d23a7f470a5166f496577cf1a556a6b1d38a2a056f74f603022520e3",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/prepare_probe.py",
+      "source_sha256": "db257418d23a7f470a5166f496577cf1a556a6b1d38a2a056f74f603022520e3"
     },
     {
       "path": "_talk/lora_v4_gemma_runtime/prepare_real_evaluation.py",
       "bytes": 9105,
-      "sha256": "618d502ae4a475637a486e90b2ee2c899465445772a9f05868f52aa71dad3789"
+      "sha256": "618d502ae4a475637a486e90b2ee2c899465445772a9f05868f52aa71dad3789",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/prepare_real_evaluation.py",
+      "source_sha256": "618d502ae4a475637a486e90b2ee2c899465445772a9f05868f52aa71dad3789"
     },
     {
       "path": "_talk/lora_v4_gemma_runtime/report_probe.py",
       "bytes": 7433,
-      "sha256": "2a6007e9cb8e5b0f7d95c11fee5c71571aa8dab5003604bc4da4a80f553fa51e"
+      "sha256": "2a6007e9cb8e5b0f7d95c11fee5c71571aa8dab5003604bc4da4a80f553fa51e",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/report_probe.py",
+      "source_sha256": "2a6007e9cb8e5b0f7d95c11fee5c71571aa8dab5003604bc4da4a80f553fa51e"
     },
     {
       "path": "_talk/lora_v4_gemma_runtime/report_real_evaluation.py",
       "bytes": 7587,
-      "sha256": "d41e91f4ad4e0a6f520ed43c9efc7ac3e7cc995ea2ab9fba1d03f51f09c39412"
+      "sha256": "d41e91f4ad4e0a6f520ed43c9efc7ac3e7cc995ea2ab9fba1d03f51f09c39412",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/report_real_evaluation.py",
+      "source_sha256": "d41e91f4ad4e0a6f520ed43c9efc7ac3e7cc995ea2ab9fba1d03f51f09c39412"
     },
     {
       "path": "_talk/lora_v4_gemma_runtime/requirements-v5.txt",
       "bytes": 120,
-      "sha256": "1ef45bf690095ae0540eb06244c0e483e9711413efc4bb084976270b41a24e42"
+      "sha256": "1ef45bf690095ae0540eb06244c0e483e9711413efc4bb084976270b41a24e42",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/requirements-v5.txt",
+      "source_sha256": "1ef45bf690095ae0540eb06244c0e483e9711413efc4bb084976270b41a24e42"
     },
     {
       "path": "_talk/lora_v4_gemma_runtime/review_fix_plan.md",
       "bytes": 2310,
-      "sha256": "8358345ddbfc07684267d02ca93f9b8e100bf534c4dc491f699f91309f7a98dc"
+      "sha256": "8358345ddbfc07684267d02ca93f9b8e100bf534c4dc491f699f91309f7a98dc",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/review_fix_plan.md",
+      "source_sha256": "8358345ddbfc07684267d02ca93f9b8e100bf534c4dc491f699f91309f7a98dc"
     },
     {
       "path": "_talk/lora_v4_gemma_runtime/run_real_evaluation.py",
       "bytes": 12801,
-      "sha256": "17d375db2978a5b0c25a0e9282f4e38ae2229560431b998491cbfef5d27879a9"
+      "sha256": "17d375db2978a5b0c25a0e9282f4e38ae2229560431b998491cbfef5d27879a9",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/run_real_evaluation.py",
+      "source_sha256": "17d375db2978a5b0c25a0e9282f4e38ae2229560431b998491cbfef5d27879a9"
     },
     {
       "path": "_talk/lora_v4_gemma_runtime/runtime_engine.py",
       "bytes": 16858,
-      "sha256": "ddec5eabf1b39f355b90abae9f2d46f0f6105a0b4d8b6eb04a10d8dc2a08cee6"
+      "sha256": "ddec5eabf1b39f355b90abae9f2d46f0f6105a0b4d8b6eb04a10d8dc2a08cee6",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/runtime_engine.py",
+      "source_sha256": "ddec5eabf1b39f355b90abae9f2d46f0f6105a0b4d8b6eb04a10d8dc2a08cee6"
     },
     {
       "path": "_talk/lora_v4_gemma_runtime/runtime_state.py",
       "bytes": 3452,
-      "sha256": "24349a0d8a216fb6510a72c98c49ac691ba975a16678dd0cce62a733988579af"
+      "sha256": "24349a0d8a216fb6510a72c98c49ac691ba975a16678dd0cce62a733988579af",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/runtime_state.py",
+      "source_sha256": "24349a0d8a216fb6510a72c98c49ac691ba975a16678dd0cce62a733988579af"
     },
     {
       "path": "_talk/lora_v4_gemma_runtime/schema_constraints.py",
       "bytes": 7877,
-      "sha256": "5efd60dc8d511cc8e94a80aa3e354c7c92ecc786b8a8d5c8bfa960e3415cf28e"
+      "sha256": "5efd60dc8d511cc8e94a80aa3e354c7c92ecc786b8a8d5c8bfa960e3415cf28e",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/schema_constraints.py",
+      "source_sha256": "5efd60dc8d511cc8e94a80aa3e354c7c92ecc786b8a8d5c8bfa960e3415cf28e"
     },
     {
       "path": "_talk/lora_v4_gemma_runtime/supervise_real_evaluation.py",
       "bytes": 4731,
-      "sha256": "ab67c3b89c882b412c1547ef361b2267ef5ae4bc16ed7252cc0a8feed9944005"
+      "sha256": "ab67c3b89c882b412c1547ef361b2267ef5ae4bc16ed7252cc0a8feed9944005",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/supervise_real_evaluation.py",
+      "source_sha256": "ab67c3b89c882b412c1547ef361b2267ef5ae4bc16ed7252cc0a8feed9944005"
     },
     {
       "path": "_talk/lora_v4_gemma_runtime/test_evaluation_plumbing.py",
       "bytes": 3647,
-      "sha256": "ad35ad63a2074932401526e4560a51a35cae75b482210832b91e08f6754b563a"
+      "sha256": "ad35ad63a2074932401526e4560a51a35cae75b482210832b91e08f6754b563a",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/test_evaluation_plumbing.py",
+      "source_sha256": "ad35ad63a2074932401526e4560a51a35cae75b482210832b91e08f6754b563a"
     },
     {
       "path": "_talk/lora_v4_gemma_runtime/test_fact_gate.py",
       "bytes": 6602,
-      "sha256": "8f2df34e1b4cd904121141d3dfea75977208684d7c21261e5898ce38781a46af"
+      "sha256": "8f2df34e1b4cd904121141d3dfea75977208684d7c21261e5898ce38781a46af",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/test_fact_gate.py",
+      "source_sha256": "8f2df34e1b4cd904121141d3dfea75977208684d7c21261e5898ce38781a46af"
     },
     {
       "path": "_talk/lora_v4_gemma_runtime/test_planner_policy.py",
       "bytes": 6032,
-      "sha256": "0aa896f1770ebc228e744ffe78943398c8927a03ee51607fcd0e03bb06462449"
+      "sha256": "0aa896f1770ebc228e744ffe78943398c8927a03ee51607fcd0e03bb06462449",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/test_planner_policy.py",
+      "source_sha256": "0aa896f1770ebc228e744ffe78943398c8927a03ee51607fcd0e03bb06462449"
     },
     {
       "path": "_talk/lora_v4_gemma_runtime/test_review_integration.py",
       "bytes": 16599,
-      "sha256": "f4df3987e2ea66bb8b1ea5152c21ea2e8e4eabc597e827ebde40c3f968cf58d2"
+      "sha256": "f4df3987e2ea66bb8b1ea5152c21ea2e8e4eabc597e827ebde40c3f968cf58d2",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/test_review_integration.py",
+      "source_sha256": "f4df3987e2ea66bb8b1ea5152c21ea2e8e4eabc597e827ebde40c3f968cf58d2"
     },
     {
       "path": "_talk/lora_v4_gemma_runtime/test_runtime_state.py",
       "bytes": 2469,
-      "sha256": "64d7dc2bd55226b088a8eb41d2e04c4faee942dd12632d6cbc8ed33cb9822db5"
+      "sha256": "64d7dc2bd55226b088a8eb41d2e04c4faee942dd12632d6cbc8ed33cb9822db5",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/test_runtime_state.py",
+      "source_sha256": "64d7dc2bd55226b088a8eb41d2e04c4faee942dd12632d6cbc8ed33cb9822db5"
     },
     {
       "path": "_talk/lora_v4_gemma_runtime/test_schema_constraints.py",
       "bytes": 4778,
-      "sha256": "c9a58fb69b0aaa49506b2036a98db387121d0161efac3fd5875f39a621d1c886"
-    },
-    {
-      "path": "_talk/lora_v4_planner_talk/contracts.py",
-      "bytes": 3491,
-      "sha256": "cb6c7d5d89d6dd0e41eb03d7a8fb6dbf115e098c0c89e9f4079fb1ebf9e7bef5"
-    },
-    {
-      "path": "_talk/lora_v4_planner_talk/runtime.py",
-      "bytes": 3396,
-      "sha256": "1b690cae8d5b82a7aa54af1d48353615bf94bc01959035c30d0f510ddaa15785"
-    },
-    {
-      "path": "_talk/lora_v4_planner_talk/common.py",
-      "bytes": 3946,
-      "sha256": "0cbbe40f047bb79528baf5541a21d4e4a9f4a7e72f0fb758086ba5149dc4f62e"
-    },
-    {
-      "path": "_talk/lora_v4_planner_talk/evaluate.py",
-      "bytes": 18777,
-      "sha256": "fe371de3960ab4468403d41f959142e80c8055cc00dbf64c9fd826c6a5af184a"
-    },
-    {
-      "path": "_talk/lora_v4_runtime_ab/core.py",
-      "bytes": 3800,
-      "sha256": "525604354332c74d3954e103fe47d62a7bb5c18201aaa14e428812602062aaff"
-    },
-    {
-      "path": "_talk/lora_v4_runtime_ab/run.py",
-      "bytes": 17097,
-      "sha256": "69188f8219a6dae865948c57d62229e919e55f19e50a9ec79f09c84fa38f75c0"
-    },
-    {
-      "path": "_talk/lora_v4_runtime_ab/embed_worker.py",
-      "bytes": 2164,
-      "sha256": "92dd9eb9fa3b754a5cfb014be614ce9996a006703743b6b05bbaa94bfd1cb4b7"
-    },
-    {
-      "path": "_talk/lora_v4_runtime_bc/bootstrap.py",
-      "bytes": 1138,
-      "sha256": "de7822013f183307cd405480cee46cbb76604d6844765ff200caa461ee25971b"
-    },
-    {
-      "path": "_talk/lora_v4_runtime_bc/policy.py",
-      "bytes": 7069,
-      "sha256": "a76b96adb82511b38428319ddecde499ffc2840e67e668c6958d7d612a26492f"
-    },
-    {
-      "path": "_talk/lora_v4_runtime_bc/baseline.py",
-      "bytes": 7253,
-      "sha256": "fd33d8c0892ceeccfcd38f7a7fdda0e3a75ee950d74d92710ff6b11db7db4cbb"
-    },
-    {
-      "path": "_talk/lora_v4_runtime_bc/engine.py",
-      "bytes": 12404,
-      "sha256": "b51a4bed397e3c70ea5b04d1932f7fd8da80af5c46ddc6f2718ff3f71c3b5609"
-    },
-    {
-      "path": "_talk/lora_v4_runtime_bc/consistency.py",
-      "bytes": 7341,
-      "sha256": "45fcca1e20ef78503aa832976ff396f8488419e4385783bd7dce5c0c7b2db584"
-    },
-    {
-      "path": "_talk/lora_v4_multibase/inference_models.py",
-      "bytes": 5963,
-      "sha256": "7690ba83d458e1c0698dfa5bef95eb07e51557f1b67980859ee7d4946a77e90f"
-    },
-    {
-      "path": "_talk/lora_v4_multibase/load_offloaded.py",
-      "bytes": 1102,
-      "sha256": "6f873024255b9665d3ac21c4fb59ca8689f9b78f1d52f57ab5d0378ca8197f8b"
-    },
-    {
-      "path": "_talk/lora_v4_multibase/offload_backend.py",
-      "bytes": 7055,
-      "sha256": "f4981b001a6fe4535ab2133e1e94f640b57571afa8e5e30537fceb653f1730a3"
-    },
-    {
-      "path": "_talk/lora_v4_multibase/model_layout.py",
-      "bytes": 7875,
-      "sha256": "16c3b89d6e4c0489646b4bce3d1c0ea36c03000c15758aec8b62a82709b75cd7"
-    },
-    {
-      "path": "_talk/lora_v4_multibase/prepare_data.py",
-      "bytes": 10690,
-      "sha256": "0c28b7ffe55fb5c43a0d0de4371d1f511f863991b9afadc897fdad6682a27e2f"
-    },
-    {
-      "path": "_talk/lora_v4_multibase/multibase_common.py",
-      "bytes": 2648,
-      "sha256": "1b78a19aa3fa1d8c6dca01a69a99cb8f9f78107d0e0f4b71cf69f2067a888f66"
-    },
-    {
-      "path": "_talk/lora_v4_multibase/probe.py",
-      "bytes": 7595,
-      "sha256": "c378747881f26d792d0b4cbcb8cf3f7441a9b39d3cba4d0242c61141491615bd"
-    },
-    {
-      "path": "_talk/lora_v4_multibase/child_guard.py",
-      "bytes": 1053,
-      "sha256": "4a713213b3a095f1cbb6436c5293d8cd6abcd9aba8b9d2ebeb5b9dd0a407affc"
+      "sha256": "c9a58fb69b0aaa49506b2036a98db387121d0161efac3fd5875f39a621d1c886",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_gemma_runtime/test_schema_constraints.py",
+      "source_sha256": "c9a58fb69b0aaa49506b2036a98db387121d0161efac3fd5875f39a621d1c886"
     },
     {
       "path": "_talk/lora_v4_multibase/atomic_state.py",
       "bytes": 1100,
-      "sha256": "a02f7acf9e0272a2f23f0a61012034bc8f379a210a38ae49a38b7357fd6d0e81"
+      "sha256": "a02f7acf9e0272a2f23f0a61012034bc8f379a210a38ae49a38b7357fd6d0e81",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_multibase/atomic_state.py",
+      "source_sha256": "a02f7acf9e0272a2f23f0a61012034bc8f379a210a38ae49a38b7357fd6d0e81"
+    },
+    {
+      "path": "_talk/lora_v4_multibase/child_guard.py",
+      "bytes": 1053,
+      "sha256": "4a713213b3a095f1cbb6436c5293d8cd6abcd9aba8b9d2ebeb5b9dd0a407affc",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_multibase/child_guard.py",
+      "source_sha256": "4a713213b3a095f1cbb6436c5293d8cd6abcd9aba8b9d2ebeb5b9dd0a407affc"
+    },
+    {
+      "path": "_talk/lora_v4_multibase/inference_models.py",
+      "bytes": 5963,
+      "sha256": "7690ba83d458e1c0698dfa5bef95eb07e51557f1b67980859ee7d4946a77e90f",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_multibase/inference_models.py",
+      "source_sha256": "7690ba83d458e1c0698dfa5bef95eb07e51557f1b67980859ee7d4946a77e90f"
+    },
+    {
+      "path": "_talk/lora_v4_multibase/load_offloaded.py",
+      "bytes": 1102,
+      "sha256": "6f873024255b9665d3ac21c4fb59ca8689f9b78f1d52f57ab5d0378ca8197f8b",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_multibase/load_offloaded.py",
+      "source_sha256": "6f873024255b9665d3ac21c4fb59ca8689f9b78f1d52f57ab5d0378ca8197f8b"
+    },
+    {
+      "path": "_talk/lora_v4_multibase/model_layout.py",
+      "bytes": 7875,
+      "sha256": "16c3b89d6e4c0489646b4bce3d1c0ea36c03000c15758aec8b62a82709b75cd7",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_multibase/model_layout.py",
+      "source_sha256": "16c3b89d6e4c0489646b4bce3d1c0ea36c03000c15758aec8b62a82709b75cd7"
+    },
+    {
+      "path": "_talk/lora_v4_multibase/multibase_common.py",
+      "bytes": 2648,
+      "sha256": "1b78a19aa3fa1d8c6dca01a69a99cb8f9f78107d0e0f4b71cf69f2067a888f66",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_multibase/multibase_common.py",
+      "source_sha256": "1b78a19aa3fa1d8c6dca01a69a99cb8f9f78107d0e0f4b71cf69f2067a888f66"
+    },
+    {
+      "path": "_talk/lora_v4_multibase/offload_backend.py",
+      "bytes": 7055,
+      "sha256": "f4981b001a6fe4535ab2133e1e94f640b57571afa8e5e30537fceb653f1730a3",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_multibase/offload_backend.py",
+      "source_sha256": "f4981b001a6fe4535ab2133e1e94f640b57571afa8e5e30537fceb653f1730a3"
+    },
+    {
+      "path": "_talk/lora_v4_multibase/prepare_data.py",
+      "bytes": 10690,
+      "sha256": "0c28b7ffe55fb5c43a0d0de4371d1f511f863991b9afadc897fdad6682a27e2f",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_multibase/prepare_data.py",
+      "source_sha256": "0c28b7ffe55fb5c43a0d0de4371d1f511f863991b9afadc897fdad6682a27e2f"
+    },
+    {
+      "path": "_talk/lora_v4_multibase/probe.py",
+      "bytes": 7595,
+      "sha256": "c378747881f26d792d0b4cbcb8cf3f7441a9b39d3cba4d0242c61141491615bd",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_multibase/probe.py",
+      "source_sha256": "c378747881f26d792d0b4cbcb8cf3f7441a9b39d3cba4d0242c61141491615bd"
     },
     {
       "path": "_talk/lora_v4_multibase/supervise_windows_after_mac_handoff.py",
       "bytes": 11951,
-      "sha256": "937d2455e0803fed823b30c5ee005fc9ca9c8c89e5b9b28a4da6618859e5a118"
+      "sha256": "937d2455e0803fed823b30c5ee005fc9ca9c8c89e5b9b28a4da6618859e5a118",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_multibase/supervise_windows_after_mac_handoff.py",
+      "source_sha256": "937d2455e0803fed823b30c5ee005fc9ca9c8c89e5b9b28a4da6618859e5a118"
+    },
+    {
+      "path": "_talk/lora_v4_planner_talk/common.py",
+      "bytes": 3946,
+      "sha256": "0cbbe40f047bb79528baf5541a21d4e4a9f4a7e72f0fb758086ba5149dc4f62e",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_planner_talk/common.py",
+      "source_sha256": "0cbbe40f047bb79528baf5541a21d4e4a9f4a7e72f0fb758086ba5149dc4f62e"
+    },
+    {
+      "path": "_talk/lora_v4_planner_talk/contracts.py",
+      "bytes": 3491,
+      "sha256": "cb6c7d5d89d6dd0e41eb03d7a8fb6dbf115e098c0c89e9f4079fb1ebf9e7bef5",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_planner_talk/contracts.py",
+      "source_sha256": "cb6c7d5d89d6dd0e41eb03d7a8fb6dbf115e098c0c89e9f4079fb1ebf9e7bef5"
+    },
+    {
+      "path": "_talk/lora_v4_planner_talk/evaluate.py",
+      "bytes": 18777,
+      "sha256": "fe371de3960ab4468403d41f959142e80c8055cc00dbf64c9fd826c6a5af184a",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_planner_talk/evaluate.py",
+      "source_sha256": "fe371de3960ab4468403d41f959142e80c8055cc00dbf64c9fd826c6a5af184a"
+    },
+    {
+      "path": "_talk/lora_v4_planner_talk/runtime.py",
+      "bytes": 3396,
+      "sha256": "1b690cae8d5b82a7aa54af1d48353615bf94bc01959035c30d0f510ddaa15785",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_planner_talk/runtime.py",
+      "source_sha256": "1b690cae8d5b82a7aa54af1d48353615bf94bc01959035c30d0f510ddaa15785"
+    },
+    {
+      "path": "_talk/lora_v4_runtime_ab/core.py",
+      "bytes": 3800,
+      "sha256": "525604354332c74d3954e103fe47d62a7bb5c18201aaa14e428812602062aaff",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_runtime_ab/core.py",
+      "source_sha256": "525604354332c74d3954e103fe47d62a7bb5c18201aaa14e428812602062aaff"
+    },
+    {
+      "path": "_talk/lora_v4_runtime_ab/embed_worker.py",
+      "bytes": 2164,
+      "sha256": "92dd9eb9fa3b754a5cfb014be614ce9996a006703743b6b05bbaa94bfd1cb4b7",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_runtime_ab/embed_worker.py",
+      "source_sha256": "92dd9eb9fa3b754a5cfb014be614ce9996a006703743b6b05bbaa94bfd1cb4b7"
+    },
+    {
+      "path": "_talk/lora_v4_runtime_ab/run.py",
+      "bytes": 17097,
+      "sha256": "69188f8219a6dae865948c57d62229e919e55f19e50a9ec79f09c84fa38f75c0",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_runtime_ab/run.py",
+      "source_sha256": "69188f8219a6dae865948c57d62229e919e55f19e50a9ec79f09c84fa38f75c0"
+    },
+    {
+      "path": "_talk/lora_v4_runtime_bc/baseline.py",
+      "bytes": 7253,
+      "sha256": "fd33d8c0892ceeccfcd38f7a7fdda0e3a75ee950d74d92710ff6b11db7db4cbb",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_runtime_bc/baseline.py",
+      "source_sha256": "fd33d8c0892ceeccfcd38f7a7fdda0e3a75ee950d74d92710ff6b11db7db4cbb"
+    },
+    {
+      "path": "_talk/lora_v4_runtime_bc/bootstrap.py",
+      "bytes": 1138,
+      "sha256": "de7822013f183307cd405480cee46cbb76604d6844765ff200caa461ee25971b",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_runtime_bc/bootstrap.py",
+      "source_sha256": "de7822013f183307cd405480cee46cbb76604d6844765ff200caa461ee25971b"
+    },
+    {
+      "path": "_talk/lora_v4_runtime_bc/consistency.py",
+      "bytes": 7341,
+      "sha256": "45fcca1e20ef78503aa832976ff396f8488419e4385783bd7dce5c0c7b2db584",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_runtime_bc/consistency.py",
+      "source_sha256": "45fcca1e20ef78503aa832976ff396f8488419e4385783bd7dce5c0c7b2db584"
+    },
+    {
+      "path": "_talk/lora_v4_runtime_bc/engine.py",
+      "bytes": 12404,
+      "sha256": "b51a4bed397e3c70ea5b04d1932f7fd8da80af5c46ddc6f2718ff3f71c3b5609",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_runtime_bc/engine.py",
+      "source_sha256": "b51a4bed397e3c70ea5b04d1932f7fd8da80af5c46ddc6f2718ff3f71c3b5609"
+    },
+    {
+      "path": "_talk/lora_v4_runtime_bc/policy.py",
+      "bytes": 7069,
+      "sha256": "a76b96adb82511b38428319ddecde499ffc2840e67e668c6958d7d612a26492f",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "lora_v4_runtime_bc/policy.py",
+      "source_sha256": "a76b96adb82511b38428319ddecde499ffc2840e67e668c6958d7d612a26492f"
     },
     {
       "path": "_talk/src/e5-embed.py",
       "bytes": 3308,
-      "sha256": "2e6fdfa9a6915062511c7b10df754ceb07875c3baae45b6e6b04309c8f5dafa3"
+      "sha256": "2e6fdfa9a6915062511c7b10df754ceb07875c3baae45b6e6b04309c8f5dafa3",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "src/e5-embed.py",
+      "source_sha256": "2e6fdfa9a6915062511c7b10df754ceb07875c3baae45b6e6b04309c8f5dafa3"
+    },
+    {
+      "path": "docs/history/SOURCE_MANIFEST-20261015.json",
+      "bytes": 10449,
+      "sha256": "c48389c2e0eeb7bfaac45c2e1af4b26ad6af17db9916d4202d7c6f7c1571e315",
+      "kind": "historical-repository-manifest"
+    },
+    {
+      "path": "docs/history/v5-20261015.md",
+      "bytes": 4772,
+      "sha256": "88a48510b8690a4289d70d73437bdd00c6d6a4a1d5b72a54ec71b8c744c93ce2",
+      "kind": "historical-repository-document"
+    },
+    {
+      "path": "requirements-cpu.txt",
+      "bytes": 84,
+      "sha256": "93e30abf08b62b3e744f6de6af6ec0809396e65755542c89692a63fe4bad1b2b",
+      "kind": "inherited-repository-file"
+    },
+    {
+      "path": "v5/ARCHITECTURE.md",
+      "bytes": 4468,
+      "sha256": "d120fbe143e24754cbb26d92661f5921f78c31fee31df1bd73a1aabcacc3f1e2",
+      "kind": "generated"
+    },
+    {
+      "path": "v5/MODELS.json",
+      "bytes": 4133,
+      "sha256": "e34d227e3943a2011f3464caae845dc9a02ec579119c4976b2c6711c87bc3faa",
+      "kind": "generated"
+    },
+    {
+      "path": "v5/PROTOCOL.json",
+      "bytes": 1904,
+      "sha256": "e984eeee33d95e82ccee59f9cbb1d53dacd22c67e0ccfbe25a4d8381941e1ef4",
+      "kind": "generated"
+    },
+    {
+      "path": "v5/REPRODUCING.md",
+      "bytes": 3065,
+      "sha256": "9f4090a2e1677bcdd6af7ef3f1df90791281a4cfd16b818ebe538dbdd65fdb1d",
+      "kind": "generated"
+    },
+    {
+      "path": "v5/STATUS.md",
+      "bytes": 3107,
+      "sha256": "68fa72c26fd628922e9cc82cfb987b4732122dfb537c79e69a8f2bd4ce56dc49",
+      "kind": "generated"
+    },
+    {
+      "path": "v5/VALIDATION.md",
+      "bytes": 1365,
+      "sha256": "0808ebb61f9605971d65f59cda82081ba81ed6cd20c848222cd7e9c7dfd49252",
+      "kind": "generated-verification-record"
+    },
+    {
+      "path": "v5/evidence/cpu_preflight.json",
+      "bytes": 11683,
+      "sha256": "720cc549f1d666b3e3fa11837d2d53941d508e88d8122ccbf9b2a10d3e939e32",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/current_continuous10_20261023_v1/cpu_preflight.json",
+      "source_sha256": "720cc549f1d666b3e3fa11837d2d53941d508e88d8122ccbf9b2a10d3e939e32"
+    },
+    {
+      "path": "v5/evidence/partial_integrity.json",
+      "bytes": 3710,
+      "sha256": "f5e427ced89e01e6682484085d25b8c4c59a2975f4bc08ad8ddaf49a6abf8eff",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/current_continuous10_postmortem_20261023_v1/partial_integrity.json",
+      "source_sha256": "f5e427ced89e01e6682484085d25b8c4c59a2975f4bc08ad8ddaf49a6abf8eff"
+    },
+    {
+      "path": "v5/evidence/partial_turns.json",
+      "bytes": 98240,
+      "sha256": "d5d0d1385b9abf782029271b6986d1494f4b755488fccb3b356bf1f047f7fe0d",
+      "kind": "derived-textual-evidence"
+    },
+    {
+      "path": "v5/evidence/planner_R0017_failure.json",
+      "bytes": 11712,
+      "sha256": "e836ed148b06dcaf0b0bb093d5451303190ab2ffb2cc41446e4f64e453116f82",
+      "kind": "derived-textual-evidence"
+    },
+    {
+      "path": "v5/evidence/report_check.json",
+      "bytes": 449,
+      "sha256": "bf60f91187238afcde236ec396e8a3e695a462d7117c0df1d6e7b7b45cdc9833",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/current_continuous10_postmortem_20261023_v1/report_check.json",
+      "source_sha256": "bf60f91187238afcde236ec396e8a3e695a462d7117c0df1d6e7b7b45cdc9833"
+    },
+    {
+      "path": "v5/evidence/result.md",
+      "bytes": 2708,
+      "sha256": "67dd252b440017e5dd760be09cab0bb881f601baf004a3c69e11c86734f9bbd1",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/current_continuous10_postmortem_20261023_v1/result.md",
+      "source_sha256": "67dd252b440017e5dd760be09cab0bb881f601baf004a3c69e11c86734f9bbd1"
+    },
+    {
+      "path": "v5/evidence/root_partial_review.json",
+      "bytes": 3248,
+      "sha256": "a513911509dc89101b517ad9a72e9b1125c794db2e152e873fc5811d4c4e298e",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/current_continuous10_postmortem_20261023_v1/root_partial_review.json",
+      "source_sha256": "a513911509dc89101b517ad9a72e9b1125c794db2e152e873fc5811d4c4e298e"
+    },
+    {
+      "path": "v5/evidence/source_identity.json",
+      "bytes": 2614,
+      "sha256": "7e40daff6cb9a74ef47b1e0a6c76a069b073ba9b72af543b630224ff57ec1d34",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/current_continuous10_20261023_v1/source_identity.json",
+      "source_sha256": "7e40daff6cb9a74ef47b1e0a6c76a069b073ba9b72af543b630224ff57ec1d34"
+    },
+    {
+      "path": "v5/evidence/speech.txt",
+      "bytes": 1321,
+      "sha256": "7762c0e07b3121b69a89c82849de1a2c45255df900e7c7965b9a9f60d534c855",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/current_continuous10_postmortem_20261023_v1/speech.txt",
+      "source_sha256": "7762c0e07b3121b69a89c82849de1a2c45255df900e7c7965b9a9f60d534c855"
+    },
+    {
+      "path": "v5/runtime/common.py",
+      "bytes": 1928,
+      "sha256": "bd4a4b23679c6612420a3f62ec6d948d7d823f6a933eb1194c0c5a86b426a39f",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/current_continuous10_20261023_v1/executed_source/common.py",
+      "source_sha256": "bd4a4b23679c6612420a3f62ec6d948d7d823f6a933eb1194c0c5a86b426a39f"
+    },
+    {
+      "path": "v5/runtime/continuous_policy.py",
+      "bytes": 3064,
+      "sha256": "67f9c36d5586c9da607c272f284751de2b0797c661baa57e8ad83a4ee7773960",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/current_continuous10_20261023_v1/executed_source/continuous_policy.py",
+      "source_sha256": "67f9c36d5586c9da607c272f284751de2b0797c661baa57e8ad83a4ee7773960"
+    },
+    {
+      "path": "v5/runtime/contract_original.py",
+      "bytes": 3165,
+      "sha256": "e00f61b838cadf2bb9ae785a50424366e20ad93b3640305b6a4650e7a8915c74",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/current_continuous10_20261023_v1/executed_source/contract_original.py",
+      "source_sha256": "e00f61b838cadf2bb9ae785a50424366e20ad93b3640305b6a4650e7a8915c74"
+    },
+    {
+      "path": "v5/runtime/contract_runtime.py",
+      "bytes": 3165,
+      "sha256": "543cd52feebb061712ecdc410f2e77208ed38a4dce8c5a0ab2fa8075b87110f6",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/current_continuous10_20261023_v1/executed_source/contract_runtime.py",
+      "source_sha256": "543cd52feebb061712ecdc410f2e77208ed38a4dce8c5a0ab2fa8075b87110f6"
+    },
+    {
+      "path": "v5/runtime/driver_cpu.py",
+      "bytes": 13056,
+      "sha256": "7249db3a88e406adbbb9b95f575eaf10bafdb486334c4892fb09c45d89b9afa1",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/current_continuous10_20261023_v1/executed_source/driver_cpu.py",
+      "source_sha256": "7249db3a88e406adbbb9b95f575eaf10bafdb486334c4892fb09c45d89b9afa1"
+    },
+    {
+      "path": "v5/runtime/fact_contract.json",
+      "bytes": 5272,
+      "sha256": "36b5e48351fc6d8e8663246a6bb4ec6993778ea6706aa21531fcf03278d80f49",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/current_continuous10_20261023_v1/executed_source/fact_contract.json",
+      "source_sha256": "36b5e48351fc6d8e8663246a6bb4ec6993778ea6706aa21531fcf03278d80f49"
+    },
+    {
+      "path": "v5/runtime/finalize_cpu.py",
+      "bytes": 4172,
+      "sha256": "f14ecc59738bb4f43b07bbe50e5cb872c402b5b622b81e152ab616b9e224fded",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/current_continuous10_20261023_v1/executed_source/finalize_cpu.py",
+      "source_sha256": "f14ecc59738bb4f43b07bbe50e5cb872c402b5b622b81e152ab616b9e224fded"
+    },
+    {
+      "path": "v5/runtime/flow_apply.py",
+      "bytes": 5356,
+      "sha256": "5a702f70baa100c2c90f23103f04fac8f8d3865ddf1fa7cd353fa9730072c18b",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/current_continuous10_20261023_v1/executed_source/flow_apply.py",
+      "source_sha256": "5a702f70baa100c2c90f23103f04fac8f8d3865ddf1fa7cd353fa9730072c18b"
+    },
+    {
+      "path": "v5/runtime/gpu_worker.py",
+      "bytes": 5952,
+      "sha256": "e8c736f71f4e8d5e100571ca5919efe24bbd20dce1b45af2f504892169a8a995",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/current_continuous10_20261023_v1/executed_source/gpu_worker.py",
+      "source_sha256": "e8c736f71f4e8d5e100571ca5919efe24bbd20dce1b45af2f504892169a8a995"
+    },
+    {
+      "path": "v5/runtime/observe_cpu.py",
+      "bytes": 7379,
+      "sha256": "3031672d258d53c358021eff592c10cb7142470d978100f4903ce1aadb58547d",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/current_continuous10_20261023_v1/executed_source/observe_cpu.py",
+      "source_sha256": "3031672d258d53c358021eff592c10cb7142470d978100f4903ce1aadb58547d"
+    },
+    {
+      "path": "v5/runtime/prepare_cpu.py",
+      "bytes": 7894,
+      "sha256": "12a249f14cfc84df3b7e4137687e65688f1cf5a3d2e735fa6d4389e34711159b",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/current_continuous10_20261023_v1/executed_source/prepare_cpu.py",
+      "source_sha256": "12a249f14cfc84df3b7e4137687e65688f1cf5a3d2e735fa6d4389e34711159b"
+    },
+    {
+      "path": "v5/runtime/request_protocol.py",
+      "bytes": 1512,
+      "sha256": "ecbe1a33ef1cc2b0d01d8c013ec599503844ea92534c68dedf58cb2b3bd17489",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/current_continuous10_20261023_v1/executed_source/request_protocol.py",
+      "source_sha256": "ecbe1a33ef1cc2b0d01d8c013ec599503844ea92534c68dedf58cb2b3bd17489"
+    },
+    {
+      "path": "v5/runtime/run_cpu.py",
+      "bytes": 7509,
+      "sha256": "b6fbae5bd85828b12e0ae2e0397ce84f9c3d270da61609cb706213d5548b6cb3",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/current_continuous10_20261023_v1/executed_source/run_cpu.py",
+      "source_sha256": "b6fbae5bd85828b12e0ae2e0397ce84f9c3d270da61609cb706213d5548b6cb3"
+    },
+    {
+      "path": "v5/runtime/runtime.py",
+      "bytes": 4794,
+      "sha256": "9be06fa22b2b2f268e230335e6996e8d059e08b6e3ba7c90578db77bfb8a4f4e",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/current_continuous10_20261023_v1/executed_source/runtime.py",
+      "source_sha256": "9be06fa22b2b2f268e230335e6996e8d059e08b6e3ba7c90578db77bfb8a4f4e"
+    },
+    {
+      "path": "v5/runtime/sources/fixtures_20.json",
+      "bytes": 14745,
+      "sha256": "146ba90eadb3b3c2d38c4171503542eb4dd19e49abf77037829ded28cf36c1ee",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/current_continuous10_20261023_v1/executed_source/sources/fixtures_20.json",
+      "source_sha256": "146ba90eadb3b3c2d38c4171503542eb4dd19e49abf77037829ded28cf36c1ee"
+    },
+    {
+      "path": "v5/runtime/startup_import_probe.py",
+      "bytes": 112,
+      "sha256": "f4627b46e8635a43e60c38190e0ec2e139f97c5c5bb9e9d8a4c3748028fd22a3",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/current_continuous10_20261023_v1/executed_source/startup_import_probe.py",
+      "source_sha256": "f4627b46e8635a43e60c38190e0ec2e139f97c5c5bb9e9d8a4c3748028fd22a3"
+    },
+    {
+      "path": "v5/runtime/token_journal.py",
+      "bytes": 901,
+      "sha256": "fd86eae0677c6ff0619c80c534783bfad02c329d58ac58faaf4c6b895ef8de1e",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/current_continuous10_20261023_v1/executed_source/token_journal.py",
+      "source_sha256": "fd86eae0677c6ff0619c80c534783bfad02c329d58ac58faaf4c6b895ef8de1e"
+    },
+    {
+      "path": "v5/runtime/vendor/alpha.py",
+      "bytes": 23198,
+      "sha256": "dfe51dca50c646c32727fc29ff9578e154f3f75c9adc8a5575c21f139ace024e",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/current_continuous10_20261023_v1/executed_source/vendor/alpha.py",
+      "source_sha256": "dfe51dca50c646c32727fc29ff9578e154f3f75c9adc8a5575c21f139ace024e"
+    },
+    {
+      "path": "v5/tools/test_snapshot.py",
+      "bytes": 4481,
+      "sha256": "11e1ba775c9efced07f9fd80855632c79509c2c44b1026678739f12d5793aac8",
+      "kind": "generated-verification-tool"
+    },
+    {
+      "path": "v5/tools/verify_snapshot.py",
+      "bytes": 1708,
+      "sha256": "ac3ed8fd7f0a867cecbe4b0b31b001ff81a019e748cdd0d0f7a7dc4a8fbfc9fe",
+      "kind": "generated-verification-tool"
     }
   ]
 }

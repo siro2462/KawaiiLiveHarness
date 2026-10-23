@@ -1,67 +1,36 @@
-# ZIPちゃん Harness
+# ZIPちゃん Harness v5
 
-Gemma 4 26B-A4BのPlanner / Talkを接続するHarness v5のソースです。`v5`タグを現在の実装の基準点とします。
+**現行構成の保存版：v5-current-20261023。研究中のオフラインRuntimeです。**
 
-## 構成
+記憶α → 既存Base Planner LoRA → Flow→Fact適用 → 新Instruct Surface LoRA → 形式確認 → テキスト履歴・提示進捗 → 次のPlanner、という現在の経路をソースと実験結果ごと保存しています。Semantic Guardは現行発話経路で使用していません。
 
-| 場所 | 内容 |
-|---|---|
-| [`_talk/lora_v4_gemma_runtime/`](./_talk/lora_v4_gemma_runtime/) | v5本体、CPUテスト、設計資料、実モデル評価用スクリプト |
-| `_talk/lora_v4_planner_talk/` | 継承したPlanner / Talk契約、Event Store、評価処理 |
-| `_talk/lora_v4_runtime_ab/` | 継承した検索・反復検知・CPU embedding接続 |
-| `_talk/lora_v4_runtime_bc/` | 変更前のB / C / BCの比較用Runtime |
-| `_talk/lora_v4_multibase/` | 既存の推論・オフロード・tokenizer・プロセス監視の参照コード |
-| `_talk/src/e5-embed.py` | CPU E5の呼び出し元が参照するスクリプト |
-| [`SOURCE_MANIFEST.json`](./SOURCE_MANIFEST.json) | 元ソースと同じバイト列を保存したファイルのサイズとSHA-256 |
+- [アーキテクチャ全体](v5/ARCHITECTURE.md)
+- [現行Runtimeのソース](v5/runtime/)
+- [固定モデル・adapterの版とSHA](v5/MODELS.json)
+- [現在の条件](v5/PROTOCOL.json)
+- [実験結果・未解決事項](v5/STATUS.md)
+- [停止までの8発話全文](v5/evidence/speech.txt)／[停止原因](v5/evidence/result.md)
+- [復元時の配置とCPU検査](v5/REPRODUCING.md)
+- [元ソースとのSHA台帳](SOURCE_MANIFEST.json)
 
-既存コードの相対参照を保つため、元のディレクトリ名を維持しています。旧モデル名を含む共通コードもありますが、モデル本体・LoRAは含みません。
+## 現在の到達点
 
-## v5の主な処理
+短い発話を実際のテキスト履歴へ戻す経路は動作しています。指定したGold焦点をSurfaceへ届ける4例も確認済みです。学習済みPlannerによる有効な焦点変更や、Bより自然になる効果は未証明です。
 
-- PlannerのJSON Schema制約付き生成と、出力全体の厳密検証。部分JSONの救出は行いません。
-- pending / active / last valid Planの分離、期限管理、根拠MemoryのID・本文・ハッシュ照合。
-- Memoryの保存と今回の発話への選択を分離。検証とTalk入力で同じ根拠を使用。
-- Planner / Talkへ渡すRecentは直近3発話。再生確定の全文はEvent Storeに保存し、事実確認済みとは扱いません。
-- 生成例外の分類、限定した再試行、PlanなしFallback、反復・異常出力・一部の事実改変の検知。
-- 未再生の破棄候補は確定発話履歴に追加しません。現在の評価は模擬再生です。
+最新の約10分相当テストは、8発話429字の時点で9回目PlannerがJSONを閉じられず停止しました。実行は失敗終了で、10分目標は未達です。停止時のコードをそのまま保存し、JSON不正時の継続処理は追加していません。CPU検査251項目の成功と、長時間生成の成功・意味品質は区別しています。
 
-会話内容の選択はPlannerが担当します。CPUの事実検査は限定的な字句・形態素ルールであり、通過しても事実性を保証しません。
+## バージョンの対応
 
-## 現在の検証状況（2026-10-15）
+- 既存の`v5`タグ：2026-10-15時点の初回スナップショット。変更しません。
+- `v5-20261023`：現在のα・新Surface・漸次Runtimeと既知の失敗を含む保存点。
+- `_talk/lora_v4_gemma_runtime/`などは継承した依存・過去Runtimeです。現在の入口は`v5/runtime/run_cpu.py`です。古いディレクトリ名のv4/v5や過去READMEを、現行の品質判定と混同しないでください。
+- [2026-10-15版README](docs/history/v5-20261015.md)も保持しています。
 
-- 元環境のCPUテストは62件成功。
-- 今回のGit用コピーでもCPU検査32件を実行し、31件成功・実tokenizer未同梱の1件をskip。元環境の分離済み依存を利用し、環境変更は行っていません。
-- 固定Gemma / LoRAによる短い結合試験、固定36条件、Memory選択、MemorySwap、未使用ケース、追加seed、2,700字の長尺生成を実行済み。
-- 長尺は63ターン、模擬再生62件・2,700字。4.5字/秒換算の600秒相当で、実TTSの10分試験ではありません。
-- 全入出力を保存し、全文レビューは途中です。学習・生成の完了と、雑談品質の合格を区別しています。意味反復や根拠のない具体的経験は残っています。
-- αは入力契約のみです。Recall / Association / 自発的な提案・待機判断の本体は未実装です。
-
-設計文書は作成時点の記録です。「未実施」などの記述は、このREADMEの状況より古い場合があります。
-
-## 実行条件
-
-これは**ソースのみのスナップショット**です。モデル、LoRA、tokenizer、量子化cache、Memory DB、学習素材、保存済み実験、生成ログ、第三者依存、認証情報は含みません。
-
-推論コードには既存資産の配置・ハッシュ・保存runを確認する処理が残っています。cloneだけでは実推論を開始できません。詳細は[`DEPENDENCIES.md`](./DEPENDENCIES.md)を参照してください。
-
-### 外部モデル資産を使わないCPU検査
-
-リポジトリのルートで専用環境を用意します。
+このリポジトリはソース・合成fixture・限定した実験証跡の保存です。モデル本体、LoRA重量、tokenizer、量子化cache、教師原文、元配信ZIP、記憶DB、環境・認証情報は含みません。cloneのみで推論は開始できません。外部資産の条件は[DEPENDENCIES.md](DEPENDENCIES.md)を参照してください。
 
 ```powershell
-python -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r requirements-cpu.txt
-cd _talk/lora_v4_gemma_runtime
-..\..\.venv\Scripts\python.exe -X utf8 -m unittest test_review_integration test_runtime_state test_evaluation_plumbing -v
+python -X utf8 -B v5/tools/verify_snapshot.py
+python -X utf8 -B v5/tools/test_snapshot.py -v
 ```
 
-実Gemma tokenizerを必要とする1件は、未配置なら明示的にskipします。他の回帰テストは元の保存runやtokenizerが必要です。全62件をこのリポジトリ単独で再現できるという意味ではありません。
-
-## 主な設計資料
-
-- [v5 / α設計](./_talk/lora_v4_gemma_runtime/design_v5_alpha.md)
-- [根拠・Context・Fallbackの実装方針](./_talk/lora_v4_gemma_runtime/grounded_implementation_plan.md)
-- [レビュー修正方針](./_talk/lora_v4_gemma_runtime/review_fix_plan.md)
-- [CPU事実検査ケースと限界](./_talk/lora_v4_gemma_runtime/fact_validation_cases.md)
-
-初回登録では元のRuntimeソースを変更していません。学習・推論の追加実行も行っていません。
+上の2つは標準ライブラリだけのソース・契約・保存fixture検査で、モデルの生成や学習を実行しません。
