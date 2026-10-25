@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "technical_integrity": "pass",
+  "full_root_review_done": true,
+  "quality_is_not_certified": true,
+  "target_met": true,
+  "planner_format_fallbacks": 5,
+  "actual_tts": false,
+  "human_quality_labels": 0,
+  "finished_jst": "2026-10-24T02:43:56.032609+09:00",
+  "report_sha256": "c3d7b20752b7c4e8b29c24bff94ac397f538ff796198a68ebb3f238ee3d19b8f"
+}

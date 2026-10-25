@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "thread_id": "01a0a3fd-e058-7bd0-abbd-951f2864ba0e",
+  "cutoff_ordinal": 44140,
+  "cutoff_item_id": "01a17072-6372-7c40-9875-e76a27228147",
+  "current_counts": {
+    "human_chars": 1961,
+    "memory_chars": 416,
+    "ai_chars": 730,
+    "per_memory": [
+      {
+        "id": "H04",
+        "human_chars": 359,
+        "memory_chars": 72,
+        "ai_chars": 119
+      },
+      {
+        "id": "H05",
+        "human_chars": 288,
+        "memory_chars": 99,
+        "ai_chars": 171
+      },
+      {
+        "id": "H06",
+        "human_chars": 569,
+        "memory_chars": 117,
+        "ai_chars": 226
+      },
+      {
+        "id": "H07",
+        "human_chars": 745,
+        "memory_chars": 128,
+        "ai_chars": 214
+      }
+    ],
+    "ai_openings": [
+      "イベントの前、あ、あのガチャを偶然見",
+      "あと、あの、先着40名のグリーティン",
+      "あと、あの、射的もやったんですけど、",
+      "あと、ガラポンもやったんですけど、1",
+      "A賞の景品って、あそこにもたくさん置"
+    ],
+    "ai_phrase_counts": {
+      "そういえば": 0,
+      "あと、あの、": 2,
+      "あと、": 3,
+      "あの": 5,
+      "んですけど": 5,
+      "んだよね": 0
+    },
+    "calls": 10,
+    "model_seconds": 808.569,
+    "wall_seconds": 1153.943616,
+    "schema_valid": 5,
+    "use_memory_true": 1,
+    "applied_plans": 0,
+    "order_changes": 0,
+    "all_selected_order": [
+      "H04",
+      "H05",
+      "H07",
+      "H06"
+    ],
+    "surface_candidates": 5,
+    "text_delivered": 5,
+    "source_memory_items_presented": 9,
+    "new_model_calls": 10,
+    "prefix_reused_calls": 0,
+    "training_updates": 0,
+    "semantic_guard_calls": 0,
+    "quality_retries": 0,
+    "human_quality_labels": 0
+  },
+  "known_limits": [
+    "1seed/4話題/4Memory9複合項目。人間の編集済み保存文字起こしで元音声/実分数未確認。",
+    "既存Memoryに圧縮欠落・主観断定化あり、生成ミスと混同しない。原文の全情報をモデルは持たない。",
+    "αはTF-IDF代理・候補4件限定。初期cue指定、選択順自由。新Memoryにsidecarなしで固定順fallbackになり得る。",
+    "原文やGold Planは生成へ見せない。人間品質ラベル0・設計者AI既知条件。未使用完全blind評価ではない。",
+    "全9項目提示/支持候補切れで短くても正常終了。人間同量へ水増ししない。意味状態unverified、実TTS/Guard/学習/Memory昇格なし。",
+    "完成結果でも人間0/設計者AI既知条件。実測run19分14秒、モデル生成内808.569秒。730字を250字/分なら2.92分相当、実音声時間ではない。",
+    "PlannerのPlanは全件非適用で、現構成による生成例だが有効な再計画を示さない。人間の語りの再現と概要生成は異なる。"
+  ],
+  "quality_status": "not_approved_for_production",
+  "observed_jst": "2026-10-25T09:34:09.236798+09:00",
+  "snapshot_version": "v5-current-20261025",
+  "execution_status": "complete",
+  "conclusion": "不正Plannerの固定順継続を含む現行ソースと、10分相当完走・人間比較の完了結果をこの保存版に収録。連続発話は成立、事実保持/自然な語り/有効なPlanner再計画は課題として残る。",
+  "confirmed": [
+    "現行構成：記憶α（TF-IDF代理/タグ/1-hop）＋既存Base Planner LoRA＋新Instruct Surface LoRA（61例1epoch8更新）。Guardなしオフライン、実生成履歴直近2発話800字。",
+    "51発話2503字の長文継続と人間原文1961→Memory416→AI730字の比較は既存結果として完了を再照合。実音声なし。",
+    "人間比較では全弾成功への強化/バッグ所有関係の誤り、表現・展開の圧縮。Planner適用0/順序変更0。10/24全文レビューを継承、今回全生成本文を新規採点していない。",
+    "対象runの監視10-planner/memoryは削除済み。追加生成/追加学習/新規配備を今回起動していない。"
+  ],
+  "next_checkpoints": [
+    "未実施・追加実行なし：数量/所有者/主観と確実性/原文の展開関係を明示した記憶入力との少数対照。",
+    "未実証：学習済みPlannerが実発話を受け、有効な次焦点を選び、適用されて自然さを改善すること。",
+    "未実施：独立した人間の品質評価。1seed/設計者AI既知条件/保存済み評価素材の限界を維持。"
+  ],
+  "code_publication": {
+    "branch": "codex/v5-current-20261023",
+    "new_tag": "v5-20261025",
+    "previous_snapshot_commit": "77bbb7b57465fb2aab154121eaece62710d524e0",
+    "this_commit": "Read git HEAD; commit SHA is intentionally not self-embedded",
+    "old_tags_unchanged": true
+  },
+  "references": {
+    "continuous10": "../evidence/continuous10_20261024/result.md",
+    "human_compare": "../evidence/human_memory_compare_20261024/result.md",
+    "runtime": "../runtime/"
+  },
+  "quality_review_provenance": "Full text review inherited from2026-10-24. This publish task checks source/evidence integrity, not a new model generation or semantic rerating.",
+  "human_quality_labels": 0,
+  "publication_scope": "Current checkpoint and research outcomes, not private chat/tool SQLite or full transcript corpora",
+  "current_runtime": {
+    "memory": "fixed TF-IDF alpha/tags/1-hop",
+    "planner": "fixed Base Planner LoRA checkpoint0040, four-key JSON",
+    "surface": "fixed Instruct Surface LoRA61 train/1epoch8updates",
+    "semantic_guard": false,
+    "history": "last2 delivered utterances/800chars",
+    "progress": "presentation/delivery != verified semantic coverage",
+    "invalid_plan": "preserve raw, discard, continue fixed source order, no quality retry"
+  }
+}

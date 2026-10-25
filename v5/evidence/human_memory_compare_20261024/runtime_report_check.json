@@ -1,0 +1,8 @@
+{
+  "status": "pass",
+  "turns": 5,
+  "all_bodies_raw_inputs_plans_present": true,
+  "review_sha256": "1fa48149d826d1945885772e1774d2092b8cee49d08821a144e58187669b884e",
+  "html_sha256": "f0c091293a587e185a7c9d0160e5bbacfcce2152fbaef090bb6f01367cadf333",
+  "speech_sha256": "a23f68c7b108d42a47d528634d1b26d0cb4d9a40c78292a9bb4de22a08707be2"
+}

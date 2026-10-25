@@ -16,7 +16,7 @@ def main():
   text=p.read_text(encoding='utf-8-sig')
   for pattern in secret_patterns:assert not re.search(pattern,text),('credential-like value in',x['path'])
   if p.suffix=='.py':ast.parse(text,filename=x['path']);syntax+=1
-  if a.source_talk and x['kind']=='source-byte-preserving':
+  if a.source_talk and x['kind'] in ('source-byte-preserving','saved-evidence-byte-preserving'):
    s=a.source_talk/x['source_relative_to_talk'];assert sha(s)==x['source_sha256']==x['sha256'],x['path'];source_checked+=1
   total+=x['bytes']
  print(json.dumps(dict(status='pass',version=manifest['version'],files=len(manifest['files']),python_syntax=syntax,bytes=total,original_sources_checked=source_checked,model_calls=0,network=False),ensure_ascii=False))

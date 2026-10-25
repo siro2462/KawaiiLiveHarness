@@ -1,13 +1,12 @@
 {
-  "experiment": "current_fixed_alpha_planner_surface_continuous_offline",
-  "created_jst": "2026-10-23T17:05:03.633778+09:00",
+  "experiment": "current_fixed_continuous10_invalid_plan_fallback",
+  "created_jst": "2026-10-24T00:12:20.939854+09:00",
   "seeds": [
     20260925
   ],
   "max_calls": 110,
   "max_surface_calls": 55,
   "max_replan_calls": 55,
-  "prefix_reuse": [],
   "target_chars": 2500,
   "chars_per_minute_assumption": 250,
   "history_window": {
@@ -20,7 +19,7 @@
   "real_tts": false,
   "production": false,
   "initial_plan_cache": {},
-  "stop_on_invalid_plan": true,
+  "stop_on_invalid_plan": false,
   "eligible_memory_ids": [
     "F01",
     "F02",
@@ -46,12 +45,23 @@
   "new_orchestration_notes": [
     "Alpha chooses an unseen eligible synthetic Memory from actual generated recent text; initial seed and one broad-cue fallback are disclosed.",
     "Current Memory pinned until each source Fact was presented once; presentation is not semantic confirmation.",
-    "Learned Planner called before every Surface utterance; no cached or Gold Plans. Fixed schema, prompt and Flow application.",
     "Original source Flow sidecar only covers F01/F08/F13; others retain existing fixed-source-order fallback.",
-    "No retries for quality or invalid Plan. Stop with saved partial evidence on schema failure.",
-    "Target is text amount; stop at utterance boundary or eligible-source exhaustion, no padding."
+    "Target is text amount; stop at utterance boundary or eligible-source exhaustion, no padding.",
+    "Only invalid Planner schema changes from abort to fixed-source-order continuation; failed RAW is retained, never repaired or retried.",
+    "Old17 outputs are exact-input SHA-verified replay, including the failed ninth Plan; no quality regeneration.",
+    "Source native/controller exits1 remain preserved; the new runtime requires its own exits0."
   ],
+  "planner_invalid_policy": "preserve_raw_discard_plan_fixed_source_order_no_retry",
+  "reuse_scope": "first17 requests require exact complete input/context and SHA equality, then continue from R0018",
+  "max_new_model_calls": 93,
   "models": "MODELS.json",
-  "original_protocol_sha256": "e62f8ee78d325f48da0bcda31fe1d45ed97f1eff82068cf5a787aceea37b6e1e",
-  "external_freeze_manifest_notice": "The original absolute-path freeze manifest remains in the local immutable run. This export freezes each bundled source in SOURCE_MANIFEST.json; it is not a relocatable ready-to-run protocol."
+  "original_protocol_sha256": "39b6fa025582fe911a77b0cafb4953c6f02b1618b7f7e2b91ee429ece04f7f20",
+  "source_run_relative_to_talk": "harness_beta/runs/current_continuous10_fallback_20261024_v1",
+  "prefix_reuse_summary": {
+    "count": 17,
+    "new_model_generation": false,
+    "source_run": "current_continuous10_20261023_v1",
+    "previous_exit": 1
+  },
+  "export_notice": "Conditions and provenance only; original local protocol and external freeze manifest are required to run. This is not a ready-to-run protocol."
 }

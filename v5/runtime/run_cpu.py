@@ -5,7 +5,7 @@ from driver_cpu import Driver
 from continuous_policy import *
 
 def rollout(a,d,cfg,es,state):
- from planner_policy import parse_plan
+ from planner_delivery import resolve
  from contract_runtime import render
  eligible=set(cfg['eligible_memory_ids']);records=[];plans=[];selections=[];completed=[]
  m=None;p=None;previous_memory=None;previous_plan=None;shared=[];summary='';chars=0;stop=None
@@ -21,10 +21,9 @@ def rollout(a,d,cfg,es,state):
   recent='\n'.join(x['text'] for x in es.recent());request,context=make_planner_request(m,recent,previous_plan,p.snapshot())
   before_plan=p.snapshot();pcid,raw=d.call('planner',request,cfg['seeds'][0],context)
   entry=dict(call_id=pcid,turn=len(records)+1,memory_id=m['id'],planner_input=context['planner_input'],request=request,raw=raw,before=before_plan)
-  try:plan=parse_plan(raw['text'],[m['id']]);entry.update(plan=plan,syntax_valid=True)
-  except (ValueError,TypeError,KeyError) as e:
-   entry.update(plan=None,syntax_valid=False,error=str(e));write(OUT/'plans'/(pcid+'.json'),entry)
-   raise ValueError('Planner schema invalid; saved raw output, no quality retry: '+pcid) from e
+  resolution=resolve(raw['text'],[m['id']]);plan=resolution['plan'];entry.update(resolution)
+  if resolution['format_fallback']:
+   es.append('planner_format_fallback',dict(call_id=pcid,error=resolution['error'],policy=resolution['fallback_policy'],source_fact_promotion=False,quality_retry=False))
   p.reorder(plan);entry['after_mapping']=p.snapshot();write(OUT/'plans'/(pcid+'.json'),entry);plans.append(entry)
   ids=p.focus('C');h=history(es);case=surface_case(m,ids,h,shared,summary,f'L-T{len(records)+1:03}')
   before=p.snapshot();p.presented(ids)
@@ -33,18 +32,18 @@ def rollout(a,d,cfg,es,state):
   if reason:es.append('format_held',dict(call_id=cid,body=body,reason=reason,no_semantic_judge=True))
   else:ev=es.append('text_delivery_confirmed',dict(call_id=cid,text=body,memory_id=m['id'],actual_audio=False,semantic_status='unverified',source_fact_promotion=False))
   p.finish(ids,body,ev);observe_alpha(a,m,p,ev is not None)
-  row=dict(turn=len(records)+1,call_id=cid,planner_call_id=pcid,memory_id=m['id'],source_memory=m,source_facts=facts_for(m),case=case,body=body,raw_output=out['raw_output'],delivered=ev is not None,format_reason=reason,repetition_log=repetition_observation(body,h),event_seq=ev,before=before,after=p.snapshot(),plan=plan,semantic_status='unverified',semantic_guard_used=False)
+  row=dict(turn=len(records)+1,call_id=cid,planner_call_id=pcid,memory_id=m['id'],source_memory=m,source_facts=facts_for(m),case=case,body=body,raw_output=out['raw_output'],delivered=ev is not None,format_reason=reason,repetition_log=repetition_observation(body,h),event_seq=ev,before=before,after=p.snapshot(),plan=plan,planner_syntax_valid=resolution['syntax_valid'],planner_format_fallback=resolution['format_fallback'],planner_error=resolution['error'],semantic_status='unverified',semantic_guard_used=False)
   records.append(row);write(OUT/'turns'/f'T{len(records):03}.json',row)
   chars=sum(count_chars(r['body']) for r in records if r['delivered'])
   (OUT/'speech.txt').write_text('\n\n'.join(r['body'] for r in records if r['delivered'])+'\n',encoding='utf-8')
   write(OUT/'continuous_partial.json',dict(records=records,plans=plans,selections=selections,completed_memories=completed,delivered_chars=chars))
-  state.update(surface_candidates=len(records),text_delivered=sum(r['delivered'] for r in records),delivered_chars=chars,planner_calls=len(plans));write(OUT/'controller.json',state)
+  state.update(surface_candidates=len(records),text_delivered=sum(r['delivered'] for r in records),delivered_chars=chars,planner_calls=len(plans),planner_format_fallbacks=sum(x['format_fallback'] for x in plans));write(OUT/'controller.json',state)
   previous_plan=plan
   if not p.pending():completed.append(p.snapshot());previous_memory=m;m=None;p=None
   if chars>=cfg['target_chars']:stop='target_chars_reached';break
   if m is None and len(completed)==len(eligible):stop='all_eligible_source_presented';break
  if stop is None:stop='target_chars_reached'
- result=dict(records=records,plans=plans,selections=selections,completed_memories=completed,unfinished_progress=p.snapshot() if p else None,delivered_chars=chars,estimated_minutes=chars/cfg['chars_per_minute_assumption'],target_chars=cfg['target_chars'],target_met=chars>=cfg['target_chars'],stop_reason=stop,semantic_guard_calls=0,actual_tts=False,human_quality_labels=0,quality_retries=0)
+ result=dict(records=records,plans=plans,selections=selections,completed_memories=completed,unfinished_progress=p.snapshot() if p else None,delivered_chars=chars,estimated_minutes=chars/cfg['chars_per_minute_assumption'],target_chars=cfg['target_chars'],target_met=chars>=cfg['target_chars'],stop_reason=stop,planner_format_fallbacks=sum(x['format_fallback'] for x in plans),prefix_reused_calls=len(cfg['prefix_reuse']),new_model_calls=d.n-len(cfg['prefix_reuse']),semantic_guard_calls=0,actual_tts=False,human_quality_labels=0,quality_retries=0)
  write(OUT/'continuous_result.json',result);return result
 
 def main():

@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "technical_integrity": "pass",
+  "full_root_review_done": true,
+  "quality_is_not_certified": true,
+  "target_met": false,
+  "planner_format_fallbacks": 0,
+  "actual_tts": false,
+  "human_quality_labels": 0,
+  "finished_jst": "2026-10-24T10:13:44.428617+09:00",
+  "report_sha256": "935d3b499d0c880ae49a3d1f4fb9dd562604836f3f97b6572cd958d54e6c1c5e",
+  "goal": "human-vs-memory-derived diagnostic comparison, not length matching",
+  "all_source_targets_presented": true
+}

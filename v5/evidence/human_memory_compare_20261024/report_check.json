@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "human_reference_topics": 4,
+  "ai_turns": 5,
+  "all_reference_memory_ai_text_present": true,
+  "runtime_inputs_raw_report": "runtime_details.html",
+  "html_sha256": "bc46bb7e30b16f08d24b3957d7d49a7de0c35577cb2b96327b95101706ad7d27",
+  "speech_sha256": "a23f68c7b108d42a47d528634d1b26d0cb4d9a40c78292a9bb4de22a08707be2",
+  "human_sha256": "7972222e9054e23f933ea6506b50e8544ab305f6d0d28b94e1b9610971c590d5"
+}

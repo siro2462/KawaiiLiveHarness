@@ -17,7 +17,7 @@ def main():
   blocks+=['<article><h2>T'+str(row['turn']).zfill(3)+' '+esc(row['memory_id'])+(' 採用' if row['delivered'] else '形式保留')+'</h2><div class="speech">'+esc(row['body'])+'</div><p>'+esc(row['format_reason'] or '')+'</p><details><summary>評価</summary><pre>'+esc(json.dumps(rv,ensure_ascii=False,indent=2))+'</pre></details>']
   for title,key in [('元Fact','source_facts'),('実際の履歴','case'),('Planner実入力','actual_planner_request'),('Planner RAW','actual_planner_output'),('Plan適用','plan_application'),('Surface実入力','actual_surface_request'),('Surface RAW','actual_surface_output'),('進捗','after')]:
    blocks+=['<details><summary>'+title+'</summary><pre>'+esc(json.dumps(row[key],ensure_ascii=False,indent=2))+'</pre></details>']
-  blocks+=['</article>']
+  blocks+=['<details><summary>Surface RAW文字列</summary><pre>'+esc(row['raw_output'])+'</pre></details></article>']
  blocks+=['<details><summary>記憶α選択ログ全文</summary><pre>'+esc(json.dumps(packet['selections'],ensure_ascii=False,indent=2))+'</pre></details></html>']
  doc='\n'.join(blocks);(OUT/'comparison.html').write_text(doc,encoding='utf-8')
  result='# 現行構成・連続発話\n\n'+summary+'\n\n## 実行記録\n\n'+json.dumps({k:v for k,v in audit.items() if k!='entries'},ensure_ascii=False,indent=2)+'\n\n実測生成時間、文字量からの推定時間、実音声時間は別。音声は未作成。\n'
@@ -25,6 +25,6 @@ def main():
  assert doc.count('<article>')==len(expected)
  for row in packet['turns']:assert esc(row['body']) in doc and esc(row['raw_output']) in doc
  write(OUT/'report_check.json',dict(status='pass',turns=len(expected),all_bodies_raw_inputs_plans_present=True,review_sha256=sha(OUT/'root_review.json'),html_sha256=sha(OUT/'comparison.html'),speech_sha256=sha(OUT/'speech.txt')))
- write(OUT/'completion.json',dict(status='complete',technical_integrity='pass',full_root_review_done=True,quality_is_not_certified=True,actual_tts=False,human_quality_labels=0,finished_jst=now(),report_sha256=sha(OUT/'result.md')))
+ write(OUT/'completion.json',dict(status='complete',technical_integrity='pass',full_root_review_done=True,quality_is_not_certified=True,target_met=rr['target_met'],planner_format_fallbacks=rr['planner_format_fallbacks'],actual_tts=False,human_quality_labels=0,finished_jst=now(),report_sha256=sha(OUT/'result.md')))
  print(json.dumps(dict(status='complete',turns=len(expected),chars=audit['delivered_chars'],target_met=rr['target_met']),ensure_ascii=False))
 if __name__=='__main__':main()

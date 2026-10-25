@@ -1,0 +1,9 @@
+{
+  "automation_id": "10-planner",
+  "status": "deleted",
+  "completion_notification": "Full comparison/speech/result links sent in commentary before deletion",
+  "deletion_tool": "automation_update(mode=delete,id=10-planner)",
+  "deletion_result": "deleteStatus=deleted",
+  "completed_jst": "2026-10-24T02:46:34.328794+09:00",
+  "scope": "only this heartbeat; no model or other process stopped"
+}

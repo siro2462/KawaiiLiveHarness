@@ -1,0 +1,35 @@
+{
+  "status": "pass_for_diagnostic_input_integrity_not_semantic_equivalence",
+  "human_chars": 1961,
+  "memories": 4,
+  "memory_items": 9,
+  "reference": "Consecutive complete YAML topics4-7. No original audio/timestamps verified.",
+  "current_surface_training_speaker_overlap": 0,
+  "planner_pilot_training_group_overlap": 0,
+  "prior_evaluation_exposure": "Existing reverse-extracted test materials; not a pristine new blinded benchmark. Base pretraining exposure unknown.",
+  "memory_facts_verbatim_existing": true,
+  "human_target_never_used_as_history_or_prompt": true,
+  "source_order_not_in_alpha": true,
+  "fixture_namespace_notice": "synthetic_fixture is the unchanged isolated test authority required by current runtime, not a claim these were invented events or ZIP canon.",
+  "pre_generation_memory_limits": [
+    {
+      "memory": "H04",
+      "issue": "3台くらい in source is compressed as3台. Original uncertainty may be reduced."
+    },
+    {
+      "memory": "H05",
+      "issue": "気まずくなった is an existing interpretation of repeatedやばい; not an independent emotion label."
+    },
+    {
+      "memory": "H06",
+      "issue": "A賞が出ない仕組み is an existing compression of angry subjective speech, not verified raffle mechanics. A賞うちわ/B賞の不確実な品名 etc omitted."
+    },
+    {
+      "memory": "H07",
+      "issue": "1個しかもらえない/5発か6発/後方の声等 are compressed away. Speech-act detail and performative repetition are absent."
+    }
+  ],
+  "semantic_guard": 0,
+  "training": 0,
+  "quality_retry": 0
+}

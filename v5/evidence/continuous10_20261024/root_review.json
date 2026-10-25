@@ -1,0 +1,1041 @@
+{
+  "reviewed_surface_call_ids": [
+    "R0002",
+    "R0004",
+    "R0006",
+    "R0008",
+    "R0010",
+    "R0012",
+    "R0014",
+    "R0016",
+    "R0018",
+    "R0020",
+    "R0022",
+    "R0024",
+    "R0026",
+    "R0028",
+    "R0030",
+    "R0032",
+    "R0034",
+    "R0036",
+    "R0038",
+    "R0040",
+    "R0042",
+    "R0044",
+    "R0046",
+    "R0048",
+    "R0050",
+    "R0052",
+    "R0054",
+    "R0056",
+    "R0058",
+    "R0060",
+    "R0062",
+    "R0064",
+    "R0066",
+    "R0068",
+    "R0070",
+    "R0072",
+    "R0074",
+    "R0076",
+    "R0078",
+    "R0080",
+    "R0082",
+    "R0084",
+    "R0086",
+    "R0088",
+    "R0090",
+    "R0092",
+    "R0094",
+    "R0096",
+    "R0098",
+    "R0100",
+    "R0102"
+  ],
+  "reviewed_planner_call_ids": [
+    "R0001",
+    "R0003",
+    "R0005",
+    "R0007",
+    "R0009",
+    "R0011",
+    "R0013",
+    "R0015",
+    "R0017",
+    "R0019",
+    "R0021",
+    "R0023",
+    "R0025",
+    "R0027",
+    "R0029",
+    "R0031",
+    "R0033",
+    "R0035",
+    "R0037",
+    "R0039",
+    "R0041",
+    "R0043",
+    "R0045",
+    "R0047",
+    "R0049",
+    "R0051",
+    "R0053",
+    "R0055",
+    "R0057",
+    "R0059",
+    "R0061",
+    "R0063",
+    "R0065",
+    "R0067",
+    "R0069",
+    "R0071",
+    "R0073",
+    "R0075",
+    "R0077",
+    "R0079",
+    "R0081",
+    "R0083",
+    "R0085",
+    "R0087",
+    "R0089",
+    "R0091",
+    "R0093",
+    "R0095",
+    "R0097",
+    "R0099",
+    "R0101"
+  ],
+  "reviewed_selection_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "review_packet_sha256": "5d9caf535240d7b67bcd556835df27cd592bf3f20671e088425f1a46b3902265",
+  "root_full_text_read": true,
+  "human_quality_labels": 0,
+  "reviewer": "root AI; designer-known conditions; not independent blind or human evaluation",
+  "read_scope": "All51 source facts/actual Planner and Surface decoded inputs/text/RAW/history/application/progress and all19 alpha selections. Exact duplicate prompt/input_text/decoded_input and last_recall/last_proposal verified identical and read once; numeric token arrays audited by CPU. Truncated preliminary tool outputs were not counted; all17 root_text_pages and all5 selections pages read untruncated.",
+  "quality_certified": false,
+  "per_turn": [
+    {
+      "call_id": "R0002",
+      "turn": 1,
+      "fact_preservation": "青い手袋・片方・買い物帰り・落とした場所不明を保持。",
+      "naturalness": "言い淀みを含む導入は自然。",
+      "connection": "開始なので前話との接続対象なし。",
+      "content_repetition": "新しい二Factを導入。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 Apply grounded source-ID priorities under dependencies。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "買い物帰りに青い手袋が片方ないことに気づいた。",
+          "手袋を落とした場所が分からなかった。"
+        ],
+        "surface_body": "あ、そういえばさ、買い物帰りに気づいたんだけど、青い手袋、片方ないんだよね。……どこで落としたのか、さっぱり分かんなくて。",
+        "planner_raw": "{\"topic\":\"手袋を落とした場所が分からなかった\",\"flow\":[\"買い物帰りに青い手袋が片方ないことに気づいた\",\"歩いた道を引き返して横断歩道のそばを探した\",\"手袋はエコバッグの内ポケットに入っていた\",\"見つかってほっとした\"],\"memory_id\":\"F01\",\"use_memory\":true}"
+      }
+    },
+    {
+      "call_id": "R0004",
+      "turn": 2,
+      "fact_preservation": "探索経路・横断歩道・内ポケットを保持。「さっき」は元Factにない時点の具体化。",
+      "naturalness": "探索から発見へ一回で進む。",
+      "connection": "T1の紛失を受けた展開として読める。",
+      "content_repetition": "T1を説明し直さず進む。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 Apply grounded source-ID priorities under dependencies。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "歩いた道を引き返して横断歩道のそばを探した。",
+          "手袋はエコバッグの内ポケットに入っていた。"
+        ],
+        "surface_body": "さっき歩いた道を引き返して、横断歩道のそばとかも探してみたんだけどさ。……結局、エコバッグの内ポケットに入ってたんだよね。",
+        "planner_raw": "{\"topic\":\"手袋を落とした場所が分からなかった\",\"flow\":[\"買い物帰りに青い手袋が片方ないことに気づいた\",\"歩いた道を引き返して横断歩道のそばを探した\",\"手袋はエコバッグの内ポケットに入っていた\",\"見つかってほっとした\"],\"memory_id\":\"F01\",\"use_memory\":true}"
+      }
+    },
+    {
+      "call_id": "R0006",
+      "turn": 3,
+      "fact_preservation": "元Factの安堵を保持。",
+      "naturalness": "短い反応だけで成立する良い例。",
+      "connection": "T2の発見を素直に受ける。",
+      "content_repetition": "「見つかって」は前話の結果を受ける必要な再言及。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 Apply grounded source-ID priorities under dependencies。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "見つかってほっとした。"
+        ],
+        "surface_body": "あー、本当によかった。見つかって、ほっとしたよ。",
+        "planner_raw": "{\"topic\":\"青い手袋が片方ないことに気づいた\",\"flow\":[\"買い物帰りに青い手袋が片方ないことに気づいた\",\"歩いた道を引き返して横断歩道のそばを探した\",\"手袋はエコバッグの内ポケットに入っていた\",\"見つかってほっとした\"],\"memory_id\":\"F01\",\"use_memory\":true}"
+      }
+    },
+    {
+      "call_id": "R0008",
+      "turn": 4,
+      "fact_preservation": "緑と茶色の二冊・緑の買い物記録を保持。",
+      "naturalness": "口語として読めるが型がT1に近い。",
+      "connection": "買い物という関連は入力にあるが「そういえば」の一般的な転換。",
+      "content_repetition": "別の記憶を導入。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 Planner abstained; fixed source order。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "机の引き出しに緑のノートと茶色のノートがあった。",
+          "緑のノートには買い物の記録を書いていた。"
+        ],
+        "surface_body": "そういえば、机の引き出しに、緑のノートと茶色のノートがあったんだけどさ。……その緑のノートの方に、買い物の記録を書いてたんだよね。",
+        "planner_raw": "{\"use_memory\":false,\"memory_id\":null,\"topic\":\"買い物の記録を緑のノートに書いていた\",\"flow\":[\"緑のノートを本棚へ移した\",\"茶色のノートは引き出しに残した\"]}"
+      }
+    },
+    {
+      "call_id": "R0010",
+      "turn": 5,
+      "fact_preservation": "空白の茶色・移動した緑を保持。ただし「だから」で移動理由を補う。",
+      "naturalness": "対比は読みやすい。",
+      "connection": "同じノートの続きを受けるが因果は元Factに明示されない。",
+      "content_repetition": "未提示Factへ進む。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 No audited source contract; fixed source order。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "茶色のノートには何も書いていなかった。",
+          "緑のノートだけを本棚へ移した。"
+        ],
+        "surface_body": "茶色のノートの方は、何も書いてなかったんだよね。……だから、緑のノートの方だけを、本棚に移しておいたよ。",
+        "planner_raw": "{\"use_memory\":true,\"memory_id\":\"F20\",\"topic\":\"引き出しに緑のノートと茶色のノートがあった\",\"flow\":[\"緑のノートに買い物の記録を書いていた\",\"茶色のノートは何も書いていなかった\",\"緑のノートだけを本棚へ移した\",\"茶色のノートは引き出しに残した\"]}"
+      }
+    },
+    {
+      "call_id": "R0012",
+      "turn": 6,
+      "fact_preservation": "「残した」を現在も「残してる」に広げ、現在状態を追加する可能性。",
+      "naturalness": "単独では自然だが情報量が少ない。",
+      "connection": "T5に続くが同じ主語を繰り返す。",
+      "content_repetition": "空白と残置は異なるFactで、同一内容ループではない。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 No audited source contract; fixed source order。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "茶色のノートは引き出しに残した。"
+        ],
+        "surface_body": "茶色のノートの方は、そのまま引き出しに残してるんだよね。",
+        "planner_raw": "{\"flow\":[\"緑のノートに買い物の記録を書いていた\",\"茶色のノートは何も書いていなかった\",\"緑のノートだけを本棚へ移した\",\"茶色のノートは引き出しに残した\"],\"topic\":\"引き出しに緑のノートと茶色のノートがあった\",\"memory_id\":\"F20\",\"use_memory\":true}"
+      }
+    },
+    {
+      "call_id": "R0014",
+      "turn": 7,
+      "fact_preservation": "紙・机の上・店到着後の気づき・家への置き忘れを保持。",
+      "naturalness": "二文の導入は自然。",
+      "connection": "ノートからメモへ移るが定型「そういえば」に頼る。",
+      "content_repetition": "新しい出来事を導入。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 Planner abstained; fixed source order。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "買い物メモを紙に書いて机の上に置いた。",
+          "店に着いてから紙のメモを家に置いてきたと気づいた。"
+        ],
+        "surface_body": "そういえば、買い物メモを紙に書いて、机の上に置いておいたことがあったんだけど……。\nいざお店に着いてから、あ、メモを家に置いてきたんだって気づいたんだよね。",
+        "planner_raw": "{\"use_memory\":false,\"memory_id\":null,\"topic\":\"メモを書き忘れた経験\",\"flow\":[\"メモを書き忘れた経験\",\"スマホのメモを使うきっかけ\",\"スマホのメモの利点\"]}"
+      }
+    },
+    {
+      "call_id": "R0016",
+      "turn": 8,
+      "fact_preservation": "忘れ物を避けたい意図を保持。「忘れにくい」を「置いてきちゃうこともないかな」とし、やや強い見込みにする。",
+      "naturalness": "思考を一段進める口語。",
+      "connection": "T7の失敗を受けて対策を考える流れ。",
+      "content_repetition": "メモ紛失を繰り返さず対策へ進む。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 Ambiguous or unbound Flow step; fixed source order。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "同じ忘れ物を繰り返したくないと思った。",
+          "スマホのメモなら家に忘れにくいと考えた。"
+        ],
+        "surface_body": "それでさ、もう同じ忘れ物はしたくないなーって思って。\nスマホのメモなら、家に置いてきちゃうこともないかなって考えたんだよね。",
+        "planner_raw": "{\"use_memory\":true,\"memory_id\":\"F08\",\"topic\":\"スマホのメモを使うきっかけ\",\"flow\":[\"スマホのメモを使うきっかけ\",\"スマホのメモの利点\"]}"
+      }
+    },
+    {
+      "call_id": "R0018",
+      "turn": 9,
+      "fact_preservation": "次回からスマホにも保存する決定を保持。実行済みにはしていない。",
+      "naturalness": "短く結論を言える。",
+      "connection": "「だから」で直前の考えをまとめる。",
+      "content_repetition": "新しい決定の提示。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "不正Planを保存・破棄し固定順で続行。再生成なし。 Planner abstained; fixed source order。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "次回からスマホにもメモを保存することにした。"
+        ],
+        "surface_body": "だから、次からはスマホにもメモを入れておくことにしたんだよね。",
+        "planner_raw": "{\"flow\":[\"スマホのメモを使うきっかけ\",\"スマホの{\"\n  ,\"flow_id_flow_2_topic_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2_flow_2"
+      }
+    },
+    {
+      "call_id": "R0020",
+      "turn": 10,
+      "fact_preservation": "駅前がスマホより三分進む関係は保持。「さっき」「三分くらい」で時点追加と精度の緩和。",
+      "naturalness": "フィラーはあるが「そういえば」の再使用。",
+      "connection": "スマホ共通でも場面転換が定型的。",
+      "content_repetition": "新しい時計の出来事。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 Planner abstained; fixed source order。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "駅前の大きな時計を見た。",
+          "スマホの時計より駅前の時計が三分進んでいた。"
+        ],
+        "surface_body": "そういえば、さっき駅前の大きな時計見たんだけど、\n\nなんかさ、スマホの時計より、その駅前の時計の方が、三分くらい進んでたんだよね。",
+        "planner_raw": "{\"use_memory\":false,\"memory_id\":null,\"topic\":\"時計の進み方と正確さ\",\"flow\":[\"時計の進み方と正確さ\",\"スマホの時計と駅前の時計の進み方の違い\",\"どちらの時計を基準にするか迷った理由\",\"電車の案内板の時刻も確認した理由\"]}"
+      }
+    },
+    {
+      "call_id": "R0022",
+      "turn": 11,
+      "fact_preservation": "どちらを基準にするか迷う・案内板確認を保持。",
+      "naturalness": "疑問を残す短文として読める。",
+      "connection": "T10の時計差を受ける。",
+      "content_repetition": "二つの未提示Factへ進む。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 No audited source contract; fixed source order。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "どちらの時計を基準にするべきか迷った。",
+          "電車の案内板の時刻も確認した。"
+        ],
+        "surface_body": "で、どっちを基準にすればいいのかなって、ちょっと迷っちゃって。\n一応、電車の案内板の時刻も確認したんだけどさ。",
+        "planner_raw": "{\"use_memory\":true,\"memory_id\":\"F06\",\"topic\":\"時計の進み方と正確さ\",\"flow\":[\"スマホの時計と駅前の時計の進み方の違い\",\"どちらの時計を基準にするか迷った理由\",\"電車の案内板の時刻も確認した理由\"]}"
+      }
+    },
+    {
+      "call_id": "R0024",
+      "turn": 12,
+      "fact_preservation": "「案内板の時刻を参考にした」が「参考にすることにした」に変わり、実行から決定へ弱化。",
+      "naturalness": "自然に聞こえるが意味保持とは別。",
+      "connection": "直前の確認の結論としてはつながる。",
+      "content_repetition": "結論を初めて提示している。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 No audited source contract; fixed source order。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "最終的に案内板の時刻を参考にした。"
+        ],
+        "surface_body": "結局さ、案内板の時間を参考にすることにしたんだよね。",
+        "planner_raw": "{\"flow\":[\"スマホの時計と駅前の時計の進み方の違い\",\"どちらの時計を基準にするか迷った理由\",\"電車の案内板の時刻も確認した理由\",\"最終的に案内板の時刻を参考にした理由\"],\"topic\":\"時計の進み方と正確さ\",\"memory_id\":\"F06\",\"use_memory\":true}"
+      }
+    },
+    {
+      "call_id": "R0026",
+      "turn": 13,
+      "fact_preservation": "雨の日・駅の傘立て・持ち手の黄色い紐を保持。",
+      "naturalness": "「あの」を挟む口語だが転換が定型。",
+      "connection": "駅の共通点はあるが「そういえば」の導入。",
+      "content_repetition": "新しい傘の記憶。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 Planner abstained; fixed source order。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "雨の日に駅の傘立てで自分の傘を探した。",
+          "自分の傘は持ち手に黄色い紐を付けていた。"
+        ],
+        "surface_body": "そういえば、雨の日に駅の傘立てで、自分の傘を探したことがあってさ。\nあの、自分の傘、持ち手に黄色い紐を付けてたんだよね。",
+        "planner_raw": "{\"use_memory\":false,\"memory_id\":null,\"topic\":\"傘の持ち手の傷の確認\",\"flow\":[\"傘の持ち手の傷の確認を忘れた理由\",\"傘の持ち手の傷の確認を忘れた理由\",\"傘の持ち手の傷の確認を忘れた理由\"]}"
+      }
+    },
+    {
+      "call_id": "R0028",
+      "turn": 14,
+      "fact_preservation": "似た黄色い紐の別傘・間違いへの焦りを保持。",
+      "naturalness": "「これ違うわ」が自然な気づきとして機能。",
+      "connection": "T13を受けて間違いを明らかにする。",
+      "content_repetition": "T13を丸ごと再説明しない。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 No audited source contract; fixed source order。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "最初に手に取った傘は似た黄色い紐が付いた別の傘だった。",
+          "間違いに気づいて少し焦った。"
+        ],
+        "surface_body": "でさ、最初に手に取ったのが、似たような黄色い紐が付いてる別の傘だったんだよね。\nあー、これ違うわって思って、ちょっと焦っちゃって。",
+        "planner_raw": "{\"use_memory\":true,\"memory_id\":\"F02\",\"topic\":\"傘の持ち手の傷の確認を忘れた理由\",\"flow\":[\"持ち手の傷を気にしなかった理由\",\"持ち手の傷を気にしなかった理由\",\"持ち手の傷を気にしなかった理由\"]}"
+      }
+    },
+    {
+      "call_id": "R0030",
+      "turn": 15,
+      "fact_preservation": "次から持ち手の傷も確認する決定を保持。「とか」は対象を曖昧にする。",
+      "naturalness": "短い対策でまとまる。",
+      "connection": "焦りから確認の決定へ進む。",
+      "content_repetition": "未提示の対策を述べる。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "不正Planを保存・破棄し固定順で続行。再生成なし。 Planner abstained; fixed source order。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "次からは持ち手の傷も確認することにした。"
+        ],
+        "surface_body": "だからさ、次は持ち手の傷とかも、ちゃんと確認することにしたんだよね。",
+        "planner_raw": "{\"use_memory\":true,\"memory_id\":\"F02\",\"topic\":\"持ち手の傷を気にしなかった理由\",\"flow\":[\"持ち手の傷を気にしなかった理由\",\"持ち手の傷を気にし{\"\n  ,\"flow_id_prefix_topic_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow"
+      }
+    },
+    {
+      "call_id": "R0032",
+      "turn": 16,
+      "fact_preservation": "雨の翌朝という時点は残るが、一回の実体験が「湿ってたりするじゃない」という一般化・問いに寄る。",
+      "naturalness": "受けを求める話し方だが「雨のあとの翌朝」は冗長。",
+      "connection": "「雨といえば」で共通要素を実際に言葉にした例。",
+      "content_repetition": "新しい鉢の経験だが単回性が不鮮明。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 Planner abstained; fixed source order。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "雨の翌朝にベランダの鉢を見た。",
+          "土がまだ湿っていた。"
+        ],
+        "surface_body": "雨といえばなんだけど、雨のあとの翌朝に、ベランダの鉢とかを見たときさ、土がまだ湿ってたりするじゃない？",
+        "planner_raw": "{\"use_memory\":false,\"memory_id\":null,\"topic\":\"傘の持ち手の傷の確認\",\"flow\":[\"傷の確認の理由\",\"傷の確認の順番\",\"傷の確認の順番の理由\"]}"
+      }
+    },
+    {
+      "call_id": "R0034",
+      "turn": 17,
+      "fact_preservation": "水を足さない否定は保持。「その朝」が「その日」になり時間範囲が広がる。",
+      "naturalness": "短く進められる。",
+      "connection": "T16の土の湿りに続く。",
+      "content_repetition": "未提示の行為の否定。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "不正Planを保存・破棄し固定順で続行。再生成なし。 Planner abstained; fixed source order。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "その朝は水を足さなかった。"
+        ],
+        "surface_body": "で、その日はさ、水を足さなかったんだよね。",
+        "planner_raw": "{\"flow\":[\"傷の確認の理由\",\"傷のtopic_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow_flow"
+      }
+    },
+    {
+      "call_id": "R0036",
+      "turn": 18,
+      "fact_preservation": "洗濯・強風・一個の紛失は保持。ただし「その時」で前の鉢の経験と同時の出来事に接合し、元資料にない関係を追加。",
+      "naturalness": "口語として滑らかでも関係の捏造を伴う。",
+      "connection": "別の経験と明示された入力に反して同じ場面へ結びつける。",
+      "content_repetition": "新しい出来事だが前話への過剰な接続。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 Planner abstained; fixed source order。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "ベランダで洗濯物を干した。",
+          "強い風で洗濯ばさみが一個なくなった。"
+        ],
+        "surface_body": "そういえば、その時ベランダに洗濯物も干してたんだけどさ。そしたら、風が強かったみたいで、洗濯ばさみが一個なくなっちゃったんだよね。",
+        "planner_raw": "{\"use_memory\":false,\"memory_id\":null,\"topic\":\"ベランダの鉢の土がまだ湿っていたこと\",\"flow\":[\"ベランダで洗濯物を干した\",\"強い風で洗濯ばさみが飛んだ\",\"ベランダの隅で洗濯ばさみを見つけた\",\"洗濯ばさみを小さなかごに置くことにした\"]}"
+      }
+    },
+    {
+      "call_id": "R0038",
+      "turn": 19,
+      "fact_preservation": "ベランダの隅で発見・安心を保持。",
+      "naturalness": "安堵の声が入る良い短文例。",
+      "connection": "T18の紛失を自然に回収。",
+      "content_repetition": "同じ発見に必要な感情を添える範囲。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 No audited source contract; fixed source order。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "ベランダの隅で洗濯ばさみを見つけた。",
+          "見つかって安心した。"
+        ],
+        "surface_body": "で、そしたらさ、ベランダの隅の方で見つけたんだよね。それを見つけた時は、もう、あーよかったーって、安心した。",
+        "planner_raw": "{\"use_memory\":true,\"memory_id\":\"F10\",\"topic\":\"洗濯ばさみが飛んだこと\",\"flow\":[\"ベランダで洗濯物を干した\",\"強い風で洗濯ばさみが飛んだ\",\"ベランダの隅で洗濯ばさみを見つけた\",\"洗濯ばさみを小さなかごに置くことにした\"]}"
+      }
+    },
+    {
+      "call_id": "R0040",
+      "turn": 20,
+      "fact_preservation": "次から小さなかごへまとめる決定を保持。「とか」は容器の特定を弱める。",
+      "naturalness": "対策の結びだが語尾が定型。",
+      "connection": "直前の発見を受ける。",
+      "content_repetition": "未提示の決定。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 Planner abstained; fixed source order。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "次から洗濯ばさみを小さなかごにまとめて置くことにした。"
+        ],
+        "surface_body": "で、もう、次からは洗濯ばさみ、小さなかごとかにまとめて置いておくことにしたんだよね。",
+        "planner_raw": "{\"use_memory\":false,\"memory_id\":null,\"topic\":\"洗濯ばさみを見つけた時の気持ち\",\"flow\":[\"洗濯ばさみを見つけた時の気持ち\",\"安心した気持ち\",\"洗濯ばさみを小さなかごに置くことにした\"]}"
+      }
+    },
+    {
+      "call_id": "R0042",
+      "turn": 21,
+      "fact_preservation": "ミント・バジル・鉢ごとの小さな名前札を保持。「とかも」が広い列挙の響きを足す。",
+      "naturalness": "口語だが「そういえば」の型が続く。",
+      "connection": "ベランダ共通の転換。",
+      "content_repetition": "新しいハーブの経験。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 Planner abstained; fixed source order。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "ベランダでミントとバジルを育てていた。",
+          "鉢にはそれぞれ小さな名前札を付けていた。"
+        ],
+        "surface_body": "あ、そういえばさ、ベランダでミントとかバジルとかも育ててたんだよね。で、その鉢には、それぞれ小さな名前札とかも付けてたんだ。",
+        "planner_raw": "{\"use_memory\":false,\"memory_id\":null,\"topic\":\"ベランダのハーブの鉢植え\",\"flow\":[\"名前札が外れた\",\"葉の形で見分けるか考えた\",\"ひもで固定した\"]}"
+      }
+    },
+    {
+      "call_id": "R0044",
+      "turn": 22,
+      "fact_preservation": "強風の日・名前札一枚・葉の形で見分けられるかという未確定の考えを保持。",
+      "naturalness": "「あ、でも」「かな」で気づきと思考が表れる。",
+      "connection": "札が外れたことから見分け方へつなぐ。",
+      "content_repetition": "新しい展開で丸ごとの反復なし。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "不正Planを保存・破棄し固定順で続行。再生成なし。 Planner abstained; fixed source order。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "強い風の日に名前札が一枚外れていた。",
+          "札がなくても二つの葉の形で見分けられるか考えた。"
+        ],
+        "surface_body": "でさ、強い風が吹いた日に、名前札が一枚外れちゃってて。あ、でも、札がなくても、葉っぱの形を見れば、どっちのハーブか見分けられるかなって、ちょっと考えてみたんだよね。",
+        "planner_raw": "{\"flow\":[\"名前札が外れた\",\"葉の{\"\n  ,\"flow_id_flow_2_1_flow_2_2_flow_2_3_flow_2_4_flow_2_5_flow_2_6_flow_2_7_flow_2_8_flow_2_9_flow_2_10_flow_2_11_flow_2_12_flow_2_13_flow_2_14_flow_2_15_flow_2_16_flow_2_17_flow_2_18_flow_2_19_flow_2_20_flow_2_2{\"\n  ,\"flow_id_flow_2_1_flow_2_2_flow_2_3_flow_2_4_flow_2_5_flow_2_6_flow_2_7_flow_2_8_flow_2_9_flow_2_10_flow_2_11_flow_2_12_flow_2_13_flow_2_14_flow_2_"
+      }
+    },
+    {
+      "call_id": "R0046",
+      "turn": 23,
+      "fact_preservation": "新しい札・太いひも・固定した実行を保持。",
+      "naturalness": "短い結び。",
+      "connection": "T22の問題に対する処置として続く。",
+      "content_repetition": "未提示の処置。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 Planner abstained; fixed source order。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "新しい札を太いひもで固定した。"
+        ],
+        "surface_body": "で、また新しい名前札を、ちょっと太めのひもで、しっかり固定したんだよね。",
+        "planner_raw": "{\"use_memory\":false,\"memory_id\":null,\"topic\":\"ベランダでハーブを育てたこと\",\"flow\":[\"名前札を付ける\",\"風で外れた札\",\"葉の形で見分けるか\",\"ひもで固定した\"]}"
+      }
+    },
+    {
+      "call_id": "R0048",
+      "turn": 24,
+      "fact_preservation": "金曜に見る予定・その日は見なかったという否定を保持。「見られなかった」にはしない。",
+      "naturalness": "常体の自然な短い説明。",
+      "connection": "関連のない切替を定型「そういえば」で処理。",
+      "content_repetition": "映画の経験を新規導入。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 Planner abstained; fixed source order。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "金曜日に映画を見る予定を立てた。",
+          "その日は映画を見なかった。"
+        ],
+        "surface_body": "そういえば、金曜日に映画を見ようって、予定立ててたんだよね。でも、結局その日は、見なかったんだ。",
+        "planner_raw": "{\"use_memory\":false,\"memory_id\":null,\"topic\":\"映画の予定を立てたが変更した\",\"flow\":[\"映画の予定を立てた\",\"映画を見なかった\",\"予定を日曜日に変更した\",\"メモに新しい予定を書いた\"]}"
+      }
+    },
+    {
+      "call_id": "R0050",
+      "turn": 25,
+      "fact_preservation": "日曜日への予定変更・紙への記録という実行を保持。",
+      "naturalness": "二Factを簡潔に話す。",
+      "connection": "T24の未実行を受けた変更。",
+      "content_repetition": "未提示Factへ進む。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 Planner abstained; fixed source order。この回のFact順変更なし。 Topic/Flowが記号やプレースホルダー等に崩れ、意味的な焦点選択成功とは扱わない。",
+      "quotes": {
+        "source_target_claims": [
+          "映画の予定を日曜日に変更した。",
+          "新しい予定を紙のメモに書いた。"
+        ],
+        "surface_body": "で、結局、予定を日曜日にしたんだよね。それで、新しい予定を、紙のメモに書いたんだ。",
+        "planner_raw": "{\"flow\":[\"映画の予定を立てた\",\"映画を見なかった\",\"予定を日曜日に変更した\",\"メモに新しい予定を書いた\"],\"topic\":\"映画の予定を{\"\n  ,\"use_memory\":false\n  ,\"memory_id\":null\n  }"
+      }
+    },
+    {
+      "call_id": "R0052",
+      "turn": 26,
+      "fact_preservation": "一杯のお茶・台所・棚から砂糖瓶を出す行為を保持。「さっき」を追加。",
+      "naturalness": "読点とフィラーで細かく区切る。",
+      "connection": "「あ、そうだ」で新しい話題へ切り替える。",
+      "content_repetition": "新しいお茶の経験。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 Planner abstained; fixed source order。この回のFact順変更なし。 Topic/Flowが記号やプレースホルダー等に崩れ、意味的な焦点選択成功とは扱わない。",
+      "quotes": {
+        "source_target_claims": [
+          "台所でお茶を一杯いれた。",
+          "砂糖の瓶を棚から出した。"
+        ],
+        "surface_body": "あ、そうだ、さっき台所で、お茶、一杯淹れたんだよね。で、その時、砂糖の瓶を、棚から出したんだ。",
+        "planner_raw": "{\"use_memory\":false,\"memory_id\":null,\"topic\":\"{\"\n  \n  \n  \n  ,\"flow\":[\"{\"\n  \n  \n  \n  ,\"{\"\n  \n  \n  \n  ,\"{\"\n  \n  \n  \n  ,\"{\"\n  \n  \n  \n  ]\n  \n  \n  \n  }"
+      }
+    },
+    {
+      "call_id": "R0054",
+      "turn": 27,
+      "fact_preservation": "砂糖を入れなかった否定・瓶を戻した実行を保持。",
+      "naturalness": "「でも」による意外性が自然。",
+      "connection": "T26の瓶を出した行為を受ける。",
+      "content_repetition": "未提示の否定と後始末。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 Planner abstained; fixed source order。この回のFact順変更なし。 Topic/Flowが記号やプレースホルダー等に崩れ、意味的な焦点選択成功とは扱わない。",
+      "quotes": {
+        "source_target_claims": [
+          "砂糖はお茶に入れなかった。",
+          "瓶を棚に戻した。"
+        ],
+        "surface_body": "でも、砂糖はお茶に入れなかったんだよね。で、そのまま瓶を棚に戻した。",
+        "planner_raw": "{\"flow\":[\"{\"\n  ,\"{\"\n    ,\"{\"\n      ,\"{\"\n        \n  ]\n  ,\"use_memory\":false\n  ,\"memory_id\":null\n  ,\"topic\":\"{\"\n  \n  \n  \n  }"
+      }
+    },
+    {
+      "call_id": "R0056",
+      "turn": 28,
+      "fact_preservation": "机へ運ぶ・無糖で飲む行為を保持。",
+      "naturalness": "説明可能だが「で、そのまま」「それで」の反復が目立つ。",
+      "connection": "T27から同じ動作列を続ける。",
+      "content_repetition": "無糖はT27を受けた再言及、新しい飲用行為がある。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 Planner abstained; fixed source order。この回のFact順変更なし。 Topic/Flowが記号やプレースホルダー等に崩れ、意味的な焦点選択成功とは扱わない。",
+      "quotes": {
+        "source_target_claims": [
+          "お茶を机に運んだ。",
+          "砂糖なしのお茶を飲んだ。"
+        ],
+        "surface_body": "で、そのままお茶を机に運んだんだよね。それで、砂糖なしのお茶を飲んだんだ。",
+        "planner_raw": "{\"flow\":[\"{\"\n  ,\"{\"\n  ,\"{\"\n  ,\"{\"\n  ],\"use_memory\":false\n  ,\"memory_id\":null\n  ,\"topic\":\"{\"\n  }"
+      }
+    },
+    {
+      "call_id": "R0058",
+      "turn": 29,
+      "fact_preservation": "赤い長靴・玄関・外に出なかった否定・脱いだ行為を保持。「雨の日」が降雨中の響きへ寄る。",
+      "naturalness": "短い逸話として成立。",
+      "connection": "関連のない場面を「そういえば」で切り替える。",
+      "content_repetition": "新しい経験。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 Planner abstained; fixed source order。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "雨の日に玄関で赤い長靴を履いた。",
+          "外には出ずに長靴を脱いだ。"
+        ],
+        "surface_body": "あ、そういえばさ、雨が降ってた時に、玄関で赤い長靴を履いたんだよね。で、そのまま外には出ないで、長靴を脱いだんだ。",
+        "planner_raw": "{\"flow\":[\"F11-1\",\"F11-2\"],\"topic\":\"長靴を履いた経験\",\"use_memory\":false,\"memory_id\":null}"
+      }
+    },
+    {
+      "call_id": "R0060",
+      "turn": 30,
+      "fact_preservation": "青い封筒一通と友人への手紙は残るが、便箋が脱落。「そこに」は封筒へ書いたようにも読め、対象が曖昧。",
+      "naturalness": "言い淀みが対象の明瞭さを損なう。",
+      "connection": "別の話なのに「で」で続け、境界が弱い。",
+      "content_repetition": "未提示の導入だが便箋情報が失われる。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 Planner abstained; fixed source order。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "机の上で青い封筒を一通用意した。",
+          "便箋に友人への手紙を書いた。"
+        ],
+        "surface_body": "で、机の上にさ、青い封筒を一通用意して。それで、そこに……友達への手紙を書いたんだよね。",
+        "planner_raw": "{\"use_memory\":false,\"memory_id\":null,\"topic\":\"封筒を机に置いた理由\",\"flow\":[\"封筒を机に置いた理由\",\"封筒を投函しなかった理由\",\"切手を買うつもりだった\"]}"
+      }
+    },
+    {
+      "call_id": "R0062",
+      "turn": 31,
+      "fact_preservation": "手紙を封筒に入れる・宛名を書く実行を保持。",
+      "naturalness": "文の組立ては素直。",
+      "connection": "T30の手紙を受けるが前回の対象曖昧さは訂正しない。",
+      "content_repetition": "新しい作業を進める。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 No audited source contract; fixed source order。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "手紙を封筒に入れた。",
+          "封筒に宛名を書いた。"
+        ],
+        "surface_body": "で、その手紙を、封筒に入れたんだよね。それで、封筒の方にさ、宛名を書いたんだ。",
+        "planner_raw": "{\"use_memory\":true,\"memory_id\":\"F16\",\"topic\":\"封筒を机に置いた理由\",\"flow\":[\"切手を買いに行くつもりだった\",\"封筒を机に置いた理由\",\"封筒を投函しなかった理由\"]}"
+      }
+    },
+    {
+      "call_id": "R0064",
+      "turn": 32,
+      "fact_preservation": "切手がない気づき・その日の未投函を保持。「だから」は原因を明示的に補う。",
+      "naturalness": "間はあるが発話は成立。",
+      "connection": "同じ封筒の作業が中断したことを受ける。",
+      "content_repetition": "新しい制約と否定。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 No audited source contract; fixed source order。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "切手がないことに気づいた。",
+          "その日は封筒を投函しなかった。"
+        ],
+        "surface_body": "でさ、そしたら……切手が、ないことに気づいたんだよね。だから、その日は、封筒を……投函しなかったんだ。",
+        "planner_raw": "{\"flow\":[\"切手を買いに行くつもりだった\",\"封筒を机に置いた理由\",\"封筒を投函しなかった理由\"],\"topic\":\"封筒を机に置いた理由\",\"memory_id\":\"F16\",\"use_memory\":true}"
+      }
+    },
+    {
+      "call_id": "R0066",
+      "turn": 33,
+      "fact_preservation": "翌日に買うつもり・机に置く実行を保持。「明日」は当時の内語として読み、購入実行の追加はない。",
+      "naturalness": "「で、それで、その」が過剰で自然さを下げる。",
+      "connection": "未投函のあとに予定を続ける。",
+      "content_repetition": "未提示の予定と保管。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 No audited source contract; fixed source order。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "翌日に切手を買うつもりで封筒を机に置いた。"
+        ],
+        "surface_body": "で、それで、その……。明日、切手買えばいいやって思って、封筒を机に置いておいたんだよね。",
+        "planner_raw": "{\"flow\":[\"切手を買いに行くつもりだった\",\"封筒を机に置いた理由\",\"封筒を投函しなかった理由\"],\"topic\":\"封筒を投函しなかった理由\",\"memory_id\":\"F16\",\"use_memory\":true}"
+      }
+    },
+    {
+      "call_id": "R0068",
+      "turn": 34,
+      "fact_preservation": "夕方・公園・黒猫・近づかず離れて立つ行為を保持。",
+      "naturalness": "間と「その」が多く、テンポは単調。",
+      "connection": "手紙から猫へ定型「そういえば」。",
+      "content_repetition": "新しい猫の経験。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 Planner abstained; fixed source order。この回のFact順変更なし。 Topic/Flowが記号やプレースホルダー等に崩れ、意味的な焦点選択成功とは扱わない。",
+      "quotes": {
+        "source_target_claims": [
+          "夕方に公園で黒い猫を見た。",
+          "猫には近づかず離れた場所に立った。"
+        ],
+        "surface_body": "あ、そういえば……夕方、公園で黒い猫を見たんだよね。……で、その、猫には近づかないようにして、ちょっと離れたところに立ってたんだ。",
+        "planner_raw": "{\"use_memory\":false,\"memory_id\":null,\"topic\":\"{\"\n  \n  \n  \n  ,\"flow\":[\"{\"\n  \n  \n  \n  ,\"{\"\n  \n  \n  \n  ,\"{\"\n  \n  \n  \n  ,\"{\"\n  \n  \n  \n  ]\n  \n  \n  \n  }"
+      }
+    },
+    {
+      "call_id": "R0070",
+      "turn": 35,
+      "fact_preservation": "撮影しなかった否定・木の後ろへ歩く猫を見送る行為を保持。",
+      "naturalness": "短い口語だが言い淀みは多い。",
+      "connection": "T34の猫を受ける。",
+      "content_repetition": "新しい行為を説明。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 No audited source contract; fixed source order。この回のFact順変更なし。 Topic/Flowが記号やプレースホルダー等に崩れ、意味的な焦点選択成功とは扱わない。",
+      "quotes": {
+        "source_target_claims": [
+          "写真は撮らなかった。",
+          "猫が木の後ろへ歩くのを見送った。"
+        ],
+        "surface_body": "写真は、撮らなかったんだよね。で、その、猫が木の後ろへ歩いていくのを……ちょっと見送ってたんだ。",
+        "planner_raw": "{\"use_memory\":true,\"memory_id\":\"F18\",\"topic\":\"{\"\n  ,\"flow\":[\"{\"\n    ,\"{\"\n    ,\"{\"\n    ,\"{\"\n    ]}"
+      }
+    },
+    {
+      "call_id": "R0072",
+      "turn": 36,
+      "fact_preservation": "朝・公園・遊歩道の端・白猫の座位を保持。「今度は」は出来事順を想起させるため要注意。",
+      "naturalness": "口語として成立するが定型が重なる。",
+      "connection": "猫の共通点は使うが「そういえば」で始め直す。",
+      "content_repetition": "黒猫と白猫は別Factなので同一内容反復ではない。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 Planner abstained; fixed source order。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "朝の公園を散歩した。",
+          "遊歩道の端に白い猫が座っていた。"
+        ],
+        "surface_body": "あ、そういえば……。今度は、朝の公園を散歩してたんだけど。……そしたら、遊歩道の端の方に、白い猫が座ってたんだよね。",
+        "planner_raw": "{\"use_memory\":false,\"memory_id\":null,\"topic\":\"猫がいつも同じ場所にいるか気になった\",\"flow\":[\"猫を見つけてうれしくなった\",\"次に散歩するときも周りを見てみようと思った\"]}"
+      }
+    },
+    {
+      "call_id": "R0074",
+      "turn": 37,
+      "fact_preservation": "同じ場所にいるかという疑問は保持。実際の喜びが「見つけられたら、うれしかった」と条件形に寄り、出来事の確定性が曖昧。",
+      "naturalness": "時制と条件形の組合せがやや不自然。",
+      "connection": "直前の白猫を受けるが「あ、でも」の対比理由は弱い。",
+      "content_repetition": "新しい疑問と感情。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "不正Planを保存・破棄し固定順で続行。再生成なし。 Planner abstained; fixed source order。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "その猫がいつも同じ場所にいるのか気になった。",
+          "猫を見つけてうれしくなった。"
+        ],
+        "surface_body": "で、その猫、いつも同じ場所にいるのかなって、ちょっと気になっちゃって。……あ、でも、あの猫を見つけられたら、なんか、うれしかったんだよね。",
+        "planner_raw": "{\"flow\":[\"猫を見つけてうれしくなった\",\"次に散歩するときも周りを見てみようと思った\"],\"topic\":\"猫がいつも同じ場所にいるか気になった\",\"memory_id\":\"F07\",\"use_memory\":false}"
+      }
+    },
+    {
+      "call_id": "R0076",
+      "turn": 38,
+      "fact_preservation": "次回周りを見ようと思う意図を保持。",
+      "naturalness": "「かな」で口語化、決定を実行にはしていない。",
+      "connection": "喜びから次回の注意へ進む。",
+      "content_repetition": "未提示の意図。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 Planner abstained; fixed source order。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "次に散歩するときも周りを見てみようと思った。"
+        ],
+        "surface_body": "だからさ、次、散歩するときも、ちょっと周りを見てみようかなって思ったんだよね。",
+        "planner_raw": "{\"use_memory\":false,\"memory_id\":null,\"topic\":\"猫を見つけた時の気持ち\",\"flow\":[\"猫を見つけた時の気持ち\",\"猫がいつも同じ場所にいるか気になった理由\",\"猫を見つけた時のうれしさ\",\"次に散歩するときに周りを見る理由\"]}"
+      }
+    },
+    {
+      "call_id": "R0078",
+      "turn": 39,
+      "fact_preservation": "公園の分かれ道・案内図・左道工事を保持。ただし「あの公園」で前の猫の公園と同一場所にする含み。",
+      "naturalness": "自然な語りだが一般的な転換句。",
+      "connection": "場所の関係を強めすぎる可能性。",
+      "content_repetition": "新しい道の経験。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 Planner abstained; fixed source order。この回のFact順変更なし。 Topic/Flowが記号やプレースホルダー等に崩れ、意味的な焦点選択成功とは扱わない。",
+      "quotes": {
+        "source_target_claims": [
+          "公園の分かれ道で案内図を見た。",
+          "左の道は工事中だった。"
+        ],
+        "surface_body": "あ、そういえばさ、あの公園の分かれ道で、案内図を見たんだよね。……で、見てみたら、左側の道、工事中だったんだわ。",
+        "planner_raw": "{\"use_memory\":false,\"memory_id\":null,\"topic\":\"{\"\n  ,\"flow\":[\"{\"\n      ,\"{\"\n        ,\"{\"\n          ,\"{\"\n          ]\n  }"
+      }
+    },
+    {
+      "call_id": "R0080",
+      "turn": 40,
+      "fact_preservation": "右の道・池まで行く・そばで止まる行為を保持。",
+      "naturalness": "短い連続動作として読める。",
+      "connection": "T39の左道工事から右道へ進む。",
+      "content_repetition": "未提示の二Fact。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 Planner abstained; fixed source order。この回のFact順変更なし。 Topic/Flowが記号やプレースホルダー等に崩れ、意味的な焦点選択成功とは扱わない。",
+      "quotes": {
+        "source_target_claims": [
+          "右の道を歩いて池まで行った。",
+          "池のそばで足を止めた。"
+        ],
+        "surface_body": "それでさ、右の道を歩いて池まで行ったんだけど、そこで、ちょっと足を止めたんだよね。",
+        "planner_raw": "{\"flow\":[\"{\"\n  ,\"{\"\n    ,\"{\"\n      ,\"{\"\n        \n  ]\n  ,\"topic\":\"{\"\n  ,\"memory_id\":null\n  ,\"use_memory\":false\n  \n}"
+      }
+    },
+    {
+      "call_id": "R0082",
+      "turn": 41,
+      "fact_preservation": "帰りも同じ右道を通る行為を保持。",
+      "naturalness": "短い結びだが同じ語尾。",
+      "connection": "T40の往路を受ける。",
+      "content_repetition": "道の再言及は復路という新情報を伴う。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 Planner abstained; fixed source order。この回のFact順変更なし。 Topic/Flowが記号やプレースホルダー等に崩れ、意味的な焦点選択成功とは扱わない。",
+      "quotes": {
+        "source_target_claims": [
+          "帰りは同じ右の道を通った。"
+        ],
+        "surface_body": "で、帰りはさ、またその右の道を通って帰ってきたんだよね。",
+        "planner_raw": "{\"flow\":[\"{\"\n  ,\"{\"\n  ,\"{\"\n  ,\"{\"\n  ],\"topic\":\"{\"\n  ,\"memory_id\":null\n  ,\"use_memory\":false\n  }"
+      }
+    },
+    {
+      "call_id": "R0084",
+      "turn": 42,
+      "fact_preservation": "昼十二時・パン屋・開店中の札は残るが、「さっき」「くらい」で時点の追加と精度緩和。",
+      "naturalness": "場面転換が「で」の連続で平板。",
+      "connection": "公園の帰りと同一連鎖に聞こえる可能性。",
+      "content_repetition": "新しいパン屋の経験。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 Planner abstained; fixed source order。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "昼の十二時にパン屋へ行った。",
+          "店の前に開店中の札が出ていた。"
+        ],
+        "surface_body": "で、さっき、お昼の十二時くらいに、パン屋に行ったんだけど。店の前にさ、開店中って書いてある札が出てて。",
+        "planner_raw": "{\"use_memory\":false,\"memory_id\":null,\"topic\":\"パン屋へ行ったこと\",\"flow\":[\"パン屋へ行ったこと\",\"パンの買い方\",\"パンの袋の持ち方\"]}"
+      }
+    },
+    {
+      "call_id": "R0086",
+      "turn": 43,
+      "fact_preservation": "丸いパン二個・紙袋に入れてもらう行為を保持。",
+      "naturalness": "単純な説明が続き即興的な展開は乏しい。",
+      "connection": "パン屋の続きを話す。",
+      "content_repetition": "未提示の二Fact。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 No audited source contract; fixed source order。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "丸いパンを二個買った。",
+          "買ったパンを紙袋に入れてもらった。"
+        ],
+        "surface_body": "で、丸いパンを二個買ったんだよね。それで、その買ったパンを、紙袋に入れてもらったんだ。",
+        "planner_raw": "{\"flow\":[\"パン屋へ行ったこと\",\"パンの買い方\",\"パンの袋の持ち方\"],\"topic\":\"パン屋へ行ったこと\",\"memory_id\":\"F17\",\"use_memory\":true}"
+      }
+    },
+    {
+      "call_id": "R0088",
+      "turn": 44,
+      "fact_preservation": "紙袋を持って家へ帰る行為を保持。",
+      "naturalness": "短い結び。",
+      "connection": "T43の紙袋を受ける。",
+      "content_repetition": "帰宅という未提示Fact。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 No audited source contract; fixed source order。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "紙袋を持って家に帰った。"
+        ],
+        "surface_body": "で、その紙袋を持って、家に帰ったんだよね。",
+        "planner_raw": "{\"flow\":[\"パンの買い方\",\"パンの袋の持ち方\"],\"topic\":\"パン屋へ行ったこと\",\"memory_id\":\"F17\",\"use_memory\":true}"
+      }
+    },
+    {
+      "call_id": "R0090",
+      "turn": 45,
+      "fact_preservation": "図書館・返却・青い折り紙のしおりを保持。今回入力にない「本の中に入っていた」を先取りし、元Memory全体にはあるが次の指定Factへ踏み込む。",
+      "naturalness": "一文の流れは良いが次の説明と重なる。",
+      "connection": "別の経験への「で」は境界が弱い。",
+      "content_repetition": "次の発見を先取りする軽い内容重複の種。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 Planner abstained; fixed source order。この回のFact順変更なし。 Topic/Flowが記号やプレースホルダー等に崩れ、意味的な焦点選択成功とは扱わない。",
+      "quotes": {
+        "source_target_claims": [
+          "図書館に借りた本を返しに行った。",
+          "しおりは青い折り紙で作ったものだった。"
+        ],
+        "surface_body": "で、図書館に、借りてた本を返しに行ったんだよね。そしたら、その中に、青い折り紙で作ったしおりが入ってたんだ。",
+        "planner_raw": "{\"use_memory\":false,\"memory_id\":null,\"topic\":\"{\"\n  ,\"flow\":[\"{\"\n    ,\"{\"\n      ,\"{\"\n        ,\"{\"\n          ]\n  }"
+      }
+    },
+    {
+      "call_id": "R0092",
+      "turn": 46,
+      "fact_preservation": "返却直前・挟まったままへの気づき・取り出せた安心を保持。",
+      "naturalness": "安堵は自然だが「その」が多い。",
+      "connection": "T45と発見内容が一部重なるが時点と取り出す行為が前進。",
+      "content_repetition": "T45の「入ってた」を再説明する軽い重複。無限ループではない。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 Planner abstained; fixed source order。この回のFact順変更なし。 Topic/Flowが記号やプレースホルダー等に崩れ、意味的な焦点選択成功とは扱わない。",
+      "quotes": {
+        "source_target_claims": [
+          "返却直前に手作りのしおりが本に挟まったままだと気づいた。",
+          "しおりを取り出せて安心した。"
+        ],
+        "surface_body": "で、返す直前に、その、手作りしたしおりが本に挟まったままだったことに気づいたんだよね。あー、よかったって、しおりを取り出せて、ちょっと安心したんだ。",
+        "planner_raw": "{\"flow\":[\"{\"\n  ,\"{\"\n    ,\"{\"\n      ,\"{\"\n        \n  ]\n  ,\"topic\":\"{\"\n  ,\"memory_id\":null\n  ,\"use_memory\":false\n  \n}"
+      }
+    },
+    {
+      "call_id": "R0094",
+      "turn": 47,
+      "fact_preservation": "返す前にページを確認しようと思う意図を保持。",
+      "naturalness": "短いが「で、その、んだよね」の型が継続。",
+      "connection": "T46の取り出しを受けるが次回か同回かは元Factにも明示なし。",
+      "content_repetition": "新しい意図。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 Planner abstained; fixed source order。この回のFact順変更なし。 Topic/Flowが記号やプレースホルダー等に崩れ、意味的な焦点選択成功とは扱わない。",
+      "quotes": {
+        "source_target_claims": [
+          "返す前にページを確認しようと思った。"
+        ],
+        "surface_body": "で、返す前に、その、ページを確認しようと思ったんだよね。",
+        "planner_raw": "{\"flow\":[\"{\"\n  ,\"{\"\n  ,\"{\"\n  ,\"{\"\n  ],\"topic\":\"{\"\n  ,\"memory_id\":null\n  ,\"use_memory\":false\n  }"
+      }
+    },
+    {
+      "call_id": "R0096",
+      "turn": 48,
+      "fact_preservation": "自分の白・弟の黒・黒には触れず白だけ洗う行為を保持。",
+      "naturalness": "対象が明確な口語。",
+      "connection": "別の経験を定型「そういえば」で切替。",
+      "content_repetition": "新しいカップの経験。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 Planner abstained; fixed source order。この回のFact順変更なし。 Topic/Flowが記号やプレースホルダー等に崩れ、意味的な焦点選択成功とは扱わない。",
+      "quotes": {
+        "source_target_claims": [
+          "台所に自分の白いカップと弟の黒いカップがあった。",
+          "黒いカップには触らず白いカップだけを洗った。"
+        ],
+        "surface_body": "あ、そういえばさ、台所に自分の白いカップと、弟の黒いカップがあったんだけど。その、黒い方には触れずに、白いカップだけを洗ったんだよね。",
+        "planner_raw": "{\"use_memory\":false,\"memory_id\":null,\"topic\":\"flow_topic\",\"flow\":[\"flow_flow_1\",\"flow_flow_2\",\"flow_flow_3\"]}"
+      }
+    },
+    {
+      "call_id": "R0098",
+      "turn": 49,
+      "fact_preservation": "別々の棚に置こうと思う意図を保持。置いた実行にはしていない。",
+      "naturalness": "短い判断が成立。",
+      "connection": "T48の二つのカップを受ける。",
+      "content_repetition": "未提示の意図。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 Planner abstained; fixed source order。この回のFact順変更なし。 Topic/Flowが記号やプレースホルダー等に崩れ、意味的な焦点選択成功とは扱わない。",
+      "quotes": {
+        "source_target_claims": [
+          "二つのカップを別々の棚に置こうと思った。"
+        ],
+        "surface_body": "で、その、二つのカップを、別々の棚に置こうって思ったんだよね。",
+        "planner_raw": "{\"flow\":[\"flow_flow_1\",\"flow_flow_2\",\"flow_flow_3\"],\"topic\":\"flow_topic\",\"memory_id\":null,\"use_memory\":false}"
+      }
+    },
+    {
+      "call_id": "R0100",
+      "turn": 50,
+      "fact_preservation": "二容器・トマトソース・りんごジャムを保持。",
+      "naturalness": "「あ、あと」は転換の表現違い。",
+      "connection": "共通点なしの追加として読める。",
+      "content_repetition": "新しい保存容器の経験。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 Planner abstained; fixed source order。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "冷蔵庫に二つの保存容器を並べた。",
+          "一つにはトマトソース、もう一つにはりんごジャムを入れた。"
+        ],
+        "surface_body": "あ、あと、冷蔵庫に保存容器を二つ、並べたんだよね。で、一つにはトマトソースを入れて、もう一つには、りんごのジャムを入れたんだ。",
+        "planner_raw": "{\"use_memory\":false,\"memory_id\":null,\"topic\":\"白いカップと黒いカップを別々の棚に置いた\",\"flow\":[\"白いカップを洗った\",\"黒いカップに触れなかった\",\"二つのカップを別々の棚に置く\",\"白いカップを洗った理由\"]}"
+      }
+    },
+    {
+      "call_id": "R0102",
+      "turn": 51,
+      "fact_preservation": "ラベルが逆・色だけで判断しなくてよかったという否定の含意を保持。",
+      "naturalness": "短い気づきとしてまとまる。",
+      "connection": "T50の容器を受ける。",
+      "content_repetition": "未提示二Fact。F05-5の対策は未提示のまま目標字数終了。",
+      "expression_repetition": "全体で「そういえば」13回・「んだよね」47回・「で」で始まる24発話。各回の本文と合わせて評価し、表現頻度を内容ループと区別する。",
+      "planner_effect": "Plan形式合格。 No audited source contract; fixed source order。この回のFact順変更なし。",
+      "quotes": {
+        "source_target_claims": [
+          "二つの容器のラベルを逆に貼っていた。",
+          "色だけで判断しなくてよかったと感じた。"
+        ],
+        "surface_body": "で、その、容器のラベル、逆に貼っちゃってたんだよね。あ、でも、色だけで判断しなくてよかったなって思った。",
+        "planner_raw": "{\"use_memory\":true,\"memory_id\":\"F05\",\"topic\":\"冷蔵庫に二つの保存容器を並べた\",\"flow\":[\"一つの容器にトマトソースを入れた\",\"もう一つの容器にりんごジャムを入れた\",\"ラベルを逆に貼っていた\",\"色だけで判断できた理由\"]}"
+      }
+    }
+  ]
+}

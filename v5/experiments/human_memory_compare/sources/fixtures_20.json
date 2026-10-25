@@ -1,0 +1,63 @@
+[
+  {
+    "id": "H04",
+    "title": "イベントでガチャを引けた話",
+    "beats": [
+      "イベント前に偶然見つけたガチャを3回引き、欲しかった物を得た",
+      "イベントから出ると3台すべて売り切れており、入場前に引けたタイミングが幸運だった"
+    ],
+    "text": "イベント前に偶然見つけたガチャを3回引き、欲しかった物を得た。イベントから出ると3台すべて売り切れており、入場前に引けたタイミングが幸運だった。",
+    "source": "reverse-memory:luna-topic04",
+    "ordinal": 0,
+    "authority": "synthetic_fixture",
+    "namespace": "fixtures",
+    "content_origin": "human_transcript_reverse_extraction",
+    "not_zip_canon": true
+  },
+  {
+    "id": "H05",
+    "title": "グリーティングとシールの話",
+    "beats": [
+      "先着40名のグリーティングを人が少ないと思って遅れ、人気で配布終了していた",
+      "名前を書けるシールを作っている時、近くの同じグッズを装備した人に見られた気がして慌て、相手も作り始めたため気まずくなった"
+    ],
+    "text": "先着40名のグリーティングを人が少ないと思って遅れ、人気で配布終了していた。名前を書けるシールを作っている時、近くの同じグッズを装備した人に見られた気がして慌て、相手も作り始めたため気まずくなった。",
+    "source": "reverse-memory:luna-topic05",
+    "ordinal": 0,
+    "authority": "synthetic_fixture",
+    "namespace": "fixtures",
+    "content_origin": "human_transcript_reverse_extraction",
+    "not_zip_canon": true
+  },
+  {
+    "id": "H06",
+    "title": "ガラポンでA賞が出なかった話",
+    "beats": [
+      "1回600円のガラポンを15回、合計9000円回してもA賞が一度も出なかった",
+      "B賞ばかり続き、天井もなくA賞が出ない仕組みに怒った",
+      "A賞の景品はたくさん置いてあるのに当たらず、9000円あれば普通に一つ買えたのではないかと悔しがった"
+    ],
+    "text": "1回600円のガラポンを15回、合計9000円回してもA賞が一度も出なかった。B賞ばかり続き、天井もなくA賞が出ない仕組みに怒った。A賞の景品はたくさん置いてあるのに当たらず、9000円あれば普通に一つ買えたのではないかと悔しがった。",
+    "source": "reverse-memory:luna-topic06",
+    "ordinal": 0,
+    "authority": "synthetic_fixture",
+    "namespace": "fixtures",
+    "content_origin": "human_transcript_reverse_extraction",
+    "not_zip_canon": true
+  },
+  {
+    "id": "H07",
+    "title": "射的とグッズのバッグの話",
+    "beats": [
+      "射的で1発目からトートバッグを当て、残りの弾でも当てた。銃は重く長いのに当てる自分をスナイパーの実力があると誇った",
+      "グッズをたくさん付けたバッグを見た知らない女性から突然話しかけられたが、射的に集中していて自分に話しかけていると気づかず、振り向いて驚いた"
+    ],
+    "text": "射的で1発目からトートバッグを当て、残りの弾でも当てた。銃は重く長いのに当てる自分をスナイパーの実力があると誇った。グッズをたくさん付けたバッグを見た知らない女性から突然話しかけられたが、射的に集中していて自分に話しかけていると気づかず、振り向いて驚いた。",
+    "source": "reverse-memory:luna-topic07",
+    "ordinal": 0,
+    "authority": "synthetic_fixture",
+    "namespace": "fixtures",
+    "content_origin": "human_transcript_reverse_extraction",
+    "not_zip_canon": true
+  }
+]

@@ -1,30 +1,26 @@
-# 保存内容と復元条件
+# 保存内容と復元条件（2026-10-25）
 
-## CPUでこのスナップショットを確認する
+## モデルなしのCPU検査
 
 ```powershell
 python -X utf8 -B v5/tools/verify_snapshot.py
 python -X utf8 -B v5/tools/test_snapshot.py -v
+python -X utf8 -B v5/tools/test_current.py -v
 ```
 
-ソースSHA/構文、保存された実履歴、単回提示、Flow依存順、JSON不正の拒否、DONE終端を標準ライブラリで確認する。生成品質試験や元環境のCPU251チェックの再実行ではない。
+旧停止証跡12検査を保ち、現行の不正Plan固定順継続・保存51発話/人間比較5発話の履歴と入力・意味未検証状態を追加検査する。モデル/ネット/GPUを使わない。元のCPU154や44+11の全再実行ではない。
 
-元のコードと直接照合する場合は `verify_snapshot.py --source-talk C:/NodeJS/KawaiiLive/work/astra/_talk` を使う。`SOURCE_MANIFEST.json`のsource-byte-preserving対象だけ元ソースSHAも検査する。
+`verify_snapshot.py --source-talk C:/NodeJS/KawaiiLive/work/astra/_talk`で、byte保持ソースと保存証跡の元ファイルSHAも照合できる。
 
-## 実行時の配置
+## 推論を復元する場合の条件（今回のpushでは実行しない）
 
-今回のpushでは新規学習・GPU推論・環境インストールをしない。次は復元時の配置説明であり、自動的に起動する手順ではない。
+1. `_talk/lora_v4_gemma_runtime/`、`_talk/lora_v4_multibase/`等を元と同じ相対構造に置く。
+2. `v5/runtime/`は`current_continuous10_fallback_20261024_v1/executed_source/`の実行済みソースをbyte保持で保存している。新runの`executed_source/`へ配置し、元runを書き換えない。
+3. `ZIP_INCREMENTAL_RUN`を新runへ指定する。PYTHONPATHには新run/executed_source、harness_beta、lora_v4_multibase、lora_v4_gemma_runtimeを含める。pwsh7/UTF8、Python `-X utf8 -B`。
+4. `PROTOCOL.json`と各`protocol_export.json`は条件・来歴の公開記録で、そのまま実行用protocolには使えない。実行用の外部資産/SHA凍結、同一入力prefixの元出力/全journal、モデル・adapter・tokenizer・NF4 cacheの配置が必要。元17出力は再生成で埋めない。
+5. Alpha.populateが読む元reference ZIPは含めていない。合成fixtureと違い、人間実験では既存逆算Memoryを隔離namespaceへ投影している。synthetic_fixtureは検証用の権威区分で、元の人間経験を創作したという意味ではない。
+6. 人間比較を復元する場合、標準runtimeに`v5/experiments/human_memory_compare/`をoverlayし、同実験evidenceのreferenceを新run/referenceへ置く。変更はcue/4Memory/比較補助・観測ラベル。モデル/Planner prompt/Surface契約/生成条件は同一。原文は生成へ見せず最大5発話で一巡し、水増ししない。
+7. CPU公式Processor/実child_guard startupの検査を済ませてから起動する。起動後は定期確認へ戻し、エージェントが終了まで常駐しない。
+8. 不正JSONはRAWを保存し`planner_delivery.resolve`がPlanを破棄、固定元Fact順で継続。構文合格の意味不良を検査済みへ昇格しない。全実入力/RAW/履歴を保存し、終了0・技術監査の後に全文を読む。
 
-1. `_talk/lora_v4_gemma_runtime/`と`_talk/lora_v4_multibase/`等は参照元と同じ相対階層に置く。
-2. `v5/runtime/`は元runの`harness_beta/runs/current_continuous10_20261023_v1/executed_source/`のソースをbyte単位で保存している。実行用の新runを`_talk/harness_beta/runs/<new-name>/`として用意し、`executed_source/`へコピーする構造。
-3. `common.py`は`ZIP_INCREMENTAL_RUN`からBETA/TALK/MULTI/GEMMAを解決する。PYTHONPATHには新run/executed_source、harness_beta、lora_v4_multibase、lora_v4_gemma_runtimeが必要。PowerShell7/UTF8、Python `-X utf8 -B`。
-4. 元の`protocol.json`は全条件と外部430ファイルの絶対パスSHAを保持する凍結記録で、ローカルに保全されている。公開`PROTOCOL.json`/`MODELS.json`は条件記録であり、そのまま実行用protocolに差し替えるファイルではない。外部資産の配置と検査が必要。
-5. Alpha.populateは合成fixtureに加えて元のreference ZIPも読む。その`v1_2.zip`は非公開外部資料で、このrepoには含めない。発話対象はfixtures namespaceだけで、reference由来を本人の確定Memoryへ昇格させない。
-6. CPU公式Processorは元環境のCPU専用torchを使用し、GPU workerは既存ROCm環境を使用する。`prepare_cpu.py`の公式Processor/実起動検査を通るまでGPUを起動しない。これは外部モデル資産を必要とするためcloneだけでは動かない。
-7. 元の入口は`run_cpu.py`。`driver_cpu.py`には継承した旧比較用mainも残るが、現行ではDriverクラスだけを利用する。旧mainは現行連続版の入口ではない。
-
-モデルとadapterの配置・SHAは`MODELS.json`。モデル本体/LoRA/tokenizer/NF4 cache/元教師・配信ZIP/SQLite DB/依存パッケージ/環境や認証情報は含めていない。
-
-## ソースを保存した時点
-
-`v5/runtime/run_cpu.py`は不正Planで実験全体を止める既知の動作を含む。次回実行を成功させた変更や、長尺品質が保証された版ではない。保存した過去runをその場で修正したり、失敗を完了と書き換える処理はない。
+モデル重量/LoRA/tokenizer/reference ZIP/全文教材/Memory DB/チャットSQLite/環境や認証情報は同梱しない。モデル詳細は[MODELS.json](MODELS.json)。元環境と外部資産を要するためcloneのみで推論開始できる版ではない。

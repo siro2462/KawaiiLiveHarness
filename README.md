@@ -1,36 +1,38 @@
 # ZIPちゃん Harness v5
 
-**現行構成の保存版：v5-current-20261023。研究中のオフラインRuntimeです。**
+**現行構成の保存版：v5-current-20261025。研究中のオフラインRuntimeです。**
 
-記憶α → 既存Base Planner LoRA → Flow→Fact適用 → 新Instruct Surface LoRA → 形式確認 → テキスト履歴・提示進捗 → 次のPlanner、という現在の経路をソースと実験結果ごと保存しています。Semantic Guardは現行発話経路で使用していません。
+記憶α → 既存Base Planner LoRA → Flow→Fact適用 → 新Instruct Surface LoRA → 形式確認 → テキスト履歴・提示進捗 → 次のPlanner。不正Planner JSONはRAWを保存・Planを破棄し、元Fact固定順で継続します。Semantic Guardは現行経路で使用していません。
 
-- [アーキテクチャ全体](v5/ARCHITECTURE.md)
-- [現行Runtimeのソース](v5/runtime/)
-- [固定モデル・adapterの版とSHA](v5/MODELS.json)
-- [現在の条件](v5/PROTOCOL.json)
+- [現在地・次の問い](v5/progress/CURRENT_STATE.md) ／ [構造化チェックポイント](v5/progress/checkpoint.json)
+- [アーキテクチャ](v5/ARCHITECTURE.md) ／ [現行Runtime](v5/runtime/)
+- [固定モデル・adapterの版とSHA](v5/MODELS.json) ／ [条件記録](v5/PROTOCOL.json)
 - [実験結果・未解決事項](v5/STATUS.md)
-- [停止までの8発話全文](v5/evidence/speech.txt)／[停止原因](v5/evidence/result.md)
-- [復元時の配置とCPU検査](v5/REPRODUCING.md)
-- [元ソースとのSHA台帳](SOURCE_MANIFEST.json)
+- [51発話・2503字の全文](v5/evidence/continuous10_20261024/speech.txt) ／ [結果](v5/evidence/continuous10_20261024/result.md) ／ [全入力・RAW・評価HTML](v5/evidence/continuous10_20261024/comparison.html)
+- [人間・既存Memory・AIの3列比較](v5/evidence/human_memory_compare_20261024/comparison.html) ／ [人間原文](v5/evidence/human_memory_compare_20261024/reference/human.txt) ／ [AI全文](v5/evidence/human_memory_compare_20261024/speech.txt) ／ [結果](v5/evidence/human_memory_compare_20261024/result.md)
+- [復元条件とCPU検査](v5/REPRODUCING.md) ／ [ソース・証跡SHA台帳](SOURCE_MANIFEST.json)
 
 ## 現在の到達点
 
-短い発話を実際のテキスト履歴へ戻す経路は動作しています。指定したGold焦点をSurfaceへ届ける4例も確認済みです。学習済みPlannerによる有効な焦点変更や、Bより自然になる効果は未証明です。
+短い発話を履歴へ戻す経路で51/51発話・2503非空白字を完走。250字/分仮定で約10.01分相当で、実音声時間ではありません。旧17callを全入力/SHA一致で再利用、新規85call。元runのexit1は保全し、継続runはnative/launcher/両Python exit0。不正Plan5件で固定順へ戻り継続できました。意味品質は未保証です。
 
-最新の約10分相当テストは、8発話429字の時点で9回目PlannerがJSONを閉じられず停止しました。実行は失敗終了で、10分目標は未達です。停止時のコードをそのまま保存し、JSON不正時の継続処理は追加していません。CPU検査251項目の成功と、長時間生成の成功・意味品質は区別しています。
+人間原文比較は4話題1961字→既存逆算Memory416字→AI5発話730字。概要を話すことはできましたが、人間の発見・怒り・自慢の展開は説明へ寄り、全弾成功への強化やバッグの所有関係の誤りが残りました。Memory段階の欠落と生成時の改変を分けて記録しています。
 
-## バージョンの対応
+Gold焦点をSurfaceへ届ける例は確認済みですが、学習済みPlannerの有効な再計画や自然さへの優位性は未実証。人間比較のPlannerは構文5/5でも内容崩壊1、適用採用0、順序変更0でした。技術監査passと意味品質合格は別です。
 
-- 既存の`v5`タグ：2026-10-15時点の初回スナップショット。変更しません。
-- `v5-20261023`：現在のα・新Surface・漸次Runtimeと既知の失敗を含む保存点。
-- `_talk/lora_v4_gemma_runtime/`などは継承した依存・過去Runtimeです。現在の入口は`v5/runtime/run_cpu.py`です。古いディレクトリ名のv4/v5や過去READMEを、現行の品質判定と混同しないでください。
-- [2026-10-15版README](docs/history/v5-20261015.md)も保持しています。
+## バージョン
 
-このリポジトリはソース・合成fixture・限定した実験証跡の保存です。モデル本体、LoRA重量、tokenizer、量子化cache、教師原文、元配信ZIP、記憶DB、環境・認証情報は含みません。cloneのみで推論は開始できません。外部資産の条件は[DEPENDENCIES.md](DEPENDENCIES.md)を参照してください。
+- `v5`：2026-10-15の初回保存点。変更しません。
+- `v5-20261023`：不正Planで停止した旧実験とその時点のソース。変更しません。[旧README](docs/history/v5-20261023.md)
+- `v5-20261025`：固定順継続修正、完了した10分相当発話・人間比較、現在地の保存点。
+- 旧8発話の停止結果は[v5/evidence](v5/evidence/)内に保全。後続完了を元失敗の成功へ書き換えていません。
+
+ソース・合成fixture・許可された2実験の全文/評価/限定した人間比較原文を保存します。モデル/LoRA重量、tokenizer、量子化cache、全文教材・元配信ZIP、Memory DB、チャットSQLiteや認証情報は含めません。cloneのみで推論は開始できません。[依存資産](DEPENDENCIES.md)
 
 ```powershell
 python -X utf8 -B v5/tools/verify_snapshot.py
 python -X utf8 -B v5/tools/test_snapshot.py -v
+python -X utf8 -B v5/tools/test_current.py -v
 ```
 
-上の2つは標準ライブラリだけのソース・契約・保存fixture検査で、モデルの生成や学習を実行しません。
+これらは標準ライブラリだけのソース・保存証跡・CPU模擬検査で、モデル生成や学習を実行しません。

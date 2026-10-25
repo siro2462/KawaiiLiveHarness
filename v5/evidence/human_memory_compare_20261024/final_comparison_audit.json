@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "three_columns_per_reference_topic": true,
+  "reference_topics": 4,
+  "all5_actual_inputs_raw_in_runtime_details": true,
+  "speech_original_generation_order": true,
+  "technical_pass_not_semantic_quality": true,
+  "no_extra_generation": true
+}

@@ -1,0 +1,51 @@
+{
+  "surface_calls": 51,
+  "distinct_memories": 19,
+  "source_fact_targets": 88,
+  "expressions": {
+    "そういえば": 13,
+    "んだよね": 47,
+    "んですよね": 0,
+    "で、その": 15,
+    "……": 16,
+    "さっき": 4
+  },
+  "opening_de_count": 24,
+  "unchanged_order_turns": 51,
+  "valid_plan_count": 46,
+  "degenerate_literal_topic": [
+    26,
+    27,
+    28,
+    34,
+    35,
+    39,
+    40,
+    41,
+    45,
+    46,
+    47
+  ],
+  "degenerate_placeholders": [
+    48,
+    49
+  ],
+  "truncated_topic_valid": [
+    25
+  ],
+  "new_seconds_by_role": {
+    "planner": 3477.163,
+    "surface": 1809.436
+  },
+  "source_reused_model_seconds": 1279.965,
+  "current_wall_seconds": 7874.999448,
+  "cut_tokens": 0,
+  "incomplete_last_memory": [
+    "F05-5"
+  ],
+  "history_body_duplicates": 0,
+  "new_calls_by_role": {
+    "planner": 42,
+    "surface": 43
+  }
+}

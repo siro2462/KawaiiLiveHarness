@@ -1,0 +1,9 @@
+{
+  "automation_id": "memory",
+  "status": "deleted",
+  "delete_tool_confirmed": true,
+  "deleted_jst": "2026-10-24T10:15:35.975225+09:00",
+  "full_result_links_notified": true,
+  "reason": "All5 outputs full reviewed, current exits0 and technical/report integrity pass; comparison complete",
+  "resident_polling": false
+}

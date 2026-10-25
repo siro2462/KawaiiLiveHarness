@@ -1,0 +1,8 @@
+{
+  "pid": 22052,
+  "exit_code": 0,
+  "python_error": null,
+  "exit_scope": "observed Python outcome; immediate process exit after stream flush",
+  "script": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\human_memory_compare_20261024_v1\\executed_source\\run_cpu.py",
+  "args": []
+}

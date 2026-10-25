@@ -1,0 +1,20 @@
+{
+  "status": "pass",
+  "scope": "New package CPU source/evidence verification, not new model generation or human quality rating",
+  "legacy_regression_tests": {
+    "run": 12,
+    "passed": 12,
+    "failed": 0,
+    "skipped": 0
+  },
+  "current_regression_tests": {
+    "run": 15,
+    "passed": 15,
+    "failed": 0,
+    "skipped": 0
+  },
+  "initial_test_helper_issue": "Mock rollout imported optional Janome; corrected CPU request stub and finally cleanup. Runtime unchanged.",
+  "new_model_calls": 0,
+  "new_training_updates": 0,
+  "original_run_modified": false
+}

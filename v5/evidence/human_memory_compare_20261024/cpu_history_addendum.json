@@ -1,0 +1,19 @@
+{
+  "status": "pass",
+  "CPU_checks": 11,
+  "checks": [
+    "valid_plan:R0002:exact_prior_delivered_history_in_both_models",
+    "valid_plan:R0004:exact_prior_delivered_history_in_both_models",
+    "valid_plan:R0006:exact_prior_delivered_history_in_both_models",
+    "valid_plan:R0008:exact_prior_delivered_history_in_both_models",
+    "valid_plan:R0010:exact_prior_delivered_history_in_both_models",
+    "invalid_plan:R0002:exact_prior_delivered_history_in_both_models",
+    "invalid_plan:R0004:exact_prior_delivered_history_in_both_models",
+    "invalid_plan:R0006:exact_prior_delivered_history_in_both_models",
+    "invalid_plan:R0008:exact_prior_delivered_history_in_both_models",
+    "invalid_plan:R0010:exact_prior_delivered_history_in_both_models",
+    "both_scenarios:all_progress_semantically_unverified"
+  ],
+  "scope": "Assertions on saved CPU mock simulations, not model generation",
+  "new_model_calls": 0
+}

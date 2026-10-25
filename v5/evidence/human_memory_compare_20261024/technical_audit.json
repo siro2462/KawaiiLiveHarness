@@ -1,0 +1,118 @@
+{
+  "status": "pass",
+  "scope": "execution/input/history/source integrity, not semantic quality",
+  "surface_candidates": 5,
+  "delivered": 5,
+  "planner_calls": 5,
+  "calls": 10,
+  "delivered_chars": 730,
+  "target_met": false,
+  "stop_reason": "all_eligible_source_presented",
+  "source_memory_links_unchanged": true,
+  "no_repeated_source_fact_targets": true,
+  "actual_history_exact": true,
+  "official_decode_journals": true,
+  "current_exit0": true,
+  "prefix_reused_calls": 0,
+  "new_model_calls": 10,
+  "planner_format_fallbacks": 0,
+  "previous_source_exit1_preserved": false,
+  "semantic_guard_calls": 0,
+  "quality_retries": 0,
+  "training_updates": 0,
+  "actual_tts": false,
+  "human_quality_labels": 0,
+  "entries": [
+    {
+      "call_id": "R0001",
+      "role": "planner",
+      "seconds": 77.417,
+      "request_sha256": "589e28c4d1aaf954504d5d0fceed88ca3325f50e1a096d82f88a4a28ea807041",
+      "output_sha256": "20ed29d8723796d441d6cc9bc0b255a034a971d8c2745dbc433d0ca87fb802b1",
+      "context_cut_tokens": 0,
+      "new_model_generation": true
+    },
+    {
+      "call_id": "R0002",
+      "role": "surface",
+      "seconds": 73.507,
+      "request_sha256": "01e7d517f663810c2e4524d8f7e3ca3f90e73d7fde5e04c3d827ff6796319333",
+      "output_sha256": "bfa37914564a23d01247870c32e43dc485bf044c93cb451c95a0c62ae887508b",
+      "context_cut_tokens": 0,
+      "new_model_generation": true
+    },
+    {
+      "call_id": "R0003",
+      "role": "planner",
+      "seconds": 53.708,
+      "request_sha256": "bda0dcaefb746011afbf780bdbcafb556ee87ee80d4e9385d23ea5e92251112d",
+      "output_sha256": "d133ab6e9bb8d0ce980a7fe2fa98fec9f487fe7318edb8cccc73b0a9123ca79a",
+      "context_cut_tokens": 0,
+      "new_model_generation": true
+    },
+    {
+      "call_id": "R0004",
+      "role": "surface",
+      "seconds": 95.306,
+      "request_sha256": "43f48f85c071da6eacdbdebb614d1e2c00fe86c879a066a8f7273f81014f7473",
+      "output_sha256": "e8910d9c77aab299a2013fba44026d2f0dba6fb740c3ae44facb6e54f9e663c4",
+      "context_cut_tokens": 0,
+      "new_model_generation": true
+    },
+    {
+      "call_id": "R0005",
+      "role": "planner",
+      "seconds": 85.421,
+      "request_sha256": "be6218e5c081270d2be48e62407f79f32b31b9ad0d334ca8e970800a8c073e80",
+      "output_sha256": "68bd62531d6304ec0655b57a6ec71efaf52fe2ec2a00cdd1fbbec3ed4a1e2db4",
+      "context_cut_tokens": 0,
+      "new_model_generation": true
+    },
+    {
+      "call_id": "R0006",
+      "role": "surface",
+      "seconds": 119.502,
+      "request_sha256": "f0119dc8e7d2bd265fa65689e6247125b70ca21bfb5328f2d77790434892f11a",
+      "output_sha256": "148a0ed5e8d60cac64fa2624550c8f69a85da428d2f2b669975108bd0355e391",
+      "context_cut_tokens": 0,
+      "new_model_generation": true
+    },
+    {
+      "call_id": "R0007",
+      "role": "planner",
+      "seconds": 66.59,
+      "request_sha256": "3c464d2bcb797d661ef47bc70558d61ffc8598fa2dc0b67552ef7eb68f509286",
+      "output_sha256": "999409c4df996d3f522ff42788e89c03731f5f736cb40d7766a5c123bba6912a",
+      "context_cut_tokens": 0,
+      "new_model_generation": true
+    },
+    {
+      "call_id": "R0008",
+      "role": "surface",
+      "seconds": 83.108,
+      "request_sha256": "89adc7e9041879d20556a4f9544a1a02917dec4cf4f9e38b79c34b5d67dda192",
+      "output_sha256": "fa7edbe7c7eb4c2cd1b99e01502353e6219a3c42364bc02a75fad413b0b84148",
+      "context_cut_tokens": 0,
+      "new_model_generation": true
+    },
+    {
+      "call_id": "R0009",
+      "role": "planner",
+      "seconds": 89.363,
+      "request_sha256": "623004fc1eb3371f9368d92a6d961bec610277cc7a8282178f5e82ec124cc84e",
+      "output_sha256": "75df7d6eda7d76a779dbb5e0d5d98384a1f1c4749a0db416b2be2f709005a4dd",
+      "context_cut_tokens": 0,
+      "new_model_generation": true
+    },
+    {
+      "call_id": "R0010",
+      "role": "surface",
+      "seconds": 64.647,
+      "request_sha256": "5e10dfaf7bc6de22410a1f63f7d326df78404cfd68f995240a596566d734961d",
+      "output_sha256": "a23362bdca9d4630fc74a9587b9db73d8cd87a468f803782ea8a39d31eaa7952",
+      "context_cut_tokens": 0,
+      "new_model_generation": true
+    }
+  ],
+  "review_packet_sha256": "fbb90327a3d54f721e3912fe54736b8626c218a049c25035c34d09ab2dbdbc7b"
+}

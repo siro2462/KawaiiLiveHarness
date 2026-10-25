@@ -1,0 +1,51 @@
+{
+  "experiment": "human_reference_existing_reverse_memory_current_harness",
+  "created_jst": "2026-10-24T09:29:31.935442+09:00",
+  "seeds": [
+    20260925
+  ],
+  "max_calls": 10,
+  "max_surface_calls": 5,
+  "max_replan_calls": 5,
+  "target_chars": 1961,
+  "chars_per_minute_assumption": 250,
+  "history_window": {
+    "turns": 2,
+    "max_chars": 800
+  },
+  "semantic_guard": false,
+  "quality_retries": 0,
+  "training": false,
+  "real_tts": false,
+  "production": false,
+  "initial_plan_cache": {},
+  "stop_on_invalid_plan": false,
+  "eligible_memory_ids": [
+    "H04",
+    "H05",
+    "H06",
+    "H07"
+  ],
+  "new_orchestration_notes": [
+    "Fixed current LoRA/Planner schema+prompt/alpha algorithm/Flow application/Surface contract/seed.",
+    "Only fixtures and initial/broad cues changed to human-derived memory set.",
+    "Alpha chooses order; no human transcript/flow/style/gold history or oracle adjacent links are input.",
+    "Every actual delivered generated utterance enters the fixed2turn/800char history.",
+    "All original memory items are compound existing summaries, not atomic3-6 facts. Compression is part of what is measured.",
+    "All4 memories may not be selected if alpha has no supported candidate. Report actual coverage without forced selection."
+  ],
+  "planner_invalid_policy": "preserve_raw_discard_plan_fixed_source_order_no_retry",
+  "reuse_scope": "none; all requests are new for this comparison",
+  "max_new_model_calls": 10,
+  "goal": "Compare whole human reference with one pass of existing compressed reverse memories; source exhaustion is valid even when shorter. No padding.",
+  "models": "../../MODELS.json",
+  "original_protocol_sha256": "0a09db06e35a95ec0ea8ac2499c94114cab90492dce8fa1055640efd1c5cf015",
+  "source_run_relative_to_talk": "harness_beta/runs/human_memory_compare_20261024_v1",
+  "prefix_reuse_summary": {
+    "count": 0,
+    "new_model_generation": false,
+    "source_run": null,
+    "previous_exit": null
+  },
+  "export_notice": "Conditions and provenance only; original local protocol and external freeze manifest are required to run. This is not a ready-to-run protocol."
+}

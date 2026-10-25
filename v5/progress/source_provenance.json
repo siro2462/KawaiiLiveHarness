@@ -1,0 +1,5 @@
+{
+  "local_snapshot_relative_to_talk": "harness_beta/runs/chat_progress_20261025_v30",
+  "local_checkpoint_sha256": "fbb7d389b9a74a607c54c811b8527ccc3132893811f0dd1ce48ff613ec167c81",
+  "public_export_notice": "Current-state fields and results exported; private conversation/tools/source SQLite deliberately not bundled. Local ledger is updated with the actual commit and remote receipt after push."
+}

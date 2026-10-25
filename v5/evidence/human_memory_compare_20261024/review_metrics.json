@@ -1,0 +1,59 @@
+{
+  "human_chars": 1961,
+  "memory_chars": 416,
+  "ai_chars": 730,
+  "per_memory": [
+    {
+      "id": "H04",
+      "human_chars": 359,
+      "memory_chars": 72,
+      "ai_chars": 119
+    },
+    {
+      "id": "H05",
+      "human_chars": 288,
+      "memory_chars": 99,
+      "ai_chars": 171
+    },
+    {
+      "id": "H06",
+      "human_chars": 569,
+      "memory_chars": 117,
+      "ai_chars": 226
+    },
+    {
+      "id": "H07",
+      "human_chars": 745,
+      "memory_chars": 128,
+      "ai_chars": 214
+    }
+  ],
+  "ai_openings": [
+    "イベントの前、あ、あのガチャを偶然見",
+    "あと、あの、先着40名のグリーティン",
+    "あと、あの、射的もやったんですけど、",
+    "あと、ガラポンもやったんですけど、1",
+    "A賞の景品って、あそこにもたくさん置"
+  ],
+  "ai_phrase_counts": {
+    "そういえば": 0,
+    "あと、あの、": 2,
+    "あと、": 3,
+    "あの": 5,
+    "んですけど": 5,
+    "んだよね": 0
+  },
+  "calls": 10,
+  "model_seconds": 808.569,
+  "wall_seconds": 1153.943616,
+  "schema_valid": 5,
+  "use_memory_true": 1,
+  "applied_plans": 0,
+  "order_changes": 0,
+  "all_selected_order": [
+    "H04",
+    "H05",
+    "H07",
+    "H06"
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "reviewed_surface_call_ids": [
+    "R0002",
+    "R0004",
+    "R0006",
+    "R0008",
+    "R0010"
+  ],
+  "reviewed_planner_call_ids": [
+    "R0001",
+    "R0003",
+    "R0005",
+    "R0007",
+    "R0009"
+  ],
+  "reviewed_selection_indices": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "review_packet_sha256": "fbb90327a3d54f721e3912fe54736b8626c218a049c25035c34d09ab2dbdbc7b",
+  "root_full_text_read": true,
+  "human_quality_labels": 0,
+  "reviewer": "Root designing AI; known condition, non-independent, not blind",
+  "read_scope": "All5 complete actual Planner/Surface text inputs incl prompt/decoded input, histories, source facts, RAW and bodies, applications/progress; all4 alpha selections and all human references/Memory read. Numeric token arrays checked by CPU; exact duplicate objects displayed via verified same-turn references. Initial truncated displays were supplemented before this attestation.",
+  "per_turn": [
+    {
+      "call_id": "R0002",
+      "fact_preservation": "Memoryの3回/欲しい物/イベント後の売切れ/入場前で幸運という核心は保持。人間の「3台くらい」をMemoryが既に3台へ圧縮している点は生成起因ではない。「イベントから帰ってきたら」は出た時より場所が曖昧だが、この文だけで帰宅等を確定したとは扱わない。",
+      "naturalness": "文法は自然で説明は追える。一方「あ、あの」「あ、ちゃんと」と短い挿入が並び、丁寧な結果報告が中心。人間の「たまたまあった」「危ねえ」の発見と再評価の反復は再現されていない。",
+      "connection": "初回開始。偶然発見→3回→欲しい物→売切れ→幸運の順はまとまる。",
+      "content_repetition": "既存発話の再説明ループなし。人間にある幸運の反復は短く集約された。",
+      "expression_repetition": "初回のため履歴からの表現反復は未判定。単文内にあ/あのが複数ある。",
+      "planner_effect": "R0001は内容を要約したFlowだがuse_memory=falseで非採用、固定順。Surface入力にその自然言語Planは渡っておらず、効果の証拠なし。",
+      "quotes": [
+        "イベントの前、あ、あのガチャを偶然見つけて",
+        "とりあえず3回引いてみたんですけど",
+        "もう3台とも売り切れてて",
+        "本当にラッキーだったなと思ってます。"
+      ]
+    },
+    {
+      "call_id": "R0004",
+      "fact_preservation": "先着40名/予想より人気で終了/名前シール/同じグッズ/見られた気がする/慌て/気まずさはMemoryから概ね保持。「作り始めた」を「作り始めたみたい」と不確かに弱める。Memoryの気まずさ自体は人間原文からの既存解釈であり今回の創作ではない。",
+      "naturalness": "一つの発話でグリーティングとシールを説明。話し言葉にはなるが、原文の「嘘やん」「やばい」の反応は落ち、丁寧で説明的。",
+      "connection": "「あと」で別話題へ切替。原文の同イベントという背景の深掘りはせず、原文の流れを強く再現したとは言えない。「それで」は時間接続にも読め、因果を確定したとは採点しない。",
+      "content_repetition": "T01の出来事を再説明していない。",
+      "expression_repetition": "「あと、あの、」で開始し、T03も同じ開始となる。単にあとを使うことは不良ではなく、複数話題での選択の狭さとして観察。",
+      "planner_effect": "R0003は構文合格だがtopic「{」、flow全4件「{」で内容崩壊。format_fallback0を品質合格としない。use_memory=falseで固定順継続。",
+      "quotes": [
+        "先着40名のグリーティングなんですけど",
+        "作り始めたみたいで",
+        "なんだか気まずくなっちゃって。",
+        "{\"use_memory\":false,\"memory_id\":null,\"topic\":\"{\",\"flow\":[\"{\",\"{\",\"{\",\"{\"]}"
+      ]
+    },
+    {
+      "call_id": "R0006",
+      "fact_preservation": "重大な生成改変2点。Memory「残りの弾でも当てた」を「その後の弾も、全部当てられた」と全弾成功へ強化。人間は6発ぐらい中2発だが、その数値がMemoryにないことと全部の追加を分ける。またMemoryではグッズバッグを見た女性が、生成ではグッズバッグを持った女性に変化。原文では話者自身のバッグ。初弾/トート/銃が重く長い/自称スナイパー/集中して気づかず驚く核心の一部は保持。",
+      "naturalness": "射的成功→銃の重さと自慢→話しかけられた反応は局所的には滑らか。ただし原文の自慢の反復や声の再演は短い報告へ集約。自然な言い換えだけで事実保持も達成したとは言えない。",
+      "connection": "αが共通グッズでH05からH07を先に選んだ。Surfaceは「あと、あの」で射的へ移り、共有語を使う明確な連想の橋渡しはしない。人間のH06ガラポン→H07射的という順は保持されていない。",
+      "content_repetition": "直前のグリーティング/シールを再説明しない。射的の自慢は原文より反復が少ない。",
+      "expression_repetition": "T02と同じ「あと、あの、」開始。T02/T03双方に「んですけど」が使われる。",
+      "planner_effect": "R0005自体にも「銃の重さや長さを誇る」「バッグにたくさんのグッズを付けた女性」と受け先の誤りがある。しかしuse_memory=falseでPlanはSurfaceへ渡されていないため、Surface誤りの原因をこのPlanと断定しない。固定順。",
+      "quotes": [
+        "その後の弾も、全部当てられたんですよ。",
+        "グッズをたくさん付けてるバッグを持った知らない女性から",
+        "銃の重さや長さを誇る",
+        "バッグにたくさんのグッズを付けた女性から話しかけられる"
+      ]
+    },
+    {
+      "call_id": "R0008",
+      "fact_preservation": "600円/15回/9000円/A賞一度もなし/B賞続きは保持。「天井もなく」→「天井とかもないみたい」で確実性を弱める。「怒った」は穏やかな改善希望へ寄る。「A賞が出ない仕組み」は既存Memoryが主観的怒りを客観機構のように圧縮した問題を引き継いでいる。",
+      "naturalness": "数量は明瞭に整理される。人間の怒りの段階的な盛り上がりと問いかけの代わりに、丁寧な説明と控えめな不満。単に短いことを失敗とせず、情報圧縮と実行粒度の制約を併記する。",
+      "connection": "H07からH06へ「あと」で追加。話題群の共通するイベントは分かるが、人間の「でもさ、ちょっと許せない」という感情的な展開はない。元のガラポン失敗→射的自慢の順序も逆。",
+      "content_repetition": "600円/15回/9000円をまとめ、B賞のみを補う。過去話題の無限ループなし。",
+      "expression_repetition": "3回連続の話題転換が「あと、」始まり。この系列ではそういえば0だが、それだけで多様性改善とはしない。",
+      "planner_effect": "R0007は部分要約Flowだがuse_memory=false。元Fact固定順でH06-1/2を提示、未提示のH06-3は次回へ。",
+      "quotes": [
+        "1回600円で、それを15回、合計9000円も回したのに",
+        "天井とかもないみたいで",
+        "もうちょっとどうにかしてほしいなって思っちゃいました。"
+      ]
+    },
+    {
+      "call_id": "R0010",
+      "fact_preservation": "景品がたくさんあるのに当たらない/9000円なら一つ買えたのではという反実仮想/悔しさを保持。「あそこにも」の「も」は未指定の比較場所を含意し得て不要だが、主要な数量や実行状態の逆転は認めない。",
+      "naturalness": "前回の不満を受けて景品と買えたはずという評価へ進み、短いまとまりとして自然。原文の強い怒りより「ちょっと悔しい」と穏やか。",
+      "connection": "同Memoryの続きを新内容で進める。A賞/9000円の言い直しは本文の焦点を深める反復で、Fact再投入のループとは区別。",
+      "content_repetition": "9000円/A賞を再度述べるが、景品が残ることと購入との比較が新しく、単純な丸ごと再説明ではない。",
+      "expression_repetition": "開始はA賞へ変わり「あと」の連発を終える。発話内あの/なんかなどの緩衝語がある。",
+      "planner_effect": "R0009はuse_memory=trueでH06を選ぶが、sidecar未対応のため「No audited source contract; fixed source order」。適用採用0、順序変更0。Flowは既提示の15回/B賞も挙げ、実際の次内容H06-3はProgressの単回提示ルールで決まる。",
+      "quotes": [
+        "A賞の景品って、あそこにもたくさん置いてあったんですよ。",
+        "普通に一つ買えたんじゃないかなって。",
+        "なんか、もう、ちょっと悔しいですよね。",
+        "No audited source contract; fixed source order"
+      ]
+    }
+  ],
+  "source_to_memory_findings": [
+    {
+      "memory": "H04",
+      "finding": "3台くらい→3台、ポーチの対象語と幸運の反復が圧縮"
+    },
+    {
+      "memory": "H05",
+      "finding": "やばい/危ないの反復や逃げる細部を圧縮し、気まずさと解釈"
+    },
+    {
+      "memory": "H06",
+      "finding": "A賞うちわ/B賞品名の不確かさ/呼びかけ/9000円の怒りの反復が消え、主観的な出ない疑念を仕組みと記述"
+    },
+    {
+      "memory": "H07",
+      "finding": "6発ほど中2発/景品は1個/自分のバッグへの反応だったという言い直しと音声再演が圧縮"
+    }
+  ],
+  "metrics": {
+    "human_chars": 1961,
+    "memory_chars": 416,
+    "ai_chars": 730,
+    "per_memory": [
+      {
+        "id": "H04",
+        "human_chars": 359,
+        "memory_chars": 72,
+        "ai_chars": 119
+      },
+      {
+        "id": "H05",
+        "human_chars": 288,
+        "memory_chars": 99,
+        "ai_chars": 171
+      },
+      {
+        "id": "H06",
+        "human_chars": 569,
+        "memory_chars": 117,
+        "ai_chars": 226
+      },
+      {
+        "id": "H07",
+        "human_chars": 745,
+        "memory_chars": 128,
+        "ai_chars": 214
+      }
+    ],
+    "ai_openings": [
+      "イベントの前、あ、あのガチャを偶然見",
+      "あと、あの、先着40名のグリーティン",
+      "あと、あの、射的もやったんですけど、",
+      "あと、ガラポンもやったんですけど、1",
+      "A賞の景品って、あそこにもたくさん置"
+    ],
+    "ai_phrase_counts": {
+      "そういえば": 0,
+      "あと、あの、": 2,
+      "あと、": 3,
+      "あの": 5,
+      "んですけど": 5,
+      "んだよね": 0
+    },
+    "calls": 10,
+    "model_seconds": 808.569,
+    "wall_seconds": 1153.943616,
+    "schema_valid": 5,
+    "use_memory_true": 1,
+    "applied_plans": 0,
+    "order_changes": 0,
+    "all_selected_order": [
+      "H04",
+      "H05",
+      "H07",
+      "H06"
+    ]
+  },
+  "conclusion": "4記憶から5発話の連続生成は成立したが、人間の語りの再現やPlannerの有効性は示せない。上流の情報圧縮・固定の提示粒度・α選択順・Surfaceの説明調と意味改変を分離して扱う。"
+}
