@@ -1,7 +1,7 @@
 {
-  "version": "v5-current-20261025",
-  "client_date_jst": "2026-10-25",
-  "kind": "Current offline continuation runtime with saved completed research results; quality not approved",
+  "version": "v5-current-20261026",
+  "client_date_jst": "2026-10-26",
+  "kind": "Unchanged v5 offline runtime plus saved Surface v2/v3 candidate sources and completed comparisons; quality not approved",
   "old_v5_tag_unchanged": true,
   "old_v5_20261023_tag_unchanged": true,
   "runtime_source": "harness_beta/runs/current_continuous10_fallback_20261024_v1/executed_source",
@@ -19,6 +19,12 @@
     "credentials/environments"
   ],
   "limited_reference_exception": "Only selected4-topic human comparison1961 non-whitespace chars and its existing reverse Memory are included as requested comparison evidence.",
+  "old_v5_20261025_tag_unchanged": true,
+  "prompt_candidate_sources": [
+    "harness_beta/runs/surface_prompt_v2_ab_20261025_v2/executed_source",
+    "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/executed_source"
+  ],
+  "default_runtime_prompt_changed": false,
   "files": [
     {
       "path": ".gitattributes",
@@ -40,8 +46,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3662,
-      "sha256": "49ad54089275c08f2e6f92e8c4f282cb37d02bb4e6a01c27789bbd47058fe97a",
+      "bytes": 4485,
+      "sha256": "a3f0e51fc49cee473b08c8ad1da170aeb22946711c3ddafbfe7bf1a0efb771ae",
       "kind": "generated-publication-record"
     },
     {
@@ -606,20 +612,20 @@
     },
     {
       "path": "v5/REPRODUCING.md",
-      "bytes": 2955,
-      "sha256": "9b4ba892ebee50d14fc384224f79f241133973f44ffe96f859b559fd46a2b41b",
+      "bytes": 3776,
+      "sha256": "87f1cf8982eafe60f1e2ac2423b639868c66523080192380d304944c746675f6",
       "kind": "generated-publication-record"
     },
     {
       "path": "v5/STATUS.md",
-      "bytes": 2566,
-      "sha256": "cde82d0efe37af9a2ee344a1f0954c12fd9884337c56f9d1e8d5084d69628568",
+      "bytes": 3620,
+      "sha256": "1f700c25c2dd6b70ba6a8a44529e52eb1bcecd420f13971c3e6ca88c022b3653",
       "kind": "generated-publication-record"
     },
     {
       "path": "v5/VALIDATION.md",
-      "bytes": 1795,
-      "sha256": "1b305f9d4dac6441d6a7d45a1be81cf67dc58802da7b5aeccbd90e8433e6d36c",
+      "bytes": 2799,
+      "sha256": "e3b5d0e2ec33d2a9a46bc2ed7fd2796f176ba34d85da0dba26eb47f03e061a02",
       "kind": "generated-publication-record"
     },
     {
@@ -983,6 +989,320 @@
       "source_sha256": "7762c0e07b3121b69a89c82849de1a2c45255df900e7c7965b9a9f60d534c855"
     },
     {
+      "path": "v5/evidence/surface_prompt_v2_20261025/cases.json",
+      "bytes": 29553,
+      "sha256": "9c4717aacba9fa6e9fc244f4e09304cd4b88894f3b9285aedfaa5b6e0c47dc81",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v2_ab_20261025_v2/cases.json",
+      "source_sha256": "9c4717aacba9fa6e9fc244f4e09304cd4b88894f3b9285aedfaa5b6e0c47dc81"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v2_20261025/comparison.html",
+      "bytes": 138772,
+      "sha256": "e5432409405accf6ef407e304ff5a3e01b35e4b4260adf04d9ed8f12766aba9e",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v2_ab_20261025_v2/comparison.html",
+      "source_sha256": "e5432409405accf6ef407e304ff5a3e01b35e4b4260adf04d9ed8f12766aba9e"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v2_20261025/comparison.md",
+      "bytes": 5230,
+      "sha256": "facc93e4454565ccef88970b665251c922c0f6d5207171f71e37fa37e6bb1588",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v2_ab_20261025_v2/comparison.md",
+      "source_sha256": "facc93e4454565ccef88970b665251c922c0f6d5207171f71e37fa37e6bb1588"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v2_20261025/completion.json",
+      "bytes": 796,
+      "sha256": "d7b276e902e78c8caf5d43df306145809fde8a1eabb6eca5dd2ce68d6371c880",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v2_ab_20261025_v2/completion.json",
+      "source_sha256": "d7b276e902e78c8caf5d43df306145809fde8a1eabb6eca5dd2ce68d6371c880"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v2_20261025/controller.python_outcome.json",
+      "bytes": 302,
+      "sha256": "deacf6ae0b87e591e737720961e357bb4e3f89d60a11db648cae84064b0abaf0",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v2_ab_20261025_v2/controller.python_outcome.json",
+      "source_sha256": "deacf6ae0b87e591e737720961e357bb4e3f89d60a11db648cae84064b0abaf0"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v2_20261025/cpu_preflight.json",
+      "bytes": 5486,
+      "sha256": "0f14a30542d121997f2a619b0c653d8c4857123fea4d9a116689e66d759bf8ce",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v2_ab_20261025_v2/cpu_preflight.json",
+      "source_sha256": "0f14a30542d121997f2a619b0c653d8c4857123fea4d9a116689e66d759bf8ce"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v2_20261025/dependency_probe.json",
+      "bytes": 867,
+      "sha256": "c2c639f2ffbca25de00074c83b8428b6263740665dd0b2e029dd4b11b53ae413",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v2_ab_20261025_v2/dependency_probe.json",
+      "source_sha256": "c2c639f2ffbca25de00074c83b8428b6263740665dd0b2e029dd4b11b53ae413"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v2_20261025/gpu.python_outcome.json",
+      "bytes": 305,
+      "sha256": "73abbcac3d0ca7aeaf19fc4298375229334026b6de4a8e874e8de9a407b05bd8",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v2_ab_20261025_v2/gpu.python_outcome.json",
+      "source_sha256": "73abbcac3d0ca7aeaf19fc4298375229334026b6de4a8e874e8de9a407b05bd8"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v2_20261025/outputs_a.txt",
+      "bytes": 1693,
+      "sha256": "cabbaa68ae5ea6158a19bab4afa2c4523099e44bf5dbb20dedd1b50e1d128c0e",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v2_ab_20261025_v2/outputs_a.txt",
+      "source_sha256": "cabbaa68ae5ea6158a19bab4afa2c4523099e44bf5dbb20dedd1b50e1d128c0e"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v2_20261025/outputs_b.txt",
+      "bytes": 3218,
+      "sha256": "4c8f84fb213aed44f8fa335ac5608e3559e7640a66053095dca68d2e1cb8a606",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v2_ab_20261025_v2/outputs_b.txt",
+      "source_sha256": "4c8f84fb213aed44f8fa335ac5608e3559e7640a66053095dca68d2e1cb8a606"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v2_20261025/protocol_export.json",
+      "kind": "generated-publication-record",
+      "bytes": 6026,
+      "sha256": "9e3ec538a6acde93d1a11f53ce661467fa3c83fefc826bc1e43e0cd2b251dce6"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v2_20261025/recovery_validation.json",
+      "bytes": 409,
+      "sha256": "a1c9adfea3b2c0c27640e974ec5e9d0fdb83bf5b91364d5122dea31088c6f0c3",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v2_ab_20261025_v2/recovery_validation.json",
+      "source_sha256": "a1c9adfea3b2c0c27640e974ec5e9d0fdb83bf5b91364d5122dea31088c6f0c3"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v2_20261025/report_check.json",
+      "bytes": 1461,
+      "sha256": "c514e292febee7ee99346f792c0a8996ad0967600dd746e51a1bed15db132b0e",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v2_ab_20261025_v2/report_check.json",
+      "source_sha256": "c514e292febee7ee99346f792c0a8996ad0967600dd746e51a1bed15db132b0e"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v2_20261025/result.md",
+      "bytes": 6793,
+      "sha256": "fb85d009e2111118b7dd28a5025613548f4e3986218c28d32bbab48309d65e71",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v2_ab_20261025_v2/result.md",
+      "source_sha256": "fb85d009e2111118b7dd28a5025613548f4e3986218c28d32bbab48309d65e71"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v2_20261025/review_packet.json",
+      "bytes": 883621,
+      "sha256": "d3007dae065b493882dfedebd4e8c13dc71ab2c4369237fd9a6eeef1e9b6abf0",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v2_ab_20261025_v2/review_packet.json",
+      "source_sha256": "d3007dae065b493882dfedebd4e8c13dc71ab2c4369237fd9a6eeef1e9b6abf0"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v2_20261025/root_final_summary.md",
+      "bytes": 6793,
+      "sha256": "fb85d009e2111118b7dd28a5025613548f4e3986218c28d32bbab48309d65e71",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v2_ab_20261025_v2/root_final_summary.md",
+      "source_sha256": "fb85d009e2111118b7dd28a5025613548f4e3986218c28d32bbab48309d65e71"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v2_20261025/root_review.json",
+      "bytes": 11555,
+      "sha256": "789f3145b3cf4daaf709d78635a2ba7e454ffe0f3311c4e96512096ae303b1c3",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v2_ab_20261025_v2/root_review.json",
+      "source_sha256": "789f3145b3cf4daaf709d78635a2ba7e454ffe0f3311c4e96512096ae303b1c3"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v2_20261025/technical_audit.json",
+      "bytes": 1930,
+      "sha256": "8de6e7b7648b2a951e0b07be00fb7ba16b6c26cb10b475a9a09fffc1865ea566",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v2_ab_20261025_v2/technical_audit.json",
+      "source_sha256": "8de6e7b7648b2a951e0b07be00fb7ba16b6c26cb10b475a9a09fffc1865ea566"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v3_vs_v2_20261026/cases.json",
+      "bytes": 32947,
+      "sha256": "ee85e87b07c4ee711272416caf1ce8c5e7cafcedfa30239ce06613670458bb7e",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/cases.json",
+      "source_sha256": "ee85e87b07c4ee711272416caf1ce8c5e7cafcedfa30239ce06613670458bb7e"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v3_vs_v2_20261026/comparison.html",
+      "bytes": 198717,
+      "sha256": "0ae587af4d665fc31c23d497216d08ca1ae43fedcddb130ec409cee539957954",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/comparison.html",
+      "source_sha256": "0ae587af4d665fc31c23d497216d08ca1ae43fedcddb130ec409cee539957954"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v3_vs_v2_20261026/comparison.md",
+      "bytes": 6406,
+      "sha256": "f998f5d765a52ca0db34ca54e8ba003ca7d2b3b2aa43a09e630477358bf53fce",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/comparison.md",
+      "source_sha256": "f998f5d765a52ca0db34ca54e8ba003ca7d2b3b2aa43a09e630477358bf53fce"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v3_vs_v2_20261026/completion.json",
+      "bytes": 796,
+      "sha256": "dc8bd7ae231cd4b23fd4c4404ad836d61752b8b0e528bf6b7a3ab71e33cba536",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/completion.json",
+      "source_sha256": "dc8bd7ae231cd4b23fd4c4404ad836d61752b8b0e528bf6b7a3ab71e33cba536"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v3_vs_v2_20261026/controller.python_outcome.json",
+      "bytes": 305,
+      "sha256": "99bb84c124db468a7e8598a32e9660ef6f83e738cd38bd94dfd124df3d59bf05",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/controller.python_outcome.json",
+      "source_sha256": "99bb84c124db468a7e8598a32e9660ef6f83e738cd38bd94dfd124df3d59bf05"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v3_vs_v2_20261026/cpu_preflight.json",
+      "bytes": 5518,
+      "sha256": "176043e5b839efefd1945df25ff0f2164f9cf8fcfddeb2306941add3b4f72854",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/cpu_preflight.json",
+      "source_sha256": "176043e5b839efefd1945df25ff0f2164f9cf8fcfddeb2306941add3b4f72854"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v3_vs_v2_20261026/dependency_probe.json",
+      "bytes": 867,
+      "sha256": "c2c639f2ffbca25de00074c83b8428b6263740665dd0b2e029dd4b11b53ae413",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/dependency_probe.json",
+      "source_sha256": "c2c639f2ffbca25de00074c83b8428b6263740665dd0b2e029dd4b11b53ae413"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v3_vs_v2_20261026/gpu.python_outcome.json",
+      "bytes": 308,
+      "sha256": "c7b70ca4d0f6f4be35b6c5b3d8e8517d99294a6485509c544f1524ec6f59fa84",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/gpu.python_outcome.json",
+      "source_sha256": "c7b70ca4d0f6f4be35b6c5b3d8e8517d99294a6485509c544f1524ec6f59fa84"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v3_vs_v2_20261026/monitoring_completion.json",
+      "bytes": 368,
+      "sha256": "8d34ba5e4f0121e7e9388073febc238b63f1597e28cb700c7cf89e4efd1d37b7",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/monitoring_completion.json",
+      "source_sha256": "8d34ba5e4f0121e7e9388073febc238b63f1597e28cb700c7cf89e4efd1d37b7"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v3_vs_v2_20261026/outputs_v2.txt",
+      "bytes": 3218,
+      "sha256": "4c8f84fb213aed44f8fa335ac5608e3559e7640a66053095dca68d2e1cb8a606",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/outputs_v2.txt",
+      "source_sha256": "4c8f84fb213aed44f8fa335ac5608e3559e7640a66053095dca68d2e1cb8a606"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v3_vs_v2_20261026/outputs_v3.txt",
+      "bytes": 2974,
+      "sha256": "17bf9e81b4589677ac73849a2f13be01efd0189365437b8b1487b1490613339e",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/outputs_v3.txt",
+      "source_sha256": "17bf9e81b4589677ac73849a2f13be01efd0189365437b8b1487b1490613339e"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v3_vs_v2_20261026/protocol_export.json",
+      "kind": "generated-publication-record",
+      "bytes": 4295,
+      "sha256": "acc45a437bebf8ec95423f49fbcd65caec5adaf0782c1810bf2d7edc004abc1d"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v3_vs_v2_20261026/readable_report_check.json",
+      "bytes": 112,
+      "sha256": "308a21e1535541bafdb206fd94923fcc12f3d089e95ca25e31b3c1b74e749613",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/readable_report_check.json",
+      "source_sha256": "308a21e1535541bafdb206fd94923fcc12f3d089e95ca25e31b3c1b74e749613"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v3_vs_v2_20261026/report_check.json",
+      "bytes": 1465,
+      "sha256": "7be5243057393d568371be7a148a71fe54ef2f66b441d08e13917fd585b51efd",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/report_check.json",
+      "source_sha256": "7be5243057393d568371be7a148a71fe54ef2f66b441d08e13917fd585b51efd"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v3_vs_v2_20261026/result.md",
+      "bytes": 8215,
+      "sha256": "aaabb34509bbabe3bdd9b7eddea12ab4f8db5e916b6ffb3298c8fc2908168da8",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/result.md",
+      "source_sha256": "aaabb34509bbabe3bdd9b7eddea12ab4f8db5e916b6ffb3298c8fc2908168da8"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v3_vs_v2_20261026/review_packet.json",
+      "bytes": 1428101,
+      "sha256": "1748b43c75205db8b71be23f9d68a1c3d9303204d7e9a164295dce2e08fcd1e5",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/review_packet.json",
+      "source_sha256": "1748b43c75205db8b71be23f9d68a1c3d9303204d7e9a164295dce2e08fcd1e5"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v3_vs_v2_20261026/root_final_summary.md",
+      "bytes": 8144,
+      "sha256": "2c840a018f9a9fa9934382025ee64af410c06e503b233fa1281e3bf5784041b7",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/root_final_summary.md",
+      "source_sha256": "2c840a018f9a9fa9934382025ee64af410c06e503b233fa1281e3bf5784041b7"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v3_vs_v2_20261026/root_review.json",
+      "bytes": 15331,
+      "sha256": "e5bbc7c14caa934821b347b8b016a824fc65cdf0ab3262e7d3c4dd1541163cca",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/root_review.json",
+      "source_sha256": "e5bbc7c14caa934821b347b8b016a824fc65cdf0ab3262e7d3c4dd1541163cca"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v3_vs_v2_20261026/setup_validation.json",
+      "bytes": 1381,
+      "sha256": "949eafffcea8a246aeefe8615c510dba03d7051cf52e149e6c84aaefcae661db",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/setup_validation.json",
+      "source_sha256": "949eafffcea8a246aeefe8615c510dba03d7051cf52e149e6c84aaefcae661db"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v3_vs_v2_20261026/technical_audit.json",
+      "bytes": 1930,
+      "sha256": "ea9d90104d5c4134b88106b948568b1fec57572d6cd7e01a913e2dffb5720499",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/technical_audit.json",
+      "source_sha256": "ea9d90104d5c4134b88106b948568b1fec57572d6cd7e01a913e2dffb5720499"
+    },
+    {
+      "path": "v5/evidence/surface_prompt_v3_vs_v2_20261026/v3_added_instructions.md",
+      "bytes": 2441,
+      "sha256": "62cf9ee234658728641380c90a67d9782f9ad9db83578af4ff5362cd994cc886",
+      "kind": "saved-evidence-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/v3_added_instructions.md",
+      "source_sha256": "62cf9ee234658728641380c90a67d9782f9ad9db83578af4ff5362cd994cc886"
+    },
+    {
+      "path": "v5/experiments/README.md",
+      "kind": "generated-publication-record",
+      "bytes": 674,
+      "sha256": "3384dae4ada201b18ef3a231954557f45b7413f8e9870ca56e6b45909e365ee7"
+    },
+    {
       "path": "v5/experiments/human_memory_compare/compare_finalize.py",
       "bytes": 3715,
       "sha256": "16ea09cd01a43adfbb83488bdf78a3d751c4476ba7b09806ad1a1f05804ad4b1",
@@ -1023,22 +1343,332 @@
       "source_sha256": "8a0b5593d46e304ae2d0872bc0a4fc301fc8a565d887e725fecccb01e803b50f"
     },
     {
+      "path": "v5/experiments/surface_prompt_v2_20261025/common.py",
+      "bytes": 1928,
+      "sha256": "bd4a4b23679c6612420a3f62ec6d948d7d823f6a933eb1194c0c5a86b426a39f",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v2_ab_20261025_v2/executed_source/common.py",
+      "source_sha256": "bd4a4b23679c6612420a3f62ec6d948d7d823f6a933eb1194c0c5a86b426a39f"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v2_20261025/contract_runtime.py",
+      "bytes": 3165,
+      "sha256": "543cd52feebb061712ecdc410f2e77208ed38a4dce8c5a0ab2fa8075b87110f6",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v2_ab_20261025_v2/executed_source/contract_runtime.py",
+      "source_sha256": "543cd52feebb061712ecdc410f2e77208ed38a4dce8c5a0ab2fa8075b87110f6"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v2_20261025/dependency_probe.py",
+      "bytes": 1739,
+      "sha256": "121c28a1e82de77931a4e10309072756719ffc3def8aee8cb32eb28cf9a4b0b5",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v2_ab_20261025_v2/executed_source/dependency_probe.py",
+      "source_sha256": "121c28a1e82de77931a4e10309072756719ffc3def8aee8cb32eb28cf9a4b0b5"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v2_20261025/driver_cpu.py",
+      "bytes": 13056,
+      "sha256": "7249db3a88e406adbbb9b95f575eaf10bafdb486334c4892fb09c45d89b9afa1",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v2_ab_20261025_v2/executed_source/driver_cpu.py",
+      "source_sha256": "7249db3a88e406adbbb9b95f575eaf10bafdb486334c4892fb09c45d89b9afa1"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v2_20261025/fact_contract.json",
+      "bytes": 5272,
+      "sha256": "36b5e48351fc6d8e8663246a6bb4ec6993778ea6706aa21531fcf03278d80f49",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v2_ab_20261025_v2/executed_source/fact_contract.json",
+      "source_sha256": "36b5e48351fc6d8e8663246a6bb4ec6993778ea6706aa21531fcf03278d80f49"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v2_20261025/finalize_cpu.py",
+      "bytes": 5351,
+      "sha256": "97d8bdffa249fad241b242d35078edffe86412966dc3aa2039c0958c4c2f1fb6",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v2_ab_20261025_v2/executed_source/finalize_cpu.py",
+      "source_sha256": "97d8bdffa249fad241b242d35078edffe86412966dc3aa2039c0958c4c2f1fb6"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v2_20261025/flow_apply.py",
+      "bytes": 5356,
+      "sha256": "5a702f70baa100c2c90f23103f04fac8f8d3865ddf1fa7cd353fa9730072c18b",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v2_ab_20261025_v2/executed_source/flow_apply.py",
+      "source_sha256": "5a702f70baa100c2c90f23103f04fac8f8d3865ddf1fa7cd353fa9730072c18b"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v2_20261025/gpu_worker.py",
+      "bytes": 5952,
+      "sha256": "e8c736f71f4e8d5e100571ca5919efe24bbd20dce1b45af2f504892169a8a995",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v2_ab_20261025_v2/executed_source/gpu_worker.py",
+      "source_sha256": "e8c736f71f4e8d5e100571ca5919efe24bbd20dce1b45af2f504892169a8a995"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v2_20261025/observe_cpu.py",
+      "bytes": 5543,
+      "sha256": "fb5be1f6cbb44a34f4d39ca64523f29a4558e2250add817143a485920e198e11",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v2_ab_20261025_v2/executed_source/observe_cpu.py",
+      "source_sha256": "fb5be1f6cbb44a34f4d39ca64523f29a4558e2250add817143a485920e198e11"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v2_20261025/preflight_cpu.py",
+      "bytes": 3003,
+      "sha256": "e82ff5ecf2131f4ff442c11ecf5f29b6970c9723e0662cec7e652f2ce30fe219",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v2_ab_20261025_v2/executed_source/preflight_cpu.py",
+      "source_sha256": "e82ff5ecf2131f4ff442c11ecf5f29b6970c9723e0662cec7e652f2ce30fe219"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v2_20261025/processor_cpu.py",
+      "bytes": 947,
+      "sha256": "311d0d846e74aa51a9909c09f942816f86de482ce9857666f2922355e2db2978",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v2_ab_20261025_v2/executed_source/processor_cpu.py",
+      "source_sha256": "311d0d846e74aa51a9909c09f942816f86de482ce9857666f2922355e2db2978"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v2_20261025/prompt_v2.py",
+      "bytes": 887,
+      "sha256": "4e5f548b3cd1d7598bb7adbce5620f7f313c3fa935481d270318f4768e83750d",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v2_ab_20261025_v2/executed_source/prompt_v2.py",
+      "source_sha256": "4e5f548b3cd1d7598bb7adbce5620f7f313c3fa935481d270318f4768e83750d"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v2_20261025/request_protocol.py",
+      "bytes": 1512,
+      "sha256": "ecbe1a33ef1cc2b0d01d8c013ec599503844ea92534c68dedf58cb2b3bd17489",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v2_ab_20261025_v2/executed_source/request_protocol.py",
+      "source_sha256": "ecbe1a33ef1cc2b0d01d8c013ec599503844ea92534c68dedf58cb2b3bd17489"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v2_20261025/run_cpu.py",
+      "bytes": 4128,
+      "sha256": "fc8c263a23a0b50c139b791a5fe0cb495f817d09badc6b68cc14e1a9b4b0c59f",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v2_ab_20261025_v2/executed_source/run_cpu.py",
+      "source_sha256": "fc8c263a23a0b50c139b791a5fe0cb495f817d09badc6b68cc14e1a9b4b0c59f"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v2_20261025/runtime.py",
+      "bytes": 4794,
+      "sha256": "9be06fa22b2b2f268e230335e6996e8d059e08b6e3ba7c90578db77bfb8a4f4e",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v2_ab_20261025_v2/executed_source/runtime.py",
+      "source_sha256": "9be06fa22b2b2f268e230335e6996e8d059e08b6e3ba7c90578db77bfb8a4f4e"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v2_20261025/startup_probe.py",
+      "bytes": 311,
+      "sha256": "9aaa07399551a33bbe314cf7c8bfb72379557d859a34d899285aeabb0394aee4",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v2_ab_20261025_v2/executed_source/startup_probe.py",
+      "source_sha256": "9aaa07399551a33bbe314cf7c8bfb72379557d859a34d899285aeabb0394aee4"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v2_20261025/surface_prompt_v2.txt",
+      "bytes": 5061,
+      "sha256": "0337ce744ecfbecc9fedb2a859b86d8507d2aab373a91db9f2743616952f8040",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v2_ab_20261025_v2/executed_source/surface_prompt_v2.txt",
+      "source_sha256": "0337ce744ecfbecc9fedb2a859b86d8507d2aab373a91db9f2743616952f8040"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v2_20261025/token_journal.py",
+      "bytes": 901,
+      "sha256": "fd86eae0677c6ff0619c80c534783bfad02c329d58ac58faaf4c6b895ef8de1e",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v2_ab_20261025_v2/executed_source/token_journal.py",
+      "source_sha256": "fd86eae0677c6ff0619c80c534783bfad02c329d58ac58faaf4c6b895ef8de1e"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v3_vs_v2_20261026/common.py",
+      "bytes": 1928,
+      "sha256": "bd4a4b23679c6612420a3f62ec6d948d7d823f6a933eb1194c0c5a86b426a39f",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/executed_source/common.py",
+      "source_sha256": "bd4a4b23679c6612420a3f62ec6d948d7d823f6a933eb1194c0c5a86b426a39f"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v3_vs_v2_20261026/contract_runtime.py",
+      "bytes": 3165,
+      "sha256": "543cd52feebb061712ecdc410f2e77208ed38a4dce8c5a0ab2fa8075b87110f6",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/executed_source/contract_runtime.py",
+      "source_sha256": "543cd52feebb061712ecdc410f2e77208ed38a4dce8c5a0ab2fa8075b87110f6"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v3_vs_v2_20261026/dependency_probe.py",
+      "bytes": 1733,
+      "sha256": "25e94d52af9b16b1e1060bc0862ffa8742ad35ca439ae80e391799d034bf86ca",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/executed_source/dependency_probe.py",
+      "source_sha256": "25e94d52af9b16b1e1060bc0862ffa8742ad35ca439ae80e391799d034bf86ca"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v3_vs_v2_20261026/driver_cpu.py",
+      "bytes": 13056,
+      "sha256": "7249db3a88e406adbbb9b95f575eaf10bafdb486334c4892fb09c45d89b9afa1",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/executed_source/driver_cpu.py",
+      "source_sha256": "7249db3a88e406adbbb9b95f575eaf10bafdb486334c4892fb09c45d89b9afa1"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v3_vs_v2_20261026/fact_contract.json",
+      "bytes": 5272,
+      "sha256": "36b5e48351fc6d8e8663246a6bb4ec6993778ea6706aa21531fcf03278d80f49",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/executed_source/fact_contract.json",
+      "source_sha256": "36b5e48351fc6d8e8663246a6bb4ec6993778ea6706aa21531fcf03278d80f49"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v3_vs_v2_20261026/finalize_cpu.py",
+      "bytes": 5463,
+      "sha256": "110ebfebd5a1ccf551a3186620d226daa39bba4475db9d842a57d4240c4f86e0",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/executed_source/finalize_cpu.py",
+      "source_sha256": "110ebfebd5a1ccf551a3186620d226daa39bba4475db9d842a57d4240c4f86e0"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v3_vs_v2_20261026/flow_apply.py",
+      "bytes": 5356,
+      "sha256": "5a702f70baa100c2c90f23103f04fac8f8d3865ddf1fa7cd353fa9730072c18b",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/executed_source/flow_apply.py",
+      "source_sha256": "5a702f70baa100c2c90f23103f04fac8f8d3865ddf1fa7cd353fa9730072c18b"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v3_vs_v2_20261026/gpu_worker.py",
+      "bytes": 5952,
+      "sha256": "e8c736f71f4e8d5e100571ca5919efe24bbd20dce1b45af2f504892169a8a995",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/executed_source/gpu_worker.py",
+      "source_sha256": "e8c736f71f4e8d5e100571ca5919efe24bbd20dce1b45af2f504892169a8a995"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v3_vs_v2_20261026/observe_cpu.py",
+      "bytes": 5536,
+      "sha256": "d440f92fc817c1d1539f7bc0c2d161864221d37ae138d63f114d7f11fad9c378",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/executed_source/observe_cpu.py",
+      "source_sha256": "d440f92fc817c1d1539f7bc0c2d161864221d37ae138d63f114d7f11fad9c378"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v3_vs_v2_20261026/preflight_cpu.py",
+      "bytes": 3035,
+      "sha256": "e616f6ffd6e471697b41666d734334ae901279c08aa3a4d8598f6431f203aded",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/executed_source/preflight_cpu.py",
+      "source_sha256": "e616f6ffd6e471697b41666d734334ae901279c08aa3a4d8598f6431f203aded"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v3_vs_v2_20261026/processor_cpu.py",
+      "bytes": 947,
+      "sha256": "311d0d846e74aa51a9909c09f942816f86de482ce9857666f2922355e2db2978",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/executed_source/processor_cpu.py",
+      "source_sha256": "311d0d846e74aa51a9909c09f942816f86de482ce9857666f2922355e2db2978"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v3_vs_v2_20261026/prompt_v2.py",
+      "bytes": 887,
+      "sha256": "4e5f548b3cd1d7598bb7adbce5620f7f313c3fa935481d270318f4768e83750d",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/executed_source/prompt_v2.py",
+      "source_sha256": "4e5f548b3cd1d7598bb7adbce5620f7f313c3fa935481d270318f4768e83750d"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v3_vs_v2_20261026/prompt_v3.py",
+      "bytes": 887,
+      "sha256": "56edfcee669a8fa52999df872099333587aa66ccb9a457849add582ca4c08686",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/executed_source/prompt_v3.py",
+      "source_sha256": "56edfcee669a8fa52999df872099333587aa66ccb9a457849add582ca4c08686"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v3_vs_v2_20261026/request_protocol.py",
+      "bytes": 1512,
+      "sha256": "ecbe1a33ef1cc2b0d01d8c013ec599503844ea92534c68dedf58cb2b3bd17489",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/executed_source/request_protocol.py",
+      "source_sha256": "ecbe1a33ef1cc2b0d01d8c013ec599503844ea92534c68dedf58cb2b3bd17489"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v3_vs_v2_20261026/run_cpu.py",
+      "bytes": 4128,
+      "sha256": "f9b893e6f37a77e376c0957659d4f8cbc090734be6c349211c3a50c6bf946066",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/executed_source/run_cpu.py",
+      "source_sha256": "f9b893e6f37a77e376c0957659d4f8cbc090734be6c349211c3a50c6bf946066"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v3_vs_v2_20261026/runtime.py",
+      "bytes": 4794,
+      "sha256": "9be06fa22b2b2f268e230335e6996e8d059e08b6e3ba7c90578db77bfb8a4f4e",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/executed_source/runtime.py",
+      "source_sha256": "9be06fa22b2b2f268e230335e6996e8d059e08b6e3ba7c90578db77bfb8a4f4e"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v3_vs_v2_20261026/startup_probe.py",
+      "bytes": 311,
+      "sha256": "9aaa07399551a33bbe314cf7c8bfb72379557d859a34d899285aeabb0394aee4",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/executed_source/startup_probe.py",
+      "source_sha256": "9aaa07399551a33bbe314cf7c8bfb72379557d859a34d899285aeabb0394aee4"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v3_vs_v2_20261026/surface_prompt_v2.txt",
+      "bytes": 5061,
+      "sha256": "0337ce744ecfbecc9fedb2a859b86d8507d2aab373a91db9f2743616952f8040",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/executed_source/surface_prompt_v2.txt",
+      "source_sha256": "0337ce744ecfbecc9fedb2a859b86d8507d2aab373a91db9f2743616952f8040"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v3_vs_v2_20261026/surface_prompt_v3.txt",
+      "bytes": 7510,
+      "sha256": "a2067752907fcd099b395f7b7e08c9b80b57a0339ce8f96b7ba8af21fc38905b",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/executed_source/surface_prompt_v3.txt",
+      "source_sha256": "a2067752907fcd099b395f7b7e08c9b80b57a0339ce8f96b7ba8af21fc38905b"
+    },
+    {
+      "path": "v5/experiments/surface_prompt_v3_vs_v2_20261026/token_journal.py",
+      "bytes": 901,
+      "sha256": "fd86eae0677c6ff0619c80c534783bfad02c329d58ac58faaf4c6b895ef8de1e",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1/executed_source/token_journal.py",
+      "source_sha256": "fd86eae0677c6ff0619c80c534783bfad02c329d58ac58faaf4c6b895ef8de1e"
+    },
+    {
       "path": "v5/progress/CURRENT_STATE.md",
-      "bytes": 1979,
-      "sha256": "01144aa6120cf19872a66b9a51d4bcae08d412f61458d8e327491abe98238385",
+      "bytes": 2109,
+      "sha256": "d81217468bc547f8f63cd80770e3781e6c9ecaf5e0499af601ea4035b36211e3",
       "kind": "generated-publication-record"
     },
     {
       "path": "v5/progress/checkpoint.json",
-      "bytes": 5964,
-      "sha256": "0762a9d7eefb056b32deb9629c2129c3b1f54687c5fc201d4c3345e1421533bf",
+      "bytes": 4622,
+      "sha256": "1d848889850aa30d2fbba24f58e70b629411ebd2a11d551ebf4296d0c60d741b",
       "kind": "generated-publication-record"
     },
     {
       "path": "v5/progress/source_provenance.json",
-      "bytes": 407,
-      "sha256": "d815047b166b7bded88bf83ffc3afc8dc2b2ead49a7f9b8ea9d61d8bf9e39b1a",
+      "bytes": 681,
+      "sha256": "7a9f32cd2b4f1c207c8e5d9c4149973cf3218119a01db2dff0204630d1682ef6",
       "kind": "generated-publication-record"
+    },
+    {
+      "path": "v5/prompt_validation_checks.json",
+      "kind": "generated-publication-record",
+      "bytes": 534,
+      "sha256": "2fa6663487bb3696f310342353bb05107384e146356454fc4e468192aabd2eb8"
     },
     {
       "path": "v5/runtime/common.py",
@@ -1205,6 +1835,12 @@
       "bytes": 9185,
       "sha256": "536bb1d9470e79078b0e07517b56b1c1696af2109dd51aea0b1ba52bfeec17dc",
       "kind": "generated-publication-record"
+    },
+    {
+      "path": "v5/tools/test_prompt_evidence.py",
+      "kind": "generated-publication-record",
+      "bytes": 5899,
+      "sha256": "121c96b22b77626b2d7fca9f5919ac4e3ae022ececefe4a92602f939a72822bd"
     },
     {
       "path": "v5/tools/test_snapshot.py",

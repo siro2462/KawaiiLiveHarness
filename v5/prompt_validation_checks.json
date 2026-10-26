@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "prompt_evidence_checks": 8,
+  "existing_snapshot_checks": 12,
+  "existing_current_checks": 15,
+  "total": 35,
+  "failed": 0,
+  "skipped": 0,
+  "new_model_calls": 0,
+  "training": 0,
+  "scope": "publication CPU integrity, not semantic quality",
+  "test_setup_repairs": [
+    "Typed text content list preserved, not flattened message content",
+    "Exact official chat wrapper strips edge whitespace; all16 saved inputs checked; saved bytes unchanged"
+  ],
+  "default_runtime_changed": false
+}

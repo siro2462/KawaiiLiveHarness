@@ -1,0 +1,25 @@
+{
+  "status": "pass",
+  "input_checks": 54,
+  "dependency_checks": 8,
+  "startup_exit": 0,
+  "baseline": "saved actual v2",
+  "baseline_calls": 4,
+  "new_v3_max_calls": 4,
+  "case_fact_history_operation_relation_flow_exact": true,
+  "model_adapter_seed_generation_config_identical": true,
+  "unchanged_core_files": {
+    "gpu_worker.py": "e8c736f71f4e8d5e100571ca5919efe24bbd20dce1b45af2f504892169a8a995",
+    "driver_cpu.py": "7249db3a88e406adbbb9b95f575eaf10bafdb486334c4892fb09c45d89b9afa1",
+    "runtime.py": "9be06fa22b2b2f268e230335e6996e8d059e08b6e3ba7c90578db77bfb8a4f4e",
+    "flow_apply.py": "5a702f70baa100c2c90f23103f04fac8f8d3865ddf1fa7cd353fa9730072c18b",
+    "contract_runtime.py": "543cd52feebb061712ecdc410f2e77208ed38a4dce8c5a0ab2fa8075b87110f6",
+    "common.py": "bd4a4b23679c6612420a3f62ec6d948d7d823f6a933eb1194c0c5a86b426a39f",
+    "request_protocol.py": "ecbe1a33ef1cc2b0d01d8c013ec599503844ea92534c68dedf58cb2b3bd17489",
+    "token_journal.py": "fd86eae0677c6ff0619c80c534783bfad02c329d58ac58faaf4c6b895ef8de1e",
+    "processor_cpu.py": "311d0d846e74aa51a9909c09f942816f86de482ce9857666f2922355e2db2978",
+    "prompt_v2.py": "4e5f548b3cd1d7598bb7adbce5620f7f313c3fa935481d270318f4768e83750d",
+    "surface_prompt_v2.txt": "0337ce744ecfbecc9fedb2a859b86d8507d2aab373a91db9f2743616952f8040"
+  },
+  "model_calls_during_preflight": 0
+}

@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "technical_audit_sha256": "8de6e7b7648b2a951e0b07be00fb7ba16b6c26cb10b475a9a09fffc1865ea566",
+  "review_packet_sha256": "d3007dae065b493882dfedebd4e8c13dc71ab2c4369237fd9a6eeef1e9b6abf0",
+  "root_review_sha256": "789f3145b3cf4daaf709d78635a2ba7e454ffe0f3311c4e96512096ae303b1c3",
+  "root_summary_sha256": "fb85d009e2111118b7dd28a5025613548f4e3986218c28d32bbab48309d65e71",
+  "comparison_sha256": "e5432409405accf6ef407e304ff5a3e01b35e4b4260adf04d9ed8f12766aba9e",
+  "human_quality_labels": 0,
+  "known_condition_designer_review": true,
+  "new_surface_calls": 4,
+  "baseline_saved_calls": 4,
+  "planner_calls": 0,
+  "guard_calls": 0,
+  "quality_retries": 0,
+  "training": 0,
+  "real_tts": false,
+  "finished_jst": "2026-10-25T22:47:46.719466+09:00"
+}

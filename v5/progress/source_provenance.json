@@ -1,5 +1,11 @@
 {
-  "local_snapshot_relative_to_talk": "harness_beta/runs/chat_progress_20261025_v30",
-  "local_checkpoint_sha256": "fbb7d389b9a74a607c54c811b8527ccc3132893811f0dd1ce48ff613ec167c81",
-  "public_export_notice": "Current-state fields and results exported; private conversation/tools/source SQLite deliberately not bundled. Local ledger is updated with the actual commit and remote receipt after push."
+  "thread_id": "01a0a3fd-e058-7bd0-abbd-951f2864ba0e",
+  "cutoff_ordinal": 45137,
+  "cutoff_item_id": "01a175fe-a435-77c0-aa51-c870b620ad4a",
+  "scope": "Selected current checkpoint only; private chat/tools SQLite not included",
+  "latest_run": "harness_beta/runs/surface_prompt_v3_vs_v2_20261026_v1",
+  "root_review_sha256": "e5bbc7c14caa934821b347b8b016a824fc65cdf0ab3262e7d3c4dd1541163cca",
+  "historical_reviews": "2026-10-24 long/human and2026-10-25 original-v2 inherited; v3-v2 all4 full-text review performed2026-10-26",
+  "current_execution": "complete exits0; technical/report checks pass",
+  "quality_status": "mixed; candidate not adopted; human labels0"
 }

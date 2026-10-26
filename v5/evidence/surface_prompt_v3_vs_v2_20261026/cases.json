@@ -1,0 +1,642 @@
+[
+  {
+    "pair_id": "P01",
+    "memory_id": "H04",
+    "source_call_id": "R0001",
+    "source_run": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\surface_prompt_v2_ab_20261025_v2",
+    "case": {
+      "schema": "surface-contract-1",
+      "pair_id": "L-T001",
+      "facts": [
+        {
+          "id": "H04-1",
+          "claim": "イベント前に偶然見つけたガチャを3回引き、欲しかった物を得た。",
+          "kind": "event"
+        },
+        {
+          "id": "H04-2",
+          "claim": "イベントから出ると3台すべて売り切れており、入場前に引けたタイミングが幸運だった。",
+          "kind": "event"
+        }
+      ],
+      "history": [],
+      "operation": "start",
+      "relation": {
+        "type": "none",
+        "summary": "同じ出来事の未提示の続き。"
+      },
+      "flow": [
+        {
+          "fact_ids": [
+            "H04-1"
+          ],
+          "relation": "sequence",
+          "label": "気づき・発見"
+        },
+        {
+          "fact_ids": [
+            "H04-2"
+          ],
+          "relation": "sequence",
+          "label": "出来事の進展"
+        }
+      ]
+    },
+    "source_memory": {
+      "id": "H04",
+      "namespace": "fixtures",
+      "authority": "synthetic_fixture",
+      "source": "reverse-memory:luna-topic04",
+      "ordinal": 0,
+      "title": "イベントでガチャを引けた話",
+      "body": "イベント前に偶然見つけたガチャを3回引き、欲しかった物を得た。イベントから出ると3台すべて売り切れており、入場前に引けたタイミングが幸運だった。",
+      "beats": [
+        "イベント前に偶然見つけたガチャを3回引き、欲しかった物を得た",
+        "イベントから出ると3台すべて売り切れており、入場前に引けたタイミングが幸運だった"
+      ],
+      "tags": []
+    },
+    "source_facts": [
+      {
+        "id": "H04-1",
+        "claim": "イベント前に偶然見つけたガチャを3回引き、欲しかった物を得た。",
+        "kind": "event"
+      },
+      {
+        "id": "H04-2",
+        "claim": "イベントから出ると3台すべて売り切れており、入場前に引けたタイミングが幸運だった。",
+        "kind": "event"
+      }
+    ],
+    "source_before": {
+      "memory_id": "H04",
+      "source_sha256": "93f3d2866b24d3b02146b210db0a34b52efb094c45bc4ee7bc27158760c6d6d7",
+      "selection_order": [
+        "H04-1",
+        "H04-2"
+      ],
+      "mapping": {
+        "adopted": false,
+        "reason": "Planner abstained; fixed source order",
+        "method": "no semantic interpretation"
+      },
+      "facts": {
+        "H04-1": {
+          "presentations": 0,
+          "delivery": "not_presented",
+          "semantic_status": "unverified",
+          "exact_source_quote": null
+        },
+        "H04-2": {
+          "presentations": 0,
+          "delivery": "not_presented",
+          "semantic_status": "unverified",
+          "exact_source_quote": null
+        }
+      },
+      "last_delivery_seq": 0,
+      "pending_target_ids": [
+        "H04-1",
+        "H04-2"
+      ],
+      "progress_definition": "presentation/delivery != verified semantic coverage"
+    },
+    "source_after": {
+      "memory_id": "H04",
+      "source_sha256": "93f3d2866b24d3b02146b210db0a34b52efb094c45bc4ee7bc27158760c6d6d7",
+      "selection_order": [
+        "H04-1",
+        "H04-2"
+      ],
+      "mapping": {
+        "adopted": false,
+        "reason": "Planner abstained; fixed source order",
+        "method": "no semantic interpretation"
+      },
+      "facts": {
+        "H04-1": {
+          "presentations": 1,
+          "delivery": "text_delivered_unverified",
+          "semantic_status": "unverified",
+          "exact_source_quote": null
+        },
+        "H04-2": {
+          "presentations": 1,
+          "delivery": "text_delivered_unverified",
+          "semantic_status": "unverified",
+          "exact_source_quote": null
+        }
+      },
+      "last_delivery_seq": 1,
+      "pending_target_ids": [],
+      "progress_definition": "presentation/delivery != verified semantic coverage"
+    },
+    "baseline_body": "ねえ、ちょっと聞いてよ！さっきの話の続きなんだけど……。イベントに行く前に、たまたまガチャを見つけたの。で、なんとなく「これだ！」って思って3回引いてみたんだよね。そしたら……なんと！欲しかったやつ、ちゃんと全部当たっちゃったの！\n\nいや、本当にびっくりしたんだから。でも、後からもっと驚いたことがあって。イベント会場から出てみたら、もう売り切れてて……。あ、もう3台とも完売だったんだよね。そう考えると、入場前にあのタイミングで見つけて引けたの、めちゃくちゃ運が良かったなって思う。本当に、あの時引けてて本当によかった……！",
+    "baseline_raw": "ねえ、ちょっと聞いてよ！さっきの話の続きなんだけど……。イベントに行く前に、たまたまガチャを見つけたの。で、なんとなく「これだ！」って思って3回引いてみたんだよね。そしたら……なんと！欲しかったやつ、ちゃんと全部当たっちゃったの！\n\nいや、本当にびっくりしたんだから。でも、後からもっと驚いたことがあって。イベント会場から出てみたら、もう売り切れてて……。あ、もう3台とも完売だったんだよね。そう考えると、入場前にあのタイミングで見つけて引けたの、めちゃくちゃ運が良かったなって思う。本当に、あの時引けてて本当によかった……！<turn|>",
+    "baseline_delivered": true,
+    "baseline_format_reason": null,
+    "baseline_request_path": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\surface_prompt_v2_ab_20261025_v2\\requests\\R0001.json",
+    "baseline_output_path": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\surface_prompt_v2_ab_20261025_v2\\inference\\R0001.output.json",
+    "baseline_delivery_path": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\surface_prompt_v2_ab_20261025_v2\\deliveries\\R0001.json",
+    "seed": 20260925,
+    "original_human_compare_call_id": "R0002",
+    "baseline_prompt_version": "v2"
+  },
+  {
+    "pair_id": "P02",
+    "memory_id": "H06",
+    "source_call_id": "R0002",
+    "source_run": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\surface_prompt_v2_ab_20261025_v2",
+    "case": {
+      "schema": "surface-contract-1",
+      "pair_id": "L-T004",
+      "facts": [
+        {
+          "id": "H06-1",
+          "claim": "1回600円のガラポンを15回、合計9000円回してもA賞が一度も出なかった。",
+          "kind": "event"
+        },
+        {
+          "id": "H06-2",
+          "claim": "B賞ばかり続き、天井もなくA賞が出ない仕組みに怒った。",
+          "kind": "event"
+        }
+      ],
+      "history": [
+        {
+          "text": "あと、あの、先着40名のグリーティングなんですけど、人が少ないかなって思ってちょっと遅れたら、もう人気で配布終了してて……。それで、名前書けるシール作ってた時、近くに同じグッズつけてる人がいるなって思って、なんか見られてる気がして、ちょっと慌てちゃったんですよね。そしたら、その人も同じように作り始めたみたいで、なんだか気まずくなっちゃって。",
+          "memory_id": "H05",
+          "origin": "offline text delivered, semantically unverified"
+        },
+        {
+          "text": "あと、あの、射的もやったんですけど、1発目からいきなりトートバッグ当てちゃって。その後の弾も、全部当てられたんですよ。あの銃、結構重くて長いのに、なんかもう、自分ってスナイパーの実力あるな、って思っちゃいましたね。\n\nで、その時なんですけど、グッズをたくさん付けてるバッグを持った知らない女性から、急に話しかけられたんです。でも、射的に集中してて……自分に話しかけてるって気づかなくて。振り向いた時、ちょっとびっくりしちゃいました。",
+          "memory_id": "H07",
+          "origin": "offline text delivered, semantically unverified"
+        }
+      ],
+      "operation": "topic_shift",
+      "relation": {
+        "type": "none",
+        "summary": "別の話題へ移る。根拠のない共通経験や因果を作らない。"
+      },
+      "flow": [
+        {
+          "fact_ids": [
+            "H06-1"
+          ],
+          "relation": "sequence",
+          "label": "出来事の進展"
+        },
+        {
+          "fact_ids": [
+            "H06-2"
+          ],
+          "relation": "sequence",
+          "label": "出来事の進展"
+        }
+      ]
+    },
+    "source_memory": {
+      "id": "H06",
+      "namespace": "fixtures",
+      "authority": "synthetic_fixture",
+      "source": "reverse-memory:luna-topic06",
+      "ordinal": 0,
+      "title": "ガラポンでA賞が出なかった話",
+      "body": "1回600円のガラポンを15回、合計9000円回してもA賞が一度も出なかった。B賞ばかり続き、天井もなくA賞が出ない仕組みに怒った。A賞の景品はたくさん置いてあるのに当たらず、9000円あれば普通に一つ買えたのではないかと悔しがった。",
+      "beats": [
+        "1回600円のガラポンを15回、合計9000円回してもA賞が一度も出なかった",
+        "B賞ばかり続き、天井もなくA賞が出ない仕組みに怒った",
+        "A賞の景品はたくさん置いてあるのに当たらず、9000円あれば普通に一つ買えたのではないかと悔しがった"
+      ],
+      "tags": []
+    },
+    "source_facts": [
+      {
+        "id": "H06-1",
+        "claim": "1回600円のガラポンを15回、合計9000円回してもA賞が一度も出なかった。",
+        "kind": "event"
+      },
+      {
+        "id": "H06-2",
+        "claim": "B賞ばかり続き、天井もなくA賞が出ない仕組みに怒った。",
+        "kind": "event"
+      },
+      {
+        "id": "H06-3",
+        "claim": "A賞の景品はたくさん置いてあるのに当たらず、9000円あれば普通に一つ買えたのではないかと悔しがった。",
+        "kind": "event"
+      }
+    ],
+    "source_before": {
+      "memory_id": "H06",
+      "source_sha256": "0a58de261597d4c6a23b85f2f17d4f248bd902eeddddbef9f20bc0a455963186",
+      "selection_order": [
+        "H06-1",
+        "H06-2",
+        "H06-3"
+      ],
+      "mapping": {
+        "adopted": false,
+        "reason": "Planner abstained; fixed source order",
+        "method": "no semantic interpretation"
+      },
+      "facts": {
+        "H06-1": {
+          "presentations": 0,
+          "delivery": "not_presented",
+          "semantic_status": "unverified",
+          "exact_source_quote": null
+        },
+        "H06-2": {
+          "presentations": 0,
+          "delivery": "not_presented",
+          "semantic_status": "unverified",
+          "exact_source_quote": null
+        },
+        "H06-3": {
+          "presentations": 0,
+          "delivery": "not_presented",
+          "semantic_status": "unverified",
+          "exact_source_quote": null
+        }
+      },
+      "last_delivery_seq": 0,
+      "pending_target_ids": [
+        "H06-1",
+        "H06-2",
+        "H06-3"
+      ],
+      "progress_definition": "presentation/delivery != verified semantic coverage"
+    },
+    "source_after": {
+      "memory_id": "H06",
+      "source_sha256": "0a58de261597d4c6a23b85f2f17d4f248bd902eeddddbef9f20bc0a455963186",
+      "selection_order": [
+        "H06-1",
+        "H06-2",
+        "H06-3"
+      ],
+      "mapping": {
+        "adopted": false,
+        "reason": "Planner abstained; fixed source order",
+        "method": "no semantic interpretation"
+      },
+      "facts": {
+        "H06-1": {
+          "presentations": 1,
+          "delivery": "text_delivered_unverified",
+          "semantic_status": "unverified",
+          "exact_source_quote": null
+        },
+        "H06-2": {
+          "presentations": 1,
+          "delivery": "text_delivered_unverified",
+          "semantic_status": "unverified",
+          "exact_source_quote": null
+        },
+        "H06-3": {
+          "presentations": 0,
+          "delivery": "not_presented",
+          "semantic_status": "unverified",
+          "exact_source_quote": null
+        }
+      },
+      "last_delivery_seq": 4,
+      "pending_target_ids": [
+        "H06-3"
+      ],
+      "progress_definition": "presentation/delivery != verified semantic coverage"
+    },
+    "baseline_body": "あ、そうだ、それから……ガラポンもやったんですけど、これがもう、本当にすごかったっていうか……。一回600円で、15回も回したんですよ。合計で9000円分も！……でもね、A賞が一度も出なかったんです。\n\nえっ、ちょっと待って、おかしくない？ 9000円も使ったのに、A賞が一個も……。ずっとB賞ばっかり続いて、全然当たらないんですよ。天井とかもないみたいで……。もう、これどういう仕組みなのかなって、正直ちょっと怒っちゃいました。せっかく楽しみにしてたのに、悔しいです……。",
+    "baseline_raw": "あ、そうだ、それから……ガラポンもやったんですけど、これがもう、本当にすごかったっていうか……。一回600円で、15回も回したんですよ。合計で9000円分も！……でもね、A賞が一度も出なかったんです。\n\nえっ、ちょっと待って、おかしくない？ 9000円も使ったのに、A賞が一個も……。ずっとB賞ばっかり続いて、全然当たらないんですよ。天井とかもないみたいで……。もう、これどういう仕組みなのかなって、正直ちょっと怒っちゃいました。せっかく楽しみにしてたのに、悔しいです……。<turn|>",
+    "baseline_delivered": true,
+    "baseline_format_reason": null,
+    "baseline_request_path": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\surface_prompt_v2_ab_20261025_v2\\requests\\R0002.json",
+    "baseline_output_path": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\surface_prompt_v2_ab_20261025_v2\\inference\\R0002.output.json",
+    "baseline_delivery_path": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\surface_prompt_v2_ab_20261025_v2\\deliveries\\R0002.json",
+    "seed": 20260925,
+    "original_human_compare_call_id": "R0008",
+    "baseline_prompt_version": "v2"
+  },
+  {
+    "pair_id": "P03",
+    "memory_id": "H06",
+    "source_call_id": "R0003",
+    "source_run": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\surface_prompt_v2_ab_20261025_v2",
+    "case": {
+      "schema": "surface-contract-1",
+      "pair_id": "L-T005",
+      "facts": [
+        {
+          "id": "H06-3",
+          "claim": "A賞の景品はたくさん置いてあるのに当たらず、9000円あれば普通に一つ買えたのではないかと悔しがった。",
+          "kind": "event"
+        }
+      ],
+      "history": [
+        {
+          "text": "あと、あの、射的もやったんですけど、1発目からいきなりトートバッグ当てちゃって。その後の弾も、全部当てられたんですよ。あの銃、結構重くて長いのに、なんかもう、自分ってスナイパーの実力あるな、って思っちゃいましたね。\n\nで、その時なんですけど、グッズをたくさん付けてるバッグを持った知らない女性から、急に話しかけられたんです。でも、射的に集中してて……自分に話しかけてるって気づかなくて。振り向いた時、ちょっとびっくりしちゃいました。",
+          "memory_id": "H07",
+          "origin": "offline text delivered, semantically unverified"
+        },
+        {
+          "text": "あと、ガラポンもやったんですけど、1回600円で、それを15回、合計9000円も回したのに、A賞が一度も出なかったんですよね。\n\nずっとB賞ばっかりで……。天井とかもないみたいで、A賞が全然出ない仕組み、もうちょっとどうにかしてほしいなって思っちゃいました。",
+          "memory_id": "H06",
+          "origin": "offline text delivered, semantically unverified"
+        }
+      ],
+      "operation": "continue",
+      "relation": {
+        "type": "sequence",
+        "summary": "同じ出来事の未提示部分に進む。直前の本文は発話済みだが未検証。新事実の根拠にしない。"
+      },
+      "flow": [
+        {
+          "fact_ids": [
+            "H06-3"
+          ],
+          "relation": "sequence",
+          "label": "出来事の進展"
+        }
+      ]
+    },
+    "source_memory": {
+      "id": "H06",
+      "namespace": "fixtures",
+      "authority": "synthetic_fixture",
+      "source": "reverse-memory:luna-topic06",
+      "ordinal": 0,
+      "title": "ガラポンでA賞が出なかった話",
+      "body": "1回600円のガラポンを15回、合計9000円回してもA賞が一度も出なかった。B賞ばかり続き、天井もなくA賞が出ない仕組みに怒った。A賞の景品はたくさん置いてあるのに当たらず、9000円あれば普通に一つ買えたのではないかと悔しがった。",
+      "beats": [
+        "1回600円のガラポンを15回、合計9000円回してもA賞が一度も出なかった",
+        "B賞ばかり続き、天井もなくA賞が出ない仕組みに怒った",
+        "A賞の景品はたくさん置いてあるのに当たらず、9000円あれば普通に一つ買えたのではないかと悔しがった"
+      ],
+      "tags": []
+    },
+    "source_facts": [
+      {
+        "id": "H06-1",
+        "claim": "1回600円のガラポンを15回、合計9000円回してもA賞が一度も出なかった。",
+        "kind": "event"
+      },
+      {
+        "id": "H06-2",
+        "claim": "B賞ばかり続き、天井もなくA賞が出ない仕組みに怒った。",
+        "kind": "event"
+      },
+      {
+        "id": "H06-3",
+        "claim": "A賞の景品はたくさん置いてあるのに当たらず、9000円あれば普通に一つ買えたのではないかと悔しがった。",
+        "kind": "event"
+      }
+    ],
+    "source_before": {
+      "memory_id": "H06",
+      "source_sha256": "0a58de261597d4c6a23b85f2f17d4f248bd902eeddddbef9f20bc0a455963186",
+      "selection_order": [
+        "H06-1",
+        "H06-2",
+        "H06-3"
+      ],
+      "mapping": {
+        "adopted": false,
+        "changed": false,
+        "reason": "No audited source contract; fixed source order",
+        "method": "source-ID/dependency application, not semantic grounding"
+      },
+      "facts": {
+        "H06-1": {
+          "presentations": 1,
+          "delivery": "text_delivered_unverified",
+          "semantic_status": "unverified",
+          "exact_source_quote": null
+        },
+        "H06-2": {
+          "presentations": 1,
+          "delivery": "text_delivered_unverified",
+          "semantic_status": "unverified",
+          "exact_source_quote": null
+        },
+        "H06-3": {
+          "presentations": 0,
+          "delivery": "not_presented",
+          "semantic_status": "unverified",
+          "exact_source_quote": null
+        }
+      },
+      "last_delivery_seq": 4,
+      "pending_target_ids": [
+        "H06-3"
+      ],
+      "progress_definition": "presentation/delivery != verified semantic coverage"
+    },
+    "source_after": {
+      "memory_id": "H06",
+      "source_sha256": "0a58de261597d4c6a23b85f2f17d4f248bd902eeddddbef9f20bc0a455963186",
+      "selection_order": [
+        "H06-1",
+        "H06-2",
+        "H06-3"
+      ],
+      "mapping": {
+        "adopted": false,
+        "changed": false,
+        "reason": "No audited source contract; fixed source order",
+        "method": "source-ID/dependency application, not semantic grounding"
+      },
+      "facts": {
+        "H06-1": {
+          "presentations": 1,
+          "delivery": "text_delivered_unverified",
+          "semantic_status": "unverified",
+          "exact_source_quote": null
+        },
+        "H06-2": {
+          "presentations": 1,
+          "delivery": "text_delivered_unverified",
+          "semantic_status": "unverified",
+          "exact_source_quote": null
+        },
+        "H06-3": {
+          "presentations": 1,
+          "delivery": "text_delivered_unverified",
+          "semantic_status": "unverified",
+          "exact_source_quote": null
+        }
+      },
+      "last_delivery_seq": 5,
+      "pending_target_ids": [],
+      "progress_definition": "presentation/delivery != verified semantic coverage"
+    },
+    "baseline_body": "っていうか、本当に納得いかないんですよ。見てくださいよ、あそこ。A賞の景品、あんなにたくさん置いてあるのに、全然当たらないんだもん。\n\nさっきも言いましたけど、15回も回して9000円も使ったのに、結局一度も引けなかったんですよね……。いや、もう、これくらいのお金があれば、普通に一つ買えちゃうんじゃないかって、思っちゃいました。あんなにたくさん景品が並んでるのに、全然出てこないなんて……。もう、本当に悔しいです！",
+    "baseline_raw": "っていうか、本当に納得いかないんですよ。見てくださいよ、あそこ。A賞の景品、あんなにたくさん置いてあるのに、全然当たらないんだもん。\n\nさっきも言いましたけど、15回も回して9000円も使ったのに、結局一度も引けなかったんですよね……。いや、もう、これくらいのお金があれば、普通に一つ買えちゃうんじゃないかって、思っちゃいました。あんなにたくさん景品が並んでるのに、全然出てこないなんて……。もう、本当に悔しいです！<turn|>",
+    "baseline_delivered": true,
+    "baseline_format_reason": null,
+    "baseline_request_path": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\surface_prompt_v2_ab_20261025_v2\\requests\\R0003.json",
+    "baseline_output_path": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\surface_prompt_v2_ab_20261025_v2\\inference\\R0003.output.json",
+    "baseline_delivery_path": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\surface_prompt_v2_ab_20261025_v2\\deliveries\\R0003.json",
+    "seed": 20260925,
+    "original_human_compare_call_id": "R0010",
+    "baseline_prompt_version": "v2"
+  },
+  {
+    "pair_id": "P04",
+    "memory_id": "H07",
+    "source_call_id": "R0004",
+    "source_run": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\surface_prompt_v2_ab_20261025_v2",
+    "case": {
+      "schema": "surface-contract-1",
+      "pair_id": "L-T003",
+      "facts": [
+        {
+          "id": "H07-1",
+          "claim": "射的で1発目からトートバッグを当て、残りの弾でも当てた。銃は重く長いのに当てる自分をスナイパーの実力があると誇った。",
+          "kind": "event"
+        },
+        {
+          "id": "H07-2",
+          "claim": "グッズをたくさん付けたバッグを見た知らない女性から突然話しかけられたが、射的に集中していて自分に話しかけていると気づかず、振り向いて驚いた。",
+          "kind": "event"
+        }
+      ],
+      "history": [
+        {
+          "text": "イベントの前、あ、あのガチャを偶然見つけて、とりあえず3回引いてみたんですけど、そしたら欲しかったのが、あ、ちゃんと出て。でも、イベントから帰ってきたら、もう3台とも売り切れてて……。入場前に引けたの、本当にラッキーだったなと思ってます。",
+          "memory_id": "H04",
+          "origin": "offline text delivered, semantically unverified"
+        },
+        {
+          "text": "あと、あの、先着40名のグリーティングなんですけど、人が少ないかなって思ってちょっと遅れたら、もう人気で配布終了してて……。それで、名前書けるシール作ってた時、近くに同じグッズつけてる人がいるなって思って、なんか見られてる気がして、ちょっと慌てちゃったんですよね。そしたら、その人も同じように作り始めたみたいで、なんだか気まずくなっちゃって。",
+          "memory_id": "H05",
+          "origin": "offline text delivered, semantically unverified"
+        }
+      ],
+      "operation": "related_shift",
+      "relation": {
+        "type": "association",
+        "summary": "共通要素「グッズ」を参考に別の経験へ移る。同日や因果にまとめない。"
+      },
+      "flow": [
+        {
+          "fact_ids": [
+            "H07-1"
+          ],
+          "relation": "sequence",
+          "label": "出来事の進展"
+        },
+        {
+          "fact_ids": [
+            "H07-2"
+          ],
+          "relation": "sequence",
+          "label": "気づき・発見"
+        }
+      ]
+    },
+    "source_memory": {
+      "id": "H07",
+      "namespace": "fixtures",
+      "authority": "synthetic_fixture",
+      "source": "reverse-memory:luna-topic07",
+      "ordinal": 0,
+      "title": "射的とグッズのバッグの話",
+      "body": "射的で1発目からトートバッグを当て、残りの弾でも当てた。銃は重く長いのに当てる自分をスナイパーの実力があると誇った。グッズをたくさん付けたバッグを見た知らない女性から突然話しかけられたが、射的に集中していて自分に話しかけていると気づかず、振り向いて驚いた。",
+      "beats": [
+        "射的で1発目からトートバッグを当て、残りの弾でも当てた。銃は重く長いのに当てる自分をスナイパーの実力があると誇った",
+        "グッズをたくさん付けたバッグを見た知らない女性から突然話しかけられたが、射的に集中していて自分に話しかけていると気づかず、振り向いて驚いた"
+      ],
+      "tags": [
+        "グッズ",
+        "バッグ"
+      ]
+    },
+    "source_facts": [
+      {
+        "id": "H07-1",
+        "claim": "射的で1発目からトートバッグを当て、残りの弾でも当てた。銃は重く長いのに当てる自分をスナイパーの実力があると誇った。",
+        "kind": "event"
+      },
+      {
+        "id": "H07-2",
+        "claim": "グッズをたくさん付けたバッグを見た知らない女性から突然話しかけられたが、射的に集中していて自分に話しかけていると気づかず、振り向いて驚いた。",
+        "kind": "event"
+      }
+    ],
+    "source_before": {
+      "memory_id": "H07",
+      "source_sha256": "59e4a00d01224e89219ceec46596a428edc09dd70c84b18888975385b041f1e1",
+      "selection_order": [
+        "H07-1",
+        "H07-2"
+      ],
+      "mapping": {
+        "adopted": false,
+        "reason": "Planner abstained; fixed source order",
+        "method": "no semantic interpretation"
+      },
+      "facts": {
+        "H07-1": {
+          "presentations": 0,
+          "delivery": "not_presented",
+          "semantic_status": "unverified",
+          "exact_source_quote": null
+        },
+        "H07-2": {
+          "presentations": 0,
+          "delivery": "not_presented",
+          "semantic_status": "unverified",
+          "exact_source_quote": null
+        }
+      },
+      "last_delivery_seq": 0,
+      "pending_target_ids": [
+        "H07-1",
+        "H07-2"
+      ],
+      "progress_definition": "presentation/delivery != verified semantic coverage"
+    },
+    "source_after": {
+      "memory_id": "H07",
+      "source_sha256": "59e4a00d01224e89219ceec46596a428edc09dd70c84b18888975385b041f1e1",
+      "selection_order": [
+        "H07-1",
+        "H07-2"
+      ],
+      "mapping": {
+        "adopted": false,
+        "reason": "Planner abstained; fixed source order",
+        "method": "no semantic interpretation"
+      },
+      "facts": {
+        "H07-1": {
+          "presentations": 1,
+          "delivery": "text_delivered_unverified",
+          "semantic_status": "unverified",
+          "exact_source_quote": null
+        },
+        "H07-2": {
+          "presentations": 1,
+          "delivery": "text_delivered_unverified",
+          "semantic_status": "unverified",
+          "exact_source_quote": null
+        }
+      },
+      "last_delivery_seq": 3,
+      "pending_target_ids": [],
+      "progress_definition": "presentation/delivery != verified semantic coverage"
+    },
+    "baseline_body": "あ、そうだ、射的もやってきたんだよね！これがもう、すごいことがあって……。一発目からいきなりトートバッグをピタッて当てちゃったの。しかも、その後も残りの弾で全部当てちゃって……。あの銃、結構重くて長かったじゃない？あれを扱って当てるなんて、私、もうスナイパーの実力があるんじゃないかって思っちゃった。自分でもちょっと凄すぎて、ドヤれるレベルでしょ？\n\n……あ、でもね、ちょっと気まずかった出来事もあって。私がさっき言ったみたいに、グッズをたくさん付けたバッグを持ってたから、隣にいた知らない女性からいきなり話しかけられたんだよね。でも、その時は射的にめちゃくちゃ集中してて……。誰かに話しかけられてるって全然気づかずに、そのまま集中してたから、振り向いた時に「あ、人いた！」ってなって、すごく驚いちゃった。自分、集中しすぎだったのかな？",
+    "baseline_raw": "あ、そうだ、射的もやってきたんだよね！これがもう、すごいことがあって……。一発目からいきなりトートバッグをピタッて当てちゃったの。しかも、その後も残りの弾で全部当てちゃって……。あの銃、結構重くて長かったじゃない？あれを扱って当てるなんて、私、もうスナイパーの実力があるんじゃないかって思っちゃった。自分でもちょっと凄すぎて、ドヤれるレベルでしょ？\n\n……あ、でもね、ちょっと気まずかった出来事もあって。私がさっき言ったみたいに、グッズをたくさん付けたバッグを持ってたから、隣にいた知らない女性からいきなり話しかけられたんだよね。でも、その時は射的にめちゃくちゃ集中してて……。誰かに話しかけられてるって全然気づかずに、そのまま集中してたから、振り向いた時に「あ、人いた！」ってなって、すごく驚いちゃった。自分、集中しすぎだったのかな？<turn|>",
+    "baseline_delivered": true,
+    "baseline_format_reason": null,
+    "baseline_request_path": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\surface_prompt_v2_ab_20261025_v2\\requests\\R0004.json",
+    "baseline_output_path": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\surface_prompt_v2_ab_20261025_v2\\inference\\R0004.output.json",
+    "baseline_delivery_path": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\surface_prompt_v2_ab_20261025_v2\\deliveries\\R0004.json",
+    "seed": 20260925,
+    "original_human_compare_call_id": "R0006",
+    "baseline_prompt_version": "v2"
+  }
+]

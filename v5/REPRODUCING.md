@@ -24,3 +24,9 @@ python -X utf8 -B v5/tools/test_current.py -v
 8. 不正JSONはRAWを保存し`planner_delivery.resolve`がPlanを破棄、固定元Fact順で継続。構文合格の意味不良を検査済みへ昇格しない。全実入力/RAW/履歴を保存し、終了0・技術監査の後に全文を読む。
 
 モデル重量/LoRA/tokenizer/reference ZIP/全文教材/Memory DB/チャットSQLite/環境や認証情報は同梱しない。モデル詳細は[MODELS.json](MODELS.json)。元環境と外部資産を要するためcloneのみで推論開始できる版ではない。
+
+## 研究候補プロンプトの保存
+
+`v5/experiments/surface_prompt_v2_20261025`と`surface_prompt_v3_vs_v2_20261026`は実行済み比較ソースのbyte保持保存。v3の追加は版名と3点節だけ。既定`v5/runtime/contract_runtime.py`やLoRA/alpha/Plannerは変更しない。各evidenceのreview_packetに全実入力・RAW・元Fact履歴・参照を保存する。A保存出力を新規生成と数えない。
+
+`python -X utf8 -B v5/tools/test_prompt_evidence.py -v`は保存4地点の入力再現・v2の正確な再利用・条件固定・HTML全文・レビューSHAをCPUのみで検査する。元の公式Processor54チェックをモデルなしで再実行したことにはならない。公開exportは外部凍結ファイルを除くためそのまま生成を起動できない。

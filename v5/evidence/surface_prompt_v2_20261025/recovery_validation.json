@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "dependency_checks": 8,
+  "original_input_checks": 54,
+  "actual_child_startup_exit": 0,
+  "all_prepared_inputs_sha256": "3fb78df5cbc64d185016ca61fab37d9e37d7c77d9888a300b92a284f5be82f86",
+  "prepared_inputs_identical_to_v1": true,
+  "first_request_full_dict_identical_to_failed_v1": true,
+  "model_prompt_conditions_unchanged": true,
+  "model_calls_during_validation": 0
+}

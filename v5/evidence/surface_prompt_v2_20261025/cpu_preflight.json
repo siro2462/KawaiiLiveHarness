@@ -1,0 +1,248 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "name": "only four Surface calls",
+      "pass_check": true
+    },
+    {
+      "name": "fixed generation cap",
+      "pass_check": true
+    },
+    {
+      "name": "candidate copied verbatim from user",
+      "pass_check": true
+    },
+    {
+      "name": "copied unchanged: gpu_worker.py",
+      "pass_check": true
+    },
+    {
+      "name": "copied unchanged: driver_cpu.py",
+      "pass_check": true
+    },
+    {
+      "name": "copied unchanged: runtime.py",
+      "pass_check": true
+    },
+    {
+      "name": "copied unchanged: flow_apply.py",
+      "pass_check": true
+    },
+    {
+      "name": "copied unchanged: contract_runtime.py",
+      "pass_check": true
+    },
+    {
+      "name": "copied unchanged: common.py",
+      "pass_check": true
+    },
+    {
+      "name": "copied unchanged: request_protocol.py",
+      "pass_check": true
+    },
+    {
+      "name": "P01 same saved case",
+      "pass_check": true
+    },
+    {
+      "name": "P01 baseline reconstructed",
+      "pass_check": true
+    },
+    {
+      "name": "P01 official baseline Processor exact",
+      "pass_check": true
+    },
+    {
+      "name": "P01 baseline request/output hashes",
+      "pass_check": true
+    },
+    {
+      "name": "P01 same model generation config",
+      "pass_check": true
+    },
+    {
+      "name": "P01 same seed and adapter enabled",
+      "pass_check": true
+    },
+    {
+      "name": "P01 target claims unchanged",
+      "pass_check": true
+    },
+    {
+      "name": "P01 fixed history unchanged",
+      "pass_check": true
+    },
+    {
+      "name": "P01 operation and relation unchanged",
+      "pass_check": true
+    },
+    {
+      "name": "P01 prompt differs",
+      "pass_check": true
+    },
+    {
+      "name": "P01 no context truncation",
+      "pass_check": true
+    },
+    {
+      "name": "P02 same saved case",
+      "pass_check": true
+    },
+    {
+      "name": "P02 baseline reconstructed",
+      "pass_check": true
+    },
+    {
+      "name": "P02 official baseline Processor exact",
+      "pass_check": true
+    },
+    {
+      "name": "P02 baseline request/output hashes",
+      "pass_check": true
+    },
+    {
+      "name": "P02 same model generation config",
+      "pass_check": true
+    },
+    {
+      "name": "P02 same seed and adapter enabled",
+      "pass_check": true
+    },
+    {
+      "name": "P02 target claims unchanged",
+      "pass_check": true
+    },
+    {
+      "name": "P02 fixed history unchanged",
+      "pass_check": true
+    },
+    {
+      "name": "P02 operation and relation unchanged",
+      "pass_check": true
+    },
+    {
+      "name": "P02 prompt differs",
+      "pass_check": true
+    },
+    {
+      "name": "P02 no context truncation",
+      "pass_check": true
+    },
+    {
+      "name": "P03 same saved case",
+      "pass_check": true
+    },
+    {
+      "name": "P03 baseline reconstructed",
+      "pass_check": true
+    },
+    {
+      "name": "P03 official baseline Processor exact",
+      "pass_check": true
+    },
+    {
+      "name": "P03 baseline request/output hashes",
+      "pass_check": true
+    },
+    {
+      "name": "P03 same model generation config",
+      "pass_check": true
+    },
+    {
+      "name": "P03 same seed and adapter enabled",
+      "pass_check": true
+    },
+    {
+      "name": "P03 target claims unchanged",
+      "pass_check": true
+    },
+    {
+      "name": "P03 fixed history unchanged",
+      "pass_check": true
+    },
+    {
+      "name": "P03 operation and relation unchanged",
+      "pass_check": true
+    },
+    {
+      "name": "P03 prompt differs",
+      "pass_check": true
+    },
+    {
+      "name": "P03 no context truncation",
+      "pass_check": true
+    },
+    {
+      "name": "P04 same saved case",
+      "pass_check": true
+    },
+    {
+      "name": "P04 baseline reconstructed",
+      "pass_check": true
+    },
+    {
+      "name": "P04 official baseline Processor exact",
+      "pass_check": true
+    },
+    {
+      "name": "P04 baseline request/output hashes",
+      "pass_check": true
+    },
+    {
+      "name": "P04 same model generation config",
+      "pass_check": true
+    },
+    {
+      "name": "P04 same seed and adapter enabled",
+      "pass_check": true
+    },
+    {
+      "name": "P04 target claims unchanged",
+      "pass_check": true
+    },
+    {
+      "name": "P04 fixed history unchanged",
+      "pass_check": true
+    },
+    {
+      "name": "P04 operation and relation unchanged",
+      "pass_check": true
+    },
+    {
+      "name": "P04 prompt differs",
+      "pass_check": true
+    },
+    {
+      "name": "P04 no context truncation",
+      "pass_check": true
+    }
+  ],
+  "check_count": 54,
+  "new_model_calls": 0,
+  "processor": "official CPU AutoProcessor",
+  "context_cut_tokens": 0,
+  "prepared_inputs_sha256": "3fb78df5cbc64d185016ca61fab37d9e37d7c77d9888a300b92a284f5be82f86",
+  "token_counts": [
+    {
+      "pair_id": "P01",
+      "input_tokens_A": 314,
+      "input_tokens_B": 1154
+    },
+    {
+      "pair_id": "P02",
+      "input_tokens_A": 552,
+      "input_tokens_B": 1392
+    },
+    {
+      "pair_id": "P03",
+      "input_tokens_A": 513,
+      "input_tokens_B": 1353
+    },
+    {
+      "pair_id": "P04",
+      "input_tokens_A": 531,
+      "input_tokens_B": 1371
+    }
+  ]
+}

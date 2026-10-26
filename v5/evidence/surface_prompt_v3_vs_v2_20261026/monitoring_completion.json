@@ -1,0 +1,10 @@
+{
+  "automation_id": "surface-v3-v2",
+  "status": "deleted",
+  "tool_result": "Deleted automation in the app; deleteStatus=deleted",
+  "finished_jst": "2026-10-26T11:25:32.872203+09:00",
+  "scope": "Only surface-v3-v2 deleted; other automations untouched",
+  "generation_complete": true,
+  "full_root_review_complete": true,
+  "final_audit_complete": true
+}

@@ -1,0 +1,70 @@
+{
+  "status": "pass",
+  "pairs": 4,
+  "outputs": 8,
+  "actual_inputs": 8,
+  "raw_outputs": 8,
+  "all_bodies_and_inputs_present": true,
+  "metrics": [
+    {
+      "pair_id": "P01",
+      "A": {
+        "chars": 119,
+        "tokens": 64,
+        "official_stop_reached": true,
+        "hit_token_cap": false
+      },
+      "B": {
+        "chars": 261,
+        "tokens": 142,
+        "official_stop_reached": true,
+        "hit_token_cap": false
+      }
+    },
+    {
+      "pair_id": "P02",
+      "A": {
+        "chars": 127,
+        "tokens": 76,
+        "official_stop_reached": true,
+        "hit_token_cap": false
+      },
+      "B": {
+        "chars": 234,
+        "tokens": 141,
+        "official_stop_reached": true,
+        "hit_token_cap": false
+      }
+    },
+    {
+      "pair_id": "P03",
+      "A": {
+        "chars": 99,
+        "tokens": 55,
+        "official_stop_reached": true,
+        "hit_token_cap": false
+      },
+      "B": {
+        "chars": 206,
+        "tokens": 119,
+        "official_stop_reached": true,
+        "hit_token_cap": false
+      }
+    },
+    {
+      "pair_id": "P04",
+      "A": {
+        "chars": 214,
+        "tokens": 119,
+        "official_stop_reached": true,
+        "hit_token_cap": false
+      },
+      "B": {
+        "chars": 366,
+        "tokens": 206,
+        "official_stop_reached": true,
+        "hit_token_cap": false
+      }
+    }
+  ]
+}

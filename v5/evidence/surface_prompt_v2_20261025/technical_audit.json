@@ -1,0 +1,54 @@
+{
+  "status": "pass",
+  "scope": "technical integrity only, not semantic quality",
+  "pairs": 4,
+  "new_surface_calls": 4,
+  "baseline_saved_calls": 4,
+  "planner_calls": 0,
+  "guard_calls": 0,
+  "training": 0,
+  "quality_retries": 0,
+  "actual_tts": false,
+  "current_exit0": true,
+  "fixed_cases_exact": true,
+  "official_processor_decode_journals": true,
+  "entries": [
+    {
+      "pair_id": "P01",
+      "new_call_id": "R0001",
+      "baseline_call_id": "R0002",
+      "request_sha256": "87e3df7d650c0092c661fde01bf402926a051f624e7c2f565f5a4dfeac8efeea",
+      "output_sha256": "267d5866a4ea23bae06fd33df6d32110bb2db5cff78994848d63c7848ec719fb",
+      "official_stop_reached": true,
+      "hit_token_cap": false
+    },
+    {
+      "pair_id": "P02",
+      "new_call_id": "R0002",
+      "baseline_call_id": "R0008",
+      "request_sha256": "922d7e18a623b3534876c49c791d65db1fd84a826743cf48a9f31ad4e1a70250",
+      "output_sha256": "33fd6871b8b628adecdc553e79df21f44d42bda73f51f885620bb0720f76607a",
+      "official_stop_reached": true,
+      "hit_token_cap": false
+    },
+    {
+      "pair_id": "P03",
+      "new_call_id": "R0003",
+      "baseline_call_id": "R0010",
+      "request_sha256": "b7e61c529b53065275c77dd06b4bc60d78ab74aed9e2438a4bed69cb4ed536f8",
+      "output_sha256": "b84dd8d1467701eb2ab1446b3e162d9dcf388de09a6acb8c0932e458aa8d91fb",
+      "official_stop_reached": true,
+      "hit_token_cap": false
+    },
+    {
+      "pair_id": "P04",
+      "new_call_id": "R0004",
+      "baseline_call_id": "R0006",
+      "request_sha256": "d4ce0864a7f8a58cdb71eea3addcfcfd3cb2626b41e0368d1b5c29b7ce9c514d",
+      "output_sha256": "27463f8e201452a1d2eb454b18152856ff09f15e17bdaa55696c1b3e88593f7e",
+      "official_stop_reached": true,
+      "hit_token_cap": false
+    }
+  ],
+  "review_packet_sha256": "d3007dae065b493882dfedebd4e8c13dc71ab2c4369237fd9a6eeef1e9b6abf0"
+}

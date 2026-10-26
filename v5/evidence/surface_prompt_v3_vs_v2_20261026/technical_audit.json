@@ -1,0 +1,54 @@
+{
+  "status": "pass",
+  "scope": "technical integrity only, not semantic quality",
+  "pairs": 4,
+  "new_surface_calls": 4,
+  "baseline_saved_calls": 4,
+  "planner_calls": 0,
+  "guard_calls": 0,
+  "training": 0,
+  "quality_retries": 0,
+  "actual_tts": false,
+  "current_exit0": true,
+  "fixed_cases_exact": true,
+  "official_processor_decode_journals": true,
+  "entries": [
+    {
+      "pair_id": "P01",
+      "new_call_id": "R0001",
+      "baseline_call_id": "R0001",
+      "request_sha256": "15c5f4360f0e9be563a409e784406fa8a8be358deb2e0a85119f741daf54d3e5",
+      "output_sha256": "67a4c0252078aeebae32b605f181276818dfbecf829824ebc6f160a12dd79a51",
+      "official_stop_reached": true,
+      "hit_token_cap": false
+    },
+    {
+      "pair_id": "P02",
+      "new_call_id": "R0002",
+      "baseline_call_id": "R0002",
+      "request_sha256": "e2434775011249ec63e00750dc201a5f6a0873074c7ea7eb9ba36d642f57e755",
+      "output_sha256": "ef84363c49c77cf93c730b23072dbed5b7221291a1ebce757b638387a214a944",
+      "official_stop_reached": true,
+      "hit_token_cap": false
+    },
+    {
+      "pair_id": "P03",
+      "new_call_id": "R0003",
+      "baseline_call_id": "R0003",
+      "request_sha256": "04ee1c4aaf9054bc45f3136585206e2cb13d94805c00e541f04351498067ea7d",
+      "output_sha256": "ba5b419f60e83c98edc628e22e8c92349ace1ab056de6e7727d88ad9dbd195be",
+      "official_stop_reached": true,
+      "hit_token_cap": false
+    },
+    {
+      "pair_id": "P04",
+      "new_call_id": "R0004",
+      "baseline_call_id": "R0004",
+      "request_sha256": "af0dff6ffe9094fdcaf0eddba7619ee9350f33437e3dd4632abd38e4c10f3a8c",
+      "output_sha256": "e9c4f5f9c11e312642bf44054129e3843d15a0ed909064efe3ce73782a453958",
+      "official_stop_reached": true,
+      "hit_token_cap": false
+    }
+  ],
+  "review_packet_sha256": "1748b43c75205db8b71be23f9d68a1c3d9303204d7e9a164295dce2e08fcd1e5"
+}
