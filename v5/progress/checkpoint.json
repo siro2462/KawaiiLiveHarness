@@ -1,82 +1,52 @@
 {
-  "schema_version": 1,
   "thread_id": "01a0a3fd-e058-7bd0-abbd-951f2864ba0e",
-  "cutoff_ordinal": 45137,
-  "cutoff_item_id": "01a175fe-a435-77c0-aa51-c870b620ad4a",
-  "observed_jst": "2026-10-26T11:27:57.885301+09:00",
-  "snapshot_version": "v5-current-20261026",
+  "cutoff_ordinal": 46025,
+  "cutoff_item_id": "01a1787d-91e2-7120-baed-a939fa1507b6",
+  "updated_jst": "2026-10-26T23:04:46.030553+09:00",
+  "conclusion": "H06角度指定は実入力到達を確認したが語りの厚み改善は未実証・採用保留。次は発話の役割/角度進捗/終了を機械側で管理する方向を記録。新制御は未実装。",
+  "confirmed": [
+    "LoRA/元Fact/元履歴/生成条件は固定。現行基準はoriginal contract_runtime。",
+    "CPU62＋依存8、起動経路と実モデルnative/launcher/CPU-GPU Python全終了0、technical_audit pass。",
+    "新規2本52/62tokenでEOS終了。384token上限で短く切られた結果ではない。",
+    "rootがG01/G02・共通前半・現行の実入力/RAW/本文・元Memory/人間原文を全文確認。人間品質ラベル0。",
+    "後半99/92/110字。G02は「9000円も使った」「そう考えると」の比較を明示。両新規とも評価の段数は増えず、未支持の「目の前」がある。",
+    "購入は仮定を維持。元Memoryの疑念の断定化と共通前半の弱化は今回生成の改変から区別。",
+    "比較HTML/result/full_comparison/completion/report_check完成。監視h06のみ削除済み。",
+    "今回の角度追加は元renderer末尾の追記と独立2生成。既定v5/runtimeを変更せず、実行ソースと全比較証拠をbyte保持で公開準備。",
+    "保存用CPU7検査で実renderer/実入力/元人間比較の正確な参照/全本文とRAW/既定Runtime不変を照合。過去の全意味評価は再採点していない。"
+  ],
+  "known_limits": [
+    "H06既知1地点・1seed・設計者指定/既知条件評価、人間0、実TTSなし。",
+    "新2条件の差は角度だけ。現行との差には共通説明と根拠引用追加も含む。",
+    "元履歴固定、共通前半保存参照。新発話を次へ返す閉ループは未実施。",
+    "元の複合Factに両角度が既にあり、全内容を話す制約下。角度指定一般やモデル能力の上限は判定できない。",
+    "技術passと意味品質合格を区別。自発的角度選択・評価から別Memory想起は未検証。"
+  ],
+  "next_checkpoints": [
+    "未実施：発話の役割を1つに絞り、説明と評価角度を別管理し、実発話を履歴へ戻して次角度と終了を決める制御。",
+    "未決定：角度選択方法、実際に語った内容の進捗判定、新しい評価と言い換え反復の区別。",
+    "未検証：プロンプト長の影響、短い入力への整理の効果、制御変更が事実保持と自然さに与える影響。記録依頼から追加生成へ進まない。"
+  ],
+  "inherited_evidence_not_rereviewed": true,
   "execution_status": "complete",
-  "quality_status": "not_approved_for_production",
-  "conclusion": "Surface v3は部分改善に留まり採用保留。H06後半の評価が直接的になり、一部の未支持前提は削減。しかしH04/H07の全部成功とH07の架空既出は残り、評価の段階が一貫して増えたとはいえない。",
+  "quality_status": "not_approved_for_production_limited_effect",
+  "latest_experiment_run": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\surface_viewpoint_h06_20261026_v1",
+  "automation_id": "h06",
+  "automation_status": "deleted",
   "human_quality_labels": 0,
+  "schema_version": 1,
+  "snapshot_version": "v5-current-20261026",
+  "code_publication": {
+    "branch": "codex/v5-current-20261023",
+    "this_commit": "Read git HEAD; not self-embedded",
+    "old_tags_unchanged": true
+  },
   "current_runtime": {
     "memory": "fixed alpha TF-IDF/tags/1-hop",
     "planner": "fixed Base Planner LoRA/four-key JSON",
     "surface": "fixed Instruct LoRA61 train/8updates; existing contract renderer unchanged",
     "invalid_plan": "preserve RAW/discard Plan/fixed source order/no retry",
     "semantic_guard": false
-  },
-  "confirmed": [
-    "v2/v3各4地点の実入力/RAW/本文/人間原文をroot全文レビュー。数値token/公式Processor/adapter/終了記録はCPU監査。",
-    "v3は新規Surface4、Planner/alpha retrieval/Guard/training/quality retry/TTS/production0。全EOS、上限到達0。",
-    "v2保存1067字→v3新規984字。H06前後は固定元履歴で独立、v3閉ループではない。",
-    "候補プロンプトと対照結果を追加保存。既定v5/runtimeとLoRA/alpha/Plannerは変更しない。"
-  ],
-  "known_limits": [
-    "1seed/既知3素材4地点/設計者AI既知条件・非独立blind/人間0/実TTSなし。",
-    "v2の失敗例を見てv3を設計。3点一括追加で個別寄与は未分離。",
-    "Memory圧縮や主観断定化、固定履歴順による差とSurfaceの生成改変を区別。"
-  ],
-  "next_checkpoints": [
-    "未実施：独立素材・複数seed・人間品質評価による外部検証。追加実行の許可とはしない。",
-    "未実証：事実保持を伴う一貫した評価の深まり。",
-    "未実証：学習済みPlannerによる実発話を受けた有効な次焦点選択。"
-  ],
-  "evidence_checks": [
-    {
-      "path": "../evidence/surface_prompt_v3_vs_v2_20261026/review_packet.json",
-      "sha256": "1748b43c75205db8b71be23f9d68a1c3d9303204d7e9a164295dce2e08fcd1e5",
-      "scope": "current completed comparison/full root review or technical integrity as named"
-    },
-    {
-      "path": "../evidence/surface_prompt_v3_vs_v2_20261026/root_review.json",
-      "sha256": "e5bbc7c14caa934821b347b8b016a824fc65cdf0ab3262e7d3c4dd1541163cca",
-      "scope": "current completed comparison/full root review or technical integrity as named"
-    },
-    {
-      "path": "../evidence/surface_prompt_v3_vs_v2_20261026/technical_audit.json",
-      "sha256": "ea9d90104d5c4134b88106b948568b1fec57572d6cd7e01a913e2dffb5720499",
-      "scope": "current completed comparison/full root review or technical integrity as named"
-    },
-    {
-      "path": "../evidence/surface_prompt_v3_vs_v2_20261026/report_check.json",
-      "sha256": "7be5243057393d568371be7a148a71fe54ef2f66b441d08e13917fd585b51efd",
-      "scope": "current completed comparison/full root review or technical integrity as named"
-    },
-    {
-      "path": "../evidence/surface_prompt_v3_vs_v2_20261026/completion.json",
-      "sha256": "dc8bd7ae231cd4b23fd4c4404ad836d61752b8b0e528bf6b7a3ab71e33cba536",
-      "scope": "current completed comparison/full root review or technical integrity as named"
-    }
-  ],
-  "references": {
-    "v2": "../evidence/surface_prompt_v2_20261025/comparison.html",
-    "v3": "../evidence/surface_prompt_v3_vs_v2_20261026/comparison.html",
-    "full_outputs": "../evidence/surface_prompt_v3_vs_v2_20261026/comparison.md"
-  },
-  "monitor_status": "surface-v3-v2 deleted after full review; others untouched",
-  "code_publication": {
-    "branch": "codex/v5-current-20261023",
-    "this_commit": "Read git HEAD; not self-embedded",
-    "old_tags_unchanged": true
-  },
-  "latest_metrics": {
-    "v2_chars": 1067,
-    "v3_chars": 984,
-    "new_surface_calls": 4,
-    "EOS": 4,
-    "token_cap": 0,
-    "model_seconds": 596.835
   },
   "historical_outcomes": {
     "continuous10": {
@@ -90,5 +60,19 @@
       "ai_chars": 730,
       "provenance": "inherited2026-10-24 review; not rerated"
     }
+  },
+  "references": {
+    "h06_comparison": "../evidence/surface_viewpoint_h06_20261026/comparison.html",
+    "h06_result": "../evidence/surface_viewpoint_h06_20261026/result.md",
+    "next_control": "NEXT_CONTROL_PLAN.md"
+  },
+  "latest_metrics": {
+    "current_chars": 99,
+    "G01_chars": 92,
+    "G02_chars": 110,
+    "new_surface_calls": 2,
+    "EOS": 2,
+    "token_cap": 0,
+    "model_seconds": 152.133
   }
 }

@@ -30,3 +30,9 @@ python -X utf8 -B v5/tools/test_current.py -v
 `v5/experiments/surface_prompt_v2_20261025`と`surface_prompt_v3_vs_v2_20261026`は実行済み比較ソースのbyte保持保存。v3の追加は版名と3点節だけ。既定`v5/runtime/contract_runtime.py`やLoRA/alpha/Plannerは変更しない。各evidenceのreview_packetに全実入力・RAW・元Fact履歴・参照を保存する。A保存出力を新規生成と数えない。
 
 `python -X utf8 -B v5/tools/test_prompt_evidence.py -v`は保存4地点の入力再現・v2の正確な再利用・条件固定・HTML全文・レビューSHAをCPUのみで検査する。元の公式Processor54チェックをモデルなしで再実行したことにはならない。公開exportは外部凍結ファイルを除くためそのまま生成を起動できない。
+
+## H06見る角度・段階①の保存
+
+`v5/experiments/surface_viewpoint_h06_20261026/`は元実行ソースのbyte保持保存。元contract_runtimeを呼び、その出力末尾へ指定角度・元Fact引用・共通規則を追加する。元のv5/runtimeは変更しない。各条件は元履歴から独立に1回生成し、新規発話を次条件へ戻さない。
+
+`python -X utf8 -B v5/tools/test_viewpoint_evidence.py -v`は保存済み実入力のrenderer一致、元の人間比較runからの正確な参照、条件固定、EOS、全出力とRAWのHTML保全、レビューSHAと意味未検証状態をCPUだけで照合する。元の公式Processorを伴うCPU62チェックは保存実績であり、ここで再実行したとはしない。protocol_exportは条件と来歴の記録で、外部凍結資産を含む実行用protocolではない。

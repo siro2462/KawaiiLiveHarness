@@ -1,0 +1,18 @@
+[
+  {
+    "key": "4723be73f59352faf77119247a144551f0c4fcbbb32bdc05f1713157749d4fb7:result_mismatch",
+    "angle_id": "result_mismatch",
+    "case_sha256": "4723be73f59352faf77119247a144551f0c4fcbbb32bdc05f1713157749d4fb7",
+    "status": "text_delivered",
+    "semantic_status": "unverified",
+    "call_id": "R0001"
+  },
+  {
+    "key": "4723be73f59352faf77119247a144551f0c4fcbbb32bdc05f1713157749d4fb7:purchase_comparison",
+    "angle_id": "purchase_comparison",
+    "case_sha256": "4723be73f59352faf77119247a144551f0c4fcbbb32bdc05f1713157749d4fb7",
+    "status": "text_delivered",
+    "semantic_status": "unverified",
+    "call_id": "R0002"
+  }
+]

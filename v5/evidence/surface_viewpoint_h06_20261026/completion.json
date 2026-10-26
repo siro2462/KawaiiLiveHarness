@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "technical_audit_sha256": "6f90af60e29fbd93b1c53e2dea974343314adbada81a74adbb8e590670bec9da",
+  "review_packet_sha256": "e90d2c4c5d4f4b622102a3116e54ac1a3d76f3c15b5b1aafa44550205a5e4601",
+  "root_review_sha256": "3eed56eccc45586376a1bf0de595e6c3a70ce38e98c557f6f6e92651cff94410",
+  "root_summary_sha256": "2af7937c3b19ab5d068dec462ba616af0e31fc54924151f4683a73cfcdcaa088",
+  "comparison_sha256": "24a1e763989028caec3768d7c79b9c78924693fbf7433681422e40c7ae4a7904",
+  "full_text_sha256": "0fda69f05aceafe1215e0aed1a7aaba075fb1fbfc26a4f8b0bc9971164b7fc33",
+  "human_quality_labels": 0,
+  "known_condition_designer_review": true,
+  "new_surface_calls": 2,
+  "baseline_saved_calls": 1,
+  "common_first_saved_calls": 1,
+  "planner_calls": 0,
+  "guard_calls": 0,
+  "quality_retries": 0,
+  "training": 0,
+  "real_tts": false,
+  "finished_jst": "2026-10-26T20:43:11.062339+09:00"
+}

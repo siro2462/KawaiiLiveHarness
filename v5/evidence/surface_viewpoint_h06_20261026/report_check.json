@@ -1,0 +1,34 @@
+{
+  "status": "pass",
+  "columns": 3,
+  "unique_later_outputs": 3,
+  "common_first_saved": 1,
+  "unique_inputs_and_raws": 4,
+  "all_full_text_present": true,
+  "metrics": [
+    {
+      "label": "現行版（保存出力）",
+      "chars": 99,
+      "output_tokens": 55,
+      "official_stop_reached": true,
+      "hit_token_cap": false,
+      "seconds": 64.647
+    },
+    {
+      "label": "景品の多さと当たらない結果",
+      "chars": 92,
+      "output_tokens": 52,
+      "official_stop_reached": true,
+      "hit_token_cap": false,
+      "seconds": 79.789
+    },
+    {
+      "label": "9000円と普通に買う場合",
+      "chars": 110,
+      "output_tokens": 62,
+      "official_stop_reached": true,
+      "hit_token_cap": false,
+      "seconds": 72.344
+    }
+  ]
+}

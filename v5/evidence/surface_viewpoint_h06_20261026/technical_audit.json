@@ -1,0 +1,37 @@
+{
+  "status": "pass",
+  "scope": "technical integrity only, not semantic quality",
+  "pairs": 2,
+  "new_surface_calls": 2,
+  "baseline_saved_calls": 1,
+  "common_first_saved_calls": 1,
+  "planner_calls": 0,
+  "guard_calls": 0,
+  "training": 0,
+  "quality_retries": 0,
+  "actual_tts": false,
+  "current_exit0": true,
+  "fixed_cases_exact": true,
+  "official_processor_decode_journals": true,
+  "entries": [
+    {
+      "pair_id": "G01",
+      "new_call_id": "R0001",
+      "baseline_call_id": "R0010",
+      "request_sha256": "f0b8fb921e351a854120d24b913a63e2e5b5acd3135b31e1e9c37cdabc9447ab",
+      "output_sha256": "091fe02416a6711cd58a88799cb2a43e503254e6e0dcbd322081888226115430",
+      "official_stop_reached": true,
+      "hit_token_cap": false
+    },
+    {
+      "pair_id": "G02",
+      "new_call_id": "R0002",
+      "baseline_call_id": "R0010",
+      "request_sha256": "295c3b75719c5c7b89b6e576fee702bd89ffd5ca89bc2c13876edfff8ac5c891",
+      "output_sha256": "a38d6e4a1059ad4f961000f71d6d85d7a8b29e706e663c15ba4b258a4d42cc25",
+      "official_stop_reached": true,
+      "hit_token_cap": false
+    }
+  ],
+  "review_packet_sha256": "e90d2c4c5d4f4b622102a3116e54ac1a3d76f3c15b5b1aafa44550205a5e4601"
+}

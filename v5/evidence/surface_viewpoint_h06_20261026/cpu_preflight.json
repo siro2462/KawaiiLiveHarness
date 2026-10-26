@@ -1,0 +1,270 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "name": "two Surface calls only",
+      "pass_check": true
+    },
+    {
+      "name": "same 384 token generation budget",
+      "pass_check": true
+    },
+    {
+      "name": "unchanged core: common.py",
+      "pass_check": true
+    },
+    {
+      "name": "unchanged core: contract_runtime.py",
+      "pass_check": true
+    },
+    {
+      "name": "unchanged core: runtime.py",
+      "pass_check": true
+    },
+    {
+      "name": "unchanged core: flow_apply.py",
+      "pass_check": true
+    },
+    {
+      "name": "unchanged core: fact_contract.json",
+      "pass_check": true
+    },
+    {
+      "name": "unchanged core: driver_cpu.py",
+      "pass_check": true
+    },
+    {
+      "name": "unchanged core: gpu_worker.py",
+      "pass_check": true
+    },
+    {
+      "name": "unchanged core: processor_cpu.py",
+      "pass_check": true
+    },
+    {
+      "name": "unchanged core: request_protocol.py",
+      "pass_check": true
+    },
+    {
+      "name": "unchanged core: token_journal.py",
+      "pass_check": true
+    },
+    {
+      "name": "unchanged core: dependency_probe.py",
+      "pass_check": true
+    },
+    {
+      "name": "unchanged core: startup_probe.py",
+      "pass_check": true
+    },
+    {
+      "name": "baseline equals current v5 renderer",
+      "pass_check": true
+    },
+    {
+      "name": "both angles use identical whole case",
+      "pass_check": true
+    },
+    {
+      "name": "only viewpoint and probe ID differ",
+      "pass_check": true
+    },
+    {
+      "name": "distinct angles, same source basis",
+      "pass_check": true
+    },
+    {
+      "name": "application preserves whole case and digest",
+      "pass_check": true
+    },
+    {
+      "name": "application does not mutate caller",
+      "pass_check": true
+    },
+    {
+      "name": "no angle reconstructs current prompt byte exact",
+      "pass_check": true
+    },
+    {
+      "name": "unknown fact",
+      "pass_check": true
+    },
+    {
+      "name": "quote mismatch",
+      "pass_check": true
+    },
+    {
+      "name": "empty basis",
+      "pass_check": true
+    },
+    {
+      "name": "duplicate basis",
+      "pass_check": true
+    },
+    {
+      "name": "empty instruction",
+      "pass_check": true
+    },
+    {
+      "name": "unversioned schema",
+      "pass_check": true
+    },
+    {
+      "name": "extra expected speech",
+      "pass_check": true
+    },
+    {
+      "name": "same angle cannot retry before completion",
+      "pass_check": true
+    },
+    {
+      "name": "same angle cannot retry after completion",
+      "pass_check": true
+    },
+    {
+      "name": "cannot finish same attempt twice",
+      "pass_check": true
+    },
+    {
+      "name": "same Fact permits distinct angle",
+      "pass_check": true
+    },
+    {
+      "name": "delivery or hold is not semantic success",
+      "pass_check": true
+    },
+    {
+      "name": "cannot exceed explicit attempt budget",
+      "pass_check": true
+    },
+    {
+      "name": "G01 baseline whole case",
+      "pass_check": true
+    },
+    {
+      "name": "G01 baseline original renderer",
+      "pass_check": true
+    },
+    {
+      "name": "G01 official baseline Processor exact",
+      "pass_check": true
+    },
+    {
+      "name": "G01 baseline output SHA linkage",
+      "pass_check": true
+    },
+    {
+      "name": "G01 same generation config",
+      "pass_check": true
+    },
+    {
+      "name": "G01 same seed adapter enabled",
+      "pass_check": true
+    },
+    {
+      "name": "G01 unchanged base prefix",
+      "pass_check": true
+    },
+    {
+      "name": "G01 complete Fact and history retained",
+      "pass_check": true
+    },
+    {
+      "name": "G01 selected angle reaches actual decoded input",
+      "pass_check": true
+    },
+    {
+      "name": "G01 other angle instruction not injected",
+      "pass_check": true
+    },
+    {
+      "name": "G01 no truncation",
+      "pass_check": true
+    },
+    {
+      "name": "G01 same official template except text",
+      "pass_check": true
+    },
+    {
+      "name": "G02 baseline whole case",
+      "pass_check": true
+    },
+    {
+      "name": "G02 baseline original renderer",
+      "pass_check": true
+    },
+    {
+      "name": "G02 official baseline Processor exact",
+      "pass_check": true
+    },
+    {
+      "name": "G02 baseline output SHA linkage",
+      "pass_check": true
+    },
+    {
+      "name": "G02 same generation config",
+      "pass_check": true
+    },
+    {
+      "name": "G02 same seed adapter enabled",
+      "pass_check": true
+    },
+    {
+      "name": "G02 unchanged base prefix",
+      "pass_check": true
+    },
+    {
+      "name": "G02 complete Fact and history retained",
+      "pass_check": true
+    },
+    {
+      "name": "G02 selected angle reaches actual decoded input",
+      "pass_check": true
+    },
+    {
+      "name": "G02 other angle instruction not injected",
+      "pass_check": true
+    },
+    {
+      "name": "G02 no truncation",
+      "pass_check": true
+    },
+    {
+      "name": "G02 same official template except text",
+      "pass_check": true
+    },
+    {
+      "name": "angle is sole prompt delta between new arms",
+      "pass_check": true
+    },
+    {
+      "name": "distinct actual token inputs",
+      "pass_check": true
+    },
+    {
+      "name": "common first part is same saved reference",
+      "pass_check": true
+    },
+    {
+      "name": "common first part request reconstructs exactly",
+      "pass_check": true
+    }
+  ],
+  "check_count": 62,
+  "new_model_calls": 0,
+  "processor": "official CPU AutoProcessor",
+  "context_cut_tokens": 0,
+  "prepared_inputs_sha256": "550be5e99944c6bd84034eb0c3ac8e1dfec95d14354a6e4b6305d9da0cfb102e",
+  "token_counts": [
+    {
+      "pair_id": "G01",
+      "input_tokens_A": 513,
+      "input_tokens_B": 715
+    },
+    {
+      "pair_id": "G02",
+      "input_tokens_A": 513,
+      "input_tokens_B": 721
+    }
+  ]
+}

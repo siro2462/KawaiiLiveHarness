@@ -1,0 +1,21 @@
+{
+  "thread_id": "01a0a3fd-e058-7bd0-abbd-951f2864ba0e",
+  "turn_id": "01a177d4-865c-7323-a8c1-039698119c1a",
+  "item_id": "01a177d4-86d3-7443-8631-5a564f0fed5b",
+  "ordinal": 45538,
+  "user_item": {
+    "type": "userMessage",
+    "id": "01a177d4-86d3-7443-8631-5a564f0fed5b",
+    "clientId": "7b101503-5f46-431c-bfa6-78b7c4701a09",
+    "content": [
+      {
+        "type": "text",
+        "text": "じゃあまず①を実装して試してみて〜。H06でLoRA・Fact・履歴・生成条件を固定して、見る角度だけ変えた比較をしたい。CPUでSurfaceの実入力まで届くのを確認してから少数生成して、現行版と全文で並べてね。起動後はスケジュール確認で、常駐しないでね。\n",
+        "text_elements": []
+      }
+    ]
+  },
+  "stage": "1 only",
+  "designer_angles": true,
+  "new_surface_max": 2
+}

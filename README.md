@@ -18,7 +18,15 @@
 
 v3は話の中心・根拠を受けた評価・事実を盛らない3点を追加。新規Surface4件、全EOS、v2保存1067字に対しv3は984字。中心や一部の前提は改善したが、全部成功などの改変は残るため採用保留。既定Runtimeのプロンプトは変更していない。1seed/既知素材/設計者AI既知条件/人間0、閉ループの比較ではない。
 
-## 現在の到達点
+## H06・見る角度の比較と次の方針（2026-10-26）
+
+[現行/G01/G02の全文比較](v5/evidence/surface_viewpoint_h06_20261026/comparison.html) ／ [結果](v5/evidence/surface_viewpoint_h06_20261026/result.md) ／ [実験ソース](v5/experiments/surface_viewpoint_h06_20261026/) ／ [次の制御案・未実装](v5/progress/NEXT_CONTROL_PLAN.md)
+
+元のSurface入力に、設計者指定の見る角度と根拠Factの引用を付ける段階①を検証。新規2本の入力到達・終了0・全文監査は完了したが、現行99字に対し92/110字で構成はほぼ同じ。語りの厚み改善は未実証で、採用保留。既定Runtimeとモデルは維持している。
+
+現在の方針は、追加プロンプトを重ねるより、出来事の説明と評価の角度を分け、今回の発話の役割・未使用の角度・終了をコード側で管理する案を検討すること。新しい制御は未実装・未生成。プロンプトの長さが悪化原因だとは確認していない。
+
+## 継承する到達点
 
 短い発話を履歴へ戻す経路で51/51発話・2503非空白字を完走。250字/分仮定で約10.01分相当で、実音声時間ではありません。旧17callを全入力/SHA一致で再利用、新規85call。元runのexit1は保全し、継続runはnative/launcher/両Python exit0。不正Plan5件で固定順へ戻り継続できました。意味品質は未保証です。
 
@@ -40,6 +48,7 @@ python -X utf8 -B v5/tools/verify_snapshot.py
 python -X utf8 -B v5/tools/test_snapshot.py -v
 python -X utf8 -B v5/tools/test_current.py -v
 python -X utf8 -B v5/tools/test_prompt_evidence.py -v
+python -X utf8 -B v5/tools/test_viewpoint_evidence.py -v
 ```
 
 これらは標準ライブラリだけのソース・保存証跡・CPU模擬検査で、モデル生成や学習を実行しません。

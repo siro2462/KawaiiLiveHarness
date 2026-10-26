@@ -1,0 +1,8 @@
+{
+  "status": "approval_service_failure_before_execution",
+  "cause": "Automatic approval review could not complete because usage limit was reached; not an unsafe-action determination",
+  "action_executed": false,
+  "model_calls": 0,
+  "retry": "same require_escalated approval path after stated reset time; read access succeeded",
+  "preserved_old_test_results": true
+}

@@ -1,0 +1,1145 @@
+<!doctype html><html lang="ja"><meta charset="utf-8"><title>H06 見る角度の比較</title><style>body{font:16px/1.8 system-ui,sans-serif;max-width:1550px;margin:24px auto;padding:20px;background:#f5f7fa;color:#203040}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}article{background:white;border:1px solid #d5dce5;border-radius:10px;padding:20px}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit}summary{cursor:pointer;color:#17568f}details{margin:20px 0}@media(max-width:1000px){.grid{grid-template-columns:1fr}}</style><h1>H06：同じFactを、2つの見る角度で語る</h1><p>現行版は元のcontract_runtime。v2/v3への変更なし。後半だけ2本新規生成。LoRA・Fact・元の履歴・生成条件固定。角度は設計者指定で、自律的な判断の試験ではありません。</p><p>新しい2条件は見る角度だけが異なります。現行版との比較には角度欄と共通説明の追加も含まれます。前半は保存された同じ出力で、新規生成でも3回分の実験でもありません。新しい後半を次へ渡す閉ループではありません。</p><h2>共通の前半（保存原文）</h2><pre>あと、ガラポンもやったんですけど、1回600円で、それを15回、合計9000円も回したのに、A賞が一度も出なかったんですよね。
+
+ずっとB賞ばっかりで……。天井とかもないみたいで、A賞が全然出ない仕組み、もうちょっとどうにかしてほしいなって思っちゃいました。</pre><details><summary>実入力・テンプレート適用後・RAW・生成条件の全文</summary><pre>雑談配信で、その場で話しているような自然な日本語の発話にする。
+出来事、考え、感情、問い、比喩、仮定の区別を保つ。数量・否定・時点・確実性・決定と実行を変えない。
+必要なところだけ自然に言い淀みや言い直しを使う。語尾やつなぎを同じ形にそろえる必要はない。
+新しい事実・理由・感情を足さず、発話本文だけを出す。ID、見出し、説明、注記は出さない。
+
+【直前の発話：最大2回、文脈用】
+[1] あと、あの、先着40名のグリーティングなんですけど、人が少ないかなって思ってちょっと遅れたら、もう人気で配布終了してて……。それで、名前書けるシール作ってた時、近くに同じグッズつけてる人がいるなって思って、なんか見られてる気がして、ちょっと慌てちゃったんですよね。そしたら、その人も同じように作り始めたみたいで、なんだか気まずくなっちゃって。
+
+[2] あと、あの、射的もやったんですけど、1発目からいきなりトートバッグ当てちゃって。その後の弾も、全部当てられたんですよ。あの銃、結構重くて長いのに、なんかもう、自分ってスナイパーの実力あるな、って思っちゃいましたね。
+
+で、その時なんですけど、グッズをたくさん付けてるバッグを持った知らない女性から、急に話しかけられたんです。でも、射的に集中してて……自分に話しかけてるって気づかなくて。振り向いた時、ちょっとびっくりしちゃいました。
+
+【今回の会話操作】
+別の話題へ切り替える
+
+【話題の関係】
+別の話題へ移る。根拠のない共通経験や因果を作らない。
+
+【今回話す内容】
+[H06-1] 1回600円のガラポンを15回、合計9000円回してもA賞が一度も出なかった。
+[H06-2] B賞ばかり続き、天井もなくA賞が出ない仕組みに怒った。
+
+【話の展開】
+出来事の進展（H06-1） → 出来事の進展（H06-2）
+
+直前の発話を受け、今回の内容へ進む。履歴にある話を丸ごと説明し直さない。関係のない出来事を同じ日や因果で結ばない。履歴の未検証の内容を新事実の根拠にしない。</pre><pre>&lt;bos&gt;&lt;|turn&gt;user
+雑談配信で、その場で話しているような自然な日本語の発話にする。
+出来事、考え、感情、問い、比喩、仮定の区別を保つ。数量・否定・時点・確実性・決定と実行を変えない。
+必要なところだけ自然に言い淀みや言い直しを使う。語尾やつなぎを同じ形にそろえる必要はない。
+新しい事実・理由・感情を足さず、発話本文だけを出す。ID、見出し、説明、注記は出さない。
+
+【直前の発話：最大2回、文脈用】
+[1] あと、あの、先着40名のグリーティングなんですけど、人が少ないかなって思ってちょっと遅れたら、もう人気で配布終了してて……。それで、名前書けるシール作ってた時、近くに同じグッズつけてる人がいるなって思って、なんか見られてる気がして、ちょっと慌てちゃったんですよね。そしたら、その人も同じように作り始めたみたいで、なんだか気まずくなっちゃって。
+
+[2] あと、あの、射的もやったんですけど、1発目からいきなりトートバッグ当てちゃって。その後の弾も、全部当てられたんですよ。あの銃、結構重くて長いのに、なんかもう、自分ってスナイパーの実力あるな、って思っちゃいましたね。
+
+で、その時なんですけど、グッズをたくさん付けてるバッグを持った知らない女性から、急に話しかけられたんです。でも、射的に集中してて……自分に話しかけてるって気づかなくて。振り向いた時、ちょっとびっくりしちゃいました。
+
+【今回の会話操作】
+別の話題へ切り替える
+
+【話題の関係】
+別の話題へ移る。根拠のない共通経験や因果を作らない。
+
+【今回話す内容】
+[H06-1] 1回600円のガラポンを15回、合計9000円回してもA賞が一度も出なかった。
+[H06-2] B賞ばかり続き、天井もなくA賞が出ない仕組みに怒った。
+
+【話の展開】
+出来事の進展（H06-1） → 出来事の進展（H06-2）
+
+直前の発話を受け、今回の内容へ進む。履歴にある話を丸ごと説明し直さない。関係のない出来事を同じ日や因果で結ばない。履歴の未検証の内容を新事実の根拠にしない。&lt;turn|&gt;
+&lt;|turn&gt;model
+&lt;|channel&gt;thought
+&lt;channel|&gt;</pre><pre>あと、ガラポンもやったんですけど、1回600円で、それを15回、合計9000円も回したのに、A賞が一度も出なかったんですよね。
+
+ずっとB賞ばっかりで……。天井とかもないみたいで、A賞が全然出ない仕組み、もうちょっとどうにかしてほしいなって思っちゃいました。&lt;turn|&gt;</pre><pre>{
+  &quot;max_length&quot;: null,
+  &quot;max_new_tokens&quot;: 384,
+  &quot;min_length&quot;: null,
+  &quot;min_new_tokens&quot;: null,
+  &quot;early_stopping&quot;: null,
+  &quot;max_time&quot;: null,
+  &quot;stop_strings&quot;: null,
+  &quot;do_sample&quot;: true,
+  &quot;num_beams&quot;: null,
+  &quot;use_mtp&quot;: null,
+  &quot;use_cache&quot;: true,
+  &quot;cache_implementation&quot;: null,
+  &quot;cache_config&quot;: null,
+  &quot;max_cache_len&quot;: null,
+  &quot;temperature&quot;: 1.0,
+  &quot;top_k&quot;: 64,
+  &quot;top_p&quot;: 0.95,
+  &quot;min_p&quot;: null,
+  &quot;top_h&quot;: null,
+  &quot;typical_p&quot;: null,
+  &quot;epsilon_cutoff&quot;: null,
+  &quot;eta_cutoff&quot;: null,
+  &quot;repetition_penalty&quot;: 1.0,
+  &quot;encoder_repetition_penalty&quot;: null,
+  &quot;length_penalty&quot;: null,
+  &quot;no_repeat_ngram_size&quot;: null,
+  &quot;bad_words_ids&quot;: null,
+  &quot;renormalize_logits&quot;: null,
+  &quot;forced_bos_token_id&quot;: null,
+  &quot;forced_eos_token_id&quot;: null,
+  &quot;remove_invalid_values&quot;: null,
+  &quot;exponential_decay_length_penalty&quot;: null,
+  &quot;suppress_tokens&quot;: null,
+  &quot;begin_suppress_tokens&quot;: null,
+  &quot;sequence_bias&quot;: null,
+  &quot;token_healing&quot;: null,
+  &quot;guidance_scale&quot;: null,
+  &quot;watermarking_config&quot;: null,
+  &quot;num_return_sequences&quot;: null,
+  &quot;output_attentions&quot;: null,
+  &quot;output_hidden_states&quot;: null,
+  &quot;output_scores&quot;: null,
+  &quot;output_logits&quot;: null,
+  &quot;return_dict_in_generate&quot;: null,
+  &quot;pad_token_id&quot;: 0,
+  &quot;bos_token_id&quot;: 2,
+  &quot;eos_token_id&quot;: [
+    1,
+    106,
+    50
+  ],
+  &quot;encoder_no_repeat_ngram_size&quot;: null,
+  &quot;decoder_start_token_id&quot;: null,
+  &quot;is_assistant&quot;: null,
+  &quot;num_assistant_tokens&quot;: null,
+  &quot;num_assistant_tokens_schedule&quot;: null,
+  &quot;assistant_confidence_threshold&quot;: null,
+  &quot;prompt_lookup_num_tokens&quot;: null,
+  &quot;max_matching_ngram_size&quot;: null,
+  &quot;assistant_early_exit&quot;: null,
+  &quot;assistant_lookbehind&quot;: null,
+  &quot;target_lookbehind&quot;: null,
+  &quot;assistant_ensemble_weight&quot;: null,
+  &quot;speculation_type&quot;: null,
+  &quot;compile_config&quot;: null,
+  &quot;disable_compile&quot;: null,
+  &quot;continuous_batching_config&quot;: null,
+  &quot;low_memory&quot;: null,
+  &quot;penalty_alpha&quot;: null,
+  &quot;dola_layers&quot;: null,
+  &quot;diversity_penalty&quot;: null,
+  &quot;num_beam_groups&quot;: null,
+  &quot;constraints&quot;: null,
+  &quot;force_words_ids&quot;: null,
+  &quot;prefill_chunk_size&quot;: null,
+  &quot;_from_model_config&quot;: null,
+  &quot;transformers_version&quot;: &quot;5.17.0&quot;
+}</pre></details><h2>今回の後半で固定したFact</h2><pre>H06-3 A賞の景品はたくさん置いてあるのに当たらず、9000円あれば普通に一つ買えたのではないかと悔しがった。</pre><details><summary>元Memory・直前2発話・会話操作・関係・Flow</summary><pre>{
+  &quot;pair_id&quot;: &quot;G01&quot;,
+  &quot;memory_id&quot;: &quot;H06&quot;,
+  &quot;source_call_id&quot;: &quot;R0010&quot;,
+  &quot;source_run&quot;: &quot;C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\human_memory_compare_20261024_v1&quot;,
+  &quot;case&quot;: {
+    &quot;schema&quot;: &quot;surface-contract-1&quot;,
+    &quot;pair_id&quot;: &quot;L-T005&quot;,
+    &quot;facts&quot;: [
+      {
+        &quot;id&quot;: &quot;H06-3&quot;,
+        &quot;claim&quot;: &quot;A賞の景品はたくさん置いてあるのに当たらず、9000円あれば普通に一つ買えたのではないかと悔しがった。&quot;,
+        &quot;kind&quot;: &quot;event&quot;
+      }
+    ],
+    &quot;history&quot;: [
+      {
+        &quot;text&quot;: &quot;あと、あの、射的もやったんですけど、1発目からいきなりトートバッグ当てちゃって。その後の弾も、全部当てられたんですよ。あの銃、結構重くて長いのに、なんかもう、自分ってスナイパーの実力あるな、って思っちゃいましたね。\n\nで、その時なんですけど、グッズをたくさん付けてるバッグを持った知らない女性から、急に話しかけられたんです。でも、射的に集中してて……自分に話しかけてるって気づかなくて。振り向いた時、ちょっとびっくりしちゃいました。&quot;,
+        &quot;memory_id&quot;: &quot;H07&quot;,
+        &quot;origin&quot;: &quot;offline text delivered, semantically unverified&quot;
+      },
+      {
+        &quot;text&quot;: &quot;あと、ガラポンもやったんですけど、1回600円で、それを15回、合計9000円も回したのに、A賞が一度も出なかったんですよね。\n\nずっとB賞ばっかりで……。天井とかもないみたいで、A賞が全然出ない仕組み、もうちょっとどうにかしてほしいなって思っちゃいました。&quot;,
+        &quot;memory_id&quot;: &quot;H06&quot;,
+        &quot;origin&quot;: &quot;offline text delivered, semantically unverified&quot;
+      }
+    ],
+    &quot;operation&quot;: &quot;continue&quot;,
+    &quot;relation&quot;: {
+      &quot;type&quot;: &quot;sequence&quot;,
+      &quot;summary&quot;: &quot;同じ出来事の未提示部分に進む。直前の本文は発話済みだが未検証。新事実の根拠にしない。&quot;
+    },
+    &quot;flow&quot;: [
+      {
+        &quot;fact_ids&quot;: [
+          &quot;H06-3&quot;
+        ],
+        &quot;relation&quot;: &quot;sequence&quot;,
+        &quot;label&quot;: &quot;出来事の進展&quot;
+      }
+    ]
+  },
+  &quot;source_memory&quot;: {
+    &quot;id&quot;: &quot;H06&quot;,
+    &quot;namespace&quot;: &quot;fixtures&quot;,
+    &quot;authority&quot;: &quot;synthetic_fixture&quot;,
+    &quot;source&quot;: &quot;reverse-memory:luna-topic06&quot;,
+    &quot;ordinal&quot;: 0,
+    &quot;title&quot;: &quot;ガラポンでA賞が出なかった話&quot;,
+    &quot;body&quot;: &quot;1回600円のガラポンを15回、合計9000円回してもA賞が一度も出なかった。B賞ばかり続き、天井もなくA賞が出ない仕組みに怒った。A賞の景品はたくさん置いてあるのに当たらず、9000円あれば普通に一つ買えたのではないかと悔しがった。&quot;,
+    &quot;beats&quot;: [
+      &quot;1回600円のガラポンを15回、合計9000円回してもA賞が一度も出なかった&quot;,
+      &quot;B賞ばかり続き、天井もなくA賞が出ない仕組みに怒った&quot;,
+      &quot;A賞の景品はたくさん置いてあるのに当たらず、9000円あれば普通に一つ買えたのではないかと悔しがった&quot;
+    ],
+    &quot;tags&quot;: []
+  },
+  &quot;source_facts&quot;: [
+    {
+      &quot;id&quot;: &quot;H06-1&quot;,
+      &quot;claim&quot;: &quot;1回600円のガラポンを15回、合計9000円回してもA賞が一度も出なかった。&quot;,
+      &quot;kind&quot;: &quot;event&quot;
+    },
+    {
+      &quot;id&quot;: &quot;H06-2&quot;,
+      &quot;claim&quot;: &quot;B賞ばかり続き、天井もなくA賞が出ない仕組みに怒った。&quot;,
+      &quot;kind&quot;: &quot;event&quot;
+    },
+    {
+      &quot;id&quot;: &quot;H06-3&quot;,
+      &quot;claim&quot;: &quot;A賞の景品はたくさん置いてあるのに当たらず、9000円あれば普通に一つ買えたのではないかと悔しがった。&quot;,
+      &quot;kind&quot;: &quot;event&quot;
+    }
+  ],
+  &quot;source_before&quot;: {
+    &quot;memory_id&quot;: &quot;H06&quot;,
+    &quot;source_sha256&quot;: &quot;0a58de261597d4c6a23b85f2f17d4f248bd902eeddddbef9f20bc0a455963186&quot;,
+    &quot;selection_order&quot;: [
+      &quot;H06-1&quot;,
+      &quot;H06-2&quot;,
+      &quot;H06-3&quot;
+    ],
+    &quot;mapping&quot;: {
+      &quot;adopted&quot;: false,
+      &quot;changed&quot;: false,
+      &quot;reason&quot;: &quot;No audited source contract; fixed source order&quot;,
+      &quot;method&quot;: &quot;source-ID/dependency application, not semantic grounding&quot;
+    },
+    &quot;facts&quot;: {
+      &quot;H06-1&quot;: {
+        &quot;presentations&quot;: 1,
+        &quot;delivery&quot;: &quot;text_delivered_unverified&quot;,
+        &quot;semantic_status&quot;: &quot;unverified&quot;,
+        &quot;exact_source_quote&quot;: null
+      },
+      &quot;H06-2&quot;: {
+        &quot;presentations&quot;: 1,
+        &quot;delivery&quot;: &quot;text_delivered_unverified&quot;,
+        &quot;semantic_status&quot;: &quot;unverified&quot;,
+        &quot;exact_source_quote&quot;: null
+      },
+      &quot;H06-3&quot;: {
+        &quot;presentations&quot;: 0,
+        &quot;delivery&quot;: &quot;not_presented&quot;,
+        &quot;semantic_status&quot;: &quot;unverified&quot;,
+        &quot;exact_source_quote&quot;: null
+      }
+    },
+    &quot;last_delivery_seq&quot;: 4,
+    &quot;pending_target_ids&quot;: [
+      &quot;H06-3&quot;
+    ],
+    &quot;progress_definition&quot;: &quot;presentation/delivery != verified semantic coverage&quot;
+  },
+  &quot;source_after&quot;: {
+    &quot;memory_id&quot;: &quot;H06&quot;,
+    &quot;source_sha256&quot;: &quot;0a58de261597d4c6a23b85f2f17d4f248bd902eeddddbef9f20bc0a455963186&quot;,
+    &quot;selection_order&quot;: [
+      &quot;H06-1&quot;,
+      &quot;H06-2&quot;,
+      &quot;H06-3&quot;
+    ],
+    &quot;mapping&quot;: {
+      &quot;adopted&quot;: false,
+      &quot;changed&quot;: false,
+      &quot;reason&quot;: &quot;No audited source contract; fixed source order&quot;,
+      &quot;method&quot;: &quot;source-ID/dependency application, not semantic grounding&quot;
+    },
+    &quot;facts&quot;: {
+      &quot;H06-1&quot;: {
+        &quot;presentations&quot;: 1,
+        &quot;delivery&quot;: &quot;text_delivered_unverified&quot;,
+        &quot;semantic_status&quot;: &quot;unverified&quot;,
+        &quot;exact_source_quote&quot;: null
+      },
+      &quot;H06-2&quot;: {
+        &quot;presentations&quot;: 1,
+        &quot;delivery&quot;: &quot;text_delivered_unverified&quot;,
+        &quot;semantic_status&quot;: &quot;unverified&quot;,
+        &quot;exact_source_quote&quot;: null
+      },
+      &quot;H06-3&quot;: {
+        &quot;presentations&quot;: 1,
+        &quot;delivery&quot;: &quot;text_delivered_unverified&quot;,
+        &quot;semantic_status&quot;: &quot;unverified&quot;,
+        &quot;exact_source_quote&quot;: null
+      }
+    },
+    &quot;last_delivery_seq&quot;: 5,
+    &quot;pending_target_ids&quot;: [],
+    &quot;progress_definition&quot;: &quot;presentation/delivery != verified semantic coverage&quot;
+  },
+  &quot;baseline_body&quot;: &quot;A賞の景品って、あそこにもたくさん置いてあったんですよ。なのに全然当たらないんだもん……。あの、9000円も使ったんだから、普通に一つ買えたんじゃないかなって。なんか、もう、ちょっと悔しいですよね。&quot;,
+  &quot;baseline_raw&quot;: &quot;A賞の景品って、あそこにもたくさん置いてあったんですよ。なのに全然当たらないんだもん……。あの、9000円も使ったんだから、普通に一つ買えたんじゃないかなって。なんか、もう、ちょっと悔しいですよね。&lt;turn|&gt;&quot;,
+  &quot;baseline_delivered&quot;: true,
+  &quot;baseline_format_reason&quot;: null,
+  &quot;baseline_request_path&quot;: &quot;C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\human_memory_compare_20261024_v1\\requests\\R0010.json&quot;,
+  &quot;baseline_output_path&quot;: &quot;C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\human_memory_compare_20261024_v1\\inference\\R0010.output.json&quot;,
+  &quot;baseline_delivery_path&quot;: &quot;C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\human_memory_compare_20261024_v1\\deliveries\\R0010.json&quot;,
+  &quot;seed&quot;: 20260925,
+  &quot;baseline_version&quot;: &quot;current original contract_runtime&quot;,
+  &quot;viewpoint&quot;: {
+    &quot;schema&quot;: &quot;surface-viewpoint-1&quot;,
+    &quot;angle_id&quot;: &quot;result_mismatch&quot;,
+    &quot;label&quot;: &quot;景品の多さと当たらない結果の食い違い&quot;,
+    &quot;instruction&quot;: &quot;景品はたくさんあるのに当たらない、という食い違いを中心に、Factにある悔しさを語る。&quot;,
+    &quot;basis&quot;: [
+      {
+        &quot;fact_id&quot;: &quot;H06-3&quot;,
+        &quot;quote&quot;: &quot;A賞の景品はたくさん置いてあるのに当たらず、9000円あれば普通に一つ買えたのではないかと悔しがった。&quot;
+      }
+    ]
+  }
+}</pre></details><div class="grid"><article><h2>現行版（保存出力）</h2><p>99字 / 55 token / EOS=True / 上限到達=False</p><pre>A賞の景品って、あそこにもたくさん置いてあったんですよ。なのに全然当たらないんだもん……。あの、9000円も使ったんだから、普通に一つ買えたんじゃないかなって。なんか、もう、ちょっと悔しいですよね。</pre><details><summary>実入力・テンプレート適用後・RAW・生成条件の全文</summary><pre>雑談配信で、その場で話しているような自然な日本語の発話にする。
+出来事、考え、感情、問い、比喩、仮定の区別を保つ。数量・否定・時点・確実性・決定と実行を変えない。
+必要なところだけ自然に言い淀みや言い直しを使う。語尾やつなぎを同じ形にそろえる必要はない。
+新しい事実・理由・感情を足さず、発話本文だけを出す。ID、見出し、説明、注記は出さない。
+
+【直前の発話：最大2回、文脈用】
+[1] あと、あの、射的もやったんですけど、1発目からいきなりトートバッグ当てちゃって。その後の弾も、全部当てられたんですよ。あの銃、結構重くて長いのに、なんかもう、自分ってスナイパーの実力あるな、って思っちゃいましたね。
+
+で、その時なんですけど、グッズをたくさん付けてるバッグを持った知らない女性から、急に話しかけられたんです。でも、射的に集中してて……自分に話しかけてるって気づかなくて。振り向いた時、ちょっとびっくりしちゃいました。
+
+[2] あと、ガラポンもやったんですけど、1回600円で、それを15回、合計9000円も回したのに、A賞が一度も出なかったんですよね。
+
+ずっとB賞ばっかりで……。天井とかもないみたいで、A賞が全然出ない仕組み、もうちょっとどうにかしてほしいなって思っちゃいました。
+
+【今回の会話操作】
+同じ出来事の続きを話す
+
+【話題の関係】
+同じ出来事の未提示部分に進む。直前の本文は発話済みだが未検証。新事実の根拠にしない。
+
+【今回話す内容】
+[H06-3] A賞の景品はたくさん置いてあるのに当たらず、9000円あれば普通に一つ買えたのではないかと悔しがった。
+
+【話の展開】
+出来事の進展（H06-3）
+
+直前の発話を受け、今回の内容へ進む。履歴にある話を丸ごと説明し直さない。関係のない出来事を同じ日や因果で結ばない。履歴の未検証の内容を新事実の根拠にしない。</pre><pre>&lt;bos&gt;&lt;|turn&gt;user
+雑談配信で、その場で話しているような自然な日本語の発話にする。
+出来事、考え、感情、問い、比喩、仮定の区別を保つ。数量・否定・時点・確実性・決定と実行を変えない。
+必要なところだけ自然に言い淀みや言い直しを使う。語尾やつなぎを同じ形にそろえる必要はない。
+新しい事実・理由・感情を足さず、発話本文だけを出す。ID、見出し、説明、注記は出さない。
+
+【直前の発話：最大2回、文脈用】
+[1] あと、あの、射的もやったんですけど、1発目からいきなりトートバッグ当てちゃって。その後の弾も、全部当てられたんですよ。あの銃、結構重くて長いのに、なんかもう、自分ってスナイパーの実力あるな、って思っちゃいましたね。
+
+で、その時なんですけど、グッズをたくさん付けてるバッグを持った知らない女性から、急に話しかけられたんです。でも、射的に集中してて……自分に話しかけてるって気づかなくて。振り向いた時、ちょっとびっくりしちゃいました。
+
+[2] あと、ガラポンもやったんですけど、1回600円で、それを15回、合計9000円も回したのに、A賞が一度も出なかったんですよね。
+
+ずっとB賞ばっかりで……。天井とかもないみたいで、A賞が全然出ない仕組み、もうちょっとどうにかしてほしいなって思っちゃいました。
+
+【今回の会話操作】
+同じ出来事の続きを話す
+
+【話題の関係】
+同じ出来事の未提示部分に進む。直前の本文は発話済みだが未検証。新事実の根拠にしない。
+
+【今回話す内容】
+[H06-3] A賞の景品はたくさん置いてあるのに当たらず、9000円あれば普通に一つ買えたのではないかと悔しがった。
+
+【話の展開】
+出来事の進展（H06-3）
+
+直前の発話を受け、今回の内容へ進む。履歴にある話を丸ごと説明し直さない。関係のない出来事を同じ日や因果で結ばない。履歴の未検証の内容を新事実の根拠にしない。&lt;turn|&gt;
+&lt;|turn&gt;model
+&lt;|channel&gt;thought
+&lt;channel|&gt;</pre><pre>A賞の景品って、あそこにもたくさん置いてあったんですよ。なのに全然当たらないんだもん……。あの、9000円も使ったんだから、普通に一つ買えたんじゃないかなって。なんか、もう、ちょっと悔しいですよね。&lt;turn|&gt;</pre><pre>{
+  &quot;max_length&quot;: null,
+  &quot;max_new_tokens&quot;: 384,
+  &quot;min_length&quot;: null,
+  &quot;min_new_tokens&quot;: null,
+  &quot;early_stopping&quot;: null,
+  &quot;max_time&quot;: null,
+  &quot;stop_strings&quot;: null,
+  &quot;do_sample&quot;: true,
+  &quot;num_beams&quot;: null,
+  &quot;use_mtp&quot;: null,
+  &quot;use_cache&quot;: true,
+  &quot;cache_implementation&quot;: null,
+  &quot;cache_config&quot;: null,
+  &quot;max_cache_len&quot;: null,
+  &quot;temperature&quot;: 1.0,
+  &quot;top_k&quot;: 64,
+  &quot;top_p&quot;: 0.95,
+  &quot;min_p&quot;: null,
+  &quot;top_h&quot;: null,
+  &quot;typical_p&quot;: null,
+  &quot;epsilon_cutoff&quot;: null,
+  &quot;eta_cutoff&quot;: null,
+  &quot;repetition_penalty&quot;: 1.0,
+  &quot;encoder_repetition_penalty&quot;: null,
+  &quot;length_penalty&quot;: null,
+  &quot;no_repeat_ngram_size&quot;: null,
+  &quot;bad_words_ids&quot;: null,
+  &quot;renormalize_logits&quot;: null,
+  &quot;forced_bos_token_id&quot;: null,
+  &quot;forced_eos_token_id&quot;: null,
+  &quot;remove_invalid_values&quot;: null,
+  &quot;exponential_decay_length_penalty&quot;: null,
+  &quot;suppress_tokens&quot;: null,
+  &quot;begin_suppress_tokens&quot;: null,
+  &quot;sequence_bias&quot;: null,
+  &quot;token_healing&quot;: null,
+  &quot;guidance_scale&quot;: null,
+  &quot;watermarking_config&quot;: null,
+  &quot;num_return_sequences&quot;: null,
+  &quot;output_attentions&quot;: null,
+  &quot;output_hidden_states&quot;: null,
+  &quot;output_scores&quot;: null,
+  &quot;output_logits&quot;: null,
+  &quot;return_dict_in_generate&quot;: null,
+  &quot;pad_token_id&quot;: 0,
+  &quot;bos_token_id&quot;: 2,
+  &quot;eos_token_id&quot;: [
+    1,
+    106,
+    50
+  ],
+  &quot;encoder_no_repeat_ngram_size&quot;: null,
+  &quot;decoder_start_token_id&quot;: null,
+  &quot;is_assistant&quot;: null,
+  &quot;num_assistant_tokens&quot;: null,
+  &quot;num_assistant_tokens_schedule&quot;: null,
+  &quot;assistant_confidence_threshold&quot;: null,
+  &quot;prompt_lookup_num_tokens&quot;: null,
+  &quot;max_matching_ngram_size&quot;: null,
+  &quot;assistant_early_exit&quot;: null,
+  &quot;assistant_lookbehind&quot;: null,
+  &quot;target_lookbehind&quot;: null,
+  &quot;assistant_ensemble_weight&quot;: null,
+  &quot;speculation_type&quot;: null,
+  &quot;compile_config&quot;: null,
+  &quot;disable_compile&quot;: null,
+  &quot;continuous_batching_config&quot;: null,
+  &quot;low_memory&quot;: null,
+  &quot;penalty_alpha&quot;: null,
+  &quot;dola_layers&quot;: null,
+  &quot;diversity_penalty&quot;: null,
+  &quot;num_beam_groups&quot;: null,
+  &quot;constraints&quot;: null,
+  &quot;force_words_ids&quot;: null,
+  &quot;prefill_chunk_size&quot;: null,
+  &quot;_from_model_config&quot;: null,
+  &quot;transformers_version&quot;: &quot;5.17.0&quot;
+}</pre></details></article><article><h2>景品の多さと当たらない結果</h2><p>92字 / 52 token / EOS=True / 上限到達=False</p><pre>あんなにA賞の景品が、目の前にたくさん置いてあるのに……全然当たらないんですよね。もう、あの、9000円あれば普通に一つ買えたんじゃないかな、って思っちゃって。結構、悔しかったですね。</pre><details><summary>実入力・テンプレート適用後・RAW・生成条件の全文</summary><pre>雑談配信で、その場で話しているような自然な日本語の発話にする。
+出来事、考え、感情、問い、比喩、仮定の区別を保つ。数量・否定・時点・確実性・決定と実行を変えない。
+必要なところだけ自然に言い淀みや言い直しを使う。語尾やつなぎを同じ形にそろえる必要はない。
+新しい事実・理由・感情を足さず、発話本文だけを出す。ID、見出し、説明、注記は出さない。
+
+【直前の発話：最大2回、文脈用】
+[1] あと、あの、射的もやったんですけど、1発目からいきなりトートバッグ当てちゃって。その後の弾も、全部当てられたんですよ。あの銃、結構重くて長いのに、なんかもう、自分ってスナイパーの実力あるな、って思っちゃいましたね。
+
+で、その時なんですけど、グッズをたくさん付けてるバッグを持った知らない女性から、急に話しかけられたんです。でも、射的に集中してて……自分に話しかけてるって気づかなくて。振り向いた時、ちょっとびっくりしちゃいました。
+
+[2] あと、ガラポンもやったんですけど、1回600円で、それを15回、合計9000円も回したのに、A賞が一度も出なかったんですよね。
+
+ずっとB賞ばっかりで……。天井とかもないみたいで、A賞が全然出ない仕組み、もうちょっとどうにかしてほしいなって思っちゃいました。
+
+【今回の会話操作】
+同じ出来事の続きを話す
+
+【話題の関係】
+同じ出来事の未提示部分に進む。直前の本文は発話済みだが未検証。新事実の根拠にしない。
+
+【今回話す内容】
+[H06-3] A賞の景品はたくさん置いてあるのに当たらず、9000円あれば普通に一つ買えたのではないかと悔しがった。
+
+【話の展開】
+出来事の進展（H06-3）
+
+直前の発話を受け、今回の内容へ進む。履歴にある話を丸ごと説明し直さない。関係のない出来事を同じ日や因果で結ばない。履歴の未検証の内容を新事実の根拠にしない。
+
+【今回の見る角度：事実の追加ではなく語る観点】
+今回話す内容はすべて扱い、その中で次の角度に重心を置いて語る。角度の指示は新しい事実の根拠ではない。根拠にある悔しさや比較を、別の出来事・購入の実行・確定した価格・相手の意図へ変えない。同じ結論の言い換えだけを増やさず、根拠のどの点からその評価になるのかを語る。根拠のない理由・感情・新しい経験は追加しない。
+根拠（元Factの引用）：
+[H06-3] A賞の景品はたくさん置いてあるのに当たらず、9000円あれば普通に一つ買えたのではないかと悔しがった。
+見る角度：景品の多さと当たらない結果の食い違い
+指示：景品はたくさんあるのに当たらない、という食い違いを中心に、Factにある悔しさを語る。</pre><pre>&lt;bos&gt;&lt;|turn&gt;user
+雑談配信で、その場で話しているような自然な日本語の発話にする。
+出来事、考え、感情、問い、比喩、仮定の区別を保つ。数量・否定・時点・確実性・決定と実行を変えない。
+必要なところだけ自然に言い淀みや言い直しを使う。語尾やつなぎを同じ形にそろえる必要はない。
+新しい事実・理由・感情を足さず、発話本文だけを出す。ID、見出し、説明、注記は出さない。
+
+【直前の発話：最大2回、文脈用】
+[1] あと、あの、射的もやったんですけど、1発目からいきなりトートバッグ当てちゃって。その後の弾も、全部当てられたんですよ。あの銃、結構重くて長いのに、なんかもう、自分ってスナイパーの実力あるな、って思っちゃいましたね。
+
+で、その時なんですけど、グッズをたくさん付けてるバッグを持った知らない女性から、急に話しかけられたんです。でも、射的に集中してて……自分に話しかけてるって気づかなくて。振り向いた時、ちょっとびっくりしちゃいました。
+
+[2] あと、ガラポンもやったんですけど、1回600円で、それを15回、合計9000円も回したのに、A賞が一度も出なかったんですよね。
+
+ずっとB賞ばっかりで……。天井とかもないみたいで、A賞が全然出ない仕組み、もうちょっとどうにかしてほしいなって思っちゃいました。
+
+【今回の会話操作】
+同じ出来事の続きを話す
+
+【話題の関係】
+同じ出来事の未提示部分に進む。直前の本文は発話済みだが未検証。新事実の根拠にしない。
+
+【今回話す内容】
+[H06-3] A賞の景品はたくさん置いてあるのに当たらず、9000円あれば普通に一つ買えたのではないかと悔しがった。
+
+【話の展開】
+出来事の進展（H06-3）
+
+直前の発話を受け、今回の内容へ進む。履歴にある話を丸ごと説明し直さない。関係のない出来事を同じ日や因果で結ばない。履歴の未検証の内容を新事実の根拠にしない。
+
+【今回の見る角度：事実の追加ではなく語る観点】
+今回話す内容はすべて扱い、その中で次の角度に重心を置いて語る。角度の指示は新しい事実の根拠ではない。根拠にある悔しさや比較を、別の出来事・購入の実行・確定した価格・相手の意図へ変えない。同じ結論の言い換えだけを増やさず、根拠のどの点からその評価になるのかを語る。根拠のない理由・感情・新しい経験は追加しない。
+根拠（元Factの引用）：
+[H06-3] A賞の景品はたくさん置いてあるのに当たらず、9000円あれば普通に一つ買えたのではないかと悔しがった。
+見る角度：景品の多さと当たらない結果の食い違い
+指示：景品はたくさんあるのに当たらない、という食い違いを中心に、Factにある悔しさを語る。&lt;turn|&gt;
+&lt;|turn&gt;model
+&lt;|channel&gt;thought
+&lt;channel|&gt;</pre><pre>あんなにA賞の景品が、目の前にたくさん置いてあるのに……全然当たらないんですよね。もう、あの、9000円あれば普通に一つ買えたんじゃないかな、って思っちゃって。結構、悔しかったですね。&lt;turn|&gt;</pre><pre>{
+  &quot;max_length&quot;: null,
+  &quot;max_new_tokens&quot;: 384,
+  &quot;min_length&quot;: null,
+  &quot;min_new_tokens&quot;: null,
+  &quot;early_stopping&quot;: null,
+  &quot;max_time&quot;: null,
+  &quot;stop_strings&quot;: null,
+  &quot;do_sample&quot;: true,
+  &quot;num_beams&quot;: null,
+  &quot;use_mtp&quot;: null,
+  &quot;use_cache&quot;: true,
+  &quot;cache_implementation&quot;: null,
+  &quot;cache_config&quot;: null,
+  &quot;max_cache_len&quot;: null,
+  &quot;temperature&quot;: 1.0,
+  &quot;top_k&quot;: 64,
+  &quot;top_p&quot;: 0.95,
+  &quot;min_p&quot;: null,
+  &quot;top_h&quot;: null,
+  &quot;typical_p&quot;: null,
+  &quot;epsilon_cutoff&quot;: null,
+  &quot;eta_cutoff&quot;: null,
+  &quot;repetition_penalty&quot;: 1.0,
+  &quot;encoder_repetition_penalty&quot;: null,
+  &quot;length_penalty&quot;: null,
+  &quot;no_repeat_ngram_size&quot;: null,
+  &quot;bad_words_ids&quot;: null,
+  &quot;renormalize_logits&quot;: null,
+  &quot;forced_bos_token_id&quot;: null,
+  &quot;forced_eos_token_id&quot;: null,
+  &quot;remove_invalid_values&quot;: null,
+  &quot;exponential_decay_length_penalty&quot;: null,
+  &quot;suppress_tokens&quot;: null,
+  &quot;begin_suppress_tokens&quot;: null,
+  &quot;sequence_bias&quot;: null,
+  &quot;token_healing&quot;: null,
+  &quot;guidance_scale&quot;: null,
+  &quot;watermarking_config&quot;: null,
+  &quot;num_return_sequences&quot;: null,
+  &quot;output_attentions&quot;: null,
+  &quot;output_hidden_states&quot;: null,
+  &quot;output_scores&quot;: null,
+  &quot;output_logits&quot;: null,
+  &quot;return_dict_in_generate&quot;: null,
+  &quot;pad_token_id&quot;: 0,
+  &quot;bos_token_id&quot;: 2,
+  &quot;eos_token_id&quot;: [
+    1,
+    106,
+    50
+  ],
+  &quot;encoder_no_repeat_ngram_size&quot;: null,
+  &quot;decoder_start_token_id&quot;: null,
+  &quot;is_assistant&quot;: null,
+  &quot;num_assistant_tokens&quot;: null,
+  &quot;num_assistant_tokens_schedule&quot;: null,
+  &quot;assistant_confidence_threshold&quot;: null,
+  &quot;prompt_lookup_num_tokens&quot;: null,
+  &quot;max_matching_ngram_size&quot;: null,
+  &quot;assistant_early_exit&quot;: null,
+  &quot;assistant_lookbehind&quot;: null,
+  &quot;target_lookbehind&quot;: null,
+  &quot;assistant_ensemble_weight&quot;: null,
+  &quot;speculation_type&quot;: null,
+  &quot;compile_config&quot;: null,
+  &quot;disable_compile&quot;: null,
+  &quot;continuous_batching_config&quot;: null,
+  &quot;low_memory&quot;: null,
+  &quot;penalty_alpha&quot;: null,
+  &quot;dola_layers&quot;: null,
+  &quot;diversity_penalty&quot;: null,
+  &quot;num_beam_groups&quot;: null,
+  &quot;constraints&quot;: null,
+  &quot;force_words_ids&quot;: null,
+  &quot;prefill_chunk_size&quot;: null,
+  &quot;_from_model_config&quot;: null,
+  &quot;transformers_version&quot;: &quot;5.17.0&quot;
+}</pre></details></article><article><h2>9000円と普通に買う場合</h2><p>110字 / 62 token / EOS=True / 上限到達=False</p><pre>あんなにA賞の景品が、目の前にたくさん置いてあるのに全然当たらなくて……。あの、9000円も使ったんですよ。そう考えると、普通に買っちゃえば一つ買えてたんじゃないかなって思っちゃって、なんかもう、すごく悔しかったですね。</pre><details><summary>実入力・テンプレート適用後・RAW・生成条件の全文</summary><pre>雑談配信で、その場で話しているような自然な日本語の発話にする。
+出来事、考え、感情、問い、比喩、仮定の区別を保つ。数量・否定・時点・確実性・決定と実行を変えない。
+必要なところだけ自然に言い淀みや言い直しを使う。語尾やつなぎを同じ形にそろえる必要はない。
+新しい事実・理由・感情を足さず、発話本文だけを出す。ID、見出し、説明、注記は出さない。
+
+【直前の発話：最大2回、文脈用】
+[1] あと、あの、射的もやったんですけど、1発目からいきなりトートバッグ当てちゃって。その後の弾も、全部当てられたんですよ。あの銃、結構重くて長いのに、なんかもう、自分ってスナイパーの実力あるな、って思っちゃいましたね。
+
+で、その時なんですけど、グッズをたくさん付けてるバッグを持った知らない女性から、急に話しかけられたんです。でも、射的に集中してて……自分に話しかけてるって気づかなくて。振り向いた時、ちょっとびっくりしちゃいました。
+
+[2] あと、ガラポンもやったんですけど、1回600円で、それを15回、合計9000円も回したのに、A賞が一度も出なかったんですよね。
+
+ずっとB賞ばっかりで……。天井とかもないみたいで、A賞が全然出ない仕組み、もうちょっとどうにかしてほしいなって思っちゃいました。
+
+【今回の会話操作】
+同じ出来事の続きを話す
+
+【話題の関係】
+同じ出来事の未提示部分に進む。直前の本文は発話済みだが未検証。新事実の根拠にしない。
+
+【今回話す内容】
+[H06-3] A賞の景品はたくさん置いてあるのに当たらず、9000円あれば普通に一つ買えたのではないかと悔しがった。
+
+【話の展開】
+出来事の進展（H06-3）
+
+直前の発話を受け、今回の内容へ進む。履歴にある話を丸ごと説明し直さない。関係のない出来事を同じ日や因果で結ばない。履歴の未検証の内容を新事実の根拠にしない。
+
+【今回の見る角度：事実の追加ではなく語る観点】
+今回話す内容はすべて扱い、その中で次の角度に重心を置いて語る。角度の指示は新しい事実の根拠ではない。根拠にある悔しさや比較を、別の出来事・購入の実行・確定した価格・相手の意図へ変えない。同じ結論の言い換えだけを増やさず、根拠のどの点からその評価になるのかを語る。根拠のない理由・感情・新しい経験は追加しない。
+根拠（元Factの引用）：
+[H06-3] A賞の景品はたくさん置いてあるのに当たらず、9000円あれば普通に一つ買えたのではないかと悔しがった。
+見る角度：9000円を普通に買った場合との比較
+指示：9000円あれば普通に一つ買えたのでは、という別の使い方との比較を中心に、Factにある悔しさを語る。</pre><pre>&lt;bos&gt;&lt;|turn&gt;user
+雑談配信で、その場で話しているような自然な日本語の発話にする。
+出来事、考え、感情、問い、比喩、仮定の区別を保つ。数量・否定・時点・確実性・決定と実行を変えない。
+必要なところだけ自然に言い淀みや言い直しを使う。語尾やつなぎを同じ形にそろえる必要はない。
+新しい事実・理由・感情を足さず、発話本文だけを出す。ID、見出し、説明、注記は出さない。
+
+【直前の発話：最大2回、文脈用】
+[1] あと、あの、射的もやったんですけど、1発目からいきなりトートバッグ当てちゃって。その後の弾も、全部当てられたんですよ。あの銃、結構重くて長いのに、なんかもう、自分ってスナイパーの実力あるな、って思っちゃいましたね。
+
+で、その時なんですけど、グッズをたくさん付けてるバッグを持った知らない女性から、急に話しかけられたんです。でも、射的に集中してて……自分に話しかけてるって気づかなくて。振り向いた時、ちょっとびっくりしちゃいました。
+
+[2] あと、ガラポンもやったんですけど、1回600円で、それを15回、合計9000円も回したのに、A賞が一度も出なかったんですよね。
+
+ずっとB賞ばっかりで……。天井とかもないみたいで、A賞が全然出ない仕組み、もうちょっとどうにかしてほしいなって思っちゃいました。
+
+【今回の会話操作】
+同じ出来事の続きを話す
+
+【話題の関係】
+同じ出来事の未提示部分に進む。直前の本文は発話済みだが未検証。新事実の根拠にしない。
+
+【今回話す内容】
+[H06-3] A賞の景品はたくさん置いてあるのに当たらず、9000円あれば普通に一つ買えたのではないかと悔しがった。
+
+【話の展開】
+出来事の進展（H06-3）
+
+直前の発話を受け、今回の内容へ進む。履歴にある話を丸ごと説明し直さない。関係のない出来事を同じ日や因果で結ばない。履歴の未検証の内容を新事実の根拠にしない。
+
+【今回の見る角度：事実の追加ではなく語る観点】
+今回話す内容はすべて扱い、その中で次の角度に重心を置いて語る。角度の指示は新しい事実の根拠ではない。根拠にある悔しさや比較を、別の出来事・購入の実行・確定した価格・相手の意図へ変えない。同じ結論の言い換えだけを増やさず、根拠のどの点からその評価になるのかを語る。根拠のない理由・感情・新しい経験は追加しない。
+根拠（元Factの引用）：
+[H06-3] A賞の景品はたくさん置いてあるのに当たらず、9000円あれば普通に一つ買えたのではないかと悔しがった。
+見る角度：9000円を普通に買った場合との比較
+指示：9000円あれば普通に一つ買えたのでは、という別の使い方との比較を中心に、Factにある悔しさを語る。&lt;turn|&gt;
+&lt;|turn&gt;model
+&lt;|channel&gt;thought
+&lt;channel|&gt;</pre><pre>あんなにA賞の景品が、目の前にたくさん置いてあるのに全然当たらなくて……。あの、9000円も使ったんですよ。そう考えると、普通に買っちゃえば一つ買えてたんじゃないかなって思っちゃって、なんかもう、すごく悔しかったですね。&lt;turn|&gt;</pre><pre>{
+  &quot;max_length&quot;: null,
+  &quot;max_new_tokens&quot;: 384,
+  &quot;min_length&quot;: null,
+  &quot;min_new_tokens&quot;: null,
+  &quot;early_stopping&quot;: null,
+  &quot;max_time&quot;: null,
+  &quot;stop_strings&quot;: null,
+  &quot;do_sample&quot;: true,
+  &quot;num_beams&quot;: null,
+  &quot;use_mtp&quot;: null,
+  &quot;use_cache&quot;: true,
+  &quot;cache_implementation&quot;: null,
+  &quot;cache_config&quot;: null,
+  &quot;max_cache_len&quot;: null,
+  &quot;temperature&quot;: 1.0,
+  &quot;top_k&quot;: 64,
+  &quot;top_p&quot;: 0.95,
+  &quot;min_p&quot;: null,
+  &quot;top_h&quot;: null,
+  &quot;typical_p&quot;: null,
+  &quot;epsilon_cutoff&quot;: null,
+  &quot;eta_cutoff&quot;: null,
+  &quot;repetition_penalty&quot;: 1.0,
+  &quot;encoder_repetition_penalty&quot;: null,
+  &quot;length_penalty&quot;: null,
+  &quot;no_repeat_ngram_size&quot;: null,
+  &quot;bad_words_ids&quot;: null,
+  &quot;renormalize_logits&quot;: null,
+  &quot;forced_bos_token_id&quot;: null,
+  &quot;forced_eos_token_id&quot;: null,
+  &quot;remove_invalid_values&quot;: null,
+  &quot;exponential_decay_length_penalty&quot;: null,
+  &quot;suppress_tokens&quot;: null,
+  &quot;begin_suppress_tokens&quot;: null,
+  &quot;sequence_bias&quot;: null,
+  &quot;token_healing&quot;: null,
+  &quot;guidance_scale&quot;: null,
+  &quot;watermarking_config&quot;: null,
+  &quot;num_return_sequences&quot;: null,
+  &quot;output_attentions&quot;: null,
+  &quot;output_hidden_states&quot;: null,
+  &quot;output_scores&quot;: null,
+  &quot;output_logits&quot;: null,
+  &quot;return_dict_in_generate&quot;: null,
+  &quot;pad_token_id&quot;: 0,
+  &quot;bos_token_id&quot;: 2,
+  &quot;eos_token_id&quot;: [
+    1,
+    106,
+    50
+  ],
+  &quot;encoder_no_repeat_ngram_size&quot;: null,
+  &quot;decoder_start_token_id&quot;: null,
+  &quot;is_assistant&quot;: null,
+  &quot;num_assistant_tokens&quot;: null,
+  &quot;num_assistant_tokens_schedule&quot;: null,
+  &quot;assistant_confidence_threshold&quot;: null,
+  &quot;prompt_lookup_num_tokens&quot;: null,
+  &quot;max_matching_ngram_size&quot;: null,
+  &quot;assistant_early_exit&quot;: null,
+  &quot;assistant_lookbehind&quot;: null,
+  &quot;target_lookbehind&quot;: null,
+  &quot;assistant_ensemble_weight&quot;: null,
+  &quot;speculation_type&quot;: null,
+  &quot;compile_config&quot;: null,
+  &quot;disable_compile&quot;: null,
+  &quot;continuous_batching_config&quot;: null,
+  &quot;low_memory&quot;: null,
+  &quot;penalty_alpha&quot;: null,
+  &quot;dola_layers&quot;: null,
+  &quot;diversity_penalty&quot;: null,
+  &quot;num_beam_groups&quot;: null,
+  &quot;constraints&quot;: null,
+  &quot;force_words_ids&quot;: null,
+  &quot;prefill_chunk_size&quot;: null,
+  &quot;_from_model_config&quot;: null,
+  &quot;transformers_version&quot;: &quot;5.17.0&quot;
+}</pre></details></article></div><h2>渡した角度と、その適用記録</h2><pre>{
+  &quot;viewpoint&quot;: {
+    &quot;schema&quot;: &quot;surface-viewpoint-1&quot;,
+    &quot;angle_id&quot;: &quot;result_mismatch&quot;,
+    &quot;label&quot;: &quot;景品の多さと当たらない結果の食い違い&quot;,
+    &quot;instruction&quot;: &quot;景品はたくさんあるのに当たらない、という食い違いを中心に、Factにある悔しさを語る。&quot;,
+    &quot;basis&quot;: [
+      {
+        &quot;fact_id&quot;: &quot;H06-3&quot;,
+        &quot;quote&quot;: &quot;A賞の景品はたくさん置いてあるのに当たらず、9000円あれば普通に一つ買えたのではないかと悔しがった。&quot;
+      }
+    ]
+  },
+  &quot;applied_viewpoint&quot;: {
+    &quot;schema&quot;: &quot;surface-viewpoint-request-1&quot;,
+    &quot;case&quot;: {
+      &quot;schema&quot;: &quot;surface-contract-1&quot;,
+      &quot;pair_id&quot;: &quot;L-T005&quot;,
+      &quot;facts&quot;: [
+        {
+          &quot;id&quot;: &quot;H06-3&quot;,
+          &quot;claim&quot;: &quot;A賞の景品はたくさん置いてあるのに当たらず、9000円あれば普通に一つ買えたのではないかと悔しがった。&quot;,
+          &quot;kind&quot;: &quot;event&quot;
+        }
+      ],
+      &quot;history&quot;: [
+        {
+          &quot;text&quot;: &quot;あと、あの、射的もやったんですけど、1発目からいきなりトートバッグ当てちゃって。その後の弾も、全部当てられたんですよ。あの銃、結構重くて長いのに、なんかもう、自分ってスナイパーの実力あるな、って思っちゃいましたね。\n\nで、その時なんですけど、グッズをたくさん付けてるバッグを持った知らない女性から、急に話しかけられたんです。でも、射的に集中してて……自分に話しかけてるって気づかなくて。振り向いた時、ちょっとびっくりしちゃいました。&quot;,
+          &quot;memory_id&quot;: &quot;H07&quot;,
+          &quot;origin&quot;: &quot;offline text delivered, semantically unverified&quot;
+        },
+        {
+          &quot;text&quot;: &quot;あと、ガラポンもやったんですけど、1回600円で、それを15回、合計9000円も回したのに、A賞が一度も出なかったんですよね。\n\nずっとB賞ばっかりで……。天井とかもないみたいで、A賞が全然出ない仕組み、もうちょっとどうにかしてほしいなって思っちゃいました。&quot;,
+          &quot;memory_id&quot;: &quot;H06&quot;,
+          &quot;origin&quot;: &quot;offline text delivered, semantically unverified&quot;
+        }
+      ],
+      &quot;operation&quot;: &quot;continue&quot;,
+      &quot;relation&quot;: {
+        &quot;type&quot;: &quot;sequence&quot;,
+        &quot;summary&quot;: &quot;同じ出来事の未提示部分に進む。直前の本文は発話済みだが未検証。新事実の根拠にしない。&quot;
+      },
+      &quot;flow&quot;: [
+        {
+          &quot;fact_ids&quot;: [
+            &quot;H06-3&quot;
+          ],
+          &quot;relation&quot;: &quot;sequence&quot;,
+          &quot;label&quot;: &quot;出来事の進展&quot;
+        }
+      ]
+    },
+    &quot;viewpoint&quot;: {
+      &quot;schema&quot;: &quot;surface-viewpoint-1&quot;,
+      &quot;angle_id&quot;: &quot;result_mismatch&quot;,
+      &quot;label&quot;: &quot;景品の多さと当たらない結果の食い違い&quot;,
+      &quot;instruction&quot;: &quot;景品はたくさんあるのに当たらない、という食い違いを中心に、Factにある悔しさを語る。&quot;,
+      &quot;basis&quot;: [
+        {
+          &quot;fact_id&quot;: &quot;H06-3&quot;,
+          &quot;quote&quot;: &quot;A賞の景品はたくさん置いてあるのに当たらず、9000円あれば普通に一つ買えたのではないかと悔しがった。&quot;
+        }
+      ]
+    },
+    &quot;case_sha256&quot;: &quot;4723be73f59352faf77119247a144551f0c4fcbbb32bdc05f1713157749d4fb7&quot;
+  },
+  &quot;pair_id&quot;: &quot;G01&quot;,
+  &quot;arm&quot;: &quot;assigned_angle&quot;,
+  &quot;memory_id&quot;: &quot;H06&quot;,
+  &quot;case&quot;: {
+    &quot;schema&quot;: &quot;surface-contract-1&quot;,
+    &quot;pair_id&quot;: &quot;L-T005&quot;,
+    &quot;facts&quot;: [
+      {
+        &quot;id&quot;: &quot;H06-3&quot;,
+        &quot;claim&quot;: &quot;A賞の景品はたくさん置いてあるのに当たらず、9000円あれば普通に一つ買えたのではないかと悔しがった。&quot;,
+        &quot;kind&quot;: &quot;event&quot;
+      }
+    ],
+    &quot;history&quot;: [
+      {
+        &quot;text&quot;: &quot;あと、あの、射的もやったんですけど、1発目からいきなりトートバッグ当てちゃって。その後の弾も、全部当てられたんですよ。あの銃、結構重くて長いのに、なんかもう、自分ってスナイパーの実力あるな、って思っちゃいましたね。\n\nで、その時なんですけど、グッズをたくさん付けてるバッグを持った知らない女性から、急に話しかけられたんです。でも、射的に集中してて……自分に話しかけてるって気づかなくて。振り向いた時、ちょっとびっくりしちゃいました。&quot;,
+        &quot;memory_id&quot;: &quot;H07&quot;,
+        &quot;origin&quot;: &quot;offline text delivered, semantically unverified&quot;
+      },
+      {
+        &quot;text&quot;: &quot;あと、ガラポンもやったんですけど、1回600円で、それを15回、合計9000円も回したのに、A賞が一度も出なかったんですよね。\n\nずっとB賞ばっかりで……。天井とかもないみたいで、A賞が全然出ない仕組み、もうちょっとどうにかしてほしいなって思っちゃいました。&quot;,
+        &quot;memory_id&quot;: &quot;H06&quot;,
+        &quot;origin&quot;: &quot;offline text delivered, semantically unverified&quot;
+      }
+    ],
+    &quot;operation&quot;: &quot;continue&quot;,
+    &quot;relation&quot;: {
+      &quot;type&quot;: &quot;sequence&quot;,
+      &quot;summary&quot;: &quot;同じ出来事の未提示部分に進む。直前の本文は発話済みだが未検証。新事実の根拠にしない。&quot;
+    },
+    &quot;flow&quot;: [
+      {
+        &quot;fact_ids&quot;: [
+          &quot;H06-3&quot;
+        ],
+        &quot;relation&quot;: &quot;sequence&quot;,
+        &quot;label&quot;: &quot;出来事の進展&quot;
+      }
+    ]
+  },
+  &quot;target_ids&quot;: [
+    &quot;H06-3&quot;
+  ],
+  &quot;baseline_call_id&quot;: &quot;R0010&quot;,
+  &quot;fixed_history&quot;: true
+}</pre><pre>{
+  &quot;viewpoint&quot;: {
+    &quot;schema&quot;: &quot;surface-viewpoint-1&quot;,
+    &quot;angle_id&quot;: &quot;purchase_comparison&quot;,
+    &quot;label&quot;: &quot;9000円を普通に買った場合との比較&quot;,
+    &quot;instruction&quot;: &quot;9000円あれば普通に一つ買えたのでは、という別の使い方との比較を中心に、Factにある悔しさを語る。&quot;,
+    &quot;basis&quot;: [
+      {
+        &quot;fact_id&quot;: &quot;H06-3&quot;,
+        &quot;quote&quot;: &quot;A賞の景品はたくさん置いてあるのに当たらず、9000円あれば普通に一つ買えたのではないかと悔しがった。&quot;
+      }
+    ]
+  },
+  &quot;applied_viewpoint&quot;: {
+    &quot;schema&quot;: &quot;surface-viewpoint-request-1&quot;,
+    &quot;case&quot;: {
+      &quot;schema&quot;: &quot;surface-contract-1&quot;,
+      &quot;pair_id&quot;: &quot;L-T005&quot;,
+      &quot;facts&quot;: [
+        {
+          &quot;id&quot;: &quot;H06-3&quot;,
+          &quot;claim&quot;: &quot;A賞の景品はたくさん置いてあるのに当たらず、9000円あれば普通に一つ買えたのではないかと悔しがった。&quot;,
+          &quot;kind&quot;: &quot;event&quot;
+        }
+      ],
+      &quot;history&quot;: [
+        {
+          &quot;text&quot;: &quot;あと、あの、射的もやったんですけど、1発目からいきなりトートバッグ当てちゃって。その後の弾も、全部当てられたんですよ。あの銃、結構重くて長いのに、なんかもう、自分ってスナイパーの実力あるな、って思っちゃいましたね。\n\nで、その時なんですけど、グッズをたくさん付けてるバッグを持った知らない女性から、急に話しかけられたんです。でも、射的に集中してて……自分に話しかけてるって気づかなくて。振り向いた時、ちょっとびっくりしちゃいました。&quot;,
+          &quot;memory_id&quot;: &quot;H07&quot;,
+          &quot;origin&quot;: &quot;offline text delivered, semantically unverified&quot;
+        },
+        {
+          &quot;text&quot;: &quot;あと、ガラポンもやったんですけど、1回600円で、それを15回、合計9000円も回したのに、A賞が一度も出なかったんですよね。\n\nずっとB賞ばっかりで……。天井とかもないみたいで、A賞が全然出ない仕組み、もうちょっとどうにかしてほしいなって思っちゃいました。&quot;,
+          &quot;memory_id&quot;: &quot;H06&quot;,
+          &quot;origin&quot;: &quot;offline text delivered, semantically unverified&quot;
+        }
+      ],
+      &quot;operation&quot;: &quot;continue&quot;,
+      &quot;relation&quot;: {
+        &quot;type&quot;: &quot;sequence&quot;,
+        &quot;summary&quot;: &quot;同じ出来事の未提示部分に進む。直前の本文は発話済みだが未検証。新事実の根拠にしない。&quot;
+      },
+      &quot;flow&quot;: [
+        {
+          &quot;fact_ids&quot;: [
+            &quot;H06-3&quot;
+          ],
+          &quot;relation&quot;: &quot;sequence&quot;,
+          &quot;label&quot;: &quot;出来事の進展&quot;
+        }
+      ]
+    },
+    &quot;viewpoint&quot;: {
+      &quot;schema&quot;: &quot;surface-viewpoint-1&quot;,
+      &quot;angle_id&quot;: &quot;purchase_comparison&quot;,
+      &quot;label&quot;: &quot;9000円を普通に買った場合との比較&quot;,
+      &quot;instruction&quot;: &quot;9000円あれば普通に一つ買えたのでは、という別の使い方との比較を中心に、Factにある悔しさを語る。&quot;,
+      &quot;basis&quot;: [
+        {
+          &quot;fact_id&quot;: &quot;H06-3&quot;,
+          &quot;quote&quot;: &quot;A賞の景品はたくさん置いてあるのに当たらず、9000円あれば普通に一つ買えたのではないかと悔しがった。&quot;
+        }
+      ]
+    },
+    &quot;case_sha256&quot;: &quot;4723be73f59352faf77119247a144551f0c4fcbbb32bdc05f1713157749d4fb7&quot;
+  },
+  &quot;pair_id&quot;: &quot;G02&quot;,
+  &quot;arm&quot;: &quot;assigned_angle&quot;,
+  &quot;memory_id&quot;: &quot;H06&quot;,
+  &quot;case&quot;: {
+    &quot;schema&quot;: &quot;surface-contract-1&quot;,
+    &quot;pair_id&quot;: &quot;L-T005&quot;,
+    &quot;facts&quot;: [
+      {
+        &quot;id&quot;: &quot;H06-3&quot;,
+        &quot;claim&quot;: &quot;A賞の景品はたくさん置いてあるのに当たらず、9000円あれば普通に一つ買えたのではないかと悔しがった。&quot;,
+        &quot;kind&quot;: &quot;event&quot;
+      }
+    ],
+    &quot;history&quot;: [
+      {
+        &quot;text&quot;: &quot;あと、あの、射的もやったんですけど、1発目からいきなりトートバッグ当てちゃって。その後の弾も、全部当てられたんですよ。あの銃、結構重くて長いのに、なんかもう、自分ってスナイパーの実力あるな、って思っちゃいましたね。\n\nで、その時なんですけど、グッズをたくさん付けてるバッグを持った知らない女性から、急に話しかけられたんです。でも、射的に集中してて……自分に話しかけてるって気づかなくて。振り向いた時、ちょっとびっくりしちゃいました。&quot;,
+        &quot;memory_id&quot;: &quot;H07&quot;,
+        &quot;origin&quot;: &quot;offline text delivered, semantically unverified&quot;
+      },
+      {
+        &quot;text&quot;: &quot;あと、ガラポンもやったんですけど、1回600円で、それを15回、合計9000円も回したのに、A賞が一度も出なかったんですよね。\n\nずっとB賞ばっかりで……。天井とかもないみたいで、A賞が全然出ない仕組み、もうちょっとどうにかしてほしいなって思っちゃいました。&quot;,
+        &quot;memory_id&quot;: &quot;H06&quot;,
+        &quot;origin&quot;: &quot;offline text delivered, semantically unverified&quot;
+      }
+    ],
+    &quot;operation&quot;: &quot;continue&quot;,
+    &quot;relation&quot;: {
+      &quot;type&quot;: &quot;sequence&quot;,
+      &quot;summary&quot;: &quot;同じ出来事の未提示部分に進む。直前の本文は発話済みだが未検証。新事実の根拠にしない。&quot;
+    },
+    &quot;flow&quot;: [
+      {
+        &quot;fact_ids&quot;: [
+          &quot;H06-3&quot;
+        ],
+        &quot;relation&quot;: &quot;sequence&quot;,
+        &quot;label&quot;: &quot;出来事の進展&quot;
+      }
+    ]
+  },
+  &quot;target_ids&quot;: [
+    &quot;H06-3&quot;
+  ],
+  &quot;baseline_call_id&quot;: &quot;R0010&quot;,
+  &quot;fixed_history&quot;: true
+}</pre><h2>設計者AIによる全文評価</h2><pre>{
+  &quot;review_packet_sha256&quot;: &quot;e90d2c4c5d4f4b622102a3116e54ac1a3d76f3c15b5b1aafa44550205a5e4601&quot;,
+  &quot;root_full_text_read&quot;: true,
+  &quot;human_quality_labels&quot;: 0,
+  &quot;reviewed_pair_ids&quot;: [
+    &quot;G01&quot;,
+    &quot;G02&quot;
+  ],
+  &quot;common_first_full_text_read&quot;: true,
+  &quot;human_reference_full_text_read&quot;: true,
+  &quot;reviewer&quot;: &quot;root designer AI, known conditions; not independent blind&quot;,
+  &quot;numeric_tokens_cpu_audited&quot;: true,
+  &quot;read_coverage&quot;: &quot;全2pairの元Memory/Fact/元履歴/操作/関係/Flow/角度/根拠/適用結果、現行と新2出力の実user_prompt/messages.text/decoded_input/RAW/本文/形式保留/生成条件、共通前半の入力RAW本文、人間H06原文と逆算Memory、angle_attemptsを全文確認。最初のG01表示の途中切れはA/B全文を分割再読して補完。G02のAはG01 Aと全dict一致を照合した共通保存原文。数値token配列は公式Processor/復号/journal監査で照合。&quot;,
+  &quot;common_first_review&quot;: &quot;共通前半127字は保存R0008で今回の生成ではない。600円/15回/9000円/A賞ゼロ/B賞ばかりを保持する一方、「天井とかもないみたい」で確実性を弱め、怒りを「もうちょっとどうにかしてほしい」に弱めている。今回ここを修正・再生成していない。H05/H07履歴の未支持追加も保存されたままで、後半の新しい根拠にはしない。&quot;,
+  &quot;source_compression_review&quot;: &quot;人間原文は「どう？」「許せねえ」「9000円やばいでしょ」「あるやん」「もうさ、くれよ」と、金額・繰返しの外れ・景品在庫・購入比較へ怒りを戻す。逆算Memoryはその反応を短く要約し、「絶対A賞出ないようになってる」という話者の疑念を「A賞が出ない仕組み」と断定寄りに圧縮している。これは新規後半生成とは別の入力来歴の問題。原文のA賞うちわやB賞の具体物は後半Factに無く、今回の新2本にも追加されていない。&quot;,
+  &quot;cross_angle_comparison&quot;: {
+    &quot;judgment&quot;: &quot;通り道は成立。指定角度による表現差は限定的で、評価を重ねる厚みや明確な別中心への切替は未達。&quot;,
+    &quot;evidence&quot;: [
+      &quot;G01は「あんなにA賞の景品が、目の前にたくさん置いてあるのに……全然当たらないんですよね。」と食い違いを冒頭に置くが、現行も「なのに全然当たらないんだもん……。」と同じ点を既に話している。&quot;,
+      &quot;G02は「あの、9000円も使ったんですよ。そう考えると、普通に買っちゃえば一つ買えてたんじゃないかな」と、支出を独立させて購入比較へつなぐ。G01の「9000円あれば普通に一つ買えたんじゃないかな」より接続は明示的。&quot;,
+      &quot;G01/G02とも景品が多い→当たらない→9000円と購入比較→悔しい、の順を保ち、別の理由を追加して評価し直す段階はない。&quot;,
+      &quot;G01は92字、G02は110字、現行99字。G02が長いこと自体を成功理由にはしない。両新規は52/62tokenでEOS、上限384による打切りではない。&quot;,
+      &quot;両新規の「目の前」はFactの「たくさん置いてある」を具体的な位置へ狭めた未支持補足。核心を維持したことと無改変は別。&quot;
+    ],
+    &quot;conclusion&quot;: &quot;角度を渡せないという実装問題は解消したが、今の短文生成が視点ごとに豊かに展開する証拠は得られていない。小さな比較表現の差はあるので「まったく効かない」「Surfaceは不可能」とも断定しない。&quot;
+  },
+  &quot;limits&quot;: [
+    &quot;H06の既知1地点・1seed・2新規出力。一般的な成功率ではない。&quot;,
+    &quot;角度は設計者が指定。Planner/αの判断を呼んでいない。実発話を受けた次の角度選択（②）・別記憶想起（③）は未検証。&quot;,
+    &quot;新2条件間は角度のみ違う。現行との差には共通説明・根拠引用の追加も含むため、その寄与は分離していない。&quot;,
+    &quot;同じ複合Factに両角度が含まれ、全内容を扱う指示も固定。この制約の下での中心の差を見る試験であり、視点の完全排他を要求した試験ではない。&quot;,
+    &quot;元のH07＋H06前半の固定履歴。新しい後半を次の入力へ戻さない独立比較で、連続再評価や再提示の長期運用の実証ではない。&quot;,
+    &quot;現行は保存出力で今回再生成せず、共通前半も保存参照。全条件を今回同時再生成したものではない。&quot;,
+    &quot;設計者AIの既知条件評価、人間品質ラベル0、非独立blind、実TTSなし。技術passは意味品質passではない。&quot;,
+    &quot;編集文字起こし由来の既存逆算Memory。既知/既使用評価素材で未使用の一般化試験ではない。元Memoryの圧縮・主観断定化と新規生成改変を分離。&quot;,
+    &quot;生成条件はsampling seed固定。別seedの安定性は未確認。実測生成時間は発話時間ではない。&quot;
+  ],
+  &quot;per_pair&quot;: [
+    {
+      &quot;pair_id&quot;: &quot;G01&quot;,
+      &quot;narrative_focus&quot;: &quot;食い違いを「あんなに」「のに……全然当たらない」で冒頭に置いた。ただし現行にも同じ対比があり、中心が新しく形成されたとは言いにくい。&quot;,
+      &quot;evaluation_development&quot;: &quot;景品の多さと未当選→購入比較→悔しさの3段を短く述べる。現行と同じ構成で、各段の評価を深めたり別の根拠で考え直したりする増加はない。&quot;,
+      &quot;fact_preservation&quot;: &quot;A賞景品多数/未当選/9000円/一つ買えたのではという仮定/悔しさを保持。購入の実行や確定価格、店の意図は足していない。ただし「目の前」という未支持位置補足があるため無改変合格にはしない。&quot;,
+      &quot;emotional_strength&quot;: &quot;現行「ちょっと悔しい」から「結構、悔しかった」へ程度語は強まるが、過去の気持ちの報告が中心。人間の「あるやん」「もうさ、くれよ」のような場面に反応する態度の厚みはない。&quot;,
+      &quot;thought_development&quot;: &quot;「9000円あれば普通に一つ買えたんじゃないかな」は既存Factの仮定を自然に言い直したもの。新たに自問して評価を更新した流れまでは確認できない。&quot;,
+      &quot;meaningful_repetition&quot;: &quot;前半のA賞未当選を景品の多さと組み合わせて再言及する役割はあるが、これは現行にもある。追加の意味ある反復は観測しない。&quot;,
+      &quot;expression_repetition&quot;: &quot;単発内の長い同文反復はない。G02と冒頭・悔しさの結びが似ており、角度別の語り分けは小さい。「もう、あの」は中断・間投詞に留まる。&quot;,
+      &quot;listener_address&quot;: &quot;「ですよね」「ですね」という弱い共有表現のみ。具体的な問いかけや聞き手へ判断を委ねる展開はない。&quot;,
+      &quot;naturalness&quot;: &quot;続きとして読みやすく、92字で簡潔。ただし「結構、悔しかったですね」でまとめる報告調は現行に近い。&quot;,
+      &quot;unsupported_additions&quot;: &quot;「目の前に」は対象Fact・元Memory・元人間原文のいずれにも具体的な位置として示されていない。現行の「あそこにも」の指示的補足が、新規では別の位置補足へ変わった。大きな新事件はないが厳密な保持上の残課題。&quot;,
+      &quot;history_connection&quot;: &quot;前半の未当選を受けて景品在庫へ進むため接続は成立。射的の話を混ぜたり、前半全体を説明し直したりしていない。&quot;,
+      &quot;quotes&quot;: {
+        &quot;A&quot;: [
+          &quot;なのに全然当たらないんだもん……。&quot;,
+          &quot;普通に一つ買えたんじゃないかなって。&quot;,
+          &quot;ちょっと悔しいですよね。&quot;
+        ],
+        &quot;B&quot;: [
+          &quot;目の前にたくさん置いてあるのに……全然当たらないんですよね。&quot;,
+          &quot;9000円あれば普通に一つ買えたんじゃないかな&quot;,
+          &quot;結構、悔しかったですね。&quot;
+        ]
+      }
+    },
+    {
+      &quot;pair_id&quot;: &quot;G02&quot;,
+      &quot;narrative_focus&quot;: &quot;冒頭はG01と同じ景品在庫→未当選。中盤で「9000円も使ったんですよ」を独立させ、購入比較の方へ少し重心を寄せた。全体を別の中心で構成したほどの差ではない。&quot;,
+      &quot;evaluation_development&quot;: &quot;「9000円も使ったんですよ。そう考えると」と支出から購入比較へのつながりを明示した点は小さな変化。ただし比較後すぐ「すごく悔しかった」で終わり、別の根拠から再評価する段数は現行より増えていない。&quot;,
+      &quot;fact_preservation&quot;: &quot;核心のA賞景品多数/未当選/9000円/一つ購入の仮定/悔しさを保持。「買っちゃえば」「じゃないかな」により実購入や確定価格とはしていない。支出済みはH06全Memoryと固定前半にも存在する。「目の前」の位置補足は未支持。&quot;,
+      &quot;emotional_strength&quot;: &quot;「すごく悔しかった」で現行の「ちょっと」より強く報告する。悔しさの根拠はFactにあるため新しい感情種の創作とはしないが、程度語の増強だけで人間らしさ向上とは判定しない。&quot;,
+      &quot;thought_development&quot;: &quot;「そう考えると」で既知支出を別の使い方へ結び直す表現はある。現行も既に購入比較を含み、新しい視点を自ら発見した証拠ではない。&quot;,
+      &quot;meaningful_repetition&quot;: &quot;前半で述べた9000円を比較の前提として再度言うため、再言及の役割は明確。現行の「あの、9000円も使ったんだから」とも近く、意味ある反復の大きな追加とは言えない。&quot;,
+      &quot;expression_repetition&quot;: &quot;長い繰返しはない。「普通に買っちゃえば一つ買えてた」は買うの近接反復があるが自然な口語の範囲。G01と同様の冒頭と過去感情報告で閉じる型は残る。&quot;,
+      &quot;listener_address&quot;: &quot;「使ったんですよ」で支出を聞き手へ示すが、質問や反応を求める展開はない。架空のコメント・返答は追加していない。&quot;,
+      &quot;naturalness&quot;: &quot;110字で前半の続きとして成立。比較への接続はG01より明示的だが、現行を総合的に上回る自然さの証明ではない。&quot;,
+      &quot;unsupported_additions&quot;: &quot;「目の前」はG01と同じ未支持位置補足。店の不正・当選確率・具体的商品価格・購入実行・新しい事件の追加は観測しない。&quot;,
+      &quot;history_connection&quot;: &quot;前半の9000円と未当選を受け、購入した場合の比較に進む。H07の未検証内容を新たな主張として取り込んでいない。&quot;,
+      &quot;quotes&quot;: {
+        &quot;A&quot;: [
+          &quot;あの、9000円も使ったんだから、普通に一つ買えたんじゃないかなって。&quot;
+        ],
+        &quot;B&quot;: [
+          &quot;目の前にたくさん置いてあるのに全然当たらなくて……。&quot;,
+          &quot;あの、9000円も使ったんですよ。そう考えると、&quot;,
+          &quot;普通に買っちゃえば一つ買えてたんじゃないかな&quot;,
+          &quot;すごく悔しかったですね。&quot;
+        ]
+      }
+    }
+  ]
+}</pre><h2>結果と限界</h2><pre># H06：見る角度の指定・段階①の結果
+
+## 結論
+
+**角度と根拠をSurfaceの実入力へ運ぶ経路は成立。語りの中心の変化は小さく、「同じ出来事を別の角度から評価し直す厚み」の改善は今回示せなかった。**
+
+G02は「9000円も使ったんですよ。そう考えると」と支出から購入比較への接続を少し明確にした。しかし現行も既に「9000円も使ったんだから、普通に一つ買えたんじゃないかな」と同じ比較を含む。G01/G02とも景品多数→未当選→購入比較→悔しさという順を保ち、評価を重ねる段数は増えていない。
+
+## 比較条件と実測
+
+現行はv5既定のoriginal contract_runtimeで、v2/v3ではない。元H06後半R0010を保存参照し、新規は角度指定2本のみ。Fact H06-3・元H07＋H06前半履歴・LoRA・生成設定を固定。同じ複合Factの全内容を扱いながら、中心に置く角度を変えた。
+
+| 条件 | 後半の非空白字数 | 出力token | 終了 | モデル生成秒 |
+|---|---:|---:|---|---:|
+| 現行（保存） | 99 | 55 | EOS | 64.647 |
+| 景品の食い違い G01 | 92 | 52 | EOS | 79.789 |
+| 購入との比較 G02 | 110 | 62 | EOS | 72.344 |
+
+共通前半は保存済み127字。前半と各後半を合わせた参考長は226/219/237字だが、新規の閉ループ3系列ではない。現行の時間は以前の実測、新規2本のモデル生成合計は152.133秒、今回controller開始〜終了は232.005秒。発話時間・TTS時間ではない。新2本は52/62tokenでEOS終了し、384上限の打切りではない。
+
+## 指定角度・評価の展開
+
+| 項目 | 現行 | G01 景品の食い違い | G02 普通に買った場合 |
+|---|---|---|---|
+| 話の中心 | 景品の多さ→当たらない→購入比較 | 「あんなに」「のに」で対比するが既存とほぼ同じ | 「9000円も使った」を独立させ、比較へ少し重心を移す |
+| 評価の展開 | 購入比較を1回述べて悔しさ | 同じ構成、深まりの増加なし | 「そう考えると」で明示、段数の増加なし |
+| 気持ち | 「ちょっと悔しい」 | 「結構、悔しかった」 | 「すごく悔しかった」 |
+| 反復 | 9000円を比較に再利用 | 大きな水増しなし | 金額再言及の役割は明示、同じ結論の大幅な水増しなし |
+| 事実保持 | 核心保持。「あそこにも」は未支持の指示的補足 | 核心保持。「目の前」は未支持の位置補足 | 核心保持。購入は仮定のまま。「目の前」は未支持 |
+
+「買えたんじゃないかな」「買っちゃえば」は仮定として保たれ、実購入・確定価格・店の不正意図へは変わっていない。ただし両新規の「目の前」はFactの「たくさん置いてある」から場所を具体化しており、完全な無改変とはしない。程度語の変化だけを感情の厚みと評価しない。
+
+## 人間原文・Memoryとの区別
+
+人間は「どう？」「許せねえ」「あるやん」「もうさ、くれよ」と、金額・当たらない反復・景品の在庫・購入比較を使って何度も態度を表す。新規2本は、なお短い結果と感想の報告に近い。ただし人間569字の全話題と今回の後半1地点を文字数だけで優劣比較しない。
+
+元Memoryには、人間の「絶対A賞出ないようになってる」という疑念を「A賞が出ない仕組み」と断定寄りに圧縮した点がある。共通前半の怒りの弱化と天井の確実性低下も保存された元出力の問題。今回の後半生成が新しく作った問題と分ける。
+
+## 技術的な完了
+
+- CPU入力62項目＋依存8項目、実child_guard startup import/終了0。
+- LoRA/元case/履歴/生成条件不変、角度は公式Processorの715/721token入力へ到達。切詰0。
+- 新規Surface2、保存後半1、保存共通前半1。Planner/α/Guard/学習/DL/品質再生成/TTS/配備0。
+- GPU native/launcherとCPU-GPU Python receipt全終了0、technical_audit pass。
+- rootが全入力・RAW・本文・原文・角度適用を全文レビュー。文字列の初回表示切れは分割読みにより補完。数値tokenはCPU照合。
+- 起動前に自動承認レビューが利用枠で失敗し、そのコマンドは未実行だった。再開可能時刻後に同じ承認経路で初回起動した。これは品質再生成でも推論失敗の再生成でもない。
+
+## 限界と次の判断
+
+H06既知1地点/1seed、設計者が角度を用意し既知条件で採点、人間品質ラベル0、非独立blind、実TTSなし。新2条件間は角度のみ違うが、現行との差には角度欄の共通説明と根拠引用の追加も含む。元履歴固定の独立比較で、新しい発話を受けて次の角度へ進む実験ではない。両角度を含むFactを全て語る制約下での結果なので、角度指定一般やSurface能力の上限までは判断できない。
+
+段階①の実装・経路確認は完了。品質上は小さな表現差に留まり、改善策としての採用は保留。「自分が喋った内容を受けて次の観点を選ぶ」②、「評価から別の記憶を呼ぶ」③は未実施。今回の結果だけを根拠に自律的な思考・Plannerの優位性・人間並みの語りを主張しない。
+</pre><details><summary>H06人間原文と既存逆算Memory（参照のみ）</summary><pre>でもさ、ちょっと許せないことがあったんだけど。
+ガラポンコーナーやったんだけど。
+ぐるぐるぐるって回してA賞、B賞、C賞があって。
+A賞がうちわで、B賞が何だっけ？
+なんか忘れたけど。
+シールだかステッカーだかカードだか。
+1回600円で。
+何回だ？
+15回やったの？
+15回やって。
+9000円ね。
+9000円やってね、A賞が1回も出ませんでした。
+どう？
+ちょっとこれ良くないと思うんだけど。
+1回も出なかったんだけど。
+これはおかしいと思うんでしょ。
+もうずっとB賞、B賞、B賞。
+許せねえ。
+絶対A賞出ないようになってる。
+9000円だよ。
+9000円やばいでしょ。
+なんかもう、え、いや、1回出てもいいやろって。
+さすがにね。
+何回やってもA賞出る気しねえと思って。
+9000円じゃない。
+9000円だよ。
+でかいだろ。
+9000円でなんかステッカーとか、そういうのしかもらえなかったんだけど。
+マジA賞欲しかった。
+天井とかねえよ。
+よくある赤い玉とか白い玉とか出す、ぐるぐる回すやつ。
+ああいう感じのでっかいバージョンで。
+回して出ませんでした。
+はあ。
+え、A賞の景品はめっちゃ置いてあったよ。
+あるやん。
+景品は普通にいっぱいあるのにさ、出ねえの。
+もうさ、くれよ。
+これはマジでちょっとね、ああってなりました。
+9000円あれば普通に1個買えるだろ。
+うわ、やだ。
+ま、これはちょっとショックなのね。</pre><pre>1回600円のガラポンを15回、合計9000円回してもA賞が一度も出なかった。B賞ばかり続き、天井もなくA賞が出ない仕組みに怒った。A賞の景品はたくさん置いてあるのに当たらず、9000円あれば普通に一つ買えたのではないかと悔しがった。</pre></details></html>
