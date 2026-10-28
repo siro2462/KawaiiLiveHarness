@@ -3815,8 +3815,8 @@
     {
       "path": "v5/progress/checkpoint.json",
       "kind": "generated-publication-record",
-      "bytes": 6822,
-      "sha256": "7d79140bcb9a6a00b1a36c7c111571dd1975473518f180171fad3ba911965f29"
+      "bytes": 7070,
+      "sha256": "31833b9e70bd2a0c30c1a0839e3c980c050e305f050a2cc962b3716db642be8d"
     },
     {
       "path": "v5/progress/source_provenance.json",

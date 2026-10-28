@@ -1,8 +1,8 @@
 {
   "thread_id": "01a0a3fd-e058-7bd0-abbd-951f2864ba0e",
-  "cutoff_ordinal": 48044,
-  "cutoff_item_id": "01a17dac-f3d0-7cf1-97fd-747c58ec49bd",
-  "updated_jst": "2026-10-27T23:30:13.425032+09:00",
+  "cutoff_ordinal": 48408,
+  "cutoff_item_id": "01a17ff4-b7a0-7b12-8141-bc0381ab07ee",
+  "updated_jst": "2026-10-28T09:53:59.689854+09:00",
   "conclusion": "CPU選択の実入力到達は成立。短い反応は部分改善だが、文字graphと前提未管理で時系列・根拠接続・実行状態の改変が残る。人間の短文ストライプとの差は同じ意味単位での再比較が未実施。",
   "execution_status": "complete",
   "quality_status": "automatic_selection_input_delivery_confirmed_but_semantic_errors_no_overall_improvement_not_production_approved",
@@ -60,5 +60,7 @@
     "../experiments/stripe_surface_ten_20261027/",
     "../experiments/cpu_select_surface_ten_20261027/"
   ],
-  "rhythm_scope_correction": "前回手作業操作列のLLM出力と今回CPU操作列のLLM出力の集計。人間原文の集計ではない。"
+  "rhythm_scope_correction": "前回手作業操作列のLLM出力と今回CPU操作列のLLM出力の集計。人間原文の集計ではない。",
+  "experiment_evidence_cutoff_ordinal": 48044,
+  "source_scope": "Experimental full-text review inherited through48044; subsequent rhythm discussion and push authorization recorded through48408. No new generation or new human-grain annotation."
 }
