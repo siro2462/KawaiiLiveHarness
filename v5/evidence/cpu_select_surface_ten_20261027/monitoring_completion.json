@@ -1,0 +1,20 @@
+{
+  "automation_id": "cpu-surface10",
+  "status": "deleted",
+  "tool": "mcp__codex_app__automation_update",
+  "tool_result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Deleted automation in the app."
+      },
+      {
+        "type": "text",
+        "text": "{\"automationId\":\"cpu-surface10\",\"mode\":\"delete\",\"deleteStatus\":\"deleted\",\"snapshot\":{\"kind\":\"heartbeat\",\"name\":\"CPU選択Surface10素材の完了確認\",\"rrule\":\"FREQ=MINUTELY;INTERVAL=15\"}}"
+      }
+    ],
+    "isError": false
+  },
+  "other_automations_changed": false,
+  "recorded_jst": "2026-10-27T23:30:13.425032+09:00"
+}

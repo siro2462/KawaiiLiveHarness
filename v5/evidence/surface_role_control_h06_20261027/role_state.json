@@ -1,0 +1,74 @@
+{
+  "roles": [
+    {
+      "id": "result_mismatch",
+      "label": "景品の多さと未当選の食い違い",
+      "instruction": "景品がたくさんあるのに当たらない、という食い違いを語る。",
+      "fact_id": "H06-3",
+      "basis": "A賞の景品はたくさん置いてあるのに当たらず"
+    },
+    {
+      "id": "purchase_comparison",
+      "label": "9000円と普通の購入との比較",
+      "instruction": "9000円を普通の購入に使った場合との比較と、根拠にある悔しさを語る。",
+      "fact_id": "H06-3",
+      "basis": "9000円あれば普通に一つ買えたのではないかと悔しがった。"
+    }
+  ],
+  "attempts": [
+    {
+      "role_id": "result_mismatch",
+      "status": "text_delivered",
+      "semantic_status": "unverified",
+      "call_id": "R0001",
+      "format_reason": null,
+      "literal_angle_ids": [
+        "result_mismatch"
+      ]
+    },
+    {
+      "role_id": "purchase_comparison",
+      "status": "text_delivered",
+      "semantic_status": "unverified",
+      "call_id": "R0002",
+      "format_reason": null,
+      "literal_angle_ids": [
+        "purchase_comparison"
+      ]
+    }
+  ],
+  "observed_angles": {
+    "result_mismatch": {
+      "text": "だって、あそこにA賞の景品、たくさん置いてあったんですよ。なのに、全然当たらないなんて。",
+      "cue_rule": "景品 + 当たら/当たん + 対比語",
+      "semantic_status": "unverified",
+      "call_id": "R0001"
+    },
+    "purchase_comparison": {
+      "text": "っていうか、あの9000円があれば、普通に一つ買えたんじゃないかなって。そう考えると、やっぱり悔しいですね。",
+      "cue_rule": "9000円 + 購入語 + 仮定/疑問語",
+      "semantic_status": "unverified",
+      "call_id": "R0002"
+    }
+  },
+  "active_role": null,
+  "stop_reason": "all_angles_have_literal_cues_unverified",
+  "calls_used": 2,
+  "max_calls": 2,
+  "semantic_status": "unverified",
+  "source_fact_progress_updated": false,
+  "history_size": 4,
+  "recent": [
+    {
+      "text": "だって、あそこにA賞の景品、たくさん置いてあったんですよ。なのに、全然当たらないなんて。",
+      "memory_id": "H06",
+      "origin": "offline text delivered, semantically unverified"
+    },
+    {
+      "text": "っていうか、あの9000円があれば、普通に一つ買えたんじゃないかなって。そう考えると、やっぱり悔しいですね。",
+      "memory_id": "H06",
+      "origin": "offline text delivered, semantically unverified"
+    }
+  ],
+  "observation_definition": "literal phrase cues only; not verified meaning or factual coverage"
+}

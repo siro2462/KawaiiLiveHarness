@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "cpu_checks": 121,
+  "dependency_checks": 8,
+  "startup_exit": 0,
+  "prepared_inputs_sha256": "fbd8c00f66592d96ec6d81995f69582eaa4ef228b2461acc942621b492c93540",
+  "notes_sha256": "21630e300e4f58bf2cd92cdf32e5c18927d2783462bb603b8e47e16ed2bba7b1",
+  "monitor_id": "surface10",
+  "validated_before_spawn": true
+}

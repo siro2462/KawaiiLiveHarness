@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "columns": 2,
+  "all_actual_text_and_raw_present": true,
+  "metrics": {
+    "baseline_chars": 99,
+    "controlled_delivered_chars": 98,
+    "new_surface_calls": 2,
+    "delivered": 2,
+    "stop_reason": "all_angles_have_literal_cues_unverified",
+    "model_seconds": 82.63900000000001
+  }
+}

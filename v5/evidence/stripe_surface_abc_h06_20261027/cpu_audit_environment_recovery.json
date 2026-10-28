@@ -1,0 +1,20 @@
+{
+  "first_observer_exit": 1,
+  "first_observer_session": 32471,
+  "cause": "restricted shell sandbox tempfile write and cleanup PermissionError",
+  "failure_transcription": "cpu_audit_first_attempt_failure.txt",
+  "failure_log_note": "Tool traceback transcribed; code pointer formatting omitted, not a new model output.",
+  "generation_exits": {
+    "controller_python": 0,
+    "gpu_python": 0,
+    "native": 0,
+    "launcher": 0
+  },
+  "inspected_before_retry": true,
+  "workspace_temp_write_probe_pass": true,
+  "retry_only": "CPU observer TEMP/TMP plus permission context; same frozen bytes",
+  "retry_exit": 0,
+  "technical_audit_sha256": "c63454639535aff32cd802e068b70b61d778949c48c09cf1543173230b743480",
+  "new_model_calls_in_retry": 0,
+  "quality_retries": 0
+}

@@ -1,3 +1,5 @@
+> 2026-10-28追記：役割制御・A〜G・32操作Surface・CPU選択10素材の研究候補を追加。下記は以前の保存状態。最新の到達点と未解決事項は[現在地](progress/CURRENT_STATE.md)、研究経路は[CPU操作選択](STRIPE_CONTROL.md)を参照。既定Runtimeは変更していない。
+
 # 現行アーキテクチャ全体（2026-10-25、v5）
 
 ```mermaid

@@ -1,0 +1,41 @@
+{
+  "status": "pass",
+  "scope": "technical integrity only, not semantic quality",
+  "new_surface_calls": 2,
+  "baseline_saved_calls": 1,
+  "common_first_saved_calls": 1,
+  "planner_calls": 0,
+  "guard_calls": 0,
+  "training": 0,
+  "quality_retries": 0,
+  "actual_tts": false,
+  "memory_writes": 0,
+  "current_exit0": true,
+  "initial_case_exact": true,
+  "source_facts_fixed": true,
+  "actual_text_feedback": true,
+  "stop_reason": "all_angles_have_literal_cues_unverified",
+  "entries": [
+    {
+      "call_id": "R0001",
+      "role_id": "result_mismatch",
+      "input_tokens": 384,
+      "output_tokens": 23,
+      "official_stop_reached": true,
+      "format_reason": null,
+      "request_sha256": "9a24dd828562df3e810a71ec41b7a2bc023dff6f53c0debbde4cedca511b5ddc",
+      "output_sha256": "0be64b3b6c451aeb487afd742260eed96f5d163b57ba8baecd3f54f47c91a1ed"
+    },
+    {
+      "call_id": "R0002",
+      "role_id": "purchase_comparison",
+      "input_tokens": 301,
+      "output_tokens": 29,
+      "official_stop_reached": true,
+      "format_reason": null,
+      "request_sha256": "46411c9092451c041353e4c3342378f9d53098c1482d52802fd1746bca9bd0e2",
+      "output_sha256": "403136646986c61e72eb83afd1a5a3bdf64bca882c38ec24d4984c7c9eac726c"
+    }
+  ],
+  "review_packet_sha256": "df22a73aa9972a28e50841cf692feea9c4a904091ff5146210a932f2a40c8d50"
+}

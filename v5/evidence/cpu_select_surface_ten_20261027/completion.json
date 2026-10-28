@@ -1,0 +1,172 @@
+{
+  "status": "complete",
+  "review_packet_sha256": "01e5d19a0a61f3c68d4243e4c9bb0b9c6492f52cef6836233f692ff79a0bd996",
+  "review_sha256": "5bf680c93ea3bfade6159d1b71a682a9c48d22d12d254e6b904925f43b7eb99f",
+  "labels_sha256": "af77035e591de024fd1101d0624136d48a4245c275da155cc5f88da064e264d2",
+  "comparison_sha256": "4351ebb845888f6b2a570350ff184e5fe295bc2a9ba60871d79ac70137a9b0e3",
+  "technical_audit_sha256": "a07b06a94f1e0ca9466cb10b6e435832697ee52a00260726c52eb6b9fcf380a2",
+  "finished_jst": "2026-10-27T23:27:16.047096+09:00",
+  "metrics": [
+    {
+      "sample_id": "V01",
+      "old_chars": 518,
+      "chars": 456,
+      "operations": 29,
+      "unique_nodes": 29,
+      "delivered": true,
+      "eos": true,
+      "output_tokens": 265,
+      "model_seconds": 268.431,
+      "FET_counts": {
+        "E": 13,
+        "T": 5,
+        "F": 5
+      }
+    },
+    {
+      "sample_id": "V02",
+      "old_chars": 688,
+      "chars": 380,
+      "operations": 25,
+      "unique_nodes": 25,
+      "delivered": true,
+      "eos": true,
+      "output_tokens": 213,
+      "model_seconds": 206.202,
+      "FET_counts": {
+        "F": 9,
+        "T": 3,
+        "E": 5
+      }
+    },
+    {
+      "sample_id": "V03",
+      "old_chars": 674,
+      "chars": 525,
+      "operations": 28,
+      "unique_nodes": 28,
+      "delivered": true,
+      "eos": true,
+      "output_tokens": 289,
+      "model_seconds": 272.798,
+      "FET_counts": {
+        "F": 8,
+        "E": 3,
+        "T": 10
+      }
+    },
+    {
+      "sample_id": "V04",
+      "old_chars": 644,
+      "chars": 438,
+      "operations": 27,
+      "unique_nodes": 27,
+      "delivered": true,
+      "eos": true,
+      "output_tokens": 246,
+      "model_seconds": 240.589,
+      "FET_counts": {
+        "F": 8,
+        "T": 6,
+        "E": 3
+      }
+    },
+    {
+      "sample_id": "V05",
+      "old_chars": 646,
+      "chars": 413,
+      "operations": 27,
+      "unique_nodes": 27,
+      "delivered": true,
+      "eos": true,
+      "output_tokens": 248,
+      "model_seconds": 237.783,
+      "FET_counts": {
+        "T": 9,
+        "E": 7,
+        "F": 3
+      }
+    },
+    {
+      "sample_id": "O01",
+      "old_chars": 737,
+      "chars": 601,
+      "operations": 29,
+      "unique_nodes": 29,
+      "delivered": true,
+      "eos": true,
+      "output_tokens": 351,
+      "model_seconds": 331.079,
+      "FET_counts": {
+        "F": 7,
+        "E": 2,
+        "T": 8
+      }
+    },
+    {
+      "sample_id": "O02",
+      "old_chars": 685,
+      "chars": 576,
+      "operations": 28,
+      "unique_nodes": 28,
+      "delivered": true,
+      "eos": true,
+      "output_tokens": 336,
+      "model_seconds": 321.936,
+      "FET_counts": {
+        "F": 8,
+        "T": 9,
+        "E": 4
+      }
+    },
+    {
+      "sample_id": "O03",
+      "old_chars": 738,
+      "chars": 600,
+      "operations": 30,
+      "unique_nodes": 29,
+      "delivered": true,
+      "eos": true,
+      "output_tokens": 328,
+      "model_seconds": 320.183,
+      "FET_counts": {
+        "F": 6,
+        "E": 4,
+        "T": 8
+      }
+    },
+    {
+      "sample_id": "O04",
+      "old_chars": 634,
+      "chars": 573,
+      "operations": 29,
+      "unique_nodes": 29,
+      "delivered": true,
+      "eos": true,
+      "output_tokens": 317,
+      "model_seconds": 320.689,
+      "FET_counts": {
+        "F": 4,
+        "T": 9,
+        "E": 4
+      }
+    },
+    {
+      "sample_id": "O05",
+      "old_chars": 671,
+      "chars": 425,
+      "operations": 25,
+      "unique_nodes": 25,
+      "delivered": true,
+      "eos": true,
+      "output_tokens": 263,
+      "model_seconds": 289.306,
+      "FET_counts": {
+        "F": 6,
+        "E": 2,
+        "T": 10
+      }
+    }
+  ],
+  "human_quality_labels": 0
+}

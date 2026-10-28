@@ -1,0 +1,13 @@
+{
+  "status": "preserved_launcher_record_failure",
+  "outer_launch_exit_code": 1,
+  "first_error": "validate_ag_setup.py AssertionError: receipt.script slash spelling compared to str(Path) with backslashes; actual startup exit0",
+  "second_error": "launch_once.py FileNotFoundError setup_validation.json after subprocess.Popen; controller wrapper already running",
+  "controller_pid": 25668,
+  "controller_created_unix": 1793061371.853206,
+  "wrapper_pid": 14848,
+  "wrapper_created_unix": 1793061371.8147423,
+  "new_model_calls_before_failure_check": 0,
+  "repair": "Normalize path comparison and reconstruct launch metadata from live process identity; no process restarted; no executed_source/protocol/model/input changed",
+  "current_runtime_outcome": "pending; do not conflate outer launcher exit1 with future controller/GPU exit"
+}

@@ -1,0 +1,98 @@
+{
+  "review_packet_sha256": "df22a73aa9972a28e50841cf692feea9c4a904091ff5146210a932f2a40c8d50",
+  "root_full_text_read": true,
+  "human_quality_labels": 0,
+  "common_first_full_text_read": true,
+  "human_reference_full_text_read": true,
+  "reviewed_call_ids": [
+    "R0001",
+    "R0002"
+  ],
+  "reviewer": "root designer AI; known conditions, non-independent, not blinded human evaluation",
+  "read_coverage": {
+    "baseline_request_decoded_raw_body": "full",
+    "common_first_request_decoded_raw_body": "full",
+    "controlled_all_requests_messages_decoded_raw_bodies_and_states": "full R0001/R0002",
+    "source_facts_memory_human_reference_and_evidence": "full",
+    "numeric_token_arrays": "CPU verified; displayed counts only",
+    "initial_display_truncation": "Initial combined metadata read was truncated; baseline and common_first were reread as separate complete objects. Both controlled turns were read as complete separate objects. Roles/final state/references/receipts were fully shown."
+  },
+  "baseline_review": {
+    "assessment": "現行は同じ2観点を1発話で既に扱い、景品多数→未当選→9000円の購入比較→悔しさ。99字。新しい観点を2段へ増やす基準にはしない。「あそこにも」は元Factにない指示的補足。",
+    "quotes": [
+      "なのに全然当たらないんだもん",
+      "9000円も使ったんだから、普通に一つ買えたんじゃないかな",
+      "ちょっと悔しいですよね。"
+    ]
+  },
+  "common_first_review": {
+    "assessment": "前半127字は保存参照で新規生成ではない。「天井とかもないみたい」はFactの確実性を弱め、「もうちょっとどうにかしてほしい」は原文の怒りを弱める。今回の制御による新しい変化から区別する。",
+    "quotes": [
+      "天井とかもないみたいで",
+      "もうちょっとどうにかしてほしいな"
+    ]
+  },
+  "source_memory_review": {
+    "assessment": "原文の疑念「絶対A賞出ないようになってる」を既存Memoryが「A賞が出ない仕組み」と断定寄りに圧縮している。A賞の具体的内容や細かい人間の反応も圧縮されている。今回のSurfaceが新たに作った誤りと混同しない。元原文は編集文字起こしで実音声時刻未確認。"
+  },
+  "per_turn": [
+    {
+      "call_id": "R0001",
+      "role_following": "景品の多さと未当選の食い違いに限定して語り、9000円・購入比較を先取りしない。今回の役割分離は本文でも確認できる。",
+      "evaluation_development": "「だって」で前半の不満を支え、「なのに、全然当たらないなんて。」で食い違いを反応として切り出す。ただし現行にも同じ対比があり、新しい評価内容が増えたわけではない。",
+      "fact_preservation": "A賞の景品がたくさんあり当たらないという核心を保持。人物・店の意図・別の出来事を追加していない。",
+      "meaningful_repetition": "前半の未当選を景品在庫との対比へ再言及する役割があり、同じ結論を長く水増ししていない。",
+      "expression_repetition": "初期履歴の「あと、あの」ではなく「だって」で接続。語尾「んですよ」は現行にもあるが今回の新2発話間の機械的反復はない。",
+      "unsupported_additions": "「あそこに」は元Factで位置や共有視界が明示されていない指示表現。現行の「あそこにも」と同類で、厳密な無追加合格とはしない。",
+      "history_connection": "共通前半の「どうにかしてほしい」を「だって」で受ける読みは自然。実本文が2発話目のuser_prompt/decoded_inputと履歴へ完全一致で入っている。",
+      "literal_tracking_vs_meaning": "景品/当たら/なのにの文字手掛かりがresult_mismatchだけに一致。rootの本文評価ともこの例では整合するが、ルール一般の意味判定精度は測っていない。",
+      "quotes": [
+        "だって、あそこにA賞の景品、たくさん置いてあったんですよ。",
+        "なのに、全然当たらないなんて。"
+      ]
+    },
+    {
+      "call_id": "R0002",
+      "role_following": "9000円の別の使い方との仮定比較と悔しさに集中。景品の説明を再度繰り返さず、指定された第2役割へ進んだ。",
+      "evaluation_development": "「っていうか」で金額の観点へ移り、「そう考えると、やっぱり悔しい」で感情へつなぐ。現行にも購入比較と悔しさがあり、全体の評価段数は増えていない。",
+      "fact_preservation": "9000円、一つ、普通に買えたのではという仮定を保持。購入実行や確定した販売価格へ変えていない。",
+      "meaningful_repetition": "共通前半で語った9000円を購入比較の根拠として再利用する。R0001と内容の役割が重ならず、大きな水増しはない。",
+      "expression_repetition": "「っていうか」「そう考えると」「やっぱり」は短い展開として使われる。2件だけで口癖頻度の一般改善とはしない。",
+      "unsupported_additions": "この本文に新しい場所・人物・購入実行・店の不正意図を追加した箇所は見当たらない。「やっぱり」は前半とR0001の不満を受ける態度で、架空の経験追加ではない。",
+      "history_connection": "実R0001を含む履歴を受けた状態で購入比較へ移る。本文は接続するが、固定した第2役割の指示で説明でき、実履歴の意味理解が焦点選択を生んだ証明にはならない。",
+      "literal_tracking_vs_meaning": "9000円/買え/じゃない・かなの文字手掛かりがpurchase_comparisonに一致し、今回の本文にも仮定比較がある。最終的に2役割と2回上限が同時に尽きており、適応的早期終了の効用は実生成では未検証。",
+      "quotes": [
+        "っていうか、あの9000円があれば、普通に一つ買えたんじゃないかなって。",
+        "そう考えると、やっぱり悔しいですね。"
+      ]
+    }
+  ],
+  "cross_condition_comparison": {
+    "conclusion": "役割を分け、実本文を次の入力へ渡し、文字観測と終了を管理する経路は成立。品質面は語りの整理と短い反応への分割に留まり、新たな評価の厚みの改善は未実証。",
+    "baseline_chars": 99,
+    "controlled_chars": [
+      44,
+      54
+    ],
+    "controlled_total_chars": 98,
+    "baseline_calls": 1,
+    "controlled_calls": 2,
+    "controlled_content_sequence": "景品多数と未当選→9000円の購入比較と悔しさ。現行と同じ2観点。",
+    "evidence": [
+      "R0001は「なのに、全然当たらないなんて。」で止まり、R0002は「っていうか、あの9000円があれば」で次の観点へ進む。",
+      "新2発話は44+54=98字で現行99字と同程度。回数が増えても語りは長くならなかった。",
+      "実R0001がR0002の履歴・user_prompt・decoded_inputへ入った。現行と同一生成条件・EOS終了で、上限打切りではない。"
+    ],
+    "adoption": "mechanical execution confirmed; general expressive quality improvement and production adoption on hold"
+  },
+  "limits": [
+    "H06の既知後半1地点/1seed、設計者指定固定2役割、設計者AI既知条件の非独立評価、人間品質ラベル0。",
+    "役割・短い入力組立・回数・実履歴・終了の複合変更。プロンプト短縮や制御単独の効果を特定できない。",
+    "文字ルールは意味理解・Fact保持の認証ではない。提示/採用/観測/CPU整合を意味品質合格へ昇格しない。",
+    "2役割=2回上限の実例なので、1回早期停止や曖昧時終了はCPU例の検証であり実生成での優位性は未実証。",
+    "新しい役割をモデルが自発的に選んだわけではない。学習済みPlanner/alpha自由想起/自発的思考は検証していない。",
+    "現行保存1発話と新2発話を比較。共通前半は保存参照で新規3本の閉ループ実験と数えない。",
+    "実TTSなし。モデル生成秒とrun壁時計時間は発話時間ではない。",
+    "人間原文全569字と後半98字を同じ課題の長さとして単純比較しない。"
+  ]
+}

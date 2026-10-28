@@ -1,0 +1,17 @@
+{
+  "review_packet_sha256": "2ffbc95ff304a2ee36be4559bfe026dce31c79e6aeef3c32ab1a66887ca5552d",
+  "exact_string_deduplication": true,
+  "numeric_arrays": "CPU audited; only integer input/output/mask arrays represented by length/hash",
+  "unique_string_count": 284,
+  "unique_text_chars": 26966,
+  "arm_structure_chars": {
+    "A": 36236,
+    "B": 37395,
+    "C": 38821,
+    "D": 40158,
+    "E": 40310,
+    "F": 56543,
+    "G": 56932
+  },
+  "notes": "All text values are verbatim and referenced by $text IDs; no truncated string. Reading view only; original packet untouched."
+}

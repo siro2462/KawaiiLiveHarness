@@ -1,0 +1,8 @@
+{
+  "pid": 31212,
+  "exit_code": 0,
+  "python_error": null,
+  "exit_scope": "observed Python outcome; immediate process exit after stream flush",
+  "script": "C:/NodeJS/KawaiiLive/work/astra/_talk/harness_beta/runs/stripe_surface_ten_20261027_v1/executed_source/startup_probe.py",
+  "args": []
+}

@@ -1,0 +1,105 @@
+{
+  "status": "pass",
+  "conditions": 3,
+  "human_reference": true,
+  "all_actual_input_RAW_body_present": true,
+  "metrics": [
+    {
+      "arm": "A",
+      "calls": 2,
+      "delivered": 2,
+      "chars": 208,
+      "EOS": [
+        true,
+        true
+      ],
+      "model_seconds": 156.365,
+      "actual_output_stripe": {
+        "units": 7,
+        "switches": 3,
+        "switch_rate": 0.5,
+        "counts": {
+          "F": 4,
+          "E": 1,
+          "T": 2
+        }
+      },
+      "operation_execution": "not assigned the32 operations",
+      "evaluation_updates": 2,
+      "unsupported_additions": 1,
+      "stop_reason": "fixed_schedule_exhausted",
+      "unattempted_groups": 0
+    },
+    {
+      "arm": "B",
+      "calls": 1,
+      "delivered": 1,
+      "chars": 499,
+      "EOS": [
+        true
+      ],
+      "model_seconds": 289.477,
+      "actual_output_stripe": {
+        "units": 18,
+        "switches": 11,
+        "switch_rate": 0.6470588235294118,
+        "counts": {
+          "F": 4,
+          "E": 7,
+          "T": 7
+        }
+      },
+      "operation_execution": {
+        "counts": {
+          "executed": 30,
+          "absent": 2
+        },
+        "executed_rate": 0.9375,
+        "definition": "root known-condition AI annotation; content/operation/order/epistemic all pass. Not independent human labels."
+      },
+      "evaluation_updates": 4,
+      "unsupported_additions": 0,
+      "stop_reason": "fixed_schedule_exhausted",
+      "unattempted_groups": 0
+    },
+    {
+      "arm": "C",
+      "calls": 8,
+      "delivered": 8,
+      "chars": 590,
+      "EOS": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "model_seconds": 505.285,
+      "actual_output_stripe": {
+        "units": 22,
+        "switches": 14,
+        "switch_rate": 0.6666666666666666,
+        "counts": {
+          "F": 7,
+          "E": 7,
+          "T": 8
+        }
+      },
+      "operation_execution": {
+        "counts": {
+          "executed": 30,
+          "partial": 2
+        },
+        "executed_rate": 0.9375,
+        "definition": "root known-condition AI annotation; content/operation/order/epistemic all pass. Not independent human labels."
+      },
+      "evaluation_updates": 4,
+      "unsupported_additions": 0,
+      "stop_reason": "fixed_schedule_exhausted",
+      "unattempted_groups": 0
+    }
+  ]
+}

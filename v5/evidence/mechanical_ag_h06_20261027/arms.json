@@ -1,0 +1,86 @@
+[
+  {
+    "id": "A",
+    "label": "チャンク分割",
+    "features": [
+      "A"
+    ],
+    "max_calls": 4,
+    "design": "cumulative ladder; not seven isolated effects"
+  },
+  {
+    "id": "B",
+    "label": "注目点の選択",
+    "features": [
+      "A",
+      "B"
+    ],
+    "max_calls": 4,
+    "design": "cumulative ladder; not seven isolated effects"
+  },
+  {
+    "id": "C",
+    "label": "評価状態の保持",
+    "features": [
+      "A",
+      "B",
+      "C"
+    ],
+    "max_calls": 4,
+    "design": "cumulative ladder; not seven isolated effects"
+  },
+  {
+    "id": "D",
+    "label": "意味リンクによる遷移",
+    "features": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "max_calls": 4,
+    "design": "cumulative ladder; not seven isolated effects"
+  },
+  {
+    "id": "E",
+    "label": "再注目の許可",
+    "features": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "max_calls": 4,
+    "design": "cumulative ladder; not seven isolated effects"
+  },
+  {
+    "id": "F",
+    "label": "話題滞在制御",
+    "features": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ],
+    "max_calls": 4,
+    "design": "cumulative ladder; not seven isolated effects"
+  },
+  {
+    "id": "G",
+    "label": "重複・新規性判定",
+    "features": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ],
+    "max_calls": 4,
+    "design": "cumulative ladder; not seven isolated effects"
+  }
+]

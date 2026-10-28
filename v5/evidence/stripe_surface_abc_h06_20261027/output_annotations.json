@@ -1,0 +1,639 @@
+{
+  "review_packet_sha256": "135af777204e58c476918b14b5710eb317a38b8115e282a265517f697ccd7fdd",
+  "labeler": "root designer AI known-condition",
+  "human_quality_labels": 0,
+  "calls": [
+    {
+      "call_id": "R0001",
+      "units": [
+        {
+          "unit_index": 1,
+          "text": "あのさ、ガラポンのことなんだけど。",
+          "primary": "F",
+          "rationale": "ガラポンという話題の導入。感情の明示はまだない。"
+        },
+        {
+          "unit_index": 2,
+          "text": "1回600円で、それを15回、合計9000円も回したのに、一度もA賞が出なかったんだよね。",
+          "primary": "F",
+          "rationale": "料金・回数・合計と不当選結果を報告。"
+        },
+        {
+          "unit_index": 3,
+          "text": "ずっとB賞ばかりでさ……。",
+          "primary": "F",
+          "rationale": "B賞が続いた結果を報告。"
+        },
+        {
+          "unit_index": 4,
+          "text": "天井とかもないみたいで、全然A賞が出ない仕組み、もう本当に腹立つっていうか。",
+          "primary": "E",
+          "rationale": "怒りを主として表出。天井の報告と仕組み断定も混在。",
+          "secondary": [
+            "F",
+            "T"
+          ]
+        }
+      ]
+    },
+    {
+      "call_id": "R0002",
+      "units": [
+        {
+          "unit_index": 1,
+          "text": "だってさ、あんなにA賞の景品、たくさん置いてあるんだよ？",
+          "primary": "F",
+          "rationale": "景品の在庫を再提示。問い調だが主要内容は観察。"
+        },
+        {
+          "unit_index": 2,
+          "text": " なのに全然当たらないっていうか……。",
+          "primary": "T",
+          "rationale": "在庫があるのに当たらないという対比。",
+          "secondary": [
+            "F"
+          ]
+        },
+        {
+          "unit_index": 3,
+          "text": "もう、その、9000円もあったら、普通に一つ買えたんじゃないかなって思うと、もう……本当に悔しい。",
+          "primary": "T",
+          "rationale": "買えたのではという反実仮想から悔しさを述べる。",
+          "secondary": [
+            "E"
+          ]
+        }
+      ]
+    },
+    {
+      "call_id": "R0003",
+      "units": [
+        {
+          "unit_index": 1,
+          "text": "ちょっと許せない話があるんですけど。",
+          "primary": "E",
+          "rationale": "許せないという怒りを導入。"
+        },
+        {
+          "unit_index": 2,
+          "text": "ガラポンを回したんですよ、A賞とかB賞とかC賞がある抽選で、球を取り出す大きな抽選器があったんですけど、そこに天井がないっていうのもあって。",
+          "primary": "F",
+          "rationale": "抽選の体験・賞区分・装置・天井を報告。"
+        },
+        {
+          "unit_index": 3,
+          "text": "A賞が欲しかったんですよね。",
+          "primary": "E",
+          "rationale": "A賞への欲求。"
+        },
+        {
+          "unit_index": 4,
+          "text": "結局、9000円使ってステッカーとかしか貰えなくて。",
+          "primary": "F",
+          "rationale": "支出と受取物の報告。"
+        },
+        {
+          "unit_index": 5,
+          "text": "いや、もう金額的にやばいなって。",
+          "primary": "E",
+          "rationale": "金額への強い反応。"
+        },
+        {
+          "unit_index": 6,
+          "text": "9000円ですよ？",
+          "primary": "E",
+          "rationale": "初出の金額報告ではなく、直前のやばいを受けた金額強調。"
+        },
+        {
+          "unit_index": 7,
+          "text": " 許せないですよ、本当に。",
+          "primary": "E",
+          "rationale": "怒りを明示。"
+        },
+        {
+          "unit_index": 8,
+          "text": "B賞ばかりが続いて。",
+          "primary": "F",
+          "rationale": "B賞が続いた結果。"
+        },
+        {
+          "unit_index": 9,
+          "text": "何回引いても出そうにないなって感じてたし、一回くらい当たってもいいんじゃないかって思ってたんですけど、もう、くれよって感じで、力が抜けたというか。",
+          "primary": "T",
+          "rationale": "将来も出なさそうという予感と一回くらいという評価が中心。要求・脱力も混在。",
+          "secondary": [
+            "E"
+          ]
+        },
+        {
+          "unit_index": 10,
+          "text": "A賞の景品もたくさん置かれてたから、おかしいなって思いました。",
+          "primary": "T",
+          "rationale": "景品在庫を根拠におかしいと評価。",
+          "secondary": [
+            "F"
+          ]
+        },
+        {
+          "unit_index": 11,
+          "text": "15回回したんですけど、A賞が1回も出なかったんですよね。",
+          "primary": "F",
+          "rationale": "回数と不当選結果。"
+        },
+        {
+          "unit_index": 12,
+          "text": "景品の在庫はたくさんあるみたいだったから、それってよくないなって。",
+          "primary": "T",
+          "rationale": "在庫を根拠によくないと評価。",
+          "secondary": [
+            "F"
+          ]
+        },
+        {
+          "unit_index": 13,
+          "text": "15回回した、確か……かな。",
+          "primary": "T",
+          "rationale": "確定した数字を不確かな回想へ言い直す。"
+        },
+        {
+          "unit_index": 14,
+          "text": "1回600円で、合計9000円使ったんですけど、これだけあれば買えたんじゃないかなって思っちゃうというか。",
+          "primary": "T",
+          "rationale": "費用の報告を普通に買えたという仮定比較へ展開。",
+          "secondary": [
+            "F"
+          ]
+        },
+        {
+          "unit_index": 15,
+          "text": "正直、嫌だしショックで。",
+          "primary": "E",
+          "rationale": "嫌悪とショック。"
+        },
+        {
+          "unit_index": 16,
+          "text": "A賞が出ない仕組みなんじゃないかって疑いたくなるような、そういう状況で。",
+          "primary": "T",
+          "rationale": "仕組みへの疑念として明示し事実断定しない。"
+        },
+        {
+          "unit_index": 17,
+          "text": "A賞はうちわだったんですけど、B賞が何だったかはちょっと思い出せないですね。",
+          "primary": "T",
+          "rationale": "うちわという事実に続くB賞の想起困難が中心。",
+          "secondary": [
+            "F"
+          ]
+        },
+        {
+          "unit_index": 18,
+          "text": "はぁ……。",
+          "primary": "E",
+          "rationale": "ため息。"
+        }
+      ]
+    },
+    {
+      "call_id": "R0004",
+      "units": [
+        {
+          "unit_index": 1,
+          "text": "ちょっと許せない話があるんですけど。",
+          "primary": "E",
+          "rationale": "許せない話という反応で導入。"
+        },
+        {
+          "unit_index": 2,
+          "text": "ガラポンを回したんですよ、A賞とかB賞とかC賞がある抽選で、あの中の大きな抽選器から球を取り出すやつ。",
+          "primary": "F",
+          "rationale": "抽選体験と賞・装置の説明。"
+        }
+      ]
+    },
+    {
+      "call_id": "R0005",
+      "units": [
+        {
+          "unit_index": 1,
+          "text": "で、その、天井がないんですよ。",
+          "primary": "F",
+          "rationale": "天井がないという本人の報告。"
+        },
+        {
+          "unit_index": 2,
+          "text": "A賞が欲しかったんですけど、9000円使ってもステッカーとかしか貰えなくて。",
+          "primary": "F",
+          "rationale": "欲求を添えつつ9000円での受取結果が中心。",
+          "secondary": [
+            "E"
+          ]
+        },
+        {
+          "unit_index": 3,
+          "text": "結構な金額ですよね。",
+          "primary": "E",
+          "rationale": "金額の大きさへの反応。"
+        }
+      ]
+    },
+    {
+      "call_id": "R0006",
+      "units": [
+        {
+          "unit_index": 1,
+          "text": "9000円って、やばいですよね。",
+          "primary": "E",
+          "rationale": "金額への強い反応。"
+        },
+        {
+          "unit_index": 2,
+          "text": "本当に許せない。",
+          "primary": "E",
+          "rationale": "許せないという怒り。"
+        },
+        {
+          "unit_index": 3,
+          "text": "ずっとB賞ばっかり続いて、何回引いても出そうにないなって感じました。",
+          "primary": "T",
+          "rationale": "B賞の結果を何回引いても出そうにない予感へ接続。",
+          "secondary": [
+            "F"
+          ]
+        }
+      ]
+    },
+    {
+      "call_id": "R0007",
+      "units": [
+        {
+          "unit_index": 1,
+          "text": "一回くらいは当たってもいいと思うんですけどね。",
+          "primary": "T",
+          "rationale": "一回くらいは当たってよいという評価。"
+        },
+        {
+          "unit_index": 2,
+          "text": "もう、早くくれよって感じというか、ちょっと脱力しちゃいました。",
+          "primary": "E",
+          "rationale": "要求と脱力。"
+        },
+        {
+          "unit_index": 3,
+          "text": "あんなにA賞の景品がたくさん置いてあったのに、おかしいですよね。",
+          "primary": "T",
+          "rationale": "景品在庫を根拠におかしいと評価。",
+          "secondary": [
+            "F"
+          ]
+        }
+      ]
+    },
+    {
+      "call_id": "R0008",
+      "units": [
+        {
+          "unit_index": 1,
+          "text": "15回も回したんですけど、A賞が1回も出なかったんですよ。",
+          "primary": "F",
+          "rationale": "回数と不当選結果。"
+        },
+        {
+          "unit_index": 2,
+          "text": "あんなに景品が置いてあったのに、当たらないのはちょっとよくないなって思いました。",
+          "primary": "T",
+          "rationale": "在庫と不当選の対比からよくないと評価。",
+          "secondary": [
+            "F"
+          ]
+        }
+      ]
+    },
+    {
+      "call_id": "R0009",
+      "units": [
+        {
+          "unit_index": 1,
+          "text": "A賞の景品、あんなにたくさん置いてあったんですよね。",
+          "primary": "F",
+          "rationale": "景品在庫の再報告。"
+        },
+        {
+          "unit_index": 2,
+          "text": "それで、15回回したんですけど、A賞は1回も出なかったんですよ。",
+          "primary": "F",
+          "rationale": "回数と結果の再報告。"
+        },
+        {
+          "unit_index": 3,
+          "text": "……えーと、確か15回だったかな。",
+          "primary": "T",
+          "rationale": "15回という記憶を不確かに回想。"
+        }
+      ]
+    },
+    {
+      "call_id": "R0010",
+      "units": [
+        {
+          "unit_index": 1,
+          "text": "1回600円だったので、合計で9000円使ったんですけど……。",
+          "primary": "F",
+          "rationale": "料金と合計の報告。"
+        },
+        {
+          "unit_index": 2,
+          "text": "それだけあれば、何か買えたのかなって思っちゃいますよね。",
+          "primary": "T",
+          "rationale": "支出を別の購入可能性と比較。"
+        },
+        {
+          "unit_index": 3,
+          "text": "本当に、ショックというか、嫌な感じでした。",
+          "primary": "E",
+          "rationale": "ショックと嫌悪。"
+        }
+      ]
+    },
+    {
+      "call_id": "R0011",
+      "units": [
+        {
+          "unit_index": 1,
+          "text": "もしかして、A賞が出ないような仕組みなのかな、なんて疑っちゃったりもしたんですよね。",
+          "primary": "T",
+          "rationale": "未確認の仕組みを疑ったという考え。"
+        },
+        {
+          "unit_index": 2,
+          "text": "A賞はうちわだったんですけど……B賞とかも、なんだっけ、あんまり詳しく思い出せないな……。",
+          "primary": "T",
+          "rationale": "賞内容の事実と想起困難の言い直し。",
+          "secondary": [
+            "F"
+          ]
+        },
+        {
+          "unit_index": 3,
+          "text": "はぁ。",
+          "primary": "E",
+          "rationale": "ため息。"
+        }
+      ]
+    }
+  ],
+  "human_units": [
+    {
+      "unit_index": 1,
+      "text": "でもさ、ちょっと許せないことがあったんだけど。\n",
+      "primary": "E",
+      "rationale": "許せないことという感情を伴う導入。"
+    },
+    {
+      "unit_index": 2,
+      "text": "ガラポンコーナーやったんだけど。\n",
+      "primary": "F",
+      "rationale": "ガラポンをした出来事。"
+    },
+    {
+      "unit_index": 3,
+      "text": "ぐるぐるぐるって回してA賞、B賞、C賞があって。\n",
+      "primary": "F",
+      "rationale": "抽選方法と賞区分。"
+    },
+    {
+      "unit_index": 4,
+      "text": "A賞がうちわで、B賞が何だっけ？\n",
+      "primary": "T",
+      "rationale": "うちわの報告に続くB賞の想起疑問が中心。"
+    },
+    {
+      "unit_index": 5,
+      "text": "なんか忘れたけど。\n",
+      "primary": "T",
+      "rationale": "思い出せない状態。"
+    },
+    {
+      "unit_index": 6,
+      "text": "シールだかステッカーだかカードだか。\n",
+      "primary": "T",
+      "rationale": "確定しない候補を列挙。"
+    },
+    {
+      "unit_index": 7,
+      "text": "1回600円で。\n",
+      "primary": "F",
+      "rationale": "一回の料金。"
+    },
+    {
+      "unit_index": 8,
+      "text": "何回だ？\n",
+      "primary": "T",
+      "rationale": "回数の自問。"
+    },
+    {
+      "unit_index": 9,
+      "text": "15回やったの？\n",
+      "primary": "T",
+      "rationale": "15回か確認する疑問。"
+    },
+    {
+      "unit_index": 10,
+      "text": "15回やって。\n",
+      "primary": "F",
+      "rationale": "15回という報告。"
+    },
+    {
+      "unit_index": 11,
+      "text": "9000円ね。\n",
+      "primary": "F",
+      "rationale": "合計金額を初めて示す計算結果。"
+    },
+    {
+      "unit_index": 12,
+      "text": "9000円やってね、A賞が1回も出ませんでした。\n",
+      "primary": "F",
+      "rationale": "支出と不当選結果。"
+    },
+    {
+      "unit_index": 13,
+      "text": "どう？\n",
+      "primary": "T",
+      "rationale": "聞き手の評価を求める問い。"
+    },
+    {
+      "unit_index": 14,
+      "text": "ちょっとこれ良くないと思うんだけど。\n",
+      "primary": "T",
+      "rationale": "良くないという評価。"
+    },
+    {
+      "unit_index": 15,
+      "text": "1回も出なかったんだけど。\n",
+      "primary": "F",
+      "rationale": "不当選結果を再報告。"
+    },
+    {
+      "unit_index": 16,
+      "text": "これはおかしいと思うんでしょ。\n",
+      "primary": "T",
+      "rationale": "おかしいという評価。"
+    },
+    {
+      "unit_index": 17,
+      "text": "もうずっとB賞、B賞、B賞。\n",
+      "primary": "F",
+      "rationale": "B賞が続いた結果の報告。"
+    },
+    {
+      "unit_index": 18,
+      "text": "許せねえ。\n",
+      "primary": "E",
+      "rationale": "怒り。"
+    },
+    {
+      "unit_index": 19,
+      "text": "絶対A賞出ないようになってる。\n",
+      "primary": "T",
+      "rationale": "仕組みについての話者の疑念。客観的確認としては扱わない。"
+    },
+    {
+      "unit_index": 20,
+      "text": "9000円だよ。\n",
+      "primary": "E",
+      "rationale": "怒りの流れで既出金額を強調。"
+    },
+    {
+      "unit_index": 21,
+      "text": "9000円やばいでしょ。\n",
+      "primary": "E",
+      "rationale": "金額への反応。"
+    },
+    {
+      "unit_index": 22,
+      "text": "なんかもう、え、いや、1回出てもいいやろって。\n",
+      "primary": "T",
+      "rationale": "一回くらいという規範的期待。"
+    },
+    {
+      "unit_index": 23,
+      "text": "さすがにね。\n",
+      "primary": "T",
+      "rationale": "直前の期待を受ける評価の補足。"
+    },
+    {
+      "unit_index": 24,
+      "text": "何回やってもA賞出る気しねえと思って。\n",
+      "primary": "T",
+      "rationale": "将来も出なさそうという主観的予感。"
+    },
+    {
+      "unit_index": 25,
+      "text": "9000円じゃない。\n",
+      "primary": "T",
+      "rationale": "9000円じゃないという不明瞭な言い直し。単独解釈に曖昧さを残す。"
+    },
+    {
+      "unit_index": 26,
+      "text": "9000円だよ。\n",
+      "primary": "E",
+      "rationale": "直前の言い直し後に金額を再び強調。"
+    },
+    {
+      "unit_index": 27,
+      "text": "でかいだろ。\n",
+      "primary": "E",
+      "rationale": "金額が大きいという反応。"
+    },
+    {
+      "unit_index": 28,
+      "text": "9000円でなんかステッカーとか、そういうのしかもらえなかったんだけど。\n",
+      "primary": "F",
+      "rationale": "支出と受取物の報告。"
+    },
+    {
+      "unit_index": 29,
+      "text": "マジA賞欲しかった。\n",
+      "primary": "E",
+      "rationale": "A賞への欲求。"
+    },
+    {
+      "unit_index": 30,
+      "text": "天井とかねえよ。\n",
+      "primary": "F",
+      "rationale": "天井がないという話者の報告。"
+    },
+    {
+      "unit_index": 31,
+      "text": "よくある赤い玉とか白い玉とか出す、ぐるぐる回すやつ。\n",
+      "primary": "F",
+      "rationale": "装置の説明。"
+    },
+    {
+      "unit_index": 32,
+      "text": "ああいう感じのでっかいバージョンで。\n",
+      "primary": "F",
+      "rationale": "装置の大きさの説明。"
+    },
+    {
+      "unit_index": 33,
+      "text": "回して出ませんでした。\n",
+      "primary": "F",
+      "rationale": "回しても出なかった結果。"
+    },
+    {
+      "unit_index": 34,
+      "text": "はあ。\n",
+      "primary": "E",
+      "rationale": "ため息。"
+    },
+    {
+      "unit_index": 35,
+      "text": "え、A賞の景品はめっちゃ置いてあったよ。\n",
+      "primary": "F",
+      "rationale": "景品在庫の観察。"
+    },
+    {
+      "unit_index": 36,
+      "text": "あるやん。\n",
+      "primary": "E",
+      "rationale": "既出の在庫をあるやんと強調する短い反応。"
+    },
+    {
+      "unit_index": 37,
+      "text": "景品は普通にいっぱいあるのにさ、出ねえの。\n",
+      "primary": "T",
+      "rationale": "在庫と不当選の食い違いを指摘。"
+    },
+    {
+      "unit_index": 38,
+      "text": "もうさ、くれよ。\n",
+      "primary": "E",
+      "rationale": "もうくれよという要求。"
+    },
+    {
+      "unit_index": 39,
+      "text": "これはマジでちょっとね、ああってなりました。\n",
+      "primary": "E",
+      "rationale": "脱力した反応。"
+    },
+    {
+      "unit_index": 40,
+      "text": "9000円あれば普通に1個買えるだろ。\n",
+      "primary": "T",
+      "rationale": "支出を普通の購入と比較する反実仮想。"
+    },
+    {
+      "unit_index": 41,
+      "text": "うわ、やだ。\n",
+      "primary": "E",
+      "rationale": "嫌悪の反応。"
+    },
+    {
+      "unit_index": 42,
+      "text": "ま、これはちょっとショックなのね。",
+      "primary": "E",
+      "rationale": "ショック。"
+    }
+  ],
+  "mixed_unit_policy": "Primary is the dominant communicative function; mixed content and segmentation mean switch rate is not semantic execution or naturalness. Human prior42 labels retained separately."
+}

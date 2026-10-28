@@ -1,0 +1,395 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "name": "model adapter all generation options except declared cap fixed",
+      "passed": true
+    },
+    {
+      "name": "bounded11 no other models or reuse",
+      "passed": true
+    },
+    {
+      "name": "empty initial history all arms",
+      "passed": true
+    },
+    {
+      "name": "core bytes common.py",
+      "passed": true
+    },
+    {
+      "name": "core bytes contract_runtime.py",
+      "passed": true
+    },
+    {
+      "name": "core bytes runtime.py",
+      "passed": true
+    },
+    {
+      "name": "core bytes flow_apply.py",
+      "passed": true
+    },
+    {
+      "name": "core bytes fact_contract.json",
+      "passed": true
+    },
+    {
+      "name": "core bytes driver_cpu.py",
+      "passed": true
+    },
+    {
+      "name": "core bytes gpu_worker.py",
+      "passed": true
+    },
+    {
+      "name": "core bytes processor_cpu.py",
+      "passed": true
+    },
+    {
+      "name": "core bytes request_protocol.py",
+      "passed": true
+    },
+    {
+      "name": "core bytes token_journal.py",
+      "passed": true
+    },
+    {
+      "name": "core bytes dependency_probe.py",
+      "passed": true
+    },
+    {
+      "name": "core bytes startup_probe.py",
+      "passed": true
+    },
+    {
+      "name": "source copy engine.py",
+      "passed": true
+    },
+    {
+      "name": "source copy engine_trace.csv",
+      "passed": true
+    },
+    {
+      "name": "source copy evaluate.py",
+      "passed": true
+    },
+    {
+      "name": "source copy evaluation_stdout.txt",
+      "passed": true
+    },
+    {
+      "name": "source copy human_reference.json",
+      "passed": true
+    },
+    {
+      "name": "source copy memory.json",
+      "passed": true
+    },
+    {
+      "name": "source copy metrics.json",
+      "passed": true
+    },
+    {
+      "name": "source copy prepare.py",
+      "passed": true
+    },
+    {
+      "name": "source copy README.md",
+      "passed": true
+    },
+    {
+      "name": "source copy report.html",
+      "passed": true
+    },
+    {
+      "name": "source copy inputs\\human_107.csv",
+      "passed": true
+    },
+    {
+      "name": "source copy inputs\\human_highlights.html",
+      "passed": true
+    },
+    {
+      "name": "all32 titles epistemic exact source",
+      "passed": true
+    },
+    {
+      "name": "unknown node",
+      "passed": true
+    },
+    {
+      "name": "epistemic certainty edit",
+      "passed": true
+    },
+    {
+      "name": "order edit",
+      "passed": true
+    },
+    {
+      "name": "operation edit",
+      "passed": true
+    },
+    {
+      "name": "original CPU engine reproduces fixed32 CSV",
+      "passed": true
+    },
+    {
+      "name": "plan switch rate20/31",
+      "passed": true
+    },
+    {
+      "name": "A2 B1 C8 groups",
+      "passed": true
+    },
+    {
+      "name": "C four ops each exact complete ordering",
+      "passed": true
+    },
+    {
+      "name": "late uncertain recall preserved",
+      "passed": true
+    },
+    {
+      "name": "A1 full context plus1536",
+      "passed": true
+    },
+    {
+      "name": "A2 full context plus1536",
+      "passed": true
+    },
+    {
+      "name": "A2 actual mock previous text reaches decoded",
+      "passed": true
+    },
+    {
+      "name": "B1 full context plus1536",
+      "passed": true
+    },
+    {
+      "name": "B1 actual op content epistemic decoded",
+      "passed": true
+    },
+    {
+      "name": "B1 source quotes absent schema",
+      "passed": true
+    },
+    {
+      "name": "C1 full context plus1536",
+      "passed": true
+    },
+    {
+      "name": "C1 actual op content epistemic decoded",
+      "passed": true
+    },
+    {
+      "name": "C1 source quotes absent schema",
+      "passed": true
+    },
+    {
+      "name": "C1 no later step payload",
+      "passed": true
+    },
+    {
+      "name": "C2 full context plus1536",
+      "passed": true
+    },
+    {
+      "name": "C2 actual op content epistemic decoded",
+      "passed": true
+    },
+    {
+      "name": "C2 source quotes absent schema",
+      "passed": true
+    },
+    {
+      "name": "C2 no later step payload",
+      "passed": true
+    },
+    {
+      "name": "C2 actual mock previous text reaches decoded",
+      "passed": true
+    },
+    {
+      "name": "C3 full context plus1536",
+      "passed": true
+    },
+    {
+      "name": "C3 actual op content epistemic decoded",
+      "passed": true
+    },
+    {
+      "name": "C3 source quotes absent schema",
+      "passed": true
+    },
+    {
+      "name": "C3 no later step payload",
+      "passed": true
+    },
+    {
+      "name": "C3 actual mock previous text reaches decoded",
+      "passed": true
+    },
+    {
+      "name": "C4 full context plus1536",
+      "passed": true
+    },
+    {
+      "name": "C4 actual op content epistemic decoded",
+      "passed": true
+    },
+    {
+      "name": "C4 source quotes absent schema",
+      "passed": true
+    },
+    {
+      "name": "C4 no later step payload",
+      "passed": true
+    },
+    {
+      "name": "C4 actual mock previous text reaches decoded",
+      "passed": true
+    },
+    {
+      "name": "C5 full context plus1536",
+      "passed": true
+    },
+    {
+      "name": "C5 actual op content epistemic decoded",
+      "passed": true
+    },
+    {
+      "name": "C5 source quotes absent schema",
+      "passed": true
+    },
+    {
+      "name": "C5 no later step payload",
+      "passed": true
+    },
+    {
+      "name": "C5 actual mock previous text reaches decoded",
+      "passed": true
+    },
+    {
+      "name": "C6 full context plus1536",
+      "passed": true
+    },
+    {
+      "name": "C6 actual op content epistemic decoded",
+      "passed": true
+    },
+    {
+      "name": "C6 source quotes absent schema",
+      "passed": true
+    },
+    {
+      "name": "C6 no later step payload",
+      "passed": true
+    },
+    {
+      "name": "C6 actual mock previous text reaches decoded",
+      "passed": true
+    },
+    {
+      "name": "C7 full context plus1536",
+      "passed": true
+    },
+    {
+      "name": "C7 actual op content epistemic decoded",
+      "passed": true
+    },
+    {
+      "name": "C7 source quotes absent schema",
+      "passed": true
+    },
+    {
+      "name": "C7 no later step payload",
+      "passed": true
+    },
+    {
+      "name": "C7 actual mock previous text reaches decoded",
+      "passed": true
+    },
+    {
+      "name": "C8 full context plus1536",
+      "passed": true
+    },
+    {
+      "name": "C8 actual op content epistemic decoded",
+      "passed": true
+    },
+    {
+      "name": "C8 source quotes absent schema",
+      "passed": true
+    },
+    {
+      "name": "C8 no later step payload",
+      "passed": true
+    },
+    {
+      "name": "C8 actual mock previous text reaches decoded",
+      "passed": true
+    },
+    {
+      "name": "B versus C same renderer common instructions",
+      "passed": true
+    },
+    {
+      "name": "no teacher example or source chronology transmitted",
+      "passed": true
+    },
+    {
+      "name": "token cap retained as observed failure",
+      "passed": true
+    },
+    {
+      "name": "legitimate revisits not suppressed",
+      "passed": true
+    },
+    {
+      "name": "empty held",
+      "passed": true
+    },
+    {
+      "name": "operation IDs held",
+      "passed": true
+    },
+    {
+      "name": "shared length cap6000",
+      "passed": true
+    },
+    {
+      "name": "fixed segmentation preserves all chars 'あ。え？\\nそう！'",
+      "passed": true
+    },
+    {
+      "name": "fixed segmentation preserves all chars '  あ。\\n\\nえ。  '",
+      "passed": true
+    },
+    {
+      "name": "fixed segmentation preserves all chars '9000円なら、買えたのでは。悔しい。'",
+      "passed": true
+    },
+    {
+      "name": "actual rollout no retries False",
+      "passed": true
+    },
+    {
+      "name": "C delivered actual text enters next real controller prompt",
+      "passed": true
+    },
+    {
+      "name": "actual rollout no retries True",
+      "passed": true
+    }
+  ],
+  "check_count": 95,
+  "new_model_calls": 0,
+  "context_cut_tokens": 0,
+  "prepared_inputs_sha256": "4b2a4515a2c2801314393fb47f158b7e13a9f37c9abc926bb866a7a0de68e84d",
+  "initial_tokens": {
+    "A": 334,
+    "B": 2661,
+    "C": 795
+  },
+  "surface_max_new_tokens": 1536
+}

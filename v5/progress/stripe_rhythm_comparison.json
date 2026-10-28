@@ -1,0 +1,240 @@
+{
+  "scope": "Previous designer-authored operation sequence -> LLM vs CPU-selected sequence -> LLM; NOT human transcript vs AI.",
+  "method": "Existing designer-AI primary F/E/T labels, unchanged. Non-whitespace character weighting; mixed units have one primary color. Boundary rates depend on segmentation.",
+  "totals": {
+    "manual_operations_LLM": {
+      "units": 196,
+      "E_units": 46,
+      "chars": 6635,
+      "E_chars": 1315,
+      "switches": 126,
+      "boundaries": 186
+    },
+    "CPU_operations_LLM": {
+      "units": 188,
+      "E_units": 47,
+      "chars": 4987,
+      "E_chars": 975,
+      "switches": 120,
+      "boundaries": 178
+    }
+  },
+  "samples": [
+    {
+      "sample_id": "V01",
+      "manual_operations_LLM": {
+        "units": 18,
+        "E_units": 10,
+        "chars": 518,
+        "E_chars": 230,
+        "switches": 12,
+        "boundaries": 17,
+        "sequence": "EFFEFEEFTEETEEFEEF"
+      },
+      "CPU_operations_LLM": {
+        "units": 23,
+        "E_units": 13,
+        "chars": 456,
+        "E_chars": 236,
+        "switches": 16,
+        "boundaries": 22,
+        "sequence": "ETEEFTTETEFEEEFEEFETFEE"
+      }
+    },
+    {
+      "sample_id": "V02",
+      "manual_operations_LLM": {
+        "units": 18,
+        "E_units": 6,
+        "chars": 688,
+        "E_chars": 217,
+        "switches": 11,
+        "boundaries": 17,
+        "sequence": "FETFFFFEFFTETFTEEE"
+      },
+      "CPU_operations_LLM": {
+        "units": 17,
+        "E_units": 5,
+        "chars": 380,
+        "E_chars": 92,
+        "switches": 12,
+        "boundaries": 16,
+        "sequence": "FFTFETEFFFTFEEFEF"
+      }
+    },
+    {
+      "sample_id": "V03",
+      "manual_operations_LLM": {
+        "units": 20,
+        "E_units": 3,
+        "chars": 674,
+        "E_chars": 48,
+        "switches": 13,
+        "boundaries": 19,
+        "sequence": "FFFEFFTFTFTETTFTTTEF"
+      },
+      "CPU_operations_LLM": {
+        "units": 21,
+        "E_units": 3,
+        "chars": 525,
+        "E_chars": 60,
+        "switches": 15,
+        "boundaries": 20,
+        "sequence": "FFETETFTTETFTFTTTFFTF"
+      }
+    },
+    {
+      "sample_id": "V04",
+      "manual_operations_LLM": {
+        "units": 20,
+        "E_units": 3,
+        "chars": 644,
+        "E_chars": 100,
+        "switches": 12,
+        "boundaries": 19,
+        "sequence": "FTFETTTFFFTTFTFTEETT"
+      },
+      "CPU_operations_LLM": {
+        "units": 17,
+        "E_units": 3,
+        "chars": 438,
+        "E_chars": 61,
+        "switches": 12,
+        "boundaries": 16,
+        "sequence": "FTFTFETTFFFTTFEFE"
+      }
+    },
+    {
+      "sample_id": "V05",
+      "manual_operations_LLM": {
+        "units": 20,
+        "E_units": 6,
+        "chars": 646,
+        "E_chars": 143,
+        "switches": 15,
+        "boundaries": 19,
+        "sequence": "FETETETTETEFFTTFTTET"
+      },
+      "CPU_operations_LLM": {
+        "units": 19,
+        "E_units": 7,
+        "chars": 413,
+        "E_chars": 165,
+        "switches": 11,
+        "boundaries": 18,
+        "sequence": "TTETTETFEEEFEETFTTT"
+      }
+    },
+    {
+      "sample_id": "O01",
+      "manual_operations_LLM": {
+        "units": 21,
+        "E_units": 3,
+        "chars": 737,
+        "E_chars": 67,
+        "switches": 10,
+        "boundaries": 20,
+        "sequence": "FFFFEFTFFTTTFTTTTFTEE"
+      },
+      "CPU_operations_LLM": {
+        "units": 17,
+        "E_units": 2,
+        "chars": 601,
+        "E_chars": 70,
+        "switches": 12,
+        "boundaries": 16,
+        "sequence": "FEFFTTFTFTFTTFETT"
+      }
+    },
+    {
+      "sample_id": "O02",
+      "manual_operations_LLM": {
+        "units": 21,
+        "E_units": 3,
+        "chars": 685,
+        "E_chars": 81,
+        "switches": 15,
+        "boundaries": 20,
+        "sequence": "FFETFEFTTFFTFFTTFTETF"
+      },
+      "CPU_operations_LLM": {
+        "units": 21,
+        "E_units": 4,
+        "chars": 576,
+        "E_chars": 70,
+        "switches": 15,
+        "boundaries": 20,
+        "sequence": "FFFTTETETFTTFTTFTEFEF"
+      }
+    },
+    {
+      "sample_id": "O03",
+      "manual_operations_LLM": {
+        "units": 22,
+        "E_units": 3,
+        "chars": 738,
+        "E_chars": 68,
+        "switches": 13,
+        "boundaries": 21,
+        "sequence": "FFFETTFFTFFTFETTFTTETT"
+      },
+      "CPU_operations_LLM": {
+        "units": 18,
+        "E_units": 4,
+        "chars": 600,
+        "E_chars": 89,
+        "switches": 12,
+        "boundaries": 17,
+        "sequence": "FEFTTTEFTFEFFTETTT"
+      }
+    },
+    {
+      "sample_id": "O04",
+      "manual_operations_LLM": {
+        "units": 19,
+        "E_units": 5,
+        "chars": 634,
+        "E_chars": 208,
+        "switches": 14,
+        "boundaries": 18,
+        "sequence": "FFETFFEFETFFTETTETF"
+      },
+      "CPU_operations_LLM": {
+        "units": 17,
+        "E_units": 4,
+        "chars": 573,
+        "E_chars": 87,
+        "switches": 8,
+        "boundaries": 16,
+        "sequence": "FFTFTTTFEETTTTEET"
+      }
+    },
+    {
+      "sample_id": "O05",
+      "manual_operations_LLM": {
+        "units": 17,
+        "E_units": 4,
+        "chars": 671,
+        "E_chars": 153,
+        "switches": 11,
+        "boundaries": 16,
+        "sequence": "FFETFEFETTETTFTTT"
+      },
+      "CPU_operations_LLM": {
+        "units": 18,
+        "E_units": 2,
+        "chars": 425,
+        "E_chars": 45,
+        "switches": 7,
+        "boundaries": 17,
+        "sequence": "FFFEFEFTTFTTTTTTTT"
+      }
+    }
+  ],
+  "human_quality_labels": 0,
+  "human_vs_CPU_same_grain_rhythm_analysis": "not_performed",
+  "pending_questions": [
+    "Normalize human and AI into the same short semantic units before comparing same-color run lengths and switches per100characters.",
+    "Separate the selected operation order, Surface sentence merging, and displayed primary-label granularity."
+  ]
+}

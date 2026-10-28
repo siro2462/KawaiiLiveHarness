@@ -1,0 +1,373 @@
+{
+  "review_packet_sha256": "135af777204e58c476918b14b5710eb317a38b8115e282a265517f697ccd7fdd",
+  "root_full_text_read": true,
+  "human_reference_full_text_read": true,
+  "human_quality_labels": 0,
+  "reviewed_call_ids": [
+    "R0001",
+    "R0002",
+    "R0003",
+    "R0004",
+    "R0005",
+    "R0006",
+    "R0007",
+    "R0008",
+    "R0009",
+    "R0010",
+    "R0011"
+  ],
+  "per_turn": [
+    {
+      "call_id": "R0001",
+      "operation_following": "旧2Factを概ね実現。32操作は未入力。",
+      "epistemic_preservation": "天井なしをみたいでと弱める。A賞が出ない仕組みは旧圧縮入力自体の断定を継承。",
+      "fact_preservation": "600円/15回/9000円/不当選/B賞を保持。",
+      "evaluation_development": "金額と結果に怒るが短い報告中心。",
+      "repetition": "同一語の過剰反復なし。",
+      "naturalness": "口語として読めるが語尾がんだよね・っていうかに寄る。",
+      "connection": "空履歴から自然な導入。",
+      "quotes": [
+        "合計9000円も回したのに",
+        "全然A賞が出ない仕組み"
+      ]
+    },
+    {
+      "call_id": "R0002",
+      "operation_following": "旧H06-3の在庫対比と購入仮定・悔しさを実現。",
+      "epistemic_preservation": "買えたんじゃないかなと仮定を維持。",
+      "fact_preservation": "在庫・不当選・9000円を保持し実購入を追加しない。",
+      "evaluation_development": "在庫との食い違いと買う選択肢から悔しさへ進む。",
+      "repetition": "もうが重なり言い淀みは多め。",
+      "naturalness": "概ね自然だがためらいがやや作為的。",
+      "connection": "だってさで実際の前文の怒りを受ける。",
+      "quotes": [
+        "だってさ、あんなにA賞の景品、たくさん置いてあるんだよ？",
+        "普通に一つ買えたんじゃないかな"
+      ]
+    },
+    {
+      "call_id": "R0003",
+      "operation_following": "30実行/2欠落。比較と反応を含み、#21在庫と#22不当選の後段REVISITを圧縮。",
+      "epistemic_preservation": "未確認の仕組みとB賞不明、購入仮定は区別。数字の確定→不確かは元列の問題もある。",
+      "fact_preservation": "旧3Factの主要内容に加え装置・うちわ・ステッカーを入力から表現。明確な新規出来事なし。",
+      "evaluation_development": "予感/公平性/在庫対比/購入比較/疑念の指定された観点が出る。自律的発案ではない。",
+      "repetition": "金額反復には強調の役割。別REVISITは縮められる。",
+      "naturalness": "一続きで読めるがですけど/って/というかが反復し、説明が丁寧で怒りの勢いは原文より弱い。",
+      "connection": "ショックから仕組み疑念へ進むが末尾うちわ/不明へ戻る理由は弱い。元列の戻りを継承。",
+      "quotes": [
+        "一回くらい当たってもいいんじゃないか",
+        "これだけあれば買えたんじゃないかな",
+        "A賞が出ない仕組みなんじゃないかって疑いたくなる"
+      ]
+    },
+    {
+      "call_id": "R0004",
+      "operation_following": "1〜4を順に実現。",
+      "epistemic_preservation": "観察と反応を区別。",
+      "fact_preservation": "抽選・賞区分・大きな装置を保持。",
+      "evaluation_development": "怒りから状況説明へ。まだ評価更新はない。",
+      "repetition": "不要な全体要約なし。",
+      "naturalness": "あの中の大きな抽選器は指示対象がやや曖昧。",
+      "connection": "空履歴から導入。",
+      "quotes": [
+        "ちょっと許せない話があるんですけど。",
+        "大きな抽選器から球を取り出すやつ。"
+      ]
+    },
+    {
+      "call_id": "R0005",
+      "operation_following": "5〜8を実現。",
+      "epistemic_preservation": "天井なしは本人の報告、欲求と結果を区別。",
+      "fact_preservation": "9000円と受取物を保持。",
+      "evaluation_development": "欲求と結果の差に金額の反応を添える。強い怒りへの更新はまだない。",
+      "repetition": "前の装置説明を丸ごと繰り返さない。",
+      "naturalness": "口語だが結構な金額ですよねは原文より穏やか。",
+      "connection": "で、そので装置の説明を受ける。",
+      "quotes": [
+        "9000円使ってもステッカーとかしか貰えなくて。",
+        "結構な金額ですよね。"
+      ]
+    },
+    {
+      "call_id": "R0006",
+      "operation_following": "9〜12を実現。",
+      "epistemic_preservation": "出そうにないを感じましたと予感にとどめる。",
+      "fact_preservation": "B賞の結果・金額を保持。",
+      "evaluation_development": "B賞が続くことから当たりそうにない予感へ。",
+      "repetition": "金額と怒りの再言及は指定強調。",
+      "naturalness": "短い感情文のリズムはあるがです調が続く。",
+      "connection": "前の金額反応を強めて受ける。",
+      "quotes": [
+        "本当に許せない。",
+        "何回引いても出そうにないなって感じました。"
+      ]
+    },
+    {
+      "call_id": "R0007",
+      "operation_following": "13〜16を実現。",
+      "epistemic_preservation": "思うという評価と脱力した反応を区別。",
+      "fact_preservation": "在庫を根拠におかしいとする。",
+      "evaluation_development": "期待→要求/脱力→在庫との食い違いという観点を実現。",
+      "repetition": "まだ過度な同文繰返しではない。",
+      "naturalness": "少し丁寧で、感情を説明するちょっと脱力しちゃいましたが淡泊。",
+      "connection": "前の当たりそうにない予感を一回くらいはと受ける。",
+      "quotes": [
+        "一回くらいは当たってもいいと思うんですけどね。",
+        "おかしいですよね。"
+      ]
+    },
+    {
+      "call_id": "R0008",
+      "operation_following": "17〜20を実現。",
+      "epistemic_preservation": "よくないを本人の思いましたとして表す。",
+      "fact_preservation": "15回と0回の結果を保持。",
+      "evaluation_development": "在庫→不当選→よくないを示すが、前ターンのおかしいから大きな見方の更新ではない。",
+      "repetition": "直前在庫評価の再説明が始まる。",
+      "naturalness": "文は自然だが話の展開は足踏み。",
+      "connection": "前の在庫の話を受ける。",
+      "quotes": [
+        "15回も回したんですけど、A賞が1回も出なかったんですよ。",
+        "ちょっとよくないなって思いました。"
+      ]
+    },
+    {
+      "call_id": "R0009",
+      "operation_following": "21/24実行、22/23は内容を含むが文内順序を反転した部分実行。",
+      "epistemic_preservation": "確か15回だったかなと不確かな回想。元列が確定した数字へ疑いを戻す。",
+      "fact_preservation": "在庫/回数/結果は保持。",
+      "evaluation_development": "新しい根拠や比較を増やさず回想へ。",
+      "repetition": "R0008と隣接して在庫・15回・不当選を繰り返し、水増し感が強い。",
+      "naturalness": "確定して二度説明した後の確かはぎこちない。",
+      "connection": "前文へ戻る動機は薄い。指定REVISITを忠実にすることと自然さが衝突。",
+      "quotes": [
+        "A賞の景品、あんなにたくさん置いてあったんですよね。",
+        "……えーと、確か15回だったかな。"
+      ]
+    },
+    {
+      "call_id": "R0010",
+      "operation_following": "25〜28を実現。",
+      "epistemic_preservation": "購入は仮定で実行済みにしない。",
+      "fact_preservation": "単価/合計保持。何かは買う対象を曖昧にするが新規事実ではない。",
+      "evaluation_development": "普通の購入可能性から嫌悪/ショックへ展開。",
+      "repetition": "金額再提示は比較の根拠になる。",
+      "naturalness": "表現は自然だが何か買えたは人間の1個買えるより焦点が弱い。",
+      "connection": "回数の回想から費用比較へ進む。",
+      "quotes": [
+        "それだけあれば、何か買えたのかな",
+        "ショックというか、嫌な感じでした。"
+      ]
+    },
+    {
+      "call_id": "R0011",
+      "operation_following": "29〜32を実現。",
+      "epistemic_preservation": "疑念/うちわの観察/詳細を思い出せないことを区別。",
+      "fact_preservation": "具体的な未確認のB賞を埋めず、仕組みの断定もない。",
+      "evaluation_development": "結果に対する原因の疑いを与えられた範囲で表現。",
+      "repetition": "疑念の後で再度賞説明へ戻るが同文再反復はない。",
+      "naturalness": "末尾のため息は自然だがうちわ情報への戻りは構成上ぎこちない。",
+      "connection": "購入の後悔から疑念・賞説明へ戻る。動機不足は元列も含む。",
+      "quotes": [
+        "もしかして、A賞が出ないような仕組みなのかな",
+        "あんまり詳しく思い出せないな",
+        "はぁ。"
+      ]
+    }
+  ],
+  "legacy_fact_review": {
+    "H06-1": "600円/15回/9000円/A賞0をA/B/Cで保持。",
+    "H06-2": "B賞の連続と天井なしは全条件で表現。A賞が出ない仕組みという断定は旧圧縮入力に既存。B/Cでは疑念として限定。",
+    "H06-3": "在庫対比と購入比較・悔しさを全条件で表現。Cは買う対象が何かと曖昧。実購入へは変えていない。"
+  },
+  "cross_condition_comparison": "A208字の要点報告に対し、B499字/C590字では指定された予感・期待・在庫対比・購入比較・疑念・不確かさを展開。Bは2REVISIT欠落、Cは全内容に触れるが22/23順序反転と近接反復。B/Cとも丁寧な説明調と感情の弱さが残り、人間の自発的な評価更新の証明ではない。",
+  "limits": [
+    "1seed、既知H06の単一素材。原文から手作業で逆算したMemoryを使用。",
+    "設計者AIが条件を知って全文評価。独立blindでも人間ラベルでもない。人間品質ラベル0、実TTS0。",
+    "Aは圧縮3Fact、B/Cは29断片/32操作。情報量・確実性・prompt・呼出数も異なり、操作制御だけの因果効果は未分離。",
+    "B/Cは同rendererだが一括/分割・実履歴・呼出数が異なる。Cは固定列の実現で、②の意味理解による再選択ではない。",
+    "F/E/Tは混在文に主ラベルを1つ付ける主観的な分類。操作・生成文・人間原文行の粒度が違う。切替率の近さは人間並みの根拠ではない。",
+    "更新イベントの定義は根拠ある観点の変化。指定Memoryの言語化であり自発的な思考の発案を測っていない。",
+    "新設rendererは未最適化。学習済み旧Surface契約との互換性・title要約の欠落は未分離。",
+    "上限は旧384から全条件1536に変更したが今回全11件EOS。過去384条件の保存出力と同一実験ではない。",
+    "元列の#17確定→#24回想、#27-28後悔→#29疑念/#30うちわの戻りを保持。全てをSurfaceの新規不具合とはしない。",
+    "Aの疑念断定は原文→既存圧縮Memoryの問題を継承。B/CのMemory→生成と分ける。",
+    "CPU初回監査はsandbox一時フォルダ権限でexit1。生成は全0。ログ保全・原因確認後、監査TEMPのみ変更しCPU再検査pass。生成や品質のretry0。"
+  ],
+  "evaluation_updates": [
+    {
+      "arm": "A",
+      "call_id": "R0002",
+      "quote": "だってさ、あんなにA賞の景品、たくさん置いてあるんだよ？ なのに全然当たらないっていうか",
+      "reason": "既出の結果を在庫の観点から捉え直す。",
+      "counts_as_update": true,
+      "previous_evaluation": "費用と不当選への怒り",
+      "new_evaluation": "在庫があるのに当たらない食い違い",
+      "basis_memory_ids": [
+        "H06-1",
+        "H06-3"
+      ]
+    },
+    {
+      "arm": "A",
+      "call_id": "R0002",
+      "quote": "普通に一つ買えたんじゃないかなって思うと、もう……本当に悔しい。",
+      "reason": "購入可能性との比較で悔しさへ進む。",
+      "counts_as_update": true,
+      "previous_evaluation": "抽選結果への怒り",
+      "new_evaluation": "別の購入を選べたのではという後悔",
+      "basis_memory_ids": [
+        "H06-3"
+      ]
+    },
+    {
+      "arm": "B",
+      "call_id": "R0003",
+      "quote": "何回引いても出そうにないなって感じてた",
+      "reason": "結果を今後の見込みとして評価。",
+      "counts_as_update": true,
+      "previous_evaluation": "B賞が続く結果",
+      "new_evaluation": "将来も当たりそうにない予感",
+      "basis_memory_ids": [
+        "L13",
+        "L18"
+      ]
+    },
+    {
+      "arm": "B",
+      "call_id": "R0003",
+      "quote": "A賞の景品もたくさん置かれてたから、おかしいなって思いました。",
+      "reason": "在庫という別の根拠を持ち込む。",
+      "counts_as_update": true,
+      "previous_evaluation": "出そうにない予感",
+      "new_evaluation": "在庫との食い違いへの評価",
+      "basis_memory_ids": [
+        "L25",
+        "L12"
+      ]
+    },
+    {
+      "arm": "B",
+      "call_id": "R0003",
+      "quote": "これだけあれば買えたんじゃないかなって思っちゃうというか。",
+      "reason": "機会費用に相当する比較。",
+      "counts_as_update": true,
+      "previous_evaluation": "不当選への不満",
+      "new_evaluation": "普通に買う選択肢への後悔",
+      "basis_memory_ids": [
+        "L09",
+        "L28"
+      ]
+    },
+    {
+      "arm": "B",
+      "call_id": "R0003",
+      "quote": "A賞が出ない仕組みなんじゃないかって疑いたくなる",
+      "reason": "観察された結果に対する仮説へ移る。仮説はMemory内で指定済み。",
+      "counts_as_update": true,
+      "previous_evaluation": "不当選への不満",
+      "new_evaluation": "仕組みへの未確認の疑念",
+      "basis_memory_ids": [
+        "L10",
+        "L13",
+        "L15"
+      ]
+    },
+    {
+      "arm": "B",
+      "call_id": "R0003",
+      "quote": "それってよくないなって。",
+      "reason": "類似の否定的評価の反復で、新たな観点とは数えない。",
+      "counts_as_update": false,
+      "previous_evaluation": "おかしい",
+      "new_evaluation": "よくない",
+      "basis_memory_ids": [
+        "L11"
+      ]
+    },
+    {
+      "arm": "C",
+      "call_id": "R0006",
+      "quote": "何回引いても出そうにないなって感じました。",
+      "reason": "結果から予感へ進む。",
+      "counts_as_update": true,
+      "previous_evaluation": "B賞が続く結果",
+      "new_evaluation": "将来も当たりそうにない予感",
+      "basis_memory_ids": [
+        "L13",
+        "L18"
+      ]
+    },
+    {
+      "arm": "C",
+      "call_id": "R0007",
+      "quote": "あんなにA賞の景品がたくさん置いてあったのに、おかしいですよね。",
+      "reason": "在庫の観点を足す。",
+      "counts_as_update": true,
+      "previous_evaluation": "出そうにない予感",
+      "new_evaluation": "在庫との食い違い",
+      "basis_memory_ids": [
+        "L25",
+        "L12"
+      ]
+    },
+    {
+      "arm": "C",
+      "call_id": "R0010",
+      "quote": "それだけあれば、何か買えたのかなって思っちゃいますよね。",
+      "reason": "新しい比較軸。対象の具体性は弱い。",
+      "counts_as_update": true,
+      "previous_evaluation": "不当選への不満",
+      "new_evaluation": "購入可能性への後悔",
+      "basis_memory_ids": [
+        "L09",
+        "L28"
+      ]
+    },
+    {
+      "arm": "C",
+      "call_id": "R0011",
+      "quote": "もしかして、A賞が出ないような仕組みなのかな、なんて疑っちゃったりもした",
+      "reason": "指定済みの原因仮説へ移る。",
+      "counts_as_update": true,
+      "previous_evaluation": "不当選への不満",
+      "new_evaluation": "仕組みへの未確認の疑念",
+      "basis_memory_ids": [
+        "L15"
+      ]
+    },
+    {
+      "arm": "C",
+      "call_id": "R0008",
+      "quote": "ちょっとよくないなって思いました。",
+      "reason": "直前と同じ根拠・近い評価なので更新と数えない。",
+      "counts_as_update": false,
+      "previous_evaluation": "在庫があるのにおかしい",
+      "new_evaluation": "在庫があるのによくない",
+      "basis_memory_ids": [
+        "L11",
+        "L26"
+      ]
+    }
+  ],
+  "unsupported_additions": [
+    {
+      "arm": "A",
+      "call_id": "R0001",
+      "quote": "全然A賞が出ない仕組み",
+      "reason": "客観的な仕組み確認の根拠は原文にない。旧圧縮Memoryが疑念を断定化していたものを生成が継承。新しいB/C生成の改変とは別。",
+      "source_or_generation": "source_compression_inherited_not_new_generation"
+    }
+  ],
+  "text_read_receipt": {
+    "method": "All472 unique text lines across five files read in full, with3293 string values roundtripped exactly; actual input/decoded/RAW/body and before/after reference maps read; all11 unit/state views and all29 node/source quotes read. Numeric token arrays CPU audited.",
+    "line_views": [
+      "review_unique_lines_01.txt",
+      "review_unique_lines_02.txt",
+      "review_unique_lines_03.txt",
+      "review_unique_lines_04.txt",
+      "review_unique_lines_05.txt"
+    ],
+    "mapping": "review_text_line_refs.json",
+    "packet_sha256": "135af777204e58c476918b14b5710eb317a38b8115e282a265517f697ccd7fdd"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "status": "pass",
+  "conditions": 8,
+  "all_actual_text_and_raw_present": true,
+  "metrics": [
+    {
+      "arm": "A",
+      "calls": 3,
+      "delivered": 3,
+      "chars": 196,
+      "stop_reason": "fact_presentation_end_retained"
+    },
+    {
+      "arm": "B",
+      "calls": 3,
+      "delivered": 3,
+      "chars": 154,
+      "stop_reason": "fact_presentation_end_retained"
+    },
+    {
+      "arm": "C",
+      "calls": 3,
+      "delivered": 3,
+      "chars": 152,
+      "stop_reason": "fact_presentation_end_retained"
+    },
+    {
+      "arm": "D",
+      "calls": 3,
+      "delivered": 3,
+      "chars": 154,
+      "stop_reason": "fact_presentation_end_retained"
+    },
+    {
+      "arm": "E",
+      "calls": 3,
+      "delivered": 3,
+      "chars": 154,
+      "stop_reason": "fact_presentation_end_retained"
+    },
+    {
+      "arm": "F",
+      "calls": 4,
+      "delivered": 4,
+      "chars": 204,
+      "stop_reason": "call_bound_unverified"
+    },
+    {
+      "arm": "G",
+      "calls": 4,
+      "delivered": 4,
+      "chars": 204,
+      "stop_reason": "call_bound_unverified"
+    }
+  ]
+}

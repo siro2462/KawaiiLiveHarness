@@ -1,0 +1,2053 @@
+{
+  "schema": "reverse_memory_v1",
+  "method": "hand_atomized_from_107_human_lines",
+  "nodes": [
+    {
+      "id": "G01",
+      "topic": "H04",
+      "kind": "F",
+      "source_lines": [
+        1
+      ],
+      "source_quotes": [
+        "こないだたまたまイベント行った時に、隣にガチャガチャがあって。"
+      ],
+      "importance": 3,
+      "tags": [
+        "event",
+        "encounter",
+        "entry"
+      ],
+      "epistemic": "observed",
+      "title": "イベントの隣にガチャガチャがあった",
+      "requires": []
+    },
+    {
+      "id": "G02",
+      "topic": "H04",
+      "kind": "F",
+      "source_lines": [
+        2
+      ],
+      "source_quotes": [
+        "ちらーっと見たら、たまたまあった。"
+      ],
+      "importance": 2,
+      "tags": [
+        "encounter",
+        "chance"
+      ],
+      "epistemic": "observed",
+      "title": "偶然発見した",
+      "requires": []
+    },
+    {
+      "id": "G03",
+      "topic": "H04",
+      "kind": "T",
+      "source_lines": [
+        3
+      ],
+      "source_quotes": [
+        "マジで運が良かったよ、これ。"
+      ],
+      "importance": 3,
+      "tags": [
+        "luck",
+        "encounter"
+      ],
+      "epistemic": "speaker_evaluation",
+      "title": "運が良かったという本人の評価",
+      "requires": []
+    },
+    {
+      "id": "G04",
+      "topic": "H04",
+      "kind": "E",
+      "source_lines": [
+        5
+      ],
+      "source_quotes": [
+        "え、あると思って。"
+      ],
+      "importance": 1,
+      "tags": [
+        "surprise",
+        "encounter"
+      ],
+      "epistemic": "speaker_reaction",
+      "title": "ガチャがあることへの驚き",
+      "requires": []
+    },
+    {
+      "id": "G05",
+      "topic": "H04",
+      "kind": "F",
+      "source_lines": [
+        6
+      ],
+      "source_quotes": [
+        "で、3回やって。"
+      ],
+      "importance": 2,
+      "tags": [
+        "three_pulls",
+        "action"
+      ],
+      "epistemic": "observed",
+      "title": "3回引いた",
+      "requires": []
+    },
+    {
+      "id": "G06",
+      "topic": "H04",
+      "kind": "F",
+      "source_lines": [
+        7
+      ],
+      "source_quotes": [
+        "欲しかったやつが出た。"
+      ],
+      "importance": 3,
+      "tags": [
+        "wanted",
+        "success"
+      ],
+      "epistemic": "observed",
+      "title": "欲しい景品を入手",
+      "requires": [
+        "G05"
+      ]
+    },
+    {
+      "id": "G07",
+      "topic": "H04",
+      "kind": "F",
+      "source_lines": [
+        9
+      ],
+      "source_quotes": [
+        "イベントに入る前にガチャガチャ見つけてゲットして。"
+      ],
+      "importance": 2,
+      "tags": [
+        "before_event",
+        "timing"
+      ],
+      "epistemic": "observed",
+      "title": "イベント入場前の入手",
+      "requires": [
+        "G01"
+      ]
+    },
+    {
+      "id": "G08",
+      "topic": "H04",
+      "kind": "F",
+      "source_lines": [
+        10
+      ],
+      "source_quotes": [
+        "で、イベントから出たらもうね、このガチャガチャ全部売り切れてた。"
+      ],
+      "importance": 3,
+      "tags": [
+        "soldout",
+        "after_event"
+      ],
+      "epistemic": "observed",
+      "title": "退場時すでに完売",
+      "requires": [
+        "G01"
+      ]
+    },
+    {
+      "id": "G09",
+      "topic": "H04",
+      "kind": "T",
+      "source_lines": [
+        11,
+        12
+      ],
+      "source_quotes": [
+        "マジでタイミング良かった。",
+        "入る前にやってよかった。"
+      ],
+      "importance": 3,
+      "tags": [
+        "luck",
+        "timing"
+      ],
+      "epistemic": "speaker_evaluation",
+      "title": "事前に引いてよかったという評価",
+      "requires": [
+        "G08"
+      ]
+    },
+    {
+      "id": "G10",
+      "topic": "H04",
+      "kind": "E",
+      "source_lines": [
+        13
+      ],
+      "source_quotes": [
+        "恐ろしい。"
+      ],
+      "importance": 2,
+      "tags": [
+        "shock",
+        "soldout"
+      ],
+      "epistemic": "speaker_reaction",
+      "title": "完売への怖さ",
+      "requires": []
+    },
+    {
+      "id": "G11",
+      "topic": "H04",
+      "kind": "T",
+      "source_lines": [
+        14
+      ],
+      "source_quotes": [
+        "もうなくなってると思って。"
+      ],
+      "importance": 1,
+      "tags": [
+        "soldout",
+        "expectation"
+      ],
+      "epistemic": "speaker_belief",
+      "title": "売り切れたと本人が思った",
+      "requires": []
+    },
+    {
+      "id": "G12",
+      "topic": "H04",
+      "kind": "F",
+      "source_lines": [
+        15
+      ],
+      "source_quotes": [
+        "3台くらいあったんだよ。"
+      ],
+      "importance": 2,
+      "tags": [
+        "three_machines",
+        "soldout"
+      ],
+      "epistemic": "uncertain_approx",
+      "title": "約3台あった",
+      "requires": []
+    },
+    {
+      "id": "G13",
+      "topic": "H04",
+      "kind": "F",
+      "source_lines": [
+        16
+      ],
+      "source_quotes": [
+        "このポーチのやつ3個あったのに、全部空になってた。"
+      ],
+      "importance": 3,
+      "tags": [
+        "three_machines",
+        "soldout"
+      ],
+      "epistemic": "observed",
+      "title": "ポーチの3台が空になった",
+      "requires": [
+        "G08"
+      ]
+    },
+    {
+      "id": "G14",
+      "topic": "H04",
+      "kind": "E",
+      "source_lines": [
+        17
+      ],
+      "source_quotes": [
+        "はあ。危ねえと思って。"
+      ],
+      "importance": 2,
+      "tags": [
+        "relief",
+        "near_miss"
+      ],
+      "epistemic": "speaker_reaction",
+      "title": "危なかったという安堵",
+      "requires": [
+        "G08"
+      ]
+    },
+    {
+      "id": "G15",
+      "topic": "H04",
+      "kind": "T",
+      "source_lines": [
+        18
+      ],
+      "source_quotes": [
+        "これは本当に運が良かった。"
+      ],
+      "importance": 3,
+      "tags": [
+        "luck",
+        "near_miss"
+      ],
+      "epistemic": "speaker_evaluation",
+      "title": "本当に運が良かったと再評価",
+      "requires": []
+    },
+    {
+      "id": "G16",
+      "topic": "H04",
+      "kind": "T",
+      "source_lines": [
+        20
+      ],
+      "source_quotes": [
+        "ガチャガチャが完売ってすごい。"
+      ],
+      "importance": 2,
+      "tags": [
+        "soldout",
+        "rarity"
+      ],
+      "epistemic": "speaker_evaluation",
+      "title": "完売がすごいと感じた",
+      "requires": []
+    },
+    {
+      "id": "G17",
+      "topic": "H04",
+      "kind": "F",
+      "source_lines": [
+        21
+      ],
+      "source_quotes": [
+        "ガチャガチャコーナー行ったらもう大体、売り切れ売り切れって赤いやつが降りてるけど。"
+      ],
+      "importance": 2,
+      "tags": [
+        "soldout",
+        "red_sign"
+      ],
+      "epistemic": "observed_general",
+      "title": "赤い売切れ表示をよく見かける",
+      "requires": []
+    },
+    {
+      "id": "G18",
+      "topic": "H04",
+      "kind": "T",
+      "source_lines": [
+        22
+      ],
+      "source_quotes": [
+        "見つけると大体売り切れで。"
+      ],
+      "importance": 1,
+      "tags": [
+        "soldout",
+        "expectation"
+      ],
+      "epistemic": "speaker_generalization",
+      "title": "見つけると大体売切れという一般化",
+      "requires": []
+    },
+    {
+      "id": "L01",
+      "topic": "H06",
+      "kind": "E",
+      "source_lines": [
+        1
+      ],
+      "source_quotes": [
+        "でもさ、ちょっと許せないことがあったんだけど。"
+      ],
+      "importance": 3,
+      "tags": [
+        "anger",
+        "entry"
+      ],
+      "epistemic": "speaker_reaction",
+      "title": "許せない話という予告",
+      "requires": []
+    },
+    {
+      "id": "L02",
+      "topic": "H06",
+      "kind": "F",
+      "source_lines": [
+        2
+      ],
+      "source_quotes": [
+        "ガラポンコーナーやったんだけど。"
+      ],
+      "importance": 2,
+      "tags": [
+        "lottery",
+        "event"
+      ],
+      "epistemic": "observed",
+      "title": "ガラポンをした",
+      "requires": []
+    },
+    {
+      "id": "L03",
+      "topic": "H06",
+      "kind": "F",
+      "source_lines": [
+        3
+      ],
+      "source_quotes": [
+        "ぐるぐるぐるって回してA賞、B賞、C賞があって。"
+      ],
+      "importance": 2,
+      "tags": [
+        "mechanism",
+        "lottery"
+      ],
+      "epistemic": "observed",
+      "title": "A/B/C賞のある抽選",
+      "requires": []
+    },
+    {
+      "id": "L04",
+      "topic": "H06",
+      "kind": "F",
+      "source_lines": [
+        4
+      ],
+      "source_quotes": [
+        "A賞がうちわで、B賞が何だっけ？"
+      ],
+      "importance": 2,
+      "tags": [
+        "prize",
+        "A_award"
+      ],
+      "epistemic": "observed",
+      "title": "A賞はうちわ",
+      "requires": []
+    },
+    {
+      "id": "L05",
+      "topic": "H06",
+      "kind": "T",
+      "source_lines": [
+        4,
+        5,
+        6
+      ],
+      "source_quotes": [
+        "A賞がうちわで、B賞が何だっけ？",
+        "なんか忘れたけど。",
+        "シールだかステッカーだかカードだか。"
+      ],
+      "importance": 2,
+      "tags": [
+        "prize",
+        "B_award",
+        "uncertain"
+      ],
+      "epistemic": "uncertain_memory",
+      "title": "B賞の詳細を思い出せない",
+      "requires": []
+    },
+    {
+      "id": "L06",
+      "topic": "H06",
+      "kind": "F",
+      "source_lines": [
+        7
+      ],
+      "source_quotes": [
+        "1回600円で。"
+      ],
+      "importance": 2,
+      "tags": [
+        "cost",
+        "money"
+      ],
+      "epistemic": "observed",
+      "title": "1回600円",
+      "requires": []
+    },
+    {
+      "id": "L07",
+      "topic": "H06",
+      "kind": "T",
+      "source_lines": [
+        8,
+        9
+      ],
+      "source_quotes": [
+        "何回だ？",
+        "15回やったの？"
+      ],
+      "importance": 1,
+      "tags": [
+        "count",
+        "recall"
+      ],
+      "epistemic": "uncertain_memory",
+      "title": "15回だったか思い返す",
+      "requires": []
+    },
+    {
+      "id": "L08",
+      "topic": "H06",
+      "kind": "F",
+      "source_lines": [
+        10
+      ],
+      "source_quotes": [
+        "15回やって。"
+      ],
+      "importance": 3,
+      "tags": [
+        "count",
+        "lottery"
+      ],
+      "epistemic": "observed",
+      "title": "15回回した",
+      "requires": []
+    },
+    {
+      "id": "L09",
+      "topic": "H06",
+      "kind": "F",
+      "source_lines": [
+        11
+      ],
+      "source_quotes": [
+        "9000円ね。"
+      ],
+      "importance": 3,
+      "tags": [
+        "cost",
+        "money"
+      ],
+      "epistemic": "observed",
+      "title": "合計9000円",
+      "requires": [
+        "L06",
+        "L08"
+      ]
+    },
+    {
+      "id": "L10",
+      "topic": "H06",
+      "kind": "F",
+      "source_lines": [
+        12
+      ],
+      "source_quotes": [
+        "9000円やってね、A賞が1回も出ませんでした。"
+      ],
+      "importance": 4,
+      "tags": [
+        "failed",
+        "A_award",
+        "result"
+      ],
+      "epistemic": "observed",
+      "title": "A賞が1回も出なかった",
+      "requires": [
+        "L08"
+      ]
+    },
+    {
+      "id": "L11",
+      "topic": "H06",
+      "kind": "T",
+      "source_lines": [
+        14
+      ],
+      "source_quotes": [
+        "ちょっとこれ良くないと思うんだけど。"
+      ],
+      "importance": 2,
+      "tags": [
+        "fairness",
+        "frustration"
+      ],
+      "epistemic": "speaker_evaluation",
+      "title": "よくないと考えた",
+      "requires": []
+    },
+    {
+      "id": "L12",
+      "topic": "H06",
+      "kind": "T",
+      "source_lines": [
+        16
+      ],
+      "source_quotes": [
+        "これはおかしいと思うんでしょ。"
+      ],
+      "importance": 2,
+      "tags": [
+        "fairness",
+        "frustration"
+      ],
+      "epistemic": "speaker_evaluation",
+      "title": "おかしいという評価",
+      "requires": []
+    },
+    {
+      "id": "L13",
+      "topic": "H06",
+      "kind": "F",
+      "source_lines": [
+        17
+      ],
+      "source_quotes": [
+        "もうずっとB賞、B賞、B賞。"
+      ],
+      "importance": 3,
+      "tags": [
+        "B_award",
+        "failed"
+      ],
+      "epistemic": "observed",
+      "title": "B賞ばかり続いた",
+      "requires": []
+    },
+    {
+      "id": "L14",
+      "topic": "H06",
+      "kind": "E",
+      "source_lines": [
+        18
+      ],
+      "source_quotes": [
+        "許せねえ。"
+      ],
+      "importance": 3,
+      "tags": [
+        "anger",
+        "failed"
+      ],
+      "epistemic": "speaker_reaction",
+      "title": "許せないという怒り",
+      "requires": []
+    },
+    {
+      "id": "L15",
+      "topic": "H06",
+      "kind": "T",
+      "source_lines": [
+        19
+      ],
+      "source_quotes": [
+        "絶対A賞出ないようになってる。"
+      ],
+      "importance": 4,
+      "tags": [
+        "fairness",
+        "lottery",
+        "rigging"
+      ],
+      "epistemic": "unverified_suspicion",
+      "title": "A賞が出ない仕組みだと疑った（事実ではない）",
+      "requires": [
+        "L10",
+        "L13"
+      ]
+    },
+    {
+      "id": "L16",
+      "topic": "H06",
+      "kind": "E",
+      "source_lines": [
+        21
+      ],
+      "source_quotes": [
+        "9000円やばいでしょ。"
+      ],
+      "importance": 3,
+      "tags": [
+        "cost",
+        "shock"
+      ],
+      "epistemic": "speaker_reaction",
+      "title": "9000円はやばいという金額への怒り",
+      "requires": []
+    },
+    {
+      "id": "L17",
+      "topic": "H06",
+      "kind": "T",
+      "source_lines": [
+        22
+      ],
+      "source_quotes": [
+        "なんかもう、え、いや、1回出てもいいやろって。"
+      ],
+      "importance": 3,
+      "tags": [
+        "expectation",
+        "fairness"
+      ],
+      "epistemic": "speaker_evaluation",
+      "title": "1回くらい当たってもよいのでは",
+      "requires": []
+    },
+    {
+      "id": "L18",
+      "topic": "H06",
+      "kind": "T",
+      "source_lines": [
+        24
+      ],
+      "source_quotes": [
+        "何回やってもA賞出る気しねえと思って。"
+      ],
+      "importance": 2,
+      "tags": [
+        "expectation",
+        "failed"
+      ],
+      "epistemic": "speaker_expectation",
+      "title": "何回引いても出そうにないと感じた",
+      "requires": []
+    },
+    {
+      "id": "L19",
+      "topic": "H06",
+      "kind": "E",
+      "source_lines": [
+        27
+      ],
+      "source_quotes": [
+        "でかいだろ。"
+      ],
+      "importance": 2,
+      "tags": [
+        "cost",
+        "shock"
+      ],
+      "epistemic": "speaker_reaction",
+      "title": "金額の大きさを強調",
+      "requires": []
+    },
+    {
+      "id": "L20",
+      "topic": "H06",
+      "kind": "F",
+      "source_lines": [
+        28
+      ],
+      "source_quotes": [
+        "9000円でなんかステッカーとか、そういうのしかもらえなかったんだけど。"
+      ],
+      "importance": 2,
+      "tags": [
+        "cost",
+        "low_prize"
+      ],
+      "epistemic": "observed",
+      "title": "9000円でステッカー等しか貰えず",
+      "requires": []
+    },
+    {
+      "id": "L21",
+      "topic": "H06",
+      "kind": "E",
+      "source_lines": [
+        29
+      ],
+      "source_quotes": [
+        "マジA賞欲しかった。"
+      ],
+      "importance": 3,
+      "tags": [
+        "wanted",
+        "A_award"
+      ],
+      "epistemic": "speaker_desire",
+      "title": "A賞が欲しかった",
+      "requires": []
+    },
+    {
+      "id": "L22",
+      "topic": "H06",
+      "kind": "F",
+      "source_lines": [
+        30
+      ],
+      "source_quotes": [
+        "天井とかねえよ。"
+      ],
+      "importance": 2,
+      "tags": [
+        "no_pity",
+        "mechanism"
+      ],
+      "epistemic": "speaker_report",
+      "title": "天井がないという本人の報告",
+      "requires": []
+    },
+    {
+      "id": "L23",
+      "topic": "H06",
+      "kind": "F",
+      "source_lines": [
+        31,
+        32
+      ],
+      "source_quotes": [
+        "よくある赤い玉とか白い玉とか出す、ぐるぐる回すやつ。",
+        "ああいう感じのでっかいバージョンで。"
+      ],
+      "importance": 1,
+      "tags": [
+        "mechanism",
+        "lottery"
+      ],
+      "epistemic": "observed",
+      "title": "球を取り出す大きな抽選器",
+      "requires": []
+    },
+    {
+      "id": "L24",
+      "topic": "H06",
+      "kind": "E",
+      "source_lines": [
+        34
+      ],
+      "source_quotes": [
+        "はあ。"
+      ],
+      "importance": 1,
+      "tags": [
+        "sigh",
+        "frustration"
+      ],
+      "epistemic": "speaker_reaction",
+      "title": "ため息",
+      "requires": []
+    },
+    {
+      "id": "L25",
+      "topic": "H06",
+      "kind": "F",
+      "source_lines": [
+        35
+      ],
+      "source_quotes": [
+        "え、A賞の景品はめっちゃ置いてあったよ。"
+      ],
+      "importance": 3,
+      "tags": [
+        "prize",
+        "stock"
+      ],
+      "epistemic": "observed",
+      "title": "A賞の景品が多く置かれていた",
+      "requires": []
+    },
+    {
+      "id": "L26",
+      "topic": "H06",
+      "kind": "T",
+      "source_lines": [
+        37
+      ],
+      "source_quotes": [
+        "景品は普通にいっぱいあるのにさ、出ねえの。"
+      ],
+      "importance": 3,
+      "tags": [
+        "stock",
+        "failed",
+        "contrast"
+      ],
+      "epistemic": "speaker_evaluation",
+      "title": "景品在庫と不当選の食い違い",
+      "requires": [
+        "L10",
+        "L25"
+      ]
+    },
+    {
+      "id": "L27",
+      "topic": "H06",
+      "kind": "E",
+      "source_lines": [
+        38,
+        39
+      ],
+      "source_quotes": [
+        "もうさ、くれよ。",
+        "これはマジでちょっとね、ああってなりました。"
+      ],
+      "importance": 3,
+      "tags": [
+        "anger",
+        "prize"
+      ],
+      "epistemic": "speaker_reaction",
+      "title": "もうくれよという強い要求と脱力",
+      "requires": []
+    },
+    {
+      "id": "L28",
+      "topic": "H06",
+      "kind": "T",
+      "source_lines": [
+        40
+      ],
+      "source_quotes": [
+        "9000円あれば普通に1個買えるだろ。"
+      ],
+      "importance": 4,
+      "tags": [
+        "cost",
+        "alternative",
+        "comparison"
+      ],
+      "epistemic": "counterfactual",
+      "title": "9000円なら買えたのでは",
+      "requires": [
+        "L09"
+      ]
+    },
+    {
+      "id": "L29",
+      "topic": "H06",
+      "kind": "E",
+      "source_lines": [
+        41,
+        42
+      ],
+      "source_quotes": [
+        "うわ、やだ。",
+        "ま、これはちょっとショックなのね。"
+      ],
+      "importance": 2,
+      "tags": [
+        "regret",
+        "shock"
+      ],
+      "epistemic": "speaker_reaction",
+      "title": "嫌だ・ショックだった",
+      "requires": [
+        "L28"
+      ]
+    },
+    {
+      "id": "S01",
+      "topic": "H07",
+      "kind": "F",
+      "source_lines": [
+        1
+      ],
+      "source_quotes": [
+        "で、その後、射的したよ。"
+      ],
+      "importance": 3,
+      "tags": [
+        "event",
+        "shooting",
+        "entry"
+      ],
+      "epistemic": "observed",
+      "title": "射的をした",
+      "requires": []
+    },
+    {
+      "id": "S02",
+      "topic": "H07",
+      "kind": "E",
+      "source_lines": [
+        2
+      ],
+      "source_quotes": [
+        "射的はね、私うますぎるんだけどさ。"
+      ],
+      "importance": 3,
+      "tags": [
+        "pride",
+        "skill"
+      ],
+      "epistemic": "speaker_reaction",
+      "title": "自分はうますぎると自慢",
+      "requires": []
+    },
+    {
+      "id": "S03",
+      "topic": "H07",
+      "kind": "F",
+      "source_lines": [
+        4
+      ],
+      "source_quotes": [
+        "なんかね、トートバッグがもらえる射的やったのね。"
+      ],
+      "importance": 2,
+      "tags": [
+        "tote",
+        "prize"
+      ],
+      "epistemic": "observed",
+      "title": "トートバッグが景品",
+      "requires": []
+    },
+    {
+      "id": "S04",
+      "topic": "H07",
+      "kind": "F",
+      "source_lines": [
+        5
+      ],
+      "source_quotes": [
+        "そしたら1発目で当たったんよ。"
+      ],
+      "importance": 4,
+      "tags": [
+        "hit",
+        "first",
+        "skill"
+      ],
+      "epistemic": "observed",
+      "title": "1発目で命中",
+      "requires": [
+        "S01"
+      ]
+    },
+    {
+      "id": "S05",
+      "topic": "H07",
+      "kind": "E",
+      "source_lines": [
+        6
+      ],
+      "source_quotes": [
+        "うますぎた。"
+      ],
+      "importance": 3,
+      "tags": [
+        "pride",
+        "first"
+      ],
+      "epistemic": "speaker_reaction",
+      "title": "うますぎたという興奮",
+      "requires": []
+    },
+    {
+      "id": "S06",
+      "topic": "H07",
+      "kind": "F",
+      "source_lines": [
+        7
+      ],
+      "source_quotes": [
+        "5発か6発打てる中で最初に当てて。"
+      ],
+      "importance": 2,
+      "tags": [
+        "shots",
+        "count",
+        "first"
+      ],
+      "epistemic": "uncertain_approx",
+      "title": "5、6発あるうち最初に当てた",
+      "requires": []
+    },
+    {
+      "id": "S07",
+      "topic": "H07",
+      "kind": "T",
+      "source_lines": [
+        11
+      ],
+      "source_quotes": [
+        "運が絡まなければ。"
+      ],
+      "importance": 3,
+      "tags": [
+        "luck",
+        "skill",
+        "contrast"
+      ],
+      "epistemic": "speaker_evaluation",
+      "title": "運が絡まなければという対比",
+      "requires": []
+    },
+    {
+      "id": "S08",
+      "topic": "H07",
+      "kind": "T",
+      "source_lines": [
+        12
+      ],
+      "source_quotes": [
+        "そう、私はスナイパーの実力がある。"
+      ],
+      "importance": 3,
+      "tags": [
+        "skill",
+        "sniper"
+      ],
+      "epistemic": "speaker_evaluation",
+      "title": "スナイパーの実力があるという自信",
+      "requires": []
+    },
+    {
+      "id": "S09",
+      "topic": "H07",
+      "kind": "F",
+      "source_lines": [
+        13
+      ],
+      "source_quotes": [
+        "で、6発ぐらい打てる中2発当たったの。"
+      ],
+      "importance": 3,
+      "tags": [
+        "shots",
+        "count",
+        "hit"
+      ],
+      "epistemic": "uncertain_approx",
+      "title": "6発くらい中2発命中",
+      "requires": [
+        "S04"
+      ]
+    },
+    {
+      "id": "S10",
+      "topic": "H07",
+      "kind": "F",
+      "source_lines": [
+        15
+      ],
+      "source_quotes": [
+        "ま、トートバッグは1個しかもらえないけど。"
+      ],
+      "importance": 2,
+      "tags": [
+        "tote",
+        "prize"
+      ],
+      "epistemic": "observed",
+      "title": "トートは1個しかもらえなかった",
+      "requires": []
+    },
+    {
+      "id": "S11",
+      "topic": "H07",
+      "kind": "F",
+      "source_lines": [
+        16,
+        17
+      ],
+      "source_quotes": [
+        "弾余ったから打てるっていうからね。",
+        "打ったら当たった。"
+      ],
+      "importance": 2,
+      "tags": [
+        "shots",
+        "hit"
+      ],
+      "epistemic": "observed",
+      "title": "余った弾で撃って命中",
+      "requires": [
+        "S04"
+      ]
+    },
+    {
+      "id": "S12",
+      "topic": "H07",
+      "kind": "T",
+      "source_lines": [
+        18
+      ],
+      "source_quotes": [
+        "なんかうまいんだよね。"
+      ],
+      "importance": 2,
+      "tags": [
+        "skill",
+        "pride"
+      ],
+      "epistemic": "speaker_evaluation",
+      "title": "自分はうまいと再評価",
+      "requires": []
+    },
+    {
+      "id": "S13",
+      "topic": "H07",
+      "kind": "F",
+      "source_lines": [
+        19,
+        20
+      ],
+      "source_quotes": [
+        "でもね、あの、射的の銃って重いんだよね。",
+        "持つだけでも、ふーって重いって疲れちゃうぐらいなんだけど。"
+      ],
+      "importance": 3,
+      "tags": [
+        "weight",
+        "gun"
+      ],
+      "epistemic": "observed",
+      "title": "射的の銃が重く、持つだけで疲れる",
+      "requires": []
+    },
+    {
+      "id": "S14",
+      "topic": "H07",
+      "kind": "F",
+      "source_lines": [
+        23
+      ],
+      "source_quotes": [
+        "長いし金属ついてるから重いんだもん。"
+      ],
+      "importance": 2,
+      "tags": [
+        "weight",
+        "gun",
+        "metal"
+      ],
+      "epistemic": "observed",
+      "title": "長く金属がついて重い",
+      "requires": []
+    },
+    {
+      "id": "S15",
+      "topic": "H07",
+      "kind": "T",
+      "source_lines": [
+        21
+      ],
+      "source_quotes": [
+        "ま、それでも当てちゃうんでしょう。"
+      ],
+      "importance": 2,
+      "tags": [
+        "weight",
+        "skill",
+        "contrast"
+      ],
+      "epistemic": "speaker_evaluation",
+      "title": "それでも当てたという自慢",
+      "requires": [
+        "S04",
+        "S13"
+      ]
+    },
+    {
+      "id": "S16",
+      "topic": "H07",
+      "kind": "T",
+      "source_lines": [
+        25
+      ],
+      "source_quotes": [
+        "ま、私はね、当てちゃうんですけどね。"
+      ],
+      "importance": 2,
+      "tags": [
+        "skill",
+        "weight",
+        "contrast"
+      ],
+      "epistemic": "speaker_evaluation",
+      "title": "難しくても当てられたと再評価",
+      "requires": [
+        "S04",
+        "S14"
+      ]
+    },
+    {
+      "id": "S17",
+      "topic": "H07",
+      "kind": "F",
+      "source_lines": [
+        26
+      ],
+      "source_quotes": [
+        "で、こん時に射的してる時に、知らない女の人に突然話しかけられてたっていう事件があったのね。"
+      ],
+      "importance": 3,
+      "tags": [
+        "woman",
+        "encounter"
+      ],
+      "epistemic": "observed",
+      "title": "知らない女性から突然声をかけられた",
+      "requires": []
+    },
+    {
+      "id": "S18",
+      "topic": "H07",
+      "kind": "F",
+      "source_lines": [
+        27
+      ],
+      "source_quotes": [
+        "バッグにグッズいっぱいつけてたから。"
+      ],
+      "importance": 2,
+      "tags": [
+        "bag",
+        "goods"
+      ],
+      "epistemic": "observed",
+      "title": "自分のバッグにグッズをつけていた",
+      "requires": []
+    },
+    {
+      "id": "S19",
+      "topic": "H07",
+      "kind": "F",
+      "source_lines": [
+        28
+      ],
+      "source_quotes": [
+        "射的こう構えてる時に、女の人の声がめっちゃ後ろから聞こえて。"
+      ],
+      "importance": 2,
+      "tags": [
+        "woman",
+        "voice",
+        "behind"
+      ],
+      "epistemic": "observed",
+      "title": "背後から声が聞こえた",
+      "requires": []
+    },
+    {
+      "id": "S20",
+      "topic": "H07",
+      "kind": "F",
+      "source_lines": [
+        29
+      ],
+      "source_quotes": [
+        "『え、ここにもいる』みたいな声が聞こえてきて。"
+      ],
+      "importance": 1,
+      "tags": [
+        "woman",
+        "quote"
+      ],
+      "epistemic": "heard_quote_uncertain",
+      "title": "ここにもいるという声が聞こえた",
+      "requires": []
+    },
+    {
+      "id": "S21",
+      "topic": "H07",
+      "kind": "T",
+      "source_lines": [
+        30
+      ],
+      "source_quotes": [
+        "まさか私に話しかけられてるとは思わなくてね、そのまま構えてたら。"
+      ],
+      "importance": 2,
+      "tags": [
+        "woman",
+        "voice",
+        "attention"
+      ],
+      "epistemic": "speaker_initial_belief",
+      "title": "自分に話しているとは思わなかった",
+      "requires": []
+    },
+    {
+      "id": "S22",
+      "topic": "H07",
+      "kind": "T",
+      "source_lines": [
+        31
+      ],
+      "source_quotes": [
+        "私に話しかけてたというか、私のバッグを見て反応してたみたいな。"
+      ],
+      "importance": 3,
+      "tags": [
+        "woman",
+        "bag",
+        "correction"
+      ],
+      "epistemic": "speaker_reinterpretation",
+      "title": "実際はバッグを見て反応したらしいと修正",
+      "requires": [
+        "S18",
+        "S21"
+      ]
+    },
+    {
+      "id": "S23",
+      "topic": "H07",
+      "kind": "F",
+      "source_lines": [
+        32
+      ],
+      "source_quotes": [
+        "真後ろに女の人がいたよ。"
+      ],
+      "importance": 2,
+      "tags": [
+        "woman",
+        "behind"
+      ],
+      "epistemic": "observed",
+      "title": "女性は真後ろにいた",
+      "requires": []
+    },
+    {
+      "id": "S24",
+      "topic": "H07",
+      "kind": "F",
+      "source_lines": [
+        33,
+        34
+      ],
+      "source_quotes": [
+        "振り向いたら女の人がいて、えって。",
+        "で、バッグについてるグッズを見て、『え、ここにもいるの分からなかった』みたいな。"
+      ],
+      "importance": 2,
+      "tags": [
+        "woman",
+        "bag",
+        "quote"
+      ],
+      "epistemic": "heard_quote_uncertain",
+      "title": "振り向き女性とグッズの反応を確認",
+      "requires": []
+    },
+    {
+      "id": "S25",
+      "topic": "H07",
+      "kind": "E",
+      "source_lines": [
+        35,
+        36,
+        37
+      ],
+      "source_quotes": [
+        "え、え、ど、どれ？みたいなね。",
+        "え、えってなった。",
+        "突然のことで反応できないんで、えええってなってましたけど。"
+      ],
+      "importance": 3,
+      "tags": [
+        "confusion",
+        "reenact"
+      ],
+      "epistemic": "speaker_reaction",
+      "title": "突然で混乱し反応できなかった",
+      "requires": []
+    },
+    {
+      "id": "S26",
+      "topic": "H07",
+      "kind": "T",
+      "source_lines": [
+        38
+      ],
+      "source_quotes": [
+        "前に全集中してたから、後ろで誰か喋ってるぐらいにしか思わなかったね。"
+      ],
+      "importance": 2,
+      "tags": [
+        "concentration",
+        "attention"
+      ],
+      "epistemic": "speaker_explanation",
+      "title": "前方に集中していて背後の声と認識した",
+      "requires": [
+        "S19"
+      ]
+    },
+    {
+      "id": "S27",
+      "topic": "H07",
+      "kind": "E",
+      "source_lines": [
+        39
+      ],
+      "source_quotes": [
+        "ちょっとびっくりしたな。"
+      ],
+      "importance": 2,
+      "tags": [
+        "surprise",
+        "woman"
+      ],
+      "epistemic": "speaker_reaction",
+      "title": "びっくりした",
+      "requires": []
+    },
+    {
+      "id": "S28",
+      "topic": "H07",
+      "kind": "T",
+      "source_lines": [
+        40,
+        41,
+        42
+      ],
+      "source_quotes": [
+        "いろんな人がいる。",
+        "うん。",
+        "世の中いろんな人がいるからね。"
+      ],
+      "importance": 1,
+      "tags": [
+        "people",
+        "generalization"
+      ],
+      "epistemic": "speaker_generalization",
+      "title": "世の中にはいろんな人がいる",
+      "requires": []
+    }
+  ],
+  "edges": [
+    {
+      "src": "G01",
+      "dst": "G02",
+      "rel": "elaboration"
+    },
+    {
+      "src": "G02",
+      "dst": "G03",
+      "rel": "appraisal"
+    },
+    {
+      "src": "G02",
+      "dst": "G04",
+      "rel": "reaction"
+    },
+    {
+      "src": "G02",
+      "dst": "G05",
+      "rel": "action"
+    },
+    {
+      "src": "G05",
+      "dst": "G06",
+      "rel": "outcome"
+    },
+    {
+      "src": "G06",
+      "dst": "G03",
+      "rel": "appraisal"
+    },
+    {
+      "src": "G06",
+      "dst": "G07",
+      "rel": "time"
+    },
+    {
+      "src": "G07",
+      "dst": "G08",
+      "rel": "temporal"
+    },
+    {
+      "src": "G08",
+      "dst": "G09",
+      "rel": "reframe"
+    },
+    {
+      "src": "G08",
+      "dst": "G10",
+      "rel": "reaction"
+    },
+    {
+      "src": "G08",
+      "dst": "G12",
+      "rel": "evidence"
+    },
+    {
+      "src": "G12",
+      "dst": "G13",
+      "rel": "elaboration"
+    },
+    {
+      "src": "G13",
+      "dst": "G14",
+      "rel": "reaction"
+    },
+    {
+      "src": "G13",
+      "dst": "G15",
+      "rel": "reappraise"
+    },
+    {
+      "src": "G13",
+      "dst": "G16",
+      "rel": "appraisal"
+    },
+    {
+      "src": "G16",
+      "dst": "G17",
+      "rel": "generalize"
+    },
+    {
+      "src": "G17",
+      "dst": "G18",
+      "rel": "generalize"
+    },
+    {
+      "src": "G09",
+      "dst": "G15",
+      "rel": "reappraise"
+    },
+    {
+      "src": "G04",
+      "dst": "G05",
+      "rel": "resume"
+    },
+    {
+      "src": "G11",
+      "dst": "G13",
+      "rel": "verify"
+    },
+    {
+      "src": "L01",
+      "dst": "L02",
+      "rel": "setup"
+    },
+    {
+      "src": "L02",
+      "dst": "L03",
+      "rel": "elaboration"
+    },
+    {
+      "src": "L03",
+      "dst": "L04",
+      "rel": "prize"
+    },
+    {
+      "src": "L04",
+      "dst": "L05",
+      "rel": "uncertainty"
+    },
+    {
+      "src": "L03",
+      "dst": "L23",
+      "rel": "elaboration"
+    },
+    {
+      "src": "L03",
+      "dst": "L06",
+      "rel": "price"
+    },
+    {
+      "src": "L06",
+      "dst": "L07",
+      "rel": "calculate"
+    },
+    {
+      "src": "L07",
+      "dst": "L08",
+      "rel": "resolve"
+    },
+    {
+      "src": "L06",
+      "dst": "L09",
+      "rel": "calculate"
+    },
+    {
+      "src": "L08",
+      "dst": "L09",
+      "rel": "calculate"
+    },
+    {
+      "src": "L08",
+      "dst": "L10",
+      "rel": "outcome"
+    },
+    {
+      "src": "L09",
+      "dst": "L10",
+      "rel": "outcome"
+    },
+    {
+      "src": "L10",
+      "dst": "L11",
+      "rel": "appraisal"
+    },
+    {
+      "src": "L10",
+      "dst": "L13",
+      "rel": "evidence"
+    },
+    {
+      "src": "L10",
+      "dst": "L14",
+      "rel": "reaction"
+    },
+    {
+      "src": "L10",
+      "dst": "L17",
+      "rel": "expectation"
+    },
+    {
+      "src": "L10",
+      "dst": "L18",
+      "rel": "expectation"
+    },
+    {
+      "src": "L10",
+      "dst": "L25",
+      "rel": "contrast"
+    },
+    {
+      "src": "L13",
+      "dst": "L15",
+      "rel": "suspicion"
+    },
+    {
+      "src": "L13",
+      "dst": "L14",
+      "rel": "reaction"
+    },
+    {
+      "src": "L14",
+      "dst": "L15",
+      "rel": "suspicion"
+    },
+    {
+      "src": "L14",
+      "dst": "L16",
+      "rel": "cost_stakes"
+    },
+    {
+      "src": "L09",
+      "dst": "L16",
+      "rel": "cost_stakes"
+    },
+    {
+      "src": "L09",
+      "dst": "L19",
+      "rel": "cost_stakes"
+    },
+    {
+      "src": "L09",
+      "dst": "L20",
+      "rel": "cost_detail"
+    },
+    {
+      "src": "L09",
+      "dst": "L28",
+      "rel": "compare"
+    },
+    {
+      "src": "L15",
+      "dst": "L17",
+      "rel": "reappraise"
+    },
+    {
+      "src": "L17",
+      "dst": "L18",
+      "rel": "thought"
+    },
+    {
+      "src": "L16",
+      "dst": "L19",
+      "rel": "emphasis"
+    },
+    {
+      "src": "L19",
+      "dst": "L20",
+      "rel": "evidence"
+    },
+    {
+      "src": "L20",
+      "dst": "L21",
+      "rel": "desire"
+    },
+    {
+      "src": "L21",
+      "dst": "L22",
+      "rel": "missing_guarantee"
+    },
+    {
+      "src": "L22",
+      "dst": "L24",
+      "rel": "sigh"
+    },
+    {
+      "src": "L22",
+      "dst": "L23",
+      "rel": "mechanism"
+    },
+    {
+      "src": "L25",
+      "dst": "L26",
+      "rel": "contrast"
+    },
+    {
+      "src": "L26",
+      "dst": "L27",
+      "rel": "reaction"
+    },
+    {
+      "src": "L26",
+      "dst": "L28",
+      "rel": "comparison"
+    },
+    {
+      "src": "L28",
+      "dst": "L29",
+      "rel": "regret"
+    },
+    {
+      "src": "L10",
+      "dst": "L26",
+      "rel": "contrast"
+    },
+    {
+      "src": "L16",
+      "dst": "L28",
+      "rel": "comparison"
+    },
+    {
+      "src": "L29",
+      "dst": "L28",
+      "rel": "rethink"
+    },
+    {
+      "src": "S01",
+      "dst": "S02",
+      "rel": "reaction"
+    },
+    {
+      "src": "S01",
+      "dst": "S03",
+      "rel": "detail"
+    },
+    {
+      "src": "S03",
+      "dst": "S04",
+      "rel": "result"
+    },
+    {
+      "src": "S04",
+      "dst": "S05",
+      "rel": "reaction"
+    },
+    {
+      "src": "S04",
+      "dst": "S06",
+      "rel": "qualification"
+    },
+    {
+      "src": "S04",
+      "dst": "S07",
+      "rel": "contrast"
+    },
+    {
+      "src": "S04",
+      "dst": "S08",
+      "rel": "self_evaluate"
+    },
+    {
+      "src": "S04",
+      "dst": "S09",
+      "rel": "detail"
+    },
+    {
+      "src": "S05",
+      "dst": "S08",
+      "rel": "evaluate"
+    },
+    {
+      "src": "S06",
+      "dst": "S09",
+      "rel": "counts"
+    },
+    {
+      "src": "S07",
+      "dst": "S08",
+      "rel": "reason"
+    },
+    {
+      "src": "S09",
+      "dst": "S10",
+      "rel": "limits"
+    },
+    {
+      "src": "S09",
+      "dst": "S11",
+      "rel": "detail"
+    },
+    {
+      "src": "S11",
+      "dst": "S12",
+      "rel": "evaluate"
+    },
+    {
+      "src": "S08",
+      "dst": "S13",
+      "rel": "challenge"
+    },
+    {
+      "src": "S13",
+      "dst": "S14",
+      "rel": "detail"
+    },
+    {
+      "src": "S13",
+      "dst": "S15",
+      "rel": "reappraise"
+    },
+    {
+      "src": "S14",
+      "dst": "S16",
+      "rel": "reappraise"
+    },
+    {
+      "src": "S15",
+      "dst": "S16",
+      "rel": "reappraise"
+    },
+    {
+      "src": "S16",
+      "dst": "S17",
+      "rel": "next_event"
+    },
+    {
+      "src": "S17",
+      "dst": "S18",
+      "rel": "context"
+    },
+    {
+      "src": "S17",
+      "dst": "S19",
+      "rel": "detail"
+    },
+    {
+      "src": "S18",
+      "dst": "S22",
+      "rel": "explanation"
+    },
+    {
+      "src": "S19",
+      "dst": "S20",
+      "rel": "reenact"
+    },
+    {
+      "src": "S19",
+      "dst": "S21",
+      "rel": "initial_belief"
+    },
+    {
+      "src": "S21",
+      "dst": "S22",
+      "rel": "correction"
+    },
+    {
+      "src": "S22",
+      "dst": "S23",
+      "rel": "detail"
+    },
+    {
+      "src": "S23",
+      "dst": "S24",
+      "rel": "reenact"
+    },
+    {
+      "src": "S24",
+      "dst": "S25",
+      "rel": "reaction"
+    },
+    {
+      "src": "S25",
+      "dst": "S26",
+      "rel": "explanation"
+    },
+    {
+      "src": "S26",
+      "dst": "S27",
+      "rel": "reaction"
+    },
+    {
+      "src": "S27",
+      "dst": "S28",
+      "rel": "generalize"
+    },
+    {
+      "src": "L10",
+      "dst": "S07",
+      "rel": "contrast"
+    },
+    {
+      "src": "L15",
+      "dst": "S07",
+      "rel": "contrast"
+    },
+    {
+      "src": "L16",
+      "dst": "S07",
+      "rel": "contrast"
+    },
+    {
+      "src": "S07",
+      "dst": "L16",
+      "rel": "contrast"
+    },
+    {
+      "src": "S08",
+      "dst": "L15",
+      "rel": "contrast"
+    },
+    {
+      "src": "G03",
+      "dst": "L15",
+      "rel": "contrast"
+    },
+    {
+      "src": "L15",
+      "dst": "G03",
+      "rel": "contrast"
+    },
+    {
+      "src": "S08",
+      "dst": "G03",
+      "rel": "contrast"
+    },
+    {
+      "src": "G03",
+      "dst": "S07",
+      "rel": "luck_link"
+    },
+    {
+      "src": "S08",
+      "dst": "G06",
+      "rel": "success_link"
+    },
+    {
+      "src": "G06",
+      "dst": "S08",
+      "rel": "success_link"
+    },
+    {
+      "src": "S03",
+      "dst": "G06",
+      "rel": "prize_link"
+    },
+    {
+      "src": "L29",
+      "dst": "S02",
+      "rel": "contrast"
+    }
+  ]
+}

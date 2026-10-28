@@ -36,3 +36,11 @@ python -X utf8 -B v5/tools/test_current.py -v
 `v5/experiments/surface_viewpoint_h06_20261026/`は元実行ソースのbyte保持保存。元contract_runtimeを呼び、その出力末尾へ指定角度・元Fact引用・共通規則を追加する。元のv5/runtimeは変更しない。各条件は元履歴から独立に1回生成し、新規発話を次条件へ戻さない。
 
 `python -X utf8 -B v5/tools/test_viewpoint_evidence.py -v`は保存済み実入力のrenderer一致、元の人間比較runからの正確な参照、条件固定、EOS、全出力とRAWのHTML保全、レビューSHAと意味未検証状態をCPUだけで照合する。元の公式Processorを伴うCPU62チェックは保存実績であり、ここで再実行したとはしない。protocol_exportは条件と来歴の記録で、外部凍結資産を含む実行用protocolではない。
+
+## 2026-10-27のストライプ研究候補
+
+`v5/experiments/`の5候補は実行済みソースをbyte保持、`v5/evidence/`には固定入力/実prompt・decoded・RAWを含むreview_packet、全文比較、当時のCPU監査と終了receiptを保存。独立した実行条件であり既定Runtimeの置換ではない。
+
+`python -X utf8 -B v5/tools/test_stripe_evidence.py -v`は標準ライブラリのみで保存完了/SHA、全実入力RAWのHTML保全、H06 Engineの同一性と32操作再現、新10素材の全CPU選択再現、同じMemory/LoRA/生成条件、色集計の範囲を検査する。実モデルや公式Processorは呼ばず、当時のCPU51/127/95/121/149の全再実行ではない。
+
+protocol_export.jsonは外部凍結一覧を省いた来歴記録。そのまま新生成を開始する用途ではない。元モデルや全教材を含めない。Luna参照はこの限定5話題と既存H06比較に必要な本文・Memory根拠のみで、元YAMLコーパス全体や元配信ZIPは含めない。全チャット履歴とSQLiteはローカル研究台帳だけに保存し、この公開リポジトリへ転送しない。

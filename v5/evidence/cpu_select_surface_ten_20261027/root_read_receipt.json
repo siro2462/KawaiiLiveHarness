@@ -1,0 +1,36 @@
+{
+  "review_packet_sha256": "01e5d19a0a61f3c68d4243e4c9bb0b9c6492f52cef6836233f692ff79a0bd996",
+  "recorded_jst": "2026-10-27T23:27:13.326415+09:00",
+  "root_reader": "/root",
+  "common_full_text": [
+    "review_common.txt"
+  ],
+  "semantic_full_text": [
+    "review_semantic_V01.txt",
+    "review_semantic_V02.txt",
+    "review_semantic_V03.txt",
+    "review_semantic_V04.txt",
+    "review_semantic_V05.txt",
+    "review_semantic_O01.txt",
+    "review_semantic_O02.txt",
+    "review_semantic_O03.txt",
+    "review_semantic_O04.txt",
+    "review_semantic_O05.txt"
+  ],
+  "cpu_full_text": [
+    "review_audit_V01.txt",
+    "review_audit_compact_V02.txt",
+    "review_audit_compact_V03.txt",
+    "review_audit_compact_V04.txt",
+    "review_audit_compact_V05.txt",
+    "review_audit_compact_O01.txt",
+    "review_audit_compact_O02.txt",
+    "review_audit_compact_O03.txt",
+    "review_audit_compact_O04.txt",
+    "review_audit_compact_O05.txt"
+  ],
+  "method": "Common exact prompt and decoded frames read once; all source text/spec/nodes/old-new operations/RAW/body/history and conditions read per sample. CPU graph tags/edges, trace, all exact candidate-score tables read through reversible aliases and references; proof reconstructs originals exactly. Numeric token arrays were CPU audited.",
+  "numeric_token_arrays_manually_read": false,
+  "proof_sha256": "426082ffdbf62c1d5548168f9ed214f9106355e90f8d1f70288bf3973175cbca",
+  "all_semantic_and_cpu_views_read": true
+}

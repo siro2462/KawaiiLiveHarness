@@ -1,0 +1,795 @@
+{
+  "nodes": [
+    {
+      "id": "L01",
+      "topic": "H06",
+      "kind": "E",
+      "source_lines": [
+        1
+      ],
+      "source_quotes": [
+        "でもさ、ちょっと許せないことがあったんだけど。"
+      ],
+      "importance": 3,
+      "tags": [
+        "anger",
+        "entry"
+      ],
+      "epistemic": "speaker_reaction",
+      "title": "許せない話という予告",
+      "requires": []
+    },
+    {
+      "id": "L02",
+      "topic": "H06",
+      "kind": "F",
+      "source_lines": [
+        2
+      ],
+      "source_quotes": [
+        "ガラポンコーナーやったんだけど。"
+      ],
+      "importance": 2,
+      "tags": [
+        "lottery",
+        "event"
+      ],
+      "epistemic": "observed",
+      "title": "ガラポンをした",
+      "requires": []
+    },
+    {
+      "id": "L03",
+      "topic": "H06",
+      "kind": "F",
+      "source_lines": [
+        3
+      ],
+      "source_quotes": [
+        "ぐるぐるぐるって回してA賞、B賞、C賞があって。"
+      ],
+      "importance": 2,
+      "tags": [
+        "mechanism",
+        "lottery"
+      ],
+      "epistemic": "observed",
+      "title": "A/B/C賞のある抽選",
+      "requires": []
+    },
+    {
+      "id": "L04",
+      "topic": "H06",
+      "kind": "F",
+      "source_lines": [
+        4
+      ],
+      "source_quotes": [
+        "A賞がうちわで、B賞が何だっけ？"
+      ],
+      "importance": 2,
+      "tags": [
+        "prize",
+        "A_award"
+      ],
+      "epistemic": "observed",
+      "title": "A賞はうちわ",
+      "requires": []
+    },
+    {
+      "id": "L05",
+      "topic": "H06",
+      "kind": "T",
+      "source_lines": [
+        4,
+        5,
+        6
+      ],
+      "source_quotes": [
+        "A賞がうちわで、B賞が何だっけ？",
+        "なんか忘れたけど。",
+        "シールだかステッカーだかカードだか。"
+      ],
+      "importance": 2,
+      "tags": [
+        "prize",
+        "B_award",
+        "uncertain"
+      ],
+      "epistemic": "uncertain_memory",
+      "title": "B賞の詳細を思い出せない",
+      "requires": []
+    },
+    {
+      "id": "L06",
+      "topic": "H06",
+      "kind": "F",
+      "source_lines": [
+        7
+      ],
+      "source_quotes": [
+        "1回600円で。"
+      ],
+      "importance": 2,
+      "tags": [
+        "cost",
+        "money"
+      ],
+      "epistemic": "observed",
+      "title": "1回600円",
+      "requires": []
+    },
+    {
+      "id": "L07",
+      "topic": "H06",
+      "kind": "T",
+      "source_lines": [
+        8,
+        9
+      ],
+      "source_quotes": [
+        "何回だ？",
+        "15回やったの？"
+      ],
+      "importance": 1,
+      "tags": [
+        "count",
+        "recall"
+      ],
+      "epistemic": "uncertain_memory",
+      "title": "15回だったか思い返す",
+      "requires": []
+    },
+    {
+      "id": "L08",
+      "topic": "H06",
+      "kind": "F",
+      "source_lines": [
+        10
+      ],
+      "source_quotes": [
+        "15回やって。"
+      ],
+      "importance": 3,
+      "tags": [
+        "count",
+        "lottery"
+      ],
+      "epistemic": "observed",
+      "title": "15回回した",
+      "requires": []
+    },
+    {
+      "id": "L09",
+      "topic": "H06",
+      "kind": "F",
+      "source_lines": [
+        11
+      ],
+      "source_quotes": [
+        "9000円ね。"
+      ],
+      "importance": 3,
+      "tags": [
+        "cost",
+        "money"
+      ],
+      "epistemic": "observed",
+      "title": "合計9000円",
+      "requires": [
+        "L06",
+        "L08"
+      ]
+    },
+    {
+      "id": "L10",
+      "topic": "H06",
+      "kind": "F",
+      "source_lines": [
+        12
+      ],
+      "source_quotes": [
+        "9000円やってね、A賞が1回も出ませんでした。"
+      ],
+      "importance": 4,
+      "tags": [
+        "failed",
+        "A_award",
+        "result"
+      ],
+      "epistemic": "observed",
+      "title": "A賞が1回も出なかった",
+      "requires": [
+        "L08"
+      ]
+    },
+    {
+      "id": "L11",
+      "topic": "H06",
+      "kind": "T",
+      "source_lines": [
+        14
+      ],
+      "source_quotes": [
+        "ちょっとこれ良くないと思うんだけど。"
+      ],
+      "importance": 2,
+      "tags": [
+        "fairness",
+        "frustration"
+      ],
+      "epistemic": "speaker_evaluation",
+      "title": "よくないと考えた",
+      "requires": []
+    },
+    {
+      "id": "L12",
+      "topic": "H06",
+      "kind": "T",
+      "source_lines": [
+        16
+      ],
+      "source_quotes": [
+        "これはおかしいと思うんでしょ。"
+      ],
+      "importance": 2,
+      "tags": [
+        "fairness",
+        "frustration"
+      ],
+      "epistemic": "speaker_evaluation",
+      "title": "おかしいという評価",
+      "requires": []
+    },
+    {
+      "id": "L13",
+      "topic": "H06",
+      "kind": "F",
+      "source_lines": [
+        17
+      ],
+      "source_quotes": [
+        "もうずっとB賞、B賞、B賞。"
+      ],
+      "importance": 3,
+      "tags": [
+        "B_award",
+        "failed"
+      ],
+      "epistemic": "observed",
+      "title": "B賞ばかり続いた",
+      "requires": []
+    },
+    {
+      "id": "L14",
+      "topic": "H06",
+      "kind": "E",
+      "source_lines": [
+        18
+      ],
+      "source_quotes": [
+        "許せねえ。"
+      ],
+      "importance": 3,
+      "tags": [
+        "anger",
+        "failed"
+      ],
+      "epistemic": "speaker_reaction",
+      "title": "許せないという怒り",
+      "requires": []
+    },
+    {
+      "id": "L15",
+      "topic": "H06",
+      "kind": "T",
+      "source_lines": [
+        19
+      ],
+      "source_quotes": [
+        "絶対A賞出ないようになってる。"
+      ],
+      "importance": 4,
+      "tags": [
+        "fairness",
+        "lottery",
+        "rigging"
+      ],
+      "epistemic": "unverified_suspicion",
+      "title": "A賞が出ない仕組みだと疑った（事実ではない）",
+      "requires": [
+        "L10",
+        "L13"
+      ]
+    },
+    {
+      "id": "L16",
+      "topic": "H06",
+      "kind": "E",
+      "source_lines": [
+        21
+      ],
+      "source_quotes": [
+        "9000円やばいでしょ。"
+      ],
+      "importance": 3,
+      "tags": [
+        "cost",
+        "shock"
+      ],
+      "epistemic": "speaker_reaction",
+      "title": "9000円はやばいという金額への怒り",
+      "requires": []
+    },
+    {
+      "id": "L17",
+      "topic": "H06",
+      "kind": "T",
+      "source_lines": [
+        22
+      ],
+      "source_quotes": [
+        "なんかもう、え、いや、1回出てもいいやろって。"
+      ],
+      "importance": 3,
+      "tags": [
+        "expectation",
+        "fairness"
+      ],
+      "epistemic": "speaker_evaluation",
+      "title": "1回くらい当たってもよいのでは",
+      "requires": []
+    },
+    {
+      "id": "L18",
+      "topic": "H06",
+      "kind": "T",
+      "source_lines": [
+        24
+      ],
+      "source_quotes": [
+        "何回やってもA賞出る気しねえと思って。"
+      ],
+      "importance": 2,
+      "tags": [
+        "expectation",
+        "failed"
+      ],
+      "epistemic": "speaker_expectation",
+      "title": "何回引いても出そうにないと感じた",
+      "requires": []
+    },
+    {
+      "id": "L19",
+      "topic": "H06",
+      "kind": "E",
+      "source_lines": [
+        27
+      ],
+      "source_quotes": [
+        "でかいだろ。"
+      ],
+      "importance": 2,
+      "tags": [
+        "cost",
+        "shock"
+      ],
+      "epistemic": "speaker_reaction",
+      "title": "金額の大きさを強調",
+      "requires": []
+    },
+    {
+      "id": "L20",
+      "topic": "H06",
+      "kind": "F",
+      "source_lines": [
+        28
+      ],
+      "source_quotes": [
+        "9000円でなんかステッカーとか、そういうのしかもらえなかったんだけど。"
+      ],
+      "importance": 2,
+      "tags": [
+        "cost",
+        "low_prize"
+      ],
+      "epistemic": "observed",
+      "title": "9000円でステッカー等しか貰えず",
+      "requires": []
+    },
+    {
+      "id": "L21",
+      "topic": "H06",
+      "kind": "E",
+      "source_lines": [
+        29
+      ],
+      "source_quotes": [
+        "マジA賞欲しかった。"
+      ],
+      "importance": 3,
+      "tags": [
+        "wanted",
+        "A_award"
+      ],
+      "epistemic": "speaker_desire",
+      "title": "A賞が欲しかった",
+      "requires": []
+    },
+    {
+      "id": "L22",
+      "topic": "H06",
+      "kind": "F",
+      "source_lines": [
+        30
+      ],
+      "source_quotes": [
+        "天井とかねえよ。"
+      ],
+      "importance": 2,
+      "tags": [
+        "no_pity",
+        "mechanism"
+      ],
+      "epistemic": "speaker_report",
+      "title": "天井がないという本人の報告",
+      "requires": []
+    },
+    {
+      "id": "L23",
+      "topic": "H06",
+      "kind": "F",
+      "source_lines": [
+        31,
+        32
+      ],
+      "source_quotes": [
+        "よくある赤い玉とか白い玉とか出す、ぐるぐる回すやつ。",
+        "ああいう感じのでっかいバージョンで。"
+      ],
+      "importance": 1,
+      "tags": [
+        "mechanism",
+        "lottery"
+      ],
+      "epistemic": "observed",
+      "title": "球を取り出す大きな抽選器",
+      "requires": []
+    },
+    {
+      "id": "L24",
+      "topic": "H06",
+      "kind": "E",
+      "source_lines": [
+        34
+      ],
+      "source_quotes": [
+        "はあ。"
+      ],
+      "importance": 1,
+      "tags": [
+        "sigh",
+        "frustration"
+      ],
+      "epistemic": "speaker_reaction",
+      "title": "ため息",
+      "requires": []
+    },
+    {
+      "id": "L25",
+      "topic": "H06",
+      "kind": "F",
+      "source_lines": [
+        35
+      ],
+      "source_quotes": [
+        "え、A賞の景品はめっちゃ置いてあったよ。"
+      ],
+      "importance": 3,
+      "tags": [
+        "prize",
+        "stock"
+      ],
+      "epistemic": "observed",
+      "title": "A賞の景品が多く置かれていた",
+      "requires": []
+    },
+    {
+      "id": "L26",
+      "topic": "H06",
+      "kind": "T",
+      "source_lines": [
+        37
+      ],
+      "source_quotes": [
+        "景品は普通にいっぱいあるのにさ、出ねえの。"
+      ],
+      "importance": 3,
+      "tags": [
+        "stock",
+        "failed",
+        "contrast"
+      ],
+      "epistemic": "speaker_evaluation",
+      "title": "景品在庫と不当選の食い違い",
+      "requires": [
+        "L10",
+        "L25"
+      ]
+    },
+    {
+      "id": "L27",
+      "topic": "H06",
+      "kind": "E",
+      "source_lines": [
+        38,
+        39
+      ],
+      "source_quotes": [
+        "もうさ、くれよ。",
+        "これはマジでちょっとね、ああってなりました。"
+      ],
+      "importance": 3,
+      "tags": [
+        "anger",
+        "prize"
+      ],
+      "epistemic": "speaker_reaction",
+      "title": "もうくれよという強い要求と脱力",
+      "requires": []
+    },
+    {
+      "id": "L28",
+      "topic": "H06",
+      "kind": "T",
+      "source_lines": [
+        40
+      ],
+      "source_quotes": [
+        "9000円あれば普通に1個買えるだろ。"
+      ],
+      "importance": 4,
+      "tags": [
+        "cost",
+        "alternative",
+        "comparison"
+      ],
+      "epistemic": "counterfactual",
+      "title": "9000円なら買えたのでは",
+      "requires": [
+        "L09"
+      ]
+    },
+    {
+      "id": "L29",
+      "topic": "H06",
+      "kind": "E",
+      "source_lines": [
+        41,
+        42
+      ],
+      "source_quotes": [
+        "うわ、やだ。",
+        "ま、これはちょっとショックなのね。"
+      ],
+      "importance": 2,
+      "tags": [
+        "regret",
+        "shock"
+      ],
+      "epistemic": "speaker_reaction",
+      "title": "嫌だ・ショックだった",
+      "requires": [
+        "L28"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "src": "L01",
+      "dst": "L02",
+      "rel": "setup"
+    },
+    {
+      "src": "L02",
+      "dst": "L03",
+      "rel": "elaboration"
+    },
+    {
+      "src": "L03",
+      "dst": "L04",
+      "rel": "prize"
+    },
+    {
+      "src": "L04",
+      "dst": "L05",
+      "rel": "uncertainty"
+    },
+    {
+      "src": "L03",
+      "dst": "L23",
+      "rel": "elaboration"
+    },
+    {
+      "src": "L03",
+      "dst": "L06",
+      "rel": "price"
+    },
+    {
+      "src": "L06",
+      "dst": "L07",
+      "rel": "calculate"
+    },
+    {
+      "src": "L07",
+      "dst": "L08",
+      "rel": "resolve"
+    },
+    {
+      "src": "L06",
+      "dst": "L09",
+      "rel": "calculate"
+    },
+    {
+      "src": "L08",
+      "dst": "L09",
+      "rel": "calculate"
+    },
+    {
+      "src": "L08",
+      "dst": "L10",
+      "rel": "outcome"
+    },
+    {
+      "src": "L09",
+      "dst": "L10",
+      "rel": "outcome"
+    },
+    {
+      "src": "L10",
+      "dst": "L11",
+      "rel": "appraisal"
+    },
+    {
+      "src": "L10",
+      "dst": "L13",
+      "rel": "evidence"
+    },
+    {
+      "src": "L10",
+      "dst": "L14",
+      "rel": "reaction"
+    },
+    {
+      "src": "L10",
+      "dst": "L17",
+      "rel": "expectation"
+    },
+    {
+      "src": "L10",
+      "dst": "L18",
+      "rel": "expectation"
+    },
+    {
+      "src": "L10",
+      "dst": "L25",
+      "rel": "contrast"
+    },
+    {
+      "src": "L13",
+      "dst": "L15",
+      "rel": "suspicion"
+    },
+    {
+      "src": "L13",
+      "dst": "L14",
+      "rel": "reaction"
+    },
+    {
+      "src": "L14",
+      "dst": "L15",
+      "rel": "suspicion"
+    },
+    {
+      "src": "L14",
+      "dst": "L16",
+      "rel": "cost_stakes"
+    },
+    {
+      "src": "L09",
+      "dst": "L16",
+      "rel": "cost_stakes"
+    },
+    {
+      "src": "L09",
+      "dst": "L19",
+      "rel": "cost_stakes"
+    },
+    {
+      "src": "L09",
+      "dst": "L20",
+      "rel": "cost_detail"
+    },
+    {
+      "src": "L09",
+      "dst": "L28",
+      "rel": "compare"
+    },
+    {
+      "src": "L15",
+      "dst": "L17",
+      "rel": "reappraise"
+    },
+    {
+      "src": "L17",
+      "dst": "L18",
+      "rel": "thought"
+    },
+    {
+      "src": "L16",
+      "dst": "L19",
+      "rel": "emphasis"
+    },
+    {
+      "src": "L19",
+      "dst": "L20",
+      "rel": "evidence"
+    },
+    {
+      "src": "L20",
+      "dst": "L21",
+      "rel": "desire"
+    },
+    {
+      "src": "L21",
+      "dst": "L22",
+      "rel": "missing_guarantee"
+    },
+    {
+      "src": "L22",
+      "dst": "L24",
+      "rel": "sigh"
+    },
+    {
+      "src": "L22",
+      "dst": "L23",
+      "rel": "mechanism"
+    },
+    {
+      "src": "L25",
+      "dst": "L26",
+      "rel": "contrast"
+    },
+    {
+      "src": "L26",
+      "dst": "L27",
+      "rel": "reaction"
+    },
+    {
+      "src": "L26",
+      "dst": "L28",
+      "rel": "comparison"
+    },
+    {
+      "src": "L28",
+      "dst": "L29",
+      "rel": "regret"
+    },
+    {
+      "src": "L10",
+      "dst": "L26",
+      "rel": "contrast"
+    },
+    {
+      "src": "L16",
+      "dst": "L28",
+      "rel": "comparison"
+    },
+    {
+      "src": "L29",
+      "dst": "L28",
+      "rel": "rethink"
+    }
+  ],
+  "authority": "speaker transcript-derived hand-interpreted memory; epistemic per node, not independently verified objective truth"
+}

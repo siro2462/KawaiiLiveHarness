@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "cpu_checks": 95,
+  "dependency_checks": 8,
+  "report_math_checks": 6,
+  "startup_exit": 0,
+  "path_equivalence_checked": true,
+  "prepared_inputs_sha256": "4b2a4515a2c2801314393fb47f158b7e13a9f37c9abc926bb866a7a0de68e84d",
+  "notes_sha256": "523e77c9fb1788b3277dfb5a24d307c662b4b8239bc041047b37a9fbf0d08958",
+  "monitor_id": "32-surface-a-b-c",
+  "validated_before_spawn": true
+}

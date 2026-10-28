@@ -1,0 +1,112 @@
+{
+  "status": "complete",
+  "technical_audit_sha256": "c63454639535aff32cd802e068b70b61d778949c48c09cf1543173230b743480",
+  "review_packet_sha256": "135af777204e58c476918b14b5710eb317a38b8115e282a265517f697ccd7fdd",
+  "root_review_sha256": "b44e1b2acbc4e4b5e175998eff15b8b9bbdcd03f5039610e1840c2b77825bf30",
+  "annotations_sha256": "be6c2bbf7115a193680e62dca30ea9256f2a080c2d9299bd0cbf46c8df57f68b",
+  "operation_review_sha256": "99b42c8868741da1dad0534addbb3b98848936e60145f404e755573e4c9e88e3",
+  "comparison_sha256": "4a9c2b042d183cb6dd459383da389888a132c9780041d91bfb1c8192e2a2c10f",
+  "root_summary_sha256": "47e3df40bebf9f74f5183b5d2dbc197b03fb22ac7d081cc9381df8314cbc7e8d",
+  "metrics": [
+    {
+      "arm": "A",
+      "calls": 2,
+      "delivered": 2,
+      "chars": 208,
+      "EOS": [
+        true,
+        true
+      ],
+      "model_seconds": 156.365,
+      "actual_output_stripe": {
+        "units": 7,
+        "switches": 3,
+        "switch_rate": 0.5,
+        "counts": {
+          "F": 4,
+          "E": 1,
+          "T": 2
+        }
+      },
+      "operation_execution": "not assigned the32 operations",
+      "evaluation_updates": 2,
+      "unsupported_additions": 1,
+      "stop_reason": "fixed_schedule_exhausted",
+      "unattempted_groups": 0
+    },
+    {
+      "arm": "B",
+      "calls": 1,
+      "delivered": 1,
+      "chars": 499,
+      "EOS": [
+        true
+      ],
+      "model_seconds": 289.477,
+      "actual_output_stripe": {
+        "units": 18,
+        "switches": 11,
+        "switch_rate": 0.6470588235294118,
+        "counts": {
+          "F": 4,
+          "E": 7,
+          "T": 7
+        }
+      },
+      "operation_execution": {
+        "counts": {
+          "executed": 30,
+          "absent": 2
+        },
+        "executed_rate": 0.9375,
+        "definition": "root known-condition AI annotation; content/operation/order/epistemic all pass. Not independent human labels."
+      },
+      "evaluation_updates": 4,
+      "unsupported_additions": 0,
+      "stop_reason": "fixed_schedule_exhausted",
+      "unattempted_groups": 0
+    },
+    {
+      "arm": "C",
+      "calls": 8,
+      "delivered": 8,
+      "chars": 590,
+      "EOS": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "model_seconds": 505.285,
+      "actual_output_stripe": {
+        "units": 22,
+        "switches": 14,
+        "switch_rate": 0.6666666666666666,
+        "counts": {
+          "F": 7,
+          "E": 7,
+          "T": 8
+        }
+      },
+      "operation_execution": {
+        "counts": {
+          "executed": 30,
+          "partial": 2
+        },
+        "executed_rate": 0.9375,
+        "definition": "root known-condition AI annotation; content/operation/order/epistemic all pass. Not independent human labels."
+      },
+      "evaluation_updates": 4,
+      "unsupported_additions": 0,
+      "stop_reason": "fixed_schedule_exhausted",
+      "unattempted_groups": 0
+    }
+  ],
+  "human_quality_labels": 0,
+  "designer_known_condition": true,
+  "finished_jst": "2026-10-27T13:24:21.878662+09:00"
+}

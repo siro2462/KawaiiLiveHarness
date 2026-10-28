@@ -1,0 +1,698 @@
+{
+  "status": "pass",
+  "check_count": 149,
+  "checks": [
+    {
+      "name": "same exact LoRA model generation conditions",
+      "passed": true
+    },
+    {
+      "name": "one new Surface call per independent10 materials",
+      "passed": true
+    },
+    {
+      "name": "Planner Guard training quality retry all zero",
+      "passed": true
+    },
+    {
+      "name": "byte-identical core common.py",
+      "passed": true
+    },
+    {
+      "name": "byte-identical core contract_runtime.py",
+      "passed": true
+    },
+    {
+      "name": "byte-identical core runtime.py",
+      "passed": true
+    },
+    {
+      "name": "byte-identical core flow_apply.py",
+      "passed": true
+    },
+    {
+      "name": "byte-identical core fact_contract.json",
+      "passed": true
+    },
+    {
+      "name": "byte-identical core driver_cpu.py",
+      "passed": true
+    },
+    {
+      "name": "byte-identical core gpu_worker.py",
+      "passed": true
+    },
+    {
+      "name": "byte-identical core processor_cpu.py",
+      "passed": true
+    },
+    {
+      "name": "byte-identical core request_protocol.py",
+      "passed": true
+    },
+    {
+      "name": "byte-identical core token_journal.py",
+      "passed": true
+    },
+    {
+      "name": "byte-identical core dependency_probe.py",
+      "passed": true
+    },
+    {
+      "name": "byte-identical core startup_probe.py",
+      "passed": true
+    },
+    {
+      "name": "byte-identical core launch_once.py",
+      "passed": true
+    },
+    {
+      "name": "byte-identical core baseline_stripe_runtime.py",
+      "passed": true
+    },
+    {
+      "name": "exact H06 selector source bytes",
+      "passed": true
+    },
+    {
+      "name": "positive control exact original H06 all32",
+      "passed": true
+    },
+    {
+      "name": "V01 fixed Memory nodes/source/history unchanged",
+      "passed": true
+    },
+    {
+      "name": "V01 selected cache exactly reproducible",
+      "passed": true
+    },
+    {
+      "name": "V01 observing candidates does not change decisions",
+      "passed": true
+    },
+    {
+      "name": "V01 ignores old operations source order and quotes",
+      "passed": true
+    },
+    {
+      "name": "V01 IDs carry no original order signal",
+      "passed": true
+    },
+    {
+      "name": "V01 CPU output accepted without manual reorder",
+      "passed": true
+    },
+    {
+      "name": "V01 exact whole selected sequence reaches decoded input",
+      "passed": true
+    },
+    {
+      "name": "V01 no truncation plus fixed1536 fits8192",
+      "passed": true
+    },
+    {
+      "name": "V01 independent empty history",
+      "passed": true
+    },
+    {
+      "name": "V01 fewshot present and examples separated",
+      "passed": true
+    },
+    {
+      "name": "V01 altered Memory content rejected",
+      "passed": true
+    },
+    {
+      "name": "V01 invalid previous anchor rejected",
+      "passed": true
+    },
+    {
+      "name": "V02 fixed Memory nodes/source/history unchanged",
+      "passed": true
+    },
+    {
+      "name": "V02 selected cache exactly reproducible",
+      "passed": true
+    },
+    {
+      "name": "V02 observing candidates does not change decisions",
+      "passed": true
+    },
+    {
+      "name": "V02 ignores old operations source order and quotes",
+      "passed": true
+    },
+    {
+      "name": "V02 IDs carry no original order signal",
+      "passed": true
+    },
+    {
+      "name": "V02 CPU output accepted without manual reorder",
+      "passed": true
+    },
+    {
+      "name": "V02 exact whole selected sequence reaches decoded input",
+      "passed": true
+    },
+    {
+      "name": "V02 no truncation plus fixed1536 fits8192",
+      "passed": true
+    },
+    {
+      "name": "V02 independent empty history",
+      "passed": true
+    },
+    {
+      "name": "V02 fewshot present and examples separated",
+      "passed": true
+    },
+    {
+      "name": "V02 altered Memory content rejected",
+      "passed": true
+    },
+    {
+      "name": "V02 invalid previous anchor rejected",
+      "passed": true
+    },
+    {
+      "name": "V03 fixed Memory nodes/source/history unchanged",
+      "passed": true
+    },
+    {
+      "name": "V03 selected cache exactly reproducible",
+      "passed": true
+    },
+    {
+      "name": "V03 observing candidates does not change decisions",
+      "passed": true
+    },
+    {
+      "name": "V03 ignores old operations source order and quotes",
+      "passed": true
+    },
+    {
+      "name": "V03 IDs carry no original order signal",
+      "passed": true
+    },
+    {
+      "name": "V03 CPU output accepted without manual reorder",
+      "passed": true
+    },
+    {
+      "name": "V03 exact whole selected sequence reaches decoded input",
+      "passed": true
+    },
+    {
+      "name": "V03 no truncation plus fixed1536 fits8192",
+      "passed": true
+    },
+    {
+      "name": "V03 independent empty history",
+      "passed": true
+    },
+    {
+      "name": "V03 fewshot present and examples separated",
+      "passed": true
+    },
+    {
+      "name": "V03 altered Memory content rejected",
+      "passed": true
+    },
+    {
+      "name": "V03 invalid previous anchor rejected",
+      "passed": true
+    },
+    {
+      "name": "V04 fixed Memory nodes/source/history unchanged",
+      "passed": true
+    },
+    {
+      "name": "V04 selected cache exactly reproducible",
+      "passed": true
+    },
+    {
+      "name": "V04 observing candidates does not change decisions",
+      "passed": true
+    },
+    {
+      "name": "V04 ignores old operations source order and quotes",
+      "passed": true
+    },
+    {
+      "name": "V04 IDs carry no original order signal",
+      "passed": true
+    },
+    {
+      "name": "V04 CPU output accepted without manual reorder",
+      "passed": true
+    },
+    {
+      "name": "V04 exact whole selected sequence reaches decoded input",
+      "passed": true
+    },
+    {
+      "name": "V04 no truncation plus fixed1536 fits8192",
+      "passed": true
+    },
+    {
+      "name": "V04 independent empty history",
+      "passed": true
+    },
+    {
+      "name": "V04 fewshot present and examples separated",
+      "passed": true
+    },
+    {
+      "name": "V04 altered Memory content rejected",
+      "passed": true
+    },
+    {
+      "name": "V04 invalid previous anchor rejected",
+      "passed": true
+    },
+    {
+      "name": "V05 fixed Memory nodes/source/history unchanged",
+      "passed": true
+    },
+    {
+      "name": "V05 selected cache exactly reproducible",
+      "passed": true
+    },
+    {
+      "name": "V05 observing candidates does not change decisions",
+      "passed": true
+    },
+    {
+      "name": "V05 ignores old operations source order and quotes",
+      "passed": true
+    },
+    {
+      "name": "V05 IDs carry no original order signal",
+      "passed": true
+    },
+    {
+      "name": "V05 CPU output accepted without manual reorder",
+      "passed": true
+    },
+    {
+      "name": "V05 exact whole selected sequence reaches decoded input",
+      "passed": true
+    },
+    {
+      "name": "V05 no truncation plus fixed1536 fits8192",
+      "passed": true
+    },
+    {
+      "name": "V05 independent empty history",
+      "passed": true
+    },
+    {
+      "name": "V05 fewshot present and examples separated",
+      "passed": true
+    },
+    {
+      "name": "V05 altered Memory content rejected",
+      "passed": true
+    },
+    {
+      "name": "V05 invalid previous anchor rejected",
+      "passed": true
+    },
+    {
+      "name": "O01 fixed Memory nodes/source/history unchanged",
+      "passed": true
+    },
+    {
+      "name": "O01 selected cache exactly reproducible",
+      "passed": true
+    },
+    {
+      "name": "O01 observing candidates does not change decisions",
+      "passed": true
+    },
+    {
+      "name": "O01 ignores old operations source order and quotes",
+      "passed": true
+    },
+    {
+      "name": "O01 IDs carry no original order signal",
+      "passed": true
+    },
+    {
+      "name": "O01 CPU output accepted without manual reorder",
+      "passed": true
+    },
+    {
+      "name": "O01 exact whole selected sequence reaches decoded input",
+      "passed": true
+    },
+    {
+      "name": "O01 no truncation plus fixed1536 fits8192",
+      "passed": true
+    },
+    {
+      "name": "O01 independent empty history",
+      "passed": true
+    },
+    {
+      "name": "O01 fewshot present and examples separated",
+      "passed": true
+    },
+    {
+      "name": "O01 altered Memory content rejected",
+      "passed": true
+    },
+    {
+      "name": "O01 invalid previous anchor rejected",
+      "passed": true
+    },
+    {
+      "name": "O02 fixed Memory nodes/source/history unchanged",
+      "passed": true
+    },
+    {
+      "name": "O02 selected cache exactly reproducible",
+      "passed": true
+    },
+    {
+      "name": "O02 observing candidates does not change decisions",
+      "passed": true
+    },
+    {
+      "name": "O02 ignores old operations source order and quotes",
+      "passed": true
+    },
+    {
+      "name": "O02 IDs carry no original order signal",
+      "passed": true
+    },
+    {
+      "name": "O02 CPU output accepted without manual reorder",
+      "passed": true
+    },
+    {
+      "name": "O02 exact whole selected sequence reaches decoded input",
+      "passed": true
+    },
+    {
+      "name": "O02 no truncation plus fixed1536 fits8192",
+      "passed": true
+    },
+    {
+      "name": "O02 independent empty history",
+      "passed": true
+    },
+    {
+      "name": "O02 fewshot present and examples separated",
+      "passed": true
+    },
+    {
+      "name": "O02 altered Memory content rejected",
+      "passed": true
+    },
+    {
+      "name": "O02 invalid previous anchor rejected",
+      "passed": true
+    },
+    {
+      "name": "O03 fixed Memory nodes/source/history unchanged",
+      "passed": true
+    },
+    {
+      "name": "O03 selected cache exactly reproducible",
+      "passed": true
+    },
+    {
+      "name": "O03 observing candidates does not change decisions",
+      "passed": true
+    },
+    {
+      "name": "O03 ignores old operations source order and quotes",
+      "passed": true
+    },
+    {
+      "name": "O03 IDs carry no original order signal",
+      "passed": true
+    },
+    {
+      "name": "O03 CPU output accepted without manual reorder",
+      "passed": true
+    },
+    {
+      "name": "O03 exact whole selected sequence reaches decoded input",
+      "passed": true
+    },
+    {
+      "name": "O03 no truncation plus fixed1536 fits8192",
+      "passed": true
+    },
+    {
+      "name": "O03 independent empty history",
+      "passed": true
+    },
+    {
+      "name": "O03 fewshot present and examples separated",
+      "passed": true
+    },
+    {
+      "name": "O03 altered Memory content rejected",
+      "passed": true
+    },
+    {
+      "name": "O03 invalid previous anchor rejected",
+      "passed": true
+    },
+    {
+      "name": "O04 fixed Memory nodes/source/history unchanged",
+      "passed": true
+    },
+    {
+      "name": "O04 selected cache exactly reproducible",
+      "passed": true
+    },
+    {
+      "name": "O04 observing candidates does not change decisions",
+      "passed": true
+    },
+    {
+      "name": "O04 ignores old operations source order and quotes",
+      "passed": true
+    },
+    {
+      "name": "O04 IDs carry no original order signal",
+      "passed": true
+    },
+    {
+      "name": "O04 CPU output accepted without manual reorder",
+      "passed": true
+    },
+    {
+      "name": "O04 exact whole selected sequence reaches decoded input",
+      "passed": true
+    },
+    {
+      "name": "O04 no truncation plus fixed1536 fits8192",
+      "passed": true
+    },
+    {
+      "name": "O04 independent empty history",
+      "passed": true
+    },
+    {
+      "name": "O04 fewshot present and examples separated",
+      "passed": true
+    },
+    {
+      "name": "O04 altered Memory content rejected",
+      "passed": true
+    },
+    {
+      "name": "O04 invalid previous anchor rejected",
+      "passed": true
+    },
+    {
+      "name": "O05 fixed Memory nodes/source/history unchanged",
+      "passed": true
+    },
+    {
+      "name": "O05 selected cache exactly reproducible",
+      "passed": true
+    },
+    {
+      "name": "O05 observing candidates does not change decisions",
+      "passed": true
+    },
+    {
+      "name": "O05 ignores old operations source order and quotes",
+      "passed": true
+    },
+    {
+      "name": "O05 IDs carry no original order signal",
+      "passed": true
+    },
+    {
+      "name": "O05 CPU output accepted without manual reorder",
+      "passed": true
+    },
+    {
+      "name": "O05 exact whole selected sequence reaches decoded input",
+      "passed": true
+    },
+    {
+      "name": "O05 no truncation plus fixed1536 fits8192",
+      "passed": true
+    },
+    {
+      "name": "O05 independent empty history",
+      "passed": true
+    },
+    {
+      "name": "O05 fewshot present and examples separated",
+      "passed": true
+    },
+    {
+      "name": "O05 altered Memory content rejected",
+      "passed": true
+    },
+    {
+      "name": "O05 invalid previous anchor rejected",
+      "passed": true
+    },
+    {
+      "name": "format ''",
+      "passed": true
+    },
+    {
+      "name": "format 'SPECULATE L01'",
+      "passed": true
+    },
+    {
+      "name": "format '途中。'",
+      "passed": true
+    },
+    {
+      "name": "format 'え、かぶった。嘘やん。'",
+      "passed": true
+    },
+    {
+      "name": "real controller ten bounded no retries False",
+      "passed": true
+    },
+    {
+      "name": "real controller payload order all same as CPU False",
+      "passed": true
+    },
+    {
+      "name": "real controller delivery histories False",
+      "passed": true
+    },
+    {
+      "name": "real controller ten bounded no retries True",
+      "passed": true
+    },
+    {
+      "name": "real controller payload order all same as CPU True",
+      "passed": true
+    },
+    {
+      "name": "real controller delivery histories True",
+      "passed": true
+    }
+  ],
+  "new_model_calls": 0,
+  "prepared_inputs_sha256": "4f03a7d566741d17137a781ecb89c9f002936382177c414243062fb1a14524c7",
+  "counts": {
+    "V01": {
+      "operations": 29,
+      "unique_nodes": 29,
+      "revisits": 0,
+      "omitted_ids": [],
+      "input_tokens": 2740
+    },
+    "V02": {
+      "operations": 25,
+      "unique_nodes": 25,
+      "revisits": 0,
+      "omitted_ids": [
+        "L01",
+        "L02",
+        "L03",
+        "L18"
+      ],
+      "input_tokens": 2489
+    },
+    "V03": {
+      "operations": 28,
+      "unique_nodes": 28,
+      "revisits": 0,
+      "omitted_ids": [
+        "L17"
+      ],
+      "input_tokens": 2683
+    },
+    "V04": {
+      "operations": 27,
+      "unique_nodes": 27,
+      "revisits": 0,
+      "omitted_ids": [
+        "L06",
+        "L16"
+      ],
+      "input_tokens": 2632
+    },
+    "V05": {
+      "operations": 27,
+      "unique_nodes": 27,
+      "revisits": 0,
+      "omitted_ids": [
+        "L15",
+        "L25"
+      ],
+      "input_tokens": 2617
+    },
+    "O01": {
+      "operations": 29,
+      "unique_nodes": 29,
+      "revisits": 0,
+      "omitted_ids": [],
+      "input_tokens": 2775
+    },
+    "O02": {
+      "operations": 28,
+      "unique_nodes": 28,
+      "revisits": 0,
+      "omitted_ids": [
+        "L10"
+      ],
+      "input_tokens": 2711
+    },
+    "O03": {
+      "operations": 30,
+      "unique_nodes": 29,
+      "revisits": 1,
+      "omitted_ids": [],
+      "input_tokens": 2828
+    },
+    "O04": {
+      "operations": 29,
+      "unique_nodes": 29,
+      "revisits": 0,
+      "omitted_ids": [],
+      "input_tokens": 2750
+    },
+    "O05": {
+      "operations": 25,
+      "unique_nodes": 25,
+      "revisits": 0,
+      "omitted_ids": [
+        "L02",
+        "L05",
+        "L25",
+        "L26"
+      ],
+      "input_tokens": 2488
+    }
+  },
+  "context_cut_tokens": 0,
+  "manual_reordering": false
+}

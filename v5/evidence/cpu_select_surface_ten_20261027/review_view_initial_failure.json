@@ -1,0 +1,10 @@
+{
+  "scope": "post-generation CPU reading-view helper only",
+  "initial_exit": 1,
+  "assertion": "review_cpu_select_views_20261027.py line42 inverse alias equality",
+  "cause": "Internal-ID aliases L01 collided with already external Memory IDs in derived metadata and steps; inverse mapping changed both.",
+  "repair": "Use a distinct @L01 namespace for internal aliases and assert entire selection roundtrip equality before reading.",
+  "generated_outputs_changed": false,
+  "frozen_execution_code_changed": false,
+  "new_model_calls": 0
+}

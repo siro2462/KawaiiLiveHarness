@@ -1,0 +1,19 @@
+{
+  "current_adapter_train_path": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\surface_contract_ab_20261020_v1\\dataset\\train.jsonl",
+  "train_sha256": "e9d00a48bf642a6f22229bfe606fbdd73f588b3af827dbb8a7d192d32dea068a",
+  "train_rows": 61,
+  "speakers": [
+    "ayame",
+    "botan",
+    "chihaya",
+    "raden",
+    "shiina",
+    "sophia",
+    "watame"
+  ],
+  "selected_vtuber": "luna",
+  "selected_vtuber_in_current61_train": false,
+  "prior_research_and_old_training_labels": "Saved source was previously used in research; V04 topic07 already used for prompt/comparison probes. This is not five unseen benchmark topics.",
+  "foundation_pretraining": "unknown",
+  "originals": "designer AI fictional fixtures newly authored here; not human transcripts"
+}

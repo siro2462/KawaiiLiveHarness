@@ -1,0 +1,548 @@
+[
+  {
+    "topic": "H06",
+    "line": 1,
+    "chunk_id": "L1",
+    "human_operation": "BRIDGE",
+    "text": "でもさ、ちょっと許せないことがあったんだけど。",
+    "dominant_color": "E",
+    "color_counts": {
+      "F": 0,
+      "E": 23,
+      "T": 0
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 2,
+    "chunk_id": "L1",
+    "human_operation": "SCENE",
+    "text": "ガラポンコーナーやったんだけど。",
+    "dominant_color": "F",
+    "color_counts": {
+      "F": 16,
+      "E": 0,
+      "T": 0
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 3,
+    "chunk_id": "L1",
+    "human_operation": "SCENE",
+    "text": "ぐるぐるぐるって回してA賞、B賞、C賞があって。",
+    "dominant_color": "F",
+    "color_counts": {
+      "F": 24,
+      "E": 0,
+      "T": 0
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 4,
+    "chunk_id": "L1",
+    "human_operation": "REPAIR",
+    "text": "A賞がうちわで、B賞が何だっけ？",
+    "dominant_color": "F",
+    "color_counts": {
+      "F": 8,
+      "E": 0,
+      "T": 8
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 5,
+    "chunk_id": "L1",
+    "human_operation": "REPAIR",
+    "text": "なんか忘れたけど。",
+    "dominant_color": "T",
+    "color_counts": {
+      "F": 0,
+      "E": 0,
+      "T": 9
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 6,
+    "chunk_id": "L1",
+    "human_operation": "REPAIR",
+    "text": "シールだかステッカーだかカードだか。",
+    "dominant_color": "T",
+    "color_counts": {
+      "F": 0,
+      "E": 0,
+      "T": 18
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 7,
+    "chunk_id": "L2",
+    "human_operation": "EVIDENCE",
+    "text": "1回600円で。",
+    "dominant_color": "F",
+    "color_counts": {
+      "F": 8,
+      "E": 0,
+      "T": 0
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 8,
+    "chunk_id": "L2",
+    "human_operation": "REPAIR",
+    "text": "何回だ？",
+    "dominant_color": "T",
+    "color_counts": {
+      "F": 0,
+      "E": 0,
+      "T": 4
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 9,
+    "chunk_id": "L2",
+    "human_operation": "REPAIR",
+    "text": "15回やったの？",
+    "dominant_color": "T",
+    "color_counts": {
+      "F": 0,
+      "E": 0,
+      "T": 8
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 10,
+    "chunk_id": "L2",
+    "human_operation": "RESULT",
+    "text": "15回やって。",
+    "dominant_color": "F",
+    "color_counts": {
+      "F": 7,
+      "E": 0,
+      "T": 0
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 11,
+    "chunk_id": "L2",
+    "human_operation": "REVISIT",
+    "text": "9000円ね。",
+    "dominant_color": "F",
+    "color_counts": {
+      "F": 7,
+      "E": 0,
+      "T": 0
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 12,
+    "chunk_id": "L2",
+    "human_operation": "RESULT",
+    "text": "9000円やってね、A賞が1回も出ませんでした。",
+    "dominant_color": "F",
+    "color_counts": {
+      "F": 24,
+      "E": 0,
+      "T": 0
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 13,
+    "chunk_id": "L3",
+    "human_operation": "ADDRESS",
+    "text": "どう？",
+    "dominant_color": "T",
+    "color_counts": {
+      "F": 0,
+      "E": 0,
+      "T": 3
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 14,
+    "chunk_id": "L3",
+    "human_operation": "APPRAISAL",
+    "text": "ちょっとこれ良くないと思うんだけど。",
+    "dominant_color": "T",
+    "color_counts": {
+      "F": 0,
+      "E": 0,
+      "T": 18
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 15,
+    "chunk_id": "L3",
+    "human_operation": "REVISIT",
+    "text": "1回も出なかったんだけど。",
+    "dominant_color": "F",
+    "color_counts": {
+      "F": 13,
+      "E": 0,
+      "T": 0
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 16,
+    "chunk_id": "L3",
+    "human_operation": "APPRAISAL",
+    "text": "これはおかしいと思うんでしょ。",
+    "dominant_color": "T",
+    "color_counts": {
+      "F": 0,
+      "E": 0,
+      "T": 15
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 17,
+    "chunk_id": "L3",
+    "human_operation": "EVIDENCE",
+    "text": "もうずっとB賞、B賞、B賞。",
+    "dominant_color": "F",
+    "color_counts": {
+      "F": 14,
+      "E": 0,
+      "T": 0
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 18,
+    "chunk_id": "L3",
+    "human_operation": "REACTION",
+    "text": "許せねえ。",
+    "dominant_color": "E",
+    "color_counts": {
+      "F": 0,
+      "E": 5,
+      "T": 0
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 19,
+    "chunk_id": "L3",
+    "human_operation": "INFERENCE",
+    "text": "絶対A賞出ないようになってる。",
+    "dominant_color": "T",
+    "color_counts": {
+      "F": 0,
+      "E": 2,
+      "T": 13
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 20,
+    "chunk_id": "L4",
+    "human_operation": "REVISIT",
+    "text": "9000円だよ。",
+    "dominant_color": "F",
+    "color_counts": {
+      "F": 8,
+      "E": 0,
+      "T": 0
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 21,
+    "chunk_id": "L4",
+    "human_operation": "ADDRESS",
+    "text": "9000円やばいでしょ。",
+    "dominant_color": "E",
+    "color_counts": {
+      "F": 5,
+      "E": 7,
+      "T": 0
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 22,
+    "chunk_id": "L4",
+    "human_operation": "INFERENCE",
+    "text": "なんかもう、え、いや、1回出てもいいやろって。",
+    "dominant_color": "T",
+    "color_counts": {
+      "F": 0,
+      "E": 5,
+      "T": 18
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 23,
+    "chunk_id": "L4",
+    "human_operation": "REACTION",
+    "text": "さすがにね。",
+    "dominant_color": "E",
+    "color_counts": {
+      "F": 0,
+      "E": 6,
+      "T": 0
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 24,
+    "chunk_id": "L4",
+    "human_operation": "INFERENCE",
+    "text": "何回やってもA賞出る気しねえと思って。",
+    "dominant_color": "T",
+    "color_counts": {
+      "F": 0,
+      "E": 0,
+      "T": 19
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 25,
+    "chunk_id": "L4",
+    "human_operation": "REVISIT",
+    "text": "9000円じゃない。",
+    "dominant_color": "E",
+    "color_counts": {
+      "F": 0,
+      "E": 10,
+      "T": 0
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 26,
+    "chunk_id": "L4",
+    "human_operation": "REVISIT",
+    "text": "9000円だよ。",
+    "dominant_color": "E",
+    "color_counts": {
+      "F": 0,
+      "E": 8,
+      "T": 0
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 27,
+    "chunk_id": "L4",
+    "human_operation": "REACTION",
+    "text": "でかいだろ。",
+    "dominant_color": "T",
+    "color_counts": {
+      "F": 0,
+      "E": 0,
+      "T": 6
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 28,
+    "chunk_id": "L4",
+    "human_operation": "EVIDENCE",
+    "text": "9000円でなんかステッカーとか、そういうのしかもらえなかったんだけど。",
+    "dominant_color": "F",
+    "color_counts": {
+      "F": 36,
+      "E": 0,
+      "T": 0
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 29,
+    "chunk_id": "L4",
+    "human_operation": "REACTION",
+    "text": "マジA賞欲しかった。",
+    "dominant_color": "E",
+    "color_counts": {
+      "F": 0,
+      "E": 10,
+      "T": 0
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 30,
+    "chunk_id": "L5",
+    "human_operation": "EVIDENCE",
+    "text": "天井とかねえよ。",
+    "dominant_color": "F",
+    "color_counts": {
+      "F": 8,
+      "E": 0,
+      "T": 0
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 31,
+    "chunk_id": "L5",
+    "human_operation": "SCENE",
+    "text": "よくある赤い玉とか白い玉とか出す、ぐるぐる回すやつ。",
+    "dominant_color": "F",
+    "color_counts": {
+      "F": 26,
+      "E": 0,
+      "T": 0
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 32,
+    "chunk_id": "L5",
+    "human_operation": "SCENE",
+    "text": "ああいう感じのでっかいバージョンで。",
+    "dominant_color": "F",
+    "color_counts": {
+      "F": 18,
+      "E": 0,
+      "T": 0
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 33,
+    "chunk_id": "L5",
+    "human_operation": "REVISIT",
+    "text": "回して出ませんでした。",
+    "dominant_color": "F",
+    "color_counts": {
+      "F": 11,
+      "E": 0,
+      "T": 0
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 34,
+    "chunk_id": "L5",
+    "human_operation": "REACTION",
+    "text": "はあ。",
+    "dominant_color": "E",
+    "color_counts": {
+      "F": 0,
+      "E": 3,
+      "T": 0
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 35,
+    "chunk_id": "L6",
+    "human_operation": "EVIDENCE",
+    "text": "え、A賞の景品はめっちゃ置いてあったよ。",
+    "dominant_color": "F",
+    "color_counts": {
+      "F": 16,
+      "E": 4,
+      "T": 0
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 36,
+    "chunk_id": "L6",
+    "human_operation": "REACTION",
+    "text": "あるやん。",
+    "dominant_color": "E",
+    "color_counts": {
+      "F": 0,
+      "E": 5,
+      "T": 0
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 37,
+    "chunk_id": "L6",
+    "human_operation": "APPRAISAL",
+    "text": "景品は普通にいっぱいあるのにさ、出ねえの。",
+    "dominant_color": "F",
+    "color_counts": {
+      "F": 18,
+      "E": 3,
+      "T": 0
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 38,
+    "chunk_id": "L6",
+    "human_operation": "REACTION",
+    "text": "もうさ、くれよ。",
+    "dominant_color": "E",
+    "color_counts": {
+      "F": 0,
+      "E": 8,
+      "T": 0
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 39,
+    "chunk_id": "L6",
+    "human_operation": "REACTION",
+    "text": "これはマジでちょっとね、ああってなりました。",
+    "dominant_color": "E",
+    "color_counts": {
+      "F": 0,
+      "E": 22,
+      "T": 0
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 40,
+    "chunk_id": "L7",
+    "human_operation": "INFERENCE",
+    "text": "9000円あれば普通に1個買えるだろ。",
+    "dominant_color": "T",
+    "color_counts": {
+      "F": 0,
+      "E": 0,
+      "T": 19
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 41,
+    "chunk_id": "L7",
+    "human_operation": "REACTION",
+    "text": "うわ、やだ。",
+    "dominant_color": "E",
+    "color_counts": {
+      "F": 0,
+      "E": 6,
+      "T": 0
+    }
+  },
+  {
+    "topic": "H06",
+    "line": 42,
+    "chunk_id": "L7",
+    "human_operation": "CLOSE",
+    "text": "ま、これはちょっとショックなのね。",
+    "dominant_color": "E",
+    "color_counts": {
+      "F": 0,
+      "E": 17,
+      "T": 0
+    }
+  }
+]

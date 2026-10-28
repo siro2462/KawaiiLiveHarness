@@ -1,0 +1,40 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "name": "original dependency exact SHA",
+      "passed": true
+    },
+    {
+      "name": "dependency resolved within current executed_source",
+      "passed": true
+    },
+    {
+      "name": "prompt excluded from output",
+      "passed": true
+    },
+    {
+      "name": "stream and tail intact",
+      "passed": true
+    },
+    {
+      "name": "cumulative count intact",
+      "passed": true
+    },
+    {
+      "name": "existing journal cannot be overwritten",
+      "passed": true
+    },
+    {
+      "name": "mismatched prompt rejected",
+      "passed": true
+    },
+    {
+      "name": "worker/controller import",
+      "passed": true
+    }
+  ],
+  "check_count": 8,
+  "model_calls": 0,
+  "dependency_sha256": "fd86eae0677c6ff0619c80c534783bfad02c329d58ac58faaf4c6b895ef8de1e"
+}

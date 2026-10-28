@@ -1,0 +1,99 @@
+{
+  "status": "reviewed_before_launch",
+  "reviewer": "root designer AI",
+  "human_quality_labels": 0,
+  "samples": [
+    {
+      "id": "V01",
+      "title": "映画の特典が被り、配布終了を心配する",
+      "nodes_read": 29,
+      "operations_read": 32,
+      "source_quotes_substring_checked": true,
+      "provenance": "vtuber_saved_edited_transcript"
+    },
+    {
+      "id": "V02",
+      "title": "季節グッズを楽しむ一方で収納と品切れに悩む",
+      "nodes_read": 29,
+      "operations_read": 32,
+      "source_quotes_substring_checked": true,
+      "provenance": "vtuber_saved_edited_transcript"
+    },
+    {
+      "id": "V03",
+      "title": "カフェの店舗を間違え、隣の撮影から学ぶ",
+      "nodes_read": 29,
+      "operations_read": 32,
+      "source_quotes_substring_checked": true,
+      "provenance": "vtuber_saved_edited_transcript"
+    },
+    {
+      "id": "V04",
+      "title": "射的の成功を自慢した後、背後の声に驚く",
+      "nodes_read": 29,
+      "operations_read": 32,
+      "source_quotes_substring_checked": true,
+      "provenance": "vtuber_saved_edited_transcript"
+    },
+    {
+      "id": "V05",
+      "title": "ライブ当選の喜びと、詰めすぎた予定の反省",
+      "nodes_read": 29,
+      "operations_read": 32,
+      "source_quotes_substring_checked": true,
+      "provenance": "vtuber_saved_edited_transcript"
+    },
+    {
+      "id": "O01",
+      "title": "クッキーの焦げを、失敗だけで終わらせず考え直す",
+      "nodes_read": 29,
+      "operations_read": 32,
+      "source_quotes_substring_checked": true,
+      "provenance": "designer_original_fiction"
+    },
+    {
+      "id": "O02",
+      "title": "忘れた傘と、借りた傘を返すまで",
+      "nodes_read": 29,
+      "operations_read": 32,
+      "source_quotes_substring_checked": true,
+      "provenance": "designer_original_fiction"
+    },
+    {
+      "id": "O03",
+      "title": "動かないキーボードを調べたら、差し込みが浅かった",
+      "nodes_read": 29,
+      "operations_read": 32,
+      "source_quotes_substring_checked": true,
+      "provenance": "designer_original_fiction"
+    },
+    {
+      "id": "O04",
+      "title": "電車の方向を間違え、目的地より先に焦りを直す",
+      "nodes_read": 29,
+      "operations_read": 32,
+      "source_quotes_substring_checked": true,
+      "provenance": "designer_original_fiction"
+    },
+    {
+      "id": "O05",
+      "title": "鳥の写真はぶれたが、カメラを下ろして気づいたこと",
+      "nodes_read": 29,
+      "operations_read": 32,
+      "source_quotes_substring_checked": true,
+      "provenance": "designer_original_fiction"
+    }
+  ],
+  "source_text_read": "Selected five saved edited source excerpts read; originals authored as fictional Memory, not claimed real personal experiences.",
+  "corrections_before_freeze": [
+    "V04 first node limited to shooting; no unsupported preceding garapon context.",
+    "V05 final synthesis replaced by explicitly reported event name Pleasure.",
+    "V01 duplicate-prize and V02 storage-policy and V03 non-interaction basis quotes supplemented."
+  ],
+  "remaining_limits": [
+    "Some evaluative nodes synthesize multiple source lines; human quality confirmation0.",
+    "Late Pleasure reference in V05 and repeated state nodes are manually fixed order, not engine generalization.",
+    "Same performer five excerpts; one seed; prior source usage possible."
+  ],
+  "semantic_generated_outputs_reviewed": false
+}

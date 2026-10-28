@@ -1,0 +1,156 @@
+{
+  "packet_sha256": "01ed95b5c40c241b04a9b75a1679dfb095ddcc7403c2fa2aa8ded9c3c45c734b",
+  "method": "Exact common text template + actual title + ordered32 payload fields reconstruct every actual prompt and decoded string; node title/kind/epistemic is identical to each serialized selected operation; all other strings are shown in per-sample views.",
+  "samples": [
+    {
+      "sample_id": "V01",
+      "call_id": "R0001",
+      "prompt_sha256": "a4791d7e8b23b922fc00be8d58b3d7179829e113e7795ab62200e9ef03e87e12",
+      "decoded_sha256": "1131be29501d0aa05edb8d45d6da1dda64e14413e9c4788afc22c386267de2ab",
+      "body_sha256": "09028db5e78d3ef05cf82e00ef3475ebbd293d1d0cf7ec1867623086a2e674e7",
+      "full_prompt_reconstructed_exactly": true,
+      "decoded_reconstructed_exactly": true,
+      "RAW_is_exact_body_plus_stop": true,
+      "before": {
+        "history": [],
+        "semantic_status": "unverified"
+      },
+      "sample_title": "映画の特典が被り、配布終了を心配する"
+    },
+    {
+      "sample_id": "V02",
+      "call_id": "R0002",
+      "prompt_sha256": "7ec38a512be440816bcf0a7961f4387dd7fcf23b09beead90fac35942de64631",
+      "decoded_sha256": "ca2618f6a6335e8ee6fcc41b55a7bfca4d32049bfbfbd5806ac65739bbcb2ba2",
+      "body_sha256": "25b3222d6e7624033393cc67cd834d75e0832d1307094df19c958145a54bbd26",
+      "full_prompt_reconstructed_exactly": true,
+      "decoded_reconstructed_exactly": true,
+      "RAW_is_exact_body_plus_stop": true,
+      "before": {
+        "history": [],
+        "semantic_status": "unverified"
+      },
+      "sample_title": "季節グッズを楽しむ一方で収納と品切れに悩む"
+    },
+    {
+      "sample_id": "V03",
+      "call_id": "R0003",
+      "prompt_sha256": "3a643a7fa0d70ee3372e00831c1bd64642536e01c3dcfdc40da9957c3ec4e771",
+      "decoded_sha256": "926071c2ccc20659dcfbb91413711fe8ec3db82656850d33dbf2e0d7521629ff",
+      "body_sha256": "65f4a5bab343d004585f6f36834eccfc51b9b793299b37e73cca519fac3992e3",
+      "full_prompt_reconstructed_exactly": true,
+      "decoded_reconstructed_exactly": true,
+      "RAW_is_exact_body_plus_stop": true,
+      "before": {
+        "history": [],
+        "semantic_status": "unverified"
+      },
+      "sample_title": "カフェの店舗を間違え、隣の撮影から学ぶ"
+    },
+    {
+      "sample_id": "V04",
+      "call_id": "R0004",
+      "prompt_sha256": "f4f3ac6e6e21b4972cc2592ead6beeb1dd60b63cb389f985c6c494c0d10667f3",
+      "decoded_sha256": "9e642da4da03009e5306974f4f5439466669c51d2a71ff6109db73b61f73f458",
+      "body_sha256": "34e67a459e253330832c38bfe64436e94bce437ce5c5f1179d94a3a163b9aa10",
+      "full_prompt_reconstructed_exactly": true,
+      "decoded_reconstructed_exactly": true,
+      "RAW_is_exact_body_plus_stop": true,
+      "before": {
+        "history": [],
+        "semantic_status": "unverified"
+      },
+      "sample_title": "射的の成功を自慢した後、背後の声に驚く"
+    },
+    {
+      "sample_id": "V05",
+      "call_id": "R0005",
+      "prompt_sha256": "e4a55e80088aa09d0064d507e0a5e474141609ef392998b18ddf06dbba9a2b5e",
+      "decoded_sha256": "60ab2a66e493a426b771980620b95198f0f870e689a9e4059488b6e2c9309d58",
+      "body_sha256": "6a330b7afb3a9d7035989378d46d492a35eb5eac36959b174bb2a52fbe770676",
+      "full_prompt_reconstructed_exactly": true,
+      "decoded_reconstructed_exactly": true,
+      "RAW_is_exact_body_plus_stop": true,
+      "before": {
+        "history": [],
+        "semantic_status": "unverified"
+      },
+      "sample_title": "ライブ当選の喜びと、詰めすぎた予定の反省"
+    },
+    {
+      "sample_id": "O01",
+      "call_id": "R0006",
+      "prompt_sha256": "b037f594e5ff8d8c71420ea95da69b1b3d0068f9a8d1033a4554bc425c2e283e",
+      "decoded_sha256": "2c0af9053859eac7bdcdbd5e7ccd6ca8c1bbd99e39788aabfeba1d22426fb0ac",
+      "body_sha256": "8f1722af193f1979ddb1cb6a67c76f5274901508d036f4f4212253011c724c27",
+      "full_prompt_reconstructed_exactly": true,
+      "decoded_reconstructed_exactly": true,
+      "RAW_is_exact_body_plus_stop": true,
+      "before": {
+        "history": [],
+        "semantic_status": "unverified"
+      },
+      "sample_title": "クッキーの焦げを、失敗だけで終わらせず考え直す"
+    },
+    {
+      "sample_id": "O02",
+      "call_id": "R0007",
+      "prompt_sha256": "ea3c4737c342407ac505c49478ccfac9185142e937f56290d0802e097b9102fb",
+      "decoded_sha256": "b7c53a30e769afdec7c73d99b6e201f3f15257f81c2f034d0e77ce0937eb5c5f",
+      "body_sha256": "a3e3061fd95e67def9e810d793d52983df129bbd6a7dbb94b4f7cfc73483a83e",
+      "full_prompt_reconstructed_exactly": true,
+      "decoded_reconstructed_exactly": true,
+      "RAW_is_exact_body_plus_stop": true,
+      "before": {
+        "history": [],
+        "semantic_status": "unverified"
+      },
+      "sample_title": "忘れた傘と、借りた傘を返すまで"
+    },
+    {
+      "sample_id": "O03",
+      "call_id": "R0008",
+      "prompt_sha256": "12c95a4e7faebaea7e7249fef2ad18ac3b32174865e7538dfff04262b57b9af2",
+      "decoded_sha256": "c406b92a619091ab7dc89689e672254559dd9f3472280ade07f714a62e79f6bb",
+      "body_sha256": "5e9da8bedac20b7259fe3b96e06920c9adcc9b0c1d5e9a6891807a2e3c1b1105",
+      "full_prompt_reconstructed_exactly": true,
+      "decoded_reconstructed_exactly": true,
+      "RAW_is_exact_body_plus_stop": true,
+      "before": {
+        "history": [],
+        "semantic_status": "unverified"
+      },
+      "sample_title": "動かないキーボードを調べたら、差し込みが浅かった"
+    },
+    {
+      "sample_id": "O04",
+      "call_id": "R0009",
+      "prompt_sha256": "0d6cd51d47358c6b4f9d8d602ce3cadd33dbcdb0038ee338c0d060e1859beb74",
+      "decoded_sha256": "b90bdf8a0a5b5a92730b2025b560520563f908562e85f1c93a1ce47dfad49003",
+      "body_sha256": "debb1886e013141251059f4dfaa2f72e6fd31de4951d7072ba0c921b78908636",
+      "full_prompt_reconstructed_exactly": true,
+      "decoded_reconstructed_exactly": true,
+      "RAW_is_exact_body_plus_stop": true,
+      "before": {
+        "history": [],
+        "semantic_status": "unverified"
+      },
+      "sample_title": "電車の方向を間違え、目的地より先に焦りを直す"
+    },
+    {
+      "sample_id": "O05",
+      "call_id": "R0010",
+      "prompt_sha256": "c83c830cb954e4c60fe0df3c2484346ceb129be0ee4424ac7e372a9e4383eb90",
+      "decoded_sha256": "4b978336846b6facdc476c4beeaabf96f89571b7c61309d2e8e674f72869d8d2",
+      "body_sha256": "a3a57cd72bd8cab74b880bda42d8711724f2206ff22b63272828e6d98758026c",
+      "full_prompt_reconstructed_exactly": true,
+      "decoded_reconstructed_exactly": true,
+      "RAW_is_exact_body_plus_stop": true,
+      "before": {
+        "history": [],
+        "semantic_status": "unverified"
+      },
+      "sample_title": "鳥の写真はぶれたが、カメラを下ろして気づいたこと"
+    }
+  ]
+}

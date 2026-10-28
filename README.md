@@ -1,6 +1,6 @@
 # ZIPちゃん Harness v5
 
-**現行構成の保存版：v5-current-20261026。研究中のオフラインRuntimeです。**
+**現行構成と研究候補の保存版：v5-current-20261028。研究中のオフラインRuntimeです。**
 
 記憶α → 既存Base Planner LoRA → Flow→Fact適用 → 新Instruct Surface LoRA → 形式確認 → テキスト履歴・提示進捗 → 次のPlanner。不正Planner JSONはRAWを保存・Planを破棄し、元Fact固定順で継続します。Semantic Guardは現行経路で使用していません。
 
@@ -11,6 +11,16 @@
 - [51発話・2503字の全文](v5/evidence/continuous10_20261024/speech.txt) ／ [結果](v5/evidence/continuous10_20261024/result.md) ／ [全入力・RAW・評価HTML](v5/evidence/continuous10_20261024/comparison.html)
 - [人間・既存Memory・AIの3列比較](v5/evidence/human_memory_compare_20261024/comparison.html) ／ [人間原文](v5/evidence/human_memory_compare_20261024/reference/human.txt) ／ [AI全文](v5/evidence/human_memory_compare_20261024/speech.txt) ／ [結果](v5/evidence/human_memory_compare_20261024/result.md)
 - [復元条件とCPU検査](v5/REPRODUCING.md) ／ [ソース・証跡SHA台帳](SOURCE_MANIFEST.json)
+
+## 最新更新（2026-10-28）
+
+[現在地](v5/progress/CURRENT_STATE.md) ／ [CPU操作選択の研究経路](v5/STRIPE_CONTROL.md) ／ [CPU選択10素材と前回の全文比較](v5/evidence/cpu_select_surface_ten_20261027/comparison.html) ／ [結果](v5/evidence/cpu_select_surface_ten_20261027/result.md)
+
+前回push以降の役割制御、A〜G、H06の32操作A/B/C、手作業32操作10素材、同一CPU選択器10素材を保存した。操作列をSurfaceへ届けることは確認できたが、文字graph由来の前提・時間順・反応対象の崩れが残る。既定v5/runtimeやモデルの品質採用は変更していない。
+
+**来歴の区別：H06の32行はCPU選択。前回V01〜O05はMemoryだけでなく操作列もroot手作業。新V01〜O05はMemoryを固定し、共通CPU補助graph＋同一H06 Engineで操作列を選択した。** 人間の短文ストライプとの差は同じ意味単位へそろえる比較が未実施。全体の黄色割合だけで自然さを判断しない。
+
+以下の2026-10-26までの節は履歴として保存する。旧節の「未実装」は当時の状態で、最新状態は上記を参照。
 
 ## Surfaceプロンプト研究の更新（2026-10-26）
 
@@ -49,6 +59,7 @@ python -X utf8 -B v5/tools/test_snapshot.py -v
 python -X utf8 -B v5/tools/test_current.py -v
 python -X utf8 -B v5/tools/test_prompt_evidence.py -v
 python -X utf8 -B v5/tools/test_viewpoint_evidence.py -v
+python -X utf8 -B v5/tools/test_stripe_evidence.py -v
 ```
 
 これらは標準ライブラリだけのソース・保存証跡・CPU模擬検査で、モデル生成や学習を実行しません。

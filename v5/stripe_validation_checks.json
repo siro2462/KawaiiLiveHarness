@@ -1,0 +1,47 @@
+{
+  "status": "pass",
+  "scope": "Snapshot and saved evidence integrity plus CPU-only selector replay; not semantic quality certification",
+  "client_date_jst": "2026-10-28",
+  "tests": [
+    {
+      "name": "test_snapshot.py",
+      "count": 12,
+      "passed": true
+    },
+    {
+      "name": "test_current.py",
+      "count": 15,
+      "passed": true
+    },
+    {
+      "name": "test_prompt_evidence.py",
+      "count": 8,
+      "passed": true
+    },
+    {
+      "name": "test_viewpoint_evidence.py",
+      "count": 7,
+      "passed": true
+    },
+    {
+      "name": "test_stripe_evidence.py",
+      "count": 12,
+      "passed": true
+    }
+  ],
+  "total_tests": 54,
+  "source_check": {
+    "status": "pass",
+    "version": "v5-current-20261028",
+    "files": 513,
+    "python_syntax": 224,
+    "bytes": 51897335,
+    "original_sources_checked": 470,
+    "model_calls": 0,
+    "network": false
+  },
+  "model_calls": 0,
+  "training": 0,
+  "quality_retries": 0,
+  "default_runtime_changed": false
+}

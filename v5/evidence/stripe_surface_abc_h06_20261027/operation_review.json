@@ -1,0 +1,896 @@
+{
+  "review_packet_sha256": "135af777204e58c476918b14b5710eb317a38b8115e282a265517f697ccd7fdd",
+  "arms": {
+    "B": [
+      {
+        "index": 1,
+        "status": "executed",
+        "reason": "怒りを伴う予告として導入。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0003",
+            "quote": "ちょっと許せない話があるんですけど。"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "status": "executed",
+        "reason": "体験を報告。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0003",
+            "quote": "ガラポンを回したんですよ"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "status": "executed",
+        "reason": "賞区分を説明。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0003",
+            "quote": "A賞とかB賞とかC賞がある抽選で"
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "status": "executed",
+        "reason": "装置の詳細を説明。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0003",
+            "quote": "球を取り出す大きな抽選器があった"
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "status": "executed",
+        "reason": "本人の天井なし報告を表現。ただし装置の場所を示すそこにとの接続はやや曖昧。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0003",
+            "quote": "天井がないっていうのもあって"
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "status": "executed",
+        "reason": "欲求を表出。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0003",
+            "quote": "A賞が欲しかったんですよね。"
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "status": "executed",
+        "reason": "支出と受取物を報告。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0003",
+            "quote": "9000円使ってステッカーとかしか貰えなくて。"
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "status": "executed",
+        "reason": "金額の大きさへの反応。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0003",
+            "quote": "いや、もう金額的にやばいなって。"
+          }
+        ]
+      },
+      {
+        "index": 9,
+        "status": "executed",
+        "reason": "金額を再提示し怒りへつなぐ。隣接する#10との自然な結合。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0003",
+            "quote": "9000円ですよ？ 許せないですよ、本当に。"
+          }
+        ]
+      },
+      {
+        "index": 10,
+        "status": "executed",
+        "reason": "怒りを明示。#9の金額への反応と共通文だが別の遠隔操作へ使い回していない。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0003",
+            "quote": "許せないですよ、本当に。"
+          }
+        ]
+      },
+      {
+        "index": 11,
+        "status": "executed",
+        "reason": "結果を報告。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0003",
+            "quote": "B賞ばかりが続いて。"
+          }
+        ]
+      },
+      {
+        "index": 12,
+        "status": "executed",
+        "reason": "予感を本人の感じ方として表す。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0003",
+            "quote": "何回引いても出そうにないなって感じてた"
+          }
+        ]
+      },
+      {
+        "index": 13,
+        "status": "executed",
+        "reason": "評価として期待を表す。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0003",
+            "quote": "一回くらい当たってもいいんじゃないかって思ってた"
+          }
+        ]
+      },
+      {
+        "index": 14,
+        "status": "executed",
+        "reason": "要求と脱力を表す。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0003",
+            "quote": "もう、くれよって感じで、力が抜けたというか。"
+          }
+        ]
+      },
+      {
+        "index": 15,
+        "status": "executed",
+        "reason": "在庫を初めて報告。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0003",
+            "quote": "A賞の景品もたくさん置かれてた"
+          }
+        ]
+      },
+      {
+        "index": 16,
+        "status": "executed",
+        "reason": "本人の評価として表す。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0003",
+            "quote": "おかしいなって思いました。"
+          }
+        ]
+      },
+      {
+        "index": 17,
+        "status": "executed",
+        "reason": "回数の初回報告。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0003",
+            "quote": "15回回したんですけど"
+          }
+        ]
+      },
+      {
+        "index": 18,
+        "status": "executed",
+        "reason": "結果の初回報告。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0003",
+            "quote": "A賞が1回も出なかったんですよね。"
+          }
+        ]
+      },
+      {
+        "index": 19,
+        "status": "executed",
+        "reason": "直前の不当選に在庫を対置して評価へ接続。比較は暗示的だが成立。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0003",
+            "quote": "景品の在庫はたくさんあるみたいだったから、それってよくないなって。"
+          }
+        ]
+      },
+      {
+        "index": 20,
+        "status": "executed",
+        "reason": "主観的な評価。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0003",
+            "quote": "それってよくないなって。"
+          }
+        ]
+      },
+      {
+        "index": 21,
+        "status": "absent",
+        "reason": "在庫への言及は#19の比較までに吸収され、その評価後の独立した戻りがない。",
+        "operation_appropriate": false,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": []
+      },
+      {
+        "index": 22,
+        "status": "absent",
+        "reason": "#18の不当選報告後、指定された後段での不当選の再言及はない。",
+        "operation_appropriate": false,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": []
+      },
+      {
+        "index": 23,
+        "status": "executed",
+        "reason": "回数への戻りはあるが#24の不確かな回想と融合。確定→回想のぎこちなさは入力列由来もある。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0003",
+            "quote": "15回回した、確か……かな。"
+          }
+        ]
+      },
+      {
+        "index": 24,
+        "status": "executed",
+        "reason": "数字を不確かに思い返す。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0003",
+            "quote": "確か……かな。"
+          }
+        ]
+      },
+      {
+        "index": 25,
+        "status": "executed",
+        "reason": "単価を報告。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0003",
+            "quote": "1回600円で"
+          }
+        ]
+      },
+      {
+        "index": 26,
+        "status": "executed",
+        "reason": "合計を報告。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0003",
+            "quote": "合計9000円使ったんですけど"
+          }
+        ]
+      },
+      {
+        "index": 27,
+        "status": "executed",
+        "reason": "実行ではなく仮定比較を維持。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0003",
+            "quote": "これだけあれば買えたんじゃないかな"
+          }
+        ]
+      },
+      {
+        "index": 28,
+        "status": "executed",
+        "reason": "嫌悪とショック。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0003",
+            "quote": "正直、嫌だしショックで。"
+          }
+        ]
+      },
+      {
+        "index": 29,
+        "status": "executed",
+        "reason": "未確認の疑いとして限定。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0003",
+            "quote": "A賞が出ない仕組みなんじゃないかって疑いたくなるような"
+          }
+        ]
+      },
+      {
+        "index": 30,
+        "status": "executed",
+        "reason": "賞内容を報告。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0003",
+            "quote": "A賞はうちわだったんですけど"
+          }
+        ]
+      },
+      {
+        "index": 31,
+        "status": "executed",
+        "reason": "不確かな記憶を勝手に埋めない。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0003",
+            "quote": "B賞が何だったかはちょっと思い出せないですね。"
+          }
+        ]
+      },
+      {
+        "index": 32,
+        "status": "executed",
+        "reason": "ため息を表す。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0003",
+            "quote": "はぁ……。"
+          }
+        ]
+      }
+    ],
+    "C": [
+      {
+        "index": 1,
+        "status": "executed",
+        "reason": "感情を伴う予告。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0004",
+            "quote": "ちょっと許せない話があるんですけど。"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "status": "executed",
+        "reason": "体験を報告。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0004",
+            "quote": "ガラポンを回したんですよ"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "status": "executed",
+        "reason": "賞区分を説明。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0004",
+            "quote": "A賞とかB賞とかC賞がある抽選で"
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "status": "executed",
+        "reason": "装置の詳細を説明。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0004",
+            "quote": "大きな抽選器から球を取り出すやつ。"
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "status": "executed",
+        "reason": "本人の報告。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0005",
+            "quote": "天井がないんですよ。"
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "status": "executed",
+        "reason": "欲求。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0005",
+            "quote": "A賞が欲しかったんですけど"
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "status": "executed",
+        "reason": "支出と受取結果。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0005",
+            "quote": "9000円使ってもステッカーとかしか貰えなくて。"
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "status": "executed",
+        "reason": "金額の大きさを表すが、原文の荒い強さは抑えられる。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0005",
+            "quote": "結構な金額ですよね。"
+          }
+        ]
+      },
+      {
+        "index": 9,
+        "status": "executed",
+        "reason": "金額への反応。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0006",
+            "quote": "9000円って、やばいですよね。"
+          }
+        ]
+      },
+      {
+        "index": 10,
+        "status": "executed",
+        "reason": "怒りを明示。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0006",
+            "quote": "本当に許せない。"
+          }
+        ]
+      },
+      {
+        "index": 11,
+        "status": "executed",
+        "reason": "結果を報告。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0006",
+            "quote": "ずっとB賞ばっかり続いて"
+          }
+        ]
+      },
+      {
+        "index": 12,
+        "status": "executed",
+        "reason": "主観的な予感。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0006",
+            "quote": "何回引いても出そうにないなって感じました。"
+          }
+        ]
+      },
+      {
+        "index": 13,
+        "status": "executed",
+        "reason": "本人の評価として期待。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0007",
+            "quote": "一回くらいは当たってもいいと思うんですけどね。"
+          }
+        ]
+      },
+      {
+        "index": 14,
+        "status": "executed",
+        "reason": "要求と脱力。早くは要求の言い換えで新たな出来事ではない。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0007",
+            "quote": "もう、早くくれよって感じというか、ちょっと脱力しちゃいました。"
+          }
+        ]
+      },
+      {
+        "index": 15,
+        "status": "executed",
+        "reason": "在庫を報告。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0007",
+            "quote": "A賞の景品がたくさん置いてあった"
+          }
+        ]
+      },
+      {
+        "index": 16,
+        "status": "executed",
+        "reason": "本人の評価。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0007",
+            "quote": "おかしいですよね。"
+          }
+        ]
+      },
+      {
+        "index": 17,
+        "status": "executed",
+        "reason": "回数を初回報告。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0008",
+            "quote": "15回も回したんですけど"
+          }
+        ]
+      },
+      {
+        "index": 18,
+        "status": "executed",
+        "reason": "不当選の結果。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0008",
+            "quote": "A賞が1回も出なかったんですよ。"
+          }
+        ]
+      },
+      {
+        "index": 19,
+        "status": "executed",
+        "reason": "在庫と不当選を明示的に対比。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0008",
+            "quote": "あんなに景品が置いてあったのに、当たらない"
+          }
+        ]
+      },
+      {
+        "index": 20,
+        "status": "executed",
+        "reason": "主観的な評価。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0008",
+            "quote": "ちょっとよくないなって思いました。"
+          }
+        ]
+      },
+      {
+        "index": 21,
+        "status": "executed",
+        "reason": "既出在庫への明示的な戻り。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0009",
+            "quote": "A賞の景品、あんなにたくさん置いてあったんですよね。"
+          }
+        ]
+      },
+      {
+        "index": 22,
+        "status": "partial",
+        "reason": "不当選は再言及するが、指定#22不当選→#23回数の順を回数→不当選へ結合し反転。",
+        "operation_appropriate": false,
+        "epistemic_preserved": "yes",
+        "order_preserved": "no",
+        "evidence": [
+          {
+            "call_id": "R0009",
+            "quote": "それで、15回回したんですけど、A賞は1回も出なかったんですよ。"
+          }
+        ]
+      },
+      {
+        "index": 23,
+        "status": "partial",
+        "reason": "回数への戻りはあるが、直前#22より先に回数を置く。自然な文内結合でも厳格な順序条件では部分実行。",
+        "operation_appropriate": false,
+        "epistemic_preserved": "yes",
+        "order_preserved": "no",
+        "evidence": [
+          {
+            "call_id": "R0009",
+            "quote": "それで、15回回したんですけど、A賞は1回も出なかったんですよ。"
+          }
+        ]
+      },
+      {
+        "index": 24,
+        "status": "executed",
+        "reason": "不確かな回想。先に確定してから疑うぎこちなさは元の32列にも存在。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0009",
+            "quote": "……えーと、確か15回だったかな。"
+          }
+        ]
+      },
+      {
+        "index": 25,
+        "status": "executed",
+        "reason": "単価を報告。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0010",
+            "quote": "1回600円だったので"
+          }
+        ]
+      },
+      {
+        "index": 26,
+        "status": "executed",
+        "reason": "合計を報告。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0010",
+            "quote": "合計で9000円使ったんですけど"
+          }
+        ]
+      },
+      {
+        "index": 27,
+        "status": "executed",
+        "reason": "仮定の購入可能性を維持。ただし何かと曖昧で購入対象の具体性は弱い。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0010",
+            "quote": "それだけあれば、何か買えたのかな"
+          }
+        ]
+      },
+      {
+        "index": 28,
+        "status": "executed",
+        "reason": "ショックと嫌悪。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0010",
+            "quote": "本当に、ショックというか、嫌な感じでした。"
+          }
+        ]
+      },
+      {
+        "index": 29,
+        "status": "executed",
+        "reason": "確認済み事実にせず疑念を表す。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0011",
+            "quote": "もしかして、A賞が出ないような仕組みなのかな、なんて疑っちゃったりもした"
+          }
+        ]
+      },
+      {
+        "index": 30,
+        "status": "executed",
+        "reason": "賞内容を報告。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0011",
+            "quote": "A賞はうちわだったんですけど"
+          }
+        ]
+      },
+      {
+        "index": 31,
+        "status": "executed",
+        "reason": "想起困難を保持。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0011",
+            "quote": "B賞とかも、なんだっけ、あんまり詳しく思い出せないな"
+          }
+        ]
+      },
+      {
+        "index": 32,
+        "status": "executed",
+        "reason": "ため息。",
+        "operation_appropriate": true,
+        "epistemic_preserved": "yes",
+        "order_preserved": "yes",
+        "evidence": [
+          {
+            "call_id": "R0011",
+            "quote": "はぁ。"
+          }
+        ]
+      }
+    ]
+  },
+  "method": "Root known-condition designer AI; strict order/epistemic/content/function. Joined clauses allowed, but explicit22/23 inversion marked partial. Not human independent labels."
+}

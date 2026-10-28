@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "cpu_checks": 51,
+  "dependency_checks": 8,
+  "startup_exit": 0,
+  "new_model_calls": 0,
+  "input_token_counts": {
+    "baseline": 513,
+    "first_controlled": 384,
+    "cpu_mock_second": 293
+  },
+  "frozen_protocol_sha256": "3f2de5522243ca88d45122f78e16f22c7c514abc1bb3e881f57329dd945812a2",
+  "notes": "CPU mock second history proves route; actual second prompt audited only after actual generation."
+}

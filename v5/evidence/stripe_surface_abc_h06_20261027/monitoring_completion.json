@@ -1,0 +1,12 @@
+{
+  "automation_id": "32-surface-a-b-c",
+  "status": "deleted",
+  "tool": "mcp__codex_app__automation_update",
+  "tool_result": {
+    "automationId": "32-surface-a-b-c",
+    "mode": "delete",
+    "deleteStatus": "deleted"
+  },
+  "other_automations_changed": false,
+  "recorded_jst": "2026-10-27T13:26:21.138452+09:00"
+}

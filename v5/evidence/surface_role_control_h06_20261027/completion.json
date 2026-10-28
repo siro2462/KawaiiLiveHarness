@@ -1,0 +1,24 @@
+{
+  "status": "complete",
+  "technical_audit_sha256": "3e573dfeb38b768aa5dceba80a10b4462d555313e83a8416ddf600e1b55d027b",
+  "review_packet_sha256": "df22a73aa9972a28e50841cf692feea9c4a904091ff5146210a932f2a40c8d50",
+  "root_review_sha256": "dd916938f4b276cb94deba5c5e89b54fe079ea0a9cba0abaf927ec0bd16752e1",
+  "root_summary_sha256": "df57a3746a77bd384163a8eefdc563fc7a82691f2e01bac26e7a635d211b950b",
+  "comparison_sha256": "1f1c6d0a538b75f3332800e8246c433ef93c3affbf7b28aaa8b8819a3ee67add",
+  "full_text_sha256": "b3660cccd8191e5ec7215a617bd59b34bf1c0711e60d7d80904b3fdd00f5d7cc",
+  "metrics": {
+    "baseline_chars": 99,
+    "controlled_delivered_chars": 98,
+    "new_surface_calls": 2,
+    "delivered": 2,
+    "stop_reason": "all_angles_have_literal_cues_unverified",
+    "model_seconds": 82.63900000000001
+  },
+  "human_quality_labels": 0,
+  "known_condition_designer_review": true,
+  "semantic_guard_calls": 0,
+  "training": 0,
+  "quality_retries": 0,
+  "real_tts": false,
+  "finished_jst": "2026-10-27T08:51:34.038035+09:00"
+}

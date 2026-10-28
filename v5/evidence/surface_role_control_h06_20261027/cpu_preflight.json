@@ -1,0 +1,219 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "name": "max2 Surface, no other calls",
+      "passed": true
+    },
+    {
+      "name": "exact fixed LoRA/model/generation config",
+      "passed": true
+    },
+    {
+      "name": "unchanged core common.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged core contract_runtime.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged core runtime.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged core flow_apply.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged core fact_contract.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged core driver_cpu.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged core gpu_worker.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged core processor_cpu.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged core request_protocol.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged core token_journal.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged core dependency_probe.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged core startup_probe.py",
+      "passed": true
+    },
+    {
+      "name": "same original baseline case",
+      "passed": true
+    },
+    {
+      "name": "two distinct source grounded roles",
+      "passed": true
+    },
+    {
+      "name": "unknown fact",
+      "passed": true
+    },
+    {
+      "name": "bad basis",
+      "passed": true
+    },
+    {
+      "name": "duplicate role",
+      "passed": true
+    },
+    {
+      "name": "unexpected field",
+      "passed": true
+    },
+    {
+      "name": "cannot request unbounded3 calls",
+      "passed": true
+    },
+    {
+      "name": "snapshot and caller immutable",
+      "passed": true
+    },
+    {
+      "name": "cannot begin second role first",
+      "passed": true
+    },
+    {
+      "name": "cannot begin while in flight",
+      "passed": true
+    },
+    {
+      "name": "only first role observed by cue",
+      "passed": true
+    },
+    {
+      "name": "actual delivered body reaches next history",
+      "passed": true
+    },
+    {
+      "name": "normal terminal state no next call",
+      "passed": true
+    },
+    {
+      "name": "cannot finish same attempt twice",
+      "passed": true
+    },
+    {
+      "name": "no retries after finished roles",
+      "passed": true
+    },
+    {
+      "name": "literal cues are not semantic certification",
+      "passed": true
+    },
+    {
+      "name": "actual purchase not mistaken for hypothetical",
+      "passed": true
+    },
+    {
+      "name": "unrelated mention not marked as comparison",
+      "passed": true
+    },
+    {
+      "name": "wide numeric and comma normalization",
+      "passed": true
+    },
+    {
+      "name": "actual rollout uses2 roles and real prior text",
+      "passed": true
+    },
+    {
+      "name": "already expressed both roles stop after1",
+      "passed": true
+    },
+    {
+      "name": "ambiguous text stops at bound without meaning claim",
+      "passed": true
+    },
+    {
+      "name": "format failure stops without quality retry",
+      "passed": true
+    },
+    {
+      "name": "exact prior duplicate held without another call",
+      "passed": true
+    },
+    {
+      "name": "official baseline Processor exactly reconstructs",
+      "passed": true
+    },
+    {
+      "name": "first role reaches official decoded input",
+      "passed": true
+    },
+    {
+      "name": "first fixed complete Fact remains available",
+      "passed": true
+    },
+    {
+      "name": "first complete context without truncation",
+      "passed": true
+    },
+    {
+      "name": "first unchanged official generation template",
+      "passed": true
+    },
+    {
+      "name": "mock second role reaches official decoded input",
+      "passed": true
+    },
+    {
+      "name": "mock second fixed complete Fact remains available",
+      "passed": true
+    },
+    {
+      "name": "mock second complete context without truncation",
+      "passed": true
+    },
+    {
+      "name": "mock second unchanged official generation template",
+      "passed": true
+    },
+    {
+      "name": "first exact original initial history",
+      "passed": true
+    },
+    {
+      "name": "mock second actual feedback reaches tokens",
+      "passed": true
+    },
+    {
+      "name": "original full-task instruction not carried forward",
+      "passed": true
+    },
+    {
+      "name": "same saved common first reference",
+      "passed": true
+    }
+  ],
+  "check_count": 51,
+  "new_model_calls": 0,
+  "context_cut_tokens": 0,
+  "prepared_inputs_sha256": "cefd13a3077fa6bbb6c01341af251ce9a86ddb8a279d80d821dd20e507d5d75a",
+  "input_token_counts": {
+    "baseline": 513,
+    "first_controlled": 384,
+    "cpu_mock_second": 293
+  },
+  "second_actual_input_checked_after_generation": true
+}

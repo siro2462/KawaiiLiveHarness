@@ -1,0 +1,527 @@
+{
+  "status": "pass",
+  "check_count": 127,
+  "checks": [
+    {
+      "name": "fixed model LoRA seed generation condition",
+      "passed": true
+    },
+    {
+      "name": "max28 no auxiliary calls",
+      "passed": true
+    },
+    {
+      "name": "same H06 original facts and pre-H06 initial history",
+      "passed": true
+    },
+    {
+      "name": "core unchanged common.py",
+      "passed": true
+    },
+    {
+      "name": "core unchanged contract_runtime.py",
+      "passed": true
+    },
+    {
+      "name": "core unchanged runtime.py",
+      "passed": true
+    },
+    {
+      "name": "core unchanged flow_apply.py",
+      "passed": true
+    },
+    {
+      "name": "core unchanged fact_contract.json",
+      "passed": true
+    },
+    {
+      "name": "core unchanged driver_cpu.py",
+      "passed": true
+    },
+    {
+      "name": "core unchanged gpu_worker.py",
+      "passed": true
+    },
+    {
+      "name": "core unchanged processor_cpu.py",
+      "passed": true
+    },
+    {
+      "name": "core unchanged request_protocol.py",
+      "passed": true
+    },
+    {
+      "name": "core unchanged token_journal.py",
+      "passed": true
+    },
+    {
+      "name": "core unchanged dependency_probe.py",
+      "passed": true
+    },
+    {
+      "name": "core unchanged startup_probe.py",
+      "passed": true
+    },
+    {
+      "name": "all catalog evidence exact source substrings",
+      "passed": true
+    },
+    {
+      "name": "bad evidence",
+      "passed": true
+    },
+    {
+      "name": "unknown dependency",
+      "passed": true
+    },
+    {
+      "name": "duplicate viewpoint",
+      "passed": true
+    },
+    {
+      "name": "unknown relation",
+      "passed": true
+    },
+    {
+      "name": "A official complete input without truncation",
+      "passed": true
+    },
+    {
+      "name": "A exact initial history reaches decoded input",
+      "passed": true
+    },
+    {
+      "name": "A every mock step official input exact 1",
+      "passed": true
+    },
+    {
+      "name": "A delivered text reaches next prompt 1",
+      "passed": true
+    },
+    {
+      "name": "A every mock step official input exact 2",
+      "passed": true
+    },
+    {
+      "name": "A delivered text reaches next prompt 2",
+      "passed": true
+    },
+    {
+      "name": "A every mock step official input exact 3",
+      "passed": true
+    },
+    {
+      "name": "A delivered text reaches next prompt 3",
+      "passed": true
+    },
+    {
+      "name": "A bounded end and independent source",
+      "passed": true
+    },
+    {
+      "name": "A expected feature exposure",
+      "passed": true
+    },
+    {
+      "name": "B official complete input without truncation",
+      "passed": true
+    },
+    {
+      "name": "B exact initial history reaches decoded input",
+      "passed": true
+    },
+    {
+      "name": "B every mock step official input exact 1",
+      "passed": true
+    },
+    {
+      "name": "B delivered text reaches next prompt 1",
+      "passed": true
+    },
+    {
+      "name": "B every mock step official input exact 2",
+      "passed": true
+    },
+    {
+      "name": "B delivered text reaches next prompt 2",
+      "passed": true
+    },
+    {
+      "name": "B every mock step official input exact 3",
+      "passed": true
+    },
+    {
+      "name": "B delivered text reaches next prompt 3",
+      "passed": true
+    },
+    {
+      "name": "B bounded end and independent source",
+      "passed": true
+    },
+    {
+      "name": "B expected feature exposure",
+      "passed": true
+    },
+    {
+      "name": "C official complete input without truncation",
+      "passed": true
+    },
+    {
+      "name": "C exact initial history reaches decoded input",
+      "passed": true
+    },
+    {
+      "name": "C every mock step official input exact 1",
+      "passed": true
+    },
+    {
+      "name": "C delivered text reaches next prompt 1",
+      "passed": true
+    },
+    {
+      "name": "C every mock step official input exact 2",
+      "passed": true
+    },
+    {
+      "name": "C delivered text reaches next prompt 2",
+      "passed": true
+    },
+    {
+      "name": "C every mock step official input exact 3",
+      "passed": true
+    },
+    {
+      "name": "C appraisal reaches decoded input 3",
+      "passed": true
+    },
+    {
+      "name": "C delivered text reaches next prompt 3",
+      "passed": true
+    },
+    {
+      "name": "C bounded end and independent source",
+      "passed": true
+    },
+    {
+      "name": "C expected feature exposure",
+      "passed": true
+    },
+    {
+      "name": "D official complete input without truncation",
+      "passed": true
+    },
+    {
+      "name": "D exact initial history reaches decoded input",
+      "passed": true
+    },
+    {
+      "name": "D every mock step official input exact 1",
+      "passed": true
+    },
+    {
+      "name": "D delivered text reaches next prompt 1",
+      "passed": true
+    },
+    {
+      "name": "D every mock step official input exact 2",
+      "passed": true
+    },
+    {
+      "name": "D relation reaches decoded input 2",
+      "passed": true
+    },
+    {
+      "name": "D delivered text reaches next prompt 2",
+      "passed": true
+    },
+    {
+      "name": "D every mock step official input exact 3",
+      "passed": true
+    },
+    {
+      "name": "D appraisal reaches decoded input 3",
+      "passed": true
+    },
+    {
+      "name": "D relation reaches decoded input 3",
+      "passed": true
+    },
+    {
+      "name": "D delivered text reaches next prompt 3",
+      "passed": true
+    },
+    {
+      "name": "D bounded end and independent source",
+      "passed": true
+    },
+    {
+      "name": "D expected feature exposure",
+      "passed": true
+    },
+    {
+      "name": "E official complete input without truncation",
+      "passed": true
+    },
+    {
+      "name": "E exact initial history reaches decoded input",
+      "passed": true
+    },
+    {
+      "name": "E every mock step official input exact 1",
+      "passed": true
+    },
+    {
+      "name": "E delivered text reaches next prompt 1",
+      "passed": true
+    },
+    {
+      "name": "E every mock step official input exact 2",
+      "passed": true
+    },
+    {
+      "name": "E relation reaches decoded input 2",
+      "passed": true
+    },
+    {
+      "name": "E delivered text reaches next prompt 2",
+      "passed": true
+    },
+    {
+      "name": "E every mock step official input exact 3",
+      "passed": true
+    },
+    {
+      "name": "E appraisal reaches decoded input 3",
+      "passed": true
+    },
+    {
+      "name": "E relation reaches decoded input 3",
+      "passed": true
+    },
+    {
+      "name": "E delivered text reaches next prompt 3",
+      "passed": true
+    },
+    {
+      "name": "E bounded end and independent source",
+      "passed": true
+    },
+    {
+      "name": "E expected feature exposure",
+      "passed": true
+    },
+    {
+      "name": "F official complete input without truncation",
+      "passed": true
+    },
+    {
+      "name": "F exact initial history reaches decoded input",
+      "passed": true
+    },
+    {
+      "name": "F every mock step official input exact 1",
+      "passed": true
+    },
+    {
+      "name": "F delivered text reaches next prompt 1",
+      "passed": true
+    },
+    {
+      "name": "F every mock step official input exact 2",
+      "passed": true
+    },
+    {
+      "name": "F relation reaches decoded input 2",
+      "passed": true
+    },
+    {
+      "name": "F delivered text reaches next prompt 2",
+      "passed": true
+    },
+    {
+      "name": "F every mock step official input exact 3",
+      "passed": true
+    },
+    {
+      "name": "F appraisal reaches decoded input 3",
+      "passed": true
+    },
+    {
+      "name": "F relation reaches decoded input 3",
+      "passed": true
+    },
+    {
+      "name": "F delivered text reaches next prompt 3",
+      "passed": true
+    },
+    {
+      "name": "F every mock step official input exact 4",
+      "passed": true
+    },
+    {
+      "name": "F appraisal reaches decoded input 4",
+      "passed": true
+    },
+    {
+      "name": "F relation reaches decoded input 4",
+      "passed": true
+    },
+    {
+      "name": "F delivered text reaches next prompt 4",
+      "passed": true
+    },
+    {
+      "name": "F bounded end and independent source",
+      "passed": true
+    },
+    {
+      "name": "F expected feature exposure",
+      "passed": true
+    },
+    {
+      "name": "G official complete input without truncation",
+      "passed": true
+    },
+    {
+      "name": "G exact initial history reaches decoded input",
+      "passed": true
+    },
+    {
+      "name": "G every mock step official input exact 1",
+      "passed": true
+    },
+    {
+      "name": "G delivered text reaches next prompt 1",
+      "passed": true
+    },
+    {
+      "name": "G every mock step official input exact 2",
+      "passed": true
+    },
+    {
+      "name": "G relation reaches decoded input 2",
+      "passed": true
+    },
+    {
+      "name": "G delivered text reaches next prompt 2",
+      "passed": true
+    },
+    {
+      "name": "G every mock step official input exact 3",
+      "passed": true
+    },
+    {
+      "name": "G appraisal reaches decoded input 3",
+      "passed": true
+    },
+    {
+      "name": "G relation reaches decoded input 3",
+      "passed": true
+    },
+    {
+      "name": "G delivered text reaches next prompt 3",
+      "passed": true
+    },
+    {
+      "name": "G every mock step official input exact 4",
+      "passed": true
+    },
+    {
+      "name": "G appraisal reaches decoded input 4",
+      "passed": true
+    },
+    {
+      "name": "G relation reaches decoded input 4",
+      "passed": true
+    },
+    {
+      "name": "G delivered text reaches next prompt 4",
+      "passed": true
+    },
+    {
+      "name": "G bounded end and independent source",
+      "passed": true
+    },
+    {
+      "name": "G expected feature exposure",
+      "passed": true
+    },
+    {
+      "name": "E new angle on existing Fact eligible while topic open",
+      "passed": true
+    },
+    {
+      "name": "B old Fact gate blocks new angle",
+      "passed": true
+    },
+    {
+      "name": "C appraisal state grounded and actual text retained",
+      "passed": true
+    },
+    {
+      "name": "D relation affects score and prompt",
+      "passed": true
+    },
+    {
+      "name": "G lexical observation suppresses already spoken extra view",
+      "passed": true
+    },
+    {
+      "name": "A format hold no retry or consumption",
+      "passed": true
+    },
+    {
+      "name": "B format hold no retry or consumption",
+      "passed": true
+    },
+    {
+      "name": "C format hold no retry or consumption",
+      "passed": true
+    },
+    {
+      "name": "D format hold no retry or consumption",
+      "passed": true
+    },
+    {
+      "name": "E format hold no retry or consumption",
+      "passed": true
+    },
+    {
+      "name": "F format hold no retry or consumption",
+      "passed": true
+    },
+    {
+      "name": "G format hold no retry or consumption",
+      "passed": true
+    },
+    {
+      "name": "purchase execution is not hypothetical lexical signal",
+      "passed": true
+    },
+    {
+      "name": "NFKC comma hypothetical recognized",
+      "passed": true
+    },
+    {
+      "name": "actual controller full seven-arm CPU rollout",
+      "passed": true
+    },
+    {
+      "name": "official reference contract unchanged",
+      "passed": true
+    }
+  ],
+  "new_model_calls": 0,
+  "context_cut_tokens": 0,
+  "prepared_inputs_sha256": "44d9c352bcd9715bd77928525e53a0b8e35a8e46e581f33e0306fbb9e8a84855",
+  "initial_input_tokens": {
+    "A": 442,
+    "B": 465,
+    "C": 465,
+    "D": 465,
+    "E": 465,
+    "F": 465,
+    "G": 465
+  },
+  "feature_warning": "A-E may share choices; E eligibility exists but terminal gate retained until F; F/G new choice and lexical stopping are not semantic cognition"
+}

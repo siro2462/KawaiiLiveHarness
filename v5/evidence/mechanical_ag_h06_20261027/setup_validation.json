@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "cpu_checks": 127,
+  "dependency_checks": 8,
+  "startup_python_exit": 0,
+  "prepared_inputs_sha256": "44d9c352bcd9715bd77928525e53a0b8e35a8e46e581f33e0306fbb9e8a84855",
+  "notes_sha256": "5229799790a5fb93fa7fceaab41bd2ad4042e02d67655bbbc65afb337d3c7412",
+  "monitor_id": "h06-a-g",
+  "record_completed_after_spawn": true,
+  "path_equivalence_checked": true,
+  "previous_assertion_preserved": "prelaunch_record_failure.json"
+}

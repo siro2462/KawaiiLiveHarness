@@ -1,0 +1,6912 @@
+[
+  {
+    "id": "V01",
+    "title": "映画の特典が被り、配布終了を心配する",
+    "category": "vtuber_saved_edited_transcript",
+    "nodes": [
+      {
+        "id": "L01",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "朝から映画へ行って疲れた",
+        "source_quotes": [
+          "もうさ、疲れたよ。"
+        ],
+        "source_line_numbers": [
+          3
+        ]
+      },
+      {
+        "id": "L02",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "朝から映画に行った",
+        "source_quotes": [
+          "朝から映画行ってから。"
+        ],
+        "source_line_numbers": [
+          4
+        ]
+      },
+      {
+        "id": "L03",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "体が痛い",
+        "source_quotes": [
+          "もう体が痛い。"
+        ],
+        "source_line_numbers": [
+          5
+        ]
+      },
+      {
+        "id": "L04",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "第4弾の特典が何度も被っている",
+        "source_quotes": [
+          "マジさ、もう第4弾ひどいって。",
+          "かぶりまくりなんだけど。"
+        ],
+        "source_line_numbers": [
+          7,
+          8
+        ]
+      },
+      {
+        "id": "L05",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "今日まだ欲しい特典を得られていない",
+        "source_quotes": [
+          "まだ今日1度も欲しいのに会ってない。"
+        ],
+        "source_line_numbers": [
+          10
+        ]
+      },
+      {
+        "id": "L06",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "同じ物が続いて困惑した",
+        "source_quotes": [
+          "もうどういうこと？"
+        ],
+        "source_line_numbers": [
+          12
+        ]
+      },
+      {
+        "id": "L07",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "最初は特典が被らなかった",
+        "source_quotes": [
+          "最初はね、かぶんなかったから"
+        ],
+        "source_line_numbers": [
+          14
+        ]
+      },
+      {
+        "id": "L08",
+        "kind": "T",
+        "epistemic": "speaker_expectation",
+        "title": "3回目には欲しい物が来ると期待した",
+        "source_quotes": [
+          "3回目はさすがに欲しいの来るやろ"
+        ],
+        "source_line_numbers": [
+          15
+        ]
+      },
+      {
+        "id": "L09",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "色を見て被ったと気づいた",
+        "source_quotes": [
+          "最初に色を見て、え、かぶった。"
+        ],
+        "source_line_numbers": [
+          16
+        ]
+      },
+      {
+        "id": "L10",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "灰色が見えた",
+        "source_quotes": [
+          "灰色が見えた途端ね"
+        ],
+        "source_line_numbers": [
+          18
+        ]
+      },
+      {
+        "id": "L11",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "灰色を見た途端に気分が落ちた",
+        "source_quotes": [
+          "もう、ああ、なのよ。"
+        ],
+        "source_line_numbers": [
+          18
+        ]
+      },
+      {
+        "id": "L12",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "被ったことが気になり続けた",
+        "source_quotes": [
+          "ずっとかぶったでテンションふわーん"
+        ],
+        "source_line_numbers": [
+          21
+        ]
+      },
+      {
+        "id": "L13",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "配信が終わったらまた映画へ行くつもり",
+        "source_quotes": [
+          "この配信が終わったらまた行ってきます。"
+        ],
+        "source_line_numbers": [
+          23
+        ]
+      },
+      {
+        "id": "L14",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "第4弾は今日配布が終わった所も多いという本人の報告",
+        "source_quotes": [
+          "もう今日なくなってるとこ多いから。"
+        ],
+        "source_line_numbers": [
+          24
+        ]
+      },
+      {
+        "id": "L15",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "今回は特典が少ないと本人は捉えている",
+        "source_quotes": [
+          "少ないから今回は。"
+        ],
+        "source_line_numbers": [
+          27
+        ]
+      },
+      {
+        "id": "L16",
+        "kind": "T",
+        "epistemic": "speaker_expectation",
+        "title": "急がないと特典がなくなると心配している",
+        "source_quotes": [
+          "マジで急がないとなくなる。"
+        ],
+        "source_line_numbers": [
+          25
+        ]
+      },
+      {
+        "id": "L17",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "なくなりそうでドキドキしている",
+        "source_quotes": [
+          "もうドキドキしてる。なくなりそうで。"
+        ],
+        "source_line_numbers": [
+          30
+        ]
+      },
+      {
+        "id": "L18",
+        "kind": "E",
+        "epistemic": "speaker_desire",
+        "title": "まだ出ていない特典が欲しい",
+        "source_quotes": [
+          "まだ出てないやつが欲しいね。"
+        ],
+        "source_line_numbers": [
+          31
+        ]
+      },
+      {
+        "id": "L19",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "SNSを見た",
+        "source_quotes": [
+          "でもSNSを見た感じ"
+        ],
+        "source_line_numbers": [
+          32
+        ]
+      },
+      {
+        "id": "L20",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "SNSでは同じ物が被る人が多そうに見えた",
+        "source_quotes": [
+          "同じのかぶってる人多いっぽい気がする"
+        ],
+        "source_line_numbers": [
+          32
+        ]
+      },
+      {
+        "id": "L21",
+        "kind": "T",
+        "epistemic": "unverified_suspicion",
+        "title": "出にくい物があるのかもしれないと考えた",
+        "source_quotes": [
+          "多分、出にくいやつがある気がする。"
+        ],
+        "source_line_numbers": [
+          33
+        ]
+      },
+      {
+        "id": "L22",
+        "kind": "T",
+        "epistemic": "unverified_suspicion",
+        "title": "欲しい物がレアかもしれないと思った",
+        "source_quotes": [
+          "レアかもしれない。"
+        ],
+        "source_line_numbers": [
+          34
+        ]
+      },
+      {
+        "id": "L23",
+        "kind": "T",
+        "epistemic": "speaker_expectation",
+        "title": "次も被ったら絶望しそうだと感じている",
+        "source_quotes": [
+          "次かぶったらもう絶望だよ。"
+        ],
+        "source_line_numbers": [
+          35
+        ]
+      },
+      {
+        "id": "L24",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "被るとテンションが下がる",
+        "source_quotes": [
+          "テンション下がっちゃうよ、これ。"
+        ],
+        "source_line_numbers": [
+          36
+        ]
+      },
+      {
+        "id": "L25",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "第4弾の結果に不満がある",
+        "source_quotes": [
+          "マジさ、もう第4弾ひどいって。"
+        ],
+        "source_line_numbers": [
+          7
+        ]
+      },
+      {
+        "id": "L26",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "今回得た特典は二つのどちらかに偏っている",
+        "source_quotes": [
+          "今回出たのは、どっちかしか出てない。"
+        ],
+        "source_line_numbers": [
+          11
+        ]
+      },
+      {
+        "id": "L27",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "欲しい結果と実際の偏りの違いに納得できない",
+        "source_quotes": [
+          "もうどういうこと？"
+        ],
+        "source_line_numbers": [
+          12
+        ]
+      },
+      {
+        "id": "L28",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "外れた驚きは嘘やんという気持ちだった",
+        "source_quotes": [
+          "え、かぶった。嘘やん。"
+        ],
+        "source_line_numbers": [
+          16
+        ]
+      },
+      {
+        "id": "L29",
+        "kind": "T",
+        "epistemic": "speaker_expectation",
+        "title": "次の結果にも不安が残っている",
+        "source_quotes": [
+          "次かぶったらもう絶望だよ。"
+        ],
+        "source_line_numbers": [
+          35
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "index": 1,
+        "memory_id": "L01",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "朝から映画へ行って疲れた",
+        "epistemic": "speaker_reaction",
+        "relation": "episode_entry",
+        "anchor_id": null
+      },
+      {
+        "index": 2,
+        "memory_id": "L02",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "朝から映画に行った",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L01"
+      },
+      {
+        "index": 3,
+        "memory_id": "L03",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "体が痛い",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L02"
+      },
+      {
+        "index": 4,
+        "memory_id": "L04",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "第4弾の特典が何度も被っている",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L03"
+      },
+      {
+        "index": 5,
+        "memory_id": "L05",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "今日まだ欲しい特典を得られていない",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L04"
+      },
+      {
+        "index": 6,
+        "memory_id": "L06",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "同じ物が続いて困惑した",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L05"
+      },
+      {
+        "index": 7,
+        "memory_id": "L07",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "最初は特典が被らなかった",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L06"
+      },
+      {
+        "index": 8,
+        "memory_id": "L08",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "3回目には欲しい物が来ると期待した",
+        "epistemic": "speaker_expectation",
+        "relation": "continuation",
+        "anchor_id": "L07"
+      },
+      {
+        "index": 9,
+        "memory_id": "L09",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "色を見て被ったと気づいた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L08"
+      },
+      {
+        "index": 10,
+        "memory_id": "L10",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "灰色が見えた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L09"
+      },
+      {
+        "index": 11,
+        "memory_id": "L11",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "灰色を見た途端に気分が落ちた",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L10"
+      },
+      {
+        "index": 12,
+        "memory_id": "L12",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "被ったことが気になり続けた",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L11"
+      },
+      {
+        "index": 13,
+        "memory_id": "L05",
+        "operation": "REVISIT",
+        "kind": "F",
+        "content": "今日まだ欲しい特典を得られていない",
+        "epistemic": "observed",
+        "relation": "return_for_emphasis",
+        "anchor_id": "L12"
+      },
+      {
+        "index": 14,
+        "memory_id": "L13",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "配信が終わったらまた映画へ行くつもり",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L05"
+      },
+      {
+        "index": 15,
+        "memory_id": "L14",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "第4弾は今日配布が終わった所も多いという本人の報告",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L13"
+      },
+      {
+        "index": 16,
+        "memory_id": "L15",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "今回は特典が少ないと本人は捉えている",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L14"
+      },
+      {
+        "index": 17,
+        "memory_id": "L16",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "急がないと特典がなくなると心配している",
+        "epistemic": "speaker_expectation",
+        "relation": "continuation",
+        "anchor_id": "L15"
+      },
+      {
+        "index": 18,
+        "memory_id": "L17",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "なくなりそうでドキドキしている",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L16"
+      },
+      {
+        "index": 19,
+        "memory_id": "L18",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "まだ出ていない特典が欲しい",
+        "epistemic": "speaker_desire",
+        "relation": "continuation",
+        "anchor_id": "L17"
+      },
+      {
+        "index": 20,
+        "memory_id": "L19",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "SNSを見た",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L18"
+      },
+      {
+        "index": 21,
+        "memory_id": "L20",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "SNSでは同じ物が被る人が多そうに見えた",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L19"
+      },
+      {
+        "index": 22,
+        "memory_id": "L21",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "出にくい物があるのかもしれないと考えた",
+        "epistemic": "unverified_suspicion",
+        "relation": "continuation",
+        "anchor_id": "L20"
+      },
+      {
+        "index": 23,
+        "memory_id": "L22",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "欲しい物がレアかもしれないと思った",
+        "epistemic": "unverified_suspicion",
+        "relation": "continuation",
+        "anchor_id": "L21"
+      },
+      {
+        "index": 24,
+        "memory_id": "L17",
+        "operation": "REVISIT",
+        "kind": "E",
+        "content": "なくなりそうでドキドキしている",
+        "epistemic": "speaker_reaction",
+        "relation": "return_for_emphasis",
+        "anchor_id": "L22"
+      },
+      {
+        "index": 25,
+        "memory_id": "L23",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "次も被ったら絶望しそうだと感じている",
+        "epistemic": "speaker_expectation",
+        "relation": "continuation",
+        "anchor_id": "L17"
+      },
+      {
+        "index": 26,
+        "memory_id": "L24",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "被るとテンションが下がる",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L23"
+      },
+      {
+        "index": 27,
+        "memory_id": "L25",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "第4弾の結果に不満がある",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L24"
+      },
+      {
+        "index": 28,
+        "memory_id": "L26",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "今回得た特典は二つのどちらかに偏っている",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L25"
+      },
+      {
+        "index": 29,
+        "memory_id": "L27",
+        "operation": "APPRAISE",
+        "kind": "T",
+        "content": "欲しい結果と実際の偏りの違いに納得できない",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L26"
+      },
+      {
+        "index": 30,
+        "memory_id": "L28",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "外れた驚きは嘘やんという気持ちだった",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L27"
+      },
+      {
+        "index": 31,
+        "memory_id": "L29",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "次の結果にも不安が残っている",
+        "epistemic": "speaker_expectation",
+        "relation": "continuation",
+        "anchor_id": "L28"
+      },
+      {
+        "index": 32,
+        "memory_id": "L13",
+        "operation": "REVISIT",
+        "kind": "F",
+        "content": "配信が終わったらまた映画へ行くつもり",
+        "epistemic": "speaker_report",
+        "relation": "return_for_emphasis",
+        "anchor_id": "L29"
+      }
+    ],
+    "provenance": {
+      "speaker": "luna",
+      "source_path": "C:\\NodeJS\\KawaiiLive\\work\\astra\\summary\\v1_2\\ルーナ_flow_topic_style_all_topics_v1.yaml",
+      "source_sha256": "d49907394e114ca25231b6c0d05ab95316672f8af7a74d65c2764b855ed862cd",
+      "topic_index": 0,
+      "style_indices": [
+        0,
+        1
+      ],
+      "source_text": "今日は9月5日土曜日。\n9月なので、それは秋。\nもうさ、疲れたよ。\n朝から映画行ってから。\nもう体が痛い。\nもう活動は朝から始まってるんです。\nマジさ、もう第4弾ひどいって。\nかぶりまくりなんだけど。\nはあ。\nまだ今日1度も欲しいのに会ってない。\n今回出たのは、どっちかしか出てない。\nもうどういうこと？\nもうふにゃふにゃになっちゃうよ。\nま、最初はね、かぶんなかったから、まあまあまあまあ。\n3回目はさすがに欲しいの来るやろと思って行くやん。\nもうね、最初に色を見て、え、かぶった。嘘やん。\nもうテンションがふわーん。\n灰色が見えた途端ね、もう、ああ、なのよ。\nそのテンションで映画もうね。\nもうほんまに、ああ、かぶった、かぶったって。\nずっとかぶったでテンションふわーんっていう。\nまあでもこの後また行くんですけどね。\nこの配信が終わったらまた行ってきます。\nでもね、今回の第4弾はね、もう今日なくなってるとこ多いから。\nマジで急がないとなくなる。\n今日第4弾早いよ。\n少ないから今回は。\nマジでね、急がないとマジでなくなる。\nああ、なくなる。\nもうドキドキしてる。なくなりそうで。\n欲しいのは、まだ出てないやつが欲しいね。\nでもSNSを見た感じ、同じのかぶってる人多いっぽい気がするんだよね。\n多分、出にくいやつがある気がする。\nレアかもしれない。\n次かぶったらもう絶望だよ。\nテンション下がっちゃうよ、これ。",
+      "editorial_source_not_raw_audio": true,
+      "training_overlap": "checked separately; prior research/evaluation usage possible; base pretraining unknown"
+    },
+    "operation_plan_author": "root designer AI manual fixed plan; not automatic engine selection",
+    "initial_history": [],
+    "semantic_status": "unverified"
+  },
+  {
+    "id": "V02",
+    "title": "季節グッズを楽しむ一方で収納と品切れに悩む",
+    "category": "vtuber_saved_edited_transcript",
+    "nodes": [
+      {
+        "id": "L01",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "最近ある作品にはまった",
+        "source_quotes": [
+          "最近ある作品にはまりました。"
+        ],
+        "source_line_numbers": [
+          1
+        ]
+      },
+      {
+        "id": "L02",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "7月の終わり頃から見始めた",
+        "source_quotes": [
+          "7月の終わりぐらいから見て"
+        ],
+        "source_line_numbers": [
+          3
+        ]
+      },
+      {
+        "id": "L03",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "8月も見て9月になった",
+        "source_quotes": [
+          "8月見て、でもう9月。"
+        ],
+        "source_line_numbers": [
+          3
+        ]
+      },
+      {
+        "id": "L04",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "夏から秋まで一緒に過ごしたことが感慨深い",
+        "source_quotes": [
+          "なんか感慨深い。"
+        ],
+        "source_line_numbers": [
+          2
+        ]
+      },
+      {
+        "id": "L05",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "作品と夏を過ごして秋に入ったと捉えている",
+        "source_quotes": [
+          "これと夏を過ごして、これと秋に突入した。"
+        ],
+        "source_line_numbers": [
+          4
+        ]
+      },
+      {
+        "id": "L06",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "ハロウィンのグッズを予約している",
+        "source_quotes": [
+          "ハロウィンのやつも予約してる。"
+        ],
+        "source_line_numbers": [
+          6
+        ]
+      },
+      {
+        "id": "L07",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "そのグッズは5月頃に受注していた",
+        "source_quotes": [
+          "5月頃に受注してたんだ。"
+        ],
+        "source_line_numbers": [
+          7
+        ]
+      },
+      {
+        "id": "L08",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "届く予定はハロウィン頃",
+        "source_quotes": [
+          "届く頃にはハロウィン。"
+        ],
+        "source_line_numbers": [
+          8
+        ]
+      },
+      {
+        "id": "L09",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "全部セットにはブランケットが付く",
+        "source_quotes": [
+          "全部セットを頼むとブランケットが付いてくるね。"
+        ],
+        "source_line_numbers": [
+          9
+        ]
+      },
+      {
+        "id": "L10",
+        "kind": "E",
+        "epistemic": "speaker_desire",
+        "title": "ブランケットが欲しかった",
+        "source_quotes": [
+          "これ欲しいから全部セットにした。"
+        ],
+        "source_line_numbers": [
+          10
+        ]
+      },
+      {
+        "id": "L11",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "ブランケット目当てで全部セットにした",
+        "source_quotes": [
+          "これ欲しいから全部セットにした。"
+        ],
+        "source_line_numbers": [
+          10
+        ]
+      },
+      {
+        "id": "L12",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "ぬいぐるみも買った",
+        "source_quotes": [
+          "ぬいぐるみも買って。"
+        ],
+        "source_line_numbers": [
+          11
+        ]
+      },
+      {
+        "id": "L13",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "プレートとマグカップも届く物に含まれる",
+        "source_quotes": [
+          "プレートとマグカップ。"
+        ],
+        "source_line_numbers": [
+          12
+        ]
+      },
+      {
+        "id": "L14",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "アドベントカレンダーも届く",
+        "source_quotes": [
+          "アドベントカレンダーでしょ。"
+        ],
+        "source_line_numbers": [
+          13
+        ]
+      },
+      {
+        "id": "L15",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "増えるグッズの置き場が大変",
+        "source_quotes": [
+          "置き場大変。"
+        ],
+        "source_line_numbers": [
+          15
+        ]
+      },
+      {
+        "id": "L16",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "持っている物はぬいぐるみが多い",
+        "source_quotes": [
+          "基本ぬいぐるみが多いからな。"
+        ],
+        "source_line_numbers": [
+          16
+        ]
+      },
+      {
+        "id": "L17",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "ぬいぐるみを頑張って飾っている",
+        "source_quotes": [
+          "ぬいぐるみ頑張って飾ってるの。"
+        ],
+        "source_line_numbers": [
+          17
+        ]
+      },
+      {
+        "id": "L18",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "ガラスケースに入らず別の棚にも置いている",
+        "source_quotes": [
+          "別の棚に置いたりしてる。"
+        ],
+        "source_line_numbers": [
+          18
+        ]
+      },
+      {
+        "id": "L19",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "全てのグッズを集めているわけではない",
+        "source_quotes": [
+          "全部集めてないのね。"
+        ],
+        "source_line_numbers": [
+          20
+        ]
+      },
+      {
+        "id": "L20",
+        "kind": "E",
+        "epistemic": "speaker_desire",
+        "title": "全てが欲しいわけではない",
+        "source_quotes": [
+          "全部欲しいわけじゃないからね。"
+        ],
+        "source_line_numbers": [
+          21
+        ]
+      },
+      {
+        "id": "L21",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "自分が欲しいと思った物だけ買う方針",
+        "source_quotes": [
+          "自分が欲しいと思ったやつだけ買ってるからね。"
+        ],
+        "source_line_numbers": [
+          22
+        ]
+      },
+      {
+        "id": "L22",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "ガチャは各所で売り切れて引けないという本人の報告",
+        "source_quotes": [
+          "どこも売り切れでガチャガチャできないんだ。"
+        ],
+        "source_line_numbers": [
+          26
+        ]
+      },
+      {
+        "id": "L23",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "ガチャを半分諦めている",
+        "source_quotes": [
+          "もうガチャガチャも半分諦めてる。"
+        ],
+        "source_line_numbers": [
+          28
+        ]
+      },
+      {
+        "id": "L24",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "ガチャに出会えたら幸運だと考える",
+        "source_quotes": [
+          "出会えたらマジラッキーだよ。"
+        ],
+        "source_line_numbers": [
+          29
+        ]
+      },
+      {
+        "id": "L25",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "SNSには目撃情報がある",
+        "source_quotes": [
+          "SNSには目撃情報があるんだけどね。"
+        ],
+        "source_line_numbers": [
+          32
+        ]
+      },
+      {
+        "id": "L26",
+        "kind": "T",
+        "epistemic": "uncertain_memory",
+        "title": "その目撃された場所がどこなのかは分からない",
+        "source_quotes": [
+          "それどこやねんって。"
+        ],
+        "source_line_numbers": [
+          33
+        ]
+      },
+      {
+        "id": "L27",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "欲しい物だけでも飾る場所は多く必要という戸惑い",
+        "source_quotes": [
+          "置き場大変。",
+          "自分が欲しいと思ったやつだけ買ってるからね。"
+        ],
+        "source_line_numbers": [
+          15,
+          22
+        ]
+      },
+      {
+        "id": "L28",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "品切れの現状と目撃情報のあることを対比している",
+        "source_quotes": [
+          "SNSには目撃情報があるんだけどね。"
+        ],
+        "source_line_numbers": [
+          32
+        ]
+      },
+      {
+        "id": "L29",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "見つからないガチャを嘆く",
+        "source_quotes": [
+          "枯れてます。"
+        ],
+        "source_line_numbers": [
+          31
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "index": 1,
+        "memory_id": "L01",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "最近ある作品にはまった",
+        "epistemic": "observed",
+        "relation": "episode_entry",
+        "anchor_id": null
+      },
+      {
+        "index": 2,
+        "memory_id": "L02",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "7月の終わり頃から見始めた",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L01"
+      },
+      {
+        "index": 3,
+        "memory_id": "L03",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "8月も見て9月になった",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L02"
+      },
+      {
+        "index": 4,
+        "memory_id": "L04",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "夏から秋まで一緒に過ごしたことが感慨深い",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L03"
+      },
+      {
+        "index": 5,
+        "memory_id": "L05",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "作品と夏を過ごして秋に入ったと捉えている",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L04"
+      },
+      {
+        "index": 6,
+        "memory_id": "L06",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "ハロウィンのグッズを予約している",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L05"
+      },
+      {
+        "index": 7,
+        "memory_id": "L07",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "そのグッズは5月頃に受注していた",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L06"
+      },
+      {
+        "index": 8,
+        "memory_id": "L08",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "届く予定はハロウィン頃",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L07"
+      },
+      {
+        "index": 9,
+        "memory_id": "L09",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "全部セットにはブランケットが付く",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L08"
+      },
+      {
+        "index": 10,
+        "memory_id": "L10",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "ブランケットが欲しかった",
+        "epistemic": "speaker_desire",
+        "relation": "continuation",
+        "anchor_id": "L09"
+      },
+      {
+        "index": 11,
+        "memory_id": "L11",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "ブランケット目当てで全部セットにした",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L10"
+      },
+      {
+        "index": 12,
+        "memory_id": "L12",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "ぬいぐるみも買った",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L11"
+      },
+      {
+        "index": 13,
+        "memory_id": "L13",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "プレートとマグカップも届く物に含まれる",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L12"
+      },
+      {
+        "index": 14,
+        "memory_id": "L14",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "アドベントカレンダーも届く",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L13"
+      },
+      {
+        "index": 15,
+        "memory_id": "L15",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "増えるグッズの置き場が大変",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L14"
+      },
+      {
+        "index": 16,
+        "memory_id": "L09",
+        "operation": "REVISIT",
+        "kind": "F",
+        "content": "全部セットにはブランケットが付く",
+        "epistemic": "speaker_report",
+        "relation": "return_for_emphasis",
+        "anchor_id": "L15"
+      },
+      {
+        "index": 17,
+        "memory_id": "L16",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "持っている物はぬいぐるみが多い",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L09"
+      },
+      {
+        "index": 18,
+        "memory_id": "L17",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "ぬいぐるみを頑張って飾っている",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L16"
+      },
+      {
+        "index": 19,
+        "memory_id": "L18",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "ガラスケースに入らず別の棚にも置いている",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L17"
+      },
+      {
+        "index": 20,
+        "memory_id": "L19",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "全てのグッズを集めているわけではない",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L18"
+      },
+      {
+        "index": 21,
+        "memory_id": "L20",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "全てが欲しいわけではない",
+        "epistemic": "speaker_desire",
+        "relation": "continuation",
+        "anchor_id": "L19"
+      },
+      {
+        "index": 22,
+        "memory_id": "L21",
+        "operation": "APPRAISE",
+        "kind": "T",
+        "content": "自分が欲しいと思った物だけ買う方針",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L20"
+      },
+      {
+        "index": 23,
+        "memory_id": "L22",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "ガチャは各所で売り切れて引けないという本人の報告",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L21"
+      },
+      {
+        "index": 24,
+        "memory_id": "L23",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "ガチャを半分諦めている",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L22"
+      },
+      {
+        "index": 25,
+        "memory_id": "L24",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "ガチャに出会えたら幸運だと考える",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L23"
+      },
+      {
+        "index": 26,
+        "memory_id": "L22",
+        "operation": "REVISIT",
+        "kind": "F",
+        "content": "ガチャは各所で売り切れて引けないという本人の報告",
+        "epistemic": "speaker_report",
+        "relation": "return_for_emphasis",
+        "anchor_id": "L24"
+      },
+      {
+        "index": 27,
+        "memory_id": "L25",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "SNSには目撃情報がある",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L22"
+      },
+      {
+        "index": 28,
+        "memory_id": "L26",
+        "operation": "REPAIR",
+        "kind": "T",
+        "content": "その目撃された場所がどこなのかは分からない",
+        "epistemic": "uncertain_memory",
+        "relation": "continuation",
+        "anchor_id": "L25"
+      },
+      {
+        "index": 29,
+        "memory_id": "L27",
+        "operation": "APPRAISE",
+        "kind": "T",
+        "content": "欲しい物だけでも飾る場所は多く必要という戸惑い",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L26"
+      },
+      {
+        "index": 30,
+        "memory_id": "L28",
+        "operation": "COMPARE",
+        "kind": "T",
+        "content": "品切れの現状と目撃情報のあることを対比している",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L27"
+      },
+      {
+        "index": 31,
+        "memory_id": "L29",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "見つからないガチャを嘆く",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L28"
+      },
+      {
+        "index": 32,
+        "memory_id": "L04",
+        "operation": "REVISIT",
+        "kind": "E",
+        "content": "夏から秋まで一緒に過ごしたことが感慨深い",
+        "epistemic": "speaker_reaction",
+        "relation": "return_for_emphasis",
+        "anchor_id": "L29"
+      }
+    ],
+    "provenance": {
+      "speaker": "luna",
+      "source_path": "C:\\NodeJS\\KawaiiLive\\work\\astra\\summary\\v1_2\\ルーナ_flow_topic_style_all_topics_v1.yaml",
+      "source_sha256": "d49907394e114ca25231b6c0d05ab95316672f8af7a74d65c2764b855ed862cd",
+      "topic_index": 1,
+      "style_indices": [
+        0,
+        1,
+        2
+      ],
+      "source_text": "そう、最近ある作品にはまりました。\n夏から始まってもう秋に突入したって考えると、なんか感慨深い。\n7月の終わりぐらいから見て、8月見て、でもう9月。\nあ、これと夏を過ごして、これと秋に突入した。\nまだまだ続くよ。\nハロウィンのやつも予約してる。\nこれ、5月頃に受注してたんだ。\n届く頃にはハロウィン。\n全部セットを頼むとブランケットが付いてくるね。\nこれ欲しいから全部セットにした。\nあとはぬいぐるみも買って。\nプレートとマグカップ。\nアドベントカレンダーでしょ。\nなどなどが届く。\n置き場大変。\nま、基本ぬいぐるみが多いからな。\nぬいぐるみ頑張って飾ってるの。\nあとはね、ガラスケースにも入れなくなったから別の棚に置いたりしてる。\nいっぱいある。\nま、でもいっぱいあると言っても全部集めてないのね。\n全部欲しいわけじゃないからね。\n自分が欲しいと思ったやつだけ買ってるからね。\nガチャ回してる？\nいや、ガチャねえんだよ。\n枯れてて。\nみんなね、もうガチャガチャしまくって、どこも売り切れでガチャガチャできないんだ。\nもうほんまに。\nもうガチャガチャも半分諦めてる。\n出会えたらマジラッキーだよ。\nないよ。\n枯れてます。\nSNSには目撃情報があるんだけどね。\nそれどこやねんって。",
+      "editorial_source_not_raw_audio": true,
+      "training_overlap": "checked separately; prior research/evaluation usage possible; base pretraining unknown"
+    },
+    "operation_plan_author": "root designer AI manual fixed plan; not automatic engine selection",
+    "initial_history": [],
+    "semantic_status": "unverified"
+  },
+  {
+    "id": "V03",
+    "title": "カフェの店舗を間違え、隣の撮影から学ぶ",
+    "category": "vtuber_saved_edited_transcript",
+    "nodes": [
+      {
+        "id": "L01",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "カフェの予約を間違えた",
+        "source_quotes": [
+          "この間、予約を間違えた。"
+        ],
+        "source_line_numbers": [
+          1
+        ]
+      },
+      {
+        "id": "L02",
+        "kind": "E",
+        "epistemic": "speaker_desire",
+        "title": "本当は渋谷のコラボカフェに行きたかった",
+        "source_quotes": [
+          "本当は渋谷のカフェのコラボのやつ行きたかった"
+        ],
+        "source_line_numbers": [
+          2
+        ]
+      },
+      {
+        "id": "L03",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "予約を間違えて池袋の店に行った",
+        "source_quotes": [
+          "池袋のやつ行っちゃったよ。"
+        ],
+        "source_line_numbers": [
+          2
+        ]
+      },
+      {
+        "id": "L04",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "池袋の店にはこの間も行っていた",
+        "source_quotes": [
+          "この間行ったのにまた行っちゃったよ。"
+        ],
+        "source_line_numbers": [
+          4
+        ]
+      },
+      {
+        "id": "L05",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "渋谷の予約が取れたつもりが池袋だった",
+        "source_quotes": [
+          "渋谷取れたと思ったら池袋だった。"
+        ],
+        "source_line_numbers": [
+          5
+        ]
+      },
+      {
+        "id": "L06",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "間違いにやれやれという気持ち",
+        "source_quotes": [
+          "やれやれなのね。"
+        ],
+        "source_line_numbers": [
+          6
+        ]
+      },
+      {
+        "id": "L07",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "写真を撮るためグッズをたくさん持っていった",
+        "source_quotes": [
+          "写真撮ろうっていっぱい持ってった。"
+        ],
+        "source_line_numbers": [
+          8
+        ]
+      },
+      {
+        "id": "L08",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "写真のグッズは本人の物",
+        "source_quotes": [
+          "自分のじゃなかったら誰のやねん。"
+        ],
+        "source_line_numbers": [
+          10
+        ]
+      },
+      {
+        "id": "L09",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "店に置いてある備品ではない",
+        "source_quotes": [
+          "お店に置いてあるわけねえだろ。"
+        ],
+        "source_line_numbers": [
+          11
+        ]
+      },
+      {
+        "id": "L10",
+        "kind": "T",
+        "epistemic": "counterfactual",
+        "title": "店に置きっぱなしなら取られるのではと考える",
+        "source_quotes": [
+          "店に置いてあったら取られちゃう。"
+        ],
+        "source_line_numbers": [
+          13
+        ]
+      },
+      {
+        "id": "L11",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "グッズと一緒にたくさん写真を撮った",
+        "source_quotes": [
+          "いっぱい写真撮って"
+        ],
+        "source_line_numbers": [
+          15
+        ]
+      },
+      {
+        "id": "L12",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "予約して行くのがよいという本人の考え",
+        "source_quotes": [
+          "予約していくといいのだ。"
+        ],
+        "source_line_numbers": [
+          16
+        ]
+      },
+      {
+        "id": "L13",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "これまで値段を気にしたことがなかった",
+        "source_quotes": [
+          "値段など気にしたことなかったな。"
+        ],
+        "source_line_numbers": [
+          18
+        ]
+      },
+      {
+        "id": "L14",
+        "kind": "T",
+        "epistemic": "uncertain_memory",
+        "title": "値段はいくらなのか分からない",
+        "source_quotes": [
+          "値段などわからん。"
+        ],
+        "source_line_numbers": [
+          20
+        ]
+      },
+      {
+        "id": "L15",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "隣の席の人たちがすぐ料理を食べなかった",
+        "source_quotes": [
+          "料理食べないんだろうと思ってたらね。"
+        ],
+        "source_line_numbers": [
+          24
+        ]
+      },
+      {
+        "id": "L16",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "なぜすぐ食べないのか疑問に思った",
+        "source_quotes": [
+          "なんであのテーブルの人たち料理食べないんだろう"
+        ],
+        "source_line_numbers": [
+          24
+        ]
+      },
+      {
+        "id": "L17",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "全部の料理が届いてから撮影していた",
+        "source_quotes": [
+          "全部注文したものが届いてから撮影してて。"
+        ],
+        "source_line_numbers": [
+          25
+        ]
+      },
+      {
+        "id": "L18",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "それを見てなるほどと思った",
+        "source_quotes": [
+          "あ、なるほどね、みたいな。"
+        ],
+        "source_line_numbers": [
+          26
+        ]
+      },
+      {
+        "id": "L19",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "全部並べて撮るやり方がうまいと感じた",
+        "source_quotes": [
+          "確かにうまいわ。"
+        ],
+        "source_line_numbers": [
+          27
+        ]
+      },
+      {
+        "id": "L20",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "隣の人はぬいぐるみも並べていた",
+        "source_quotes": [
+          "もうぬいぐるみも並べててね。"
+        ],
+        "source_line_numbers": [
+          28
+        ]
+      },
+      {
+        "id": "L21",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "その撮り方がいいなと思った",
+        "source_quotes": [
+          "あ、これいいなって。"
+        ],
+        "source_line_numbers": [
+          30
+        ]
+      },
+      {
+        "id": "L22",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "お互いにグッズを身につけていた",
+        "source_quotes": [
+          "お互いグッズ装備してるから。"
+        ],
+        "source_line_numbers": [
+          32
+        ]
+      },
+      {
+        "id": "L23",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "相手もとても好きなのだと感じた",
+        "source_quotes": [
+          "あの子たちめっちゃ好きやんって。"
+        ],
+        "source_line_numbers": [
+          33
+        ]
+      },
+      {
+        "id": "L24",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "相手もこちらを見ていた",
+        "source_quotes": [
+          "向こうもこっち見てた。"
+        ],
+        "source_line_numbers": [
+          34
+        ]
+      },
+      {
+        "id": "L25",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "相手と仲良くなったわけではない",
+        "source_quotes": [
+          "仲良くならない。"
+        ],
+        "source_line_numbers": [
+          36
+        ]
+      },
+      {
+        "id": "L26",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "同じ趣味が見えても交流が始まったわけではない",
+        "source_quotes": [
+          "共鳴してない。",
+          "仲良くならない。",
+          "お互いグッズ装備してるから。"
+        ],
+        "source_line_numbers": [
+          32,
+          35,
+          36
+        ]
+      },
+      {
+        "id": "L27",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "コラボに合わせたぬいぐるみを持参する写真を見たことがある",
+        "source_quotes": [
+          "コラボに合わせたぬいぐるみを持っていく写真とか見る"
+        ],
+        "source_line_numbers": [
+          39
+        ]
+      },
+      {
+        "id": "L28",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "コラボに合わせたグッズの方がよいと考えた",
+        "source_quotes": [
+          "やっぱこう合わせてた方がいいよなっていう。"
+        ],
+        "source_line_numbers": [
+          39
+        ]
+      },
+      {
+        "id": "L29",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "隣席の撮影の様子がすごいと感じた",
+        "source_quotes": [
+          "すごかった。"
+        ],
+        "source_line_numbers": [
+          29
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "index": 1,
+        "memory_id": "L01",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "カフェの予約を間違えた",
+        "epistemic": "observed",
+        "relation": "episode_entry",
+        "anchor_id": null
+      },
+      {
+        "index": 2,
+        "memory_id": "L02",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "本当は渋谷のコラボカフェに行きたかった",
+        "epistemic": "speaker_desire",
+        "relation": "continuation",
+        "anchor_id": "L01"
+      },
+      {
+        "index": 3,
+        "memory_id": "L03",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "予約を間違えて池袋の店に行った",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L02"
+      },
+      {
+        "index": 4,
+        "memory_id": "L04",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "池袋の店にはこの間も行っていた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L03"
+      },
+      {
+        "index": 5,
+        "memory_id": "L05",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "渋谷の予約が取れたつもりが池袋だった",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L04"
+      },
+      {
+        "index": 6,
+        "memory_id": "L06",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "間違いにやれやれという気持ち",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L05"
+      },
+      {
+        "index": 7,
+        "memory_id": "L03",
+        "operation": "REVISIT",
+        "kind": "F",
+        "content": "予約を間違えて池袋の店に行った",
+        "epistemic": "observed",
+        "relation": "return_for_emphasis",
+        "anchor_id": "L06"
+      },
+      {
+        "index": 8,
+        "memory_id": "L07",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "写真を撮るためグッズをたくさん持っていった",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L03"
+      },
+      {
+        "index": 9,
+        "memory_id": "L08",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "写真のグッズは本人の物",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L07"
+      },
+      {
+        "index": 10,
+        "memory_id": "L09",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "店に置いてある備品ではない",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L08"
+      },
+      {
+        "index": 11,
+        "memory_id": "L10",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "店に置きっぱなしなら取られるのではと考える",
+        "epistemic": "counterfactual",
+        "relation": "continuation",
+        "anchor_id": "L09"
+      },
+      {
+        "index": 12,
+        "memory_id": "L11",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "グッズと一緒にたくさん写真を撮った",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L10"
+      },
+      {
+        "index": 13,
+        "memory_id": "L12",
+        "operation": "APPRAISE",
+        "kind": "T",
+        "content": "予約して行くのがよいという本人の考え",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L11"
+      },
+      {
+        "index": 14,
+        "memory_id": "L13",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "これまで値段を気にしたことがなかった",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L12"
+      },
+      {
+        "index": 15,
+        "memory_id": "L14",
+        "operation": "REPAIR",
+        "kind": "T",
+        "content": "値段はいくらなのか分からない",
+        "epistemic": "uncertain_memory",
+        "relation": "continuation",
+        "anchor_id": "L13"
+      },
+      {
+        "index": 16,
+        "memory_id": "L15",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "隣の席の人たちがすぐ料理を食べなかった",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L14"
+      },
+      {
+        "index": 17,
+        "memory_id": "L16",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "なぜすぐ食べないのか疑問に思った",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L15"
+      },
+      {
+        "index": 18,
+        "memory_id": "L17",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "全部の料理が届いてから撮影していた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L16"
+      },
+      {
+        "index": 19,
+        "memory_id": "L18",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "それを見てなるほどと思った",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L17"
+      },
+      {
+        "index": 20,
+        "memory_id": "L19",
+        "operation": "APPRAISE",
+        "kind": "T",
+        "content": "全部並べて撮るやり方がうまいと感じた",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L18"
+      },
+      {
+        "index": 21,
+        "memory_id": "L20",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "隣の人はぬいぐるみも並べていた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L19"
+      },
+      {
+        "index": 22,
+        "memory_id": "L21",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "その撮り方がいいなと思った",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L20"
+      },
+      {
+        "index": 23,
+        "memory_id": "L17",
+        "operation": "REVISIT",
+        "kind": "F",
+        "content": "全部の料理が届いてから撮影していた",
+        "epistemic": "observed",
+        "relation": "return_for_emphasis",
+        "anchor_id": "L21"
+      },
+      {
+        "index": 24,
+        "memory_id": "L22",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "お互いにグッズを身につけていた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L17"
+      },
+      {
+        "index": 25,
+        "memory_id": "L23",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "相手もとても好きなのだと感じた",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L22"
+      },
+      {
+        "index": 26,
+        "memory_id": "L24",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "相手もこちらを見ていた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L23"
+      },
+      {
+        "index": 27,
+        "memory_id": "L25",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "相手と仲良くなったわけではない",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L24"
+      },
+      {
+        "index": 28,
+        "memory_id": "L26",
+        "operation": "COMPARE",
+        "kind": "T",
+        "content": "同じ趣味が見えても交流が始まったわけではない",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L25"
+      },
+      {
+        "index": 29,
+        "memory_id": "L27",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "コラボに合わせたぬいぐるみを持参する写真を見たことがある",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L26"
+      },
+      {
+        "index": 30,
+        "memory_id": "L28",
+        "operation": "APPRAISE",
+        "kind": "T",
+        "content": "コラボに合わせたグッズの方がよいと考えた",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L27"
+      },
+      {
+        "index": 31,
+        "memory_id": "L29",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "隣席の撮影の様子がすごいと感じた",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L28"
+      },
+      {
+        "index": 32,
+        "memory_id": "L07",
+        "operation": "REVISIT",
+        "kind": "F",
+        "content": "写真を撮るためグッズをたくさん持っていった",
+        "epistemic": "observed",
+        "relation": "return_for_emphasis",
+        "anchor_id": "L29"
+      }
+    ],
+    "provenance": {
+      "speaker": "luna",
+      "source_path": "C:\\NodeJS\\KawaiiLive\\work\\astra\\summary\\v1_2\\ルーナ_flow_topic_style_all_topics_v1.yaml",
+      "source_sha256": "d49907394e114ca25231b6c0d05ab95316672f8af7a74d65c2764b855ed862cd",
+      "topic_index": 2,
+      "style_indices": [
+        0,
+        1,
+        2
+      ],
+      "source_text": "この間、予約を間違えた。\n本当は渋谷のカフェのコラボのやつ行きたかったので予約する場所間違えて、池袋のやつ行っちゃったよ。\nうん。\nこの間行ったのにまた行っちゃったよ。\nよっしゃ、渋谷取れたと思ったら池袋だった。\nやれやれなのね。\nそん時の写真。\nとりあえず、ちょ写真撮ろうっていっぱい持ってった。\n誰のだよ、これ。\n自分のじゃなかったら誰のやねん。\nお店に置いてあるわけねえだろ。\nみんな自賛してくんだよ。\n店に置いてあったら取られちゃう。\nそうだよ。盗まれるわ。\nいっぱい写真撮って持ってった。\n予約していくといいのだ。\n値段？\n値段など気にしたことなかったな。\nえ、いくらすんだろう？\n値段などわからん。\n値段見て死ぬもん。\n隣の席にいた人、すごい人いた。\n撮影会始まったわってなる。\nなんであのテーブルの人たち料理食べないんだろうと思ってたらね。\n全部注文したものが届いてから撮影してて。\nあ、なるほどね、みたいな。\n確かにうまいわ。\nもうぬいぐるみも並べててね。\nすごかった。\nあ、これいいなって。\nなんかそういう格好してる人って見ちゃうじゃん。\nお互いグッズ装備してるから。\nあの子たちめっちゃ好きやんって。\n向こうもこっち見てた。\n共鳴してない。\n仲良くならない。\nまあでもあなた、お写真行かねえからな。\nあんま出番ないわ。\nコラボに合わせたぬいぐるみを持っていく写真とか見るから、やっぱこう合わせてた方がいいよなっていう。",
+      "editorial_source_not_raw_audio": true,
+      "training_overlap": "checked separately; prior research/evaluation usage possible; base pretraining unknown"
+    },
+    "operation_plan_author": "root designer AI manual fixed plan; not automatic engine selection",
+    "initial_history": [],
+    "semantic_status": "unverified"
+  },
+  {
+    "id": "V04",
+    "title": "射的の成功を自慢した後、背後の声に驚く",
+    "category": "vtuber_saved_edited_transcript",
+    "nodes": [
+      {
+        "id": "L01",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "射的をした",
+        "source_quotes": [
+          "で、その後、射的したよ。"
+        ],
+        "source_line_numbers": [
+          1
+        ]
+      },
+      {
+        "id": "L02",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "本人は射的がとても上手いと自負している",
+        "source_quotes": [
+          "私うますぎるんだけどさ。"
+        ],
+        "source_line_numbers": [
+          2
+        ]
+      },
+      {
+        "id": "L03",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "トートバッグをもらえる射的だった",
+        "source_quotes": [
+          "トートバッグがもらえる射的やったのね。"
+        ],
+        "source_line_numbers": [
+          4
+        ]
+      },
+      {
+        "id": "L04",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "1発目で当てた",
+        "source_quotes": [
+          "1発目で当たったんよ。"
+        ],
+        "source_line_numbers": [
+          5
+        ]
+      },
+      {
+        "id": "L05",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "1発目の成功を自慢したい",
+        "source_quotes": [
+          "うますぎた。"
+        ],
+        "source_line_numbers": [
+          6
+        ]
+      },
+      {
+        "id": "L06",
+        "kind": "T",
+        "epistemic": "uncertain_memory",
+        "title": "打てる数は5発か6発と最初は曖昧に思い返した",
+        "source_quotes": [
+          "5発か6発打てる中で"
+        ],
+        "source_line_numbers": [
+          7
+        ]
+      },
+      {
+        "id": "L07",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "その後本人は6発ぐらいで2発当てたと報告",
+        "source_quotes": [
+          "6発ぐらい打てる中2発当たったの。"
+        ],
+        "source_line_numbers": [
+          13
+        ]
+      },
+      {
+        "id": "L08",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "運が絡まなければ自分には実力があると思う",
+        "source_quotes": [
+          "運が絡まなければ。"
+        ],
+        "source_line_numbers": [
+          11
+        ]
+      },
+      {
+        "id": "L09",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "自分にはスナイパーの実力があるという自称",
+        "source_quotes": [
+          "私はスナイパーの実力がある。"
+        ],
+        "source_line_numbers": [
+          12
+        ]
+      },
+      {
+        "id": "L10",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "トートバッグは1個しかもらえなかった",
+        "source_quotes": [
+          "トートバッグは1個しかもらえないけど。"
+        ],
+        "source_line_numbers": [
+          15
+        ]
+      },
+      {
+        "id": "L11",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "残った弾を打ってよいと言われた",
+        "source_quotes": [
+          "弾余ったから打てるっていうからね。"
+        ],
+        "source_line_numbers": [
+          16
+        ]
+      },
+      {
+        "id": "L12",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "残りの弾を打ったらまた当たった",
+        "source_quotes": [
+          "打ったら当たった。"
+        ],
+        "source_line_numbers": [
+          17
+        ]
+      },
+      {
+        "id": "L13",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "射的の銃は重く長かった",
+        "source_quotes": [
+          "長いし金属ついてるから重いんだもん。"
+        ],
+        "source_line_numbers": [
+          23
+        ]
+      },
+      {
+        "id": "L14",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "銃を持つだけでも疲れるくらい重く感じた",
+        "source_quotes": [
+          "持つだけでも、ふーって重いって疲れちゃう"
+        ],
+        "source_line_numbers": [
+          20
+        ]
+      },
+      {
+        "id": "L15",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "重い銃でも自分は当てたと誇っている",
+        "source_quotes": [
+          "ま、それでも当てちゃうんでしょう。"
+        ],
+        "source_line_numbers": [
+          21
+        ]
+      },
+      {
+        "id": "L16",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "バッグにグッズをたくさん付けていた",
+        "source_quotes": [
+          "バッグにグッズいっぱいつけてたから。"
+        ],
+        "source_line_numbers": [
+          27
+        ]
+      },
+      {
+        "id": "L17",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "射的を構えている時に後ろから女性の声がした",
+        "source_quotes": [
+          "女の人の声がめっちゃ後ろから聞こえて。"
+        ],
+        "source_line_numbers": [
+          28
+        ]
+      },
+      {
+        "id": "L18",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "ここにもいるという趣旨の声が聞こえた",
+        "source_quotes": [
+          "『え、ここにもいる』みたいな声"
+        ],
+        "source_line_numbers": [
+          29
+        ]
+      },
+      {
+        "id": "L19",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "自分に話しかけているとは最初思わなかった",
+        "source_quotes": [
+          "まさか私に話しかけられてるとは思わなくてね"
+        ],
+        "source_line_numbers": [
+          30
+        ]
+      },
+      {
+        "id": "L20",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "声がしてもそのまま構えていた",
+        "source_quotes": [
+          "そのまま構えてたら。"
+        ],
+        "source_line_numbers": [
+          30
+        ]
+      },
+      {
+        "id": "L21",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "女性は自分のバッグを見て反応していたようだと理解した",
+        "source_quotes": [
+          "私のバッグを見て反応してたみたいな。"
+        ],
+        "source_line_numbers": [
+          31
+        ]
+      },
+      {
+        "id": "L22",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "真後ろに知らない女性がいた",
+        "source_quotes": [
+          "真後ろに女の人がいたよ。"
+        ],
+        "source_line_numbers": [
+          32
+        ]
+      },
+      {
+        "id": "L23",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "振り向くと女性がいた",
+        "source_quotes": [
+          "振り向いたら女の人がいて"
+        ],
+        "source_line_numbers": [
+          33
+        ]
+      },
+      {
+        "id": "L24",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "突然で驚いてうまく反応できなかった",
+        "source_quotes": [
+          "突然のことで反応できないんで"
+        ],
+        "source_line_numbers": [
+          37
+        ]
+      },
+      {
+        "id": "L25",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "前の射的に集中していた",
+        "source_quotes": [
+          "前に全集中してたから"
+        ],
+        "source_line_numbers": [
+          38
+        ]
+      },
+      {
+        "id": "L26",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "後ろで誰かが話している程度にしか思っていなかった",
+        "source_quotes": [
+          "後ろで誰か喋ってるぐらいにしか思わなかったね。"
+        ],
+        "source_line_numbers": [
+          38
+        ]
+      },
+      {
+        "id": "L27",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "振り返ってみるとびっくりした体験だった",
+        "source_quotes": [
+          "ちょっとびっくりしたな。"
+        ],
+        "source_line_numbers": [
+          39
+        ]
+      },
+      {
+        "id": "L28",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "世の中にはいろいろな人がいると思った",
+        "source_quotes": [
+          "世の中いろんな人がいるからね。"
+        ],
+        "source_line_numbers": [
+          42
+        ]
+      },
+      {
+        "id": "L29",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "声への戸惑いはえええとなる感じだった",
+        "source_quotes": [
+          "えええってなってましたけど。"
+        ],
+        "source_line_numbers": [
+          37
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "index": 1,
+        "memory_id": "L01",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "射的をした",
+        "epistemic": "observed",
+        "relation": "episode_entry",
+        "anchor_id": null
+      },
+      {
+        "index": 2,
+        "memory_id": "L02",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "本人は射的がとても上手いと自負している",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L01"
+      },
+      {
+        "index": 3,
+        "memory_id": "L03",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "トートバッグをもらえる射的だった",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L02"
+      },
+      {
+        "index": 4,
+        "memory_id": "L04",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "1発目で当てた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L03"
+      },
+      {
+        "index": 5,
+        "memory_id": "L05",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "1発目の成功を自慢したい",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L04"
+      },
+      {
+        "index": 6,
+        "memory_id": "L06",
+        "operation": "REPAIR",
+        "kind": "T",
+        "content": "打てる数は5発か6発と最初は曖昧に思い返した",
+        "epistemic": "uncertain_memory",
+        "relation": "continuation",
+        "anchor_id": "L05"
+      },
+      {
+        "index": 7,
+        "memory_id": "L07",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "その後本人は6発ぐらいで2発当てたと報告",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L06"
+      },
+      {
+        "index": 8,
+        "memory_id": "L08",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "運が絡まなければ自分には実力があると思う",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L07"
+      },
+      {
+        "index": 9,
+        "memory_id": "L09",
+        "operation": "APPRAISE",
+        "kind": "T",
+        "content": "自分にはスナイパーの実力があるという自称",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L08"
+      },
+      {
+        "index": 10,
+        "memory_id": "L10",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "トートバッグは1個しかもらえなかった",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L09"
+      },
+      {
+        "index": 11,
+        "memory_id": "L11",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "残った弾を打ってよいと言われた",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L10"
+      },
+      {
+        "index": 12,
+        "memory_id": "L12",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "残りの弾を打ったらまた当たった",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L11"
+      },
+      {
+        "index": 13,
+        "memory_id": "L04",
+        "operation": "REVISIT",
+        "kind": "F",
+        "content": "1発目で当てた",
+        "epistemic": "observed",
+        "relation": "return_for_emphasis",
+        "anchor_id": "L12"
+      },
+      {
+        "index": 14,
+        "memory_id": "L13",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "射的の銃は重く長かった",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L04"
+      },
+      {
+        "index": 15,
+        "memory_id": "L14",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "銃を持つだけでも疲れるくらい重く感じた",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L13"
+      },
+      {
+        "index": 16,
+        "memory_id": "L15",
+        "operation": "COMPARE",
+        "kind": "T",
+        "content": "重い銃でも自分は当てたと誇っている",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L14"
+      },
+      {
+        "index": 17,
+        "memory_id": "L09",
+        "operation": "REVISIT",
+        "kind": "T",
+        "content": "自分にはスナイパーの実力があるという自称",
+        "epistemic": "speaker_evaluation",
+        "relation": "return_for_emphasis",
+        "anchor_id": "L15"
+      },
+      {
+        "index": 18,
+        "memory_id": "L16",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "バッグにグッズをたくさん付けていた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L09"
+      },
+      {
+        "index": 19,
+        "memory_id": "L17",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "射的を構えている時に後ろから女性の声がした",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L16"
+      },
+      {
+        "index": 20,
+        "memory_id": "L18",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "ここにもいるという趣旨の声が聞こえた",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L17"
+      },
+      {
+        "index": 21,
+        "memory_id": "L19",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "自分に話しかけているとは最初思わなかった",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L18"
+      },
+      {
+        "index": 22,
+        "memory_id": "L20",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "声がしてもそのまま構えていた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L19"
+      },
+      {
+        "index": 23,
+        "memory_id": "L21",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "女性は自分のバッグを見て反応していたようだと理解した",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L20"
+      },
+      {
+        "index": 24,
+        "memory_id": "L22",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "真後ろに知らない女性がいた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L21"
+      },
+      {
+        "index": 25,
+        "memory_id": "L23",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "振り向くと女性がいた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L22"
+      },
+      {
+        "index": 26,
+        "memory_id": "L24",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "突然で驚いてうまく反応できなかった",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L23"
+      },
+      {
+        "index": 27,
+        "memory_id": "L25",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "前の射的に集中していた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L24"
+      },
+      {
+        "index": 28,
+        "memory_id": "L26",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "後ろで誰かが話している程度にしか思っていなかった",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L25"
+      },
+      {
+        "index": 29,
+        "memory_id": "L27",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "振り返ってみるとびっくりした体験だった",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L26"
+      },
+      {
+        "index": 30,
+        "memory_id": "L28",
+        "operation": "APPRAISE",
+        "kind": "T",
+        "content": "世の中にはいろいろな人がいると思った",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L27"
+      },
+      {
+        "index": 31,
+        "memory_id": "L29",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "声への戸惑いはえええとなる感じだった",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L28"
+      },
+      {
+        "index": 32,
+        "memory_id": "L19",
+        "operation": "REVISIT",
+        "kind": "T",
+        "content": "自分に話しかけているとは最初思わなかった",
+        "epistemic": "speaker_evaluation",
+        "relation": "return_for_emphasis",
+        "anchor_id": "L29"
+      }
+    ],
+    "provenance": {
+      "speaker": "luna",
+      "source_path": "C:\\NodeJS\\KawaiiLive\\work\\astra\\summary\\v1_2\\ルーナ_flow_topic_style_all_topics_v1.yaml",
+      "source_sha256": "d49907394e114ca25231b6c0d05ab95316672f8af7a74d65c2764b855ed862cd",
+      "topic_index": 7,
+      "style_indices": [
+        0,
+        1
+      ],
+      "source_text": "で、その後、射的したよ。\n射的はね、私うますぎるんだけどさ。\nもうやっぱガチャが全くない。\nなんかね、トートバッグがもらえる射的やったのね。\nそしたら1発目で当たったんよ。\nうますぎた。\n5発か6発打てる中で最初に当てて。\nえ、うますぎるっていうね。\n1発で当てちゃった。\nまあ、これはすごいですわ。\n運が絡まなければ。\nそう、私はスナイパーの実力がある。\nで、6発ぐらい打てる中2発当たったの。\nえ、私はうめえなって。\nま、トートバッグは1個しかもらえないけど。\n弾余ったから打てるっていうからね。\n打ったら当たった。\nなんかうまいんだよね。\nでもね、あの、射的の銃って重いんだよね。\n持つだけでも、ふーって重いって疲れちゃうぐらいなんだけど。\nま、それでも当てちゃうんでしょう。\n重い。\n長いし金属ついてるから重いんだもん。\n持ってても当たらない。\nま、私はね、当てちゃうんですけどね。\nで、こん時に射的してる時に、知らない女の人に突然話しかけられてたっていう事件があったのね。\nバッグにグッズいっぱいつけてたから。\n射的こう構えてる時に、女の人の声がめっちゃ後ろから聞こえて。\n『え、ここにもいる』みたいな声が聞こえてきて。\nまさか私に話しかけられてるとは思わなくてね、そのまま構えてたら。\n私に話しかけてたというか、私のバッグを見て反応してたみたいな。\n真後ろに女の人がいたよ。\n振り向いたら女の人がいて、えって。\nで、バッグについてるグッズを見て、『え、ここにもいるの分からなかった』みたいな。\nえ、え、ど、どれ？みたいなね。\nえ、えってなった。\n突然のことで反応できないんで、えええってなってましたけど。\n前に全集中してたから、後ろで誰か喋ってるぐらいにしか思わなかったね。\nちょっとびっくりしたな。\nいろんな人がいる。\nうん。\n世の中いろんな人がいるからね。",
+      "editorial_source_not_raw_audio": true,
+      "training_overlap": "checked separately; prior research/evaluation usage possible; base pretraining unknown"
+    },
+    "operation_plan_author": "root designer AI manual fixed plan; not automatic engine selection",
+    "initial_history": [],
+    "semantic_status": "unverified"
+  },
+  {
+    "id": "V05",
+    "title": "ライブ当選の喜びと、詰めすぎた予定の反省",
+    "category": "vtuber_saved_edited_transcript",
+    "nodes": [
+      {
+        "id": "L01",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "ライブの抽選結果が来た",
+        "source_quotes": [
+          "ライブの抽選結果が来ました。"
+        ],
+        "source_line_numbers": [
+          1
+        ]
+      },
+      {
+        "id": "L02",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "結果は当選だった",
+        "source_quotes": [
+          "結果は、当選。"
+        ],
+        "source_line_numbers": [
+          2
+        ]
+      },
+      {
+        "id": "L03",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "当選してうれしかった",
+        "source_quotes": [
+          "やった。"
+        ],
+        "source_line_numbers": [
+          3
+        ]
+      },
+      {
+        "id": "L04",
+        "kind": "E",
+        "epistemic": "speaker_desire",
+        "title": "本当はとてもよい席がよかった",
+        "source_quotes": [
+          "めっちゃいい席が良かった"
+        ],
+        "source_line_numbers": [
+          4
+        ]
+      },
+      {
+        "id": "L05",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "当たったのは普通の席だった",
+        "source_quotes": [
+          "普通の席でした。"
+        ],
+        "source_line_numbers": [
+          4
+        ]
+      },
+      {
+        "id": "L06",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "普通の席でも当たったことを喜んでいる",
+        "source_quotes": [
+          "でも当たった。"
+        ],
+        "source_line_numbers": [
+          5
+        ]
+      },
+      {
+        "id": "L07",
+        "kind": "E",
+        "epistemic": "speaker_desire",
+        "title": "大本命は数年後の周年ライブ",
+        "source_quotes": [
+          "大本命は数年後の周年ライブなんだけど。"
+        ],
+        "source_line_numbers": [
+          7
+        ]
+      },
+      {
+        "id": "L08",
+        "kind": "T",
+        "epistemic": "uncertain_memory",
+        "title": "本命ライブが2027年か2028年か思い出せなかった",
+        "source_quotes": [
+          "2027年だっけ？"
+        ],
+        "source_line_numbers": [
+          8
+        ]
+      },
+      {
+        "id": "L09",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "本人はその後2028年だと思い出した",
+        "source_quotes": [
+          "2028年です。"
+        ],
+        "source_line_numbers": [
+          15
+        ]
+      },
+      {
+        "id": "L10",
+        "kind": "E",
+        "epistemic": "speaker_desire",
+        "title": "その本命ライブには絶対行きたい",
+        "source_quotes": [
+          "こっちは絶対行きたいやつ。"
+        ],
+        "source_line_numbers": [
+          17
+        ]
+      },
+      {
+        "id": "L11",
+        "kind": "T",
+        "epistemic": "counterfactual",
+        "title": "本命が1回で当たればすごいと想像した",
+        "source_quotes": [
+          "これもし1回で当たったらやばすぎだよね。"
+        ],
+        "source_line_numbers": [
+          18
+        ]
+      },
+      {
+        "id": "L12",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "古参でも外れたという投稿をよく見る",
+        "source_quotes": [
+          "めっちゃ古参の人でも外れるっていう投稿よく見る。"
+        ],
+        "source_line_numbers": [
+          20
+        ]
+      },
+      {
+        "id": "L13",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "入ったばかりの人が当たる例もあるという本人の報告",
+        "source_quotes": [
+          "入ったばっかの人が当たったりとか。"
+        ],
+        "source_line_numbers": [
+          21
+        ]
+      },
+      {
+        "id": "L14",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "加入年数は当落に関係ないのではと考えている",
+        "source_quotes": [
+          "年数とか絶対関係ない。"
+        ],
+        "source_line_numbers": [
+          19
+        ]
+      },
+      {
+        "id": "L15",
+        "kind": "T",
+        "epistemic": "uncertain_memory",
+        "title": "実際の抽選の仕組みはよく分からない",
+        "source_quotes": [
+          "よくわかりません。"
+        ],
+        "source_line_numbers": [
+          22
+        ]
+      },
+      {
+        "id": "L16",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "以前、家族とテーマパークに朝から晩まで行った",
+        "source_quotes": [
+          "家族とテーマパーク朝から晩まで行って"
+        ],
+        "source_line_numbers": [
+          23
+        ]
+      },
+      {
+        "id": "L17",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "その翌日にライブに行ったことがある",
+        "source_quotes": [
+          "その次の日にライブだった時があって。"
+        ],
+        "source_line_numbers": [
+          23
+        ]
+      },
+      {
+        "id": "L18",
+        "kind": "T",
+        "epistemic": "uncertain_memory",
+        "title": "さらに次の日にも予定があったかは曖昧",
+        "source_quotes": [
+          "その次の日もなんかあったんだっけ？"
+        ],
+        "source_line_numbers": [
+          24
+        ]
+      },
+      {
+        "id": "L19",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "その時は体や足が痛かった",
+        "source_quotes": [
+          "足痛すぎて。"
+        ],
+        "source_line_numbers": [
+          27
+        ]
+      },
+      {
+        "id": "L20",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "ライブ中は立ちっぱなしだった",
+        "source_quotes": [
+          "ライブ中立ちっぱなしだよ。"
+        ],
+        "source_line_numbers": [
+          28
+        ]
+      },
+      {
+        "id": "L21",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "椅子があって休憩できた",
+        "source_quotes": [
+          "休憩はできたよ。"
+        ],
+        "source_line_numbers": [
+          31
+        ]
+      },
+      {
+        "id": "L22",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "予定にはもっと余裕を持つべきだと考えた",
+        "source_quotes": [
+          "予定はちょっともうちょっと余裕を持っていかないとダメ"
+        ],
+        "source_line_numbers": [
+          33
+        ]
+      },
+      {
+        "id": "L23",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "疲れたら座るという方針",
+        "source_quotes": [
+          "疲れたら座る。"
+        ],
+        "source_line_numbers": [
+          34
+        ]
+      },
+      {
+        "id": "L24",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "周りにも座っている人がいた",
+        "source_quotes": [
+          "結構座ってる人いたよ、周り。"
+        ],
+        "source_line_numbers": [
+          35
+        ]
+      },
+      {
+        "id": "L25",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "動く場合と同じ場所で立つ場合では疲れ方が違うと感じる",
+        "source_quotes": [
+          "疲労度が違うもんな。"
+        ],
+        "source_line_numbers": [
+          36
+        ]
+      },
+      {
+        "id": "L26",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "立ちっぱなしはとても疲れる",
+        "source_quotes": [
+          "立ちっぱしってマジなんか疲れる。"
+        ],
+        "source_line_numbers": [
+          37
+        ]
+      },
+      {
+        "id": "L27",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "楽しい予定でも詰めすぎると体に負担がかかると振り返る",
+        "source_quotes": [
+          "予定はちょっともうちょっと余裕を持って"
+        ],
+        "source_line_numbers": [
+          33
+        ]
+      },
+      {
+        "id": "L28",
+        "kind": "E",
+        "epistemic": "speaker_desire",
+        "title": "それでも本命のライブへ行きたい気持ちはある",
+        "source_quotes": [
+          "こっちは絶対行きたいやつ。"
+        ],
+        "source_line_numbers": [
+          17
+        ]
+      },
+      {
+        "id": "L29",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "本命のライブをプレジャーと呼んでいる",
+        "source_quotes": [
+          "プレジャー。プレジャー。"
+        ],
+        "source_line_numbers": [
+          13
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "index": 1,
+        "memory_id": "L01",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "ライブの抽選結果が来た",
+        "epistemic": "observed",
+        "relation": "episode_entry",
+        "anchor_id": null
+      },
+      {
+        "index": 2,
+        "memory_id": "L02",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "結果は当選だった",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L01"
+      },
+      {
+        "index": 3,
+        "memory_id": "L03",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "当選してうれしかった",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L02"
+      },
+      {
+        "index": 4,
+        "memory_id": "L04",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "本当はとてもよい席がよかった",
+        "epistemic": "speaker_desire",
+        "relation": "continuation",
+        "anchor_id": "L03"
+      },
+      {
+        "index": 5,
+        "memory_id": "L05",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "当たったのは普通の席だった",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L04"
+      },
+      {
+        "index": 6,
+        "memory_id": "L06",
+        "operation": "APPRAISE",
+        "kind": "T",
+        "content": "普通の席でも当たったことを喜んでいる",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L05"
+      },
+      {
+        "index": 7,
+        "memory_id": "L02",
+        "operation": "REVISIT",
+        "kind": "F",
+        "content": "結果は当選だった",
+        "epistemic": "observed",
+        "relation": "return_for_emphasis",
+        "anchor_id": "L06"
+      },
+      {
+        "index": 8,
+        "memory_id": "L07",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "大本命は数年後の周年ライブ",
+        "epistemic": "speaker_desire",
+        "relation": "continuation",
+        "anchor_id": "L02"
+      },
+      {
+        "index": 9,
+        "memory_id": "L08",
+        "operation": "REPAIR",
+        "kind": "T",
+        "content": "本命ライブが2027年か2028年か思い出せなかった",
+        "epistemic": "uncertain_memory",
+        "relation": "continuation",
+        "anchor_id": "L07"
+      },
+      {
+        "index": 10,
+        "memory_id": "L09",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "本人はその後2028年だと思い出した",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L08"
+      },
+      {
+        "index": 11,
+        "memory_id": "L10",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "その本命ライブには絶対行きたい",
+        "epistemic": "speaker_desire",
+        "relation": "continuation",
+        "anchor_id": "L09"
+      },
+      {
+        "index": 12,
+        "memory_id": "L11",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "本命が1回で当たればすごいと想像した",
+        "epistemic": "counterfactual",
+        "relation": "continuation",
+        "anchor_id": "L10"
+      },
+      {
+        "index": 13,
+        "memory_id": "L12",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "古参でも外れたという投稿をよく見る",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L11"
+      },
+      {
+        "index": 14,
+        "memory_id": "L13",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "入ったばかりの人が当たる例もあるという本人の報告",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L12"
+      },
+      {
+        "index": 15,
+        "memory_id": "L14",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "加入年数は当落に関係ないのではと考えている",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L13"
+      },
+      {
+        "index": 16,
+        "memory_id": "L15",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "実際の抽選の仕組みはよく分からない",
+        "epistemic": "uncertain_memory",
+        "relation": "continuation",
+        "anchor_id": "L14"
+      },
+      {
+        "index": 17,
+        "memory_id": "L10",
+        "operation": "REVISIT",
+        "kind": "E",
+        "content": "その本命ライブには絶対行きたい",
+        "epistemic": "speaker_desire",
+        "relation": "return_for_emphasis",
+        "anchor_id": "L15"
+      },
+      {
+        "index": 18,
+        "memory_id": "L16",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "以前、家族とテーマパークに朝から晩まで行った",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L10"
+      },
+      {
+        "index": 19,
+        "memory_id": "L17",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "その翌日にライブに行ったことがある",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L16"
+      },
+      {
+        "index": 20,
+        "memory_id": "L18",
+        "operation": "REPAIR",
+        "kind": "T",
+        "content": "さらに次の日にも予定があったかは曖昧",
+        "epistemic": "uncertain_memory",
+        "relation": "continuation",
+        "anchor_id": "L17"
+      },
+      {
+        "index": 21,
+        "memory_id": "L19",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "その時は体や足が痛かった",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L18"
+      },
+      {
+        "index": 22,
+        "memory_id": "L20",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "ライブ中は立ちっぱなしだった",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L19"
+      },
+      {
+        "index": 23,
+        "memory_id": "L21",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "椅子があって休憩できた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L20"
+      },
+      {
+        "index": 24,
+        "memory_id": "L22",
+        "operation": "APPRAISE",
+        "kind": "T",
+        "content": "予定にはもっと余裕を持つべきだと考えた",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L21"
+      },
+      {
+        "index": 25,
+        "memory_id": "L23",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "疲れたら座るという方針",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L22"
+      },
+      {
+        "index": 26,
+        "memory_id": "L24",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "周りにも座っている人がいた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L23"
+      },
+      {
+        "index": 27,
+        "memory_id": "L25",
+        "operation": "COMPARE",
+        "kind": "T",
+        "content": "動く場合と同じ場所で立つ場合では疲れ方が違うと感じる",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L24"
+      },
+      {
+        "index": 28,
+        "memory_id": "L26",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "立ちっぱなしはとても疲れる",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L25"
+      },
+      {
+        "index": 29,
+        "memory_id": "L27",
+        "operation": "APPRAISE",
+        "kind": "T",
+        "content": "楽しい予定でも詰めすぎると体に負担がかかると振り返る",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L26"
+      },
+      {
+        "index": 30,
+        "memory_id": "L28",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "それでも本命のライブへ行きたい気持ちはある",
+        "epistemic": "speaker_desire",
+        "relation": "continuation",
+        "anchor_id": "L27"
+      },
+      {
+        "index": 31,
+        "memory_id": "L29",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "本命のライブをプレジャーと呼んでいる",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L28"
+      },
+      {
+        "index": 32,
+        "memory_id": "L22",
+        "operation": "REVISIT",
+        "kind": "T",
+        "content": "予定にはもっと余裕を持つべきだと考えた",
+        "epistemic": "speaker_evaluation",
+        "relation": "return_for_emphasis",
+        "anchor_id": "L29"
+      }
+    ],
+    "provenance": {
+      "speaker": "luna",
+      "source_path": "C:\\NodeJS\\KawaiiLive\\work\\astra\\summary\\v1_2\\ルーナ_flow_topic_style_all_topics_v1.yaml",
+      "source_sha256": "d49907394e114ca25231b6c0d05ab95316672f8af7a74d65c2764b855ed862cd",
+      "topic_index": 9,
+      "style_indices": [
+        0,
+        1
+      ],
+      "source_text": "そういえばライブの抽選結果が来ました。\n結果は、当選。\nやった。\nめっちゃいい席が良かったけど普通の席でした。\nでも当たった。\nふん。ふん。ふん。\n大本命は数年後の周年ライブなんだけど。\n2027年だっけ？\nあ、2028年だっけ？\nどっちだっけ？\n忘れちゃった。\n何だっけ？\nプレジャー。プレジャー。\nあ、プレジャーね。\n2028年です。\nこっち、こっちや。\nこっちは絶対行きたいやつ。\nこれもし1回で当たったらやばすぎだよね。\n年数とか絶対関係ない。\nめっちゃ古参の人でも外れるっていう投稿よく見る。\n逆に入ったばっかの人が当たったりとか。\nよくわかりません。\nライブの前日、家族とテーマパーク朝から晩まで行って、その次の日にライブだった時があって。\nあれ、その次の日もなんかあったんだっけ？\n体がいてえ、みたいな。\n足がやばかった。\n歩けなくて足痛すぎて。\nライブ中立ちっぱなしだよ。\nそう。\nでも一応椅子があるからね。\n休憩はできたよ。\nそんなことがあった。\nやっぱね、予定はちょっともうちょっと余裕を持っていかないとダメなのよね。\n疲れたら座る。\n結構座ってる人いたよ、周り。\nやっぱ動いてるのと、ずっと同じ場所で立ちっぱって疲労度が違うもんな。\n立ちっぱしってマジなんか疲れる。",
+      "editorial_source_not_raw_audio": true,
+      "training_overlap": "checked separately; prior research/evaluation usage possible; base pretraining unknown"
+    },
+    "operation_plan_author": "root designer AI manual fixed plan; not automatic engine selection",
+    "initial_history": [],
+    "semantic_status": "unverified"
+  },
+  {
+    "id": "O01",
+    "title": "クッキーの焦げを、失敗だけで終わらせず考え直す",
+    "category": "designer_original_fiction",
+    "nodes": [
+      {
+        "id": "L01",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "休日の午後に自宅でクッキーを焼いた",
+        "source_quotes": [
+          "休日の午後に自宅でクッキーを焼いた"
+        ],
+        "source_line_numbers": [
+          1
+        ]
+      },
+      {
+        "id": "L02",
+        "kind": "E",
+        "epistemic": "speaker_desire",
+        "title": "丸い形をきれいにそろえたかった",
+        "source_quotes": [
+          "丸い形をきれいにそろえたかった"
+        ],
+        "source_line_numbers": [
+          2
+        ]
+      },
+      {
+        "id": "L03",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "生地を12個に分けた",
+        "source_quotes": [
+          "生地を12個に分けた"
+        ],
+        "source_line_numbers": [
+          3
+        ]
+      },
+      {
+        "id": "L04",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "天板を一枚使った",
+        "source_quotes": [
+          "天板を一枚使った"
+        ],
+        "source_line_numbers": [
+          4
+        ]
+      },
+      {
+        "id": "L05",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "焼き時間を12分に設定した",
+        "source_quotes": [
+          "焼き時間を12分に設定した"
+        ],
+        "source_line_numbers": [
+          5
+        ]
+      },
+      {
+        "id": "L06",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "焼けるのを楽しみに待った",
+        "source_quotes": [
+          "焼けるのを楽しみに待った"
+        ],
+        "source_line_numbers": [
+          6
+        ]
+      },
+      {
+        "id": "L07",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "取り出すと端の4枚の縁が濃く焼けていた",
+        "source_quotes": [
+          "取り出すと端の4枚の縁が濃く焼けていた"
+        ],
+        "source_line_numbers": [
+          7
+        ]
+      },
+      {
+        "id": "L08",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "中央の8枚は薄い焼き色だった",
+        "source_quotes": [
+          "中央の8枚は薄い焼き色だった"
+        ],
+        "source_line_numbers": [
+          8
+        ]
+      },
+      {
+        "id": "L09",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "焼き色がそろわずがっかりした",
+        "source_quotes": [
+          "焼き色がそろわずがっかりした"
+        ],
+        "source_line_numbers": [
+          9
+        ]
+      },
+      {
+        "id": "L10",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "同じ天板でも焼け方が違うことが意外だった",
+        "source_quotes": [
+          "同じ天板でも焼け方が違うことが意外だった"
+        ],
+        "source_line_numbers": [
+          10
+        ]
+      },
+      {
+        "id": "L11",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "端の1枚を冷まして食べた",
+        "source_quotes": [
+          "端の1枚を冷まして食べた"
+        ],
+        "source_line_numbers": [
+          11
+        ]
+      },
+      {
+        "id": "L12",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "その1枚の縁には苦みを感じた",
+        "source_quotes": [
+          "その1枚の縁には苦みを感じた"
+        ],
+        "source_line_numbers": [
+          12
+        ]
+      },
+      {
+        "id": "L13",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "中央の1枚も冷まして食べた",
+        "source_quotes": [
+          "中央の1枚も冷まして食べた"
+        ],
+        "source_line_numbers": [
+          13
+        ]
+      },
+      {
+        "id": "L14",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "中央の方は甘さを感じた",
+        "source_quotes": [
+          "中央の方は甘さを感じた"
+        ],
+        "source_line_numbers": [
+          14
+        ]
+      },
+      {
+        "id": "L15",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "見た目だけでなく食べた感覚にも差があった",
+        "source_quotes": [
+          "見た目だけでなく食べた感覚にも差があった"
+        ],
+        "source_line_numbers": [
+          15
+        ]
+      },
+      {
+        "id": "L16",
+        "kind": "T",
+        "epistemic": "unverified_suspicion",
+        "title": "置いた位置で火の当たり方が違ったのかもしれないと考えた",
+        "source_quotes": [
+          "置いた位置で火の当たり方が違ったのかもしれないと考えた"
+        ],
+        "source_line_numbers": [
+          16
+        ]
+      },
+      {
+        "id": "L17",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "オーブン内の温度を位置別に測ったわけではない",
+        "source_quotes": [
+          "オーブン内の温度を位置別に測ったわけではない"
+        ],
+        "source_line_numbers": [
+          17
+        ]
+      },
+      {
+        "id": "L18",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "位置が原因だと今は断定できない",
+        "source_quotes": [
+          "位置が原因だと今は断定できない"
+        ],
+        "source_line_numbers": [
+          18
+        ]
+      },
+      {
+        "id": "L19",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "食べ比べた2枚を除く10枚を皿に移した",
+        "source_quotes": [
+          "食べ比べた2枚を除く10枚を皿に移した"
+        ],
+        "source_line_numbers": [
+          19
+        ]
+      },
+      {
+        "id": "L20",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "全部を同じ失敗扱いにするのは惜しく感じた",
+        "source_quotes": [
+          "全部を同じ失敗扱いにするのは惜しく感じた"
+        ],
+        "source_line_numbers": [
+          20
+        ]
+      },
+      {
+        "id": "L21",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "中央のクッキーは形が少し不ぞろいだった",
+        "source_quotes": [
+          "中央のクッキーは形が少し不ぞろいだった"
+        ],
+        "source_line_numbers": [
+          21
+        ]
+      },
+      {
+        "id": "L22",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "形より焼き加減の方が味には気になった",
+        "source_quotes": [
+          "形より焼き加減の方が味には気になった"
+        ],
+        "source_line_numbers": [
+          22
+        ]
+      },
+      {
+        "id": "L23",
+        "kind": "T",
+        "epistemic": "counterfactual",
+        "title": "形だけそろっても苦ければ満足しなかったかもしれない",
+        "source_quotes": [
+          "形だけそろっても苦ければ満足しなかったかもしれない"
+        ],
+        "source_line_numbers": [
+          23
+        ]
+      },
+      {
+        "id": "L24",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "次は見た目と味の両方を見たい",
+        "source_quotes": [
+          "次は見た目と味の両方を見たい"
+        ],
+        "source_line_numbers": [
+          24
+        ]
+      },
+      {
+        "id": "L25",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "次回は途中で焼き色を確認することにした",
+        "source_quotes": [
+          "次回は途中で焼き色を確認することにした"
+        ],
+        "source_line_numbers": [
+          25
+        ]
+      },
+      {
+        "id": "L26",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "途中確認はまだ次回の予定で実施していない",
+        "source_quotes": [
+          "途中確認はまだ次回の予定で実施していない"
+        ],
+        "source_line_numbers": [
+          26
+        ]
+      },
+      {
+        "id": "L27",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "少し失敗したが食べ比べは面白かった",
+        "source_quotes": [
+          "少し失敗したが食べ比べは面白かった"
+        ],
+        "source_line_numbers": [
+          27
+        ]
+      },
+      {
+        "id": "L28",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "今回は焼き色の差に気づく機会にもなった",
+        "source_quotes": [
+          "今回は焼き色の差に気づく機会にもなった"
+        ],
+        "source_line_numbers": [
+          28
+        ]
+      },
+      {
+        "id": "L29",
+        "kind": "E",
+        "epistemic": "speaker_desire",
+        "title": "次もまた焼いてみたい",
+        "source_quotes": [
+          "次もまた焼いてみたい"
+        ],
+        "source_line_numbers": [
+          29
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "index": 1,
+        "memory_id": "L01",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "休日の午後に自宅でクッキーを焼いた",
+        "epistemic": "observed",
+        "relation": "episode_entry",
+        "anchor_id": null
+      },
+      {
+        "index": 2,
+        "memory_id": "L02",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "丸い形をきれいにそろえたかった",
+        "epistemic": "speaker_desire",
+        "relation": "continuation",
+        "anchor_id": "L01"
+      },
+      {
+        "index": 3,
+        "memory_id": "L03",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "生地を12個に分けた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L02"
+      },
+      {
+        "index": 4,
+        "memory_id": "L04",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "天板を一枚使った",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L03"
+      },
+      {
+        "index": 5,
+        "memory_id": "L05",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "焼き時間を12分に設定した",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L04"
+      },
+      {
+        "index": 6,
+        "memory_id": "L06",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "焼けるのを楽しみに待った",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L05"
+      },
+      {
+        "index": 7,
+        "memory_id": "L07",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "取り出すと端の4枚の縁が濃く焼けていた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L06"
+      },
+      {
+        "index": 8,
+        "memory_id": "L08",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "中央の8枚は薄い焼き色だった",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L07"
+      },
+      {
+        "index": 9,
+        "memory_id": "L09",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "焼き色がそろわずがっかりした",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L08"
+      },
+      {
+        "index": 10,
+        "memory_id": "L07",
+        "operation": "REVISIT",
+        "kind": "F",
+        "content": "取り出すと端の4枚の縁が濃く焼けていた",
+        "epistemic": "observed",
+        "relation": "return_for_emphasis",
+        "anchor_id": "L09"
+      },
+      {
+        "index": 11,
+        "memory_id": "L10",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "同じ天板でも焼け方が違うことが意外だった",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L07"
+      },
+      {
+        "index": 12,
+        "memory_id": "L11",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "端の1枚を冷まして食べた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L10"
+      },
+      {
+        "index": 13,
+        "memory_id": "L12",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "その1枚の縁には苦みを感じた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L11"
+      },
+      {
+        "index": 14,
+        "memory_id": "L13",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "中央の1枚も冷まして食べた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L12"
+      },
+      {
+        "index": 15,
+        "memory_id": "L14",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "中央の方は甘さを感じた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L13"
+      },
+      {
+        "index": 16,
+        "memory_id": "L15",
+        "operation": "COMPARE",
+        "kind": "T",
+        "content": "見た目だけでなく食べた感覚にも差があった",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L14"
+      },
+      {
+        "index": 17,
+        "memory_id": "L16",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "置いた位置で火の当たり方が違ったのかもしれないと考えた",
+        "epistemic": "unverified_suspicion",
+        "relation": "continuation",
+        "anchor_id": "L15"
+      },
+      {
+        "index": 18,
+        "memory_id": "L17",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "オーブン内の温度を位置別に測ったわけではない",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L16"
+      },
+      {
+        "index": 19,
+        "memory_id": "L18",
+        "operation": "APPRAISE",
+        "kind": "T",
+        "content": "位置が原因だと今は断定できない",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L17"
+      },
+      {
+        "index": 20,
+        "memory_id": "L08",
+        "operation": "REVISIT",
+        "kind": "F",
+        "content": "中央の8枚は薄い焼き色だった",
+        "epistemic": "observed",
+        "relation": "return_for_emphasis",
+        "anchor_id": "L18"
+      },
+      {
+        "index": 21,
+        "memory_id": "L19",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "食べ比べた2枚を除く10枚を皿に移した",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L08"
+      },
+      {
+        "index": 22,
+        "memory_id": "L20",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "全部を同じ失敗扱いにするのは惜しく感じた",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L19"
+      },
+      {
+        "index": 23,
+        "memory_id": "L21",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "中央のクッキーは形が少し不ぞろいだった",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L20"
+      },
+      {
+        "index": 24,
+        "memory_id": "L22",
+        "operation": "COMPARE",
+        "kind": "T",
+        "content": "形より焼き加減の方が味には気になった",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L21"
+      },
+      {
+        "index": 25,
+        "memory_id": "L23",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "形だけそろっても苦ければ満足しなかったかもしれない",
+        "epistemic": "counterfactual",
+        "relation": "continuation",
+        "anchor_id": "L22"
+      },
+      {
+        "index": 26,
+        "memory_id": "L24",
+        "operation": "APPRAISE",
+        "kind": "T",
+        "content": "次は見た目と味の両方を見たい",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L23"
+      },
+      {
+        "index": 27,
+        "memory_id": "L25",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "次回は途中で焼き色を確認することにした",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L24"
+      },
+      {
+        "index": 28,
+        "memory_id": "L26",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "途中確認はまだ次回の予定で実施していない",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L25"
+      },
+      {
+        "index": 29,
+        "memory_id": "L27",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "少し失敗したが食べ比べは面白かった",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L26"
+      },
+      {
+        "index": 30,
+        "memory_id": "L28",
+        "operation": "APPRAISE",
+        "kind": "T",
+        "content": "今回は焼き色の差に気づく機会にもなった",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L27"
+      },
+      {
+        "index": 31,
+        "memory_id": "L29",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "次もまた焼いてみたい",
+        "epistemic": "speaker_desire",
+        "relation": "continuation",
+        "anchor_id": "L28"
+      },
+      {
+        "index": 32,
+        "memory_id": "L27",
+        "operation": "REVISIT",
+        "kind": "E",
+        "content": "少し失敗したが食べ比べは面白かった",
+        "epistemic": "speaker_reaction",
+        "relation": "return_for_emphasis",
+        "anchor_id": "L29"
+      }
+    ],
+    "provenance": {
+      "author": "root designer AI",
+      "fiction": true,
+      "source_text": "休日の午後に自宅でクッキーを焼いた\n丸い形をきれいにそろえたかった\n生地を12個に分けた\n天板を一枚使った\n焼き時間を12分に設定した\n焼けるのを楽しみに待った\n取り出すと端の4枚の縁が濃く焼けていた\n中央の8枚は薄い焼き色だった\n焼き色がそろわずがっかりした\n同じ天板でも焼け方が違うことが意外だった\n端の1枚を冷まして食べた\nその1枚の縁には苦みを感じた\n中央の1枚も冷まして食べた\n中央の方は甘さを感じた\n見た目だけでなく食べた感覚にも差があった\n置いた位置で火の当たり方が違ったのかもしれないと考えた\nオーブン内の温度を位置別に測ったわけではない\n位置が原因だと今は断定できない\n食べ比べた2枚を除く10枚を皿に移した\n全部を同じ失敗扱いにするのは惜しく感じた\n中央のクッキーは形が少し不ぞろいだった\n形より焼き加減の方が味には気になった\n形だけそろっても苦ければ満足しなかったかもしれない\n次は見た目と味の両方を見たい\n次回は途中で焼き色を確認することにした\n途中確認はまだ次回の予定で実施していない\n少し失敗したが食べ比べは面白かった\n今回は焼き色の差に気づく機会にもなった\n次もまた焼いてみたい",
+      "source_is_memory_spec_not_human_speech": true,
+      "human_quality_labels": 0
+    },
+    "operation_plan_author": "root designer AI manual fixed plan; not automatic engine selection",
+    "initial_history": [],
+    "semantic_status": "unverified"
+  },
+  {
+    "id": "O02",
+    "title": "忘れた傘と、借りた傘を返すまで",
+    "category": "designer_original_fiction",
+    "nodes": [
+      {
+        "id": "L01",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "図書館から帰ろうとすると雨が降っていた",
+        "source_quotes": [
+          "図書館から帰ろうとすると雨が降っていた"
+        ],
+        "source_line_numbers": [
+          1
+        ]
+      },
+      {
+        "id": "L02",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "自分の折り畳み傘は家に置いてきていた",
+        "source_quotes": [
+          "自分の折り畳み傘は家に置いてきていた"
+        ],
+        "source_line_numbers": [
+          2
+        ]
+      },
+      {
+        "id": "L03",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "持ってきたつもりだったので困った",
+        "source_quotes": [
+          "持ってきたつもりだったので困った"
+        ],
+        "source_line_numbers": [
+          3
+        ]
+      },
+      {
+        "id": "L04",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "バッグの傘用のポケットは空だった",
+        "source_quotes": [
+          "バッグの傘用のポケットは空だった"
+        ],
+        "source_line_numbers": [
+          4
+        ]
+      },
+      {
+        "id": "L05",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "いつもの場所だけ見て持った気になっていたのかもしれない",
+        "source_quotes": [
+          "いつもの場所だけ見て持った気になっていたのかもしれない"
+        ],
+        "source_line_numbers": [
+          5
+        ]
+      },
+      {
+        "id": "L06",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "入口に貸出用の傘が2本あった",
+        "source_quotes": [
+          "入口に貸出用の傘が2本あった"
+        ],
+        "source_line_numbers": [
+          6
+        ]
+      },
+      {
+        "id": "L07",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "館内の案内には翌日までに返却と書かれていた",
+        "source_quotes": [
+          "館内の案内には翌日までに返却と書かれていた"
+        ],
+        "source_line_numbers": [
+          7
+        ]
+      },
+      {
+        "id": "L08",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "そのうち青い傘を1本借りた",
+        "source_quotes": [
+          "そのうち青い傘を1本借りた"
+        ],
+        "source_line_numbers": [
+          8
+        ]
+      },
+      {
+        "id": "L09",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "借りられてほっとした",
+        "source_quotes": [
+          "借りられてほっとした"
+        ],
+        "source_line_numbers": [
+          9
+        ]
+      },
+      {
+        "id": "L10",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "家まで傘を差して歩いた",
+        "source_quotes": [
+          "家まで傘を差して歩いた"
+        ],
+        "source_line_numbers": [
+          10
+        ]
+      },
+      {
+        "id": "L11",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "靴の先だけ少しぬれた",
+        "source_quotes": [
+          "靴の先だけ少しぬれた"
+        ],
+        "source_line_numbers": [
+          11
+        ]
+      },
+      {
+        "id": "L12",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "全身ずぶぬれになるより助かったと感じた",
+        "source_quotes": [
+          "全身ずぶぬれになるより助かったと感じた"
+        ],
+        "source_line_numbers": [
+          12
+        ]
+      },
+      {
+        "id": "L13",
+        "kind": "T",
+        "epistemic": "counterfactual",
+        "title": "貸出傘がなければ入口で雨を待っていたかもしれない",
+        "source_quotes": [
+          "貸出傘がなければ入口で雨を待っていたかもしれない"
+        ],
+        "source_line_numbers": [
+          13
+        ]
+      },
+      {
+        "id": "L14",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "用意された傘がありがたかった",
+        "source_quotes": [
+          "用意された傘がありがたかった"
+        ],
+        "source_line_numbers": [
+          14
+        ]
+      },
+      {
+        "id": "L15",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "帰宅後に借りた傘を開いて乾かした",
+        "source_quotes": [
+          "帰宅後に借りた傘を開いて乾かした"
+        ],
+        "source_line_numbers": [
+          15
+        ]
+      },
+      {
+        "id": "L16",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "返却を忘れないよう玄関にメモを置いた",
+        "source_quotes": [
+          "返却を忘れないよう玄関にメモを置いた"
+        ],
+        "source_line_numbers": [
+          16
+        ]
+      },
+      {
+        "id": "L17",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "自分の傘を忘れた直後なので返却も忘れたくなかった",
+        "source_quotes": [
+          "自分の傘を忘れた直後なので返却も忘れたくなかった"
+        ],
+        "source_line_numbers": [
+          17
+        ]
+      },
+      {
+        "id": "L18",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "翌日の午前中に図書館へ戻った",
+        "source_quotes": [
+          "翌日の午前中に図書館へ戻った"
+        ],
+        "source_line_numbers": [
+          18
+        ]
+      },
+      {
+        "id": "L19",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "青い傘を元の貸出場所へ返した",
+        "source_quotes": [
+          "青い傘を元の貸出場所へ返した"
+        ],
+        "source_line_numbers": [
+          19
+        ]
+      },
+      {
+        "id": "L20",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "返し終えて気が楽になった",
+        "source_quotes": [
+          "返し終えて気が楽になった"
+        ],
+        "source_line_numbers": [
+          20
+        ]
+      },
+      {
+        "id": "L21",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "返却時は雨が降っていなかった",
+        "source_quotes": [
+          "返却時は雨が降っていなかった"
+        ],
+        "source_line_numbers": [
+          21
+        ]
+      },
+      {
+        "id": "L22",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "貸出場所には別の傘も残っていた",
+        "source_quotes": [
+          "貸出場所には別の傘も残っていた"
+        ],
+        "source_line_numbers": [
+          22
+        ]
+      },
+      {
+        "id": "L23",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "昨日の自分のような人を助ける物なのだと思った",
+        "source_quotes": [
+          "昨日の自分のような人を助ける物なのだと思った"
+        ],
+        "source_line_numbers": [
+          23
+        ]
+      },
+      {
+        "id": "L24",
+        "kind": "T",
+        "epistemic": "uncertain_memory",
+        "title": "次に誰がその傘を使うかは知らない",
+        "source_quotes": [
+          "次に誰がその傘を使うかは知らない"
+        ],
+        "source_line_numbers": [
+          24
+        ]
+      },
+      {
+        "id": "L25",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "借りる時と返す時で同じ傘の見え方が変わった",
+        "source_quotes": [
+          "借りる時と返す時で同じ傘の見え方が変わった"
+        ],
+        "source_line_numbers": [
+          25
+        ]
+      },
+      {
+        "id": "L26",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "自分の折り畳み傘はその後バッグに入れ直した",
+        "source_quotes": [
+          "自分の折り畳み傘はその後バッグに入れ直した"
+        ],
+        "source_line_numbers": [
+          26
+        ]
+      },
+      {
+        "id": "L27",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "今後一度も忘れなくなるかはまだ分からない",
+        "source_quotes": [
+          "今後一度も忘れなくなるかはまだ分からない"
+        ],
+        "source_line_numbers": [
+          27
+        ]
+      },
+      {
+        "id": "L28",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "忘れ物への反省と助けられたうれしさが残った",
+        "source_quotes": [
+          "忘れ物への反省と助けられたうれしさが残った"
+        ],
+        "source_line_numbers": [
+          28
+        ]
+      },
+      {
+        "id": "L29",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "助かったことと忘れ物をしたことの両方を覚えておきたい",
+        "source_quotes": [
+          "助かったことと忘れ物をしたことの両方を覚えておきたい"
+        ],
+        "source_line_numbers": [
+          29
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "index": 1,
+        "memory_id": "L01",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "図書館から帰ろうとすると雨が降っていた",
+        "epistemic": "observed",
+        "relation": "episode_entry",
+        "anchor_id": null
+      },
+      {
+        "index": 2,
+        "memory_id": "L02",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "自分の折り畳み傘は家に置いてきていた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L01"
+      },
+      {
+        "index": 3,
+        "memory_id": "L03",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "持ってきたつもりだったので困った",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L02"
+      },
+      {
+        "index": 4,
+        "memory_id": "L04",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "バッグの傘用のポケットは空だった",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L03"
+      },
+      {
+        "index": 5,
+        "memory_id": "L05",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "いつもの場所だけ見て持った気になっていたのかもしれない",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L04"
+      },
+      {
+        "index": 6,
+        "memory_id": "L06",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "入口に貸出用の傘が2本あった",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L05"
+      },
+      {
+        "index": 7,
+        "memory_id": "L07",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "館内の案内には翌日までに返却と書かれていた",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L06"
+      },
+      {
+        "index": 8,
+        "memory_id": "L08",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "そのうち青い傘を1本借りた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L07"
+      },
+      {
+        "index": 9,
+        "memory_id": "L09",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "借りられてほっとした",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L08"
+      },
+      {
+        "index": 10,
+        "memory_id": "L02",
+        "operation": "REVISIT",
+        "kind": "F",
+        "content": "自分の折り畳み傘は家に置いてきていた",
+        "epistemic": "observed",
+        "relation": "return_for_emphasis",
+        "anchor_id": "L09"
+      },
+      {
+        "index": 11,
+        "memory_id": "L10",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "家まで傘を差して歩いた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L02"
+      },
+      {
+        "index": 12,
+        "memory_id": "L11",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "靴の先だけ少しぬれた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L10"
+      },
+      {
+        "index": 13,
+        "memory_id": "L12",
+        "operation": "COMPARE",
+        "kind": "T",
+        "content": "全身ずぶぬれになるより助かったと感じた",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L11"
+      },
+      {
+        "index": 14,
+        "memory_id": "L13",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "貸出傘がなければ入口で雨を待っていたかもしれない",
+        "epistemic": "counterfactual",
+        "relation": "continuation",
+        "anchor_id": "L12"
+      },
+      {
+        "index": 15,
+        "memory_id": "L14",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "用意された傘がありがたかった",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L13"
+      },
+      {
+        "index": 16,
+        "memory_id": "L15",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "帰宅後に借りた傘を開いて乾かした",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L14"
+      },
+      {
+        "index": 17,
+        "memory_id": "L16",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "返却を忘れないよう玄関にメモを置いた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L15"
+      },
+      {
+        "index": 18,
+        "memory_id": "L17",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "自分の傘を忘れた直後なので返却も忘れたくなかった",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L16"
+      },
+      {
+        "index": 19,
+        "memory_id": "L18",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "翌日の午前中に図書館へ戻った",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L17"
+      },
+      {
+        "index": 20,
+        "memory_id": "L19",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "青い傘を元の貸出場所へ返した",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L18"
+      },
+      {
+        "index": 21,
+        "memory_id": "L20",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "返し終えて気が楽になった",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L19"
+      },
+      {
+        "index": 22,
+        "memory_id": "L08",
+        "operation": "REVISIT",
+        "kind": "F",
+        "content": "そのうち青い傘を1本借りた",
+        "epistemic": "observed",
+        "relation": "return_for_emphasis",
+        "anchor_id": "L20"
+      },
+      {
+        "index": 23,
+        "memory_id": "L21",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "返却時は雨が降っていなかった",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L08"
+      },
+      {
+        "index": 24,
+        "memory_id": "L22",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "貸出場所には別の傘も残っていた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L21"
+      },
+      {
+        "index": 25,
+        "memory_id": "L23",
+        "operation": "APPRAISE",
+        "kind": "T",
+        "content": "昨日の自分のような人を助ける物なのだと思った",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L22"
+      },
+      {
+        "index": 26,
+        "memory_id": "L24",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "次に誰がその傘を使うかは知らない",
+        "epistemic": "uncertain_memory",
+        "relation": "continuation",
+        "anchor_id": "L23"
+      },
+      {
+        "index": 27,
+        "memory_id": "L25",
+        "operation": "COMPARE",
+        "kind": "T",
+        "content": "借りる時と返す時で同じ傘の見え方が変わった",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L24"
+      },
+      {
+        "index": 28,
+        "memory_id": "L26",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "自分の折り畳み傘はその後バッグに入れ直した",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L25"
+      },
+      {
+        "index": 29,
+        "memory_id": "L27",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "今後一度も忘れなくなるかはまだ分からない",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L26"
+      },
+      {
+        "index": 30,
+        "memory_id": "L28",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "忘れ物への反省と助けられたうれしさが残った",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L27"
+      },
+      {
+        "index": 31,
+        "memory_id": "L29",
+        "operation": "APPRAISE",
+        "kind": "T",
+        "content": "助かったことと忘れ物をしたことの両方を覚えておきたい",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L28"
+      },
+      {
+        "index": 32,
+        "memory_id": "L16",
+        "operation": "REVISIT",
+        "kind": "F",
+        "content": "返却を忘れないよう玄関にメモを置いた",
+        "epistemic": "observed",
+        "relation": "return_for_emphasis",
+        "anchor_id": "L29"
+      }
+    ],
+    "provenance": {
+      "author": "root designer AI",
+      "fiction": true,
+      "source_text": "図書館から帰ろうとすると雨が降っていた\n自分の折り畳み傘は家に置いてきていた\n持ってきたつもりだったので困った\nバッグの傘用のポケットは空だった\nいつもの場所だけ見て持った気になっていたのかもしれない\n入口に貸出用の傘が2本あった\n館内の案内には翌日までに返却と書かれていた\nそのうち青い傘を1本借りた\n借りられてほっとした\n家まで傘を差して歩いた\n靴の先だけ少しぬれた\n全身ずぶぬれになるより助かったと感じた\n貸出傘がなければ入口で雨を待っていたかもしれない\n用意された傘がありがたかった\n帰宅後に借りた傘を開いて乾かした\n返却を忘れないよう玄関にメモを置いた\n自分の傘を忘れた直後なので返却も忘れたくなかった\n翌日の午前中に図書館へ戻った\n青い傘を元の貸出場所へ返した\n返し終えて気が楽になった\n返却時は雨が降っていなかった\n貸出場所には別の傘も残っていた\n昨日の自分のような人を助ける物なのだと思った\n次に誰がその傘を使うかは知らない\n借りる時と返す時で同じ傘の見え方が変わった\n自分の折り畳み傘はその後バッグに入れ直した\n今後一度も忘れなくなるかはまだ分からない\n忘れ物への反省と助けられたうれしさが残った\n助かったことと忘れ物をしたことの両方を覚えておきたい",
+      "source_is_memory_spec_not_human_speech": true,
+      "human_quality_labels": 0
+    },
+    "operation_plan_author": "root designer AI manual fixed plan; not automatic engine selection",
+    "initial_history": [],
+    "semantic_status": "unverified"
+  },
+  {
+    "id": "O03",
+    "title": "動かないキーボードを調べたら、差し込みが浅かった",
+    "category": "designer_original_fiction",
+    "nodes": [
+      {
+        "id": "L01",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "自宅の机で有線キーボードを初めて組み立てた",
+        "source_quotes": [
+          "自宅の机で有線キーボードを初めて組み立てた"
+        ],
+        "source_line_numbers": [
+          1
+        ]
+      },
+      {
+        "id": "L02",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "部品を並べて説明書を読んだ",
+        "source_quotes": [
+          "部品を並べて説明書を読んだ"
+        ],
+        "source_line_numbers": [
+          2
+        ]
+      },
+      {
+        "id": "L03",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "キーをすべて取り付けた",
+        "source_quotes": [
+          "キーをすべて取り付けた"
+        ],
+        "source_line_numbers": [
+          3
+        ]
+      },
+      {
+        "id": "L04",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "完成した見た目がうれしかった",
+        "source_quotes": [
+          "完成した見た目がうれしかった"
+        ],
+        "source_line_numbers": [
+          4
+        ]
+      },
+      {
+        "id": "L05",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "パソコンにつなぐとどのキーも反応しなかった",
+        "source_quotes": [
+          "パソコンにつなぐとどのキーも反応しなかった"
+        ],
+        "source_line_numbers": [
+          5
+        ]
+      },
+      {
+        "id": "L06",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "どこか壊したのではと焦った",
+        "source_quotes": [
+          "どこか壊したのではと焦った"
+        ],
+        "source_line_numbers": [
+          6
+        ]
+      },
+      {
+        "id": "L07",
+        "kind": "T",
+        "epistemic": "unverified_suspicion",
+        "title": "組み立て中に部品を傷めたのかもしれないと疑った",
+        "source_quotes": [
+          "組み立て中に部品を傷めたのかもしれないと疑った"
+        ],
+        "source_line_numbers": [
+          7
+        ]
+      },
+      {
+        "id": "L08",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "ケースを開け直そうとして手を止めた",
+        "source_quotes": [
+          "ケースを開け直そうとして手を止めた"
+        ],
+        "source_line_numbers": [
+          8
+        ]
+      },
+      {
+        "id": "L09",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "その前に外側の接続を見ようと思った",
+        "source_quotes": [
+          "その前に外側の接続を見ようと思った"
+        ],
+        "source_line_numbers": [
+          9
+        ]
+      },
+      {
+        "id": "L10",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "キーボード側のケーブルの差し込みが浅かった",
+        "source_quotes": [
+          "キーボード側のケーブルの差し込みが浅かった"
+        ],
+        "source_line_numbers": [
+          10
+        ]
+      },
+      {
+        "id": "L11",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "ケーブルを差し直した",
+        "source_quotes": [
+          "ケーブルを差し直した"
+        ],
+        "source_line_numbers": [
+          11
+        ]
+      },
+      {
+        "id": "L12",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "差し直すと入力できるようになった",
+        "source_quotes": [
+          "差し直すと入力できるようになった"
+        ],
+        "source_line_numbers": [
+          12
+        ]
+      },
+      {
+        "id": "L13",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "壊れていなさそうで安心した",
+        "source_quotes": [
+          "壊れていなさそうで安心した"
+        ],
+        "source_line_numbers": [
+          13
+        ]
+      },
+      {
+        "id": "L14",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "大きな故障を疑う前に接続を確かめるべきだった",
+        "source_quotes": [
+          "大きな故障を疑う前に接続を確かめるべきだった"
+        ],
+        "source_line_numbers": [
+          14
+        ]
+      },
+      {
+        "id": "L15",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "文字入力の画面で全キーを一つずつ押した",
+        "source_quotes": [
+          "文字入力の画面で全キーを一つずつ押した"
+        ],
+        "source_line_numbers": [
+          15
+        ]
+      },
+      {
+        "id": "L16",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "その確認では全キーが反応した",
+        "source_quotes": [
+          "その確認では全キーが反応した"
+        ],
+        "source_line_numbers": [
+          16
+        ]
+      },
+      {
+        "id": "L17",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "長期間の耐久性まではまだ確かめていない",
+        "source_quotes": [
+          "長期間の耐久性まではまだ確かめていない"
+        ],
+        "source_line_numbers": [
+          17
+        ]
+      },
+      {
+        "id": "L18",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "その場で動くこととずっと問題ないことは別だと思う",
+        "source_quotes": [
+          "その場で動くこととずっと問題ないことは別だと思う"
+        ],
+        "source_line_numbers": [
+          18
+        ]
+      },
+      {
+        "id": "L19",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "キーの色は白と緑を選んだ",
+        "source_quotes": [
+          "キーの色は白と緑を選んだ"
+        ],
+        "source_line_numbers": [
+          19
+        ]
+      },
+      {
+        "id": "L20",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "机に置いた色の組み合わせが気に入った",
+        "source_quotes": [
+          "机に置いた色の組み合わせが気に入った"
+        ],
+        "source_line_numbers": [
+          20
+        ]
+      },
+      {
+        "id": "L21",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "組み立てには2時間かかった",
+        "source_quotes": [
+          "組み立てには2時間かかった"
+        ],
+        "source_line_numbers": [
+          21
+        ]
+      },
+      {
+        "id": "L22",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "最後の接続確認は組み立てより短い時間で済んだ",
+        "source_quotes": [
+          "最後の接続確認は組み立てより短い時間で済んだ"
+        ],
+        "source_line_numbers": [
+          22
+        ]
+      },
+      {
+        "id": "L23",
+        "kind": "T",
+        "epistemic": "counterfactual",
+        "title": "先にケースを開けていたら余計な作業を増やしていたかもしれない",
+        "source_quotes": [
+          "先にケースを開けていたら余計な作業を増やしていたかもしれない"
+        ],
+        "source_line_numbers": [
+          23
+        ]
+      },
+      {
+        "id": "L24",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "焦った自分に少し笑ってしまった",
+        "source_quotes": [
+          "焦った自分に少し笑ってしまった"
+        ],
+        "source_line_numbers": [
+          24
+        ]
+      },
+      {
+        "id": "L25",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "説明書と余ったねじは箱に戻した",
+        "source_quotes": [
+          "説明書と余ったねじは箱に戻した"
+        ],
+        "source_line_numbers": [
+          25
+        ]
+      },
+      {
+        "id": "L26",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "ケーブルを差し直すことで直った今回の記録を残した",
+        "source_quotes": [
+          "ケーブルを差し直すことで直った今回の記録を残した"
+        ],
+        "source_line_numbers": [
+          26
+        ]
+      },
+      {
+        "id": "L27",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "原因を確認する前に故障と決めつけない方がよいと感じた",
+        "source_quotes": [
+          "原因を確認する前に故障と決めつけない方がよいと感じた"
+        ],
+        "source_line_numbers": [
+          27
+        ]
+      },
+      {
+        "id": "L28",
+        "kind": "E",
+        "epistemic": "speaker_desire",
+        "title": "次はこのキーボードで文章を書いてみたい",
+        "source_quotes": [
+          "次はこのキーボードで文章を書いてみたい"
+        ],
+        "source_line_numbers": [
+          28
+        ]
+      },
+      {
+        "id": "L29",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "完成した喜びに確認する大切さも加わった",
+        "source_quotes": [
+          "完成した喜びに確認する大切さも加わった"
+        ],
+        "source_line_numbers": [
+          29
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "index": 1,
+        "memory_id": "L01",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "自宅の机で有線キーボードを初めて組み立てた",
+        "epistemic": "observed",
+        "relation": "episode_entry",
+        "anchor_id": null
+      },
+      {
+        "index": 2,
+        "memory_id": "L02",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "部品を並べて説明書を読んだ",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L01"
+      },
+      {
+        "index": 3,
+        "memory_id": "L03",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "キーをすべて取り付けた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L02"
+      },
+      {
+        "index": 4,
+        "memory_id": "L04",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "完成した見た目がうれしかった",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L03"
+      },
+      {
+        "index": 5,
+        "memory_id": "L05",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "パソコンにつなぐとどのキーも反応しなかった",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L04"
+      },
+      {
+        "index": 6,
+        "memory_id": "L06",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "どこか壊したのではと焦った",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L05"
+      },
+      {
+        "index": 7,
+        "memory_id": "L07",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "組み立て中に部品を傷めたのかもしれないと疑った",
+        "epistemic": "unverified_suspicion",
+        "relation": "continuation",
+        "anchor_id": "L06"
+      },
+      {
+        "index": 8,
+        "memory_id": "L05",
+        "operation": "REVISIT",
+        "kind": "F",
+        "content": "パソコンにつなぐとどのキーも反応しなかった",
+        "epistemic": "observed",
+        "relation": "return_for_emphasis",
+        "anchor_id": "L07"
+      },
+      {
+        "index": 9,
+        "memory_id": "L08",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "ケースを開け直そうとして手を止めた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L05"
+      },
+      {
+        "index": 10,
+        "memory_id": "L09",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "その前に外側の接続を見ようと思った",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L08"
+      },
+      {
+        "index": 11,
+        "memory_id": "L10",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "キーボード側のケーブルの差し込みが浅かった",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L09"
+      },
+      {
+        "index": 12,
+        "memory_id": "L11",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "ケーブルを差し直した",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L10"
+      },
+      {
+        "index": 13,
+        "memory_id": "L12",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "差し直すと入力できるようになった",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L11"
+      },
+      {
+        "index": 14,
+        "memory_id": "L13",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "壊れていなさそうで安心した",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L12"
+      },
+      {
+        "index": 15,
+        "memory_id": "L14",
+        "operation": "APPRAISE",
+        "kind": "T",
+        "content": "大きな故障を疑う前に接続を確かめるべきだった",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L13"
+      },
+      {
+        "index": 16,
+        "memory_id": "L15",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "文字入力の画面で全キーを一つずつ押した",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L14"
+      },
+      {
+        "index": 17,
+        "memory_id": "L16",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "その確認では全キーが反応した",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L15"
+      },
+      {
+        "index": 18,
+        "memory_id": "L12",
+        "operation": "REVISIT",
+        "kind": "F",
+        "content": "差し直すと入力できるようになった",
+        "epistemic": "observed",
+        "relation": "return_for_emphasis",
+        "anchor_id": "L16"
+      },
+      {
+        "index": 19,
+        "memory_id": "L17",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "長期間の耐久性まではまだ確かめていない",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L12"
+      },
+      {
+        "index": 20,
+        "memory_id": "L18",
+        "operation": "COMPARE",
+        "kind": "T",
+        "content": "その場で動くこととずっと問題ないことは別だと思う",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L17"
+      },
+      {
+        "index": 21,
+        "memory_id": "L19",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "キーの色は白と緑を選んだ",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L18"
+      },
+      {
+        "index": 22,
+        "memory_id": "L20",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "机に置いた色の組み合わせが気に入った",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L19"
+      },
+      {
+        "index": 23,
+        "memory_id": "L21",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "組み立てには2時間かかった",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L20"
+      },
+      {
+        "index": 24,
+        "memory_id": "L22",
+        "operation": "COMPARE",
+        "kind": "T",
+        "content": "最後の接続確認は組み立てより短い時間で済んだ",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L21"
+      },
+      {
+        "index": 25,
+        "memory_id": "L23",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "先にケースを開けていたら余計な作業を増やしていたかもしれない",
+        "epistemic": "counterfactual",
+        "relation": "continuation",
+        "anchor_id": "L22"
+      },
+      {
+        "index": 26,
+        "memory_id": "L24",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "焦った自分に少し笑ってしまった",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L23"
+      },
+      {
+        "index": 27,
+        "memory_id": "L25",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "説明書と余ったねじは箱に戻した",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L24"
+      },
+      {
+        "index": 28,
+        "memory_id": "L26",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "ケーブルを差し直すことで直った今回の記録を残した",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L25"
+      },
+      {
+        "index": 29,
+        "memory_id": "L27",
+        "operation": "APPRAISE",
+        "kind": "T",
+        "content": "原因を確認する前に故障と決めつけない方がよいと感じた",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L26"
+      },
+      {
+        "index": 30,
+        "memory_id": "L28",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "次はこのキーボードで文章を書いてみたい",
+        "epistemic": "speaker_desire",
+        "relation": "continuation",
+        "anchor_id": "L27"
+      },
+      {
+        "index": 31,
+        "memory_id": "L29",
+        "operation": "APPRAISE",
+        "kind": "T",
+        "content": "完成した喜びに確認する大切さも加わった",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L28"
+      },
+      {
+        "index": 32,
+        "memory_id": "L04",
+        "operation": "REVISIT",
+        "kind": "E",
+        "content": "完成した見た目がうれしかった",
+        "epistemic": "speaker_reaction",
+        "relation": "return_for_emphasis",
+        "anchor_id": "L29"
+      }
+    ],
+    "provenance": {
+      "author": "root designer AI",
+      "fiction": true,
+      "source_text": "自宅の机で有線キーボードを初めて組み立てた\n部品を並べて説明書を読んだ\nキーをすべて取り付けた\n完成した見た目がうれしかった\nパソコンにつなぐとどのキーも反応しなかった\nどこか壊したのではと焦った\n組み立て中に部品を傷めたのかもしれないと疑った\nケースを開け直そうとして手を止めた\nその前に外側の接続を見ようと思った\nキーボード側のケーブルの差し込みが浅かった\nケーブルを差し直した\n差し直すと入力できるようになった\n壊れていなさそうで安心した\n大きな故障を疑う前に接続を確かめるべきだった\n文字入力の画面で全キーを一つずつ押した\nその確認では全キーが反応した\n長期間の耐久性まではまだ確かめていない\nその場で動くこととずっと問題ないことは別だと思う\nキーの色は白と緑を選んだ\n机に置いた色の組み合わせが気に入った\n組み立てには2時間かかった\n最後の接続確認は組み立てより短い時間で済んだ\n先にケースを開けていたら余計な作業を増やしていたかもしれない\n焦った自分に少し笑ってしまった\n説明書と余ったねじは箱に戻した\nケーブルを差し直すことで直った今回の記録を残した\n原因を確認する前に故障と決めつけない方がよいと感じた\n次はこのキーボードで文章を書いてみたい\n完成した喜びに確認する大切さも加わった",
+      "source_is_memory_spec_not_human_speech": true,
+      "human_quality_labels": 0
+    },
+    "operation_plan_author": "root designer AI manual fixed plan; not automatic engine selection",
+    "initial_history": [],
+    "semantic_status": "unverified"
+  },
+  {
+    "id": "O04",
+    "title": "電車の方向を間違え、目的地より先に焦りを直す",
+    "category": "designer_original_fiction",
+    "nodes": [
+      {
+        "id": "L01",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "休日に友人との待ち合わせで駅へ行った",
+        "source_quotes": [
+          "休日に友人との待ち合わせで駅へ行った"
+        ],
+        "source_line_numbers": [
+          1
+        ]
+      },
+      {
+        "id": "L02",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "待ち合わせは午後2時だった",
+        "source_quotes": [
+          "待ち合わせは午後2時だった"
+        ],
+        "source_line_numbers": [
+          2
+        ]
+      },
+      {
+        "id": "L03",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "電車に乗る直前に時刻だけ確認した",
+        "source_quotes": [
+          "電車に乗る直前に時刻だけ確認した"
+        ],
+        "source_line_numbers": [
+          3
+        ]
+      },
+      {
+        "id": "L04",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "乗ったのは目的地と逆方向の電車だった",
+        "source_quotes": [
+          "乗ったのは目的地と逆方向の電車だった"
+        ],
+        "source_line_numbers": [
+          4
+        ]
+      },
+      {
+        "id": "L05",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "一駅進んだ所で駅名を見て気づいた",
+        "source_quotes": [
+          "一駅進んだ所で駅名を見て気づいた"
+        ],
+        "source_line_numbers": [
+          5
+        ]
+      },
+      {
+        "id": "L06",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "気づいた瞬間に焦った",
+        "source_quotes": [
+          "気づいた瞬間に焦った"
+        ],
+        "source_line_numbers": [
+          6
+        ]
+      },
+      {
+        "id": "L07",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "時間ばかり見て方面を見ていなかったと振り返った",
+        "source_quotes": [
+          "時間ばかり見て方面を見ていなかったと振り返った"
+        ],
+        "source_line_numbers": [
+          7
+        ]
+      },
+      {
+        "id": "L08",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "次の駅で降りた",
+        "source_quotes": [
+          "次の駅で降りた"
+        ],
+        "source_line_numbers": [
+          8
+        ]
+      },
+      {
+        "id": "L09",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "案内板で戻る方向を確認した",
+        "source_quotes": [
+          "案内板で戻る方向を確認した"
+        ],
+        "source_line_numbers": [
+          9
+        ]
+      },
+      {
+        "id": "L10",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "友人に到着が遅れそうだと連絡した",
+        "source_quotes": [
+          "友人に到着が遅れそうだと連絡した"
+        ],
+        "source_line_numbers": [
+          10
+        ]
+      },
+      {
+        "id": "L11",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "友人から了解という返信があった",
+        "source_quotes": [
+          "友人から了解という返信があった"
+        ],
+        "source_line_numbers": [
+          11
+        ]
+      },
+      {
+        "id": "L12",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "連絡がついて少し落ち着いた",
+        "source_quotes": [
+          "連絡がついて少し落ち着いた"
+        ],
+        "source_line_numbers": [
+          12
+        ]
+      },
+      {
+        "id": "L13",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "反対方向の電車に乗り直した",
+        "source_quotes": [
+          "反対方向の電車に乗り直した"
+        ],
+        "source_line_numbers": [
+          13
+        ]
+      },
+      {
+        "id": "L14",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "待ち合わせには10分遅れて着いた",
+        "source_quotes": [
+          "待ち合わせには10分遅れて着いた"
+        ],
+        "source_line_numbers": [
+          14
+        ]
+      },
+      {
+        "id": "L15",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "友人に遅れたことを謝った",
+        "source_quotes": [
+          "友人に遅れたことを謝った"
+        ],
+        "source_line_numbers": [
+          15
+        ]
+      },
+      {
+        "id": "L16",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "大きく迷わず戻れてほっとした",
+        "source_quotes": [
+          "大きく迷わず戻れてほっとした"
+        ],
+        "source_line_numbers": [
+          16
+        ]
+      },
+      {
+        "id": "L17",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "一駅で気づけたのはまだよかった",
+        "source_quotes": [
+          "一駅で気づけたのはまだよかった"
+        ],
+        "source_line_numbers": [
+          17
+        ]
+      },
+      {
+        "id": "L18",
+        "kind": "T",
+        "epistemic": "counterfactual",
+        "title": "もっと後で気づいていたらさらに遅れたかもしれない",
+        "source_quotes": [
+          "もっと後で気づいていたらさらに遅れたかもしれない"
+        ],
+        "source_line_numbers": [
+          18
+        ]
+      },
+      {
+        "id": "L19",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "予定していた店にはその後二人で入れた",
+        "source_quotes": [
+          "予定していた店にはその後二人で入れた"
+        ],
+        "source_line_numbers": [
+          19
+        ]
+      },
+      {
+        "id": "L20",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "店の予約時刻があったわけではない",
+        "source_quotes": [
+          "店の予約時刻があったわけではない"
+        ],
+        "source_line_numbers": [
+          20
+        ]
+      },
+      {
+        "id": "L21",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "待ち合わせに遅れたことは店に入れたことと別に反省している",
+        "source_quotes": [
+          "待ち合わせに遅れたことは店に入れたことと別に反省している"
+        ],
+        "source_line_numbers": [
+          21
+        ]
+      },
+      {
+        "id": "L22",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "帰りは乗る前に方面の表示を見た",
+        "source_quotes": [
+          "帰りは乗る前に方面の表示を見た"
+        ],
+        "source_line_numbers": [
+          22
+        ]
+      },
+      {
+        "id": "L23",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "帰りは目的の方向の電車に乗れた",
+        "source_quotes": [
+          "帰りは目的の方向の電車に乗れた"
+        ],
+        "source_line_numbers": [
+          23
+        ]
+      },
+      {
+        "id": "L24",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "帰りに同じ間違いをしなくてうれしかった",
+        "source_quotes": [
+          "帰りに同じ間違いをしなくてうれしかった"
+        ],
+        "source_line_numbers": [
+          24
+        ]
+      },
+      {
+        "id": "L25",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "時刻の確認だけでは足りなかった",
+        "source_quotes": [
+          "時刻の確認だけでは足りなかった"
+        ],
+        "source_line_numbers": [
+          25
+        ]
+      },
+      {
+        "id": "L26",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "案内板を一度見るだけでも焦り方が変わると感じた",
+        "source_quotes": [
+          "案内板を一度見るだけでも焦り方が変わると感じた"
+        ],
+        "source_line_numbers": [
+          26
+        ]
+      },
+      {
+        "id": "L27",
+        "kind": "T",
+        "epistemic": "uncertain_memory",
+        "title": "これから絶対に間違えないとまでは言えない",
+        "source_quotes": [
+          "これから絶対に間違えないとまでは言えない"
+        ],
+        "source_line_numbers": [
+          27
+        ]
+      },
+      {
+        "id": "L28",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "恥ずかしかったが笑って話せる失敗になった",
+        "source_quotes": [
+          "恥ずかしかったが笑って話せる失敗になった"
+        ],
+        "source_line_numbers": [
+          28
+        ]
+      },
+      {
+        "id": "L29",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "早く乗ることより正しい方向を確かめたい",
+        "source_quotes": [
+          "早く乗ることより正しい方向を確かめたい"
+        ],
+        "source_line_numbers": [
+          29
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "index": 1,
+        "memory_id": "L01",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "休日に友人との待ち合わせで駅へ行った",
+        "epistemic": "observed",
+        "relation": "episode_entry",
+        "anchor_id": null
+      },
+      {
+        "index": 2,
+        "memory_id": "L02",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "待ち合わせは午後2時だった",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L01"
+      },
+      {
+        "index": 3,
+        "memory_id": "L03",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "電車に乗る直前に時刻だけ確認した",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L02"
+      },
+      {
+        "index": 4,
+        "memory_id": "L04",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "乗ったのは目的地と逆方向の電車だった",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L03"
+      },
+      {
+        "index": 5,
+        "memory_id": "L05",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "一駅進んだ所で駅名を見て気づいた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L04"
+      },
+      {
+        "index": 6,
+        "memory_id": "L06",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "気づいた瞬間に焦った",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L05"
+      },
+      {
+        "index": 7,
+        "memory_id": "L07",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "時間ばかり見て方面を見ていなかったと振り返った",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L06"
+      },
+      {
+        "index": 8,
+        "memory_id": "L04",
+        "operation": "REVISIT",
+        "kind": "F",
+        "content": "乗ったのは目的地と逆方向の電車だった",
+        "epistemic": "observed",
+        "relation": "return_for_emphasis",
+        "anchor_id": "L07"
+      },
+      {
+        "index": 9,
+        "memory_id": "L08",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "次の駅で降りた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L04"
+      },
+      {
+        "index": 10,
+        "memory_id": "L09",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "案内板で戻る方向を確認した",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L08"
+      },
+      {
+        "index": 11,
+        "memory_id": "L10",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "友人に到着が遅れそうだと連絡した",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L09"
+      },
+      {
+        "index": 12,
+        "memory_id": "L11",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "友人から了解という返信があった",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L10"
+      },
+      {
+        "index": 13,
+        "memory_id": "L12",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "連絡がついて少し落ち着いた",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L11"
+      },
+      {
+        "index": 14,
+        "memory_id": "L13",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "反対方向の電車に乗り直した",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L12"
+      },
+      {
+        "index": 15,
+        "memory_id": "L14",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "待ち合わせには10分遅れて着いた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L13"
+      },
+      {
+        "index": 16,
+        "memory_id": "L15",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "友人に遅れたことを謝った",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L14"
+      },
+      {
+        "index": 17,
+        "memory_id": "L16",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "大きく迷わず戻れてほっとした",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L15"
+      },
+      {
+        "index": 18,
+        "memory_id": "L17",
+        "operation": "APPRAISE",
+        "kind": "T",
+        "content": "一駅で気づけたのはまだよかった",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L16"
+      },
+      {
+        "index": 19,
+        "memory_id": "L18",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "もっと後で気づいていたらさらに遅れたかもしれない",
+        "epistemic": "counterfactual",
+        "relation": "continuation",
+        "anchor_id": "L17"
+      },
+      {
+        "index": 20,
+        "memory_id": "L14",
+        "operation": "REVISIT",
+        "kind": "F",
+        "content": "待ち合わせには10分遅れて着いた",
+        "epistemic": "observed",
+        "relation": "return_for_emphasis",
+        "anchor_id": "L18"
+      },
+      {
+        "index": 21,
+        "memory_id": "L19",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "予定していた店にはその後二人で入れた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L14"
+      },
+      {
+        "index": 22,
+        "memory_id": "L20",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "店の予約時刻があったわけではない",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L19"
+      },
+      {
+        "index": 23,
+        "memory_id": "L21",
+        "operation": "COMPARE",
+        "kind": "T",
+        "content": "待ち合わせに遅れたことは店に入れたことと別に反省している",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L20"
+      },
+      {
+        "index": 24,
+        "memory_id": "L22",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "帰りは乗る前に方面の表示を見た",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L21"
+      },
+      {
+        "index": 25,
+        "memory_id": "L23",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "帰りは目的の方向の電車に乗れた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L22"
+      },
+      {
+        "index": 26,
+        "memory_id": "L24",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "帰りに同じ間違いをしなくてうれしかった",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L23"
+      },
+      {
+        "index": 27,
+        "memory_id": "L25",
+        "operation": "APPRAISE",
+        "kind": "T",
+        "content": "時刻の確認だけでは足りなかった",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L24"
+      },
+      {
+        "index": 28,
+        "memory_id": "L26",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "案内板を一度見るだけでも焦り方が変わると感じた",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L25"
+      },
+      {
+        "index": 29,
+        "memory_id": "L27",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "これから絶対に間違えないとまでは言えない",
+        "epistemic": "uncertain_memory",
+        "relation": "continuation",
+        "anchor_id": "L26"
+      },
+      {
+        "index": 30,
+        "memory_id": "L28",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "恥ずかしかったが笑って話せる失敗になった",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L27"
+      },
+      {
+        "index": 31,
+        "memory_id": "L29",
+        "operation": "APPRAISE",
+        "kind": "T",
+        "content": "早く乗ることより正しい方向を確かめたい",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L28"
+      },
+      {
+        "index": 32,
+        "memory_id": "L22",
+        "operation": "REVISIT",
+        "kind": "F",
+        "content": "帰りは乗る前に方面の表示を見た",
+        "epistemic": "observed",
+        "relation": "return_for_emphasis",
+        "anchor_id": "L29"
+      }
+    ],
+    "provenance": {
+      "author": "root designer AI",
+      "fiction": true,
+      "source_text": "休日に友人との待ち合わせで駅へ行った\n待ち合わせは午後2時だった\n電車に乗る直前に時刻だけ確認した\n乗ったのは目的地と逆方向の電車だった\n一駅進んだ所で駅名を見て気づいた\n気づいた瞬間に焦った\n時間ばかり見て方面を見ていなかったと振り返った\n次の駅で降りた\n案内板で戻る方向を確認した\n友人に到着が遅れそうだと連絡した\n友人から了解という返信があった\n連絡がついて少し落ち着いた\n反対方向の電車に乗り直した\n待ち合わせには10分遅れて着いた\n友人に遅れたことを謝った\n大きく迷わず戻れてほっとした\n一駅で気づけたのはまだよかった\nもっと後で気づいていたらさらに遅れたかもしれない\n予定していた店にはその後二人で入れた\n店の予約時刻があったわけではない\n待ち合わせに遅れたことは店に入れたことと別に反省している\n帰りは乗る前に方面の表示を見た\n帰りは目的の方向の電車に乗れた\n帰りに同じ間違いをしなくてうれしかった\n時刻の確認だけでは足りなかった\n案内板を一度見るだけでも焦り方が変わると感じた\nこれから絶対に間違えないとまでは言えない\n恥ずかしかったが笑って話せる失敗になった\n早く乗ることより正しい方向を確かめたい",
+      "source_is_memory_spec_not_human_speech": true,
+      "human_quality_labels": 0
+    },
+    "operation_plan_author": "root designer AI manual fixed plan; not automatic engine selection",
+    "initial_history": [],
+    "semantic_status": "unverified"
+  },
+  {
+    "id": "O05",
+    "title": "鳥の写真はぶれたが、カメラを下ろして気づいたこと",
+    "category": "designer_original_fiction",
+    "nodes": [
+      {
+        "id": "L01",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "朝に近所の公園で鳥の写真を撮ろうとした",
+        "source_quotes": [
+          "朝に近所の公園で鳥の写真を撮ろうとした"
+        ],
+        "source_line_numbers": [
+          1
+        ]
+      },
+      {
+        "id": "L02",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "ベンチの近くの枝に小さな鳥がいた",
+        "source_quotes": [
+          "ベンチの近くの枝に小さな鳥がいた"
+        ],
+        "source_line_numbers": [
+          2
+        ]
+      },
+      {
+        "id": "L03",
+        "kind": "T",
+        "epistemic": "uncertain_memory",
+        "title": "その鳥の種類は分からない",
+        "source_quotes": [
+          "その鳥の種類は分からない"
+        ],
+        "source_line_numbers": [
+          3
+        ]
+      },
+      {
+        "id": "L04",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "スマートフォンを向けた",
+        "source_quotes": [
+          "スマートフォンを向けた"
+        ],
+        "source_line_numbers": [
+          4
+        ]
+      },
+      {
+        "id": "L05",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "シャッターを3回押した",
+        "source_quotes": [
+          "シャッターを3回押した"
+        ],
+        "source_line_numbers": [
+          5
+        ]
+      },
+      {
+        "id": "L06",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "保存された3枚はすべてぶれていた",
+        "source_quotes": [
+          "保存された3枚はすべてぶれていた"
+        ],
+        "source_line_numbers": [
+          6
+        ]
+      },
+      {
+        "id": "L07",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "うまく撮れず残念だった",
+        "source_quotes": [
+          "うまく撮れず残念だった"
+        ],
+        "source_line_numbers": [
+          7
+        ]
+      },
+      {
+        "id": "L08",
+        "kind": "T",
+        "epistemic": "unverified_suspicion",
+        "title": "急いで手を動かしたせいかもしれないと考えた",
+        "source_quotes": [
+          "急いで手を動かしたせいかもしれないと考えた"
+        ],
+        "source_line_numbers": [
+          8
+        ]
+      },
+      {
+        "id": "L09",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "ぶれた原因を細かく調べたわけではない",
+        "source_quotes": [
+          "ぶれた原因を細かく調べたわけではない"
+        ],
+        "source_line_numbers": [
+          9
+        ]
+      },
+      {
+        "id": "L10",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "画面を見ている間に鳥は枝から飛んでいった",
+        "source_quotes": [
+          "画面を見ている間に鳥は枝から飛んでいった"
+        ],
+        "source_line_numbers": [
+          10
+        ]
+      },
+      {
+        "id": "L11",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "見逃した気がして悔しかった",
+        "source_quotes": [
+          "見逃した気がして悔しかった"
+        ],
+        "source_line_numbers": [
+          11
+        ]
+      },
+      {
+        "id": "L12",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "スマートフォンを下ろした",
+        "source_quotes": [
+          "スマートフォンを下ろした"
+        ],
+        "source_line_numbers": [
+          12
+        ]
+      },
+      {
+        "id": "L13",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "しばらくベンチに座った",
+        "source_quotes": [
+          "しばらくベンチに座った"
+        ],
+        "source_line_numbers": [
+          13
+        ]
+      },
+      {
+        "id": "L14",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "別の木の方から鳥の声が聞こえた",
+        "source_quotes": [
+          "別の木の方から鳥の声が聞こえた"
+        ],
+        "source_line_numbers": [
+          14
+        ]
+      },
+      {
+        "id": "L15",
+        "kind": "T",
+        "epistemic": "uncertain_memory",
+        "title": "その声が先ほどと同じ鳥かは分からない",
+        "source_quotes": [
+          "その声が先ほどと同じ鳥かは分からない"
+        ],
+        "source_line_numbers": [
+          15
+        ]
+      },
+      {
+        "id": "L16",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "葉が風で動く様子も見えた",
+        "source_quotes": [
+          "葉が風で動く様子も見えた"
+        ],
+        "source_line_numbers": [
+          16
+        ]
+      },
+      {
+        "id": "L17",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "画面を見ていた時より落ち着いた",
+        "source_quotes": [
+          "画面を見ていた時より落ち着いた"
+        ],
+        "source_line_numbers": [
+          17
+        ]
+      },
+      {
+        "id": "L18",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "写真を残すこととその場を見ることは別の楽しみだと思った",
+        "source_quotes": [
+          "写真を残すこととその場を見ることは別の楽しみだと思った"
+        ],
+        "source_line_numbers": [
+          18
+        ]
+      },
+      {
+        "id": "L19",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "撮った3枚は消さずに保存した",
+        "source_quotes": [
+          "撮った3枚は消さずに保存した"
+        ],
+        "source_line_numbers": [
+          19
+        ]
+      },
+      {
+        "id": "L20",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "ぶれた写真でもその朝のきっかけにはなると感じた",
+        "source_quotes": [
+          "ぶれた写真でもその朝のきっかけにはなると感じた"
+        ],
+        "source_line_numbers": [
+          20
+        ]
+      },
+      {
+        "id": "L21",
+        "kind": "E",
+        "epistemic": "speaker_desire",
+        "title": "鳥の姿をきれいに撮りたい気持ちも残っている",
+        "source_quotes": [
+          "鳥の姿をきれいに撮りたい気持ちも残っている"
+        ],
+        "source_line_numbers": [
+          21
+        ]
+      },
+      {
+        "id": "L22",
+        "kind": "T",
+        "epistemic": "counterfactual",
+        "title": "きれいに撮れていたらすぐ帰っていたかもしれない",
+        "source_quotes": [
+          "きれいに撮れていたらすぐ帰っていたかもしれない"
+        ],
+        "source_line_numbers": [
+          22
+        ]
+      },
+      {
+        "id": "L23",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "撮れなかったから全て無駄だったとは今は思わない",
+        "source_quotes": [
+          "撮れなかったから全て無駄だったとは今は思わない"
+        ],
+        "source_line_numbers": [
+          23
+        ]
+      },
+      {
+        "id": "L24",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "帰る前にもう一度枝を見た",
+        "source_quotes": [
+          "帰る前にもう一度枝を見た"
+        ],
+        "source_line_numbers": [
+          24
+        ]
+      },
+      {
+        "id": "L25",
+        "kind": "F",
+        "epistemic": "observed",
+        "title": "その時その枝に鳥はいなかった",
+        "source_quotes": [
+          "その時その枝に鳥はいなかった"
+        ],
+        "source_line_numbers": [
+          25
+        ]
+      },
+      {
+        "id": "L26",
+        "kind": "F",
+        "epistemic": "speaker_report",
+        "title": "次の撮影日時はまだ決めていない",
+        "source_quotes": [
+          "次の撮影日時はまだ決めていない"
+        ],
+        "source_line_numbers": [
+          26
+        ]
+      },
+      {
+        "id": "L27",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "次も撮るだけに急がず少し周りを見たい",
+        "source_quotes": [
+          "次も撮るだけに急がず少し周りを見たい"
+        ],
+        "source_line_numbers": [
+          27
+        ]
+      },
+      {
+        "id": "L28",
+        "kind": "E",
+        "epistemic": "speaker_reaction",
+        "title": "残念さと穏やかな気持ちの両方が残った",
+        "source_quotes": [
+          "残念さと穏やかな気持ちの両方が残った"
+        ],
+        "source_line_numbers": [
+          28
+        ]
+      },
+      {
+        "id": "L29",
+        "kind": "T",
+        "epistemic": "speaker_evaluation",
+        "title": "失敗した写真と心地よい朝を同時に持ち帰れたと思った",
+        "source_quotes": [
+          "失敗した写真と心地よい朝を同時に持ち帰れたと思った"
+        ],
+        "source_line_numbers": [
+          29
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "index": 1,
+        "memory_id": "L01",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "朝に近所の公園で鳥の写真を撮ろうとした",
+        "epistemic": "observed",
+        "relation": "episode_entry",
+        "anchor_id": null
+      },
+      {
+        "index": 2,
+        "memory_id": "L02",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "ベンチの近くの枝に小さな鳥がいた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L01"
+      },
+      {
+        "index": 3,
+        "memory_id": "L03",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "その鳥の種類は分からない",
+        "epistemic": "uncertain_memory",
+        "relation": "continuation",
+        "anchor_id": "L02"
+      },
+      {
+        "index": 4,
+        "memory_id": "L04",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "スマートフォンを向けた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L03"
+      },
+      {
+        "index": 5,
+        "memory_id": "L05",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "シャッターを3回押した",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L04"
+      },
+      {
+        "index": 6,
+        "memory_id": "L06",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "保存された3枚はすべてぶれていた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L05"
+      },
+      {
+        "index": 7,
+        "memory_id": "L07",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "うまく撮れず残念だった",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L06"
+      },
+      {
+        "index": 8,
+        "memory_id": "L06",
+        "operation": "REVISIT",
+        "kind": "F",
+        "content": "保存された3枚はすべてぶれていた",
+        "epistemic": "observed",
+        "relation": "return_for_emphasis",
+        "anchor_id": "L07"
+      },
+      {
+        "index": 9,
+        "memory_id": "L08",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "急いで手を動かしたせいかもしれないと考えた",
+        "epistemic": "unverified_suspicion",
+        "relation": "continuation",
+        "anchor_id": "L06"
+      },
+      {
+        "index": 10,
+        "memory_id": "L09",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "ぶれた原因を細かく調べたわけではない",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L08"
+      },
+      {
+        "index": 11,
+        "memory_id": "L10",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "画面を見ている間に鳥は枝から飛んでいった",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L09"
+      },
+      {
+        "index": 12,
+        "memory_id": "L11",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "見逃した気がして悔しかった",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L10"
+      },
+      {
+        "index": 13,
+        "memory_id": "L12",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "スマートフォンを下ろした",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L11"
+      },
+      {
+        "index": 14,
+        "memory_id": "L13",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "しばらくベンチに座った",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L12"
+      },
+      {
+        "index": 15,
+        "memory_id": "L14",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "別の木の方から鳥の声が聞こえた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L13"
+      },
+      {
+        "index": 16,
+        "memory_id": "L15",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "その声が先ほどと同じ鳥かは分からない",
+        "epistemic": "uncertain_memory",
+        "relation": "continuation",
+        "anchor_id": "L14"
+      },
+      {
+        "index": 17,
+        "memory_id": "L16",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "葉が風で動く様子も見えた",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L15"
+      },
+      {
+        "index": 18,
+        "memory_id": "L17",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "画面を見ていた時より落ち着いた",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L16"
+      },
+      {
+        "index": 19,
+        "memory_id": "L18",
+        "operation": "COMPARE",
+        "kind": "T",
+        "content": "写真を残すこととその場を見ることは別の楽しみだと思った",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L17"
+      },
+      {
+        "index": 20,
+        "memory_id": "L19",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "撮った3枚は消さずに保存した",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L18"
+      },
+      {
+        "index": 21,
+        "memory_id": "L20",
+        "operation": "APPRAISE",
+        "kind": "T",
+        "content": "ぶれた写真でもその朝のきっかけにはなると感じた",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L19"
+      },
+      {
+        "index": 22,
+        "memory_id": "L14",
+        "operation": "REVISIT",
+        "kind": "F",
+        "content": "別の木の方から鳥の声が聞こえた",
+        "epistemic": "observed",
+        "relation": "return_for_emphasis",
+        "anchor_id": "L20"
+      },
+      {
+        "index": 23,
+        "memory_id": "L21",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "鳥の姿をきれいに撮りたい気持ちも残っている",
+        "epistemic": "speaker_desire",
+        "relation": "continuation",
+        "anchor_id": "L14"
+      },
+      {
+        "index": 24,
+        "memory_id": "L22",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "きれいに撮れていたらすぐ帰っていたかもしれない",
+        "epistemic": "counterfactual",
+        "relation": "continuation",
+        "anchor_id": "L21"
+      },
+      {
+        "index": 25,
+        "memory_id": "L23",
+        "operation": "APPRAISE",
+        "kind": "T",
+        "content": "撮れなかったから全て無駄だったとは今は思わない",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L22"
+      },
+      {
+        "index": 26,
+        "memory_id": "L24",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "帰る前にもう一度枝を見た",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L23"
+      },
+      {
+        "index": 27,
+        "memory_id": "L25",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "その時その枝に鳥はいなかった",
+        "epistemic": "observed",
+        "relation": "continuation",
+        "anchor_id": "L24"
+      },
+      {
+        "index": 28,
+        "memory_id": "L26",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "次の撮影日時はまだ決めていない",
+        "epistemic": "speaker_report",
+        "relation": "continuation",
+        "anchor_id": "L25"
+      },
+      {
+        "index": 29,
+        "memory_id": "L27",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "次も撮るだけに急がず少し周りを見たい",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L26"
+      },
+      {
+        "index": 30,
+        "memory_id": "L28",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "残念さと穏やかな気持ちの両方が残った",
+        "epistemic": "speaker_reaction",
+        "relation": "continuation",
+        "anchor_id": "L27"
+      },
+      {
+        "index": 31,
+        "memory_id": "L29",
+        "operation": "APPRAISE",
+        "kind": "T",
+        "content": "失敗した写真と心地よい朝を同時に持ち帰れたと思った",
+        "epistemic": "speaker_evaluation",
+        "relation": "continuation",
+        "anchor_id": "L28"
+      },
+      {
+        "index": 32,
+        "memory_id": "L18",
+        "operation": "REVISIT",
+        "kind": "T",
+        "content": "写真を残すこととその場を見ることは別の楽しみだと思った",
+        "epistemic": "speaker_evaluation",
+        "relation": "return_for_emphasis",
+        "anchor_id": "L29"
+      }
+    ],
+    "provenance": {
+      "author": "root designer AI",
+      "fiction": true,
+      "source_text": "朝に近所の公園で鳥の写真を撮ろうとした\nベンチの近くの枝に小さな鳥がいた\nその鳥の種類は分からない\nスマートフォンを向けた\nシャッターを3回押した\n保存された3枚はすべてぶれていた\nうまく撮れず残念だった\n急いで手を動かしたせいかもしれないと考えた\nぶれた原因を細かく調べたわけではない\n画面を見ている間に鳥は枝から飛んでいった\n見逃した気がして悔しかった\nスマートフォンを下ろした\nしばらくベンチに座った\n別の木の方から鳥の声が聞こえた\nその声が先ほどと同じ鳥かは分からない\n葉が風で動く様子も見えた\n画面を見ていた時より落ち着いた\n写真を残すこととその場を見ることは別の楽しみだと思った\n撮った3枚は消さずに保存した\nぶれた写真でもその朝のきっかけにはなると感じた\n鳥の姿をきれいに撮りたい気持ちも残っている\nきれいに撮れていたらすぐ帰っていたかもしれない\n撮れなかったから全て無駄だったとは今は思わない\n帰る前にもう一度枝を見た\nその時その枝に鳥はいなかった\n次の撮影日時はまだ決めていない\n次も撮るだけに急がず少し周りを見たい\n残念さと穏やかな気持ちの両方が残った\n失敗した写真と心地よい朝を同時に持ち帰れたと思った",
+      "source_is_memory_spec_not_human_speech": true,
+      "human_quality_labels": 0
+    },
+    "operation_plan_author": "root designer AI manual fixed plan; not automatic engine selection",
+    "initial_history": [],
+    "semantic_status": "unverified"
+  }
+]

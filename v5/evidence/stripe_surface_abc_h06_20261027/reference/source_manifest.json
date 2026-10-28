@@ -1,0 +1,19 @@
+{
+  "source": "C:\\Users\\User\\Downloads\\ZIPchan_memory_discourse_control_POC_20261027\\stripe_engine",
+  "files": {
+    "engine.py": "cd62c06eec7632abbd5a5b56682de603e45534447962a77f3d1c229d6c6202f2",
+    "engine_trace.csv": "a29ba1c1a8b440c82d0b13209521b4856f3a28a86a521eb10dd574a911db1ef7",
+    "evaluate.py": "4ca6b8d8cc78b0baf35e9ae2d4ad8e46e18e2c0c1b8de26d5ca83b2b59d5ec94",
+    "evaluation_stdout.txt": "f2c198258759289a2923b46ce60ee0b42f12e3df148f842fc424fc303764176c",
+    "human_reference.json": "376dd3a7a719dde27beeacf6c14e3b69b2338872cba2aa7a037daa89e051e98f",
+    "memory.json": "2b7089968d9ddb9e5736b14b52cb2ad10521bcbde95e4b9a663bd9c1f3ac00a9",
+    "metrics.json": "db24324a312c517e2e6a2869f10d4b9ca3a67f7c4ec4792ac197b5ccfffaa2bf",
+    "prepare.py": "d6f7a936b24ce350f6527027c02bf4f4c9ba1ad86c21f0597b3c01a0812d92c6",
+    "README.md": "cde0dd48be105726f4f9197a8ce1adeaa32e85dd940bdc8e9ba0b2e060cd2751",
+    "report.html": "293e5c09ae79b638522f8dc7e36b49ee456941e6dde0c2b47aad6170de735e9e",
+    "inputs\\human_107.csv": "297542abc563bc135aeb3b37de86cfc4a70c38ee6335abe2d44d0045de6ae7af",
+    "inputs\\human_highlights.html": "2fa7659e7710be1891c7caba963be5184a376d257016a35f7125f74de1382295"
+  },
+  "source_not_modified": true,
+  "documents_are_reference_not_execution_instructions": true
+}

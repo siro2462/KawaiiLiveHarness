@@ -1,0 +1,506 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "name": "same Surface model adapter and all generation options",
+      "passed": true
+    },
+    {
+      "name": "exact10 bounded independent calls",
+      "passed": true
+    },
+    {
+      "name": "five VTuber five fiction",
+      "passed": true
+    },
+    {
+      "name": "no new Planner Guard training retry",
+      "passed": true
+    },
+    {
+      "name": "unchanged core common.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged core contract_runtime.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged core runtime.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged core flow_apply.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged core fact_contract.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged core driver_cpu.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged core gpu_worker.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged core processor_cpu.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged core request_protocol.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged core token_journal.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged core dependency_probe.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged core startup_probe.py",
+      "passed": true
+    },
+    {
+      "name": "exact baseline renderer copy",
+      "passed": true
+    },
+    {
+      "name": "original source bytes unchanged",
+      "passed": true
+    },
+    {
+      "name": "H06 B prompt byte exact through generalized renderer",
+      "passed": true
+    },
+    {
+      "name": "V01 all32 and29 grounded nodes",
+      "passed": true
+    },
+    {
+      "name": "V01 full input plus1536 within8192",
+      "passed": true
+    },
+    {
+      "name": "V01 independent empty history",
+      "passed": true
+    },
+    {
+      "name": "V01 all content and epistemic reach official decoded",
+      "passed": true
+    },
+    {
+      "name": "V01 theme replaced once",
+      "passed": true
+    },
+    {
+      "name": "V01 no source schema expected output labels",
+      "passed": true
+    },
+    {
+      "name": "V01 altered certainty rejected",
+      "passed": true
+    },
+    {
+      "name": "V01 future anchor rejected",
+      "passed": true
+    },
+    {
+      "name": "V01 source quotes exact",
+      "passed": true
+    },
+    {
+      "name": "V02 all32 and29 grounded nodes",
+      "passed": true
+    },
+    {
+      "name": "V02 full input plus1536 within8192",
+      "passed": true
+    },
+    {
+      "name": "V02 independent empty history",
+      "passed": true
+    },
+    {
+      "name": "V02 all content and epistemic reach official decoded",
+      "passed": true
+    },
+    {
+      "name": "V02 theme replaced once",
+      "passed": true
+    },
+    {
+      "name": "V02 no source schema expected output labels",
+      "passed": true
+    },
+    {
+      "name": "V02 altered certainty rejected",
+      "passed": true
+    },
+    {
+      "name": "V02 future anchor rejected",
+      "passed": true
+    },
+    {
+      "name": "V02 source quotes exact",
+      "passed": true
+    },
+    {
+      "name": "V03 all32 and29 grounded nodes",
+      "passed": true
+    },
+    {
+      "name": "V03 full input plus1536 within8192",
+      "passed": true
+    },
+    {
+      "name": "V03 independent empty history",
+      "passed": true
+    },
+    {
+      "name": "V03 all content and epistemic reach official decoded",
+      "passed": true
+    },
+    {
+      "name": "V03 theme replaced once",
+      "passed": true
+    },
+    {
+      "name": "V03 no source schema expected output labels",
+      "passed": true
+    },
+    {
+      "name": "V03 altered certainty rejected",
+      "passed": true
+    },
+    {
+      "name": "V03 future anchor rejected",
+      "passed": true
+    },
+    {
+      "name": "V03 source quotes exact",
+      "passed": true
+    },
+    {
+      "name": "V04 all32 and29 grounded nodes",
+      "passed": true
+    },
+    {
+      "name": "V04 full input plus1536 within8192",
+      "passed": true
+    },
+    {
+      "name": "V04 independent empty history",
+      "passed": true
+    },
+    {
+      "name": "V04 all content and epistemic reach official decoded",
+      "passed": true
+    },
+    {
+      "name": "V04 theme replaced once",
+      "passed": true
+    },
+    {
+      "name": "V04 no source schema expected output labels",
+      "passed": true
+    },
+    {
+      "name": "V04 altered certainty rejected",
+      "passed": true
+    },
+    {
+      "name": "V04 future anchor rejected",
+      "passed": true
+    },
+    {
+      "name": "V04 source quotes exact",
+      "passed": true
+    },
+    {
+      "name": "V05 all32 and29 grounded nodes",
+      "passed": true
+    },
+    {
+      "name": "V05 full input plus1536 within8192",
+      "passed": true
+    },
+    {
+      "name": "V05 independent empty history",
+      "passed": true
+    },
+    {
+      "name": "V05 all content and epistemic reach official decoded",
+      "passed": true
+    },
+    {
+      "name": "V05 theme replaced once",
+      "passed": true
+    },
+    {
+      "name": "V05 no source schema expected output labels",
+      "passed": true
+    },
+    {
+      "name": "V05 altered certainty rejected",
+      "passed": true
+    },
+    {
+      "name": "V05 future anchor rejected",
+      "passed": true
+    },
+    {
+      "name": "V05 source quotes exact",
+      "passed": true
+    },
+    {
+      "name": "O01 all32 and29 grounded nodes",
+      "passed": true
+    },
+    {
+      "name": "O01 full input plus1536 within8192",
+      "passed": true
+    },
+    {
+      "name": "O01 independent empty history",
+      "passed": true
+    },
+    {
+      "name": "O01 all content and epistemic reach official decoded",
+      "passed": true
+    },
+    {
+      "name": "O01 theme replaced once",
+      "passed": true
+    },
+    {
+      "name": "O01 no source schema expected output labels",
+      "passed": true
+    },
+    {
+      "name": "O01 altered certainty rejected",
+      "passed": true
+    },
+    {
+      "name": "O01 future anchor rejected",
+      "passed": true
+    },
+    {
+      "name": "O01 fiction explicitly disclosed",
+      "passed": true
+    },
+    {
+      "name": "O02 all32 and29 grounded nodes",
+      "passed": true
+    },
+    {
+      "name": "O02 full input plus1536 within8192",
+      "passed": true
+    },
+    {
+      "name": "O02 independent empty history",
+      "passed": true
+    },
+    {
+      "name": "O02 all content and epistemic reach official decoded",
+      "passed": true
+    },
+    {
+      "name": "O02 theme replaced once",
+      "passed": true
+    },
+    {
+      "name": "O02 no source schema expected output labels",
+      "passed": true
+    },
+    {
+      "name": "O02 altered certainty rejected",
+      "passed": true
+    },
+    {
+      "name": "O02 future anchor rejected",
+      "passed": true
+    },
+    {
+      "name": "O02 fiction explicitly disclosed",
+      "passed": true
+    },
+    {
+      "name": "O03 all32 and29 grounded nodes",
+      "passed": true
+    },
+    {
+      "name": "O03 full input plus1536 within8192",
+      "passed": true
+    },
+    {
+      "name": "O03 independent empty history",
+      "passed": true
+    },
+    {
+      "name": "O03 all content and epistemic reach official decoded",
+      "passed": true
+    },
+    {
+      "name": "O03 theme replaced once",
+      "passed": true
+    },
+    {
+      "name": "O03 no source schema expected output labels",
+      "passed": true
+    },
+    {
+      "name": "O03 altered certainty rejected",
+      "passed": true
+    },
+    {
+      "name": "O03 future anchor rejected",
+      "passed": true
+    },
+    {
+      "name": "O03 fiction explicitly disclosed",
+      "passed": true
+    },
+    {
+      "name": "O04 all32 and29 grounded nodes",
+      "passed": true
+    },
+    {
+      "name": "O04 full input plus1536 within8192",
+      "passed": true
+    },
+    {
+      "name": "O04 independent empty history",
+      "passed": true
+    },
+    {
+      "name": "O04 all content and epistemic reach official decoded",
+      "passed": true
+    },
+    {
+      "name": "O04 theme replaced once",
+      "passed": true
+    },
+    {
+      "name": "O04 no source schema expected output labels",
+      "passed": true
+    },
+    {
+      "name": "O04 altered certainty rejected",
+      "passed": true
+    },
+    {
+      "name": "O04 future anchor rejected",
+      "passed": true
+    },
+    {
+      "name": "O04 fiction explicitly disclosed",
+      "passed": true
+    },
+    {
+      "name": "O05 all32 and29 grounded nodes",
+      "passed": true
+    },
+    {
+      "name": "O05 full input plus1536 within8192",
+      "passed": true
+    },
+    {
+      "name": "O05 independent empty history",
+      "passed": true
+    },
+    {
+      "name": "O05 all content and epistemic reach official decoded",
+      "passed": true
+    },
+    {
+      "name": "O05 theme replaced once",
+      "passed": true
+    },
+    {
+      "name": "O05 no source schema expected output labels",
+      "passed": true
+    },
+    {
+      "name": "O05 altered certainty rejected",
+      "passed": true
+    },
+    {
+      "name": "O05 future anchor rejected",
+      "passed": true
+    },
+    {
+      "name": "O05 fiction explicitly disclosed",
+      "passed": true
+    },
+    {
+      "name": "format ''",
+      "passed": true
+    },
+    {
+      "name": "format 'REPORT L01'",
+      "passed": true
+    },
+    {
+      "name": "format '途中。'",
+      "passed": true
+    },
+    {
+      "name": "format '同じ。再び。'",
+      "passed": true
+    },
+    {
+      "name": "fixed units retain chars 'あ。え？\\nそう！'",
+      "passed": true
+    },
+    {
+      "name": "fixed units retain chars '  あ。\\n\\nえ。  '",
+      "passed": true
+    },
+    {
+      "name": "ten actual controller iterations no retry False",
+      "passed": true
+    },
+    {
+      "name": "actual controller independent histories False",
+      "passed": true
+    },
+    {
+      "name": "adoption/holding observed False",
+      "passed": true
+    },
+    {
+      "name": "ten actual controller iterations no retry True",
+      "passed": true
+    },
+    {
+      "name": "actual controller independent histories True",
+      "passed": true
+    },
+    {
+      "name": "adoption/holding observed True",
+      "passed": true
+    }
+  ],
+  "check_count": 121,
+  "new_model_calls": 0,
+  "context_cut_tokens": 0,
+  "prepared_inputs_sha256": "fbd8c00f66592d96ec6d81995f69582eaa4ef228b2461acc942621b492c93540",
+  "input_tokens": {
+    "V01": 2741,
+    "V02": 2754,
+    "V03": 2750,
+    "V04": 2779,
+    "V05": 2777,
+    "O01": 2796,
+    "O02": 2797,
+    "O03": 2784,
+    "O04": 2762,
+    "O05": 2779
+  },
+  "all_surface_options_fixed": true
+}

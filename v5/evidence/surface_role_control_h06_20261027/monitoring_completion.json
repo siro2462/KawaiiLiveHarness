@@ -1,0 +1,8 @@
+{
+  "automation_id": "h06",
+  "name": "H06 役割制御の比較を確認",
+  "delete_status": "deleted",
+  "source": "mcp__codex_app__automation_update mode=delete returned deleteStatus=deleted",
+  "other_automations_changed": false,
+  "recorded_jst": "2026-10-27T08:53:28.245592+09:00"
+}

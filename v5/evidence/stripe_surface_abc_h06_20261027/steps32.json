@@ -1,0 +1,322 @@
+[
+  {
+    "index": 1,
+    "memory_id": "L01",
+    "operation": "REACT",
+    "kind": "E",
+    "content": "許せない話という予告",
+    "epistemic": "speaker_reaction",
+    "relation": "episode_entry",
+    "anchor_id": null
+  },
+  {
+    "index": 2,
+    "memory_id": "L02",
+    "operation": "REPORT",
+    "kind": "F",
+    "content": "ガラポンをした",
+    "epistemic": "observed",
+    "relation": "setup",
+    "anchor_id": "L01"
+  },
+  {
+    "index": 3,
+    "memory_id": "L03",
+    "operation": "EVIDENCE",
+    "kind": "F",
+    "content": "A/B/C賞のある抽選",
+    "epistemic": "observed",
+    "relation": "elaboration",
+    "anchor_id": "L02"
+  },
+  {
+    "index": 4,
+    "memory_id": "L23",
+    "operation": "EVIDENCE",
+    "kind": "F",
+    "content": "球を取り出す大きな抽選器",
+    "epistemic": "observed",
+    "relation": "elaboration",
+    "anchor_id": "L03"
+  },
+  {
+    "index": 5,
+    "memory_id": "L22",
+    "operation": "REPORT",
+    "kind": "F",
+    "content": "天井がないという本人の報告",
+    "epistemic": "speaker_report",
+    "relation": "related_mechanism",
+    "anchor_id": "L23"
+  },
+  {
+    "index": 6,
+    "memory_id": "L21",
+    "operation": "REACT",
+    "kind": "E",
+    "content": "A賞が欲しかった",
+    "epistemic": "speaker_desire",
+    "relation": "related_missing_guarantee",
+    "anchor_id": "L22"
+  },
+  {
+    "index": 7,
+    "memory_id": "L20",
+    "operation": "REPORT",
+    "kind": "F",
+    "content": "9000円でステッカー等しか貰えず",
+    "epistemic": "observed",
+    "relation": "related_desire",
+    "anchor_id": "L21"
+  },
+  {
+    "index": 8,
+    "memory_id": "L19",
+    "operation": "REACT",
+    "kind": "E",
+    "content": "金額の大きさを強調",
+    "epistemic": "speaker_reaction",
+    "relation": "related_evidence",
+    "anchor_id": "L20"
+  },
+  {
+    "index": 9,
+    "memory_id": "L16",
+    "operation": "REACT",
+    "kind": "E",
+    "content": "9000円はやばいという金額への怒り",
+    "epistemic": "speaker_reaction",
+    "relation": "related_emphasis",
+    "anchor_id": "L19"
+  },
+  {
+    "index": 10,
+    "memory_id": "L14",
+    "operation": "REACT",
+    "kind": "E",
+    "content": "許せないという怒り",
+    "epistemic": "speaker_reaction",
+    "relation": "related_cost_stakes",
+    "anchor_id": "L16"
+  },
+  {
+    "index": 11,
+    "memory_id": "L13",
+    "operation": "REPORT",
+    "kind": "F",
+    "content": "B賞ばかり続いた",
+    "epistemic": "observed",
+    "relation": "related_reaction",
+    "anchor_id": "L14"
+  },
+  {
+    "index": 12,
+    "memory_id": "L18",
+    "operation": "EXPLORE",
+    "kind": "T",
+    "content": "何回引いても出そうにないと感じた",
+    "epistemic": "speaker_expectation",
+    "relation": null,
+    "anchor_id": null
+  },
+  {
+    "index": 13,
+    "memory_id": "L17",
+    "operation": "EXPLORE",
+    "kind": "T",
+    "content": "1回くらい当たってもよいのでは",
+    "epistemic": "speaker_evaluation",
+    "relation": "related_thought",
+    "anchor_id": "L18"
+  },
+  {
+    "index": 14,
+    "memory_id": "L27",
+    "operation": "REACT",
+    "kind": "E",
+    "content": "もうくれよという強い要求と脱力",
+    "epistemic": "speaker_reaction",
+    "relation": null,
+    "anchor_id": null
+  },
+  {
+    "index": 15,
+    "memory_id": "L25",
+    "operation": "REPORT",
+    "kind": "F",
+    "content": "A賞の景品が多く置かれていた",
+    "epistemic": "observed",
+    "relation": null,
+    "anchor_id": null
+  },
+  {
+    "index": 16,
+    "memory_id": "L12",
+    "operation": "EXPLORE",
+    "kind": "T",
+    "content": "おかしいという評価",
+    "epistemic": "speaker_evaluation",
+    "relation": null,
+    "anchor_id": null
+  },
+  {
+    "index": 17,
+    "memory_id": "L08",
+    "operation": "REPORT",
+    "kind": "F",
+    "content": "15回回した",
+    "epistemic": "observed",
+    "relation": null,
+    "anchor_id": null
+  },
+  {
+    "index": 18,
+    "memory_id": "L10",
+    "operation": "REPORT",
+    "kind": "F",
+    "content": "A賞が1回も出なかった",
+    "epistemic": "observed",
+    "relation": "outcome",
+    "anchor_id": "L08"
+  },
+  {
+    "index": 19,
+    "memory_id": "L26",
+    "operation": "COMPARE",
+    "kind": "T",
+    "content": "景品在庫と不当選の食い違い",
+    "epistemic": "speaker_evaluation",
+    "relation": "contrast",
+    "anchor_id": "L10"
+  },
+  {
+    "index": 20,
+    "memory_id": "L11",
+    "operation": "APPRAISE",
+    "kind": "T",
+    "content": "よくないと考えた",
+    "epistemic": "speaker_evaluation",
+    "relation": "appraisal",
+    "anchor_id": "L10"
+  },
+  {
+    "index": 21,
+    "memory_id": "L25",
+    "operation": "REVISIT",
+    "kind": "F",
+    "content": "A賞の景品が多く置かれていた",
+    "epistemic": "observed",
+    "relation": "contrast",
+    "anchor_id": "L26"
+  },
+  {
+    "index": 22,
+    "memory_id": "L10",
+    "operation": "REVISIT",
+    "kind": "F",
+    "content": "A賞が1回も出なかった",
+    "epistemic": "observed",
+    "relation": "appraisal",
+    "anchor_id": "L11"
+  },
+  {
+    "index": 23,
+    "memory_id": "L08",
+    "operation": "REVISIT",
+    "kind": "F",
+    "content": "15回回した",
+    "epistemic": "observed",
+    "relation": "outcome",
+    "anchor_id": "L10"
+  },
+  {
+    "index": 24,
+    "memory_id": "L07",
+    "operation": "EXPLORE",
+    "kind": "T",
+    "content": "15回だったか思い返す",
+    "epistemic": "uncertain_memory",
+    "relation": "related_resolve",
+    "anchor_id": "L08"
+  },
+  {
+    "index": 25,
+    "memory_id": "L06",
+    "operation": "REPORT",
+    "kind": "F",
+    "content": "1回600円",
+    "epistemic": "observed",
+    "relation": "related_calculate",
+    "anchor_id": "L07"
+  },
+  {
+    "index": 26,
+    "memory_id": "L09",
+    "operation": "REPORT",
+    "kind": "F",
+    "content": "合計9000円",
+    "epistemic": "observed",
+    "relation": "calculate",
+    "anchor_id": "L08"
+  },
+  {
+    "index": 27,
+    "memory_id": "L28",
+    "operation": "COMPARE",
+    "kind": "T",
+    "content": "9000円なら買えたのでは",
+    "epistemic": "counterfactual",
+    "relation": "compare",
+    "anchor_id": "L09"
+  },
+  {
+    "index": 28,
+    "memory_id": "L29",
+    "operation": "REACT",
+    "kind": "E",
+    "content": "嫌だ・ショックだった",
+    "epistemic": "speaker_reaction",
+    "relation": "regret",
+    "anchor_id": "L28"
+  },
+  {
+    "index": 29,
+    "memory_id": "L15",
+    "operation": "EXPLORE",
+    "kind": "T",
+    "content": "A賞が出ない仕組みだと疑った（事実ではない）",
+    "epistemic": "unverified_suspicion",
+    "relation": null,
+    "anchor_id": null
+  },
+  {
+    "index": 30,
+    "memory_id": "L04",
+    "operation": "REPORT",
+    "kind": "F",
+    "content": "A賞はうちわ",
+    "epistemic": "observed",
+    "relation": null,
+    "anchor_id": null
+  },
+  {
+    "index": 31,
+    "memory_id": "L05",
+    "operation": "REPAIR",
+    "kind": "T",
+    "content": "B賞の詳細を思い出せない",
+    "epistemic": "uncertain_memory",
+    "relation": "uncertainty",
+    "anchor_id": "L04"
+  },
+  {
+    "index": 32,
+    "memory_id": "L24",
+    "operation": "REACT",
+    "kind": "E",
+    "content": "ため息",
+    "epistemic": "speaker_reaction",
+    "relation": null,
+    "anchor_id": null
+  }
+]

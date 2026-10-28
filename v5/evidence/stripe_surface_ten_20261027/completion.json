@@ -1,0 +1,173 @@
+{
+  "status": "complete",
+  "review_packet_sha256": "01ed95b5c40c241b04a9b75a1679dfb095ddcc7403c2fa2aa8ded9c3c45c734b",
+  "technical_audit_sha256": "6f5a7e92344727ac4da8f4bd6c51844ca1635cd3f23882afe30fe66833c2957c",
+  "review_sha256": "1a308e7f46abaa99a6a47a29de96d87a2743e0c568fb805cdf297ad9360d1972",
+  "labels_sha256": "578de06f423fd7b4b65307c0e8f1d1f0032dfeb9c31748729e68c3e2941a12f8",
+  "summary_sha256": "fe5132d8477b9251dd667dc791ea3820b74db4712afb9b7cdc3319ee53fe574d",
+  "comparison_sha256": "bd682b5e6fabe77006a3bb97196c5414de8e95cd9e194220b3776b3c2cd7a5eb",
+  "metrics": [
+    {
+      "sample_id": "V01",
+      "call_id": "R0001",
+      "delivered": true,
+      "chars": 518,
+      "output_tokens": 276,
+      "eos": true,
+      "model_seconds": 277.584,
+      "FET_counts": {
+        "E": 10,
+        "F": 6,
+        "T": 2
+      },
+      "units": 18,
+      "switches": 12
+    },
+    {
+      "sample_id": "V02",
+      "call_id": "R0002",
+      "delivered": true,
+      "chars": 688,
+      "output_tokens": 351,
+      "eos": true,
+      "model_seconds": 331.014,
+      "FET_counts": {
+        "F": 8,
+        "E": 6,
+        "T": 4
+      },
+      "units": 18,
+      "switches": 11
+    },
+    {
+      "sample_id": "V03",
+      "call_id": "R0003",
+      "delivered": true,
+      "chars": 674,
+      "output_tokens": 352,
+      "eos": true,
+      "model_seconds": 341.159,
+      "FET_counts": {
+        "F": 9,
+        "E": 3,
+        "T": 8
+      },
+      "units": 20,
+      "switches": 13
+    },
+    {
+      "sample_id": "V04",
+      "call_id": "R0004",
+      "delivered": true,
+      "chars": 644,
+      "output_tokens": 360,
+      "eos": true,
+      "model_seconds": 340.499,
+      "FET_counts": {
+        "F": 7,
+        "T": 10,
+        "E": 3
+      },
+      "units": 20,
+      "switches": 12
+    },
+    {
+      "sample_id": "V05",
+      "call_id": "R0005",
+      "delivered": true,
+      "chars": 646,
+      "output_tokens": 349,
+      "eos": true,
+      "model_seconds": 332.07,
+      "FET_counts": {
+        "F": 4,
+        "E": 6,
+        "T": 10
+      },
+      "units": 20,
+      "switches": 15
+    },
+    {
+      "sample_id": "O01",
+      "call_id": "R0006",
+      "delivered": true,
+      "chars": 737,
+      "output_tokens": 411,
+      "eos": true,
+      "model_seconds": 388.004,
+      "FET_counts": {
+        "F": 9,
+        "E": 3,
+        "T": 9
+      },
+      "units": 21,
+      "switches": 10
+    },
+    {
+      "sample_id": "O02",
+      "call_id": "R0007",
+      "delivered": true,
+      "chars": 685,
+      "output_tokens": 401,
+      "eos": true,
+      "model_seconds": 374.266,
+      "FET_counts": {
+        "F": 10,
+        "E": 3,
+        "T": 8
+      },
+      "units": 21,
+      "switches": 15
+    },
+    {
+      "sample_id": "O03",
+      "call_id": "R0008",
+      "delivered": true,
+      "chars": 738,
+      "output_tokens": 399,
+      "eos": true,
+      "model_seconds": 378.553,
+      "FET_counts": {
+        "F": 9,
+        "E": 3,
+        "T": 10
+      },
+      "units": 22,
+      "switches": 13
+    },
+    {
+      "sample_id": "O04",
+      "call_id": "R0009",
+      "delivered": true,
+      "chars": 634,
+      "output_tokens": 363,
+      "eos": true,
+      "model_seconds": 339.499,
+      "FET_counts": {
+        "F": 8,
+        "E": 5,
+        "T": 6
+      },
+      "units": 19,
+      "switches": 14
+    },
+    {
+      "sample_id": "O05",
+      "call_id": "R0010",
+      "delivered": true,
+      "chars": 671,
+      "output_tokens": 386,
+      "eos": true,
+      "model_seconds": 367.292,
+      "FET_counts": {
+        "F": 5,
+        "E": 4,
+        "T": 8
+      },
+      "units": 17,
+      "switches": 11
+    }
+  ],
+  "human_quality_labels": 0,
+  "finished_jst": "2026-10-27T18:46:30.851623+09:00"
+}

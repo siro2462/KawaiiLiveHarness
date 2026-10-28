@@ -1,0 +1,66 @@
+{
+  "status": "complete",
+  "technical_audit_sha256": "5f142a663dc0d0a2a537c2b454bae1334a4f1ff52fdd592da848c60b17857f47",
+  "review_packet_sha256": "2ffbc95ff304a2ee36be4559bfe026dce31c79e6aeef3c32ab1a66887ca5552d",
+  "root_review_sha256": "c3474555b28665ff93ed638cf160bbd3b5c181076e186055ffd14984164aa3cb",
+  "root_summary_sha256": "ac97d5ac3a079cdf933073c242690f7664e91cd695b5d165ea813537ee6f6b63",
+  "comparison_sha256": "b58fe04849b4659569732f1b2049ee070d1d387b334a642e653a7ce51a5236d5",
+  "metrics": [
+    {
+      "arm": "A",
+      "calls": 3,
+      "delivered": 3,
+      "chars": 196,
+      "stop_reason": "fact_presentation_end_retained"
+    },
+    {
+      "arm": "B",
+      "calls": 3,
+      "delivered": 3,
+      "chars": 154,
+      "stop_reason": "fact_presentation_end_retained"
+    },
+    {
+      "arm": "C",
+      "calls": 3,
+      "delivered": 3,
+      "chars": 152,
+      "stop_reason": "fact_presentation_end_retained"
+    },
+    {
+      "arm": "D",
+      "calls": 3,
+      "delivered": 3,
+      "chars": 154,
+      "stop_reason": "fact_presentation_end_retained"
+    },
+    {
+      "arm": "E",
+      "calls": 3,
+      "delivered": 3,
+      "chars": 154,
+      "stop_reason": "fact_presentation_end_retained"
+    },
+    {
+      "arm": "F",
+      "calls": 4,
+      "delivered": 4,
+      "chars": 204,
+      "stop_reason": "call_bound_unverified"
+    },
+    {
+      "arm": "G",
+      "calls": 4,
+      "delivered": 4,
+      "chars": 204,
+      "stop_reason": "call_bound_unverified"
+    }
+  ],
+  "human_quality_labels": 0,
+  "known_condition_designer_review": true,
+  "semantic_guard_calls": 0,
+  "training": 0,
+  "quality_retries": 0,
+  "real_tts": false,
+  "finished_jst": "2026-10-27T10:11:57.344375+09:00"
+}
