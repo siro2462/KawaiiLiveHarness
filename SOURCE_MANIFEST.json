@@ -1,6 +1,6 @@
 {
-  "version": "v5-current-20261028",
-  "client_date_jst": "2026-10-28",
+  "version": "v5-current-20261101-group4",
+  "client_date_jst": "2026-11-01",
   "kind": "Unchanged v5 default runtime plus completed role/A-G/stripe Surface and CPU-selection experiments; quality not approved",
   "old_v5_tag_unchanged": true,
   "old_v5_20261023_tag_unchanged": true,
@@ -1379,6 +1379,84 @@
       "source_sha256": "5f142a663dc0d0a2a537c2b454bae1334a4f1ff52fdd592da848c60b17857f47"
     },
     {
+      "path": "v5/evidence/memory_db_stepwise3_20261031/actual_io.json",
+      "kind": "generated-publication-record",
+      "bytes": 669154,
+      "sha256": "ebfbd7aa01cb0fdd6341b29379871d96a097e0afbd73824f66577ae6206a475b"
+    },
+    {
+      "path": "v5/evidence/memory_db_stepwise3_20261031/comparison.html",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 918466,
+      "sha256": "0dc49e293aa98626520ab8344f7b4e98e62ea74a65159aa7b0fc883beb058838",
+      "source_sha256": "0dc49e293aa98626520ab8344f7b4e98e62ea74a65159aa7b0fc883beb058838",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_stepwise3_20261031_v1/comparison.html"
+    },
+    {
+      "path": "v5/evidence/memory_db_stepwise3_20261031/completion.json",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 1278,
+      "sha256": "db35a41e21a3fd003b3183f3f54530022692a4d0c8c50b5cff7cecca772c2c69",
+      "source_sha256": "db35a41e21a3fd003b3183f3f54530022692a4d0c8c50b5cff7cecca772c2c69",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_stepwise3_20261031_v1/completion.json"
+    },
+    {
+      "path": "v5/evidence/memory_db_stepwise3_20261031/full_comparison.txt",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 123670,
+      "sha256": "2ed23283b33f4abc2a2cf2cdb3253ca36796276cfa50dfc52f5a32bc8715816e",
+      "source_sha256": "2ed23283b33f4abc2a2cf2cdb3253ca36796276cfa50dfc52f5a32bc8715816e",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_stepwise3_20261031_v1/full_comparison.txt"
+    },
+    {
+      "path": "v5/evidence/memory_db_stepwise3_20261031/output_annotations.json",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 11309,
+      "sha256": "8cc1509556c95120ef4b9f50e0a50dff943106268d01b5d8c565d1b7b73ec85f",
+      "source_sha256": "8cc1509556c95120ef4b9f50e0a50dff943106268d01b5d8c565d1b7b73ec85f",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_stepwise3_20261031_v1/output_annotations.json"
+    },
+    {
+      "path": "v5/evidence/memory_db_stepwise3_20261031/report_presence_check.json",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 1645,
+      "sha256": "9992674180c39ea474a380b42c2a13998b88ce5eb99852c09282b5dbdc3a2e3e",
+      "source_sha256": "9992674180c39ea474a380b42c2a13998b88ce5eb99852c09282b5dbdc3a2e3e",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_stepwise3_20261031_v1/report_presence_check.json"
+    },
+    {
+      "path": "v5/evidence/memory_db_stepwise3_20261031/result.md",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 8039,
+      "sha256": "2114e85c64382fde1d1939f8e64d4f7e9d0dc52b17b97162859006eda1eea91c",
+      "source_sha256": "2114e85c64382fde1d1939f8e64d4f7e9d0dc52b17b97162859006eda1eea91c",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_stepwise3_20261031_v1/result.md"
+    },
+    {
+      "path": "v5/evidence/memory_db_stepwise3_20261031/root_review.json",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 36010,
+      "sha256": "0c6215b818825062bd3ab4d23fd98e3b77645ecc2301db62fa3524e5740c9aba",
+      "source_sha256": "0c6215b818825062bd3ab4d23fd98e3b77645ecc2301db62fa3524e5740c9aba",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_stepwise3_20261031_v1/root_review.json"
+    },
+    {
+      "path": "v5/evidence/memory_db_stepwise3_20261031/speech.txt",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 7848,
+      "sha256": "6e60236adeda12caf24d45f2eb4b75622318b01ead8a78d8b9b6152b7dde6502",
+      "source_sha256": "6e60236adeda12caf24d45f2eb4b75622318b01ead8a78d8b9b6152b7dde6502",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_stepwise3_20261031_v1/speech.txt"
+    },
+    {
+      "path": "v5/evidence/memory_db_stepwise3_20261031/technical_audit.json",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 19967,
+      "sha256": "9aa221fadffaaf0ad349be74757d486148f2877e13d853293d18af2dabfeff35",
+      "source_sha256": "9aa221fadffaaf0ad349be74757d486148f2877e13d853293d18af2dabfeff35",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_stepwise3_20261031_v1/technical_audit.json"
+    },
+    {
       "path": "v5/evidence/partial_integrity.json",
       "bytes": 3710,
       "sha256": "f5e427ced89e01e6682484085d25b8c4c59a2975f4bc08ad8ddaf49a6abf8eff",
@@ -2563,6 +2641,38 @@
       "source_sha256": "6f90af60e29fbd93b1c53e2dea974343314adbada81a74adbb8e590670bec9da"
     },
     {
+      "path": "v5/evidence/utterance_unit_history_20261031/audit.json",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 359,
+      "sha256": "ec6f3a205a80d50f8704cc36ff028d601296e4e6c5ede2a1ab5baee92631b0f6",
+      "source_sha256": "ec6f3a205a80d50f8704cc36ff028d601296e4e6c5ede2a1ab5baee92631b0f6",
+      "source_relative_to_talk": "harness_beta/runs/utterance_unit_history_20261031_v1/audit.json"
+    },
+    {
+      "path": "v5/evidence/utterance_unit_history_20261031/evidence.json",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 11934,
+      "sha256": "0962932ee47bb659e41620108360f753fd2daec0e38ffa3f9d7a71a4a5353a01",
+      "source_sha256": "0962932ee47bb659e41620108360f753fd2daec0e38ffa3f9d7a71a4a5353a01",
+      "source_relative_to_talk": "harness_beta/runs/utterance_unit_history_20261031_v1/evidence.json"
+    },
+    {
+      "path": "v5/evidence/utterance_unit_history_20261031/result.md",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 4925,
+      "sha256": "4c575a034097fdaea3a463aa44017186915fa08c8344c882425f9a8be4268b40",
+      "source_sha256": "4c575a034097fdaea3a463aa44017186915fa08c8344c882425f9a8be4268b40",
+      "source_relative_to_talk": "harness_beta/runs/utterance_unit_history_20261031_v1/result.md"
+    },
+    {
+      "path": "v5/evidence/utterance_unit_history_20261031/source_manifest.json",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 1832,
+      "sha256": "c155c77e0a20a62f05b033d1a4fb7a13944a4acc13d3d2de2caa45a3110fd2a4",
+      "source_sha256": "c155c77e0a20a62f05b033d1a4fb7a13944a4acc13d3d2de2caa45a3110fd2a4",
+      "source_relative_to_talk": "harness_beta/runs/utterance_unit_history_20261031_v1/source_manifest.json"
+    },
+    {
       "path": "v5/experiments/README.md",
       "kind": "generated-publication-record",
       "bytes": 1211,
@@ -2911,6 +3021,276 @@
       "sha256": "fd86eae0677c6ff0619c80c534783bfad02c329d58ac58faaf4c6b895ef8de1e",
       "source_relative_to_talk": "harness_beta/runs/mechanical_ag_h06_20261027_v1/executed_source/token_journal.py",
       "source_sha256": "fd86eae0677c6ff0619c80c534783bfad02c329d58ac58faaf4c6b895ef8de1e"
+    },
+    {
+      "path": "v5/experiments/memory_db_group4_20261101/README.md",
+      "kind": "generated-publication-record",
+      "bytes": 1086,
+      "sha256": "f0fa4154dd32fee8faf45aaca26287b2eef800934a43318e0989494c0a97b7ba"
+    },
+    {
+      "path": "v5/experiments/memory_db_group4_20261101/common.py",
+      "kind": "source-byte-preserving",
+      "bytes": 1928,
+      "sha256": "bd4a4b23679c6612420a3f62ec6d948d7d823f6a933eb1194c0c5a86b426a39f",
+      "source_sha256": "bd4a4b23679c6612420a3f62ec6d948d7d823f6a933eb1194c0c5a86b426a39f",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/executed_source/common.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_group4_20261101/cpu_preflight.json",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 18860,
+      "sha256": "423ba1c68017ab3a3c80fb394b8e86a8b698642f14cf9f591190fe850f7e06ce",
+      "source_sha256": "423ba1c68017ab3a3c80fb394b8e86a8b698642f14cf9f591190fe850f7e06ce",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/cpu_preflight.json"
+    },
+    {
+      "path": "v5/experiments/memory_db_group4_20261101/cpu_selections.json",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 95546,
+      "sha256": "14a02c1ee4c15e0c2880ca4554bb4dccc7db5124ac1f36c998cc3d51ced1ee69",
+      "source_sha256": "14a02c1ee4c15e0c2880ca4554bb4dccc7db5124ac1f36c998cc3d51ced1ee69",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/cpu_selections.json"
+    },
+    {
+      "path": "v5/experiments/memory_db_group4_20261101/cpu_selector.py",
+      "kind": "source-byte-preserving",
+      "bytes": 488,
+      "sha256": "8daa0415140d4e920d6d9a5c807c6a29177d4af6e6367b14ee849d5ffeb8d209",
+      "source_sha256": "8daa0415140d4e920d6d9a5c807c6a29177d4af6e6367b14ee849d5ffeb8d209",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/executed_source/cpu_selector.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_group4_20261101/dependency_probe.json",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 867,
+      "sha256": "c2c639f2ffbca25de00074c83b8428b6263740665dd0b2e029dd4b11b53ae413",
+      "source_sha256": "c2c639f2ffbca25de00074c83b8428b6263740665dd0b2e029dd4b11b53ae413",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/dependency_probe.json"
+    },
+    {
+      "path": "v5/experiments/memory_db_group4_20261101/dependency_probe.py",
+      "kind": "source-byte-preserving",
+      "bytes": 1733,
+      "sha256": "25e94d52af9b16b1e1060bc0862ffa8742ad35ca439ae80e391799d034bf86ca",
+      "source_sha256": "25e94d52af9b16b1e1060bc0862ffa8742ad35ca439ae80e391799d034bf86ca",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/executed_source/dependency_probe.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_group4_20261101/driver_cpu.py",
+      "kind": "source-byte-preserving",
+      "bytes": 2259,
+      "sha256": "35e4a40250fb8a4e7c96340cf3ee630e10b77ee0624dda3c66c04a1bd4749616",
+      "source_sha256": "35e4a40250fb8a4e7c96340cf3ee630e10b77ee0624dda3c66c04a1bd4749616",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/executed_source/driver_cpu.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_group4_20261101/finalize_cpu.py",
+      "kind": "source-byte-preserving",
+      "bytes": 7311,
+      "sha256": "3dfb3ed8b94564018a9b5ba7ec29375aece1976a4aeedfb2cc5bee06e4706f2c",
+      "source_sha256": "3dfb3ed8b94564018a9b5ba7ec29375aece1976a4aeedfb2cc5bee06e4706f2c",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/executed_source/finalize_cpu.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_group4_20261101/flow_apply.py",
+      "kind": "source-byte-preserving",
+      "bytes": 5356,
+      "sha256": "5a702f70baa100c2c90f23103f04fac8f8d3865ddf1fa7cd353fa9730072c18b",
+      "source_sha256": "5a702f70baa100c2c90f23103f04fac8f8d3865ddf1fa7cd353fa9730072c18b",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/executed_source/flow_apply.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_group4_20261101/full_stripe_runtime.py",
+      "kind": "source-byte-preserving",
+      "bytes": 1266,
+      "sha256": "e68f55e6dc4041510a3d61c6c7d6e50024c7e2e9ff61a7bb8fc16fe3884841f0",
+      "source_sha256": "e68f55e6dc4041510a3d61c6c7d6e50024c7e2e9ff61a7bb8fc16fe3884841f0",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/executed_source/full_stripe_runtime.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_group4_20261101/gpu_worker.py",
+      "kind": "source-byte-preserving",
+      "bytes": 5952,
+      "sha256": "e8c736f71f4e8d5e100571ca5919efe24bbd20dce1b45af2f504892169a8a995",
+      "source_sha256": "e8c736f71f4e8d5e100571ca5919efe24bbd20dce1b45af2f504892169a8a995",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/executed_source/gpu_worker.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_group4_20261101/grouping_style.txt",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 103,
+      "sha256": "68d8b79aa089cca53eaa5b5b0dcb61ee58b471be973254c18a5b68ac78ceb0e7",
+      "source_sha256": "68d8b79aa089cca53eaa5b5b0dcb61ee58b471be973254c18a5b68ac78ceb0e7",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/grouping_style.txt"
+    },
+    {
+      "path": "v5/experiments/memory_db_group4_20261101/history_decision.md",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 2321,
+      "sha256": "0b951f7b5bd8186a62e8c778f477ffd2ea0e7579557f3c2192ee22eaa02195be",
+      "source_sha256": "0b951f7b5bd8186a62e8c778f477ffd2ea0e7579557f3c2192ee22eaa02195be",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/history_decision.md"
+    },
+    {
+      "path": "v5/experiments/memory_db_group4_20261101/input_template_proof.json",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 3282,
+      "sha256": "149f0e17d654be7b4dd0a672a17ed9b0ec73c4d8d7f4c6fdb661c587a6c3a94a",
+      "source_sha256": "149f0e17d654be7b4dd0a672a17ed9b0ec73c4d8d7f4c6fdb661c587a6c3a94a",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/input_template_proof.json"
+    },
+    {
+      "path": "v5/experiments/memory_db_group4_20261101/launch_once.py",
+      "kind": "source-byte-preserving",
+      "bytes": 2824,
+      "sha256": "1ddba83288976794d14bf9658c7d22362a028319cfbbbb9e83004d769158f5d1",
+      "source_sha256": "1ddba83288976794d14bf9658c7d22362a028319cfbbbb9e83004d769158f5d1",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/executed_source/launch_once.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_group4_20261101/observe_cpu.py",
+      "kind": "source-byte-preserving",
+      "bytes": 5873,
+      "sha256": "963268c84a8771bbe93c9f0d0154db6af015a38aa48dcf861255c35e794896e1",
+      "source_sha256": "963268c84a8771bbe93c9f0d0154db6af015a38aa48dcf861255c35e794896e1",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/executed_source/observe_cpu.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_group4_20261101/preflight_cpu.py",
+      "kind": "source-byte-preserving",
+      "bytes": 8119,
+      "sha256": "daae1768b438a0769e0835abe0971657473896b8f21d7bcc1ba0e6921b03e5f2",
+      "source_sha256": "daae1768b438a0769e0835abe0971657473896b8f21d7bcc1ba0e6921b03e5f2",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/executed_source/preflight_cpu.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_group4_20261101/prepare_inputs.py",
+      "kind": "source-byte-preserving",
+      "bytes": 2677,
+      "sha256": "b43c1a2fc82e6525fac5daf7fc725d32cf1dfc45c4e0abab90e2cc72f227f7fd",
+      "source_sha256": "b43c1a2fc82e6525fac5daf7fc725d32cf1dfc45c4e0abab90e2cc72f227f7fd",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/executed_source/prepare_inputs.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_group4_20261101/processor_cpu.py",
+      "kind": "source-byte-preserving",
+      "bytes": 947,
+      "sha256": "311d0d846e74aa51a9909c09f942816f86de482ce9857666f2922355e2db2978",
+      "source_sha256": "311d0d846e74aa51a9909c09f942816f86de482ce9857666f2922355e2db2978",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/executed_source/processor_cpu.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_group4_20261101/protocol.json",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 62505,
+      "sha256": "e8b92678edbb329e3e5efd6c2605c8831a427f7c5e0f7ed6d9df84b4b1bce710",
+      "source_sha256": "e8b92678edbb329e3e5efd6c2605c8831a427f7c5e0f7ed6d9df84b4b1bce710",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/protocol.json"
+    },
+    {
+      "path": "v5/experiments/memory_db_group4_20261101/reaction_style.txt",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 1136,
+      "sha256": "2ac697b3e378a7f83240813bba0ef3db806e6b9a6224d7592fa763fa4e2751de",
+      "source_sha256": "2ac697b3e378a7f83240813bba0ef3db806e6b9a6224d7592fa763fa4e2751de",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/reaction_style.txt"
+    },
+    {
+      "path": "v5/experiments/memory_db_group4_20261101/request_protocol.py",
+      "kind": "source-byte-preserving",
+      "bytes": 1512,
+      "sha256": "ecbe1a33ef1cc2b0d01d8c013ec599503844ea92534c68dedf58cb2b3bd17489",
+      "source_sha256": "ecbe1a33ef1cc2b0d01d8c013ec599503844ea92534c68dedf58cb2b3bd17489",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/executed_source/request_protocol.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_group4_20261101/run_cpu.py",
+      "kind": "source-byte-preserving",
+      "bytes": 4886,
+      "sha256": "51b56070719cbec00095b6da6594e73c1abb9ec93e9a3cc03a0fc8120fac8e65",
+      "source_sha256": "51b56070719cbec00095b6da6594e73c1abb9ec93e9a3cc03a0fc8120fac8e65",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/executed_source/run_cpu.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_group4_20261101/runtime.py",
+      "kind": "source-byte-preserving",
+      "bytes": 4794,
+      "sha256": "9be06fa22b2b2f268e230335e6996e8d059e08b6e3ba7c90578db77bfb8a4f4e",
+      "source_sha256": "9be06fa22b2b2f268e230335e6996e8d059e08b6e3ba7c90578db77bfb8a4f4e",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/executed_source/runtime.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_group4_20261101/samples.json",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 515516,
+      "sha256": "6633d4ef77fa4aab40d59600922522cc90b6b2bc4fbf961432e4fecaf626a16a",
+      "source_sha256": "6633d4ef77fa4aab40d59600922522cc90b6b2bc4fbf961432e4fecaf626a16a",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/samples.json"
+    },
+    {
+      "path": "v5/experiments/memory_db_group4_20261101/setup_patch_failure.json",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 272,
+      "sha256": "265d3e53de906610ee5751dc2de1522f50ceb4299fa0fb69624665ce9e2402a8",
+      "source_sha256": "265d3e53de906610ee5751dc2de1522f50ceb4299fa0fb69624665ce9e2402a8",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/setup_patch_failure.json"
+    },
+    {
+      "path": "v5/experiments/memory_db_group4_20261101/setup_validation.json",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 150,
+      "sha256": "02a4b90f020dba73421b71a9f15d6726be7dbf0d317f623361f135f33691ec9d",
+      "source_sha256": "02a4b90f020dba73421b71a9f15d6726be7dbf0d317f623361f135f33691ec9d",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/setup_validation.json"
+    },
+    {
+      "path": "v5/experiments/memory_db_group4_20261101/startup.python_outcome.json",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 294,
+      "sha256": "1b3662212e46e95e1159aac9545273330e8d580993f0c1f1824ad83d343d26b5",
+      "source_sha256": "1b3662212e46e95e1159aac9545273330e8d580993f0c1f1824ad83d343d26b5",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/startup.python_outcome.json"
+    },
+    {
+      "path": "v5/experiments/memory_db_group4_20261101/startup_probe.py",
+      "kind": "source-byte-preserving",
+      "bytes": 311,
+      "sha256": "9aaa07399551a33bbe314cf7c8bfb72379557d859a34d899285aeabb0394aee4",
+      "source_sha256": "9aaa07399551a33bbe314cf7c8bfb72379557d859a34d899285aeabb0394aee4",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/executed_source/startup_probe.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_group4_20261101/stripe_runtime.py",
+      "kind": "source-byte-preserving",
+      "bytes": 4404,
+      "sha256": "5ff3a9b2605bc09ddc0d5cb34aef0ce2436445eaef3cb326c96ce839a8755a39",
+      "source_sha256": "5ff3a9b2605bc09ddc0d5cb34aef0ce2436445eaef3cb326c96ce839a8755a39",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/executed_source/stripe_runtime.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_group4_20261101/token_journal.py",
+      "kind": "source-byte-preserving",
+      "bytes": 901,
+      "sha256": "fd86eae0677c6ff0619c80c534783bfad02c329d58ac58faaf4c6b895ef8de1e",
+      "source_sha256": "fd86eae0677c6ff0619c80c534783bfad02c329d58ac58faaf4c6b895ef8de1e",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/executed_source/token_journal.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_group4_20261101/unit_instruction.txt",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 892,
+      "sha256": "5d4e48d7b6ea41ca3c2ee43104f45e740f69b284b840b35122a0d5358df44a6d",
+      "source_sha256": "5d4e48d7b6ea41ca3c2ee43104f45e740f69b284b840b35122a0d5358df44a6d",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/unit_instruction.txt"
+    },
+    {
+      "path": "v5/experiments/memory_db_group4_20261101/unit_schedule.json",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 940,
+      "sha256": "c6bafcaf9705b5eca45c4d14c00f5ec1a18b0adcd3e0846a6bced6520e03df49",
+      "source_sha256": "c6bafcaf9705b5eca45c4d14c00f5ec1a18b0adcd3e0846a6bced6520e03df49",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/unit_schedule.json"
     },
     {
       "path": "v5/experiments/stripe_surface_abc_h06_20261027/common.py",
@@ -3801,10 +4181,146 @@
       "source_sha256": "d602cd3cbb6e4c7a8e19adfefc7a417c9e4a9dbf2ed376614b9ec7599912f3fd"
     },
     {
+      "path": "v5/memory_db/README.md",
+      "kind": "source-byte-preserving",
+      "bytes": 5792,
+      "sha256": "cb93694ac563363ad239e8c19c943c444ba4b4cb428c0abcea56fbcb04c6ebef",
+      "source_sha256": "cb93694ac563363ad239e8c19c943c444ba4b4cb428c0abcea56fbcb04c6ebef",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/reference/v5/memory_db/README.md"
+    },
+    {
+      "path": "v5/memory_db/STATUS.md",
+      "kind": "source-byte-preserving",
+      "bytes": 3167,
+      "sha256": "0e669f60f644a82ceb08226e392079a819b599ae5dda2e2ceedd20d2457f5959",
+      "source_sha256": "0e669f60f644a82ceb08226e392079a819b599ae5dda2e2ceedd20d2457f5959",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/reference/v5/memory_db/STATUS.md"
+    },
+    {
+      "path": "v5/memory_db/__init__.py",
+      "kind": "source-byte-preserving",
+      "bytes": 299,
+      "sha256": "f7c3605601fac3a21dccae115d60ac589cf9e1aae7889a44bcb495906811fe29",
+      "source_sha256": "f7c3605601fac3a21dccae115d60ac589cf9e1aae7889a44bcb495906811fe29",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/reference/v5/memory_db/__init__.py"
+    },
+    {
+      "path": "v5/memory_db/__main__.py",
+      "kind": "source-byte-preserving",
+      "bytes": 4311,
+      "sha256": "79a3256193a72beabd255b1cf1034f3f887fd46b2f0b8c30f64c22604d8cf8ba",
+      "source_sha256": "79a3256193a72beabd255b1cf1034f3f887fd46b2f0b8c30f64c22604d8cf8ba",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/reference/v5/memory_db/__main__.py"
+    },
+    {
+      "path": "v5/memory_db/events.py",
+      "kind": "source-byte-preserving",
+      "bytes": 4915,
+      "sha256": "47ab486b07eb71a3b81884ff8264def236a468dd992826dcf86f2ccd9e10fbbe",
+      "source_sha256": "47ab486b07eb71a3b81884ff8264def236a468dd992826dcf86f2ccd9e10fbbe",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/reference/v5/memory_db/events.py"
+    },
+    {
+      "path": "v5/memory_db/normalize.py",
+      "kind": "source-byte-preserving",
+      "bytes": 9904,
+      "sha256": "dc1e1d4131d36a2a8fbc5083fd11c3c835210b59c16b1db5f2aa91cd9b874a34",
+      "source_sha256": "dc1e1d4131d36a2a8fbc5083fd11c3c835210b59c16b1db5f2aa91cd9b874a34",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/reference/v5/memory_db/normalize.py"
+    },
+    {
+      "path": "v5/memory_db/projection.py",
+      "kind": "source-byte-preserving",
+      "bytes": 9644,
+      "sha256": "4123fe21b99344ad1df515392a84c0a92365bf679180156072f98f9199db09ac",
+      "source_sha256": "4123fe21b99344ad1df515392a84c0a92365bf679180156072f98f9199db09ac",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/reference/v5/memory_db/projection.py"
+    },
+    {
+      "path": "v5/memory_db/run_validation.py",
+      "kind": "source-byte-preserving",
+      "bytes": 20185,
+      "sha256": "3bdeb8be5e942558fc05a0513b61540156aa035a988774621d26459ce8fccf7c",
+      "source_sha256": "3bdeb8be5e942558fc05a0513b61540156aa035a988774621d26459ce8fccf7c",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/reference/v5/memory_db/run_validation.py"
+    },
+    {
+      "path": "v5/memory_db/schema.sql",
+      "kind": "source-byte-preserving",
+      "bytes": 4019,
+      "sha256": "ca97859b11087bc4831ae177d2f80cdbe96ba7810b5c2d904ce45ca459df4d9e",
+      "source_sha256": "ca97859b11087bc4831ae177d2f80cdbe96ba7810b5c2d904ce45ca459df4d9e",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/reference/v5/memory_db/schema.sql"
+    },
+    {
+      "path": "v5/memory_db/selector_adapter.py",
+      "kind": "source-byte-preserving",
+      "bytes": 8181,
+      "sha256": "2f5f5bdca2df34f7e4a517413293400b9351e76c42e02027928d82e4b7dc4626",
+      "source_sha256": "2f5f5bdca2df34f7e4a517413293400b9351e76c42e02027928d82e4b7dc4626",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/reference/v5/memory_db/selector_adapter.py"
+    },
+    {
+      "path": "v5/memory_db/store.py",
+      "kind": "source-byte-preserving",
+      "bytes": 11726,
+      "sha256": "f6dd476041f4d7cd81d4f8f3e30466b569f07a94dcfeb59954ac77fa0f627931",
+      "source_sha256": "f6dd476041f4d7cd81d4f8f3e30466b569f07a94dcfeb59954ac77fa0f627931",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/reference/v5/memory_db/store.py"
+    },
+    {
+      "path": "v5/memory_db/surface.py",
+      "kind": "source-byte-preserving",
+      "bytes": 2979,
+      "sha256": "409bb7b7e1a769718e9833dd9d206dc63bdba1723510fdcc42aa0352de28c5cd",
+      "source_sha256": "409bb7b7e1a769718e9833dd9d206dc63bdba1723510fdcc42aa0352de28c5cd",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/reference/v5/memory_db/surface.py"
+    },
+    {
+      "path": "v5/memory_db/tests/__init__.py",
+      "kind": "source-byte-preserving",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "source_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/reference/v5/memory_db/tests/__init__.py"
+    },
+    {
+      "path": "v5/memory_db/tests/test_memory_db.py",
+      "kind": "source-byte-preserving",
+      "bytes": 17023,
+      "sha256": "081b9a13523843be23c67c7bae361aff76027b73c152990e3faa8a9ed4984821",
+      "source_sha256": "081b9a13523843be23c67c7bae361aff76027b73c152990e3faa8a9ed4984821",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/reference/v5/memory_db/tests/test_memory_db.py"
+    },
+    {
+      "path": "v5/memory_db/vendor/adapted_selector.py",
+      "kind": "source-byte-preserving",
+      "bytes": 28336,
+      "sha256": "64626f976b8bdf87c272a0f1d0ef8f21849728ac7b45de4eb74c00689068825c",
+      "source_sha256": "64626f976b8bdf87c272a0f1d0ef8f21849728ac7b45de4eb74c00689068825c",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/reference/v5/memory_db/vendor/adapted_selector.py"
+    },
+    {
+      "path": "v5/memory_db/vendor/manifest.json",
+      "kind": "source-byte-preserving",
+      "bytes": 529,
+      "sha256": "7fb99ba97666d5dcce59f691021b59207a78a43003517f1939f60f89f049aea3",
+      "source_sha256": "7fb99ba97666d5dcce59f691021b59207a78a43003517f1939f60f89f049aea3",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/reference/v5/memory_db/vendor/manifest.json"
+    },
+    {
+      "path": "v5/memory_db/vendor/selector.py",
+      "kind": "source-byte-preserving",
+      "bytes": 28216,
+      "sha256": "1bed5d62d45750fc837e8afb812cdffaf43b745f0776357924b8d8ab48aded07",
+      "source_sha256": "1bed5d62d45750fc837e8afb812cdffaf43b745f0776357924b8d8ab48aded07",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/reference/v5/memory_db/vendor/selector.py"
+    },
+    {
       "path": "v5/progress/CURRENT_STATE.md",
       "kind": "generated-publication-record",
-      "bytes": 4373,
-      "sha256": "c35bc02bb11edbd84d7060479a1331163d13364124650c7e0c7fc245b54f094e"
+      "bytes": 2934,
+      "sha256": "ed581c08cd9edf5b2771a8e4f2d466f8dff4ac05572c07efd66ff1bfecdf8976"
     },
     {
       "path": "v5/progress/NEXT_CONTROL_PLAN.md",
@@ -3815,8 +4331,24 @@
     {
       "path": "v5/progress/checkpoint.json",
       "kind": "generated-publication-record",
+      "bytes": 2738,
+      "sha256": "12a07c371798b605af6136e8ecf11967dcc31c30af77cd72fec085b5db9aa9ba"
+    },
+    {
+      "path": "v5/progress/history/pre_group4_20261101/CURRENT_STATE.md",
+      "kind": "global-skill-byte-preserving",
+      "bytes": 4373,
+      "sha256": "c35bc02bb11edbd84d7060479a1331163d13364124650c7e0c7fc245b54f094e",
+      "source_sha256": "c35bc02bb11edbd84d7060479a1331163d13364124650c7e0c7fc245b54f094e",
+      "source_path": "C:\\NodeJS\\KawaiiLive\\work\\astra\\KawaiiLiveHarness\\v5\\progress\\CURRENT_STATE.md"
+    },
+    {
+      "path": "v5/progress/history/pre_group4_20261101/checkpoint.json",
+      "kind": "global-skill-byte-preserving",
       "bytes": 7070,
-      "sha256": "31833b9e70bd2a0c30c1a0839e3c980c050e305f050a2cc962b3716db642be8d"
+      "sha256": "31833b9e70bd2a0c30c1a0839e3c980c050e305f050a2cc962b3716db642be8d",
+      "source_sha256": "31833b9e70bd2a0c30c1a0839e3c980c050e305f050a2cc962b3716db642be8d",
+      "source_path": "C:\\NodeJS\\KawaiiLive\\work\\astra\\KawaiiLiveHarness\\v5\\progress\\checkpoint.json"
     },
     {
       "path": "v5/progress/source_provenance.json",
@@ -3835,6 +4367,22 @@
       "kind": "generated-publication-record",
       "bytes": 534,
       "sha256": "2fa6663487bb3696f310342353bb05107384e146356454fc4e468192aabd2eb8"
+    },
+    {
+      "path": "v5/research_skills/talk-evidence-first/SKILL.md",
+      "kind": "source-byte-preserving",
+      "bytes": 3809,
+      "sha256": "972fb67cff3b246a5f1700af5da9238925724663010531a3f1a0d43776349720",
+      "source_sha256": "972fb67cff3b246a5f1700af5da9238925724663010531a3f1a0d43776349720",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/policy/talk-evidence-first.md"
+    },
+    {
+      "path": "v5/research_skills/track-talk-experiments/SKILL.md",
+      "kind": "source-byte-preserving",
+      "bytes": 5891,
+      "sha256": "9391c77f5e080786ee91e3ab84bfd02a48960095e35c5d0b0c0b4312942a09f6",
+      "source_sha256": "9391c77f5e080786ee91e3ab84bfd02a48960095e35c5d0b0c0b4312942a09f6",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/policy/track-talk-experiments.md"
     },
     {
       "path": "v5/runtime/common.py",
@@ -4062,5 +4610,8 @@
     "harness_beta/runs/stripe_surface_ten_20261027_v1/executed_source",
     "harness_beta/runs/cpu_select_surface_ten_20261027_v1/executed_source"
   ],
-  "human_vs_CPU_rhythm_same_grain_analysis": "not_performed"
+  "human_vs_CPU_rhythm_same_grain_analysis": "not_performed",
+  "memory_db_group4_source": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\memory_db_group4_20261101_v1",
+  "group4_generation_status": "CPU_validated_not_launched",
+  "research_policy": "history list/evidence before changes; record/test/commit/push each PG change; fixed generation scope only"
 }

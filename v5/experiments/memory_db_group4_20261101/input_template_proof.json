@@ -1,0 +1,146 @@
+{
+  "status": "pass",
+  "records": [
+    {
+      "unit_key": "M06:G01",
+      "operation_count": 4,
+      "source_step_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_tokens_empty": 2069,
+      "input_tokens_simulated": 2069,
+      "original_one_operation_payloads_exact": true
+    },
+    {
+      "unit_key": "M06:G02",
+      "operation_count": 4,
+      "source_step_indices": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "input_tokens_empty": 2151,
+      "input_tokens_simulated": 2447,
+      "original_one_operation_payloads_exact": true
+    },
+    {
+      "unit_key": "M06:G03",
+      "operation_count": 4,
+      "source_step_indices": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "input_tokens_empty": 2145,
+      "input_tokens_simulated": 2343,
+      "original_one_operation_payloads_exact": true
+    },
+    {
+      "unit_key": "M06:G04",
+      "operation_count": 2,
+      "source_step_indices": [
+        13,
+        14
+      ],
+      "input_tokens_empty": 1640,
+      "input_tokens_simulated": 1706,
+      "original_one_operation_payloads_exact": true
+    },
+    {
+      "unit_key": "M17:G01",
+      "operation_count": 4,
+      "source_step_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_tokens_empty": 2082,
+      "input_tokens_simulated": 2082,
+      "original_one_operation_payloads_exact": true
+    },
+    {
+      "unit_key": "M17:G02",
+      "operation_count": 4,
+      "source_step_indices": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "input_tokens_empty": 2138,
+      "input_tokens_simulated": 2171,
+      "original_one_operation_payloads_exact": true
+    },
+    {
+      "unit_key": "M17:G03",
+      "operation_count": 4,
+      "source_step_indices": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "input_tokens_empty": 2139,
+      "input_tokens_simulated": 2330,
+      "original_one_operation_payloads_exact": true
+    },
+    {
+      "unit_key": "M17:G04",
+      "operation_count": 2,
+      "source_step_indices": [
+        13,
+        14
+      ],
+      "input_tokens_empty": 1646,
+      "input_tokens_simulated": 1712,
+      "original_one_operation_payloads_exact": true
+    },
+    {
+      "unit_key": "M23:G01",
+      "operation_count": 4,
+      "source_step_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_tokens_empty": 2051,
+      "input_tokens_simulated": 2051,
+      "original_one_operation_payloads_exact": true
+    },
+    {
+      "unit_key": "M23:G02",
+      "operation_count": 4,
+      "source_step_indices": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "input_tokens_empty": 2108,
+      "input_tokens_simulated": 2141,
+      "original_one_operation_payloads_exact": true
+    },
+    {
+      "unit_key": "M23:G03",
+      "operation_count": 4,
+      "source_step_indices": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "input_tokens_empty": 2095,
+      "input_tokens_simulated": 2533,
+      "original_one_operation_payloads_exact": true
+    }
+  ],
+  "new_model_calls": 0,
+  "actual_history_known_only_after_generation": true
+}

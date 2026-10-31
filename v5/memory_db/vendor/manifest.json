@@ -1,0 +1,6 @@
+{
+  "upstream": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\mechanical_stripe_rhythm_20261028_v1\\executed_source\\selector.py",
+  "upstream_sha256": "1bed5d62d45750fc837e8afb812cdffaf43b745f0776357924b8d8ab48aded07",
+  "adapted_sha256": "64626f976b8bdf87c272a0f1d0ef8f21849728ac7b45de4eb74c00689068825c",
+  "delta": "Added memory_db_anchor override and memory_db_soft_penalty hook. No other changes to upstream. Per-call isolated module; explicit typed deps only; default prior, no fitted weights."
+}

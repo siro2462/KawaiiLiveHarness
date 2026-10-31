@@ -1,0 +1,35 @@
+{
+  "files": [
+    {
+      "path": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\stripe_surface_abc_h06_20261027_v1\\review_packet.json",
+      "sha256": "135af777204e58c476918b14b5710eb317a38b8115e282a265517f697ccd7fdd"
+    },
+    {
+      "path": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\stripe_surface_abc_h06_20261027_v1\\result.md",
+      "sha256": "3f47a8de882b46b210f4cb3eadfba0f41777c6a0db189ef183dec33b618d3bd4"
+    },
+    {
+      "path": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\incremental_noguard_20261022_v2\\all_rollouts.json",
+      "sha256": "98595fb7a9e37990ddb7861e0b63d8da712cb87fc5be422d1e4583037f3106b1"
+    },
+    {
+      "path": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\incremental_noguard_postmortem_20261022_v1\\result.md",
+      "sha256": "cad6cd46d6f85c76bbf11ba4c098edf095713f9b2595eddba63078b182efe07f"
+    },
+    {
+      "path": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\long_surface_split751_20261019_v1\\result.md",
+      "sha256": "005cf113c50535cf77c0abff2e70593622e777249855ebdf463104e30d7157db"
+    },
+    {
+      "path": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\continuous_flow751_20261020_v1\\result.md",
+      "sha256": "b61915e6c557496d520daebf402056e7b1bb44877ce18208ee0315a8a57525aa"
+    },
+    {
+      "path": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\memory_db_stepwise3_20261031_v1\\root_read\\review_stats.json",
+      "sha256": "1484da920d31b3fb7ce1b8468dc34c0e7840c447bec41508de20b229cb5a5a91"
+    }
+  ],
+  "new_generation_calls": 0,
+  "human_quality_labels_added": 0,
+  "scope": "saved historical actual output units and reported limitations; no full regrading of all historical input"
+}

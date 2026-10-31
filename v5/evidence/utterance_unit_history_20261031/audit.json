@@ -1,0 +1,27 @@
+{
+  "status": "pass",
+  "H06_C_counts": [
+    69,
+    63,
+    58,
+    86,
+    69,
+    75,
+    80,
+    90
+  ],
+  "H06_C_mean": 73.75,
+  "old_B_target_counts": [
+    2,
+    2,
+    1,
+    2,
+    2,
+    1,
+    2,
+    2
+  ],
+  "claims_from_saved_outputs": true,
+  "historical_full_input_semantic_regrade": false,
+  "new_generation": 0
+}

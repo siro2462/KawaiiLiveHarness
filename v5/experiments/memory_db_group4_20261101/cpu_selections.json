@@ -1,0 +1,2291 @@
+{
+  "M06": {
+    "schema": "mechanical-stripe-selector-v1",
+    "steps": [
+      {
+        "index": 1,
+        "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:W2",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "測って入るなら、見た目も想像どおり収まると期待した。",
+        "epistemic": "speaker_desire",
+        "relation": "continuity_only_not_causal",
+        "anchor_id": null
+      },
+      {
+        "index": 2,
+        "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:W1",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "布ものを足して、部屋でゆっくり過ごせる雰囲気にしたかった。",
+        "epistemic": "speaker_desire",
+        "relation": "continuity_only_not_causal",
+        "anchor_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:W2"
+      },
+      {
+        "index": 3,
+        "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R1",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "部屋を見回して、買い足した分だけくつろげるわけではないと戸惑う。",
+        "epistemic": "speaker_reaction",
+        "relation": "explicit_reaction",
+        "anchor_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:W1"
+      },
+      {
+        "index": 4,
+        "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T1",
+        "operation": "APPRAISE",
+        "kind": "T",
+        "content": "測ることは必要でも、布の存在感や視界の詰まり方までは数字だけで決めにくいと思う。",
+        "epistemic": "speaker_evaluation",
+        "relation": "explicit_appraisal",
+        "anchor_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R1"
+      },
+      {
+        "index": 5,
+        "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F1",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "ニトリでカーテン、無印良品でクッションを購入して部屋に置いた。",
+        "epistemic": "speaker_report",
+        "relation": "continuity_only_not_causal",
+        "anchor_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T1"
+      },
+      {
+        "index": 6,
+        "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T3",
+        "operation": "COMPARE",
+        "kind": "T",
+        "content": "一つずつなら好きでも、同じ空間に重ねると違う印象になることがあると捉える。",
+        "epistemic": "speaker_evaluation",
+        "relation": "explicit_appraisal",
+        "anchor_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F1"
+      },
+      {
+        "index": 7,
+        "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F1",
+        "operation": "REVISIT",
+        "kind": "F",
+        "content": "ニトリでカーテン、無印良品でクッションを購入して部屋に置いた。",
+        "epistemic": "speaker_report",
+        "relation": "return_after_new_evaluation_not_new_fact",
+        "anchor_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T3"
+      },
+      {
+        "index": 8,
+        "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T2",
+        "operation": "COMPARE",
+        "kind": "T",
+        "content": "買った物を残すことより、部屋で過ごす自分の感覚を優先してよかったと思いたい。",
+        "epistemic": "speaker_evaluation",
+        "relation": "explicit_appraisal",
+        "anchor_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:W1"
+      },
+      {
+        "index": 9,
+        "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F3",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "家具の配置はサイズを測っても実際に置くとイメージと異なることがある。",
+        "epistemic": "speaker_report",
+        "relation": "continuity_only_not_causal",
+        "anchor_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T2"
+      },
+      {
+        "index": 10,
+        "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:P1",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "買い足す前に、今ある物を置いた状態で部屋を眺める時間を取りたい。",
+        "epistemic": "speaker_expectation",
+        "relation": "continuity_only_not_causal",
+        "anchor_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F3"
+      },
+      {
+        "index": 11,
+        "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "圧迫感が出たため半分を返品・撤去した。",
+        "epistemic": "uncertain_memory",
+        "relation": "continuity_only_not_causal",
+        "anchor_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:P1"
+      },
+      {
+        "index": 12,
+        "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R2",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "半分を戻す判断には、せっかく選んだのにという惜しさも感じた。",
+        "epistemic": "speaker_reaction",
+        "relation": "explicit_reaction",
+        "anchor_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2"
+      },
+      {
+        "index": 13,
+        "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1",
+        "operation": "REPAIR",
+        "kind": "T",
+        "content": "次は一種類ずつ置いて見れば、圧迫感が出る手前を見つけやすいだろうか。",
+        "epistemic": "uncertain_memory",
+        "relation": "explicit_about",
+        "anchor_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2"
+      },
+      {
+        "index": 14,
+        "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2",
+        "operation": "REVISIT",
+        "kind": "F",
+        "content": "圧迫感が出たため半分を返品・撤去した。",
+        "epistemic": "uncertain_memory",
+        "relation": "return_after_new_evaluation_not_new_fact",
+        "anchor_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1"
+      }
+    ],
+    "constraints": [],
+    "unresolved_relations": [],
+    "rejected_constraints": [],
+    "deferred_nodes": [],
+    "decisions": [
+      {
+        "index": 1,
+        "candidates": [
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:W2",
+            "priority": 0.13,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:W1",
+            "priority": 0.13,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F3",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:P1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1",
+            "priority": 0.91,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R2",
+            "priority": 1.28,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T1",
+            "priority": 1.28,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T2",
+            "priority": 1.28,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R1",
+            "priority": 1.28,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T3",
+            "priority": 1.28,
+            "rule": "continuity_only_not_causal"
+          }
+        ],
+        "chosen": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:W2",
+        "rejected_by_same_kind_limit": [],
+        "completion_checks": [
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:W2",
+            "complete_schedule_possible": true
+          }
+        ],
+        "last_kind": null,
+        "streak": 0
+      },
+      {
+        "index": 2,
+        "candidates": [
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:W1",
+            "priority": 0.165,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F3",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:P1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1",
+            "priority": 0.91,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T1",
+            "priority": 1.28,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T2",
+            "priority": 1.28,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T3",
+            "priority": 1.28,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R2",
+            "priority": 1.315,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R1",
+            "priority": 1.315,
+            "rule": "continuity_only_not_causal"
+          }
+        ],
+        "chosen": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:W1",
+        "rejected_by_same_kind_limit": [],
+        "completion_checks": [
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:W1",
+            "complete_schedule_possible": true
+          }
+        ],
+        "last_kind": "E",
+        "streak": 1
+      },
+      {
+        "index": 3,
+        "candidates": [
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R1",
+            "priority": -0.805,
+            "rule": "explicit_reaction"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T2",
+            "priority": 0.16,
+            "rule": "explicit_appraisal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F3",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:P1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1",
+            "priority": 0.91,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T1",
+            "priority": 1.28,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T3",
+            "priority": 1.28,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R2",
+            "priority": 1.315,
+            "rule": "continuity_only_not_causal"
+          }
+        ],
+        "chosen": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R1",
+        "rejected_by_same_kind_limit": [],
+        "completion_checks": [
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R1",
+            "complete_schedule_possible": true
+          }
+        ],
+        "last_kind": "E",
+        "streak": 2
+      },
+      {
+        "index": 4,
+        "candidates": [
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T1",
+            "priority": 0.16,
+            "rule": "explicit_appraisal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F3",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T2",
+            "priority": 0.48,
+            "rule": "explicit_appraisal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:P1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1",
+            "priority": 0.91,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T3",
+            "priority": 1.28,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R2",
+            "priority": 1.315,
+            "rule": "continuity_only_not_causal"
+          }
+        ],
+        "chosen": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T1",
+        "rejected_by_same_kind_limit": [
+          "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R2"
+        ],
+        "completion_checks": [
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T1",
+            "complete_schedule_possible": true
+          }
+        ],
+        "last_kind": "E",
+        "streak": 3
+      },
+      {
+        "index": 5,
+        "candidates": [
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F3",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T2",
+            "priority": 0.515,
+            "rule": "explicit_appraisal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:P1",
+            "priority": 0.515,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1",
+            "priority": 0.945,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R2",
+            "priority": 1.28,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T3",
+            "priority": 1.315,
+            "rule": "continuity_only_not_causal"
+          }
+        ],
+        "chosen": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F1",
+        "rejected_by_same_kind_limit": [],
+        "completion_checks": [
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F1",
+            "complete_schedule_possible": true
+          }
+        ],
+        "last_kind": "T",
+        "streak": 1
+      },
+      {
+        "index": 6,
+        "candidates": [
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T3",
+            "priority": 0.16,
+            "rule": "explicit_appraisal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T2",
+            "priority": 0.48,
+            "rule": "explicit_appraisal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:P1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F3",
+            "priority": 0.515,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2",
+            "priority": 0.515,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1",
+            "priority": 0.59,
+            "rule": "explicit_about"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R2",
+            "priority": 1.28,
+            "rule": "continuity_only_not_causal"
+          }
+        ],
+        "chosen": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T3",
+        "rejected_by_same_kind_limit": [],
+        "completion_checks": [
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T3",
+            "complete_schedule_possible": true
+          }
+        ],
+        "last_kind": "F",
+        "streak": 1
+      },
+      {
+        "index": 8,
+        "candidates": [
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T2",
+            "priority": 0.48,
+            "rule": "explicit_appraisal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:P1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F3",
+            "priority": 0.515,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2",
+            "priority": 0.515,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1",
+            "priority": 0.91,
+            "rule": "explicit_about"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R2",
+            "priority": 1.28,
+            "rule": "continuity_only_not_causal"
+          }
+        ],
+        "chosen": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T2",
+        "rejected_by_same_kind_limit": [],
+        "completion_checks": [
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T2",
+            "complete_schedule_possible": true
+          }
+        ],
+        "last_kind": "F",
+        "streak": 1
+      },
+      {
+        "index": 9,
+        "candidates": [
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F3",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:P1",
+            "priority": 0.515,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1",
+            "priority": 0.945,
+            "rule": "explicit_about"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R2",
+            "priority": 1.28,
+            "rule": "continuity_only_not_causal"
+          }
+        ],
+        "chosen": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F3",
+        "rejected_by_same_kind_limit": [],
+        "completion_checks": [
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F3",
+            "complete_schedule_possible": true
+          }
+        ],
+        "last_kind": "T",
+        "streak": 1
+      },
+      {
+        "index": 10,
+        "candidates": [
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:P1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2",
+            "priority": 0.515,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1",
+            "priority": 0.91,
+            "rule": "explicit_about"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R2",
+            "priority": 1.28,
+            "rule": "continuity_only_not_causal"
+          }
+        ],
+        "chosen": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:P1",
+        "rejected_by_same_kind_limit": [],
+        "completion_checks": [
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:P1",
+            "complete_schedule_possible": true
+          }
+        ],
+        "last_kind": "F",
+        "streak": 1
+      },
+      {
+        "index": 11,
+        "candidates": [
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1",
+            "priority": 0.945,
+            "rule": "explicit_about"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R2",
+            "priority": 1.28,
+            "rule": "continuity_only_not_causal"
+          }
+        ],
+        "chosen": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2",
+        "rejected_by_same_kind_limit": [],
+        "completion_checks": [
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2",
+            "complete_schedule_possible": true
+          }
+        ],
+        "last_kind": "T",
+        "streak": 1
+      },
+      {
+        "index": 12,
+        "candidates": [
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R2",
+            "priority": -0.84,
+            "rule": "explicit_reaction"
+          },
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1",
+            "priority": 0.59,
+            "rule": "explicit_about"
+          }
+        ],
+        "chosen": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R2",
+        "rejected_by_same_kind_limit": [],
+        "completion_checks": [
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R2",
+            "complete_schedule_possible": true
+          }
+        ],
+        "last_kind": "F",
+        "streak": 1
+      },
+      {
+        "index": 13,
+        "candidates": [
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1",
+            "priority": 0.91,
+            "rule": "explicit_about"
+          }
+        ],
+        "chosen": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1",
+        "rejected_by_same_kind_limit": [],
+        "completion_checks": [
+          {
+            "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1",
+            "complete_schedule_possible": true
+          }
+        ],
+        "last_kind": "E",
+        "streak": 1
+      }
+    ],
+    "first_occurrence_order": [
+      "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:W2",
+      "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:W1",
+      "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R1",
+      "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T1",
+      "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F1",
+      "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T3",
+      "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T2",
+      "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F3",
+      "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:P1",
+      "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2",
+      "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R2",
+      "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1"
+    ],
+    "rank_scores": {
+      "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R2": 0.48,
+      "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T1": 0.48,
+      "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1": 0.91,
+      "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F1": 0.48,
+      "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F3": 0.48,
+      "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:W2": 0.13,
+      "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2": 0.48,
+      "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:W1": 0.13,
+      "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T2": 0.48,
+      "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R1": 0.48,
+      "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:P1": 0.48,
+      "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T3": 0.48
+    },
+    "revisits": [
+      {
+        "index": 7,
+        "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F1",
+        "new_purpose_node": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T3",
+        "basis_was_presented": true
+      },
+      {
+        "index": 14,
+        "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2",
+        "new_purpose_node": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1",
+        "basis_was_presented": true
+      }
+    ],
+    "suppressed_revisits": [],
+    "stop_reason": "all_fixed_Memory_presented; plan complete, speech not generated",
+    "rhythm_policy": {
+      "max_same_kind": 3,
+      "mode": "hard limit including REVISIT; preserve prerequisites and fixed labels",
+      "initial_complete_schedule_possible": true,
+      "search_budget": 20000,
+      "states_explored": 43,
+      "budget_exhausted": false
+    },
+    "semantic_status": "unverified",
+    "model_calls": 0,
+    "source_order_used": false,
+    "manual_steps_used_at_selection": false,
+    "backend": "rhythm",
+    "adapter_version": "memory-db-selector-v1",
+    "provenance": {
+      "snapshot_id": "snapshot_1284935f18afb667b407b5797cc5db5567a27f7c7845b6c2bfde3480767c54f2",
+      "snapshot_mode": "validation",
+      "sandbox_only": true,
+      "namespace": "zip_fiction",
+      "world_scope": "fictional",
+      "episode_id": "ep_2f12ac4eab5850faa05b51b7bfa2c578",
+      "revision_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392",
+      "external_id": "DB_6_CREATIVE_V1",
+      "review_status": "accepted",
+      "content_sha256": "d4ce682925720b2e6fbd6e0580d1d60326cf6fa78ad70c46ad45906a53ba73f4",
+      "snapshot_projection_version": "memory-db-projection-v1",
+      "adapter_projection_version": "memory-db-projection-v1"
+    },
+    "ranker": "existing generic prior; no fitted ranking weights",
+    "semantic_link_policy": "explicit associations are soft; requires_context only is a hard order"
+  },
+  "M17": {
+    "schema": "mechanical-stripe-selector-v1",
+    "steps": [
+      {
+        "index": 1,
+        "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F1",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "最近、学校に遅刻しそうになって走る夢を見た。",
+        "epistemic": "speaker_report",
+        "relation": "continuity_only_not_causal",
+        "anchor_id": null
+      },
+      {
+        "index": 2,
+        "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R1",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "目覚めて登校しなくてよいと気づき、夢にまで急かされたことへ脱力する。",
+        "epistemic": "speaker_reaction",
+        "relation": "explicit_reaction",
+        "anchor_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F1"
+      },
+      {
+        "index": 3,
+        "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T1",
+        "operation": "COMPARE",
+        "kind": "T",
+        "content": "夢の景色より、そこで自分が気にしているものが現実寄りになった感じがする。",
+        "epistemic": "speaker_evaluation",
+        "relation": "explicit_appraisal",
+        "anchor_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F1"
+      },
+      {
+        "index": 4,
+        "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F4",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "大人になってからは現実的な内容の夢が増えた。",
+        "epistemic": "speaker_report",
+        "relation": "continuity_only_not_causal",
+        "anchor_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T1"
+      },
+      {
+        "index": 5,
+        "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:Q1",
+        "operation": "REPAIR",
+        "kind": "T",
+        "content": "自由な夢が減ったのか、焦る夢のほうをよく覚えているだけなのか。",
+        "epistemic": "uncertain_memory",
+        "relation": "explicit_about",
+        "anchor_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F4"
+      },
+      {
+        "index": 6,
+        "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F4",
+        "operation": "REVISIT",
+        "kind": "F",
+        "content": "大人になってからは現実的な内容の夢が増えた。",
+        "epistemic": "speaker_report",
+        "relation": "return_after_new_evaluation_not_new_fact",
+        "anchor_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:Q1"
+      },
+      {
+        "index": 7,
+        "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W2",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "空を飛ぶ夢をまた見たら、その感覚を少し覚えていたい。",
+        "epistemic": "speaker_desire",
+        "relation": "continuity_only_not_causal",
+        "anchor_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:Q1"
+      },
+      {
+        "index": 8,
+        "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F2",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "子どもの頃は空を飛ぶ夢をよく見ていた。",
+        "epistemic": "speaker_report",
+        "relation": "continuity_only_not_causal",
+        "anchor_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W2"
+      },
+      {
+        "index": 9,
+        "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R2",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "昔なら飛べたのに最近の夢では走っている、という差が妙におかしく感じる。",
+        "epistemic": "speaker_reaction",
+        "relation": "explicit_reaction",
+        "anchor_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F2"
+      },
+      {
+        "index": 10,
+        "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:P1",
+        "operation": "EXPLORE",
+        "kind": "T",
+        "content": "次に印象的な夢を覚えていたら、一言だけメモしてみたい。",
+        "epistemic": "speaker_expectation",
+        "relation": "continuity_only_not_causal",
+        "anchor_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R2"
+      },
+      {
+        "index": 11,
+        "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F3",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "子どもの頃は知らない人と友達になる夢もよく見ていた。",
+        "epistemic": "speaker_report",
+        "relation": "continuity_only_not_causal",
+        "anchor_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:P1"
+      },
+      {
+        "index": 12,
+        "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W1",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "せめて夢の中では、時間を気にせず自由に移動したい。",
+        "epistemic": "speaker_desire",
+        "relation": "continuity_only_not_causal",
+        "anchor_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F3"
+      },
+      {
+        "index": 13,
+        "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2",
+        "operation": "APPRAISE",
+        "kind": "T",
+        "content": "夢が忙しいからといって、現実でも学校へ遅刻しそうだったという話にはならない。",
+        "epistemic": "speaker_evaluation",
+        "relation": "explicit_appraisal",
+        "anchor_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F1"
+      },
+      {
+        "index": 14,
+        "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F1",
+        "operation": "REVISIT",
+        "kind": "F",
+        "content": "最近、学校に遅刻しそうになって走る夢を見た。",
+        "epistemic": "speaker_report",
+        "relation": "return_after_new_evaluation_not_new_fact",
+        "anchor_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2"
+      }
+    ],
+    "constraints": [],
+    "unresolved_relations": [],
+    "rejected_constraints": [],
+    "deferred_nodes": [],
+    "decisions": [
+      {
+        "index": 1,
+        "candidates": [
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F4",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F2",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W2",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:P1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F3",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:Q1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T1",
+            "priority": 1.28,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R1",
+            "priority": 1.28,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R2",
+            "priority": 1.28,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2",
+            "priority": 1.28,
+            "rule": "continuity_only_not_causal"
+          }
+        ],
+        "chosen": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F1",
+        "rejected_by_same_kind_limit": [],
+        "completion_checks": [
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F1",
+            "complete_schedule_possible": true
+          }
+        ],
+        "last_kind": null,
+        "streak": 0
+      },
+      {
+        "index": 2,
+        "candidates": [
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R1",
+            "priority": -0.84,
+            "rule": "explicit_reaction"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R2",
+            "priority": -0.84,
+            "rule": "explicit_reaction"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T1",
+            "priority": 0.16,
+            "rule": "explicit_appraisal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2",
+            "priority": 0.16,
+            "rule": "explicit_appraisal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W2",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:P1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:Q1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F4",
+            "priority": 0.515,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F2",
+            "priority": 0.515,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F3",
+            "priority": 0.515,
+            "rule": "continuity_only_not_causal"
+          }
+        ],
+        "chosen": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R1",
+        "rejected_by_same_kind_limit": [],
+        "completion_checks": [
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R1",
+            "complete_schedule_possible": true
+          }
+        ],
+        "last_kind": "F",
+        "streak": 1
+      },
+      {
+        "index": 3,
+        "candidates": [
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T1",
+            "priority": 0.48,
+            "rule": "explicit_appraisal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F4",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F2",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:P1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F3",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:Q1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2",
+            "priority": 0.48,
+            "rule": "explicit_appraisal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W2",
+            "priority": 0.515,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W1",
+            "priority": 0.515,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R2",
+            "priority": 0.515,
+            "rule": "explicit_reaction"
+          }
+        ],
+        "chosen": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T1",
+        "rejected_by_same_kind_limit": [],
+        "completion_checks": [
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T1",
+            "complete_schedule_possible": true
+          }
+        ],
+        "last_kind": "E",
+        "streak": 1
+      },
+      {
+        "index": 4,
+        "candidates": [
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F4",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F2",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W2",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F3",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R2",
+            "priority": 0.48,
+            "rule": "explicit_reaction"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:P1",
+            "priority": 0.515,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:Q1",
+            "priority": 0.515,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2",
+            "priority": 0.515,
+            "rule": "explicit_appraisal"
+          }
+        ],
+        "chosen": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F4",
+        "rejected_by_same_kind_limit": [],
+        "completion_checks": [
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F4",
+            "complete_schedule_possible": true
+          }
+        ],
+        "last_kind": "T",
+        "streak": 1
+      },
+      {
+        "index": 5,
+        "candidates": [
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:Q1",
+            "priority": 0.16,
+            "rule": "explicit_about"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W2",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:P1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R2",
+            "priority": 0.48,
+            "rule": "explicit_reaction"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2",
+            "priority": 0.48,
+            "rule": "explicit_appraisal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F2",
+            "priority": 0.515,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F3",
+            "priority": 0.515,
+            "rule": "continuity_only_not_causal"
+          }
+        ],
+        "chosen": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:Q1",
+        "rejected_by_same_kind_limit": [],
+        "completion_checks": [
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:Q1",
+            "complete_schedule_possible": true
+          }
+        ],
+        "last_kind": "F",
+        "streak": 1
+      },
+      {
+        "index": 7,
+        "candidates": [
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W2",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:P1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R2",
+            "priority": 0.48,
+            "rule": "explicit_reaction"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2",
+            "priority": 0.48,
+            "rule": "explicit_appraisal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F2",
+            "priority": 0.515,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F3",
+            "priority": 0.515,
+            "rule": "continuity_only_not_causal"
+          }
+        ],
+        "chosen": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W2",
+        "rejected_by_same_kind_limit": [],
+        "completion_checks": [
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W2",
+            "complete_schedule_possible": true
+          }
+        ],
+        "last_kind": "F",
+        "streak": 1
+      },
+      {
+        "index": 8,
+        "candidates": [
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F2",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:P1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F3",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2",
+            "priority": 0.48,
+            "rule": "explicit_appraisal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W1",
+            "priority": 0.515,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R2",
+            "priority": 0.515,
+            "rule": "explicit_reaction"
+          }
+        ],
+        "chosen": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F2",
+        "rejected_by_same_kind_limit": [],
+        "completion_checks": [
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F2",
+            "complete_schedule_possible": true
+          }
+        ],
+        "last_kind": "E",
+        "streak": 1
+      },
+      {
+        "index": 9,
+        "candidates": [
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R2",
+            "priority": -0.84,
+            "rule": "explicit_reaction"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:P1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2",
+            "priority": 0.48,
+            "rule": "explicit_appraisal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F3",
+            "priority": 0.515,
+            "rule": "continuity_only_not_causal"
+          }
+        ],
+        "chosen": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R2",
+        "rejected_by_same_kind_limit": [],
+        "completion_checks": [
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R2",
+            "complete_schedule_possible": true
+          }
+        ],
+        "last_kind": "F",
+        "streak": 1
+      },
+      {
+        "index": 10,
+        "candidates": [
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:P1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F3",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2",
+            "priority": 0.48,
+            "rule": "explicit_appraisal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W1",
+            "priority": 0.515,
+            "rule": "continuity_only_not_causal"
+          }
+        ],
+        "chosen": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:P1",
+        "rejected_by_same_kind_limit": [],
+        "completion_checks": [
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:P1",
+            "complete_schedule_possible": true
+          }
+        ],
+        "last_kind": "E",
+        "streak": 1
+      },
+      {
+        "index": 11,
+        "candidates": [
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F3",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2",
+            "priority": 0.515,
+            "rule": "explicit_appraisal"
+          }
+        ],
+        "chosen": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F3",
+        "rejected_by_same_kind_limit": [],
+        "completion_checks": [
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F3",
+            "complete_schedule_possible": true
+          }
+        ],
+        "last_kind": "T",
+        "streak": 1
+      },
+      {
+        "index": 12,
+        "candidates": [
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2",
+            "priority": 0.48,
+            "rule": "explicit_appraisal"
+          }
+        ],
+        "chosen": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W1",
+        "rejected_by_same_kind_limit": [],
+        "completion_checks": [
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W1",
+            "complete_schedule_possible": true
+          }
+        ],
+        "last_kind": "F",
+        "streak": 1
+      },
+      {
+        "index": 13,
+        "candidates": [
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2",
+            "priority": 0.48,
+            "rule": "explicit_appraisal"
+          }
+        ],
+        "chosen": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2",
+        "rejected_by_same_kind_limit": [],
+        "completion_checks": [
+          {
+            "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2",
+            "complete_schedule_possible": true
+          }
+        ],
+        "last_kind": "E",
+        "streak": 1
+      }
+    ],
+    "first_occurrence_order": [
+      "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F1",
+      "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R1",
+      "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T1",
+      "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F4",
+      "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:Q1",
+      "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W2",
+      "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F2",
+      "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R2",
+      "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:P1",
+      "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F3",
+      "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W1",
+      "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2"
+    ],
+    "rank_scores": {
+      "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T1": 0.48,
+      "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F1": 0.48,
+      "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F4": 0.48,
+      "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R1": 0.48,
+      "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F2": 0.48,
+      "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W2": 0.48,
+      "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:P1": 0.48,
+      "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F3": 0.48,
+      "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W1": 0.48,
+      "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R2": 0.48,
+      "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:Q1": 0.48,
+      "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2": 0.48
+    },
+    "revisits": [
+      {
+        "index": 6,
+        "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F4",
+        "new_purpose_node": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:Q1",
+        "basis_was_presented": true
+      },
+      {
+        "index": 14,
+        "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F1",
+        "new_purpose_node": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2",
+        "basis_was_presented": true
+      }
+    ],
+    "suppressed_revisits": [],
+    "stop_reason": "all_fixed_Memory_presented; plan complete, speech not generated",
+    "rhythm_policy": {
+      "max_same_kind": 3,
+      "mode": "hard limit including REVISIT; preserve prerequisites and fixed labels",
+      "initial_complete_schedule_possible": true,
+      "search_budget": 20000,
+      "states_explored": 34,
+      "budget_exhausted": false
+    },
+    "semantic_status": "unverified",
+    "model_calls": 0,
+    "source_order_used": false,
+    "manual_steps_used_at_selection": false,
+    "backend": "rhythm",
+    "adapter_version": "memory-db-selector-v1",
+    "provenance": {
+      "snapshot_id": "snapshot_1284935f18afb667b407b5797cc5db5567a27f7c7845b6c2bfde3480767c54f2",
+      "snapshot_mode": "validation",
+      "sandbox_only": true,
+      "namespace": "zip_fiction",
+      "world_scope": "fictional",
+      "episode_id": "ep_e689a280973c54a299d31cc8d20abd7a",
+      "revision_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404",
+      "external_id": "DB_17_CREATIVE_V1",
+      "review_status": "unreviewed",
+      "content_sha256": "7a6c4c3ba258ddf36afe7255128be17fe0dc435423976fea9697f7dfcb0da59c",
+      "snapshot_projection_version": "memory-db-projection-v1",
+      "adapter_projection_version": "memory-db-projection-v1"
+    },
+    "ranker": "existing generic prior; no fitted ranking weights",
+    "semantic_link_policy": "explicit associations are soft; requires_context only is a hard order"
+  },
+  "M23": {
+    "schema": "mechanical-stripe-selector-v1",
+    "steps": [
+      {
+        "index": 1,
+        "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F3",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "失敗時の恥ずかしさと成功時の達成感は、どちらも強烈だった。",
+        "epistemic": "speaker_report",
+        "relation": "continuity_only_not_causal",
+        "anchor_id": null
+      },
+      {
+        "index": 2,
+        "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R2",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "マットに落ちた瞬間は、立ち上がる動作まで見られているように感じた。",
+        "epistemic": "speaker_reaction",
+        "relation": "explicit_reaction",
+        "anchor_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F3"
+      },
+      {
+        "index": 3,
+        "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:Q1",
+        "operation": "REPAIR",
+        "kind": "T",
+        "content": "あのとき気にしていた視線は実際どれほどあったのだろう。自分の恥ずかしさで大きく感じていた可能性もある。",
+        "epistemic": "uncertain_memory",
+        "relation": "explicit_about",
+        "anchor_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R2"
+      },
+      {
+        "index": 4,
+        "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F2",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "先生に促され、段数を上げて挑戦して失敗し、マットに落ちたことがある。",
+        "epistemic": "speaker_report",
+        "relation": "continuity_only_not_causal",
+        "anchor_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:Q1"
+      },
+      {
+        "index": 5,
+        "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R1",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "高くなった箱を前にすると、いつもの跳び箱より急に大きい物に見えた。",
+        "epistemic": "speaker_reaction",
+        "relation": "explicit_reaction",
+        "anchor_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F2"
+      },
+      {
+        "index": 6,
+        "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T3",
+        "operation": "APPRAISE",
+        "kind": "T",
+        "content": "跳べたかだけを採点すると、怖く見えた高さへ助走した部分を自分で見落としそうになる。",
+        "epistemic": "speaker_evaluation",
+        "relation": "explicit_appraisal",
+        "anchor_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R1"
+      },
+      {
+        "index": 7,
+        "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F2",
+        "operation": "REVISIT",
+        "kind": "F",
+        "content": "先生に促され、段数を上げて挑戦して失敗し、マットに落ちたことがある。",
+        "epistemic": "speaker_report",
+        "relation": "return_after_new_evaluation_not_new_fact",
+        "anchor_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T3"
+      },
+      {
+        "index": 8,
+        "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W1",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "段が増えても助走の勢いで越えられたら格好いいと思った。",
+        "epistemic": "speaker_desire",
+        "relation": "continuity_only_not_causal",
+        "anchor_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T3"
+      },
+      {
+        "index": 9,
+        "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F1",
+        "operation": "REPORT",
+        "kind": "F",
+        "content": "小学校の体育で跳び箱をやっていた。",
+        "epistemic": "speaker_report",
+        "relation": "continuity_only_not_causal",
+        "anchor_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W1"
+      },
+      {
+        "index": 10,
+        "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T2",
+        "operation": "COMPARE",
+        "kind": "T",
+        "content": "成功の達成感が強いからといって、失敗の恥ずかしさが後から消えるわけでもない。両方が残る思い出だと思う。",
+        "epistemic": "speaker_evaluation",
+        "relation": "explicit_appraisal",
+        "anchor_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F3"
+      },
+      {
+        "index": 11,
+        "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T1",
+        "operation": "COMPARE",
+        "kind": "T",
+        "content": "数字の一段は小さくても、助走を始める側には別の挑戦だった。",
+        "epistemic": "speaker_evaluation",
+        "relation": "explicit_appraisal",
+        "anchor_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R1"
+      },
+      {
+        "index": 12,
+        "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W2",
+        "operation": "REACT",
+        "kind": "E",
+        "content": "失敗した後は、次は目立つことより落ち着いて手をつくことを優先したかった。",
+        "epistemic": "speaker_desire",
+        "relation": "continuity_only_not_causal",
+        "anchor_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T1"
+      }
+    ],
+    "constraints": [],
+    "unresolved_relations": [],
+    "rejected_constraints": [],
+    "deferred_nodes": [
+      {
+        "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:P1",
+        "reason": "P execution status does not establish completed or future action"
+      }
+    ],
+    "decisions": [
+      {
+        "index": 1,
+        "candidates": [
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F3",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F2",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:Q1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W2",
+            "priority": 0.91,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T3",
+            "priority": 1.28,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R1",
+            "priority": 1.28,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T2",
+            "priority": 1.28,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R2",
+            "priority": 1.28,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T1",
+            "priority": 1.28,
+            "rule": "continuity_only_not_causal"
+          }
+        ],
+        "chosen": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F3",
+        "rejected_by_same_kind_limit": [],
+        "completion_checks": [
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F3",
+            "complete_schedule_possible": true
+          }
+        ],
+        "last_kind": null,
+        "streak": 0
+      },
+      {
+        "index": 2,
+        "candidates": [
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R2",
+            "priority": -0.84,
+            "rule": "explicit_reaction"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T2",
+            "priority": 0.16,
+            "rule": "explicit_appraisal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:Q1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F2",
+            "priority": 0.515,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F1",
+            "priority": 0.515,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W2",
+            "priority": 0.91,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T3",
+            "priority": 1.28,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R1",
+            "priority": 1.28,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T1",
+            "priority": 1.28,
+            "rule": "continuity_only_not_causal"
+          }
+        ],
+        "chosen": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R2",
+        "rejected_by_same_kind_limit": [],
+        "completion_checks": [
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R2",
+            "complete_schedule_possible": true
+          }
+        ],
+        "last_kind": "F",
+        "streak": 1
+      },
+      {
+        "index": 3,
+        "candidates": [
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:Q1",
+            "priority": 0.16,
+            "rule": "explicit_about"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F2",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T2",
+            "priority": 0.48,
+            "rule": "explicit_appraisal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W1",
+            "priority": 0.515,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W2",
+            "priority": 0.945,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T3",
+            "priority": 1.28,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T1",
+            "priority": 1.28,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R1",
+            "priority": 1.315,
+            "rule": "continuity_only_not_causal"
+          }
+        ],
+        "chosen": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:Q1",
+        "rejected_by_same_kind_limit": [],
+        "completion_checks": [
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:Q1",
+            "complete_schedule_possible": true
+          }
+        ],
+        "last_kind": "E",
+        "streak": 1
+      },
+      {
+        "index": 4,
+        "candidates": [
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F2",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T2",
+            "priority": 0.515,
+            "rule": "explicit_appraisal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W2",
+            "priority": 0.91,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R1",
+            "priority": 1.28,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T3",
+            "priority": 1.315,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T1",
+            "priority": 1.315,
+            "rule": "continuity_only_not_causal"
+          }
+        ],
+        "chosen": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F2",
+        "rejected_by_same_kind_limit": [],
+        "completion_checks": [
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F2",
+            "complete_schedule_possible": true
+          }
+        ],
+        "last_kind": "T",
+        "streak": 1
+      },
+      {
+        "index": 5,
+        "candidates": [
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R1",
+            "priority": -0.84,
+            "rule": "explicit_reaction"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T3",
+            "priority": 0.16,
+            "rule": "explicit_appraisal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T1",
+            "priority": 0.16,
+            "rule": "explicit_appraisal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T2",
+            "priority": 0.48,
+            "rule": "explicit_appraisal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F1",
+            "priority": 0.515,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W2",
+            "priority": 0.91,
+            "rule": "continuity_only_not_causal"
+          }
+        ],
+        "chosen": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R1",
+        "rejected_by_same_kind_limit": [],
+        "completion_checks": [
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R1",
+            "complete_schedule_possible": true
+          }
+        ],
+        "last_kind": "F",
+        "streak": 1
+      },
+      {
+        "index": 6,
+        "candidates": [
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T3",
+            "priority": 0.16,
+            "rule": "explicit_appraisal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T1",
+            "priority": 0.16,
+            "rule": "explicit_appraisal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T2",
+            "priority": 0.48,
+            "rule": "explicit_appraisal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W1",
+            "priority": 0.515,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W2",
+            "priority": 0.945,
+            "rule": "continuity_only_not_causal"
+          }
+        ],
+        "chosen": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T3",
+        "rejected_by_same_kind_limit": [],
+        "completion_checks": [
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T3",
+            "complete_schedule_possible": true
+          }
+        ],
+        "last_kind": "E",
+        "streak": 1
+      },
+      {
+        "index": 8,
+        "candidates": [
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T2",
+            "priority": 0.48,
+            "rule": "explicit_appraisal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T1",
+            "priority": 0.48,
+            "rule": "explicit_appraisal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F1",
+            "priority": 0.515,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W2",
+            "priority": 0.91,
+            "rule": "continuity_only_not_causal"
+          }
+        ],
+        "chosen": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W1",
+        "rejected_by_same_kind_limit": [],
+        "completion_checks": [
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W1",
+            "complete_schedule_possible": true
+          }
+        ],
+        "last_kind": "F",
+        "streak": 1
+      },
+      {
+        "index": 9,
+        "candidates": [
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F1",
+            "priority": 0.48,
+            "rule": "continuity_only_not_causal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T2",
+            "priority": 0.48,
+            "rule": "explicit_appraisal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T1",
+            "priority": 0.48,
+            "rule": "explicit_appraisal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W2",
+            "priority": 0.945,
+            "rule": "continuity_only_not_causal"
+          }
+        ],
+        "chosen": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F1",
+        "rejected_by_same_kind_limit": [],
+        "completion_checks": [
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F1",
+            "complete_schedule_possible": true
+          }
+        ],
+        "last_kind": "E",
+        "streak": 1
+      },
+      {
+        "index": 10,
+        "candidates": [
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T2",
+            "priority": 0.48,
+            "rule": "explicit_appraisal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T1",
+            "priority": 0.48,
+            "rule": "explicit_appraisal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W2",
+            "priority": 0.91,
+            "rule": "continuity_only_not_causal"
+          }
+        ],
+        "chosen": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T2",
+        "rejected_by_same_kind_limit": [],
+        "completion_checks": [
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T2",
+            "complete_schedule_possible": true
+          }
+        ],
+        "last_kind": "F",
+        "streak": 1
+      },
+      {
+        "index": 11,
+        "candidates": [
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T1",
+            "priority": 0.515,
+            "rule": "explicit_appraisal"
+          },
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W2",
+            "priority": 0.91,
+            "rule": "continuity_only_not_causal"
+          }
+        ],
+        "chosen": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T1",
+        "rejected_by_same_kind_limit": [],
+        "completion_checks": [
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T1",
+            "complete_schedule_possible": true
+          }
+        ],
+        "last_kind": "T",
+        "streak": 1
+      },
+      {
+        "index": 12,
+        "candidates": [
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W2",
+            "priority": 0.91,
+            "rule": "continuity_only_not_causal"
+          }
+        ],
+        "chosen": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W2",
+        "rejected_by_same_kind_limit": [],
+        "completion_checks": [
+          {
+            "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W2",
+            "complete_schedule_possible": true
+          }
+        ],
+        "last_kind": "T",
+        "streak": 2
+      }
+    ],
+    "first_occurrence_order": [
+      "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F3",
+      "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R2",
+      "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:Q1",
+      "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F2",
+      "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R1",
+      "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T3",
+      "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W1",
+      "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F1",
+      "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T2",
+      "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T1",
+      "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W2"
+    ],
+    "rank_scores": {
+      "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W2": 0.91,
+      "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F3": 0.48,
+      "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F2": 0.48,
+      "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:Q1": 0.48,
+      "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F1": 0.48,
+      "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T3": 0.48,
+      "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W1": 0.48,
+      "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R1": 0.48,
+      "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T2": 0.48,
+      "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R2": 0.48,
+      "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T1": 0.48
+    },
+    "revisits": [
+      {
+        "index": 7,
+        "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F2",
+        "new_purpose_node": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T3",
+        "basis_was_presented": true
+      }
+    ],
+    "suppressed_revisits": [],
+    "stop_reason": "all_fixed_Memory_presented; plan complete, speech not generated",
+    "rhythm_policy": {
+      "max_same_kind": 3,
+      "mode": "hard limit including REVISIT; preserve prerequisites and fixed labels",
+      "initial_complete_schedule_possible": true,
+      "search_budget": 20000,
+      "states_explored": 33,
+      "budget_exhausted": false
+    },
+    "semantic_status": "unverified",
+    "model_calls": 0,
+    "source_order_used": false,
+    "manual_steps_used_at_selection": false,
+    "backend": "rhythm",
+    "adapter_version": "memory-db-selector-v1",
+    "provenance": {
+      "snapshot_id": "snapshot_1284935f18afb667b407b5797cc5db5567a27f7c7845b6c2bfde3480767c54f2",
+      "snapshot_mode": "validation",
+      "sandbox_only": true,
+      "namespace": "zip_fiction",
+      "world_scope": "fictional",
+      "episode_id": "ep_7906018ae475593e80c62388e56f7e5b",
+      "revision_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06",
+      "external_id": "DB_23_CREATIVE_V1",
+      "review_status": "unreviewed",
+      "content_sha256": "81efc4bbe637bd67c5a79b70eded58f451bf6f0c88974f7d3ec4a8047a974b60",
+      "snapshot_projection_version": "memory-db-projection-v1",
+      "adapter_projection_version": "memory-db-projection-v1"
+    },
+    "ranker": "existing generic prior; no fitted ranking weights",
+    "semantic_link_policy": "explicit associations are soft; requires_context only is a hard order"
+  }
+}

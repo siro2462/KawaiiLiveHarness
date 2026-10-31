@@ -1,0 +1,709 @@
+{
+  "review_packet_sha256": "ff8cbe122cfc2c03d4ec087b876f5268193386fa2e046e43d10a39f1b6ab9fe4",
+  "root_full_text_read": true,
+  "human_quality_labels": 0,
+  "reviewed_call_ids": [
+    "R0001",
+    "R0002",
+    "R0003",
+    "R0004",
+    "R0005",
+    "R0006",
+    "R0007",
+    "R0008",
+    "R0009",
+    "R0010",
+    "R0011",
+    "R0012",
+    "R0013",
+    "R0014",
+    "R0015",
+    "R0016",
+    "R0017",
+    "R0018",
+    "R0019",
+    "R0020",
+    "R0021",
+    "R0022",
+    "R0023",
+    "R0024",
+    "R0025",
+    "R0026",
+    "R0027",
+    "R0028",
+    "R0029",
+    "R0030",
+    "R0031",
+    "R0032",
+    "R0033",
+    "R0034",
+    "R0035",
+    "R0036",
+    "R0037",
+    "R0038",
+    "R0039",
+    "R0040"
+  ],
+  "per_turn": [
+    {
+      "call_id": "R0001",
+      "sample_id": "M06",
+      "unit_index": 1,
+      "operation_following": "W2の期待を述べるが、条件だった測定を購入前の実行事実にする。",
+      "history_use": "初回で履歴なし。",
+      "fact_preservation": "購入前に測ったことは未支持。",
+      "epistemic_preservation": "期待自体は過去の期待としている。測定実行は断定。",
+      "repetition": "初回内の重複なし。",
+      "naturalness": "短い導入は口語だが定型のんだよね。",
+      "unsupported_additions": "サイズを測ってから買ってる",
+      "quotes": [
+        "あ、サイズを測ってから買ってるから、見た目もその通りに入ると思ってたんだよね。"
+      ]
+    },
+    {
+      "call_id": "R0002",
+      "sample_id": "M06",
+      "unit_index": 2,
+      "operation_following": "購入前W1の望みを短く表す。",
+      "history_use": "前の寸法の話から布ものへの期待へ続く。",
+      "fact_preservation": "具体的な新出来事なし。",
+      "epistemic_preservation": "したかったの過去の望みを維持。",
+      "repetition": "連続してんだよねで終わる。",
+      "naturalness": "短いが反応より説明。",
+      "unsupported_additions": "なし",
+      "quotes": [
+        "布ものとかも足して、部屋でゆっくり過ごせる雰囲気にしたかったんだよね。"
+      ]
+    },
+    {
+      "call_id": "R0003",
+      "sample_id": "M06",
+      "unit_index": 3,
+      "operation_following": "R1の戸惑いを直接の問いにする。",
+      "history_use": "直前の望みを受けて買い足しとくつろぎを疑う。",
+      "fact_preservation": "新出来事なし。",
+      "epistemic_preservation": "断言せずかなで問いにする。",
+      "repetition": "一括版の窮屈を単純再録せず問いにした。",
+      "naturalness": "あれ、なんだろうが直接的。",
+      "unsupported_additions": "なし",
+      "quotes": [
+        "あれ、……なんだろう。買い足した分だけ、ゆっくりできるわけじゃないのかな。"
+      ]
+    },
+    {
+      "call_id": "R0004",
+      "sample_id": "M06",
+      "unit_index": 4,
+      "operation_following": "T1の数字と布の印象の違いを言う。",
+      "history_use": "前の疑問への自分なりの評価としてつながる。",
+      "fact_preservation": "布の存在感と視界を保持。",
+      "epistemic_preservation": "解釈として述べる。",
+      "repetition": "とかの近接反復。",
+      "naturalness": "言い直しは自然だが測るだけじゃなくてが宙に残る。",
+      "unsupported_additions": "なし",
+      "quotes": [
+        "やっぱり、測るだけじゃなくて。……布とかの存在感とか、視界の詰まり具合は数字だけじゃ分かんないよね。"
+      ]
+    },
+    {
+      "call_id": "R0005",
+      "sample_id": "M06",
+      "unit_index": 5,
+      "operation_following": "F1の購入店・品物・配置を報告。",
+      "history_use": "評価後に出来事を説明し始め、導入が遅いのは固定順由来。",
+      "fact_preservation": "ニトリ/カーテン、無印/クッションを保持。",
+      "epistemic_preservation": "実行済みの購入と配置を維持。",
+      "repetition": "あ、で話を再開。",
+      "naturalness": "買った。置いてみた、という短文。",
+      "unsupported_additions": "なし",
+      "quotes": [
+        "あ、ニトリでカーテンと、無印でクッション買った。……置いてみたんだよね。"
+      ]
+    },
+    {
+      "call_id": "R0006",
+      "sample_id": "M06",
+      "unit_index": 6,
+      "operation_following": "T3の単品とまとめた時の違いを比較。",
+      "history_use": "直前の購入品を受ける。",
+      "fact_preservation": "新出来事なし。",
+      "epistemic_preservation": "好き/感じの主観を保持。",
+      "repetition": "またあ、から始まる。",
+      "naturalness": "口語だが説明の域。",
+      "unsupported_additions": "なし",
+      "quotes": [
+        "あ、一個ずつなら好きだけど、同じ場所にまとめるとまた違う感じがするんだよね。"
+      ]
+    },
+    {
+      "call_id": "R0007",
+      "sample_id": "M06",
+      "unit_index": 7,
+      "operation_following": "F1を再報告しREVISITを実現。",
+      "history_use": "直前2発話に同じF1があるのにほぼ言い直す。",
+      "fact_preservation": "店と品物と配置は保持。",
+      "epistemic_preservation": "実行済みを維持。",
+      "repetition": "R0005と同じ情報、評価の追加なし。",
+      "naturalness": "再言及の目的が弱く会話が戻る。",
+      "unsupported_additions": "なし",
+      "quotes": [
+        "あ、ニトリのカーテンと無印のクッション、置いてみたんだよね。"
+      ]
+    },
+    {
+      "call_id": "R0008",
+      "sample_id": "M06",
+      "unit_index": 8,
+      "operation_following": "T2が一括版の欠落から回復。",
+      "history_use": "買った物を残すことと感覚の優先を対比。結果F2はまだ未報告。",
+      "fact_preservation": "快適化した新結果は足していない。",
+      "epistemic_preservation": "よかったと思いたいを維持し実績にしない。",
+      "repetition": "やっぱりの導入。",
+      "naturalness": "短い自分への評価として意味がある。",
+      "unsupported_additions": "なし",
+      "quotes": [
+        "やっぱり、買ったものを残すことより、自分の感覚を優先してよかったと思いたいな。"
+      ]
+    },
+    {
+      "call_id": "R0009",
+      "sample_id": "M06",
+      "unit_index": 9,
+      "operation_following": "F3の一般的認識を述べる。",
+      "history_use": "直前の感覚優先を寸法対印象で説明。",
+      "fact_preservation": "イメージ違いを保持。",
+      "epistemic_preservation": "ことあるという一般性を保持。",
+      "repetition": "R0004と評価内容が重なる。やっぱりが連続。",
+      "naturalness": "会話として分かるが新しい進展は小さい。",
+      "unsupported_additions": "なし",
+      "quotes": [
+        "やっぱり、サイズを測ってても実際に置くとイメージと違うことあるよね。"
+      ]
+    },
+    {
+      "call_id": "R0010",
+      "sample_id": "M06",
+      "unit_index": 10,
+      "operation_following": "P1の今後の方針が一括版の欠落から回復。",
+      "history_use": "測定の限界を受け、買い足す前に現状を見る意向。",
+      "fact_preservation": "新たな実行を作らない。",
+      "epistemic_preservation": "眺めたいで未実行を保持。",
+      "repetition": "同一説明の繰返しなし。",
+      "naturalness": "短く意向を言える。",
+      "unsupported_additions": "なし",
+      "quotes": [
+        "買い足す前に、今の状態で一度部屋をじっくり眺めたいな。"
+      ]
+    },
+    {
+      "call_id": "R0011",
+      "sample_id": "M06",
+      "unit_index": 11,
+      "operation_following": "F2の圧迫感と半分の返品撤去を報告。",
+      "history_use": "将来案から過去の結果へ戻る固定順。",
+      "fact_preservation": "半分は返品して片付けたと読め、返品/撤去の内訳を固定する懸念。",
+      "epistemic_preservation": "実行済みは維持するが未知の内訳の扱いは曖昧。",
+      "repetition": "同turn内の水増しなし。",
+      "naturalness": "単純報告として聞ける。",
+      "unsupported_additions": "半分が返品だったと受け取れる表現",
+      "quotes": [
+        "圧迫感が出たから、半分は返品して、片付けたんだよね。"
+      ]
+    },
+    {
+      "call_id": "R0012",
+      "sample_id": "M06",
+      "unit_index": 12,
+      "operation_following": "R2の惜しさを直接的に出す。",
+      "history_use": "半分を戻す話を受けてせっかく選んだのにと反応。",
+      "fact_preservation": "新出来事なし。",
+      "epistemic_preservation": "感情を過度に強めない。",
+      "repetition": "かといっては戻した後の迷いとしてやや曖昧。",
+      "naturalness": "説明より短い反応に近い。",
+      "unsupported_additions": "なし",
+      "quotes": [
+        "うーん、かといって、せっかく選んだのにって思うし……。"
+      ]
+    },
+    {
+      "call_id": "R0013",
+      "sample_id": "M06",
+      "unit_index": 13,
+      "operation_following": "Q1の次回案を疑問形にする。",
+      "history_use": "返品した結果と惜しさを受けて対策を考える。",
+      "fact_preservation": "新しい成功事例は作らない。",
+      "epistemic_preservation": "分かるのかなで未検証を保持。ただし手前からタイミングへ弱まる。",
+      "repetition": "前の眺めたい案と関連するが同文の水増しではない。",
+      "naturalness": "短い自問として成立。",
+      "unsupported_additions": "なし",
+      "quotes": [
+        "次は一種類ずつ置いてみれば、圧迫感が出るタイミングが分かるのかな。"
+      ]
+    },
+    {
+      "call_id": "R0014",
+      "sample_id": "M06",
+      "unit_index": 14,
+      "operation_following": "F2を再言及するが、返品/撤去の区別を失う。",
+      "history_use": "対策の後に結果を再提示して締める。",
+      "fact_preservation": "半分は返品したと限定、撤去を落とし未知の内訳を断定。",
+      "epistemic_preservation": "元の実行内容を狭めている。",
+      "repetition": "R0011の圧迫感と半分を再説明するだけ。",
+      "naturalness": "あ、で結論を言い直すが新しい角度がない。",
+      "unsupported_additions": "半分すべてを返品したかのような限定",
+      "quotes": [
+        "あ、結局、半分は返品した。……圧迫感あったから。"
+      ]
+    },
+    {
+      "call_id": "R0015",
+      "sample_id": "M17",
+      "unit_index": 1,
+      "operation_following": "F1の最近の遅刻しそうな夢を報告。",
+      "history_use": "初回、履歴なし。",
+      "fact_preservation": "夢の学校へ向かうことを保持。",
+      "epistemic_preservation": "現実の遅刻にしない。",
+      "repetition": "一括版の冒頭と同じ。",
+      "naturalness": "簡潔だがんだよねの説明調。",
+      "unsupported_additions": "なし",
+      "quotes": [
+        "最近、学校に遅刻しそうで走る夢を見たんだよね。"
+      ]
+    },
+    {
+      "call_id": "R0016",
+      "sample_id": "M17",
+      "unit_index": 2,
+      "operation_following": "R1の脱力をはあという反応にする。",
+      "history_use": "目覚めて行かなくてよい、と直前の夢からつながる。",
+      "fact_preservation": "新出来事なし。",
+      "epistemic_preservation": "夢と起床後の区別を保持。",
+      "repetition": "間が二回ある。",
+      "naturalness": "短い直接反応の改善例。",
+      "unsupported_additions": "なし",
+      "quotes": [
+        "はあ……、目が覚めたらもう行かなくていいんだって思って。……夢の中でも急かされてたんだよね。"
+      ]
+    },
+    {
+      "call_id": "R0017",
+      "sample_id": "M17",
+      "unit_index": 3,
+      "operation_following": "T1の気にする内容の現実化を評価。",
+      "history_use": "夢の話を受け、景色より内容と考え直す。",
+      "fact_preservation": "医学的説明を追加しない。",
+      "epistemic_preservation": "感じがするで主観を保持。",
+      "repetition": "景色っていうかという言い直し。",
+      "naturalness": "思いながら話す感じはある。",
+      "unsupported_additions": "なし",
+      "quotes": [
+        "なんか、景色っていうか……。自分が気にしてる内容が、より現実っぽくなってる感じがするんだよね。"
+      ]
+    },
+    {
+      "call_id": "R0018",
+      "sample_id": "M17",
+      "unit_index": 4,
+      "operation_following": "F4の大人になってからの夢の傾向。",
+      "history_use": "前の現実っぽさの感想を具体化。",
+      "fact_preservation": "幻想的な夢がないとはしていない。",
+      "epistemic_preservation": "増えた気がするで比較を主観化。",
+      "repetition": "直前の現実っぽいを再説明。",
+      "naturalness": "あ、なんかが少し多い。",
+      "unsupported_additions": "なし",
+      "quotes": [
+        "あ、大人になってからは、なんか現実的な内容の夢が増えた気がする。"
+      ]
+    },
+    {
+      "call_id": "R0019",
+      "sample_id": "M17",
+      "unit_index": 5,
+      "operation_following": "Q1の二つの可能性を問い分ける。",
+      "history_use": "現実的な夢の増加を受けて本当に自由な夢が減ったのか疑う。",
+      "fact_preservation": "原因を新しく断定しない。",
+      "epistemic_preservation": "二択とも問いのまま。",
+      "repetition": "同じ説明の水増しなし。",
+      "naturalness": "短い疑問の展開として良い例。",
+      "unsupported_additions": "なし",
+      "quotes": [
+        "……ん、自由な夢が減ったのかな。それとも、焦る方の夢をよく覚えてるだけ？"
+      ]
+    },
+    {
+      "call_id": "R0020",
+      "sample_id": "M17",
+      "unit_index": 6,
+      "operation_following": "F4をREVISIT。",
+      "history_use": "疑問の直後に増えた気がすると元の話へ戻る。",
+      "fact_preservation": "比較は保持。",
+      "epistemic_preservation": "気がするを維持。",
+      "repetition": "R0018とほぼ同じ、問いへの新たな評価なし。",
+      "naturalness": "自問の進展を止める戻り。",
+      "unsupported_additions": "なし",
+      "quotes": [
+        "やっぱり、大人になってからは現実的な夢が増えた気がする。"
+      ]
+    },
+    {
+      "call_id": "R0021",
+      "sample_id": "M17",
+      "unit_index": 7,
+      "operation_following": "W2の飛ぶ夢の感覚を覚えたい望み。",
+      "history_use": "現実的な夢から飛ぶ夢へ関心を移す。",
+      "fact_preservation": "新しい飛行体験を実行済みにしない。",
+      "epistemic_preservation": "見たら/覚えておきたいの条件と願いを保持。",
+      "repetition": "あ、が繰返される。",
+      "naturalness": "短い願いとして自然。",
+      "unsupported_additions": "なし",
+      "quotes": [
+        "あ、また空飛ぶ夢を見たら、その感覚を覚えておきたいな。"
+      ]
+    },
+    {
+      "call_id": "R0022",
+      "sample_id": "M17",
+      "unit_index": 8,
+      "operation_following": "F2の幼少期の飛ぶ夢。",
+      "history_use": "前のまた飛びたいを受け、過去の背景を説明。",
+      "fact_preservation": "子どもの頃/よくを保持。",
+      "epistemic_preservation": "夢の中の出来事を維持。",
+      "repetition": "あ、が連続。",
+      "naturalness": "単文の口語だが毎回導入がつく。",
+      "unsupported_additions": "なし",
+      "quotes": [
+        "あ、子どもの頃は空飛ぶ夢をよく見てたな。"
+      ]
+    },
+    {
+      "call_id": "R0023",
+      "sample_id": "M17",
+      "unit_index": 9,
+      "operation_following": "R2の昔は飛べたのにという反応。",
+      "history_use": "直前の飛ぶ夢と今の走る夢を比較。",
+      "fact_preservation": "最近は走るばっかりが頻度を強める。一括版と同じ問題。",
+      "epistemic_preservation": "夢の範囲は履歴上明らかだが頻度は未支持。",
+      "repetition": "直接反応は増えたがばっかりも再現。",
+      "naturalness": "え、飛べたのに、は短い反応。",
+      "unsupported_additions": "最近の夢が走るものばかりという強化",
+      "quotes": [
+        "え、飛べたのに。最近は走るばっかりで、なんか変な感じ。"
+      ]
+    },
+    {
+      "call_id": "R0024",
+      "sample_id": "M17",
+      "unit_index": 10,
+      "operation_following": "P1の一言メモの案。",
+      "history_use": "変な夢の話から今後の記録案へ移る。",
+      "fact_preservation": "メモ済み/夢日記開始にはしない。",
+      "epistemic_preservation": "あったら/おきたいで未実行を保持。",
+      "repetition": "あ、の導入が続く。",
+      "naturalness": "案として簡潔だが感情を受けた展開は薄い。",
+      "unsupported_additions": "なし",
+      "quotes": [
+        "あ、他に印象的な夢があったら、一言だけメモしておきたいな。"
+      ]
+    },
+    {
+      "call_id": "R0025",
+      "sample_id": "M17",
+      "unit_index": 11,
+      "operation_following": "F3の知らない人との友達の夢。",
+      "history_use": "記録案から昔の別の夢に戻る。",
+      "fact_preservation": "幼少期/知らない人/友達/よくを保持。",
+      "epistemic_preservation": "現実の友達の話にしない。",
+      "repetition": "あ、そういえば、で再導入。",
+      "naturalness": "固定列の戻りを接続詞で処理している。",
+      "unsupported_additions": "なし",
+      "quotes": [
+        "あ、そういえば、子どもの頃は知らない人と友達になる夢もよく見てたな。"
+      ]
+    },
+    {
+      "call_id": "R0026",
+      "sample_id": "M17",
+      "unit_index": 12,
+      "operation_following": "W1の夢で自由に動きたい望み。",
+      "history_use": "昔の自由な夢の説明から現在の願いへ。",
+      "fact_preservation": "新事実なし。",
+      "epistemic_preservation": "せめて/動きたいで願いのまま。",
+      "repetition": "はあを繰返すが同文ではない。",
+      "naturalness": "説明より直接の願いになる。",
+      "unsupported_additions": "なし",
+      "quotes": [
+        "はあ、せめて夢の中くらいは、時間を気にせず自由に動きたいな。"
+      ]
+    },
+    {
+      "call_id": "R0027",
+      "sample_id": "M17",
+      "unit_index": 13,
+      "operation_following": "T2の夢と現実の区別を評価。",
+      "history_use": "直前2発話には学校の話がなく、遠いF1を参照して唐突に訂正。",
+      "fact_preservation": "現実でも学校へ遅刻したという追加はない。",
+      "epistemic_preservation": "夢から現実の遅刻を推論しない点を維持。",
+      "repetition": "不要に聞こえる訂正口調。",
+      "naturalness": "あ、いや、が実際の誤解なしでも付く。",
+      "unsupported_additions": "なし",
+      "quotes": [
+        "あ、いや、夢が忙しいからって、現実でも遅刻しそうだったわけじゃないよ。"
+      ]
+    },
+    {
+      "call_id": "R0028",
+      "sample_id": "M17",
+      "unit_index": 14,
+      "operation_following": "F1をREVISIT。",
+      "history_use": "訂正の後に最初と同じ夢の話に戻る。",
+      "fact_preservation": "見るんだよねと習慣にも読める。単回の見たから拡張。",
+      "epistemic_preservation": "夢/現実は保持、頻度が曖昧化。",
+      "repetition": "R0015とほぼ同じ、評価の追加なし。",
+      "naturalness": "新しい終わり方ではなく初めからやり直す感じ。",
+      "unsupported_additions": "反復的な夢の頻度を暗示",
+      "quotes": [
+        "あ、最近、学校に遅刻しそうで走る夢を見るんだよね。"
+      ]
+    },
+    {
+      "call_id": "R0029",
+      "sample_id": "M23",
+      "unit_index": 1,
+      "operation_following": "F3に指定された二つの強い感情を述べる。",
+      "history_use": "初回なのに対象の跳び箱を言わない。固定列の先頭F3由来。",
+      "fact_preservation": "成功/失敗を両方保持。新しい発生順は作らない。",
+      "epistemic_preservation": "両方の記憶を保持。",
+      "repetition": "本文内の重複なし。",
+      "naturalness": "あ、から感情の説明で始まり、聞き手には対象不明。",
+      "unsupported_additions": "なし",
+      "quotes": [
+        "……あ、失敗した時の恥ずかしさも、成功した時の達成感も、どっちも強烈だったな。"
+      ]
+    },
+    {
+      "call_id": "R0030",
+      "sample_id": "M23",
+      "unit_index": 2,
+      "operation_following": "R2の見られているような感覚。",
+      "history_use": "恥ずかしさを受けて具体化。",
+      "fact_preservation": "周囲が本当に見たとは断定しない。立ち上がるまでずっとは持続の強まり。",
+      "epistemic_preservation": "気がしてで主観を維持。",
+      "repetition": "一括版と同じ持続表現。",
+      "naturalness": "うわという直接反応は出る。",
+      "unsupported_additions": "視線が続く時間の表現がやや強い",
+      "quotes": [
+        "……うわ、マットに落ちたとき、立ち上がるまでずっと見られてる気がして。"
+      ]
+    },
+    {
+      "call_id": "R0031",
+      "sample_id": "M23",
+      "unit_index": 3,
+      "operation_following": "Q1の視線の再評価。",
+      "history_use": "直前の見られていた気分を実際はどうだったか考え直す。",
+      "fact_preservation": "嘲笑などは追加しない。",
+      "epistemic_preservation": "かな/かもで未確認を維持。",
+      "repetition": "単なる言い換えでなく評価を更新。",
+      "naturalness": "短い自問から別解へ進む良い例。",
+      "unsupported_additions": "なし",
+      "quotes": [
+        "……いや、実際はどれくらい見てたのかな。自分の恥ずかしさで、勝手に大きく感じてただけかも。"
+      ]
+    },
+    {
+      "call_id": "R0032",
+      "sample_id": "M23",
+      "unit_index": 4,
+      "operation_following": "F2の先生・段数変更・失敗落下。",
+      "history_use": "視線の話の後で落下の背景を初めて説明。",
+      "fact_preservation": "元事実を保持。",
+      "epistemic_preservation": "一つの失敗記憶として述べる。",
+      "repetition": "後のR0035と完全同文。",
+      "naturalness": "単独では自然だが背景説明が遅い。",
+      "unsupported_additions": "なし",
+      "quotes": [
+        "あ、先生に言われて段数を上げたんだけど、失敗してマットに落ちちゃったんだよね。"
+      ]
+    },
+    {
+      "call_id": "R0033",
+      "sample_id": "M23",
+      "unit_index": 5,
+      "operation_following": "R1の高く見えた反応を直接表現。",
+      "history_use": "段数を上げた話を受ける。",
+      "fact_preservation": "一段は創作断片の短い言葉にも含まれSurfaceが独自追加した数字ではない。",
+      "epistemic_preservation": "大きく見えた主観を保持。",
+      "repetition": "説明後に驚きを出す。",
+      "naturalness": "え、一段ってこんなに違う、が反応らしい。",
+      "unsupported_additions": "なし（元DB未記載の一段は入力の創作補完由来）",
+      "quotes": [
+        "え、一段ってこんなに違うんだ。……急に大きく見えたんだよね。"
+      ]
+    },
+    {
+      "call_id": "R0034",
+      "sample_id": "M23",
+      "unit_index": 6,
+      "operation_following": "T3の助走の評価を部分的に述べる。",
+      "history_use": "前の高さを受けるが怖かったのは…の後が噛み合わない。",
+      "fact_preservation": "跳べたかだけで評価する条件が落ち、高さまで助走という位置表現も不自然。",
+      "epistemic_preservation": "忘れてそうは推測だが評価の理由が欠ける。",
+      "repetition": "新しい文ではあるが意味が弱い。",
+      "naturalness": "怖かったのは…が未完で、助走してたの忘れてそうも曖昧。",
+      "unsupported_additions": "新出来事ではなく比較軸の欠落",
+      "quotes": [
+        "え、怖かったのは……。自分でも、あんな高さまで助走してたの、忘れてそう。"
+      ]
+    },
+    {
+      "call_id": "R0035",
+      "sample_id": "M23",
+      "unit_index": 7,
+      "operation_following": "F2のREVISIT。",
+      "history_use": "評価後に出来事へ戻るが表現の役割がない。",
+      "fact_preservation": "元事実は保持。",
+      "epistemic_preservation": "同じ失敗、別の再挑戦にはしていない。",
+      "repetition": "R0032と全文完全一致。",
+      "naturalness": "会話が巻き戻る。",
+      "unsupported_additions": "なし",
+      "quotes": [
+        "あ、先生に言われて段数を上げたんだけど、失敗してマットに落ちちゃったんだよね。"
+      ]
+    },
+    {
+      "call_id": "R0036",
+      "sample_id": "M23",
+      "unit_index": 8,
+      "operation_following": "W1の挑戦前の格好よく越えたい期待。",
+      "history_use": "落下の説明から挑戦前へ戻る固定順。",
+      "fact_preservation": "成功した新事実にはしない。",
+      "epistemic_preservation": "越えられたら/思ってたで条件と過去の期待を維持。",
+      "repetition": "んだよねの反復。",
+      "naturalness": "短い口語だが時間移動が伝わりにくい。",
+      "unsupported_additions": "なし",
+      "quotes": [
+        "段が増えても、助走の勢いで越えられたら格好いいなって思ってたんだよね。"
+      ]
+    },
+    {
+      "call_id": "R0037",
+      "sample_id": "M23",
+      "unit_index": 9,
+      "operation_following": "F1の小学校体育という背景。",
+      "history_use": "9発話目で初めて場面を明示。",
+      "fact_preservation": "学校の体育/跳び箱を保持。",
+      "epistemic_preservation": "過去を維持。",
+      "repetition": "導入をあ、でまた付ける。",
+      "naturalness": "全体の流れでは唐突。固定順の問題。",
+      "unsupported_additions": "なし",
+      "quotes": [
+        "あ、小学校の体育で跳び箱やってたんだよね。"
+      ]
+    },
+    {
+      "call_id": "R0038",
+      "sample_id": "M23",
+      "unit_index": 10,
+      "operation_following": "T2の成功と恥ずかしさの共存を比較。",
+      "history_use": "昔の話の中で両方残る評価へ戻る。",
+      "fact_preservation": "成功したからといってはあるが直後に成功したとは指定しない。",
+      "epistemic_preservation": "消えるわけでもない/感じで共存を保持。",
+      "repetition": "F3の感情説明と関連するが評価を加える。",
+      "naturalness": "語りの意味はある。",
+      "unsupported_additions": "なし",
+      "quotes": [
+        "……いや、成功したからって、あの時の恥ずかしさが消えるわけでもないんだよね。両方残ってる感じ。"
+      ]
+    },
+    {
+      "call_id": "R0039",
+      "sample_id": "M23",
+      "unit_index": 11,
+      "operation_following": "T1の数値と挑戦者の感覚を比較。",
+      "history_use": "前の感情の共存から高さの評価へ移る。",
+      "fact_preservation": "新たな段数や結果なし。一段は元の創作評価の語。",
+      "epistemic_preservation": "主観的評価として述べる。",
+      "repetition": "同じ説明の反復ではない。",
+      "naturalness": "短くても比較の軸が明確な例。",
+      "unsupported_additions": "なし",
+      "quotes": [
+        "数字の一段って、たったそれだけに見えるけど、助走を始める側としてはまた別の挑戦だったんだよね。"
+      ]
+    },
+    {
+      "call_id": "R0040",
+      "sample_id": "M23",
+      "unit_index": 12,
+      "operation_following": "W2の失敗後の希望を述べる。",
+      "history_use": "挑戦の評価を受け、次回に何を優先したかったか。",
+      "fact_preservation": "新しい再挑戦や成功は作らない。",
+      "epistemic_preservation": "したかったを維持。一括版の大事だという判断から希望へ戻る。",
+      "repetition": "あーの反応はあるが終わりは説明調。",
+      "naturalness": "自然な回想だが当時の希望を説明する表現。",
+      "unsupported_additions": "なし",
+      "quotes": [
+        "あー……次は、目立つことより、とにかく落ち着いて手をつくのを優先したかったんだよね。"
+      ]
+    }
+  ],
+  "per_sample": [
+    {
+      "sample_id": "M06",
+      "unit_length": "14callの各1〜2文。短い戸惑い、評価、方針が別の発話として出た。",
+      "oral_style": "R0003のあれ、なんだろう/R0012のうーんは直接反応。んだよねやあ、の反復も残る。",
+      "repetition": "F1再言及R0007、F2再言及R0014は新しい評価がなく説明の繰返し。",
+      "fact_preservation": "一括版と同じ購入前測定の未支持断定がR0001に残る。R0014は半分を返品したと限定し、元の返品・撤去の内訳不明を落とす。",
+      "epistemic_preservation": "T2のよかったと思いたい、P1の眺めたい、Q1のかなを維持。実際に快適になったとはしていない。",
+      "operation_following": "T2/P1が一括版では欠け、逐次では明示された。ただし全14操作を意味完全一致とする採点ではない。",
+      "discourse": "購入の説明が5発話目、返品結果が11発話目。固定CPU順の時系列往復が残る。",
+      "naturalness": "反応と考えの小さい単位は改善例がある。全体のまとまりは一括の方がよい箇所もある。",
+      "unsupported_additions": "購入前測定、返品内訳の限定。few-shotのくじ/鍵の出来事混入は見当たらない。",
+      "quotes_baseline": [
+        "ちゃんと測ってから買ったから",
+        "あれ、窮屈。",
+        "半分は返品とか撤去したんだよね。"
+      ]
+    },
+    {
+      "sample_id": "M17",
+      "unit_length": "14call。各単文か短い二文で、疑問を独立させられた。",
+      "oral_style": "はあ、え、自由な夢が減ったのかな、など直接反応と自問が出る。あ、の再開が多い。",
+      "repetition": "現実的な夢の増加R0018/R0020、遅刻の夢R0015/R0028を反復。",
+      "fact_preservation": "夢と現実は区別。一括版にもあった最近は走るばっかりの頻度強化が残る。最終の見るは習慣にも読める。",
+      "epistemic_preservation": "Q1の二つの可能性、夢を見たらという願い、未実行メモ案を維持。原因や診断は断定しない。",
+      "operation_following": "指定内容を順に短文化したがREVISITは評価更新にならない。同じ内容を聞き直す効果が強い。",
+      "discourse": "自由な夢への問いから元の増加話へ戻る。遠い学校の話をあ、いやで訂正する接続も唐突。",
+      "naturalness": "自問の一単位は良い。全体は再導入の多い短文列で、一括より自然と断定できない。",
+      "unsupported_additions": "走るばっかりの一般化と夢を見るの頻度暗示。few-shot出来事の混入なし。",
+      "quotes_baseline": [
+        "最近は走ってるばっかりで",
+        "単にこういう焦る夢をよく覚えてるだけなのかな。"
+      ]
+    },
+    {
+      "sample_id": "M23",
+      "unit_length": "12call。反応と評価を短く分けたが背景説明は9発話目。",
+      "oral_style": "うわ、え、一段ってこんなに違う、いや実際は、が直接反応になる。感情の説明も残る。",
+      "repetition": "R0032とR0035が実本文の全文完全一致。単なる固定列の再言及が強い。",
+      "fact_preservation": "先生/段数/失敗/マット、成功と失敗の感情を保持。重大事故や嘲笑や直後の成功の追加なし。",
+      "epistemic_preservation": "視線は気がして/かな/かもを保持。W2はしたかったで未実行の希望に戻り一括より明瞭。",
+      "operation_following": "T3は跳べたかだけで評価する条件が落ち、怖かったのは…の文も不自然。細分化で意味が欠ける例。",
+      "discourse": "感情から始まり、視線、失敗、挑戦前、小学校体育へ往復。これは元のCPU列を固定した影響。",
+      "naturalness": "短い驚き/自問の良例があるが、全体の導入と同文反復は悪化。",
+      "unsupported_additions": "一段は入力の創作断片にも含まれSurface単独の追加ではない。視線の持続はやや強い。保留P1は追加されていない。",
+      "quotes_baseline": [
+        "立ち上がるまでずっと見られてる気がして",
+        "次は落ち着いて手をつくことの方が大事だなって思っちゃった。"
+      ]
+    }
+  ],
+  "limits": [
+    "1seed・既知3素材のみ。設計者AIが条件を知って全文評価、人間品質ラベル0、実TTS0。",
+    "Memoryは元DB由来と手動創作補完を含む。元の確認状態/保留1は維持。",
+    "CPU列の固定逐次実現。実本文は履歴へ返すが意味に基づく次操作再選択・自発的な発案は未実装。",
+    "last2発話/800字窓。入力範囲・短文指示・履歴・呼出数を同時に変更し、分割だけの独立効果ではない。",
+    "全40件の引用付き定性レビューであり網羅的な意味実行率や人間類似率の算出はしていない。"
+  ],
+  "reading_proof": "root_read/view_proof.json",
+  "review_method": "root read common exact strings, all three source/header/code/operation views, baseline RAW, all40 compact full RAW/history/reference/scope rows. Lossless proof reconstructs all actual prompt/decoded strings; numeric tokens CPU checked."
+}

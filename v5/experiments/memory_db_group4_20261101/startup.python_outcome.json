@@ -1,0 +1,8 @@
+{
+  "pid": 18692,
+  "exit_code": 0,
+  "python_error": null,
+  "exit_scope": "observed Python outcome; immediate process exit after stream flush",
+  "script": "C:/NodeJS/KawaiiLive/work/astra/_talk/harness_beta/runs/memory_db_group4_20261101_v1/executed_source/startup_probe.py",
+  "args": []
+}

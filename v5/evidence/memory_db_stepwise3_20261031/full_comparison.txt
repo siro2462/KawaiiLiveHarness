@@ -1,0 +1,2909 @@
+M06 置いて初めて分かった部屋の密度
+【前回：一括】
+ちゃんと測ってから買ったから、見た目も収まると思ってたんだけど。布ものを足して、もっとゆっくり過ごせる感じにしたかったのに……。あれ、窮屈。
+
+ニトリのカーテンと無印良品のクッションを置いたんだけど、一つずつなら良くても、同じ空間に重ねるとまた違う印象になるんだよね。数字を測るだけじゃ、布の存在感とか視界の詰まり方までは分かんないんだと思う。
+
+せっかく買ったのに、結局、圧迫感が出ちゃって半分は返品とか撤去したんだよね。……あー、惜しい。次は、一種類ずつ置いて様子を見てみれば、圧迫感が出る前に気づけるのかな。家具の配置って、サイズを測っててもイメージと違うことがあるから。
+【今回：1操作ずつ・採用順全文】
+あ、サイズを測ってから買ってるから、見た目もその通りに入ると思ってたんだよね。
+布ものとかも足して、部屋でゆっくり過ごせる雰囲気にしたかったんだよね。
+あれ、……なんだろう。買い足した分だけ、ゆっくりできるわけじゃないのかな。
+やっぱり、測るだけじゃなくて。……布とかの存在感とか、視界の詰まり具合は数字だけじゃ分かんないよね。
+あ、ニトリでカーテンと、無印でクッション買った。……置いてみたんだよね。
+あ、一個ずつなら好きだけど、同じ場所にまとめるとまた違う感じがするんだよね。
+あ、ニトリのカーテンと無印のクッション、置いてみたんだよね。
+やっぱり、買ったものを残すことより、自分の感覚を優先してよかったと思いたいな。
+やっぱり、サイズを測ってても実際に置くとイメージと違うことあるよね。
+買い足す前に、今の状態で一度部屋をじっくり眺めたいな。
+圧迫感が出たから、半分は返品して、片付けたんだよね。
+うーん、かといって、せっかく選んだのにって思うし……。
+次は一種類ずつ置いてみれば、圧迫感が出るタイミングが分かるのかな。
+あ、結局、半分は返品した。……圧迫感あったから。
+【全試行：保留も省略しない】
+R0001 あ、サイズを測ってから買ってるから、見た目もその通りに入ると思ってたんだよね。
+R0002 布ものとかも足して、部屋でゆっくり過ごせる雰囲気にしたかったんだよね。
+R0003 あれ、……なんだろう。買い足した分だけ、ゆっくりできるわけじゃないのかな。
+R0004 やっぱり、測るだけじゃなくて。……布とかの存在感とか、視界の詰まり具合は数字だけじゃ分かんないよね。
+R0005 あ、ニトリでカーテンと、無印でクッション買った。……置いてみたんだよね。
+R0006 あ、一個ずつなら好きだけど、同じ場所にまとめるとまた違う感じがするんだよね。
+R0007 あ、ニトリのカーテンと無印のクッション、置いてみたんだよね。
+R0008 やっぱり、買ったものを残すことより、自分の感覚を優先してよかったと思いたいな。
+R0009 やっぱり、サイズを測ってても実際に置くとイメージと違うことあるよね。
+R0010 買い足す前に、今の状態で一度部屋をじっくり眺めたいな。
+R0011 圧迫感が出たから、半分は返品して、片付けたんだよね。
+R0012 うーん、かといって、せっかく選んだのにって思うし……。
+R0013 次は一種類ずつ置いてみれば、圧迫感が出るタイミングが分かるのかな。
+R0014 あ、結局、半分は返品した。……圧迫感あったから。
+【元Memory】
+{
+  "作成方法": "エージェントが一件ずつ個別に手作業で創作補完",
+  "使い方": "IDは材料どうしの対応を示し、発話順を指定しない。創作補完は元DBの事実として扱わない。",
+  "元DB": {
+    "episode": "ニトリでカーテン、無印良品でクッションを購入し部屋に置いたが、圧迫感が出たため半分を返品・撤去した。家具の配置はサイズを測っても実際に置くとイメージと異なることがある。",
+    "episode_sha256": "bea84898c4306375369bc0b668ef9756567c2b8b3004f0e4695eedf9e4063786",
+    "id": 6
+  },
+  "参考": {
+    "path": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\memory_manual_enrichment_20261029_v1\\references\\ルーナ_flow_topic_style_all_topics_v1.yaml",
+    "sha256": "d49907394e114ca25231b6c0d05ab95316672f8af7a74d65c2764b855ed862cd",
+    "取り入れた展開": "欲しい物を迎える喜びから置き場という現実へ切り替える展開を、布ものへの期待と圧迫感、残す判断の再評価へ取り入れた。",
+    "短い引用": [
+      "置き場大変。"
+    ],
+    "話題": "増えたぬいぐるみの置き場所を具体的に語る箇所"
+  },
+  "形式": "talk_memory_input_draft.v1",
+  "記憶": {
+    "その後・今後": [
+      {
+        "ID": "P1",
+        "内容": "買い足す前に、今ある物を置いた状態で部屋を眺める時間を取りたい。",
+        "原文根拠": [],
+        "状態": "創作設定の方針・未実行",
+        "由来": "創作補完"
+      }
+    ],
+    "不明なこと": [
+      "半分の数え方、返品した品目、寸法、返品後の部屋の印象は不明。"
+    ],
+    "体験した人": "ZIPちゃんの架空設定",
+    "元情報": "元DB memory ID 6。元記憶を保持し、未記載の望み・反応・評価・案には創作補完を含む。",
+    "出来事": [
+      {
+        "ID": "F1",
+        "内容": "ニトリでカーテン、無印良品でクッションを購入して部屋に置いた。",
+        "原文根拠": [
+          "ニトリでカーテン、無印良品でクッションを購入し部屋に置いたが、"
+        ],
+        "由来": "元記憶",
+        "確かさ": "元記憶の実行済み行動"
+      },
+      {
+        "ID": "F2",
+        "内容": "圧迫感が出たため半分を返品・撤去した。",
+        "原文根拠": [
+          "圧迫感が出たため半分を返品・撤去した。"
+        ],
+        "由来": "元記憶",
+        "確かさ": "元記憶の結果・品目別内訳不明"
+      },
+      {
+        "ID": "F3",
+        "内容": "家具の配置はサイズを測っても実際に置くとイメージと異なることがある。",
+        "原文根拠": [
+          "家具の配置はサイズを測っても実際に置くとイメージと異なることがある。"
+        ],
+        "由来": "元記憶",
+        "確かさ": "元記憶の認識"
+      }
+    ],
+    "反応": [
+      {
+        "ID": "R1",
+        "内容": "部屋を見回して、買い足した分だけくつろげるわけではないと戸惑う。",
+        "原文根拠": [],
+        "対応ID": [
+          "F1",
+          "F2",
+          "W1"
+        ],
+        "由来": "創作補完",
+        "短い言葉": "あれ、窮屈。",
+        "確かさ": "創作設定"
+      },
+      {
+        "ID": "R2",
+        "内容": "半分を戻す判断には、せっかく選んだのにという惜しさも感じた。",
+        "原文根拠": [],
+        "対応ID": [
+          "F2"
+        ],
+        "由来": "創作補完",
+        "短い言葉": "選んだ時間もあったけど。",
+        "確かさ": "創作設定の感情"
+      }
+    ],
+    "場面": {
+      "いつ": "購入後・具体日不明",
+      "どこ": "自分の部屋",
+      "誰と": null
+    },
+    "望み・期待": [
+      {
+        "ID": "W1",
+        "いつの望み・期待か": "創作設定・購入前",
+        "内容": "布ものを足して、部屋でゆっくり過ごせる雰囲気にしたかった。",
+        "原文根拠": [],
+        "由来": "創作補完"
+      },
+      {
+        "ID": "W2",
+        "いつの望み・期待か": "創作設定・配置前",
+        "内容": "測って入るなら、見た目も想像どおり収まると期待した。",
+        "原文根拠": [],
+        "由来": "創作補完"
+      }
+    ],
+    "疑問・推測": [
+      {
+        "ID": "Q1",
+        "内容": "次は一種類ずつ置いて見れば、圧迫感が出る手前を見つけやすいだろうか。",
+        "原文根拠": [],
+        "対応ID": [
+          "F1",
+          "F2"
+        ],
+        "由来": "創作補完",
+        "確かさ": "創作設定の未検証案",
+        "答えになる情報ID": []
+      }
+    ],
+    "素材区分": "既存記憶を基にした創作補完",
+    "考え・評価": [
+      {
+        "ID": "T1",
+        "内容": "測ることは必要でも、布の存在感や視界の詰まり方までは数字だけで決めにくいと思う。",
+        "原文根拠": [],
+        "根拠ID": [
+          "F3",
+          "R1"
+        ],
+        "由来": "創作補完",
+        "確かさ": "創作設定の解釈",
+        "見ている角度": "寸法と印象"
+      },
+      {
+        "ID": "T2",
+        "内容": "買った物を残すことより、部屋で過ごす自分の感覚を優先してよかったと思いたい。",
+        "原文根拠": [],
+        "根拠ID": [
+          "F2",
+          "W1",
+          "R2"
+        ],
+        "由来": "創作補完",
+        "確かさ": "創作設定の評価・快適化の実績は未断定",
+        "見ている角度": "手放す判断"
+      },
+      {
+        "ID": "T3",
+        "内容": "一つずつなら好きでも、同じ空間に重ねると違う印象になることがあると捉える。",
+        "原文根拠": [],
+        "根拠ID": [
+          "F1",
+          "F3"
+        ],
+        "由来": "創作補完",
+        "確かさ": "創作設定の見方",
+        "見ている角度": "選び方"
+      }
+    ],
+    "補ってはいけないこと": [
+      "半分を全部返品と置き換えたり、特定商品の欠陥の話にしたりしない。"
+    ],
+    "記憶ID": "DB_6_CREATIVE_V1",
+    "話の中心": "寸法が合うことと、部屋で快適に感じることは違った。",
+    "題名": "置いて初めて分かった部屋の密度"
+  }
+}
+【全CPU操作・保留】
+{
+  "schema": "mechanical-stripe-selector-v1",
+  "steps": [
+    {
+      "index": 1,
+      "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:W2",
+      "operation": "REACT",
+      "kind": "E",
+      "content": "測って入るなら、見た目も想像どおり収まると期待した。",
+      "epistemic": "speaker_desire",
+      "relation": "continuity_only_not_causal",
+      "anchor_id": null
+    },
+    {
+      "index": 2,
+      "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:W1",
+      "operation": "REACT",
+      "kind": "E",
+      "content": "布ものを足して、部屋でゆっくり過ごせる雰囲気にしたかった。",
+      "epistemic": "speaker_desire",
+      "relation": "continuity_only_not_causal",
+      "anchor_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:W2"
+    },
+    {
+      "index": 3,
+      "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R1",
+      "operation": "REACT",
+      "kind": "E",
+      "content": "部屋を見回して、買い足した分だけくつろげるわけではないと戸惑う。",
+      "epistemic": "speaker_reaction",
+      "relation": "explicit_reaction",
+      "anchor_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:W1"
+    },
+    {
+      "index": 4,
+      "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T1",
+      "operation": "APPRAISE",
+      "kind": "T",
+      "content": "測ることは必要でも、布の存在感や視界の詰まり方までは数字だけで決めにくいと思う。",
+      "epistemic": "speaker_evaluation",
+      "relation": "explicit_appraisal",
+      "anchor_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R1"
+    },
+    {
+      "index": 5,
+      "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F1",
+      "operation": "REPORT",
+      "kind": "F",
+      "content": "ニトリでカーテン、無印良品でクッションを購入して部屋に置いた。",
+      "epistemic": "speaker_report",
+      "relation": "continuity_only_not_causal",
+      "anchor_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T1"
+    },
+    {
+      "index": 6,
+      "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T3",
+      "operation": "COMPARE",
+      "kind": "T",
+      "content": "一つずつなら好きでも、同じ空間に重ねると違う印象になることがあると捉える。",
+      "epistemic": "speaker_evaluation",
+      "relation": "explicit_appraisal",
+      "anchor_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F1"
+    },
+    {
+      "index": 7,
+      "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F1",
+      "operation": "REVISIT",
+      "kind": "F",
+      "content": "ニトリでカーテン、無印良品でクッションを購入して部屋に置いた。",
+      "epistemic": "speaker_report",
+      "relation": "return_after_new_evaluation_not_new_fact",
+      "anchor_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T3"
+    },
+    {
+      "index": 8,
+      "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T2",
+      "operation": "COMPARE",
+      "kind": "T",
+      "content": "買った物を残すことより、部屋で過ごす自分の感覚を優先してよかったと思いたい。",
+      "epistemic": "speaker_evaluation",
+      "relation": "explicit_appraisal",
+      "anchor_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:W1"
+    },
+    {
+      "index": 9,
+      "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F3",
+      "operation": "REPORT",
+      "kind": "F",
+      "content": "家具の配置はサイズを測っても実際に置くとイメージと異なることがある。",
+      "epistemic": "speaker_report",
+      "relation": "continuity_only_not_causal",
+      "anchor_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T2"
+    },
+    {
+      "index": 10,
+      "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:P1",
+      "operation": "EXPLORE",
+      "kind": "T",
+      "content": "買い足す前に、今ある物を置いた状態で部屋を眺める時間を取りたい。",
+      "epistemic": "speaker_expectation",
+      "relation": "continuity_only_not_causal",
+      "anchor_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F3"
+    },
+    {
+      "index": 11,
+      "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2",
+      "operation": "REPORT",
+      "kind": "F",
+      "content": "圧迫感が出たため半分を返品・撤去した。",
+      "epistemic": "uncertain_memory",
+      "relation": "continuity_only_not_causal",
+      "anchor_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:P1"
+    },
+    {
+      "index": 12,
+      "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R2",
+      "operation": "REACT",
+      "kind": "E",
+      "content": "半分を戻す判断には、せっかく選んだのにという惜しさも感じた。",
+      "epistemic": "speaker_reaction",
+      "relation": "explicit_reaction",
+      "anchor_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2"
+    },
+    {
+      "index": 13,
+      "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1",
+      "operation": "REPAIR",
+      "kind": "T",
+      "content": "次は一種類ずつ置いて見れば、圧迫感が出る手前を見つけやすいだろうか。",
+      "epistemic": "uncertain_memory",
+      "relation": "explicit_about",
+      "anchor_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2"
+    },
+    {
+      "index": 14,
+      "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2",
+      "operation": "REVISIT",
+      "kind": "F",
+      "content": "圧迫感が出たため半分を返品・撤去した。",
+      "epistemic": "uncertain_memory",
+      "relation": "return_after_new_evaluation_not_new_fact",
+      "anchor_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1"
+    }
+  ],
+  "constraints": [],
+  "unresolved_relations": [],
+  "rejected_constraints": [],
+  "deferred_nodes": [],
+  "decisions": [
+    {
+      "index": 1,
+      "candidates": [
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:W2",
+          "priority": 0.13,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:W1",
+          "priority": 0.13,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F3",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:P1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1",
+          "priority": 0.91,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R2",
+          "priority": 1.28,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T1",
+          "priority": 1.28,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T2",
+          "priority": 1.28,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R1",
+          "priority": 1.28,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T3",
+          "priority": 1.28,
+          "rule": "continuity_only_not_causal"
+        }
+      ],
+      "chosen": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:W2",
+      "rejected_by_same_kind_limit": [],
+      "completion_checks": [
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:W2",
+          "complete_schedule_possible": true
+        }
+      ],
+      "last_kind": null,
+      "streak": 0
+    },
+    {
+      "index": 2,
+      "candidates": [
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:W1",
+          "priority": 0.165,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F3",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:P1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1",
+          "priority": 0.91,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T1",
+          "priority": 1.28,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T2",
+          "priority": 1.28,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T3",
+          "priority": 1.28,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R2",
+          "priority": 1.315,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R1",
+          "priority": 1.315,
+          "rule": "continuity_only_not_causal"
+        }
+      ],
+      "chosen": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:W1",
+      "rejected_by_same_kind_limit": [],
+      "completion_checks": [
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:W1",
+          "complete_schedule_possible": true
+        }
+      ],
+      "last_kind": "E",
+      "streak": 1
+    },
+    {
+      "index": 3,
+      "candidates": [
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R1",
+          "priority": -0.805,
+          "rule": "explicit_reaction"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T2",
+          "priority": 0.16,
+          "rule": "explicit_appraisal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F3",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:P1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1",
+          "priority": 0.91,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T1",
+          "priority": 1.28,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T3",
+          "priority": 1.28,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R2",
+          "priority": 1.315,
+          "rule": "continuity_only_not_causal"
+        }
+      ],
+      "chosen": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R1",
+      "rejected_by_same_kind_limit": [],
+      "completion_checks": [
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R1",
+          "complete_schedule_possible": true
+        }
+      ],
+      "last_kind": "E",
+      "streak": 2
+    },
+    {
+      "index": 4,
+      "candidates": [
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T1",
+          "priority": 0.16,
+          "rule": "explicit_appraisal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F3",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T2",
+          "priority": 0.48,
+          "rule": "explicit_appraisal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:P1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1",
+          "priority": 0.91,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T3",
+          "priority": 1.28,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R2",
+          "priority": 1.315,
+          "rule": "continuity_only_not_causal"
+        }
+      ],
+      "chosen": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T1",
+      "rejected_by_same_kind_limit": [
+        "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R2"
+      ],
+      "completion_checks": [
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T1",
+          "complete_schedule_possible": true
+        }
+      ],
+      "last_kind": "E",
+      "streak": 3
+    },
+    {
+      "index": 5,
+      "candidates": [
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F3",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T2",
+          "priority": 0.515,
+          "rule": "explicit_appraisal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:P1",
+          "priority": 0.515,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1",
+          "priority": 0.945,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R2",
+          "priority": 1.28,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T3",
+          "priority": 1.315,
+          "rule": "continuity_only_not_causal"
+        }
+      ],
+      "chosen": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F1",
+      "rejected_by_same_kind_limit": [],
+      "completion_checks": [
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F1",
+          "complete_schedule_possible": true
+        }
+      ],
+      "last_kind": "T",
+      "streak": 1
+    },
+    {
+      "index": 6,
+      "candidates": [
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T3",
+          "priority": 0.16,
+          "rule": "explicit_appraisal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T2",
+          "priority": 0.48,
+          "rule": "explicit_appraisal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:P1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F3",
+          "priority": 0.515,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2",
+          "priority": 0.515,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1",
+          "priority": 0.59,
+          "rule": "explicit_about"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R2",
+          "priority": 1.28,
+          "rule": "continuity_only_not_causal"
+        }
+      ],
+      "chosen": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T3",
+      "rejected_by_same_kind_limit": [],
+      "completion_checks": [
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T3",
+          "complete_schedule_possible": true
+        }
+      ],
+      "last_kind": "F",
+      "streak": 1
+    },
+    {
+      "index": 8,
+      "candidates": [
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T2",
+          "priority": 0.48,
+          "rule": "explicit_appraisal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:P1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F3",
+          "priority": 0.515,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2",
+          "priority": 0.515,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1",
+          "priority": 0.91,
+          "rule": "explicit_about"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R2",
+          "priority": 1.28,
+          "rule": "continuity_only_not_causal"
+        }
+      ],
+      "chosen": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T2",
+      "rejected_by_same_kind_limit": [],
+      "completion_checks": [
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T2",
+          "complete_schedule_possible": true
+        }
+      ],
+      "last_kind": "F",
+      "streak": 1
+    },
+    {
+      "index": 9,
+      "candidates": [
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F3",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:P1",
+          "priority": 0.515,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1",
+          "priority": 0.945,
+          "rule": "explicit_about"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R2",
+          "priority": 1.28,
+          "rule": "continuity_only_not_causal"
+        }
+      ],
+      "chosen": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F3",
+      "rejected_by_same_kind_limit": [],
+      "completion_checks": [
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F3",
+          "complete_schedule_possible": true
+        }
+      ],
+      "last_kind": "T",
+      "streak": 1
+    },
+    {
+      "index": 10,
+      "candidates": [
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:P1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2",
+          "priority": 0.515,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1",
+          "priority": 0.91,
+          "rule": "explicit_about"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R2",
+          "priority": 1.28,
+          "rule": "continuity_only_not_causal"
+        }
+      ],
+      "chosen": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:P1",
+      "rejected_by_same_kind_limit": [],
+      "completion_checks": [
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:P1",
+          "complete_schedule_possible": true
+        }
+      ],
+      "last_kind": "F",
+      "streak": 1
+    },
+    {
+      "index": 11,
+      "candidates": [
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1",
+          "priority": 0.945,
+          "rule": "explicit_about"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R2",
+          "priority": 1.28,
+          "rule": "continuity_only_not_causal"
+        }
+      ],
+      "chosen": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2",
+      "rejected_by_same_kind_limit": [],
+      "completion_checks": [
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2",
+          "complete_schedule_possible": true
+        }
+      ],
+      "last_kind": "T",
+      "streak": 1
+    },
+    {
+      "index": 12,
+      "candidates": [
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R2",
+          "priority": -0.84,
+          "rule": "explicit_reaction"
+        },
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1",
+          "priority": 0.59,
+          "rule": "explicit_about"
+        }
+      ],
+      "chosen": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R2",
+      "rejected_by_same_kind_limit": [],
+      "completion_checks": [
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R2",
+          "complete_schedule_possible": true
+        }
+      ],
+      "last_kind": "F",
+      "streak": 1
+    },
+    {
+      "index": 13,
+      "candidates": [
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1",
+          "priority": 0.91,
+          "rule": "explicit_about"
+        }
+      ],
+      "chosen": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1",
+      "rejected_by_same_kind_limit": [],
+      "completion_checks": [
+        {
+          "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1",
+          "complete_schedule_possible": true
+        }
+      ],
+      "last_kind": "E",
+      "streak": 1
+    }
+  ],
+  "first_occurrence_order": [
+    "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:W2",
+    "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:W1",
+    "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R1",
+    "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T1",
+    "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F1",
+    "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T3",
+    "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T2",
+    "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F3",
+    "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:P1",
+    "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2",
+    "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R2",
+    "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1"
+  ],
+  "rank_scores": {
+    "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R2": 0.48,
+    "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T1": 0.48,
+    "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1": 0.91,
+    "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F1": 0.48,
+    "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F3": 0.48,
+    "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:W2": 0.13,
+    "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2": 0.48,
+    "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:W1": 0.13,
+    "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T2": 0.48,
+    "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:R1": 0.48,
+    "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:P1": 0.48,
+    "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T3": 0.48
+  },
+  "revisits": [
+    {
+      "index": 7,
+      "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F1",
+      "new_purpose_node": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:T3",
+      "basis_was_presented": true
+    },
+    {
+      "index": 14,
+      "memory_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:F2",
+      "new_purpose_node": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392:Q1",
+      "basis_was_presented": true
+    }
+  ],
+  "suppressed_revisits": [],
+  "stop_reason": "all_fixed_Memory_presented; plan complete, speech not generated",
+  "rhythm_policy": {
+    "max_same_kind": 3,
+    "mode": "hard limit including REVISIT; preserve prerequisites and fixed labels",
+    "initial_complete_schedule_possible": true,
+    "search_budget": 20000,
+    "states_explored": 43,
+    "budget_exhausted": false
+  },
+  "semantic_status": "unverified",
+  "model_calls": 0,
+  "source_order_used": false,
+  "manual_steps_used_at_selection": false,
+  "backend": "rhythm",
+  "adapter_version": "memory-db-selector-v1",
+  "provenance": {
+    "snapshot_id": "snapshot_1284935f18afb667b407b5797cc5db5567a27f7c7845b6c2bfde3480767c54f2",
+    "snapshot_mode": "validation",
+    "sandbox_only": true,
+    "namespace": "zip_fiction",
+    "world_scope": "fictional",
+    "episode_id": "ep_2f12ac4eab5850faa05b51b7bfa2c578",
+    "revision_id": "rev_92dd9f23e242cf00066120bf8a02c3408c63792763da8f2308067f60f7c33392",
+    "external_id": "DB_6_CREATIVE_V1",
+    "review_status": "accepted",
+    "content_sha256": "d4ce682925720b2e6fbd6e0580d1d60326cf6fa78ad70c46ad45906a53ba73f4",
+    "snapshot_projection_version": "memory-db-projection-v1",
+    "adapter_projection_version": "memory-db-projection-v1"
+  },
+  "ranker": "existing generic prior; no fitted ranking weights",
+  "semantic_link_policy": "explicit associations are soft; requires_context only is a hard order"
+}
+
+M17 大人になっても夢では登校を急ぐ
+【前回：一括】
+最近、学校に遅刻しそうで走る夢を見たんだよね。……はあ、目が覚めたらもう行かなくていいんだって思って、なんだか力が抜けた。夢の景色っていうか、自分が気にしてるものが妙に現実味があるっていうか……。大人になってからは、そういう現実的な内容の夢が増えた気がする。自由な夢が減ったのか、単にこういう焦る夢をよく覚えてるだけなのかな。
+
+大人になってからは現実的な夢が増えた気がするけど、また空を飛ぶ夢を見たらな、その時の感覚をちょっと覚えていたいなって。子どもの頃はよく飛んでたのに。最近は走ってるばっかりで、なんだか変な感じ。次はもし印象的な夢を見たら、一言だけでもメモしておこうかな。
+
+子どもの頃は知らない人と友達になる夢もよく見てたし、せめて夢の中では時間を気にせず、自由に移動したいよ。まあ、夢がそんなに忙しいからって、現実でも学校に遅刻しそうだったってわけじゃないんだけどね。最近は学校に遅刻しそうで走る夢、見てるんだよね。
+【今回：1操作ずつ・採用順全文】
+最近、学校に遅刻しそうで走る夢を見たんだよね。
+はあ……、目が覚めたらもう行かなくていいんだって思って。……夢の中でも急かされてたんだよね。
+なんか、景色っていうか……。自分が気にしてる内容が、より現実っぽくなってる感じがするんだよね。
+あ、大人になってからは、なんか現実的な内容の夢が増えた気がする。
+……ん、自由な夢が減ったのかな。それとも、焦る方の夢をよく覚えてるだけ？
+やっぱり、大人になってからは現実的な夢が増えた気がする。
+あ、また空飛ぶ夢を見たら、その感覚を覚えておきたいな。
+あ、子どもの頃は空飛ぶ夢をよく見てたな。
+え、飛べたのに。最近は走るばっかりで、なんか変な感じ。
+あ、他に印象的な夢があったら、一言だけメモしておきたいな。
+あ、そういえば、子どもの頃は知らない人と友達になる夢もよく見てたな。
+はあ、せめて夢の中くらいは、時間を気にせず自由に動きたいな。
+あ、いや、夢が忙しいからって、現実でも遅刻しそうだったわけじゃないよ。
+あ、最近、学校に遅刻しそうで走る夢を見るんだよね。
+【全試行：保留も省略しない】
+R0015 最近、学校に遅刻しそうで走る夢を見たんだよね。
+R0016 はあ……、目が覚めたらもう行かなくていいんだって思って。……夢の中でも急かされてたんだよね。
+R0017 なんか、景色っていうか……。自分が気にしてる内容が、より現実っぽくなってる感じがするんだよね。
+R0018 あ、大人になってからは、なんか現実的な内容の夢が増えた気がする。
+R0019 ……ん、自由な夢が減ったのかな。それとも、焦る方の夢をよく覚えてるだけ？
+R0020 やっぱり、大人になってからは現実的な夢が増えた気がする。
+R0021 あ、また空飛ぶ夢を見たら、その感覚を覚えておきたいな。
+R0022 あ、子どもの頃は空飛ぶ夢をよく見てたな。
+R0023 え、飛べたのに。最近は走るばっかりで、なんか変な感じ。
+R0024 あ、他に印象的な夢があったら、一言だけメモしておきたいな。
+R0025 あ、そういえば、子どもの頃は知らない人と友達になる夢もよく見てたな。
+R0026 はあ、せめて夢の中くらいは、時間を気にせず自由に動きたいな。
+R0027 あ、いや、夢が忙しいからって、現実でも遅刻しそうだったわけじゃないよ。
+R0028 あ、最近、学校に遅刻しそうで走る夢を見るんだよね。
+【元Memory】
+{
+  "作成方法": "エージェントが一件ずつ個別に手作業で創作補完",
+  "使い方": "IDは材料どうしの対応を示し、発話順を指定しない。創作補完を含む別データ。",
+  "元DB": {
+    "episode": "最近、学校に遅刻しそうになって走る夢を見た。子どもの頃は空を飛んだり知らない人と友達になる夢をよく見ていたが、大人になってからは現実的な内容の夢が増えた。",
+    "episode_sha256": "646b4fa66a1e872f95d77f81ded2714131409a635a4ac049c5159c39344b87fe",
+    "id": 17
+  },
+  "参考": {
+    "path": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\memory_manual_enrichment_20261029_v1\\references\\ころね_flow_topic_style_all_topics_v1.yaml",
+    "sha256": "99a7966525ff973254f93ac4159b5ac1cc5c9d22f0e007621b3a5d5bd6f9feed",
+    "取り入れた展開": "昔の空を飛ぶ夢と今の走る夢を具体的に並べ、変化を笑ってから原因はわからない問いとして残した。",
+    "短い引用": [
+      "いつからダメになっちゃったんだろう？"
+    ],
+    "話題": "現在との対比で幼少期の大胆な行動を思い出す"
+  },
+  "形式": "talk_memory_input_draft.v1",
+  "記憶": {
+    "その後・今後": [
+      {
+        "ID": "P1",
+        "内容": "次に印象的な夢を覚えていたら、一言だけメモしてみたい。",
+        "原文根拠": [],
+        "状態": "創作設定の案。夢日記を始めた事実ではない",
+        "由来": "創作補完"
+      }
+    ],
+    "不明なこと": [
+      "夢の原因、学校の具体名、実際に遅刻した経験との関係。"
+    ],
+    "体験した人": "ZIPちゃんの架空設定",
+    "元情報": "元DB ID17。起床後の反応と夢への考察は創作補完。",
+    "出来事": [
+      {
+        "ID": "F1",
+        "内容": "最近、学校に遅刻しそうになって走る夢を見た。",
+        "原文根拠": [
+          "最近、学校に遅刻しそうになって走る夢を見た。"
+        ],
+        "由来": "元記憶",
+        "確かさ": "元記憶の夢。現実の遅刻ではない"
+      },
+      {
+        "ID": "F2",
+        "内容": "子どもの頃は空を飛ぶ夢をよく見ていた。",
+        "原文根拠": [
+          "子どもの頃は空を飛んだり"
+        ],
+        "由来": "元記憶",
+        "確かさ": "元記憶の夢の傾向"
+      },
+      {
+        "ID": "F3",
+        "内容": "子どもの頃は知らない人と友達になる夢もよく見ていた。",
+        "原文根拠": [
+          "知らない人と友達になる夢をよく見ていたが、"
+        ],
+        "由来": "元記憶",
+        "確かさ": "元記憶の夢の傾向"
+      },
+      {
+        "ID": "F4",
+        "内容": "大人になってからは現実的な内容の夢が増えた。",
+        "原文根拠": [
+          "大人になってからは現実的な内容の夢が増えた。"
+        ],
+        "由来": "元記憶",
+        "確かさ": "元記憶の比較。幻想的な夢が皆無とはしない"
+      }
+    ],
+    "反応": [
+      {
+        "ID": "R1",
+        "内容": "目覚めて登校しなくてよいと気づき、夢にまで急かされたことへ脱力する。",
+        "原文根拠": [],
+        "対応ID": [
+          "F1"
+        ],
+        "由来": "創作補完",
+        "短い言葉": "夢でも出席取るの。",
+        "確かさ": "創作設定の起床後反応"
+      },
+      {
+        "ID": "R2",
+        "内容": "昔なら飛べたのに最近の夢では走っている、という差が妙におかしく感じる。",
+        "原文根拠": [],
+        "対応ID": [
+          "F1",
+          "F2"
+        ],
+        "由来": "創作補完",
+        "短い言葉": "そこ、飛んでよかったのに。",
+        "確かさ": "創作設定"
+      }
+    ],
+    "場面": {
+      "いつ": "最近の夢、子どもの頃との比較",
+      "どこ": "夢の中の学校へ向かう場面。実際の場所は不明",
+      "誰と": null
+    },
+    "望み・期待": [
+      {
+        "ID": "W1",
+        "いつの望み・期待か": "夢を振り返る創作設定",
+        "内容": "せめて夢の中では、時間を気にせず自由に移動したい。",
+        "原文根拠": [],
+        "由来": "創作補完"
+      },
+      {
+        "ID": "W2",
+        "いつの望み・期待か": "今後の夢への創作設定の願い",
+        "内容": "空を飛ぶ夢をまた見たら、その感覚を少し覚えていたい。",
+        "原文根拠": [],
+        "由来": "創作補完"
+      }
+    ],
+    "疑問・推測": [
+      {
+        "ID": "Q1",
+        "内容": "自由な夢が減ったのか、焦る夢のほうをよく覚えているだけなのか。",
+        "原文根拠": [],
+        "対応ID": [
+          "F4"
+        ],
+        "由来": "創作補完",
+        "確かさ": "創作設定の未解決の疑問",
+        "答えになる情報ID": []
+      }
+    ],
+    "素材区分": "既存記憶を基にした創作補完",
+    "考え・評価": [
+      {
+        "ID": "T1",
+        "内容": "夢の景色より、そこで自分が気にしているものが現実寄りになった感じがする。",
+        "原文根拠": [],
+        "根拠ID": [
+          "F1",
+          "F2",
+          "F3",
+          "F4"
+        ],
+        "由来": "創作補完",
+        "確かさ": "創作設定の感想。医学的説明ではない",
+        "見ている角度": "昔と今の変化"
+      },
+      {
+        "ID": "T2",
+        "内容": "夢が忙しいからといって、現実でも学校へ遅刻しそうだったという話にはならない。",
+        "原文根拠": [],
+        "根拠ID": [
+          "F1"
+        ],
+        "由来": "創作補完",
+        "確かさ": "創作設定の整理",
+        "見ている角度": "夢と現実の区別"
+      }
+    ],
+    "補ってはいけないこと": [
+      "夢から心理疾患や現実の在学状況を断定しない。"
+    ],
+    "記憶ID": "DB_17_CREATIVE_V1",
+    "話の中心": "最近の遅刻しそうな夢と、子供時代の自由な夢の差",
+    "題名": "大人になっても夢では登校を急ぐ"
+  }
+}
+【全CPU操作・保留】
+{
+  "schema": "mechanical-stripe-selector-v1",
+  "steps": [
+    {
+      "index": 1,
+      "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F1",
+      "operation": "REPORT",
+      "kind": "F",
+      "content": "最近、学校に遅刻しそうになって走る夢を見た。",
+      "epistemic": "speaker_report",
+      "relation": "continuity_only_not_causal",
+      "anchor_id": null
+    },
+    {
+      "index": 2,
+      "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R1",
+      "operation": "REACT",
+      "kind": "E",
+      "content": "目覚めて登校しなくてよいと気づき、夢にまで急かされたことへ脱力する。",
+      "epistemic": "speaker_reaction",
+      "relation": "explicit_reaction",
+      "anchor_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F1"
+    },
+    {
+      "index": 3,
+      "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T1",
+      "operation": "COMPARE",
+      "kind": "T",
+      "content": "夢の景色より、そこで自分が気にしているものが現実寄りになった感じがする。",
+      "epistemic": "speaker_evaluation",
+      "relation": "explicit_appraisal",
+      "anchor_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F1"
+    },
+    {
+      "index": 4,
+      "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F4",
+      "operation": "REPORT",
+      "kind": "F",
+      "content": "大人になってからは現実的な内容の夢が増えた。",
+      "epistemic": "speaker_report",
+      "relation": "continuity_only_not_causal",
+      "anchor_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T1"
+    },
+    {
+      "index": 5,
+      "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:Q1",
+      "operation": "REPAIR",
+      "kind": "T",
+      "content": "自由な夢が減ったのか、焦る夢のほうをよく覚えているだけなのか。",
+      "epistemic": "uncertain_memory",
+      "relation": "explicit_about",
+      "anchor_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F4"
+    },
+    {
+      "index": 6,
+      "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F4",
+      "operation": "REVISIT",
+      "kind": "F",
+      "content": "大人になってからは現実的な内容の夢が増えた。",
+      "epistemic": "speaker_report",
+      "relation": "return_after_new_evaluation_not_new_fact",
+      "anchor_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:Q1"
+    },
+    {
+      "index": 7,
+      "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W2",
+      "operation": "REACT",
+      "kind": "E",
+      "content": "空を飛ぶ夢をまた見たら、その感覚を少し覚えていたい。",
+      "epistemic": "speaker_desire",
+      "relation": "continuity_only_not_causal",
+      "anchor_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:Q1"
+    },
+    {
+      "index": 8,
+      "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F2",
+      "operation": "REPORT",
+      "kind": "F",
+      "content": "子どもの頃は空を飛ぶ夢をよく見ていた。",
+      "epistemic": "speaker_report",
+      "relation": "continuity_only_not_causal",
+      "anchor_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W2"
+    },
+    {
+      "index": 9,
+      "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R2",
+      "operation": "REACT",
+      "kind": "E",
+      "content": "昔なら飛べたのに最近の夢では走っている、という差が妙におかしく感じる。",
+      "epistemic": "speaker_reaction",
+      "relation": "explicit_reaction",
+      "anchor_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F2"
+    },
+    {
+      "index": 10,
+      "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:P1",
+      "operation": "EXPLORE",
+      "kind": "T",
+      "content": "次に印象的な夢を覚えていたら、一言だけメモしてみたい。",
+      "epistemic": "speaker_expectation",
+      "relation": "continuity_only_not_causal",
+      "anchor_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R2"
+    },
+    {
+      "index": 11,
+      "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F3",
+      "operation": "REPORT",
+      "kind": "F",
+      "content": "子どもの頃は知らない人と友達になる夢もよく見ていた。",
+      "epistemic": "speaker_report",
+      "relation": "continuity_only_not_causal",
+      "anchor_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:P1"
+    },
+    {
+      "index": 12,
+      "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W1",
+      "operation": "REACT",
+      "kind": "E",
+      "content": "せめて夢の中では、時間を気にせず自由に移動したい。",
+      "epistemic": "speaker_desire",
+      "relation": "continuity_only_not_causal",
+      "anchor_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F3"
+    },
+    {
+      "index": 13,
+      "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2",
+      "operation": "APPRAISE",
+      "kind": "T",
+      "content": "夢が忙しいからといって、現実でも学校へ遅刻しそうだったという話にはならない。",
+      "epistemic": "speaker_evaluation",
+      "relation": "explicit_appraisal",
+      "anchor_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F1"
+    },
+    {
+      "index": 14,
+      "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F1",
+      "operation": "REVISIT",
+      "kind": "F",
+      "content": "最近、学校に遅刻しそうになって走る夢を見た。",
+      "epistemic": "speaker_report",
+      "relation": "return_after_new_evaluation_not_new_fact",
+      "anchor_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2"
+    }
+  ],
+  "constraints": [],
+  "unresolved_relations": [],
+  "rejected_constraints": [],
+  "deferred_nodes": [],
+  "decisions": [
+    {
+      "index": 1,
+      "candidates": [
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F4",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F2",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W2",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:P1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F3",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:Q1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T1",
+          "priority": 1.28,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R1",
+          "priority": 1.28,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R2",
+          "priority": 1.28,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2",
+          "priority": 1.28,
+          "rule": "continuity_only_not_causal"
+        }
+      ],
+      "chosen": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F1",
+      "rejected_by_same_kind_limit": [],
+      "completion_checks": [
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F1",
+          "complete_schedule_possible": true
+        }
+      ],
+      "last_kind": null,
+      "streak": 0
+    },
+    {
+      "index": 2,
+      "candidates": [
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R1",
+          "priority": -0.84,
+          "rule": "explicit_reaction"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R2",
+          "priority": -0.84,
+          "rule": "explicit_reaction"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T1",
+          "priority": 0.16,
+          "rule": "explicit_appraisal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2",
+          "priority": 0.16,
+          "rule": "explicit_appraisal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W2",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:P1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:Q1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F4",
+          "priority": 0.515,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F2",
+          "priority": 0.515,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F3",
+          "priority": 0.515,
+          "rule": "continuity_only_not_causal"
+        }
+      ],
+      "chosen": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R1",
+      "rejected_by_same_kind_limit": [],
+      "completion_checks": [
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R1",
+          "complete_schedule_possible": true
+        }
+      ],
+      "last_kind": "F",
+      "streak": 1
+    },
+    {
+      "index": 3,
+      "candidates": [
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T1",
+          "priority": 0.48,
+          "rule": "explicit_appraisal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F4",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F2",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:P1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F3",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:Q1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2",
+          "priority": 0.48,
+          "rule": "explicit_appraisal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W2",
+          "priority": 0.515,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W1",
+          "priority": 0.515,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R2",
+          "priority": 0.515,
+          "rule": "explicit_reaction"
+        }
+      ],
+      "chosen": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T1",
+      "rejected_by_same_kind_limit": [],
+      "completion_checks": [
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T1",
+          "complete_schedule_possible": true
+        }
+      ],
+      "last_kind": "E",
+      "streak": 1
+    },
+    {
+      "index": 4,
+      "candidates": [
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F4",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F2",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W2",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F3",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R2",
+          "priority": 0.48,
+          "rule": "explicit_reaction"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:P1",
+          "priority": 0.515,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:Q1",
+          "priority": 0.515,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2",
+          "priority": 0.515,
+          "rule": "explicit_appraisal"
+        }
+      ],
+      "chosen": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F4",
+      "rejected_by_same_kind_limit": [],
+      "completion_checks": [
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F4",
+          "complete_schedule_possible": true
+        }
+      ],
+      "last_kind": "T",
+      "streak": 1
+    },
+    {
+      "index": 5,
+      "candidates": [
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:Q1",
+          "priority": 0.16,
+          "rule": "explicit_about"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W2",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:P1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R2",
+          "priority": 0.48,
+          "rule": "explicit_reaction"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2",
+          "priority": 0.48,
+          "rule": "explicit_appraisal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F2",
+          "priority": 0.515,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F3",
+          "priority": 0.515,
+          "rule": "continuity_only_not_causal"
+        }
+      ],
+      "chosen": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:Q1",
+      "rejected_by_same_kind_limit": [],
+      "completion_checks": [
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:Q1",
+          "complete_schedule_possible": true
+        }
+      ],
+      "last_kind": "F",
+      "streak": 1
+    },
+    {
+      "index": 7,
+      "candidates": [
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W2",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:P1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R2",
+          "priority": 0.48,
+          "rule": "explicit_reaction"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2",
+          "priority": 0.48,
+          "rule": "explicit_appraisal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F2",
+          "priority": 0.515,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F3",
+          "priority": 0.515,
+          "rule": "continuity_only_not_causal"
+        }
+      ],
+      "chosen": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W2",
+      "rejected_by_same_kind_limit": [],
+      "completion_checks": [
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W2",
+          "complete_schedule_possible": true
+        }
+      ],
+      "last_kind": "F",
+      "streak": 1
+    },
+    {
+      "index": 8,
+      "candidates": [
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F2",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:P1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F3",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2",
+          "priority": 0.48,
+          "rule": "explicit_appraisal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W1",
+          "priority": 0.515,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R2",
+          "priority": 0.515,
+          "rule": "explicit_reaction"
+        }
+      ],
+      "chosen": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F2",
+      "rejected_by_same_kind_limit": [],
+      "completion_checks": [
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F2",
+          "complete_schedule_possible": true
+        }
+      ],
+      "last_kind": "E",
+      "streak": 1
+    },
+    {
+      "index": 9,
+      "candidates": [
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R2",
+          "priority": -0.84,
+          "rule": "explicit_reaction"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:P1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2",
+          "priority": 0.48,
+          "rule": "explicit_appraisal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F3",
+          "priority": 0.515,
+          "rule": "continuity_only_not_causal"
+        }
+      ],
+      "chosen": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R2",
+      "rejected_by_same_kind_limit": [],
+      "completion_checks": [
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R2",
+          "complete_schedule_possible": true
+        }
+      ],
+      "last_kind": "F",
+      "streak": 1
+    },
+    {
+      "index": 10,
+      "candidates": [
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:P1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F3",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2",
+          "priority": 0.48,
+          "rule": "explicit_appraisal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W1",
+          "priority": 0.515,
+          "rule": "continuity_only_not_causal"
+        }
+      ],
+      "chosen": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:P1",
+      "rejected_by_same_kind_limit": [],
+      "completion_checks": [
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:P1",
+          "complete_schedule_possible": true
+        }
+      ],
+      "last_kind": "E",
+      "streak": 1
+    },
+    {
+      "index": 11,
+      "candidates": [
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F3",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2",
+          "priority": 0.515,
+          "rule": "explicit_appraisal"
+        }
+      ],
+      "chosen": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F3",
+      "rejected_by_same_kind_limit": [],
+      "completion_checks": [
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F3",
+          "complete_schedule_possible": true
+        }
+      ],
+      "last_kind": "T",
+      "streak": 1
+    },
+    {
+      "index": 12,
+      "candidates": [
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2",
+          "priority": 0.48,
+          "rule": "explicit_appraisal"
+        }
+      ],
+      "chosen": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W1",
+      "rejected_by_same_kind_limit": [],
+      "completion_checks": [
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W1",
+          "complete_schedule_possible": true
+        }
+      ],
+      "last_kind": "F",
+      "streak": 1
+    },
+    {
+      "index": 13,
+      "candidates": [
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2",
+          "priority": 0.48,
+          "rule": "explicit_appraisal"
+        }
+      ],
+      "chosen": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2",
+      "rejected_by_same_kind_limit": [],
+      "completion_checks": [
+        {
+          "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2",
+          "complete_schedule_possible": true
+        }
+      ],
+      "last_kind": "E",
+      "streak": 1
+    }
+  ],
+  "first_occurrence_order": [
+    "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F1",
+    "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R1",
+    "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T1",
+    "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F4",
+    "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:Q1",
+    "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W2",
+    "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F2",
+    "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R2",
+    "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:P1",
+    "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F3",
+    "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W1",
+    "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2"
+  ],
+  "rank_scores": {
+    "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T1": 0.48,
+    "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F1": 0.48,
+    "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F4": 0.48,
+    "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R1": 0.48,
+    "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F2": 0.48,
+    "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W2": 0.48,
+    "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:P1": 0.48,
+    "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F3": 0.48,
+    "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:W1": 0.48,
+    "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:R2": 0.48,
+    "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:Q1": 0.48,
+    "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2": 0.48
+  },
+  "revisits": [
+    {
+      "index": 6,
+      "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F4",
+      "new_purpose_node": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:Q1",
+      "basis_was_presented": true
+    },
+    {
+      "index": 14,
+      "memory_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:F1",
+      "new_purpose_node": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404:T2",
+      "basis_was_presented": true
+    }
+  ],
+  "suppressed_revisits": [],
+  "stop_reason": "all_fixed_Memory_presented; plan complete, speech not generated",
+  "rhythm_policy": {
+    "max_same_kind": 3,
+    "mode": "hard limit including REVISIT; preserve prerequisites and fixed labels",
+    "initial_complete_schedule_possible": true,
+    "search_budget": 20000,
+    "states_explored": 34,
+    "budget_exhausted": false
+  },
+  "semantic_status": "unverified",
+  "model_calls": 0,
+  "source_order_used": false,
+  "manual_steps_used_at_selection": false,
+  "backend": "rhythm",
+  "adapter_version": "memory-db-selector-v1",
+  "provenance": {
+    "snapshot_id": "snapshot_1284935f18afb667b407b5797cc5db5567a27f7c7845b6c2bfde3480767c54f2",
+    "snapshot_mode": "validation",
+    "sandbox_only": true,
+    "namespace": "zip_fiction",
+    "world_scope": "fictional",
+    "episode_id": "ep_e689a280973c54a299d31cc8d20abd7a",
+    "revision_id": "rev_fb7ec6b72c6f810a5c8cd87a215ad6b562a028188bbfb77804723e6540937404",
+    "external_id": "DB_17_CREATIVE_V1",
+    "review_status": "unreviewed",
+    "content_sha256": "7a6c4c3ba258ddf36afe7255128be17fe0dc435423976fea9697f7dfcb0da59c",
+    "snapshot_projection_version": "memory-db-projection-v1",
+    "adapter_projection_version": "memory-db-projection-v1"
+  },
+  "ranker": "existing generic prior; no fitted ranking weights",
+  "semantic_link_policy": "explicit associations are soft; requires_context only is a hard order"
+}
+
+M23 跳び箱の一段と落ちたマット
+【前回：一括】
+小学校の体育で、跳び箱をやってたんだよね。先生に促されて、段数を上げて挑戦したんだけど、失敗してマットに落ちちゃったことがあって。……あ、一段上がるだけで、いつものより急に大きく見えたんだ。助走の勢いで越えられたら格好いいなって思ってたんだけど、実際は怖かったな。跳べたかどうかだけで見ると、その怖かった助走のことは忘れそうになるけど。
+
+いや、マットに落ちた時は、立ち上がるまでずっと見られてる気がして……すごく恥ずかしかった。実際どれくらい視線があったのかは分からないけど、自分の恥ずかしさで大きく感じてたかも。失敗した後は、目立つことより、次は落ち着いて手をつくことの方が大事だなって思っちゃった。
+
+でも、失敗した時の恥ずかしさと、成功した時の達成感は、どっちも強烈だったんだよね。成功の達成感が強いからって、失敗した時の恥ずかしさが消えるわけでもなくて、両方ずっと残ってる思い出かな。
+【今回：1操作ずつ・採用順全文】
+……あ、失敗した時の恥ずかしさも、成功した時の達成感も、どっちも強烈だったな。
+……うわ、マットに落ちたとき、立ち上がるまでずっと見られてる気がして。
+……いや、実際はどれくらい見てたのかな。自分の恥ずかしさで、勝手に大きく感じてただけかも。
+あ、先生に言われて段数を上げたんだけど、失敗してマットに落ちちゃったんだよね。
+え、一段ってこんなに違うんだ。……急に大きく見えたんだよね。
+え、怖かったのは……。自分でも、あんな高さまで助走してたの、忘れてそう。
+あ、先生に言われて段数を上げたんだけど、失敗してマットに落ちちゃったんだよね。
+段が増えても、助走の勢いで越えられたら格好いいなって思ってたんだよね。
+あ、小学校の体育で跳び箱やってたんだよね。
+……いや、成功したからって、あの時の恥ずかしさが消えるわけでもないんだよね。両方残ってる感じ。
+数字の一段って、たったそれだけに見えるけど、助走を始める側としてはまた別の挑戦だったんだよね。
+あー……次は、目立つことより、とにかく落ち着いて手をつくのを優先したかったんだよね。
+【全試行：保留も省略しない】
+R0029 ……あ、失敗した時の恥ずかしさも、成功した時の達成感も、どっちも強烈だったな。
+R0030 ……うわ、マットに落ちたとき、立ち上がるまでずっと見られてる気がして。
+R0031 ……いや、実際はどれくらい見てたのかな。自分の恥ずかしさで、勝手に大きく感じてただけかも。
+R0032 あ、先生に言われて段数を上げたんだけど、失敗してマットに落ちちゃったんだよね。
+R0033 え、一段ってこんなに違うんだ。……急に大きく見えたんだよね。
+R0034 え、怖かったのは……。自分でも、あんな高さまで助走してたの、忘れてそう。
+R0035 あ、先生に言われて段数を上げたんだけど、失敗してマットに落ちちゃったんだよね。
+R0036 段が増えても、助走の勢いで越えられたら格好いいなって思ってたんだよね。
+R0037 あ、小学校の体育で跳び箱やってたんだよね。
+R0038 ……いや、成功したからって、あの時の恥ずかしさが消えるわけでもないんだよね。両方残ってる感じ。
+R0039 数字の一段って、たったそれだけに見えるけど、助走を始める側としてはまた別の挑戦だったんだよね。
+R0040 あー……次は、目立つことより、とにかく落ち着いて手をつくのを優先したかったんだよね。
+【元Memory】
+{
+  "作成方法": "エージェントが一件ずつ個別に手作業で創作補完",
+  "使い方": "IDは材料どうしの対応を示し、発話順を指定しない。創作補完を事実として扱わない。",
+  "元DB": {
+    "episode": "小学校の体育で跳び箱をやっていた。先生に促されて段数を上げて挑戦し、失敗してマットに落ちたことがある。失敗したときの恥ずかしさと成功したときの達成感がどちらも強烈だった。",
+    "episode_sha256": "3d7be88352c5aa8d2fe223ac8082d081918542b22d27a7a8660d96afc56caeb7",
+    "id": 23
+  },
+  "参考": {
+    "path": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\memory_manual_enrichment_20261029_v1\\references\\らでん_flow_topic_style_all_topics_v1.yaml",
+    "sha256": "f265dbc1d79fed4cdcbf4e9663bd0f8137e8d34cd97fdac4b891c724415ba339",
+    "取り入れた展開": "期待を受けた嬉しさだけにまとめず重さも置く構成を、跳び箱の挑戦前の期待と高さへの戸惑いに置き換えた。",
+    "短い引用": [
+      "ありがたいけどね。"
+    ],
+    "話題": "大きな評価への喜びと重さ、自分の活動の核を再確認する箇所"
+  },
+  "形式": "talk_memory_input_draft.v1",
+  "記憶": {
+    "その後・今後": [
+      {
+        "ID": "P1",
+        "内容": "誰かの挑戦を語る際は、失敗した場面だけを面白がらず、始める前の迷いにも目を向けたい。",
+        "原文根拠": [],
+        "状態": "創作設定の現在の意向",
+        "由来": "創作補完"
+      }
+    ],
+    "不明なこと": [
+      "段数、怪我の有無、成功と落下の前後関係。"
+    ],
+    "体験した人": "ZIPちゃんの架空設定",
+    "元情報": "元DB memory ID 23。原文を保持し、明示した項目に創作補完を含む。",
+    "出来事": [
+      {
+        "ID": "F1",
+        "内容": "小学校の体育で跳び箱をやっていた。",
+        "原文根拠": [
+          "小学校の体育で跳び箱をやっていた。"
+        ],
+        "由来": "元記憶",
+        "確かさ": "元記憶に明記"
+      },
+      {
+        "ID": "F2",
+        "内容": "先生に促され、段数を上げて挑戦して失敗し、マットに落ちたことがある。",
+        "原文根拠": [
+          "先生に促されて段数を上げて挑戦し、失敗してマットに落ちたことがある。"
+        ],
+        "由来": "元記憶",
+        "確かさ": "元記憶に明記"
+      },
+      {
+        "ID": "F3",
+        "内容": "失敗時の恥ずかしさと成功時の達成感は、どちらも強烈だった。",
+        "原文根拠": [
+          "失敗したときの恥ずかしさと成功したときの達成感がどちらも強烈だった。"
+        ],
+        "由来": "元記憶",
+        "確かさ": "元記憶の感情"
+      }
+    ],
+    "反応": [
+      {
+        "ID": "R1",
+        "内容": "高くなった箱を前にすると、いつもの跳び箱より急に大きい物に見えた。",
+        "原文根拠": [],
+        "対応ID": [
+          "F2"
+        ],
+        "由来": "創作補完",
+        "短い言葉": "一段ってこんなに違う？",
+        "確かさ": "創作設定の反応"
+      },
+      {
+        "ID": "R2",
+        "内容": "マットに落ちた瞬間は、立ち上がる動作まで見られているように感じた。",
+        "原文根拠": [],
+        "対応ID": [
+          "F2",
+          "F3"
+        ],
+        "由来": "創作補完",
+        "短い言葉": "早く戻りたい。",
+        "確かさ": "創作設定の主観、周囲が注視した事実ではない"
+      }
+    ],
+    "場面": {
+      "いつ": "小学校の体育",
+      "どこ": "跳び箱とマットのある授業場所",
+      "誰と": "先生"
+    },
+    "望み・期待": [
+      {
+        "ID": "W1",
+        "いつの望み・期待か": "創作設定：挑戦前",
+        "内容": "段が増えても助走の勢いで越えられたら格好いいと思った。",
+        "原文根拠": [],
+        "由来": "創作補完"
+      },
+      {
+        "ID": "W2",
+        "いつの望み・期待か": "創作設定：失敗後の希望、次の実施は未設定",
+        "内容": "失敗した後は、次は目立つことより落ち着いて手をつくことを優先したかった。",
+        "原文根拠": [],
+        "由来": "創作補完"
+      }
+    ],
+    "疑問・推測": [
+      {
+        "ID": "Q1",
+        "内容": "あのとき気にしていた視線は実際どれほどあったのだろう。自分の恥ずかしさで大きく感じていた可能性もある。",
+        "原文根拠": [],
+        "対応ID": [
+          "R2"
+        ],
+        "由来": "創作補完",
+        "確かさ": "創作設定の推測、周囲の反応は未設定",
+        "答えになる情報ID": []
+      }
+    ],
+    "素材区分": "既存記憶を基にした創作補完",
+    "考え・評価": [
+      {
+        "ID": "T1",
+        "内容": "数字の一段は小さくても、助走を始める側には別の挑戦だった。",
+        "原文根拠": [],
+        "根拠ID": [
+          "F2",
+          "R1"
+        ],
+        "由来": "創作補完",
+        "確かさ": "創作設定の評価",
+        "見ている角度": "高さと気持ち"
+      },
+      {
+        "ID": "T2",
+        "内容": "成功の達成感が強いからといって、失敗の恥ずかしさが後から消えるわけでもない。両方が残る思い出だと思う。",
+        "原文根拠": [],
+        "根拠ID": [
+          "F3"
+        ],
+        "由来": "創作補完",
+        "確かさ": "創作設定の振り返り",
+        "見ている角度": "成功との関係"
+      },
+      {
+        "ID": "T3",
+        "内容": "跳べたかだけを採点すると、怖く見えた高さへ助走した部分を自分で見落としそうになる。",
+        "原文根拠": [],
+        "根拠ID": [
+          "F2",
+          "R1"
+        ],
+        "由来": "創作補完",
+        "確かさ": "創作設定の自己評価",
+        "見ている角度": "挑戦の評価軸"
+      }
+    ],
+    "補ってはいけないこと": [
+      "同じ授業の直後に成功したと結び付けない。",
+      "落下を重大事故や周囲の嘲笑に膨らませない。"
+    ],
+    "記憶ID": "DB_23_CREATIVE_V1",
+    "話の中心": "段を上げた挑戦に失敗した恥ずかしさと成功の達成感が共存する。",
+    "題名": "跳び箱の一段と落ちたマット"
+  }
+}
+【全CPU操作・保留】
+{
+  "schema": "mechanical-stripe-selector-v1",
+  "steps": [
+    {
+      "index": 1,
+      "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F3",
+      "operation": "REPORT",
+      "kind": "F",
+      "content": "失敗時の恥ずかしさと成功時の達成感は、どちらも強烈だった。",
+      "epistemic": "speaker_report",
+      "relation": "continuity_only_not_causal",
+      "anchor_id": null
+    },
+    {
+      "index": 2,
+      "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R2",
+      "operation": "REACT",
+      "kind": "E",
+      "content": "マットに落ちた瞬間は、立ち上がる動作まで見られているように感じた。",
+      "epistemic": "speaker_reaction",
+      "relation": "explicit_reaction",
+      "anchor_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F3"
+    },
+    {
+      "index": 3,
+      "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:Q1",
+      "operation": "REPAIR",
+      "kind": "T",
+      "content": "あのとき気にしていた視線は実際どれほどあったのだろう。自分の恥ずかしさで大きく感じていた可能性もある。",
+      "epistemic": "uncertain_memory",
+      "relation": "explicit_about",
+      "anchor_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R2"
+    },
+    {
+      "index": 4,
+      "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F2",
+      "operation": "REPORT",
+      "kind": "F",
+      "content": "先生に促され、段数を上げて挑戦して失敗し、マットに落ちたことがある。",
+      "epistemic": "speaker_report",
+      "relation": "continuity_only_not_causal",
+      "anchor_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:Q1"
+    },
+    {
+      "index": 5,
+      "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R1",
+      "operation": "REACT",
+      "kind": "E",
+      "content": "高くなった箱を前にすると、いつもの跳び箱より急に大きい物に見えた。",
+      "epistemic": "speaker_reaction",
+      "relation": "explicit_reaction",
+      "anchor_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F2"
+    },
+    {
+      "index": 6,
+      "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T3",
+      "operation": "APPRAISE",
+      "kind": "T",
+      "content": "跳べたかだけを採点すると、怖く見えた高さへ助走した部分を自分で見落としそうになる。",
+      "epistemic": "speaker_evaluation",
+      "relation": "explicit_appraisal",
+      "anchor_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R1"
+    },
+    {
+      "index": 7,
+      "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F2",
+      "operation": "REVISIT",
+      "kind": "F",
+      "content": "先生に促され、段数を上げて挑戦して失敗し、マットに落ちたことがある。",
+      "epistemic": "speaker_report",
+      "relation": "return_after_new_evaluation_not_new_fact",
+      "anchor_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T3"
+    },
+    {
+      "index": 8,
+      "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W1",
+      "operation": "REACT",
+      "kind": "E",
+      "content": "段が増えても助走の勢いで越えられたら格好いいと思った。",
+      "epistemic": "speaker_desire",
+      "relation": "continuity_only_not_causal",
+      "anchor_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T3"
+    },
+    {
+      "index": 9,
+      "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F1",
+      "operation": "REPORT",
+      "kind": "F",
+      "content": "小学校の体育で跳び箱をやっていた。",
+      "epistemic": "speaker_report",
+      "relation": "continuity_only_not_causal",
+      "anchor_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W1"
+    },
+    {
+      "index": 10,
+      "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T2",
+      "operation": "COMPARE",
+      "kind": "T",
+      "content": "成功の達成感が強いからといって、失敗の恥ずかしさが後から消えるわけでもない。両方が残る思い出だと思う。",
+      "epistemic": "speaker_evaluation",
+      "relation": "explicit_appraisal",
+      "anchor_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F3"
+    },
+    {
+      "index": 11,
+      "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T1",
+      "operation": "COMPARE",
+      "kind": "T",
+      "content": "数字の一段は小さくても、助走を始める側には別の挑戦だった。",
+      "epistemic": "speaker_evaluation",
+      "relation": "explicit_appraisal",
+      "anchor_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R1"
+    },
+    {
+      "index": 12,
+      "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W2",
+      "operation": "REACT",
+      "kind": "E",
+      "content": "失敗した後は、次は目立つことより落ち着いて手をつくことを優先したかった。",
+      "epistemic": "speaker_desire",
+      "relation": "continuity_only_not_causal",
+      "anchor_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T1"
+    }
+  ],
+  "constraints": [],
+  "unresolved_relations": [],
+  "rejected_constraints": [],
+  "deferred_nodes": [
+    {
+      "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:P1",
+      "reason": "P execution status does not establish completed or future action"
+    }
+  ],
+  "decisions": [
+    {
+      "index": 1,
+      "candidates": [
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F3",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F2",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:Q1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W2",
+          "priority": 0.91,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T3",
+          "priority": 1.28,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R1",
+          "priority": 1.28,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T2",
+          "priority": 1.28,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R2",
+          "priority": 1.28,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T1",
+          "priority": 1.28,
+          "rule": "continuity_only_not_causal"
+        }
+      ],
+      "chosen": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F3",
+      "rejected_by_same_kind_limit": [],
+      "completion_checks": [
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F3",
+          "complete_schedule_possible": true
+        }
+      ],
+      "last_kind": null,
+      "streak": 0
+    },
+    {
+      "index": 2,
+      "candidates": [
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R2",
+          "priority": -0.84,
+          "rule": "explicit_reaction"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T2",
+          "priority": 0.16,
+          "rule": "explicit_appraisal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:Q1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F2",
+          "priority": 0.515,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F1",
+          "priority": 0.515,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W2",
+          "priority": 0.91,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T3",
+          "priority": 1.28,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R1",
+          "priority": 1.28,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T1",
+          "priority": 1.28,
+          "rule": "continuity_only_not_causal"
+        }
+      ],
+      "chosen": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R2",
+      "rejected_by_same_kind_limit": [],
+      "completion_checks": [
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R2",
+          "complete_schedule_possible": true
+        }
+      ],
+      "last_kind": "F",
+      "streak": 1
+    },
+    {
+      "index": 3,
+      "candidates": [
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:Q1",
+          "priority": 0.16,
+          "rule": "explicit_about"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F2",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T2",
+          "priority": 0.48,
+          "rule": "explicit_appraisal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W1",
+          "priority": 0.515,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W2",
+          "priority": 0.945,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T3",
+          "priority": 1.28,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T1",
+          "priority": 1.28,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R1",
+          "priority": 1.315,
+          "rule": "continuity_only_not_causal"
+        }
+      ],
+      "chosen": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:Q1",
+      "rejected_by_same_kind_limit": [],
+      "completion_checks": [
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:Q1",
+          "complete_schedule_possible": true
+        }
+      ],
+      "last_kind": "E",
+      "streak": 1
+    },
+    {
+      "index": 4,
+      "candidates": [
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F2",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T2",
+          "priority": 0.515,
+          "rule": "explicit_appraisal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W2",
+          "priority": 0.91,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R1",
+          "priority": 1.28,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T3",
+          "priority": 1.315,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T1",
+          "priority": 1.315,
+          "rule": "continuity_only_not_causal"
+        }
+      ],
+      "chosen": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F2",
+      "rejected_by_same_kind_limit": [],
+      "completion_checks": [
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F2",
+          "complete_schedule_possible": true
+        }
+      ],
+      "last_kind": "T",
+      "streak": 1
+    },
+    {
+      "index": 5,
+      "candidates": [
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R1",
+          "priority": -0.84,
+          "rule": "explicit_reaction"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T3",
+          "priority": 0.16,
+          "rule": "explicit_appraisal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T1",
+          "priority": 0.16,
+          "rule": "explicit_appraisal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T2",
+          "priority": 0.48,
+          "rule": "explicit_appraisal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F1",
+          "priority": 0.515,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W2",
+          "priority": 0.91,
+          "rule": "continuity_only_not_causal"
+        }
+      ],
+      "chosen": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R1",
+      "rejected_by_same_kind_limit": [],
+      "completion_checks": [
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R1",
+          "complete_schedule_possible": true
+        }
+      ],
+      "last_kind": "F",
+      "streak": 1
+    },
+    {
+      "index": 6,
+      "candidates": [
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T3",
+          "priority": 0.16,
+          "rule": "explicit_appraisal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T1",
+          "priority": 0.16,
+          "rule": "explicit_appraisal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T2",
+          "priority": 0.48,
+          "rule": "explicit_appraisal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W1",
+          "priority": 0.515,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W2",
+          "priority": 0.945,
+          "rule": "continuity_only_not_causal"
+        }
+      ],
+      "chosen": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T3",
+      "rejected_by_same_kind_limit": [],
+      "completion_checks": [
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T3",
+          "complete_schedule_possible": true
+        }
+      ],
+      "last_kind": "E",
+      "streak": 1
+    },
+    {
+      "index": 8,
+      "candidates": [
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T2",
+          "priority": 0.48,
+          "rule": "explicit_appraisal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T1",
+          "priority": 0.48,
+          "rule": "explicit_appraisal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F1",
+          "priority": 0.515,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W2",
+          "priority": 0.91,
+          "rule": "continuity_only_not_causal"
+        }
+      ],
+      "chosen": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W1",
+      "rejected_by_same_kind_limit": [],
+      "completion_checks": [
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W1",
+          "complete_schedule_possible": true
+        }
+      ],
+      "last_kind": "F",
+      "streak": 1
+    },
+    {
+      "index": 9,
+      "candidates": [
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F1",
+          "priority": 0.48,
+          "rule": "continuity_only_not_causal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T2",
+          "priority": 0.48,
+          "rule": "explicit_appraisal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T1",
+          "priority": 0.48,
+          "rule": "explicit_appraisal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W2",
+          "priority": 0.945,
+          "rule": "continuity_only_not_causal"
+        }
+      ],
+      "chosen": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F1",
+      "rejected_by_same_kind_limit": [],
+      "completion_checks": [
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F1",
+          "complete_schedule_possible": true
+        }
+      ],
+      "last_kind": "E",
+      "streak": 1
+    },
+    {
+      "index": 10,
+      "candidates": [
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T2",
+          "priority": 0.48,
+          "rule": "explicit_appraisal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T1",
+          "priority": 0.48,
+          "rule": "explicit_appraisal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W2",
+          "priority": 0.91,
+          "rule": "continuity_only_not_causal"
+        }
+      ],
+      "chosen": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T2",
+      "rejected_by_same_kind_limit": [],
+      "completion_checks": [
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T2",
+          "complete_schedule_possible": true
+        }
+      ],
+      "last_kind": "F",
+      "streak": 1
+    },
+    {
+      "index": 11,
+      "candidates": [
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T1",
+          "priority": 0.515,
+          "rule": "explicit_appraisal"
+        },
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W2",
+          "priority": 0.91,
+          "rule": "continuity_only_not_causal"
+        }
+      ],
+      "chosen": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T1",
+      "rejected_by_same_kind_limit": [],
+      "completion_checks": [
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T1",
+          "complete_schedule_possible": true
+        }
+      ],
+      "last_kind": "T",
+      "streak": 1
+    },
+    {
+      "index": 12,
+      "candidates": [
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W2",
+          "priority": 0.91,
+          "rule": "continuity_only_not_causal"
+        }
+      ],
+      "chosen": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W2",
+      "rejected_by_same_kind_limit": [],
+      "completion_checks": [
+        {
+          "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W2",
+          "complete_schedule_possible": true
+        }
+      ],
+      "last_kind": "T",
+      "streak": 2
+    }
+  ],
+  "first_occurrence_order": [
+    "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F3",
+    "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R2",
+    "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:Q1",
+    "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F2",
+    "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R1",
+    "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T3",
+    "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W1",
+    "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F1",
+    "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T2",
+    "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T1",
+    "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W2"
+  ],
+  "rank_scores": {
+    "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W2": 0.91,
+    "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F3": 0.48,
+    "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F2": 0.48,
+    "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:Q1": 0.48,
+    "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F1": 0.48,
+    "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T3": 0.48,
+    "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:W1": 0.48,
+    "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R1": 0.48,
+    "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T2": 0.48,
+    "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:R2": 0.48,
+    "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T1": 0.48
+  },
+  "revisits": [
+    {
+      "index": 7,
+      "memory_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:F2",
+      "new_purpose_node": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06:T3",
+      "basis_was_presented": true
+    }
+  ],
+  "suppressed_revisits": [],
+  "stop_reason": "all_fixed_Memory_presented; plan complete, speech not generated",
+  "rhythm_policy": {
+    "max_same_kind": 3,
+    "mode": "hard limit including REVISIT; preserve prerequisites and fixed labels",
+    "initial_complete_schedule_possible": true,
+    "search_budget": 20000,
+    "states_explored": 33,
+    "budget_exhausted": false
+  },
+  "semantic_status": "unverified",
+  "model_calls": 0,
+  "source_order_used": false,
+  "manual_steps_used_at_selection": false,
+  "backend": "rhythm",
+  "adapter_version": "memory-db-selector-v1",
+  "provenance": {
+    "snapshot_id": "snapshot_1284935f18afb667b407b5797cc5db5567a27f7c7845b6c2bfde3480767c54f2",
+    "snapshot_mode": "validation",
+    "sandbox_only": true,
+    "namespace": "zip_fiction",
+    "world_scope": "fictional",
+    "episode_id": "ep_7906018ae475593e80c62388e56f7e5b",
+    "revision_id": "rev_be59715f174bb99d6675191528bcd4ae37c0bf961f2fdd93bb23d2ba4bed3f06",
+    "external_id": "DB_23_CREATIVE_V1",
+    "review_status": "unreviewed",
+    "content_sha256": "81efc4bbe637bd67c5a79b70eded58f451bf6f0c88974f7d3ec4a8047a974b60",
+    "snapshot_projection_version": "memory-db-projection-v1",
+    "adapter_projection_version": "memory-db-projection-v1"
+  },
+  "ranker": "existing generic prior; no fitted ranking weights",
+  "semantic_link_policy": "explicit associations are soft; requires_context only is a hard order"
+}

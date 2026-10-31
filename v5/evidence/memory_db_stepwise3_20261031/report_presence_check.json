@@ -1,0 +1,66 @@
+{
+  "status": "pass",
+  "html_exact_43_speech_blocks": true,
+  "baseline3_annotation_bodies_exact": true,
+  "root_manual_new40_annotations_exact": true,
+  "pairs": [
+    {
+      "sample_id": "M06",
+      "source_review_status": "accepted",
+      "new_turns": 14,
+      "all_delivered": true
+    },
+    {
+      "sample_id": "M17",
+      "source_review_status": "unreviewed",
+      "new_turns": 14,
+      "all_delivered": true
+    },
+    {
+      "sample_id": "M23",
+      "source_review_status": "unreviewed",
+      "new_turns": 12,
+      "all_delivered": true
+    }
+  ],
+  "completion_sha256": "db35a41e21a3fd003b3183f3f54530022692a4d0c8c50b5cff7cecca772c2c69",
+  "report_check": {
+    "status": "pass",
+    "pairs": 3,
+    "all43_bodies_colored_and_exact": true,
+    "all_Memory_operations_inputs_RAW_present": true,
+    "metrics": [
+      {
+        "sample_id": "M06",
+        "baseline_chars": 285,
+        "stepwise_chars": 475,
+        "calls": 14,
+        "delivered": 14,
+        "eos": 14,
+        "output_tokens": 285,
+        "model_seconds": 499.511
+      },
+      {
+        "sample_id": "M17",
+        "baseline_chars": 411,
+        "stepwise_chars": 439,
+        "calls": 14,
+        "delivered": 14,
+        "eos": 14,
+        "output_tokens": 285,
+        "model_seconds": 494.722
+      },
+      {
+        "sample_id": "M23",
+        "baseline_chars": 393,
+        "stepwise_chars": 455,
+        "calls": 12,
+        "delivered": 12,
+        "eos": 12,
+        "output_tokens": 283,
+        "model_seconds": 463.496
+      }
+    ]
+  },
+  "no_new_generation": true
+}

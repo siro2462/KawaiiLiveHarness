@@ -1,0 +1,8 @@
+{
+  "stage": "setup source patch helper",
+  "error": "Python SyntaxError in unused helper replacement line; helper not executed",
+  "model_imports": 0,
+  "new_calls": 0,
+  "launches": 0,
+  "repair": "removed unnecessary replacement; execution sources not running"
+}

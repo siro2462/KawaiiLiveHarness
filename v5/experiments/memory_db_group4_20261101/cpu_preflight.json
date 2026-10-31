@@ -1,0 +1,864 @@
+{
+  "status": "pass",
+  "check_count": 199,
+  "checks": [
+    {
+      "name": "same3 and grouped11 budget",
+      "passed": true
+    },
+    {
+      "name": "fixed contiguous grouping sizes",
+      "passed": true
+    },
+    {
+      "name": "same LoRA generation seed",
+      "passed": true
+    },
+    {
+      "name": "no replay Planner Guard training",
+      "passed": true
+    },
+    {
+      "name": "same style bytes",
+      "passed": true
+    },
+    {
+      "name": "unchanged core common.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged core driver_cpu.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged core processor_cpu.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged core gpu_worker.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged core request_protocol.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged core token_journal.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged core dependency_probe.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged core startup_probe.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged core launch_once.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged core full_stripe_runtime.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged core cpu_selector.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged core flow_apply.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged core runtime.py",
+      "passed": true
+    },
+    {
+      "name": "all entire sample dicts unchanged",
+      "passed": true
+    },
+    {
+      "name": "same40 operations held1",
+      "passed": true
+    },
+    {
+      "name": "M06 CPU selection exact",
+      "passed": true
+    },
+    {
+      "name": "M06 flatten groups preserves full source order",
+      "passed": true
+    },
+    {
+      "name": "M06 original whole official input exact",
+      "passed": true
+    },
+    {
+      "name": "M06 old40 per-op payloads same",
+      "passed": true
+    },
+    {
+      "name": "M06:G01 fixed schedule",
+      "passed": true
+    },
+    {
+      "name": "M06:G01 exact contiguous current full operations",
+      "passed": true
+    },
+    {
+      "name": "M06:G01 source indices and final flag",
+      "passed": true
+    },
+    {
+      "name": "M06:G01 recent adopted text exact",
+      "passed": true
+    },
+    {
+      "name": "M06:G01 prior anchors only",
+      "passed": true
+    },
+    {
+      "name": "M06:G01 header unknowns authority unchanged",
+      "passed": true
+    },
+    {
+      "name": "M06:G01 official decoded all payload exact",
+      "passed": true
+    },
+    {
+      "name": "M06:G01 no truncation with fixed1536",
+      "passed": true
+    },
+    {
+      "name": "M06:G01 saved synthetic template exact",
+      "passed": true
+    },
+    {
+      "name": "M06:G01 dynamic request accepted",
+      "passed": true
+    },
+    {
+      "name": "M06:G01 reject seed",
+      "passed": true
+    },
+    {
+      "name": "M06:G01 reject history",
+      "passed": true
+    },
+    {
+      "name": "M06:G01 reject prompt",
+      "passed": true
+    },
+    {
+      "name": "M06:G01 reject operation_order",
+      "passed": true
+    },
+    {
+      "name": "M06:G02 fixed schedule",
+      "passed": true
+    },
+    {
+      "name": "M06:G02 exact contiguous current full operations",
+      "passed": true
+    },
+    {
+      "name": "M06:G02 source indices and final flag",
+      "passed": true
+    },
+    {
+      "name": "M06:G02 recent adopted text exact",
+      "passed": true
+    },
+    {
+      "name": "M06:G02 prior anchors only",
+      "passed": true
+    },
+    {
+      "name": "M06:G02 header unknowns authority unchanged",
+      "passed": true
+    },
+    {
+      "name": "M06:G02 official decoded all payload exact",
+      "passed": true
+    },
+    {
+      "name": "M06:G02 no truncation with fixed1536",
+      "passed": true
+    },
+    {
+      "name": "M06:G02 saved synthetic template exact",
+      "passed": true
+    },
+    {
+      "name": "M06:G02 dynamic request accepted",
+      "passed": true
+    },
+    {
+      "name": "M06:G02 reject seed",
+      "passed": true
+    },
+    {
+      "name": "M06:G02 reject history",
+      "passed": true
+    },
+    {
+      "name": "M06:G02 reject prompt",
+      "passed": true
+    },
+    {
+      "name": "M06:G02 reject operation_order",
+      "passed": true
+    },
+    {
+      "name": "M06:G03 fixed schedule",
+      "passed": true
+    },
+    {
+      "name": "M06:G03 exact contiguous current full operations",
+      "passed": true
+    },
+    {
+      "name": "M06:G03 source indices and final flag",
+      "passed": true
+    },
+    {
+      "name": "M06:G03 recent adopted text exact",
+      "passed": true
+    },
+    {
+      "name": "M06:G03 prior anchors only",
+      "passed": true
+    },
+    {
+      "name": "M06:G03 header unknowns authority unchanged",
+      "passed": true
+    },
+    {
+      "name": "M06:G03 official decoded all payload exact",
+      "passed": true
+    },
+    {
+      "name": "M06:G03 no truncation with fixed1536",
+      "passed": true
+    },
+    {
+      "name": "M06:G03 saved synthetic template exact",
+      "passed": true
+    },
+    {
+      "name": "M06:G03 dynamic request accepted",
+      "passed": true
+    },
+    {
+      "name": "M06:G03 reject seed",
+      "passed": true
+    },
+    {
+      "name": "M06:G03 reject history",
+      "passed": true
+    },
+    {
+      "name": "M06:G03 reject prompt",
+      "passed": true
+    },
+    {
+      "name": "M06:G03 reject operation_order",
+      "passed": true
+    },
+    {
+      "name": "M06:G04 fixed schedule",
+      "passed": true
+    },
+    {
+      "name": "M06:G04 exact contiguous current full operations",
+      "passed": true
+    },
+    {
+      "name": "M06:G04 source indices and final flag",
+      "passed": true
+    },
+    {
+      "name": "M06:G04 recent adopted text exact",
+      "passed": true
+    },
+    {
+      "name": "M06:G04 prior anchors only",
+      "passed": true
+    },
+    {
+      "name": "M06:G04 header unknowns authority unchanged",
+      "passed": true
+    },
+    {
+      "name": "M06:G04 official decoded all payload exact",
+      "passed": true
+    },
+    {
+      "name": "M06:G04 no truncation with fixed1536",
+      "passed": true
+    },
+    {
+      "name": "M06:G04 saved synthetic template exact",
+      "passed": true
+    },
+    {
+      "name": "M06:G04 dynamic request accepted",
+      "passed": true
+    },
+    {
+      "name": "M06:G04 reject seed",
+      "passed": true
+    },
+    {
+      "name": "M06:G04 reject history",
+      "passed": true
+    },
+    {
+      "name": "M06:G04 reject prompt",
+      "passed": true
+    },
+    {
+      "name": "M06:G04 reject operation_order",
+      "passed": true
+    },
+    {
+      "name": "M17 CPU selection exact",
+      "passed": true
+    },
+    {
+      "name": "M17 flatten groups preserves full source order",
+      "passed": true
+    },
+    {
+      "name": "M17 original whole official input exact",
+      "passed": true
+    },
+    {
+      "name": "M17 old40 per-op payloads same",
+      "passed": true
+    },
+    {
+      "name": "M17:G01 fixed schedule",
+      "passed": true
+    },
+    {
+      "name": "M17:G01 exact contiguous current full operations",
+      "passed": true
+    },
+    {
+      "name": "M17:G01 source indices and final flag",
+      "passed": true
+    },
+    {
+      "name": "M17:G01 recent adopted text exact",
+      "passed": true
+    },
+    {
+      "name": "M17:G01 prior anchors only",
+      "passed": true
+    },
+    {
+      "name": "M17:G01 header unknowns authority unchanged",
+      "passed": true
+    },
+    {
+      "name": "M17:G01 official decoded all payload exact",
+      "passed": true
+    },
+    {
+      "name": "M17:G01 no truncation with fixed1536",
+      "passed": true
+    },
+    {
+      "name": "M17:G01 saved synthetic template exact",
+      "passed": true
+    },
+    {
+      "name": "M17:G01 dynamic request accepted",
+      "passed": true
+    },
+    {
+      "name": "M17:G01 reject seed",
+      "passed": true
+    },
+    {
+      "name": "M17:G01 reject history",
+      "passed": true
+    },
+    {
+      "name": "M17:G01 reject prompt",
+      "passed": true
+    },
+    {
+      "name": "M17:G01 reject operation_order",
+      "passed": true
+    },
+    {
+      "name": "M17:G02 fixed schedule",
+      "passed": true
+    },
+    {
+      "name": "M17:G02 exact contiguous current full operations",
+      "passed": true
+    },
+    {
+      "name": "M17:G02 source indices and final flag",
+      "passed": true
+    },
+    {
+      "name": "M17:G02 recent adopted text exact",
+      "passed": true
+    },
+    {
+      "name": "M17:G02 prior anchors only",
+      "passed": true
+    },
+    {
+      "name": "M17:G02 header unknowns authority unchanged",
+      "passed": true
+    },
+    {
+      "name": "M17:G02 official decoded all payload exact",
+      "passed": true
+    },
+    {
+      "name": "M17:G02 no truncation with fixed1536",
+      "passed": true
+    },
+    {
+      "name": "M17:G02 saved synthetic template exact",
+      "passed": true
+    },
+    {
+      "name": "M17:G02 dynamic request accepted",
+      "passed": true
+    },
+    {
+      "name": "M17:G02 reject seed",
+      "passed": true
+    },
+    {
+      "name": "M17:G02 reject history",
+      "passed": true
+    },
+    {
+      "name": "M17:G02 reject prompt",
+      "passed": true
+    },
+    {
+      "name": "M17:G02 reject operation_order",
+      "passed": true
+    },
+    {
+      "name": "M17:G03 fixed schedule",
+      "passed": true
+    },
+    {
+      "name": "M17:G03 exact contiguous current full operations",
+      "passed": true
+    },
+    {
+      "name": "M17:G03 source indices and final flag",
+      "passed": true
+    },
+    {
+      "name": "M17:G03 recent adopted text exact",
+      "passed": true
+    },
+    {
+      "name": "M17:G03 prior anchors only",
+      "passed": true
+    },
+    {
+      "name": "M17:G03 header unknowns authority unchanged",
+      "passed": true
+    },
+    {
+      "name": "M17:G03 official decoded all payload exact",
+      "passed": true
+    },
+    {
+      "name": "M17:G03 no truncation with fixed1536",
+      "passed": true
+    },
+    {
+      "name": "M17:G03 saved synthetic template exact",
+      "passed": true
+    },
+    {
+      "name": "M17:G03 dynamic request accepted",
+      "passed": true
+    },
+    {
+      "name": "M17:G03 reject seed",
+      "passed": true
+    },
+    {
+      "name": "M17:G03 reject history",
+      "passed": true
+    },
+    {
+      "name": "M17:G03 reject prompt",
+      "passed": true
+    },
+    {
+      "name": "M17:G03 reject operation_order",
+      "passed": true
+    },
+    {
+      "name": "M17:G04 fixed schedule",
+      "passed": true
+    },
+    {
+      "name": "M17:G04 exact contiguous current full operations",
+      "passed": true
+    },
+    {
+      "name": "M17:G04 source indices and final flag",
+      "passed": true
+    },
+    {
+      "name": "M17:G04 recent adopted text exact",
+      "passed": true
+    },
+    {
+      "name": "M17:G04 prior anchors only",
+      "passed": true
+    },
+    {
+      "name": "M17:G04 header unknowns authority unchanged",
+      "passed": true
+    },
+    {
+      "name": "M17:G04 official decoded all payload exact",
+      "passed": true
+    },
+    {
+      "name": "M17:G04 no truncation with fixed1536",
+      "passed": true
+    },
+    {
+      "name": "M17:G04 saved synthetic template exact",
+      "passed": true
+    },
+    {
+      "name": "M17:G04 dynamic request accepted",
+      "passed": true
+    },
+    {
+      "name": "M17:G04 reject seed",
+      "passed": true
+    },
+    {
+      "name": "M17:G04 reject history",
+      "passed": true
+    },
+    {
+      "name": "M17:G04 reject prompt",
+      "passed": true
+    },
+    {
+      "name": "M17:G04 reject operation_order",
+      "passed": true
+    },
+    {
+      "name": "M23 CPU selection exact",
+      "passed": true
+    },
+    {
+      "name": "M23 flatten groups preserves full source order",
+      "passed": true
+    },
+    {
+      "name": "M23 original whole official input exact",
+      "passed": true
+    },
+    {
+      "name": "M23 old40 per-op payloads same",
+      "passed": true
+    },
+    {
+      "name": "M23:G01 fixed schedule",
+      "passed": true
+    },
+    {
+      "name": "M23:G01 exact contiguous current full operations",
+      "passed": true
+    },
+    {
+      "name": "M23:G01 source indices and final flag",
+      "passed": true
+    },
+    {
+      "name": "M23:G01 recent adopted text exact",
+      "passed": true
+    },
+    {
+      "name": "M23:G01 prior anchors only",
+      "passed": true
+    },
+    {
+      "name": "M23:G01 header unknowns authority unchanged",
+      "passed": true
+    },
+    {
+      "name": "M23:G01 official decoded all payload exact",
+      "passed": true
+    },
+    {
+      "name": "M23:G01 no truncation with fixed1536",
+      "passed": true
+    },
+    {
+      "name": "M23:G01 saved synthetic template exact",
+      "passed": true
+    },
+    {
+      "name": "M23:G01 dynamic request accepted",
+      "passed": true
+    },
+    {
+      "name": "M23:G01 reject seed",
+      "passed": true
+    },
+    {
+      "name": "M23:G01 reject history",
+      "passed": true
+    },
+    {
+      "name": "M23:G01 reject prompt",
+      "passed": true
+    },
+    {
+      "name": "M23:G01 reject operation_order",
+      "passed": true
+    },
+    {
+      "name": "M23:G02 fixed schedule",
+      "passed": true
+    },
+    {
+      "name": "M23:G02 exact contiguous current full operations",
+      "passed": true
+    },
+    {
+      "name": "M23:G02 source indices and final flag",
+      "passed": true
+    },
+    {
+      "name": "M23:G02 recent adopted text exact",
+      "passed": true
+    },
+    {
+      "name": "M23:G02 prior anchors only",
+      "passed": true
+    },
+    {
+      "name": "M23:G02 header unknowns authority unchanged",
+      "passed": true
+    },
+    {
+      "name": "M23:G02 official decoded all payload exact",
+      "passed": true
+    },
+    {
+      "name": "M23:G02 no truncation with fixed1536",
+      "passed": true
+    },
+    {
+      "name": "M23:G02 saved synthetic template exact",
+      "passed": true
+    },
+    {
+      "name": "M23:G02 dynamic request accepted",
+      "passed": true
+    },
+    {
+      "name": "M23:G02 reject seed",
+      "passed": true
+    },
+    {
+      "name": "M23:G02 reject history",
+      "passed": true
+    },
+    {
+      "name": "M23:G02 reject prompt",
+      "passed": true
+    },
+    {
+      "name": "M23:G02 reject operation_order",
+      "passed": true
+    },
+    {
+      "name": "M23:G03 fixed schedule",
+      "passed": true
+    },
+    {
+      "name": "M23:G03 exact contiguous current full operations",
+      "passed": true
+    },
+    {
+      "name": "M23:G03 source indices and final flag",
+      "passed": true
+    },
+    {
+      "name": "M23:G03 recent adopted text exact",
+      "passed": true
+    },
+    {
+      "name": "M23:G03 prior anchors only",
+      "passed": true
+    },
+    {
+      "name": "M23:G03 header unknowns authority unchanged",
+      "passed": true
+    },
+    {
+      "name": "M23:G03 official decoded all payload exact",
+      "passed": true
+    },
+    {
+      "name": "M23:G03 no truncation with fixed1536",
+      "passed": true
+    },
+    {
+      "name": "M23:G03 saved synthetic template exact",
+      "passed": true
+    },
+    {
+      "name": "M23:G03 dynamic request accepted",
+      "passed": true
+    },
+    {
+      "name": "M23:G03 reject seed",
+      "passed": true
+    },
+    {
+      "name": "M23:G03 reject history",
+      "passed": true
+    },
+    {
+      "name": "M23:G03 reject prompt",
+      "passed": true
+    },
+    {
+      "name": "M23:G03 reject operation_order",
+      "passed": true
+    },
+    {
+      "name": "recent actual two calls",
+      "passed": true
+    },
+    {
+      "name": "over800 history omitted whole",
+      "passed": true
+    },
+    {
+      "name": "held excluded",
+      "passed": true
+    },
+    {
+      "name": "actual controller11 held=False",
+      "passed": true
+    },
+    {
+      "name": "reset sample history held=False",
+      "passed": true
+    },
+    {
+      "name": "all40 attempted order held=False",
+      "passed": true
+    },
+    {
+      "name": "format held no retry False",
+      "passed": true
+    },
+    {
+      "name": "actual controller11 held=True",
+      "passed": true
+    },
+    {
+      "name": "reset sample history held=True",
+      "passed": true
+    },
+    {
+      "name": "all40 attempted order held=True",
+      "passed": true
+    },
+    {
+      "name": "format held no retry True",
+      "passed": true
+    },
+    {
+      "name": "empty held",
+      "passed": true
+    },
+    {
+      "name": "cap held",
+      "passed": true
+    }
+  ],
+  "counts": [
+    {
+      "unit_key": "M06:G01",
+      "input_tokens": 2069,
+      "operations": 4
+    },
+    {
+      "unit_key": "M06:G02",
+      "input_tokens": 2448,
+      "operations": 4
+    },
+    {
+      "unit_key": "M06:G03",
+      "input_tokens": 2345,
+      "operations": 4
+    },
+    {
+      "unit_key": "M06:G04",
+      "input_tokens": 1708,
+      "operations": 2
+    },
+    {
+      "unit_key": "M17:G01",
+      "input_tokens": 2082,
+      "operations": 4
+    },
+    {
+      "unit_key": "M17:G02",
+      "input_tokens": 2172,
+      "operations": 4
+    },
+    {
+      "unit_key": "M17:G03",
+      "input_tokens": 2332,
+      "operations": 4
+    },
+    {
+      "unit_key": "M17:G04",
+      "input_tokens": 1714,
+      "operations": 2
+    },
+    {
+      "unit_key": "M23:G01",
+      "input_tokens": 2051,
+      "operations": 4
+    },
+    {
+      "unit_key": "M23:G02",
+      "input_tokens": 2142,
+      "operations": 4
+    },
+    {
+      "unit_key": "M23:G03",
+      "input_tokens": 2536,
+      "operations": 4
+    }
+  ],
+  "new_model_calls": 0,
+  "prepared_inputs_sha256": "acfb84a08646b2a101746a14664577ce1dfdd255fefbfdee1be4b982d4e13a27",
+  "unit_templates_sha256": "f3cb5572663ed63afdee6944f98c37f580fac3212c93e1948f1ead215b9bde92",
+  "real_history_requests_must_be_replayed_after_generation": true,
+  "context_cut_tokens": 0
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "unit_key": "M06:G01",
+    "sample_id": "M06",
+    "unit_index": 1
+  },
+  {
+    "unit_key": "M06:G02",
+    "sample_id": "M06",
+    "unit_index": 2
+  },
+  {
+    "unit_key": "M06:G03",
+    "sample_id": "M06",
+    "unit_index": 3
+  },
+  {
+    "unit_key": "M06:G04",
+    "sample_id": "M06",
+    "unit_index": 4
+  },
+  {
+    "unit_key": "M17:G01",
+    "sample_id": "M17",
+    "unit_index": 1
+  },
+  {
+    "unit_key": "M17:G02",
+    "sample_id": "M17",
+    "unit_index": 2
+  },
+  {
+    "unit_key": "M17:G03",
+    "sample_id": "M17",
+    "unit_index": 3
+  },
+  {
+    "unit_key": "M17:G04",
+    "sample_id": "M17",
+    "unit_index": 4
+  },
+  {
+    "unit_key": "M23:G01",
+    "sample_id": "M23",
+    "unit_index": 1
+  },
+  {
+    "unit_key": "M23:G02",
+    "sample_id": "M23",
+    "unit_index": 2
+  },
+  {
+    "unit_key": "M23:G03",
+    "sample_id": "M23",
+    "unit_index": 3
+  }
+]

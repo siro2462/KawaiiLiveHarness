@@ -1,0 +1,42 @@
+{
+  "status": "complete",
+  "review_packet_sha256": "ff8cbe122cfc2c03d4ec087b876f5268193386fa2e046e43d10a39f1b6ab9fe4",
+  "root_review_sha256": "0c6215b818825062bd3ab4d23fd98e3b77645ecc2301db62fa3524e5740c9aba",
+  "annotations_sha256": "8cc1509556c95120ef4b9f50e0a50dff943106268d01b5d8c565d1b7b73ec85f",
+  "comparison_sha256": "0dc49e293aa98626520ab8344f7b4e98e62ea74a65159aa7b0fc883beb058838",
+  "report_check_sha256": "fc5b2a51289bc3a66855fe3abf03930df754a7f14156ccabe0f9db047d7da8b7",
+  "human_quality_labels": 0,
+  "metrics": [
+    {
+      "sample_id": "M06",
+      "baseline_chars": 285,
+      "stepwise_chars": 475,
+      "calls": 14,
+      "delivered": 14,
+      "eos": 14,
+      "output_tokens": 285,
+      "model_seconds": 499.511
+    },
+    {
+      "sample_id": "M17",
+      "baseline_chars": 411,
+      "stepwise_chars": 439,
+      "calls": 14,
+      "delivered": 14,
+      "eos": 14,
+      "output_tokens": 285,
+      "model_seconds": 494.722
+    },
+    {
+      "sample_id": "M23",
+      "baseline_chars": 393,
+      "stepwise_chars": 455,
+      "calls": 12,
+      "delivered": 12,
+      "eos": 12,
+      "output_tokens": 283,
+      "model_seconds": 463.496
+    }
+  ],
+  "finished_jst": "2026-10-31T23:45:11.554054+09:00"
+}

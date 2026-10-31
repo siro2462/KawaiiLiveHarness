@@ -1,0 +1,316 @@
+{
+  "h06_32_operation_stats": [
+    {
+      "arm": "A",
+      "calls": 2,
+      "chars_each": [
+        113,
+        95
+      ],
+      "min": 95,
+      "median": 104.0,
+      "max": 113,
+      "total": 208
+    },
+    {
+      "arm": "B",
+      "calls": 1,
+      "chars_each": [
+        499
+      ],
+      "min": 499,
+      "median": 499,
+      "max": 499,
+      "total": 499
+    },
+    {
+      "arm": "C",
+      "calls": 8,
+      "chars_each": [
+        69,
+        63,
+        58,
+        86,
+        69,
+        75,
+        80,
+        90
+      ],
+      "min": 58,
+      "median": 72.0,
+      "max": 90,
+      "total": 590
+    }
+  ],
+  "h06_actual_text": {
+    "A": [
+      {
+        "call_id": "R0001",
+        "operation_count": 0,
+        "body": "あのさ、ガラポンのことなんだけど。1回600円で、それを15回、合計9000円も回したのに、一度もA賞が出なかったんだよね。ずっとB賞ばかりでさ……。天井とかもないみたいで、全然A賞が出ない仕組み、もう本当に腹立つっていうか。"
+      },
+      {
+        "call_id": "R0002",
+        "operation_count": 0,
+        "body": "だってさ、あんなにA賞の景品、たくさん置いてあるんだよ？ なのに全然当たらないっていうか……。もう、その、9000円もあったら、普通に一つ買えたんじゃないかなって思うと、もう……本当に悔しい。"
+      }
+    ],
+    "B": [
+      {
+        "call_id": "R0003",
+        "operation_count": 32,
+        "body": "ちょっと許せない話があるんですけど。ガラポンを回したんですよ、A賞とかB賞とかC賞がある抽選で、球を取り出す大きな抽選器があったんですけど、そこに天井がないっていうのもあって。A賞が欲しかったんですよね。結局、9000円使ってステッカーとかしか貰えなくて。いや、もう金額的にやばいなって。9000円ですよ？ 許せないですよ、本当に。B賞ばかりが続いて。何回引いても出そうにないなって感じてたし、一回くらい当たってもいいんじゃないかって思ってたんですけど、もう、くれよって感じで、力が抜けたというか。A賞の景品もたくさん置かれてたから、おかしいなって思いました。15回回したんですけど、A賞が1回も出なかったんですよね。景品の在庫はたくさんあるみたいだったから、それってよくないなって。15回回した、確か……かな。1回600円で、合計9000円使ったんですけど、これだけあれば買えたんじゃないかなって思っちゃうというか。正直、嫌だしショックで。A賞が出ない仕組みなんじゃないかって疑いたくなるような、そういう状況で。A賞はうちわだったんですけど、B賞が何だったかはちょっと思い出せないですね。はぁ……。"
+      }
+    ],
+    "C": [
+      {
+        "call_id": "R0004",
+        "operation_count": 4,
+        "body": "ちょっと許せない話があるんですけど。ガラポンを回したんですよ、A賞とかB賞とかC賞がある抽選で、あの中の大きな抽選器から球を取り出すやつ。"
+      },
+      {
+        "call_id": "R0005",
+        "operation_count": 4,
+        "body": "で、その、天井がないんですよ。A賞が欲しかったんですけど、9000円使ってもステッカーとかしか貰えなくて。結構な金額ですよね。"
+      },
+      {
+        "call_id": "R0006",
+        "operation_count": 4,
+        "body": "9000円って、やばいですよね。本当に許せない。ずっとB賞ばっかり続いて、何回引いても出そうにないなって感じました。"
+      },
+      {
+        "call_id": "R0007",
+        "operation_count": 4,
+        "body": "一回くらいは当たってもいいと思うんですけどね。もう、早くくれよって感じというか、ちょっと脱力しちゃいました。あんなにA賞の景品がたくさん置いてあったのに、おかしいですよね。"
+      },
+      {
+        "call_id": "R0008",
+        "operation_count": 4,
+        "body": "15回も回したんですけど、A賞が1回も出なかったんですよ。あんなに景品が置いてあったのに、当たらないのはちょっとよくないなって思いました。"
+      },
+      {
+        "call_id": "R0009",
+        "operation_count": 4,
+        "body": "A賞の景品、あんなにたくさん置いてあったんですよね。それで、15回回したんですけど、A賞は1回も出なかったんですよ。……えーと、確か15回だったかな。"
+      },
+      {
+        "call_id": "R0010",
+        "operation_count": 4,
+        "body": "1回600円だったので、合計で9000円使ったんですけど……。それだけあれば、何か買えたのかなって思っちゃいますよね。本当に、ショックというか、嫌な感じでした。"
+      },
+      {
+        "call_id": "R0011",
+        "operation_count": 4,
+        "body": "もしかして、A賞が出ないような仕組みなのかな、なんて疑っちゃったりもしたんですよね。A賞はうちわだったんですけど……B賞とかも、なんだっけ、あんまり詳しく思い出せないな……。はぁ。"
+      }
+    ]
+  },
+  "old_fixed_B_stats": {
+    "calls": 8,
+    "chars_each": [
+      61,
+      61,
+      24,
+      67,
+      74,
+      30,
+      46,
+      47
+    ],
+    "min": 24,
+    "median": 54.0,
+    "max": 74,
+    "target_counts": [
+      2,
+      2,
+      1,
+      2,
+      2,
+      1,
+      2,
+      2
+    ]
+  },
+  "old_fixed_B_actual_text": [
+    {
+      "call_id": "R0004",
+      "target_count": 2,
+      "target_facts": [
+        {
+          "id": "F01-1",
+          "claim": "買い物帰りに青い手袋が片方ないことに気づいた。",
+          "kind": "event"
+        },
+        {
+          "id": "F01-2",
+          "claim": "手袋を落とした場所が分からなかった。",
+          "kind": "event"
+        }
+      ],
+      "body": "あ、そういえばさ、買い物帰りに気づいたんだけど、青い手袋、片方ないんだよね。……どこで落としたのか、さっぱり分かんなくて。"
+    },
+    {
+      "call_id": "R0005",
+      "target_count": 2,
+      "target_facts": [
+        {
+          "id": "F01-3",
+          "claim": "歩いた道を引き返して横断歩道のそばを探した。",
+          "kind": "event"
+        },
+        {
+          "id": "F01-4",
+          "claim": "手袋はエコバッグの内ポケットに入っていた。",
+          "kind": "event"
+        }
+      ],
+      "body": "さっき歩いた道を引き返して、横断歩道のそばとかも探してみたんだけどさ。……結局、エコバッグの内ポケットに入ってたんだよね。"
+    },
+    {
+      "call_id": "R0006",
+      "target_count": 1,
+      "target_facts": [
+        {
+          "id": "F01-5",
+          "claim": "見つかってほっとした。",
+          "kind": "event"
+        }
+      ],
+      "body": "あー、本当によかった。見つかって、ほっとしたよ。"
+    },
+    {
+      "call_id": "R0007",
+      "target_count": 2,
+      "target_facts": [
+        {
+          "id": "F08-1",
+          "claim": "買い物メモを紙に書いて机の上に置いた。",
+          "kind": "event"
+        },
+        {
+          "id": "F08-2",
+          "claim": "店に着いてから紙のメモを家に置いてきたと気づいた。",
+          "kind": "event"
+        }
+      ],
+      "body": "あ、そういえばさ。買い物メモ、紙に書いて机の上に置いてきたんだよね。で、いざお店に着いてから……あ、メモ忘れてきた、って気づいたんだ。"
+    },
+    {
+      "call_id": "R0008",
+      "target_count": 2,
+      "target_facts": [
+        {
+          "id": "F08-3",
+          "claim": "同じ忘れ物を繰り返したくないと思った。",
+          "kind": "intent"
+        },
+        {
+          "id": "F08-4",
+          "claim": "スマホのメモなら家に忘れにくいと考えた。",
+          "kind": "event"
+        }
+      ],
+      "body": "もう、同じようなこと繰り返したくないな、って思って。……で、スマホのメモなら、家に入れっぱなしにすることもないし、忘れにくいかなって考えたんだよね。"
+    },
+    {
+      "call_id": "R0009",
+      "target_count": 1,
+      "target_facts": [
+        {
+          "id": "F08-5",
+          "claim": "次回からスマホにもメモを保存することにした。",
+          "kind": "intent"
+        }
+      ],
+      "body": "だからさ、次はスマホにもメモを入れておくことにしたんだよね。"
+    },
+    {
+      "call_id": "R0010",
+      "target_count": 2,
+      "target_facts": [
+        {
+          "id": "F13-1",
+          "claim": "金曜日に映画を見る予定を立てた。",
+          "kind": "event"
+        },
+        {
+          "id": "F13-2",
+          "claim": "その日は映画を見なかった。",
+          "kind": "event"
+        }
+      ],
+      "body": "あ、そういえばさ、金曜日に映画見る予定立ててたんだけど……結局、その日は見なかったんだよね。"
+    },
+    {
+      "call_id": "R0011",
+      "target_count": 2,
+      "target_facts": [
+        {
+          "id": "F13-3",
+          "claim": "映画の予定を日曜日に変更した。",
+          "kind": "event"
+        },
+        {
+          "id": "F13-4",
+          "claim": "新しい予定を紙のメモに書いた。",
+          "kind": "event"
+        }
+      ],
+      "body": "で、結局、予定を日曜日に変えたんだよね。それで、新しい予定は……あ、紙のメモに書いておいたよ。"
+    }
+  ],
+  "current_one_operation_stats": {
+    "samples": [
+      {
+        "sample_id": "M06",
+        "baseline_chars": 285,
+        "stepwise_chars": 475,
+        "calls": 14,
+        "delivered": 14,
+        "eos": 14,
+        "min_chars": 24,
+        "median_chars": 34.5,
+        "max_chars": 50,
+        "model_seconds": 499.511,
+        "baseline_model_seconds": 195.047,
+        "begins_a_comma": 5,
+        "end_ndayone": 6
+      },
+      {
+        "sample_id": "M17",
+        "baseline_chars": 411,
+        "stepwise_chars": 439,
+        "calls": 14,
+        "delivered": 14,
+        "eos": 14,
+        "min_chars": 20,
+        "median_chars": 29.5,
+        "max_chars": 47,
+        "model_seconds": 494.722,
+        "baseline_model_seconds": 243.992,
+        "begins_a_comma": 7,
+        "end_ndayone": 4
+      },
+      {
+        "sample_id": "M23",
+        "baseline_chars": 393,
+        "stepwise_chars": 455,
+        "calls": 12,
+        "delivered": 12,
+        "eos": 12,
+        "min_chars": 21,
+        "median_chars": 39.0,
+        "max_chars": 47,
+        "model_seconds": 463.496,
+        "baseline_model_seconds": 223.737,
+        "begins_a_comma": 3,
+        "end_ndayone": 7
+      }
+    ],
+    "total_calls": 40,
+    "total_model_seconds": 1457.729,
+    "char_unit": "nonwhitespace Unicode codepoints",
+    "color_unit": "root actual-output clauses, not CPU operation colors"
+  },
+  "method": "saved outputs only; no generation; actual H06 B/C and old B8 reread; qualitative ratings inherited from cited saved result, not new full-input regrading"
+}
