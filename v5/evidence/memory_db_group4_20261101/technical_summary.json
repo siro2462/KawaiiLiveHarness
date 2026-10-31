@@ -1,0 +1,79 @@
+{
+  "status": "complete",
+  "technical_audit": "pass",
+  "old_saved_calls": 40,
+  "new_calls": 11,
+  "new_eos": 11,
+  "new_format_adopted": 11,
+  "current_native_launcher_controller_GPU_exit0": true,
+  "all51_local_HTML_body_equality": "pass",
+  "human_quality_labels": 0,
+  "actual_TTS": 0,
+  "quality": "not_approved_for_production",
+  "new_training": 0,
+  "quality_regeneration": 0,
+  "samples": [
+    {
+      "sample_id": "M06",
+      "old_calls": 14,
+      "new_calls": 4,
+      "old_chars": 475,
+      "new_chars": 331,
+      "new_each_chars": [
+        115,
+        101,
+        66,
+        49
+      ],
+      "new_median_chars": 83.5,
+      "new_min_chars": 49,
+      "new_max_chars": 115,
+      "delivered": 4,
+      "eos": 4,
+      "model_seconds": 255.587,
+      "old_model_seconds": 499.511
+    },
+    {
+      "sample_id": "M17",
+      "old_calls": 14,
+      "new_calls": 4,
+      "old_chars": 439,
+      "new_chars": 453,
+      "new_each_chars": [
+        149,
+        122,
+        116,
+        66
+      ],
+      "new_median_chars": 119.0,
+      "new_min_chars": 66,
+      "new_max_chars": 149,
+      "delivered": 4,
+      "eos": 4,
+      "model_seconds": 296.368,
+      "old_model_seconds": 494.722
+    },
+    {
+      "sample_id": "M23",
+      "old_calls": 12,
+      "new_calls": 3,
+      "old_chars": 455,
+      "new_chars": 411,
+      "new_each_chars": [
+        153,
+        114,
+        144
+      ],
+      "new_median_chars": 144,
+      "new_min_chars": 114,
+      "new_max_chars": 153,
+      "delivered": 3,
+      "eos": 3,
+      "model_seconds": 256.56899999999996,
+      "old_model_seconds": 463.496
+    }
+  ],
+  "new_model_seconds": 808.5239999999999,
+  "old_model_seconds": 1457.729,
+  "public_scope": "abstract summary and numerical metrics only; no original memory, actual prompts, decoded inputs, RAW or full generated text"
+}
