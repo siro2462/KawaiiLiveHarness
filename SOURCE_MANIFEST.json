@@ -1395,6 +1395,12 @@
       "source_sha256": "6ec7a4309cc7cdfc8c04444e3465b2c58b4e40ddec1030cad65f727d4a9f782f"
     },
     {
+      "path": "v5/evidence/memory_db_group4_20261101/monitoring_complete.json",
+      "kind": "generated-publication-record",
+      "bytes": 357,
+      "sha256": "7a70fe773253785c412f73cdc028a8e67fe7dc501cd11d2221d8c9e3640a99f8"
+    },
+    {
       "path": "v5/evidence/memory_db_group4_20261101/result_summary.md",
       "kind": "generated-publication-record",
       "bytes": 1976,
@@ -4347,8 +4353,8 @@
     {
       "path": "v5/progress/CURRENT_STATE.md",
       "kind": "generated-publication-record",
-      "bytes": 1679,
-      "sha256": "dd53644af365c805db60269f37d572e9ba8d4650333cccc799d30fca19b98e12"
+      "bytes": 1710,
+      "sha256": "96034f8e336f1cf7a0b383c2caacd5cb5a205a3891f9ac875842bbb1d359e2b3"
     },
     {
       "path": "v5/progress/NEXT_CONTROL_PLAN.md",
@@ -4359,8 +4365,8 @@
     {
       "path": "v5/progress/checkpoint.json",
       "kind": "generated-publication-record",
-      "bytes": 2923,
-      "sha256": "8c2d2dd5c782f57547ec56a16a1eae21e454af5fcb9b326e7546bc9026587684"
+      "bytes": 3054,
+      "sha256": "7f7b6f9813ad39540fe217ba89491e550ffc6594962005d161d456a385db75c2"
     },
     {
       "path": "v5/progress/history/pre_group4_20261101/CURRENT_STATE.md",
@@ -4644,5 +4650,6 @@
   "research_policy": "history list/evidence before changes; record/test/commit/push each PG change; fixed generation scope only",
   "group4_automation_id": "4-3",
   "group4_public_result_scope": "abstract summary and numerical metrics only; full payload local",
-  "group4_all51_local_bodies_exact": true
+  "group4_all51_local_bodies_exact": true,
+  "group4_automation_status": "deleted"
 }

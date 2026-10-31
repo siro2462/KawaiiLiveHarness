@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "automation_id": "4-3",
+  "automation_status": "deleted",
+  "result_summary_commit": "02be2862a8c9cf4dc53f6e58188b43314ef83176",
+  "local_full_comparison_complete": true,
+  "public_scope": "abstract summary and numeric metrics only",
+  "quality_approved": false,
+  "human_quality_labels": 0,
+  "extra_generation": 0
+}
