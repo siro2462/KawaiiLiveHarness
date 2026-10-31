@@ -1379,6 +1379,22 @@
       "source_sha256": "5f142a663dc0d0a2a537c2b454bae1334a4f1ff52fdd592da848c60b17857f47"
     },
     {
+      "path": "v5/evidence/memory_db_group4_20261101/execution_started.json",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 673,
+      "sha256": "e474783fe5e84ec611e096d86d34c941296efe8936a5fa9a785cf7e7d690132e",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/execution_started.json",
+      "source_sha256": "e474783fe5e84ec611e096d86d34c941296efe8936a5fa9a785cf7e7d690132e"
+    },
+    {
+      "path": "v5/evidence/memory_db_group4_20261101/initial_cpu_observation.json",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 254,
+      "sha256": "6ec7a4309cc7cdfc8c04444e3465b2c58b4e40ddec1030cad65f727d4a9f782f",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/initial_cpu_observation.json",
+      "source_sha256": "6ec7a4309cc7cdfc8c04444e3465b2c58b4e40ddec1030cad65f727d4a9f782f"
+    },
+    {
       "path": "v5/evidence/memory_db_stepwise3_20261031/actual_io.json",
       "kind": "generated-publication-record",
       "bytes": 669154,
@@ -4319,8 +4335,8 @@
     {
       "path": "v5/progress/CURRENT_STATE.md",
       "kind": "generated-publication-record",
-      "bytes": 2934,
-      "sha256": "ed581c08cd9edf5b2771a8e4f2d466f8dff4ac05572c07efd66ff1bfecdf8976"
+      "bytes": 3147,
+      "sha256": "9275e9480386d063e8765e11244f1f4c94afde0736e7bb93a2a7e808b4077ce3"
     },
     {
       "path": "v5/progress/NEXT_CONTROL_PLAN.md",
@@ -4331,8 +4347,8 @@
     {
       "path": "v5/progress/checkpoint.json",
       "kind": "generated-publication-record",
-      "bytes": 2738,
-      "sha256": "12a07c371798b605af6136e8ecf11967dcc31c30af77cd72fec085b5db9aa9ba"
+      "bytes": 2892,
+      "sha256": "06d468bf3d24d68662fa82fdc1990c841ad0041be3e62fa7f9eb143282695593"
     },
     {
       "path": "v5/progress/history/pre_group4_20261101/CURRENT_STATE.md",
@@ -4612,6 +4628,7 @@
   ],
   "human_vs_CPU_rhythm_same_grain_analysis": "not_performed",
   "memory_db_group4_source": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\memory_db_group4_20261101_v1",
-  "group4_generation_status": "CPU_validated_not_launched",
-  "research_policy": "history list/evidence before changes; record/test/commit/push each PG change; fixed generation scope only"
+  "group4_generation_status": "generation_running",
+  "research_policy": "history list/evidence before changes; record/test/commit/push each PG change; fixed generation scope only",
+  "group4_automation_id": "4-3"
 }

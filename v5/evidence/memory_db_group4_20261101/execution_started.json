@@ -1,0 +1,25 @@
+{
+  "status": "generation_running",
+  "new_surface_max": 11,
+  "old_saved_calls": 40,
+  "new_text_read": false,
+  "automation_id": "4-3",
+  "initial_observation": {
+    "status": "running",
+    "phase": "waiting_output",
+    "calls_completed": 0,
+    "actual_surface_calls": null,
+    "error": null,
+    "controller_alive_same_identity": true,
+    "gpu_alive_same_identity": true,
+    "wrapper_alive_same_identity": true
+  },
+  "source_commit": "37f291b398b65863b1f62b8109a42f8a27169c7f",
+  "started_jst": "2026-11-01T00:20:30.149720+09:00",
+  "call_distribution": {
+    "M06": 4,
+    "M17": 4,
+    "M23": 3
+  },
+  "no_resident_agent_wait": true
+}

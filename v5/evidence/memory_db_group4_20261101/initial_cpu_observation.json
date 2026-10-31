@@ -1,0 +1,10 @@
+{
+  "status": "running",
+  "phase": "waiting_output",
+  "calls_completed": 0,
+  "actual_surface_calls": null,
+  "error": null,
+  "controller_alive_same_identity": true,
+  "gpu_alive_same_identity": true,
+  "wrapper_alive_same_identity": true
+}
