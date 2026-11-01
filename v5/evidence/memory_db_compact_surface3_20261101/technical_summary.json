@@ -1,21 +1,150 @@
 {
-  "status": "launched_pending_root_review",
+  "status": "execution_complete_quality_not_approved",
   "cpu_checks": 308,
   "dependency_checks": 8,
   "synthetic_report_checks": 5,
   "startup_python_exit": 0,
-  "unchanged_core_files": 14,
+  "current_native_launcher_controller_GPU_python_all_exit0": true,
+  "new_surface_calls": 11,
+  "saved_baseline_calls": 11,
   "fixed_samples": 3,
   "fixed_operations": 40,
   "deferred": 1,
-  "saved_baseline_calls": 11,
-  "new_surface_call_limit": 11,
-  "new_model_calls_at_preflight": 0,
+  "all22_bodies_and_actual_inputs_RAW_local_checked": true,
+  "all22_lossless_prompt_decoded_RAW_reconstruction_pass": true,
+  "root_full_required_text_review": true,
+  "new11_content_manual_FET_exact": true,
   "human_quality_labels": 0,
-  "quality_status": "unverified",
+  "real_TTS": false,
+  "metrics": [
+    {
+      "sample_id": "M06",
+      "baseline": {
+        "calls": 4,
+        "chars": 331,
+        "chars_by_call": [
+          115,
+          101,
+          66,
+          49
+        ],
+        "input_tokens": [
+          2069,
+          2508,
+          2453,
+          1785
+        ],
+        "model_seconds": 255.587,
+        "eos": 4,
+        "held": 0
+      },
+      "compact": {
+        "calls": 4,
+        "chars": 405,
+        "chars_by_call": [
+          121,
+          110,
+          122,
+          52
+        ],
+        "input_tokens": [
+          1504,
+          1637,
+          1646,
+          1396
+        ],
+        "model_seconds": 335.931,
+        "eos": 4,
+        "held": 0
+      }
+    },
+    {
+      "sample_id": "M17",
+      "baseline": {
+        "calls": 4,
+        "chars": 453,
+        "chars_by_call": [
+          149,
+          122,
+          116,
+          66
+        ],
+        "input_tokens": [
+          2082,
+          2246,
+          2468,
+          1836
+        ],
+        "model_seconds": 296.368,
+        "eos": 4,
+        "held": 0
+      },
+      "compact": {
+        "calls": 4,
+        "chars": 438,
+        "chars_by_call": [
+          110,
+          127,
+          121,
+          80
+        ],
+        "input_tokens": [
+          1450,
+          1541,
+          1684,
+          1427
+        ],
+        "model_seconds": 296.014,
+        "eos": 4,
+        "held": 0
+      }
+    },
+    {
+      "sample_id": "M23",
+      "baseline": {
+        "calls": 3,
+        "chars": 411,
+        "chars_by_call": [
+          153,
+          114,
+          144
+        ],
+        "input_tokens": [
+          2051,
+          2218,
+          2671
+        ],
+        "model_seconds": 256.56899999999996,
+        "eos": 3,
+        "held": 0
+      },
+      "compact": {
+        "calls": 3,
+        "chars": 449,
+        "chars_by_call": [
+          146,
+          145,
+          158
+        ],
+        "input_tokens": [
+          1462,
+          1579,
+          1857
+        ],
+        "model_seconds": 290.97,
+        "eos": 3,
+        "held": 0
+      }
+    }
+  ],
+  "planner_calls": 0,
+  "guard_calls": 0,
+  "training": 0,
+  "quality_retries": 0,
+  "memory_writes": 0,
   "source_Memory_DB_modified": false,
-  "publication_scope": "generic source and newly authored abstract records only",
-  "hidden_launch_count": 1,
+  "quality_status": "not_approved_for_production",
   "automation_id": "surface-3",
-  "single_live_identity_check_pass": true
+  "automation_status": "pending_own_delete_after_result_push",
+  "publication_scope": "generic helper and newly authored abstract summary/numbers only; full payload remains local"
 }

@@ -4,11 +4,11 @@
   "cutoff_item_id": "01a17ff4-b7a0-7b12-8141-bc0381ab07ee",
   "updated_jst": "2026-11-01T00:50:20.915263+09:00",
   "conclusion": "4操作ずつの新11callと全文比較は完了。まとまりの改善例があるが欠落/意味変化/反復等が残り品質未採用。公開は抽象要約・数値・現在地に限定、全文はローカル。",
-  "execution_status": "running_pending_review",
-  "quality_status": "unverified",
+  "execution_status": "complete",
+  "quality_status": "not_approved_for_production",
   "latest_experiment_run": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\memory_db_group4_20261101_v1",
   "automation_id": "surface-3",
-  "automation_status": "ACTIVE",
+  "automation_status": "pending_own_delete_after_result_push",
   "human_quality_labels": 0,
   "confirmed": [
     "新11全EOS・形式採用・現行終了0・技術監査pass。",
@@ -49,22 +49,154 @@
   "result_summary_commit": "02be2862a8c9cf4dc53f6e58188b43314ef83176",
   "latest_experiment": "memory_db_compact_surface3_20261101_v1",
   "latest_confirmed": {
-    "status": "running_at_single_postlaunch_check",
-    "new_surface_call_limit": 11,
+    "status": "execution_complete_quality_not_approved",
+    "cpu_checks": 308,
+    "dependency_checks": 8,
+    "synthetic_report_checks": 5,
+    "startup_python_exit": 0,
+    "current_native_launcher_controller_GPU_python_all_exit0": true,
+    "new_surface_calls": 11,
     "saved_baseline_calls": 11,
-    "source_code_commit": "9f4e033db735bc47ace52f4f4d800644887f9ffd",
-    "source_push_remote_verified": true,
-    "hidden_launch_count": 1,
-    "controller_GPU_wrapper_identity_match": true,
-    "calls_completed_at_check": 0,
-    "new_outputs_read": false,
-    "semantic_quality": "unverified",
+    "fixed_samples": 3,
+    "fixed_operations": 40,
+    "deferred": 1,
+    "all22_bodies_and_actual_inputs_RAW_local_checked": true,
+    "all22_lossless_prompt_decoded_RAW_reconstruction_pass": true,
+    "root_full_required_text_review": true,
+    "new11_content_manual_FET_exact": true,
+    "human_quality_labels": 0,
+    "real_TTS": false,
+    "metrics": [
+      {
+        "sample_id": "M06",
+        "baseline": {
+          "calls": 4,
+          "chars": 331,
+          "chars_by_call": [
+            115,
+            101,
+            66,
+            49
+          ],
+          "input_tokens": [
+            2069,
+            2508,
+            2453,
+            1785
+          ],
+          "model_seconds": 255.587,
+          "eos": 4,
+          "held": 0
+        },
+        "compact": {
+          "calls": 4,
+          "chars": 405,
+          "chars_by_call": [
+            121,
+            110,
+            122,
+            52
+          ],
+          "input_tokens": [
+            1504,
+            1637,
+            1646,
+            1396
+          ],
+          "model_seconds": 335.931,
+          "eos": 4,
+          "held": 0
+        }
+      },
+      {
+        "sample_id": "M17",
+        "baseline": {
+          "calls": 4,
+          "chars": 453,
+          "chars_by_call": [
+            149,
+            122,
+            116,
+            66
+          ],
+          "input_tokens": [
+            2082,
+            2246,
+            2468,
+            1836
+          ],
+          "model_seconds": 296.368,
+          "eos": 4,
+          "held": 0
+        },
+        "compact": {
+          "calls": 4,
+          "chars": 438,
+          "chars_by_call": [
+            110,
+            127,
+            121,
+            80
+          ],
+          "input_tokens": [
+            1450,
+            1541,
+            1684,
+            1427
+          ],
+          "model_seconds": 296.014,
+          "eos": 4,
+          "held": 0
+        }
+      },
+      {
+        "sample_id": "M23",
+        "baseline": {
+          "calls": 3,
+          "chars": 411,
+          "chars_by_call": [
+            153,
+            114,
+            144
+          ],
+          "input_tokens": [
+            2051,
+            2218,
+            2671
+          ],
+          "model_seconds": 256.56899999999996,
+          "eos": 3,
+          "held": 0
+        },
+        "compact": {
+          "calls": 3,
+          "chars": 449,
+          "chars_by_call": [
+            146,
+            145,
+            158
+          ],
+          "input_tokens": [
+            1462,
+            1579,
+            1857
+          ],
+          "model_seconds": 290.97,
+          "eos": 3,
+          "held": 0
+        }
+      }
+    ],
+    "planner_calls": 0,
+    "guard_calls": 0,
+    "training": 0,
+    "quality_retries": 0,
+    "memory_writes": 0,
+    "source_Memory_DB_modified": false,
+    "quality_status": "not_approved_for_production",
     "automation_id": "surface-3",
-    "schedule_interval_minutes": 15,
-    "persistent_agent_wait": false,
-    "progress_snapshot": "chat_progress_20261101_v4",
-    "progress_audit": "pass",
-    "publication_scope": "generic code and new abstract records only; full payload local"
+    "automation_status": "pending_own_delete_after_result_push",
+    "publication_scope": "generic helper and newly authored abstract summary/numbers only; full payload remains local"
   },
   "latest_public_code_commit": "9f4e033db735bc47ace52f4f4d800644887f9ffd"
 }

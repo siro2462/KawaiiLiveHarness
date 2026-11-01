@@ -1391,10 +1391,16 @@
       "sha256": "4518121362bc07b0a7fd88779359b12134c3ee260caeba9a9082b54f92d8a7a9"
     },
     {
+      "path": "v5/evidence/memory_db_compact_surface3_20261101/result_summary.md",
+      "kind": "new-abstract-record",
+      "bytes": 2125,
+      "sha256": "dc494057bea7e6d9f578b40a0c4e273fccc966c7bb4d4ae99d15a0248e3a588c"
+    },
+    {
       "path": "v5/evidence/memory_db_compact_surface3_20261101/technical_summary.json",
       "kind": "new-abstract-record",
-      "bytes": 655,
-      "sha256": "83686748762846c69142865d5fb1d7a6be0b134753bd634e033962b0db325ec6"
+      "bytes": 3271,
+      "sha256": "7a40ef347a2d789f12aabd2e186fcc8e9ff4d1295876074a9d55cc233eceaf38"
     },
     {
       "path": "v5/evidence/memory_db_group4_20261101/execution_started.json",
@@ -3077,8 +3083,8 @@
     {
       "path": "v5/experiments/memory_db_compact_surface3_20261101/README.md",
       "kind": "new-abstract-record",
-      "bytes": 1987,
-      "sha256": "26ad39d38eeaeec7f8584cf5ca80d7695dab275f12d35670d651127a7993b9e2"
+      "bytes": 2535,
+      "sha256": "dbb6568e92e00f650fde70b2b133962014ffcf1d7ba564320bbb1dd50c01a9da"
     },
     {
       "path": "v5/experiments/memory_db_compact_surface3_20261101/common.py",
@@ -3231,6 +3237,14 @@
       "sha256": "ecbe1a33ef1cc2b0d01d8c013ec599503844ea92534c68dedf58cb2b3bd17489",
       "source_sha256": "ecbe1a33ef1cc2b0d01d8c013ec599503844ea92534c68dedf58cb2b3bd17489",
       "source_relative_to_talk": "harness_beta/runs/memory_db_compact_surface3_20261101_v1/executed_source/request_protocol.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_compact_surface3_20261101/root_read/thin_views.py",
+      "kind": "source-byte-preserving",
+      "bytes": 5012,
+      "sha256": "809ad53a1034e21c54fc3a798ed8befdb819e889fd1b802937ef53a94ac51eb2",
+      "source_sha256": "809ad53a1034e21c54fc3a798ed8befdb819e889fd1b802937ef53a94ac51eb2",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_compact_surface3_20261101_v1/root_read/thin_views.py"
     },
     {
       "path": "v5/experiments/memory_db_compact_surface3_20261101/run_cpu.py",
@@ -4585,8 +4599,8 @@
     {
       "path": "v5/progress/CURRENT_STATE.md",
       "kind": "new-abstract-record",
-      "bytes": 1794,
-      "sha256": "94076da90504c4675718a46471e500ea870e668ce019c172f574a8c470c511c5"
+      "bytes": 1436,
+      "sha256": "7f0aa037b47f91a39dd5086df868b82ceff0a5f5cd8a6d75d9d4d1a655e9e4fa"
     },
     {
       "path": "v5/progress/NEXT_CONTROL_PLAN.md",
@@ -4597,8 +4611,8 @@
     {
       "path": "v5/progress/checkpoint.json",
       "kind": "new-abstract-record",
-      "bytes": 3940,
-      "sha256": "00e0c1baae247d8af8db81c592fa2413b557a075af1cc32c21ca192ea34b9ac2"
+      "bytes": 6823,
+      "sha256": "87e95a0cf66f1ae6269f46a73dd8c14b55f99e249a52925a3843e0b7237f13a9"
     },
     {
       "path": "v5/progress/history/pre_group4_20261101/CURRENT_STATE.md",
@@ -4885,8 +4899,10 @@
   "group4_all51_local_bodies_exact": true,
   "group4_automation_status": "deleted",
   "compact_surface3_source": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\memory_db_compact_surface3_20261101_v1",
-  "compact_surface3_status": "one_hidden_launch_live_identity_checked_outputs_unread",
-  "compact_surface3_public_scope": "generic code and newly authored abstract records; private full payload local only",
+  "compact_surface3_status": "complete_quality_not_approved",
+  "compact_surface3_public_scope": "generic PG plus new abstract summary/numbers; private full report local",
   "compact_surface3_automation_id": "surface-3",
-  "compact_surface3_progress_snapshot": "chat_progress_20261101_v4"
+  "compact_surface3_progress_snapshot": "chat_progress_20261101_v4",
+  "compact_surface3_all22_local_bodies_exact": true,
+  "compact_surface3_review_helper": "lossless exact shared headers/dynamic blocks plus decoded edits"
 }
