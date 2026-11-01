@@ -1,0 +1,34 @@
+{
+  "status": "CPU_pass_generation_not_started",
+  "cpu_checks": 390,
+  "dependency_checks": 8,
+  "synthetic_report_checks": 5,
+  "held_RAW_view_checks": 6,
+  "startup_python_exit": 0,
+  "common_instruction_chars_before": 988,
+  "common_instruction_chars_after": 257,
+  "same_history_complete_model_input_parts_exact": true,
+  "same_history_prompt_suffix_byte_exact": true,
+  "paired_baseline_real_histories_CPU_only": true,
+  "old_input_tokens_min_median_max": [
+    1396,
+    1541,
+    1857
+  ],
+  "new_input_tokens_same_history_CPU_only": [
+    938,
+    1083,
+    1399
+  ],
+  "fixed_samples": 3,
+  "fixed_operations": 40,
+  "deferred": 1,
+  "saved_baseline_calls": 11,
+  "new_surface_call_limit": 11,
+  "unchanged_core_files": 14,
+  "new_model_calls_at_preflight": 0,
+  "quality_status": "unverified",
+  "human_quality_labels": 0,
+  "source_DB_or_model_modified": false,
+  "publication_scope": "generic PG and new abstract records/numbers only"
+}

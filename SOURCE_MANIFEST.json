@@ -1,5 +1,5 @@
 {
-  "version": "v5-current-20261101-compact-surface3",
+  "version": "v5-current-20261101-historical-prompt3",
   "client_date_jst": "2026-11-01",
   "kind": "Unchanged v5 default runtime plus completed role/A-G/stripe Surface and CPU-selection experiments; quality not approved",
   "old_v5_tag_unchanged": true,
@@ -1441,6 +1441,18 @@
       "kind": "generated-publication-record",
       "bytes": 1931,
       "sha256": "0fc9e88ff9ee8151993245325c9d2998d4307da9e9b397fb317bb187aecdacd5"
+    },
+    {
+      "path": "v5/evidence/memory_db_historical_prompt3_20261101/decision.md",
+      "kind": "new-abstract-record",
+      "bytes": 1513,
+      "sha256": "428f1ba421000c024544f5e014a4a1898454fd23deef0fe33af393063ad15783"
+    },
+    {
+      "path": "v5/evidence/memory_db_historical_prompt3_20261101/technical_summary.json",
+      "kind": "new-abstract-record",
+      "bytes": 984,
+      "sha256": "ab3b56f1aa5a6dd7beac29e7def8658829e8093344e371bcd93a03388af9d602"
     },
     {
       "path": "v5/evidence/memory_db_stepwise3_20261031/actual_io.json",
@@ -3579,6 +3591,252 @@
       "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/unit_schedule.json"
     },
     {
+      "path": "v5/experiments/memory_db_historical_prompt3_20261101/README.md",
+      "kind": "new-abstract-record",
+      "bytes": 2039,
+      "sha256": "f9734ca863347a28aaf56dcb8379a525e8cd1676e966ac7e769da060fdcf2792"
+    },
+    {
+      "path": "v5/experiments/memory_db_historical_prompt3_20261101/common.py",
+      "kind": "source-byte-preserving",
+      "bytes": 1928,
+      "sha256": "bd4a4b23679c6612420a3f62ec6d948d7d823f6a933eb1194c0c5a86b426a39f",
+      "source_sha256": "bd4a4b23679c6612420a3f62ec6d948d7d823f6a933eb1194c0c5a86b426a39f",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_historical_prompt3_20261101_v1/executed_source/common.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_historical_prompt3_20261101/compact_surface.py",
+      "kind": "source-byte-preserving",
+      "bytes": 3884,
+      "sha256": "2abec5733f667217ded33843d096dafdb987486d1e50afeeae58cd174d8d8dda",
+      "source_sha256": "2abec5733f667217ded33843d096dafdb987486d1e50afeeae58cd174d8d8dda",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_historical_prompt3_20261101_v1/executed_source/compact_surface.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_historical_prompt3_20261101/cpu_selector.py",
+      "kind": "source-byte-preserving",
+      "bytes": 488,
+      "sha256": "8daa0415140d4e920d6d9a5c807c6a29177d4af6e6367b14ee849d5ffeb8d209",
+      "source_sha256": "8daa0415140d4e920d6d9a5c807c6a29177d4af6e6367b14ee849d5ffeb8d209",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_historical_prompt3_20261101_v1/executed_source/cpu_selector.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_historical_prompt3_20261101/dependency_probe.py",
+      "kind": "source-byte-preserving",
+      "bytes": 1733,
+      "sha256": "25e94d52af9b16b1e1060bc0862ffa8742ad35ca439ae80e391799d034bf86ca",
+      "source_sha256": "25e94d52af9b16b1e1060bc0862ffa8742ad35ca439ae80e391799d034bf86ca",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_historical_prompt3_20261101_v1/executed_source/dependency_probe.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_historical_prompt3_20261101/driver_cpu.py",
+      "kind": "source-byte-preserving",
+      "bytes": 2259,
+      "sha256": "35e4a40250fb8a4e7c96340cf3ee630e10b77ee0624dda3c66c04a1bd4749616",
+      "source_sha256": "35e4a40250fb8a4e7c96340cf3ee630e10b77ee0624dda3c66c04a1bd4749616",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_historical_prompt3_20261101_v1/executed_source/driver_cpu.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_historical_prompt3_20261101/finalize_cpu.py",
+      "kind": "source-byte-preserving",
+      "bytes": 7603,
+      "sha256": "435e482c9fda854934ccf64722b370a462cee352a94448c05af4bf0139cfeb10",
+      "source_sha256": "435e482c9fda854934ccf64722b370a462cee352a94448c05af4bf0139cfeb10",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_historical_prompt3_20261101_v1/executed_source/finalize_cpu.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_historical_prompt3_20261101/flow_apply.py",
+      "kind": "source-byte-preserving",
+      "bytes": 5356,
+      "sha256": "5a702f70baa100c2c90f23103f04fac8f8d3865ddf1fa7cd353fa9730072c18b",
+      "source_sha256": "5a702f70baa100c2c90f23103f04fac8f8d3865ddf1fa7cd353fa9730072c18b",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_historical_prompt3_20261101_v1/executed_source/flow_apply.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_historical_prompt3_20261101/full_stripe_runtime.py",
+      "kind": "source-byte-preserving",
+      "bytes": 1266,
+      "sha256": "e68f55e6dc4041510a3d61c6c7d6e50024c7e2e9ff61a7bb8fc16fe3884841f0",
+      "source_sha256": "e68f55e6dc4041510a3d61c6c7d6e50024c7e2e9ff61a7bb8fc16fe3884841f0",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_historical_prompt3_20261101_v1/executed_source/full_stripe_runtime.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_historical_prompt3_20261101/gpu_worker.py",
+      "kind": "source-byte-preserving",
+      "bytes": 5952,
+      "sha256": "e8c736f71f4e8d5e100571ca5919efe24bbd20dce1b45af2f504892169a8a995",
+      "source_sha256": "e8c736f71f4e8d5e100571ca5919efe24bbd20dce1b45af2f504892169a8a995",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_historical_prompt3_20261101_v1/executed_source/gpu_worker.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_historical_prompt3_20261101/grouping_style.txt",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 103,
+      "sha256": "68d8b79aa089cca53eaa5b5b0dcb61ee58b471be973254c18a5b68ac78ceb0e7",
+      "source_sha256": "68d8b79aa089cca53eaa5b5b0dcb61ee58b471be973254c18a5b68ac78ceb0e7",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_historical_prompt3_20261101_v1/grouping_style.txt"
+    },
+    {
+      "path": "v5/experiments/memory_db_historical_prompt3_20261101/historical_prefix.txt",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 739,
+      "sha256": "7ded561693645d8540c78d66f3d278d2fc0681ddc308bb68478196fd24d36d5d",
+      "source_sha256": "7ded561693645d8540c78d66f3d278d2fc0681ddc308bb68478196fd24d36d5d",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_historical_prompt3_20261101_v1/historical_prefix.txt"
+    },
+    {
+      "path": "v5/experiments/memory_db_historical_prompt3_20261101/instruction_probe_cpu.py",
+      "kind": "source-byte-preserving",
+      "bytes": 3819,
+      "sha256": "aa31357bc292411b1e737efb0356a77c1567b4ba3d1efdced90d672c83457f04",
+      "source_sha256": "aa31357bc292411b1e737efb0356a77c1567b4ba3d1efdced90d672c83457f04",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_historical_prompt3_20261101_v1/executed_source/instruction_probe_cpu.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_historical_prompt3_20261101/launch_once.py",
+      "kind": "source-byte-preserving",
+      "bytes": 2824,
+      "sha256": "1ddba83288976794d14bf9658c7d22362a028319cfbbbb9e83004d769158f5d1",
+      "source_sha256": "1ddba83288976794d14bf9658c7d22362a028319cfbbbb9e83004d769158f5d1",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_historical_prompt3_20261101_v1/executed_source/launch_once.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_historical_prompt3_20261101/meaning_legend.json",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 1341,
+      "sha256": "701c8d8fb66a19ded231cf6f556abc7b74e28fdf5ad72162a2a66e285473fb5c",
+      "source_sha256": "701c8d8fb66a19ded231cf6f556abc7b74e28fdf5ad72162a2a66e285473fb5c",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_historical_prompt3_20261101_v1/meaning_legend.json"
+    },
+    {
+      "path": "v5/experiments/memory_db_historical_prompt3_20261101/observe_cpu.py",
+      "kind": "source-byte-preserving",
+      "bytes": 6090,
+      "sha256": "880ba6d922e64a2af801b1436a1a0526c3ad4d73ba77eace813dc7e8ccb2f827",
+      "source_sha256": "880ba6d922e64a2af801b1436a1a0526c3ad4d73ba77eace813dc7e8ccb2f827",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_historical_prompt3_20261101_v1/executed_source/observe_cpu.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_historical_prompt3_20261101/preflight_cpu.py",
+      "kind": "source-byte-preserving",
+      "bytes": 10132,
+      "sha256": "1b764ad16b07763172275471ab834357472b423e98c7daf3e26ba9cbd5141a36",
+      "source_sha256": "1b764ad16b07763172275471ab834357472b423e98c7daf3e26ba9cbd5141a36",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_historical_prompt3_20261101_v1/executed_source/preflight_cpu.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_historical_prompt3_20261101/prepare_inputs.py",
+      "kind": "source-byte-preserving",
+      "bytes": 2923,
+      "sha256": "41299a9a54602c7593b0cc8a96cbad6d03a34e481a261d06792fcb0e14974981",
+      "source_sha256": "41299a9a54602c7593b0cc8a96cbad6d03a34e481a261d06792fcb0e14974981",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_historical_prompt3_20261101_v1/executed_source/prepare_inputs.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_historical_prompt3_20261101/processor_cpu.py",
+      "kind": "source-byte-preserving",
+      "bytes": 947,
+      "sha256": "311d0d846e74aa51a9909c09f942816f86de482ce9857666f2922355e2db2978",
+      "source_sha256": "311d0d846e74aa51a9909c09f942816f86de482ce9857666f2922355e2db2978",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_historical_prompt3_20261101_v1/executed_source/processor_cpu.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_historical_prompt3_20261101/reaction_style.txt",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 1136,
+      "sha256": "2ac697b3e378a7f83240813bba0ef3db806e6b9a6224d7592fa763fa4e2751de",
+      "source_sha256": "2ac697b3e378a7f83240813bba0ef3db806e6b9a6224d7592fa763fa4e2751de",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_historical_prompt3_20261101_v1/reaction_style.txt"
+    },
+    {
+      "path": "v5/experiments/memory_db_historical_prompt3_20261101/reference/baseline_compact_surface.py",
+      "kind": "source-byte-preserving",
+      "bytes": 4540,
+      "sha256": "ad018901f4632951fbe5a7ffc33627d9fedfdbd47c5433338c96899e52215fef",
+      "source_sha256": "ad018901f4632951fbe5a7ffc33627d9fedfdbd47c5433338c96899e52215fef",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_historical_prompt3_20261101_v1/reference/baseline_compact_surface.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_historical_prompt3_20261101/report_presence.py",
+      "kind": "source-byte-preserving",
+      "bytes": 1831,
+      "sha256": "76edd3e85d1386436e79da0f2afa85f13f5722b27b48263457f92b098eac9f18",
+      "source_sha256": "76edd3e85d1386436e79da0f2afa85f13f5722b27b48263457f92b098eac9f18",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_historical_prompt3_20261101_v1/executed_source/report_presence.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_historical_prompt3_20261101/request_protocol.py",
+      "kind": "source-byte-preserving",
+      "bytes": 1512,
+      "sha256": "ecbe1a33ef1cc2b0d01d8c013ec599503844ea92534c68dedf58cb2b3bd17489",
+      "source_sha256": "ecbe1a33ef1cc2b0d01d8c013ec599503844ea92534c68dedf58cb2b3bd17489",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_historical_prompt3_20261101_v1/executed_source/request_protocol.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_historical_prompt3_20261101/root_read/thin_views.py",
+      "kind": "source-byte-preserving",
+      "bytes": 4998,
+      "sha256": "02e5c9f5628f2135005539738e1dd6e8ad45acef395c0fd1102336cea46e06fd",
+      "source_sha256": "02e5c9f5628f2135005539738e1dd6e8ad45acef395c0fd1102336cea46e06fd",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_historical_prompt3_20261101_v1/root_read/thin_views.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_historical_prompt3_20261101/run_cpu.py",
+      "kind": "source-byte-preserving",
+      "bytes": 4886,
+      "sha256": "51b56070719cbec00095b6da6594e73c1abb9ec93e9a3cc03a0fc8120fac8e65",
+      "source_sha256": "51b56070719cbec00095b6da6594e73c1abb9ec93e9a3cc03a0fc8120fac8e65",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_historical_prompt3_20261101_v1/executed_source/run_cpu.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_historical_prompt3_20261101/runtime.py",
+      "kind": "source-byte-preserving",
+      "bytes": 4794,
+      "sha256": "9be06fa22b2b2f268e230335e6996e8d059e08b6e3ba7c90578db77bfb8a4f4e",
+      "source_sha256": "9be06fa22b2b2f268e230335e6996e8d059e08b6e3ba7c90578db77bfb8a4f4e",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_historical_prompt3_20261101_v1/executed_source/runtime.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_historical_prompt3_20261101/startup_probe.py",
+      "kind": "source-byte-preserving",
+      "bytes": 311,
+      "sha256": "9aaa07399551a33bbe314cf7c8bfb72379557d859a34d899285aeabb0394aee4",
+      "source_sha256": "9aaa07399551a33bbe314cf7c8bfb72379557d859a34d899285aeabb0394aee4",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_historical_prompt3_20261101_v1/executed_source/startup_probe.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_historical_prompt3_20261101/stripe_runtime.py",
+      "kind": "source-byte-preserving",
+      "bytes": 4342,
+      "sha256": "b19ffbb3ace44c8276c111f3fe517d68b4182650721c31c8cced85db480681fa",
+      "source_sha256": "b19ffbb3ace44c8276c111f3fe517d68b4182650721c31c8cced85db480681fa",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_historical_prompt3_20261101_v1/executed_source/stripe_runtime.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_historical_prompt3_20261101/test_report_cpu.py",
+      "kind": "source-byte-preserving",
+      "bytes": 3127,
+      "sha256": "e6a727789afb87900d25f4b1437f2e3c9a4f2f6fae8168e7a9eb8a353ed5b57e",
+      "source_sha256": "e6a727789afb87900d25f4b1437f2e3c9a4f2f6fae8168e7a9eb8a353ed5b57e",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_historical_prompt3_20261101_v1/executed_source/test_report_cpu.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_historical_prompt3_20261101/token_journal.py",
+      "kind": "source-byte-preserving",
+      "bytes": 901,
+      "sha256": "fd86eae0677c6ff0619c80c534783bfad02c329d58ac58faaf4c6b895ef8de1e",
+      "source_sha256": "fd86eae0677c6ff0619c80c534783bfad02c329d58ac58faaf4c6b895ef8de1e",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_historical_prompt3_20261101_v1/executed_source/token_journal.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_historical_prompt3_20261101/unit_instruction.txt",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 892,
+      "sha256": "5d4e48d7b6ea41ca3c2ee43104f45e740f69b284b840b35122a0d5358df44a6d",
+      "source_sha256": "5d4e48d7b6ea41ca3c2ee43104f45e740f69b284b840b35122a0d5358df44a6d",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_historical_prompt3_20261101_v1/unit_instruction.txt"
+    },
+    {
       "path": "v5/experiments/stripe_surface_abc_h06_20261027/common.py",
       "kind": "source-byte-preserving",
       "bytes": 1928,
@@ -4605,8 +4863,8 @@
     {
       "path": "v5/progress/CURRENT_STATE.md",
       "kind": "new-abstract-record",
-      "bytes": 1539,
-      "sha256": "ee0e8b694cc492e46ef4280b1582c17ac154e78caad2daf97dcbf8a90a032695"
+      "bytes": 1525,
+      "sha256": "f3f1a40a59ab19a592f40d0f1f0081f0cf71f3c92c0c3644567a686e99956649"
     },
     {
       "path": "v5/progress/NEXT_CONTROL_PLAN.md",
@@ -4617,8 +4875,8 @@
     {
       "path": "v5/progress/checkpoint.json",
       "kind": "new-abstract-record",
-      "bytes": 7589,
-      "sha256": "2715e842860999b2d7ee3e62977060b15e01398e30e7a23ba305ed0929341c00"
+      "bytes": 5102,
+      "sha256": "8ff3b892dd2ac0336cfa69f50654a0c02e137585912359444309bd99b6a3ba6b"
     },
     {
       "path": "v5/progress/history/pre_group4_20261101/CURRENT_STATE.md",
@@ -4912,5 +5170,8 @@
   "compact_surface3_all22_local_bodies_exact": true,
   "compact_surface3_review_helper": "lossless exact shared headers/dynamic blocks plus decoded edits",
   "compact_surface3_automation_status": "deleted",
-  "compact_surface3_result_commit": "e105d3e17fa417ce3256ca0b5677ef5f94c0ccfe"
+  "compact_surface3_result_commit": "e105d3e17fa417ce3256ca0b5677ef5f94c0ccfe",
+  "historical_prompt3_source": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\memory_db_historical_prompt3_20261101_v1",
+  "historical_prompt3_status": "CPU_pass_generation_pending",
+  "historical_prompt3_public_scope": "generic PG/instruction text plus new abstract records/numbers only; private full payload local"
 }
