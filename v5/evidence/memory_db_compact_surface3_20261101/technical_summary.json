@@ -1,0 +1,18 @@
+{
+  "status": "CPU_pass_generation_not_started",
+  "cpu_checks": 308,
+  "dependency_checks": 8,
+  "synthetic_report_checks": 5,
+  "startup_python_exit": 0,
+  "unchanged_core_files": 14,
+  "fixed_samples": 3,
+  "fixed_operations": 40,
+  "deferred": 1,
+  "saved_baseline_calls": 11,
+  "new_surface_call_limit": 11,
+  "new_model_calls_at_preflight": 0,
+  "human_quality_labels": 0,
+  "quality_status": "unverified",
+  "source_Memory_DB_modified": false,
+  "publication_scope": "generic source and newly authored abstract records only"
+}

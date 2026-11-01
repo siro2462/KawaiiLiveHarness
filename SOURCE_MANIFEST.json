@@ -1,5 +1,5 @@
 {
-  "version": "v5-current-20261101-group4",
+  "version": "v5-current-20261101-compact-surface3",
   "client_date_jst": "2026-11-01",
   "kind": "Unchanged v5 default runtime plus completed role/A-G/stripe Surface and CPU-selection experiments; quality not approved",
   "old_v5_tag_unchanged": true,
@@ -1377,6 +1377,18 @@
       "sha256": "5f142a663dc0d0a2a537c2b454bae1334a4f1ff52fdd592da848c60b17857f47",
       "source_relative_to_talk": "harness_beta/runs/mechanical_ag_h06_20261027_v1/technical_audit.json",
       "source_sha256": "5f142a663dc0d0a2a537c2b454bae1334a4f1ff52fdd592da848c60b17857f47"
+    },
+    {
+      "path": "v5/evidence/memory_db_compact_surface3_20261101/decision.md",
+      "kind": "new-abstract-record",
+      "bytes": 1113,
+      "sha256": "639aa6469dcdd25d19f46e88208f824daedb5accefd639634f66e772126fe83f"
+    },
+    {
+      "path": "v5/evidence/memory_db_compact_surface3_20261101/technical_summary.json",
+      "kind": "new-abstract-record",
+      "bytes": 552,
+      "sha256": "cfde6295935237bf112d4ccee839396ce71a88d2f0040e15210ac0214d52da11"
     },
     {
       "path": "v5/evidence/memory_db_group4_20261101/execution_started.json",
@@ -3057,6 +3069,220 @@
       "source_sha256": "fd86eae0677c6ff0619c80c534783bfad02c329d58ac58faaf4c6b895ef8de1e"
     },
     {
+      "path": "v5/experiments/memory_db_compact_surface3_20261101/README.md",
+      "kind": "new-abstract-record",
+      "bytes": 1640,
+      "sha256": "07dde70aac3994f775365f670cdb7d2be17e4fd921389843266e6d1e0b97c254"
+    },
+    {
+      "path": "v5/experiments/memory_db_compact_surface3_20261101/common.py",
+      "kind": "source-byte-preserving",
+      "bytes": 1928,
+      "sha256": "bd4a4b23679c6612420a3f62ec6d948d7d823f6a933eb1194c0c5a86b426a39f",
+      "source_sha256": "bd4a4b23679c6612420a3f62ec6d948d7d823f6a933eb1194c0c5a86b426a39f",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_compact_surface3_20261101_v1/executed_source/common.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_compact_surface3_20261101/compact_surface.py",
+      "kind": "source-byte-preserving",
+      "bytes": 4540,
+      "sha256": "ad018901f4632951fbe5a7ffc33627d9fedfdbd47c5433338c96899e52215fef",
+      "source_sha256": "ad018901f4632951fbe5a7ffc33627d9fedfdbd47c5433338c96899e52215fef",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_compact_surface3_20261101_v1/executed_source/compact_surface.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_compact_surface3_20261101/cpu_selector.py",
+      "kind": "source-byte-preserving",
+      "bytes": 488,
+      "sha256": "8daa0415140d4e920d6d9a5c807c6a29177d4af6e6367b14ee849d5ffeb8d209",
+      "source_sha256": "8daa0415140d4e920d6d9a5c807c6a29177d4af6e6367b14ee849d5ffeb8d209",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_compact_surface3_20261101_v1/executed_source/cpu_selector.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_compact_surface3_20261101/dependency_probe.py",
+      "kind": "source-byte-preserving",
+      "bytes": 1733,
+      "sha256": "25e94d52af9b16b1e1060bc0862ffa8742ad35ca439ae80e391799d034bf86ca",
+      "source_sha256": "25e94d52af9b16b1e1060bc0862ffa8742ad35ca439ae80e391799d034bf86ca",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_compact_surface3_20261101_v1/executed_source/dependency_probe.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_compact_surface3_20261101/driver_cpu.py",
+      "kind": "source-byte-preserving",
+      "bytes": 2259,
+      "sha256": "35e4a40250fb8a4e7c96340cf3ee630e10b77ee0624dda3c66c04a1bd4749616",
+      "source_sha256": "35e4a40250fb8a4e7c96340cf3ee630e10b77ee0624dda3c66c04a1bd4749616",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_compact_surface3_20261101_v1/executed_source/driver_cpu.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_compact_surface3_20261101/finalize_cpu.py",
+      "kind": "source-byte-preserving",
+      "bytes": 7436,
+      "sha256": "dfdaadbbb54325a5b7314efc0e98c19692350dba8772ac781c7bccf4b9d0c63b",
+      "source_sha256": "dfdaadbbb54325a5b7314efc0e98c19692350dba8772ac781c7bccf4b9d0c63b",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_compact_surface3_20261101_v1/executed_source/finalize_cpu.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_compact_surface3_20261101/flow_apply.py",
+      "kind": "source-byte-preserving",
+      "bytes": 5356,
+      "sha256": "5a702f70baa100c2c90f23103f04fac8f8d3865ddf1fa7cd353fa9730072c18b",
+      "source_sha256": "5a702f70baa100c2c90f23103f04fac8f8d3865ddf1fa7cd353fa9730072c18b",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_compact_surface3_20261101_v1/executed_source/flow_apply.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_compact_surface3_20261101/full_stripe_runtime.py",
+      "kind": "source-byte-preserving",
+      "bytes": 1266,
+      "sha256": "e68f55e6dc4041510a3d61c6c7d6e50024c7e2e9ff61a7bb8fc16fe3884841f0",
+      "source_sha256": "e68f55e6dc4041510a3d61c6c7d6e50024c7e2e9ff61a7bb8fc16fe3884841f0",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_compact_surface3_20261101_v1/executed_source/full_stripe_runtime.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_compact_surface3_20261101/gpu_worker.py",
+      "kind": "source-byte-preserving",
+      "bytes": 5952,
+      "sha256": "e8c736f71f4e8d5e100571ca5919efe24bbd20dce1b45af2f504892169a8a995",
+      "source_sha256": "e8c736f71f4e8d5e100571ca5919efe24bbd20dce1b45af2f504892169a8a995",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_compact_surface3_20261101_v1/executed_source/gpu_worker.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_compact_surface3_20261101/grouping_style.txt",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 103,
+      "sha256": "68d8b79aa089cca53eaa5b5b0dcb61ee58b471be973254c18a5b68ac78ceb0e7",
+      "source_sha256": "68d8b79aa089cca53eaa5b5b0dcb61ee58b471be973254c18a5b68ac78ceb0e7",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_compact_surface3_20261101_v1/grouping_style.txt"
+    },
+    {
+      "path": "v5/experiments/memory_db_compact_surface3_20261101/launch_once.py",
+      "kind": "source-byte-preserving",
+      "bytes": 2824,
+      "sha256": "1ddba83288976794d14bf9658c7d22362a028319cfbbbb9e83004d769158f5d1",
+      "source_sha256": "1ddba83288976794d14bf9658c7d22362a028319cfbbbb9e83004d769158f5d1",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_compact_surface3_20261101_v1/executed_source/launch_once.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_compact_surface3_20261101/meaning_legend.json",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 1341,
+      "sha256": "701c8d8fb66a19ded231cf6f556abc7b74e28fdf5ad72162a2a66e285473fb5c",
+      "source_sha256": "701c8d8fb66a19ded231cf6f556abc7b74e28fdf5ad72162a2a66e285473fb5c",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_compact_surface3_20261101_v1/meaning_legend.json"
+    },
+    {
+      "path": "v5/experiments/memory_db_compact_surface3_20261101/observe_cpu.py",
+      "kind": "source-byte-preserving",
+      "bytes": 6056,
+      "sha256": "398b7ea34416faf82f2159a632077946fcd064425799c66fcb44141e8296553c",
+      "source_sha256": "398b7ea34416faf82f2159a632077946fcd064425799c66fcb44141e8296553c",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_compact_surface3_20261101_v1/executed_source/observe_cpu.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_compact_surface3_20261101/preflight_cpu.py",
+      "kind": "source-byte-preserving",
+      "bytes": 10032,
+      "sha256": "d10ac2d3308e7baa030f77ed22fc3c3a8d8066d990ae7169250bafca0f4fa454",
+      "source_sha256": "d10ac2d3308e7baa030f77ed22fc3c3a8d8066d990ae7169250bafca0f4fa454",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_compact_surface3_20261101_v1/executed_source/preflight_cpu.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_compact_surface3_20261101/prepare_inputs.py",
+      "kind": "source-byte-preserving",
+      "bytes": 2923,
+      "sha256": "41299a9a54602c7593b0cc8a96cbad6d03a34e481a261d06792fcb0e14974981",
+      "source_sha256": "41299a9a54602c7593b0cc8a96cbad6d03a34e481a261d06792fcb0e14974981",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_compact_surface3_20261101_v1/executed_source/prepare_inputs.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_compact_surface3_20261101/processor_cpu.py",
+      "kind": "source-byte-preserving",
+      "bytes": 947,
+      "sha256": "311d0d846e74aa51a9909c09f942816f86de482ce9857666f2922355e2db2978",
+      "source_sha256": "311d0d846e74aa51a9909c09f942816f86de482ce9857666f2922355e2db2978",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_compact_surface3_20261101_v1/executed_source/processor_cpu.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_compact_surface3_20261101/reaction_style.txt",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 1136,
+      "sha256": "2ac697b3e378a7f83240813bba0ef3db806e6b9a6224d7592fa763fa4e2751de",
+      "source_sha256": "2ac697b3e378a7f83240813bba0ef3db806e6b9a6224d7592fa763fa4e2751de",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_compact_surface3_20261101_v1/reaction_style.txt"
+    },
+    {
+      "path": "v5/experiments/memory_db_compact_surface3_20261101/report_presence.py",
+      "kind": "source-byte-preserving",
+      "bytes": 1831,
+      "sha256": "76edd3e85d1386436e79da0f2afa85f13f5722b27b48263457f92b098eac9f18",
+      "source_sha256": "76edd3e85d1386436e79da0f2afa85f13f5722b27b48263457f92b098eac9f18",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_compact_surface3_20261101_v1/executed_source/report_presence.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_compact_surface3_20261101/request_protocol.py",
+      "kind": "source-byte-preserving",
+      "bytes": 1512,
+      "sha256": "ecbe1a33ef1cc2b0d01d8c013ec599503844ea92534c68dedf58cb2b3bd17489",
+      "source_sha256": "ecbe1a33ef1cc2b0d01d8c013ec599503844ea92534c68dedf58cb2b3bd17489",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_compact_surface3_20261101_v1/executed_source/request_protocol.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_compact_surface3_20261101/run_cpu.py",
+      "kind": "source-byte-preserving",
+      "bytes": 4886,
+      "sha256": "51b56070719cbec00095b6da6594e73c1abb9ec93e9a3cc03a0fc8120fac8e65",
+      "source_sha256": "51b56070719cbec00095b6da6594e73c1abb9ec93e9a3cc03a0fc8120fac8e65",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_compact_surface3_20261101_v1/executed_source/run_cpu.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_compact_surface3_20261101/runtime.py",
+      "kind": "source-byte-preserving",
+      "bytes": 4794,
+      "sha256": "9be06fa22b2b2f268e230335e6996e8d059e08b6e3ba7c90578db77bfb8a4f4e",
+      "source_sha256": "9be06fa22b2b2f268e230335e6996e8d059e08b6e3ba7c90578db77bfb8a4f4e",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_compact_surface3_20261101_v1/executed_source/runtime.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_compact_surface3_20261101/startup_probe.py",
+      "kind": "source-byte-preserving",
+      "bytes": 311,
+      "sha256": "9aaa07399551a33bbe314cf7c8bfb72379557d859a34d899285aeabb0394aee4",
+      "source_sha256": "9aaa07399551a33bbe314cf7c8bfb72379557d859a34d899285aeabb0394aee4",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_compact_surface3_20261101_v1/executed_source/startup_probe.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_compact_surface3_20261101/stripe_runtime.py",
+      "kind": "source-byte-preserving",
+      "bytes": 4509,
+      "sha256": "ae40d26ef28fa3ac50749c6b45e44951753de8667bd4cf4d7d5ee6eaac82c33a",
+      "source_sha256": "ae40d26ef28fa3ac50749c6b45e44951753de8667bd4cf4d7d5ee6eaac82c33a",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_compact_surface3_20261101_v1/executed_source/stripe_runtime.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_compact_surface3_20261101/test_report_cpu.py",
+      "kind": "source-byte-preserving",
+      "bytes": 3127,
+      "sha256": "e6a727789afb87900d25f4b1437f2e3c9a4f2f6fae8168e7a9eb8a353ed5b57e",
+      "source_sha256": "e6a727789afb87900d25f4b1437f2e3c9a4f2f6fae8168e7a9eb8a353ed5b57e",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_compact_surface3_20261101_v1/executed_source/test_report_cpu.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_compact_surface3_20261101/token_journal.py",
+      "kind": "source-byte-preserving",
+      "bytes": 901,
+      "sha256": "fd86eae0677c6ff0619c80c534783bfad02c329d58ac58faaf4c6b895ef8de1e",
+      "source_sha256": "fd86eae0677c6ff0619c80c534783bfad02c329d58ac58faaf4c6b895ef8de1e",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_compact_surface3_20261101_v1/executed_source/token_journal.py"
+    },
+    {
+      "path": "v5/experiments/memory_db_compact_surface3_20261101/unit_instruction.txt",
+      "kind": "saved-evidence-byte-preserving",
+      "bytes": 892,
+      "sha256": "5d4e48d7b6ea41ca3c2ee43104f45e740f69b284b840b35122a0d5358df44a6d",
+      "source_sha256": "5d4e48d7b6ea41ca3c2ee43104f45e740f69b284b840b35122a0d5358df44a6d",
+      "source_relative_to_talk": "harness_beta/runs/memory_db_compact_surface3_20261101_v1/unit_instruction.txt"
+    },
+    {
       "path": "v5/experiments/memory_db_group4_20261101/README.md",
       "kind": "generated-publication-record",
       "bytes": 1415,
@@ -4352,9 +4578,9 @@
     },
     {
       "path": "v5/progress/CURRENT_STATE.md",
-      "kind": "generated-publication-record",
-      "bytes": 1710,
-      "sha256": "96034f8e336f1cf7a0b383c2caacd5cb5a205a3891f9ac875842bbb1d359e2b3"
+      "kind": "new-abstract-record",
+      "bytes": 1509,
+      "sha256": "1cb3a9778192897e1681cb3dfe4a170db41e00f8e467a67d2a8534f717934d9d"
     },
     {
       "path": "v5/progress/NEXT_CONTROL_PLAN.md",
@@ -4364,9 +4590,9 @@
     },
     {
       "path": "v5/progress/checkpoint.json",
-      "kind": "generated-publication-record",
-      "bytes": 3054,
-      "sha256": "7f7b6f9813ad39540fe217ba89491e550ffc6594962005d161d456a385db75c2"
+      "kind": "new-abstract-record",
+      "bytes": 3730,
+      "sha256": "44d205e5830184181344f671eb71aa3adfb557c0815b0a13f6f6cfbe3b21d79c"
     },
     {
       "path": "v5/progress/history/pre_group4_20261101/CURRENT_STATE.md",
@@ -4651,5 +4877,8 @@
   "group4_automation_id": "4-3",
   "group4_public_result_scope": "abstract summary and numerical metrics only; full payload local",
   "group4_all51_local_bodies_exact": true,
-  "group4_automation_status": "deleted"
+  "group4_automation_status": "deleted",
+  "compact_surface3_source": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\memory_db_compact_surface3_20261101_v1",
+  "compact_surface3_status": "CPU_pass_generation_pending",
+  "compact_surface3_public_scope": "generic code and newly authored abstract records; private full payload local only"
 }

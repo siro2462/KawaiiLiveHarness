@@ -4,8 +4,8 @@
   "cutoff_item_id": "01a17ff4-b7a0-7b12-8141-bc0381ab07ee",
   "updated_jst": "2026-11-01T00:50:20.915263+09:00",
   "conclusion": "4操作ずつの新11callと全文比較は完了。まとまりの改善例があるが欠落/意味変化/反復等が残り品質未採用。公開は抽象要約・数値・現在地に限定、全文はローカル。",
-  "execution_status": "complete",
-  "quality_status": "not_approved_for_production",
+  "execution_status": "CPU_pass_before_generation",
+  "quality_status": "unverified",
   "latest_experiment_run": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\memory_db_group4_20261101_v1",
   "automation_id": "4-3",
   "automation_status": "deleted",
@@ -46,5 +46,24 @@
   "source_scope": "Experimental full-text review inherited through48044; subsequent rhythm discussion and push authorization recorded through48408. No new generation or new human-grain annotation.",
   "source_code_commit": "37f291b398b65863b1f62b8109a42f8a27169c7f",
   "new_output_read": true,
-  "result_summary_commit": "02be2862a8c9cf4dc53f6e58188b43314ef83176"
+  "result_summary_commit": "02be2862a8c9cf4dc53f6e58188b43314ef83176",
+  "latest_experiment": "memory_db_compact_surface3_20261101_v1",
+  "latest_confirmed": {
+    "status": "CPU_pass_generation_not_started",
+    "cpu_checks": 308,
+    "dependency_checks": 8,
+    "synthetic_report_checks": 5,
+    "startup_python_exit": 0,
+    "unchanged_core_files": 14,
+    "fixed_samples": 3,
+    "fixed_operations": 40,
+    "deferred": 1,
+    "saved_baseline_calls": 11,
+    "new_surface_call_limit": 11,
+    "new_model_calls_at_preflight": 0,
+    "human_quality_labels": 0,
+    "quality_status": "unverified",
+    "source_Memory_DB_modified": false,
+    "publication_scope": "generic source and newly authored abstract records only"
+  }
 }
