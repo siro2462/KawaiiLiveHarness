@@ -1391,6 +1391,12 @@
       "sha256": "4518121362bc07b0a7fd88779359b12134c3ee260caeba9a9082b54f92d8a7a9"
     },
     {
+      "path": "v5/evidence/memory_db_compact_surface3_20261101/monitoring_complete.json",
+      "kind": "new-abstract-record",
+      "bytes": 706,
+      "sha256": "ff98bd3ecb1d208412ff4a939f10fa51338d07e7cf4d0d4074435d5adb532fd0"
+    },
+    {
       "path": "v5/evidence/memory_db_compact_surface3_20261101/result_summary.md",
       "kind": "new-abstract-record",
       "bytes": 2125,
@@ -1399,8 +1405,8 @@
     {
       "path": "v5/evidence/memory_db_compact_surface3_20261101/technical_summary.json",
       "kind": "new-abstract-record",
-      "bytes": 3271,
-      "sha256": "7a40ef347a2d789f12aabd2e186fcc8e9ff4d1295876074a9d55cc233eceaf38"
+      "bytes": 3394,
+      "sha256": "bc1f24441cd3b3700f979790447ffcdbbae78c5844a5a5c381d4a676b5ebdd44"
     },
     {
       "path": "v5/evidence/memory_db_group4_20261101/execution_started.json",
@@ -3083,8 +3089,8 @@
     {
       "path": "v5/experiments/memory_db_compact_surface3_20261101/README.md",
       "kind": "new-abstract-record",
-      "bytes": 2535,
-      "sha256": "dbb6568e92e00f650fde70b2b133962014ffcf1d7ba564320bbb1dd50c01a9da"
+      "bytes": 3011,
+      "sha256": "cfd2974c38f18f76400537a787b1772f18eb7011cb508ad1c648ef49ea20c915"
     },
     {
       "path": "v5/experiments/memory_db_compact_surface3_20261101/common.py",
@@ -4599,8 +4605,8 @@
     {
       "path": "v5/progress/CURRENT_STATE.md",
       "kind": "new-abstract-record",
-      "bytes": 1436,
-      "sha256": "7f0aa037b47f91a39dd5086df868b82ceff0a5f5cd8a6d75d9d4d1a655e9e4fa"
+      "bytes": 1539,
+      "sha256": "ee0e8b694cc492e46ef4280b1582c17ac154e78caad2daf97dcbf8a90a032695"
     },
     {
       "path": "v5/progress/NEXT_CONTROL_PLAN.md",
@@ -4611,8 +4617,8 @@
     {
       "path": "v5/progress/checkpoint.json",
       "kind": "new-abstract-record",
-      "bytes": 6823,
-      "sha256": "87e95a0cf66f1ae6269f46a73dd8c14b55f99e249a52925a3843e0b7237f13a9"
+      "bytes": 7589,
+      "sha256": "2715e842860999b2d7ee3e62977060b15e01398e30e7a23ba305ed0929341c00"
     },
     {
       "path": "v5/progress/history/pre_group4_20261101/CURRENT_STATE.md",
@@ -4902,7 +4908,9 @@
   "compact_surface3_status": "complete_quality_not_approved",
   "compact_surface3_public_scope": "generic PG plus new abstract summary/numbers; private full report local",
   "compact_surface3_automation_id": "surface-3",
-  "compact_surface3_progress_snapshot": "chat_progress_20261101_v4",
+  "compact_surface3_progress_snapshot": "chat_progress_20261101_v5",
   "compact_surface3_all22_local_bodies_exact": true,
-  "compact_surface3_review_helper": "lossless exact shared headers/dynamic blocks plus decoded edits"
+  "compact_surface3_review_helper": "lossless exact shared headers/dynamic blocks plus decoded edits",
+  "compact_surface3_automation_status": "deleted",
+  "compact_surface3_result_commit": "e105d3e17fa417ce3256ca0b5677ef5f94c0ccfe"
 }

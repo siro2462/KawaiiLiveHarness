@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "execution": "complete",
+  "quality": "not_approved_for_production",
+  "root_full22_required_text_read": true,
+  "local_comparison_all22_exact": true,
+  "result_commit": "e105d3e17fa417ce3256ca0b5677ef5f94c0ccfe",
+  "result_remote_verified": true,
+  "automation_id": "surface-3",
+  "automation_status": "deleted",
+  "other_automations_untouched": true,
+  "progress_snapshot": "chat_progress_20261101_v5",
+  "progress_audit": "pass",
+  "publication_scope": "generic source and newly authored abstract summary/numerical metrics only",
+  "full_payload_published": false,
+  "first_push_review_rejection_resolved_by_human_destination_authorization_evidence": true
+}

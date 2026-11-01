@@ -8,7 +8,7 @@
   "quality_status": "not_approved_for_production",
   "latest_experiment_run": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\memory_db_group4_20261101_v1",
   "automation_id": "surface-3",
-  "automation_status": "pending_own_delete_after_result_push",
+  "automation_status": "deleted",
   "human_quality_labels": 0,
   "confirmed": [
     "新11全EOS・形式採用・現行終了0・技術監査pass。",
@@ -195,8 +195,26 @@
     "source_Memory_DB_modified": false,
     "quality_status": "not_approved_for_production",
     "automation_id": "surface-3",
-    "automation_status": "pending_own_delete_after_result_push",
+    "automation_status": "deleted",
     "publication_scope": "generic helper and newly authored abstract summary/numbers only; full payload remains local"
   },
-  "latest_public_code_commit": "9f4e033db735bc47ace52f4f4d800644887f9ffd"
+  "latest_public_code_commit": "e105d3e17fa417ce3256ca0b5677ef5f94c0ccfe",
+  "latest_progress_snapshot": "chat_progress_20261101_v5",
+  "monitoring_complete": {
+    "status": "complete",
+    "execution": "complete",
+    "quality": "not_approved_for_production",
+    "root_full22_required_text_read": true,
+    "local_comparison_all22_exact": true,
+    "result_commit": "e105d3e17fa417ce3256ca0b5677ef5f94c0ccfe",
+    "result_remote_verified": true,
+    "automation_id": "surface-3",
+    "automation_status": "deleted",
+    "other_automations_untouched": true,
+    "progress_snapshot": "chat_progress_20261101_v5",
+    "progress_audit": "pass",
+    "publication_scope": "generic source and newly authored abstract summary/numerical metrics only",
+    "full_payload_published": false,
+    "first_push_review_rejection_resolved_by_human_destination_authorization_evidence": true
+  }
 }

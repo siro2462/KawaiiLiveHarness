@@ -145,6 +145,9 @@
   "source_Memory_DB_modified": false,
   "quality_status": "not_approved_for_production",
   "automation_id": "surface-3",
-  "automation_status": "pending_own_delete_after_result_push",
-  "publication_scope": "generic helper and newly authored abstract summary/numbers only; full payload remains local"
+  "automation_status": "deleted",
+  "publication_scope": "generic helper and newly authored abstract summary/numbers only; full payload remains local",
+  "progress_snapshot": "chat_progress_20261101_v5",
+  "result_commit": "e105d3e17fa417ce3256ca0b5677ef5f94c0ccfe",
+  "result_remote_verified": true
 }
