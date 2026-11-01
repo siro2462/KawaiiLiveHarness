@@ -3599,8 +3599,8 @@
     {
       "path": "v5/experiments/memory_db_historical_prompt3_20261101/README.md",
       "kind": "generated-publication-record",
-      "bytes": 2840,
-      "sha256": "b4f11a666b9153c36d964ccc22fe515a0bd06cbc8cd563ca344d348af08f15a2"
+      "bytes": 3088,
+      "sha256": "0e9f1bc09fbad39b82f46811ac73a38e6eea02ca86e2aac4ec27ffd003304fc0"
     },
     {
       "path": "v5/experiments/memory_db_historical_prompt3_20261101/RESULT_SUMMARY.md",
@@ -4880,9 +4880,9 @@
     },
     {
       "path": "v5/progress/CURRENT_STATE.md",
-      "kind": "new-abstract-record",
-      "bytes": 1722,
-      "sha256": "4d43c3939501f4bcda79d42c78f373fe3347765a07557f701491d3197d6905b4"
+      "kind": "generated-publication-record",
+      "bytes": 2092,
+      "sha256": "910ea2d673ba4185885995497c704fa6562dee25bbd2a238313364b47bb94be6"
     },
     {
       "path": "v5/progress/NEXT_CONTROL_PLAN.md",
@@ -5194,5 +5194,5 @@
   "historical_prompt3_public_scope": "generic PG/instruction text plus new abstract records/numbers only; private full payload local",
   "historical_prompt3_automation_id": "257-3",
   "historical_prompt3_progress_snapshot": "chat_progress_20261101_v7",
-  "latest_experiment_status": "completed; quality mixed and not adopted; local full text preserved"
+  "latest_experiment_status": "completed; local full review and reports verified; abstract results pushed; own monitor deleted; default not adopted"
 }
