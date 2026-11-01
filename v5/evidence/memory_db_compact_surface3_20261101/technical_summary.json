@@ -1,5 +1,5 @@
 {
-  "status": "CPU_pass_generation_not_started",
+  "status": "launched_pending_root_review",
   "cpu_checks": 308,
   "dependency_checks": 8,
   "synthetic_report_checks": 5,
@@ -14,5 +14,8 @@
   "human_quality_labels": 0,
   "quality_status": "unverified",
   "source_Memory_DB_modified": false,
-  "publication_scope": "generic source and newly authored abstract records only"
+  "publication_scope": "generic source and newly authored abstract records only",
+  "hidden_launch_count": 1,
+  "automation_id": "surface-3",
+  "single_live_identity_check_pass": true
 }

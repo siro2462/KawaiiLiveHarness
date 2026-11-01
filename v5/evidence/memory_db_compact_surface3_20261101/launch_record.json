@@ -1,0 +1,18 @@
+{
+  "status": "running_at_single_postlaunch_check",
+  "new_surface_call_limit": 11,
+  "saved_baseline_calls": 11,
+  "source_code_commit": "9f4e033db735bc47ace52f4f4d800644887f9ffd",
+  "source_push_remote_verified": true,
+  "hidden_launch_count": 1,
+  "controller_GPU_wrapper_identity_match": true,
+  "calls_completed_at_check": 0,
+  "new_outputs_read": false,
+  "semantic_quality": "unverified",
+  "automation_id": "surface-3",
+  "schedule_interval_minutes": 15,
+  "persistent_agent_wait": false,
+  "progress_snapshot": "chat_progress_20261101_v4",
+  "progress_audit": "pass",
+  "publication_scope": "generic code and new abstract records only; full payload local"
+}
