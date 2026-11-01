@@ -9,3 +9,7 @@ CPU390/dep8/synthetic22-body report5/held-RAW view6 and real child_guard startup
 This is an experimental overlay, not a default-runtime change. Generic program sources, generic instruction text, and newly authored abstract records/numbers only are published. Real Memory/sample payloads, prompts/decoded inputs/RAW/generated text/comparison HTML/source DB/models/credentials/private chat exports remain local. Reproduction requires the separately retained fixed local inputs/reference, which are not bundled.
 
 Subsequent launch: after the CPU checks and source push f7e2c3c, maximum11 Surface calls were launched once in a hidden process. One CPU check matched wrapper/controller/GPU identities; new text remains unread. Heartbeat257-3 checks briefly every15minutes, without resident generation waiting. Latest audited local progress: chat_progress_20261101_v7.
+
+## Completed result
+
+The bounded 11 calls and complete root review finished. See RESULT_SUMMARY.md and metrics_summary.json for abstract findings and actual length metrics. Input shortened, output grew, semantic distinctions improved in places, and direct reactions/tempo did not generally recover. Quality remains unapproved; the default runtime is unchanged. Full colored text, source material and input/RAW evidence are retained locally.
