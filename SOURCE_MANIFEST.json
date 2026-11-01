@@ -1449,10 +1449,16 @@
       "sha256": "428f1ba421000c024544f5e014a4a1898454fd23deef0fe33af393063ad15783"
     },
     {
+      "path": "v5/evidence/memory_db_historical_prompt3_20261101/launch_record.json",
+      "kind": "new-abstract-record",
+      "bytes": 684,
+      "sha256": "16de42b5000d8b070b32b7a82c0e4b554bce6d8982163c846b3276bde8a4719b"
+    },
+    {
       "path": "v5/evidence/memory_db_historical_prompt3_20261101/technical_summary.json",
       "kind": "new-abstract-record",
-      "bytes": 984,
-      "sha256": "ab3b56f1aa5a6dd7beac29e7def8658829e8093344e371bcd93a03388af9d602"
+      "bytes": 1083,
+      "sha256": "9e2b028d64291966a6705362c3043e597bb263c2e3a3ccce2bc1a388d8baa7ce"
     },
     {
       "path": "v5/evidence/memory_db_stepwise3_20261031/actual_io.json",
@@ -3593,8 +3599,8 @@
     {
       "path": "v5/experiments/memory_db_historical_prompt3_20261101/README.md",
       "kind": "new-abstract-record",
-      "bytes": 2039,
-      "sha256": "f9734ca863347a28aaf56dcb8379a525e8cd1676e966ac7e769da060fdcf2792"
+      "bytes": 2394,
+      "sha256": "922da7d707f5fe0f35ff559f46495dfe4fc68903497afe17dfad2ec1f5626522"
     },
     {
       "path": "v5/experiments/memory_db_historical_prompt3_20261101/common.py",
@@ -4863,8 +4869,8 @@
     {
       "path": "v5/progress/CURRENT_STATE.md",
       "kind": "new-abstract-record",
-      "bytes": 1525,
-      "sha256": "f3f1a40a59ab19a592f40d0f1f0081f0cf71f3c92c0c3644567a686e99956649"
+      "bytes": 1722,
+      "sha256": "4d43c3939501f4bcda79d42c78f373fe3347765a07557f701491d3197d6905b4"
     },
     {
       "path": "v5/progress/NEXT_CONTROL_PLAN.md",
@@ -4875,8 +4881,8 @@
     {
       "path": "v5/progress/checkpoint.json",
       "kind": "new-abstract-record",
-      "bytes": 5102,
-      "sha256": "8ff3b892dd2ac0336cfa69f50654a0c02e137585912359444309bd99b6a3ba6b"
+      "bytes": 4763,
+      "sha256": "af28ef310b34505e6e4a423a0b0b256058a3401253cf8eaed18aa4e8a2ccfd54"
     },
     {
       "path": "v5/progress/history/pre_group4_20261101/CURRENT_STATE.md",
@@ -5172,6 +5178,8 @@
   "compact_surface3_automation_status": "deleted",
   "compact_surface3_result_commit": "e105d3e17fa417ce3256ca0b5677ef5f94c0ccfe",
   "historical_prompt3_source": "C:\\NodeJS\\KawaiiLive\\work\\astra\\_talk\\harness_beta\\runs\\memory_db_historical_prompt3_20261101_v1",
-  "historical_prompt3_status": "CPU_pass_generation_pending",
-  "historical_prompt3_public_scope": "generic PG/instruction text plus new abstract records/numbers only; private full payload local"
+  "historical_prompt3_status": "one_hidden_launch_identity_checked_outputs_unread",
+  "historical_prompt3_public_scope": "generic PG/instruction text plus new abstract records/numbers only; private full payload local",
+  "historical_prompt3_automation_id": "257-3",
+  "historical_prompt3_progress_snapshot": "chat_progress_20261101_v7"
 }

@@ -1,5 +1,5 @@
 {
-  "status": "CPU_pass_generation_not_started",
+  "status": "launched_pending_root_review",
   "cpu_checks": 390,
   "dependency_checks": 8,
   "synthetic_report_checks": 5,
@@ -30,5 +30,8 @@
   "quality_status": "unverified",
   "human_quality_labels": 0,
   "source_DB_or_model_modified": false,
-  "publication_scope": "generic PG and new abstract records/numbers only"
+  "publication_scope": "generic PG and new abstract records/numbers only",
+  "automation_id": "257-3",
+  "hidden_launch_count": 1,
+  "single_live_identity_check_pass": true
 }

@@ -1,0 +1,19 @@
+{
+  "status": "running_at_single_postlaunch_check",
+  "code_commit": "f7e2c3ccaa3ebaba088dbbde0deb96763673ea0a",
+  "code_remote_verified": true,
+  "hidden_launch_count": 1,
+  "new_surface_call_limit": 11,
+  "saved_baseline_calls": 11,
+  "wrapper_controller_GPU_identity_match": true,
+  "calls_completed_at_check": 0,
+  "new_outputs_read": false,
+  "quality": "unverified",
+  "automation_id": "257-3",
+  "interval_minutes": 15,
+  "persistent_agent_wait": false,
+  "progress_snapshot": "chat_progress_20261101_v7",
+  "progress_audit": "pass",
+  "publication_scope": "generic PG/instructions and new abstract records/numbers only",
+  "full_payload_published": false
+}
