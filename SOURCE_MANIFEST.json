@@ -3857,8 +3857,8 @@
     {
       "path": "v5/experiments/memory_db_listener_surface3_20261102/README.md",
       "kind": "generated-publication-record",
-      "bytes": 2877,
-      "sha256": "2d38ef1bfa25fe81ba2d4ce49f3d116070867f417fd417f201a6151993039e02"
+      "bytes": 3272,
+      "sha256": "5c95351f16365ff4a886184c974157fce304f10f6f066e61eef8d83a7b423417"
     },
     {
       "path": "v5/experiments/memory_db_listener_surface3_20261102/common.py",
@@ -5223,8 +5223,8 @@
     {
       "path": "v5/progress/CURRENT_STATE.md",
       "kind": "generated-publication-record",
-      "bytes": 2092,
-      "sha256": "910ea2d673ba4185885995497c704fa6562dee25bbd2a238313364b47bb94be6"
+      "bytes": 2481,
+      "sha256": "bd62f5d6c95bc99cfa98d8c521185f85fa58135eb64a626a7f4cc0f7574a15db"
     },
     {
       "path": "v5/progress/NEXT_CONTROL_PLAN.md",
@@ -5536,5 +5536,5 @@
   "historical_prompt3_public_scope": "generic PG/instruction text plus new abstract records/numbers only; private full payload local",
   "historical_prompt3_automation_id": "257-3",
   "historical_prompt3_progress_snapshot": "chat_progress_20261101_v7",
-  "latest_experiment_status": "listener cue CPU passed; unlaunched; new quality unverified"
+  "latest_experiment_status": "listener cue CPU passed; one bounded hidden launch; new output unread; heartbeat3 active"
 }
