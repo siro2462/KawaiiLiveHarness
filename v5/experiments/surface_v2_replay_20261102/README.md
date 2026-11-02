@@ -11,3 +11,7 @@ Maximum four new Surface calls. No output cache reuse, quality retry, training, 
 Model-facing condition equality is distinct from semantic quality. Known original unsupported additions remain observable. One seed, known materials, designer-AI evaluation with no human quality labels, fixed independent probe histories and no real TTS limit interpretation. No claim of current-DB generalization, adaptive planning or hardware-level numerical determinism.
 
 Only generic source, common prompt instructions, newly written abstract summaries and counts are published. Real memories, requests, decoded inputs, RAW outputs, generated bodies, full comparison HTML, source DBs, models and private chat exports remain local.
+
+## Launch record
+
+Source commit 056a638 was pushed and the remote branch matched. One hidden, four-call bounded launch followed. The single initial CPU observation saw CPU initialization, zero completed calls, and matching controller/wrapper process identities; GPU identity had not yet been recorded. No completion polling or generation-body reading followed. The own 15-minute brief-check heartbeat is active. Progress snapshot and read-only source audit passed. New outputs and semantic quality remain unreviewed.

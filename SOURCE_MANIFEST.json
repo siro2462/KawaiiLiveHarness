@@ -1,5 +1,5 @@
 {
-  "version": "v5-current-20261102-surface-v2-replay-source",
+  "version": "v5-current-20261102-surface-v2-replay-launched",
   "client_date_jst": "2026-11-02",
   "kind": "Unchanged v5 default runtime plus completed role/A-G/stripe Surface and CPU-selection experiments; quality not approved",
   "old_v5_tag_unchanged": true,
@@ -619,8 +619,8 @@
     {
       "path": "v5/STATUS.md",
       "kind": "generated-publication-record",
-      "bytes": 5717,
-      "sha256": "eeb4b00283b90a4988202452e249455c5bda813758dc3d67fc48c57ad6bc3c87"
+      "bytes": 6134,
+      "sha256": "5f2c08b9c612a4559794b0fb3bef90351b696455c1202042fd17782fbde73fce"
     },
     {
       "path": "v5/STRIPE_CONTROL.md",
@@ -4955,8 +4955,8 @@
     {
       "path": "v5/experiments/surface_v2_replay_20261102/README.md",
       "kind": "generated-publication-record",
-      "bytes": 2131,
-      "sha256": "911d743b39e4d5f2c51414c8e2581da5fbfc4930ba05c18b75596870a4a2995c"
+      "bytes": 2653,
+      "sha256": "0a8cbbc994b224318d43e620cf6ec9cb8e0fd7ab01e3a576cf63b9ac72a1d228"
     },
     {
       "path": "v5/experiments/surface_v2_replay_20261102/common.py",
@@ -5137,8 +5137,8 @@
     {
       "path": "v5/experiments/surface_v2_replay_20261102/validation_summary.json",
       "kind": "generated-publication-record",
-      "bytes": 466,
-      "sha256": "bf9ac945260db99add18500d137c2748775ca615d09c5fc459e82324456398dd"
+      "bytes": 904,
+      "sha256": "c74ed81d17f904ddbb5ceecd42676c0a11100a2ac49710ad24cd7f4e4df22bd0"
     },
     {
       "path": "v5/experiments/surface_viewpoint_h06_20261026/common.py",
@@ -5736,5 +5736,5 @@
   "historical_prompt3_public_scope": "generic PG/instruction text plus new abstract records/numbers only; private full payload local",
   "historical_prompt3_automation_id": "257-3",
   "historical_prompt3_progress_snapshot": "chat_progress_20261101_v7",
-  "latest_experiment_status": "surface_v2_replay_20261102: exact-condition CPU pass, maximum4 new calls pending launch; full data local"
+  "latest_experiment_status": "surface_v2_replay_20261102: launched max4, initial CPU metadata checked, own15minute heartbeat active, new outputs unread; full data local"
 }

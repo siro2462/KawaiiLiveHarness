@@ -49,3 +49,8 @@
 ## 2026-11-02 — Full v2 condition reproduction
 
 Original four-call order, full v2 instructions, facts, saved histories, LoRA and complete generation settings are preserved. CPU 54+42, dependencies 8, synthetic report 5, startup exit 0. Source prepared; new generation not yet launched or evaluated. See experiments/surface_v2_replay_20261102. Full experimental content remains local.
+
+
+### Full v2 reproduction: launched
+
+Source056a638 pushed/remote exact, then one hidden bounded4 launch. Initial metadata check: CPU initialization, calls0, controller/wrapper identity match, GPU not yet recorded. Own 15-minute brief CPU heartbeat active; no resident waiting, new outputs unread. Progress source/audit passed. Completion/full-text quality review and abstract result publication remain pending.
