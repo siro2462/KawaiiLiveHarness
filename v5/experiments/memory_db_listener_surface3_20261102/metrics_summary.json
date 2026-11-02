@@ -1,0 +1,48 @@
+{
+  "status": "complete_quality_not_adopted",
+  "aggregate": {
+    "A": {
+      "calls": 11,
+      "total_chars": 1292,
+      "total_output_tokens": 751,
+      "model_seconds": 922.915,
+      "input_median": 1541,
+      "input_range": [
+        1396,
+        1857
+      ],
+      "four_op_input_median": 1579,
+      "four_op_chars_median": 122,
+      "eos": 11,
+      "held": 0,
+      "samples": {
+        "M06": 405,
+        "M17": 438,
+        "M23": 449
+      }
+    },
+    "B": {
+      "calls": 11,
+      "total_chars": 1451,
+      "total_output_tokens": 854,
+      "model_seconds": 1033.512,
+      "input_median": 1733,
+      "input_range": [
+        1579,
+        2041
+      ],
+      "four_op_input_median": 1762,
+      "four_op_chars_median": 142,
+      "eos": 11,
+      "held": 0,
+      "samples": {
+        "M06": 467,
+        "M17": 512,
+        "M23": 472
+      }
+    }
+  },
+  "human_quality_labels": 0,
+  "semantic_operation_execution_rate": null,
+  "full_payload_published": false
+}

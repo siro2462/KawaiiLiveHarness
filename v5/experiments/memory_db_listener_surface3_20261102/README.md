@@ -13,3 +13,7 @@ No Planner, free recall, Guard, training, download, quality retry, TTS, deployme
 Generic code/instructions and newly authored abstract status/numbers only are published. All real Memory/sample payloads, actual prompts/decoded inputs/RAW/generated text, annotated quotes, comparison HTML, source DB/models/credentials/chat exports remain local. Required fixed inputs are retained separately, so this snapshot is not a bundled standalone dataset. The unchanged default runtime and previous runs are preserved.
 
 Subsequent launch: after CPU checks and verified source push1359b0c, the bounded maximum11 Surface calls were started once in a hidden process. One immediate CPU snapshot matched wrapper/controller/GPU identity and liveness with calls0. New text remains unread. Heartbeat3 checks briefly every15minutes; no resident generation wait. Local progress chat_progress_20261102_v1 passed its audit.
+
+## Completed result
+
+All11 new calls ended with official EOS and current exits0. Full root review/manual11 actual-content annotations and independent all22-body/input-RAW report verification passed. Listener address did not clearly recover; some self-questioning changed and output grew, with content additions/omissions remaining. See RESULT_SUMMARY.md and metrics_summary.json. The candidate is not adopted. Full evidence remains local.

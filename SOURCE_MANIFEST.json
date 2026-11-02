@@ -1,5 +1,5 @@
 {
-  "version": "v5-current-20261102-listener-surface3",
+  "version": "v5-current-20261102-listener-surface3-result",
   "client_date_jst": "2026-11-01",
   "kind": "Unchanged v5 default runtime plus completed role/A-G/stripe Surface and CPU-selection experiments; quality not approved",
   "old_v5_tag_unchanged": true,
@@ -3857,8 +3857,14 @@
     {
       "path": "v5/experiments/memory_db_listener_surface3_20261102/README.md",
       "kind": "generated-publication-record",
-      "bytes": 3272,
-      "sha256": "5c95351f16365ff4a886184c974157fce304f10f6f066e61eef8d83a7b423417"
+      "bytes": 3716,
+      "sha256": "489e5ae7e0cd4a211ac82552be5e65a42866b6ee1464e02ce4e721c2e73067f3"
+    },
+    {
+      "path": "v5/experiments/memory_db_listener_surface3_20261102/RESULT_SUMMARY.md",
+      "kind": "generated-publication-record",
+      "bytes": 4350,
+      "sha256": "121c7bc83d8732a1bb3cf02e80c025a4df96094f46d6d94e667091481739f966"
     },
     {
       "path": "v5/experiments/memory_db_listener_surface3_20261102/common.py",
@@ -3971,6 +3977,12 @@
       "sha256": "701c8d8fb66a19ded231cf6f556abc7b74e28fdf5ad72162a2a66e285473fb5c",
       "source_relative_to_talk": "harness_beta/runs/memory_db_listener_surface3_20261102_v1/meaning_legend.json",
       "source_sha256": "701c8d8fb66a19ded231cf6f556abc7b74e28fdf5ad72162a2a66e285473fb5c"
+    },
+    {
+      "path": "v5/experiments/memory_db_listener_surface3_20261102/metrics_summary.json",
+      "kind": "generated-publication-record",
+      "bytes": 1042,
+      "sha256": "4c5c37797f5276d3b50064447351d55d1b1fe768dffb2c0841d9dcc32baebc64"
     },
     {
       "path": "v5/experiments/memory_db_listener_surface3_20261102/observe_cpu.py",
@@ -5536,5 +5548,5 @@
   "historical_prompt3_public_scope": "generic PG/instruction text plus new abstract records/numbers only; private full payload local",
   "historical_prompt3_automation_id": "257-3",
   "historical_prompt3_progress_snapshot": "chat_progress_20261101_v7",
-  "latest_experiment_status": "listener cue CPU passed; one bounded hidden launch; new output unread; heartbeat3 active"
+  "latest_experiment_status": "listener cue completed; no clear listener-directed improvement; semantic quality not adopted"
 }
