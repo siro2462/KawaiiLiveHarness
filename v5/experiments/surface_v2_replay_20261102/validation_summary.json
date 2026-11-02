@@ -1,5 +1,5 @@
 {
-  "status": "launched_pending_results",
+  "status": "complete_technical_and_full_text_review",
   "original_preflight_checks": 54,
   "exact_request_checks": 42,
   "dependency_checks": 8,
@@ -10,7 +10,7 @@
   "generation_max_new_tokens": 384,
   "original_python_bytes_exact": 16,
   "prompt_template_bytes_exact": true,
-  "quality_status": "pending_unread",
+  "quality_status": "reproduced_existing_issues_not_adopted",
   "full_data_public": false,
   "source_commit": "056a638e3d7a8598ebebe10c1f1688bf1d77f2d6",
   "initial_observation": {
@@ -26,5 +26,8 @@
     "mode": "brief_CPU_read_only_no_resident_wait"
   },
   "progress_audit": "pass",
-  "new_outputs_read": false
+  "new_outputs_read": true,
+  "root_review_pairs": 4,
+  "all_outputs_token_RAW_body_exact": 4,
+  "all_local8_bodies_and_inputs_RAW_preserved": true
 }

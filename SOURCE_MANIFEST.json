@@ -1,6 +1,6 @@
 {
-  "version": "v5-current-20261102-surface-v2-replay-launched",
-  "client_date_jst": "2026-11-02",
+  "version": "v5-current-20261103-surface-v2-replay-result",
+  "client_date_jst": "2026-11-03",
   "kind": "Unchanged v5 default runtime plus completed role/A-G/stripe Surface and CPU-selection experiments; quality not approved",
   "old_v5_tag_unchanged": true,
   "old_v5_20261023_tag_unchanged": true,
@@ -618,9 +618,9 @@
     },
     {
       "path": "v5/STATUS.md",
-      "kind": "generated-publication-record",
-      "bytes": 6134,
-      "sha256": "5f2c08b9c612a4559794b0fb3bef90351b696455c1202042fd17782fbde73fce"
+      "bytes": 6673,
+      "sha256": "72642db255294e648ab44387b81af8eed495c28940b6f74878f0604ad3e8c665",
+      "kind": "generated-publication-record"
     },
     {
       "path": "v5/STRIPE_CONTROL.md",
@@ -4954,9 +4954,17 @@
     },
     {
       "path": "v5/experiments/surface_v2_replay_20261102/README.md",
-      "kind": "generated-publication-record",
-      "bytes": 2653,
-      "sha256": "0a8cbbc994b224318d43e620cf6ec9cb8e0fd7ab01e3a576cf63b9ac72a1d228"
+      "bytes": 3156,
+      "sha256": "e489cbbf1e0896d8acdfdc28da3b8c9c079acee410df787031257db454cf9639",
+      "kind": "generated-publication-record"
+    },
+    {
+      "path": "v5/experiments/surface_v2_replay_20261102/build_read_views.py",
+      "bytes": 4596,
+      "sha256": "f9b6f4e0b84206ad7906444a67bb204e32b791f2554631cea87149ae25457520",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/build_v2_replay_read_views_20261103.py",
+      "source_sha256": "f9b6f4e0b84206ad7906444a67bb204e32b791f2554631cea87149ae25457520"
     },
     {
       "path": "v5/experiments/surface_v2_replay_20261102/common.py",
@@ -5087,12 +5095,24 @@
       "source_sha256": "104badf47687eae5a2706b98ad8610926ce925d04ffd0f2e5d7d706c59f8e681"
     },
     {
+      "path": "v5/experiments/surface_v2_replay_20261102/reproduction_result.json",
+      "bytes": 3385,
+      "sha256": "a56bf4c7ebcc9215618377fcfa99f5f17fdbcd80533d5bffd194e81d26c36846",
+      "kind": "generated-publication-record"
+    },
+    {
       "path": "v5/experiments/surface_v2_replay_20261102/request_protocol.py",
       "kind": "source-byte-preserving",
       "bytes": 1512,
       "sha256": "ecbe1a33ef1cc2b0d01d8c013ec599503844ea92534c68dedf58cb2b3bd17489",
       "source_relative_to_talk": "harness_beta/runs/surface_v2_replay_20261102_v1/executed_source/request_protocol.py",
       "source_sha256": "ecbe1a33ef1cc2b0d01d8c013ec599503844ea92534c68dedf58cb2b3bd17489"
+    },
+    {
+      "path": "v5/experiments/surface_v2_replay_20261102/result.md",
+      "bytes": 2899,
+      "sha256": "241e5525fe61c40eedeb45a8d1fb2a678394f515c950b1297b781e787baed4d6",
+      "kind": "generated-publication-record"
     },
     {
       "path": "v5/experiments/surface_v2_replay_20261102/run_cpu.py",
@@ -5136,9 +5156,9 @@
     },
     {
       "path": "v5/experiments/surface_v2_replay_20261102/validation_summary.json",
-      "kind": "generated-publication-record",
-      "bytes": 904,
-      "sha256": "c74ed81d17f904ddbb5ceecd42676c0a11100a2ac49710ad24cd7f4e4df22bd0"
+      "bytes": 1066,
+      "sha256": "265aa4e00ab2d9b1d64c2736a9c2543952e01e6a01bcd7e448cedafc101b9824",
+      "kind": "generated-publication-record"
     },
     {
       "path": "v5/experiments/surface_viewpoint_h06_20261026/common.py",
@@ -5736,5 +5756,5 @@
   "historical_prompt3_public_scope": "generic PG/instruction text plus new abstract records/numbers only; private full payload local",
   "historical_prompt3_automation_id": "257-3",
   "historical_prompt3_progress_snapshot": "chat_progress_20261101_v7",
-  "latest_experiment_status": "surface_v2_replay_20261102: launched max4, initial CPU metadata checked, own15minute heartbeat active, new outputs unread; full data local"
+  "latest_experiment_status": "surface_v2_replay_20261102: all4 exact input and output reproduction; full root review/local8-body report pass; inherited semantic issues remain; own monitor deletion pending after result push"
 }

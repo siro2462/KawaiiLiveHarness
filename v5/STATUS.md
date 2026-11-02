@@ -54,3 +54,8 @@ Original four-call order, full v2 instructions, facts, saved histories, LoRA and
 ### Full v2 reproduction: launched
 
 Source056a638 pushed/remote exact, then one hidden bounded4 launch. Initial metadata check: CPU initialization, calls0, controller/wrapper identity match, GPU not yet recorded. Own 15-minute brief CPU heartbeat active; no resident waiting, new outputs unread. Progress source/audit passed. Completion/full-text quality review and abstract result publication remain pending.
+
+
+## 2026-11-03 — Original v2 output reproduced exactly
+
+Four new Surface generations exactly matched all saved v2 output tokens, RAW and bodies under identical full requests and generation settings. Current exits all0, technical/full-text review and local eight-body/input report checks passed. Conversational style and existing semantic problems both reproduced; quality not adopted. Current DB material adaptation remains untested. Abstract results only are published; own brief-check heartbeat deletion follows the result push.
