@@ -1,6 +1,6 @@
 {
-  "version": "v5-current-20261102-listener-surface3-result",
-  "client_date_jst": "2026-11-01",
+  "version": "v5-current-20261102-surface-v2-replay-source",
+  "client_date_jst": "2026-11-02",
   "kind": "Unchanged v5 default runtime plus completed role/A-G/stripe Surface and CPU-selection experiments; quality not approved",
   "old_v5_tag_unchanged": true,
   "old_v5_20261023_tag_unchanged": true,
@@ -619,8 +619,8 @@
     {
       "path": "v5/STATUS.md",
       "kind": "generated-publication-record",
-      "bytes": 5324,
-      "sha256": "f24a50fa00a9864ecce366b94f1d59216a4929aeb0c7838ac0c87b2d50dcac8b"
+      "bytes": 5717,
+      "sha256": "eeb4b00283b90a4988202452e249455c5bda813758dc3d67fc48c57ad6bc3c87"
     },
     {
       "path": "v5/STRIPE_CONTROL.md",
@@ -4953,6 +4953,194 @@
       "source_sha256": "fd86eae0677c6ff0619c80c534783bfad02c329d58ac58faaf4c6b895ef8de1e"
     },
     {
+      "path": "v5/experiments/surface_v2_replay_20261102/README.md",
+      "kind": "generated-publication-record",
+      "bytes": 2131,
+      "sha256": "911d743b39e4d5f2c51414c8e2581da5fbfc4930ba05c18b75596870a4a2995c"
+    },
+    {
+      "path": "v5/experiments/surface_v2_replay_20261102/common.py",
+      "kind": "source-byte-preserving",
+      "bytes": 1928,
+      "sha256": "bd4a4b23679c6612420a3f62ec6d948d7d823f6a933eb1194c0c5a86b426a39f",
+      "source_relative_to_talk": "harness_beta/runs/surface_v2_replay_20261102_v1/executed_source/common.py",
+      "source_sha256": "bd4a4b23679c6612420a3f62ec6d948d7d823f6a933eb1194c0c5a86b426a39f"
+    },
+    {
+      "path": "v5/experiments/surface_v2_replay_20261102/contract_runtime.py",
+      "kind": "source-byte-preserving",
+      "bytes": 3165,
+      "sha256": "543cd52feebb061712ecdc410f2e77208ed38a4dce8c5a0ab2fa8075b87110f6",
+      "source_relative_to_talk": "harness_beta/runs/surface_v2_replay_20261102_v1/executed_source/contract_runtime.py",
+      "source_sha256": "543cd52feebb061712ecdc410f2e77208ed38a4dce8c5a0ab2fa8075b87110f6"
+    },
+    {
+      "path": "v5/experiments/surface_v2_replay_20261102/dependency_probe.py",
+      "kind": "source-byte-preserving",
+      "bytes": 1739,
+      "sha256": "121c28a1e82de77931a4e10309072756719ffc3def8aee8cb32eb28cf9a4b0b5",
+      "source_relative_to_talk": "harness_beta/runs/surface_v2_replay_20261102_v1/executed_source/dependency_probe.py",
+      "source_sha256": "121c28a1e82de77931a4e10309072756719ffc3def8aee8cb32eb28cf9a4b0b5"
+    },
+    {
+      "path": "v5/experiments/surface_v2_replay_20261102/driver_cpu.py",
+      "kind": "source-byte-preserving",
+      "bytes": 13056,
+      "sha256": "7249db3a88e406adbbb9b95f575eaf10bafdb486334c4892fb09c45d89b9afa1",
+      "source_relative_to_talk": "harness_beta/runs/surface_v2_replay_20261102_v1/executed_source/driver_cpu.py",
+      "source_sha256": "7249db3a88e406adbbb9b95f575eaf10bafdb486334c4892fb09c45d89b9afa1"
+    },
+    {
+      "path": "v5/experiments/surface_v2_replay_20261102/finalize_cpu.py",
+      "kind": "source-byte-preserving",
+      "bytes": 5351,
+      "sha256": "97d8bdffa249fad241b242d35078edffe86412966dc3aa2039c0958c4c2f1fb6",
+      "source_relative_to_talk": "harness_beta/runs/surface_v2_replay_20261102_v1/executed_source/finalize_cpu.py",
+      "source_sha256": "97d8bdffa249fad241b242d35078edffe86412966dc3aa2039c0958c4c2f1fb6"
+    },
+    {
+      "path": "v5/experiments/surface_v2_replay_20261102/flow_apply.py",
+      "kind": "source-byte-preserving",
+      "bytes": 5356,
+      "sha256": "5a702f70baa100c2c90f23103f04fac8f8d3865ddf1fa7cd353fa9730072c18b",
+      "source_relative_to_talk": "harness_beta/runs/surface_v2_replay_20261102_v1/executed_source/flow_apply.py",
+      "source_sha256": "5a702f70baa100c2c90f23103f04fac8f8d3865ddf1fa7cd353fa9730072c18b"
+    },
+    {
+      "path": "v5/experiments/surface_v2_replay_20261102/gpu_worker.py",
+      "kind": "source-byte-preserving",
+      "bytes": 5952,
+      "sha256": "e8c736f71f4e8d5e100571ca5919efe24bbd20dce1b45af2f504892169a8a995",
+      "source_relative_to_talk": "harness_beta/runs/surface_v2_replay_20261102_v1/executed_source/gpu_worker.py",
+      "source_sha256": "e8c736f71f4e8d5e100571ca5919efe24bbd20dce1b45af2f504892169a8a995"
+    },
+    {
+      "path": "v5/experiments/surface_v2_replay_20261102/launch_once.py",
+      "kind": "source-byte-preserving",
+      "bytes": 2824,
+      "sha256": "1ddba83288976794d14bf9658c7d22362a028319cfbbbb9e83004d769158f5d1",
+      "source_relative_to_talk": "harness_beta/runs/surface_v2_replay_20261102_v1/executed_source/launch_once.py",
+      "source_sha256": "1ddba83288976794d14bf9658c7d22362a028319cfbbbb9e83004d769158f5d1"
+    },
+    {
+      "path": "v5/experiments/surface_v2_replay_20261102/observe_cpu.py",
+      "kind": "source-byte-preserving",
+      "bytes": 5543,
+      "sha256": "fb5be1f6cbb44a34f4d39ca64523f29a4558e2250add817143a485920e198e11",
+      "source_relative_to_talk": "harness_beta/runs/surface_v2_replay_20261102_v1/executed_source/observe_cpu.py",
+      "source_sha256": "fb5be1f6cbb44a34f4d39ca64523f29a4558e2250add817143a485920e198e11"
+    },
+    {
+      "path": "v5/experiments/surface_v2_replay_20261102/preflight_cpu.py",
+      "kind": "source-byte-preserving",
+      "bytes": 3003,
+      "sha256": "e82ff5ecf2131f4ff442c11ecf5f29b6970c9723e0662cec7e652f2ce30fe219",
+      "source_relative_to_talk": "harness_beta/runs/surface_v2_replay_20261102_v1/executed_source/preflight_cpu.py",
+      "source_sha256": "e82ff5ecf2131f4ff442c11ecf5f29b6970c9723e0662cec7e652f2ce30fe219"
+    },
+    {
+      "path": "v5/experiments/surface_v2_replay_20261102/processor_cpu.py",
+      "kind": "source-byte-preserving",
+      "bytes": 947,
+      "sha256": "311d0d846e74aa51a9909c09f942816f86de482ce9857666f2922355e2db2978",
+      "source_relative_to_talk": "harness_beta/runs/surface_v2_replay_20261102_v1/executed_source/processor_cpu.py",
+      "source_sha256": "311d0d846e74aa51a9909c09f942816f86de482ce9857666f2922355e2db2978"
+    },
+    {
+      "path": "v5/experiments/surface_v2_replay_20261102/prompt_v2.py",
+      "kind": "source-byte-preserving",
+      "bytes": 887,
+      "sha256": "4e5f548b3cd1d7598bb7adbce5620f7f313c3fa935481d270318f4768e83750d",
+      "source_relative_to_talk": "harness_beta/runs/surface_v2_replay_20261102_v1/executed_source/prompt_v2.py",
+      "source_sha256": "4e5f548b3cd1d7598bb7adbce5620f7f313c3fa935481d270318f4768e83750d"
+    },
+    {
+      "path": "v5/experiments/surface_v2_replay_20261102/replay_finalize_cpu.py",
+      "kind": "source-byte-preserving",
+      "bytes": 5141,
+      "sha256": "1690bc027719560c93dc0700a281beae74cd7794a3261aedebf5d07d8950feaa",
+      "source_relative_to_talk": "harness_beta/runs/surface_v2_replay_20261102_v1/executed_source/replay_finalize_cpu.py",
+      "source_sha256": "1690bc027719560c93dc0700a281beae74cd7794a3261aedebf5d07d8950feaa"
+    },
+    {
+      "path": "v5/experiments/surface_v2_replay_20261102/replay_observe_cpu.py",
+      "kind": "source-byte-preserving",
+      "bytes": 2430,
+      "sha256": "cf8fa5362c9356d1b257e9759e99360e0e263c62bff39f77f04fcf2e1b84e62d",
+      "source_relative_to_talk": "harness_beta/runs/surface_v2_replay_20261102_v1/executed_source/replay_observe_cpu.py",
+      "source_sha256": "cf8fa5362c9356d1b257e9759e99360e0e263c62bff39f77f04fcf2e1b84e62d"
+    },
+    {
+      "path": "v5/experiments/surface_v2_replay_20261102/replay_preflight_cpu.py",
+      "kind": "source-byte-preserving",
+      "bytes": 2891,
+      "sha256": "4d2f2f92fa3f4c717c96ff2edbdee9e2fcfb8e0c6ac244928f598259f9758663",
+      "source_relative_to_talk": "harness_beta/runs/surface_v2_replay_20261102_v1/executed_source/replay_preflight_cpu.py",
+      "source_sha256": "4d2f2f92fa3f4c717c96ff2edbdee9e2fcfb8e0c6ac244928f598259f9758663"
+    },
+    {
+      "path": "v5/experiments/surface_v2_replay_20261102/replay_report_test_cpu.py",
+      "kind": "source-byte-preserving",
+      "bytes": 1151,
+      "sha256": "104badf47687eae5a2706b98ad8610926ce925d04ffd0f2e5d7d706c59f8e681",
+      "source_relative_to_talk": "harness_beta/runs/surface_v2_replay_20261102_v1/executed_source/replay_report_test_cpu.py",
+      "source_sha256": "104badf47687eae5a2706b98ad8610926ce925d04ffd0f2e5d7d706c59f8e681"
+    },
+    {
+      "path": "v5/experiments/surface_v2_replay_20261102/request_protocol.py",
+      "kind": "source-byte-preserving",
+      "bytes": 1512,
+      "sha256": "ecbe1a33ef1cc2b0d01d8c013ec599503844ea92534c68dedf58cb2b3bd17489",
+      "source_relative_to_talk": "harness_beta/runs/surface_v2_replay_20261102_v1/executed_source/request_protocol.py",
+      "source_sha256": "ecbe1a33ef1cc2b0d01d8c013ec599503844ea92534c68dedf58cb2b3bd17489"
+    },
+    {
+      "path": "v5/experiments/surface_v2_replay_20261102/run_cpu.py",
+      "kind": "source-byte-preserving",
+      "bytes": 4128,
+      "sha256": "fc8c263a23a0b50c139b791a5fe0cb495f817d09badc6b68cc14e1a9b4b0c59f",
+      "source_relative_to_talk": "harness_beta/runs/surface_v2_replay_20261102_v1/executed_source/run_cpu.py",
+      "source_sha256": "fc8c263a23a0b50c139b791a5fe0cb495f817d09badc6b68cc14e1a9b4b0c59f"
+    },
+    {
+      "path": "v5/experiments/surface_v2_replay_20261102/runtime.py",
+      "kind": "source-byte-preserving",
+      "bytes": 4794,
+      "sha256": "9be06fa22b2b2f268e230335e6996e8d059e08b6e3ba7c90578db77bfb8a4f4e",
+      "source_relative_to_talk": "harness_beta/runs/surface_v2_replay_20261102_v1/executed_source/runtime.py",
+      "source_sha256": "9be06fa22b2b2f268e230335e6996e8d059e08b6e3ba7c90578db77bfb8a4f4e"
+    },
+    {
+      "path": "v5/experiments/surface_v2_replay_20261102/startup_probe.py",
+      "kind": "source-byte-preserving",
+      "bytes": 311,
+      "sha256": "9aaa07399551a33bbe314cf7c8bfb72379557d859a34d899285aeabb0394aee4",
+      "source_relative_to_talk": "harness_beta/runs/surface_v2_replay_20261102_v1/executed_source/startup_probe.py",
+      "source_sha256": "9aaa07399551a33bbe314cf7c8bfb72379557d859a34d899285aeabb0394aee4"
+    },
+    {
+      "path": "v5/experiments/surface_v2_replay_20261102/surface_prompt_v2.txt",
+      "kind": "source-byte-preserving",
+      "bytes": 5061,
+      "sha256": "0337ce744ecfbecc9fedb2a859b86d8507d2aab373a91db9f2743616952f8040",
+      "source_relative_to_talk": "harness_beta/runs/surface_v2_replay_20261102_v1/executed_source/surface_prompt_v2.txt",
+      "source_sha256": "0337ce744ecfbecc9fedb2a859b86d8507d2aab373a91db9f2743616952f8040"
+    },
+    {
+      "path": "v5/experiments/surface_v2_replay_20261102/token_journal.py",
+      "kind": "source-byte-preserving",
+      "bytes": 901,
+      "sha256": "fd86eae0677c6ff0619c80c534783bfad02c329d58ac58faaf4c6b895ef8de1e",
+      "source_relative_to_talk": "harness_beta/runs/surface_v2_replay_20261102_v1/executed_source/token_journal.py",
+      "source_sha256": "fd86eae0677c6ff0619c80c534783bfad02c329d58ac58faaf4c6b895ef8de1e"
+    },
+    {
+      "path": "v5/experiments/surface_v2_replay_20261102/validation_summary.json",
+      "kind": "generated-publication-record",
+      "bytes": 466,
+      "sha256": "bf9ac945260db99add18500d137c2748775ca615d09c5fc459e82324456398dd"
+    },
+    {
       "path": "v5/experiments/surface_viewpoint_h06_20261026/common.py",
       "bytes": 1928,
       "sha256": "bd4a4b23679c6612420a3f62ec6d948d7d823f6a933eb1194c0c5a86b426a39f",
@@ -5548,5 +5736,5 @@
   "historical_prompt3_public_scope": "generic PG/instruction text plus new abstract records/numbers only; private full payload local",
   "historical_prompt3_automation_id": "257-3",
   "historical_prompt3_progress_snapshot": "chat_progress_20261101_v7",
-  "latest_experiment_status": "listener cue complete; no clear listener address recovery; quality not adopted; abstract results pushed and own monitor deleted"
+  "latest_experiment_status": "surface_v2_replay_20261102: exact-condition CPU pass, maximum4 new calls pending launch; full data local"
 }

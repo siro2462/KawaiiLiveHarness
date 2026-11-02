@@ -44,3 +44,8 @@
 ユーザーと、発話の役割・語った角度・終了をコード側で管理する方向を検討。追加プロンプトを重ねる方針はいったん止める。長さ自体が悪化原因かは未検証。[制御案](progress/NEXT_CONTROL_PLAN.md)は未実装で、新しい生成は行っていない。
 
 [現行/G01/G02全文](evidence/surface_viewpoint_h06_20261026/comparison.html) ／ [結果](evidence/surface_viewpoint_h06_20261026/result.md)
+
+
+## 2026-11-02 — Full v2 condition reproduction
+
+Original four-call order, full v2 instructions, facts, saved histories, LoRA and complete generation settings are preserved. CPU 54+42, dependencies 8, synthetic report 5, startup exit 0. Source prepared; new generation not yet launched or evaluated. See experiments/surface_v2_replay_20261102. Full experimental content remains local.

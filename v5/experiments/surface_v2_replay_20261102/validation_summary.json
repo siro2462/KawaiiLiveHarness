@@ -1,0 +1,16 @@
+{
+  "status": "cpu_pass_unlaunched",
+  "original_preflight_checks": 54,
+  "exact_request_checks": 42,
+  "dependency_checks": 8,
+  "synthetic_report_checks": 5,
+  "startup_python_exit": 0,
+  "full_requests_exact": 4,
+  "max_new_surface_calls": 4,
+  "generation_max_new_tokens": 384,
+  "original_python_bytes_exact": 16,
+  "prompt_template_bytes_exact": true,
+  "new_model_calls": 0,
+  "quality_status": "pending_unread",
+  "full_data_public": false
+}
