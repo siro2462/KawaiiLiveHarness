@@ -16,4 +16,4 @@ The local two-column report preserves all eight old/new bodies, all actual input
 
 Model generation time was 632.512 seconds previously and 645.764 seconds in this run. These are model-processing measurements, not speech durations or a controlled speed benchmark. Published numeric lengths are in reproduction_result.json; no generated prose or real memory payload is published.
 
-Source preparation commit: 056a638. Launch-state commit: d2a920f. The own brief-check heartbeat will be deleted after this abstract result is pushed.
+Source preparation commit: 056a638. Launch-state commit: d2a920f. Abstract result 0457dfb was pushed and the remote head matched. The own brief-check heartbeat has now been deleted. The final progress snapshot passed its read-only source/provenance audit.

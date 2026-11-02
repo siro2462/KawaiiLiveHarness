@@ -23,11 +23,13 @@
   "heartbeat": {
     "id": "v2-4-15",
     "interval_minutes": 15,
-    "mode": "brief_CPU_read_only_no_resident_wait"
+    "mode": "brief_CPU_read_only_no_resident_wait",
+    "status": "DELETED"
   },
   "progress_audit": "pass",
   "new_outputs_read": true,
   "root_review_pairs": 4,
   "all_outputs_token_RAW_body_exact": 4,
-  "all_local8_bodies_and_inputs_RAW_preserved": true
+  "all_local8_bodies_and_inputs_RAW_preserved": true,
+  "abstract_result_commit": "0457dfb5538fa347d2e2e79f62c794cedbe8695c"
 }

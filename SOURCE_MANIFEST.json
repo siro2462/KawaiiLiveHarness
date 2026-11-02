@@ -1,5 +1,5 @@
 {
-  "version": "v5-current-20261103-surface-v2-replay-result",
+  "version": "v5-current-20261103-surface-v2-replay-complete",
   "client_date_jst": "2026-11-03",
   "kind": "Unchanged v5 default runtime plus completed role/A-G/stripe Surface and CPU-selection experiments; quality not approved",
   "old_v5_tag_unchanged": true,
@@ -618,8 +618,8 @@
     },
     {
       "path": "v5/STATUS.md",
-      "bytes": 6673,
-      "sha256": "72642db255294e648ab44387b81af8eed495c28940b6f74878f0604ad3e8c665",
+      "bytes": 6905,
+      "sha256": "6c0d9c8036b275a50eee056409f25d95dedc7c87b0422f5ca9db20773a386b91",
       "kind": "generated-publication-record"
     },
     {
@@ -4954,8 +4954,8 @@
     },
     {
       "path": "v5/experiments/surface_v2_replay_20261102/README.md",
-      "bytes": 3156,
-      "sha256": "e489cbbf1e0896d8acdfdc28da3b8c9c079acee410df787031257db454cf9639",
+      "bytes": 3262,
+      "sha256": "951c4e8b517130dd66283086581763542761f7d26520798f194c0e26e7961494",
       "kind": "generated-publication-record"
     },
     {
@@ -5156,8 +5156,8 @@
     },
     {
       "path": "v5/experiments/surface_v2_replay_20261102/validation_summary.json",
-      "bytes": 1066,
-      "sha256": "265aa4e00ab2d9b1d64c2736a9c2543952e01e6a01bcd7e448cedafc101b9824",
+      "bytes": 1165,
+      "sha256": "5bc1bffab7dbeb54290c23708ad0ed3b1e664eefbdd379e1739ee903289580b5",
       "kind": "generated-publication-record"
     },
     {
@@ -5756,5 +5756,5 @@
   "historical_prompt3_public_scope": "generic PG/instruction text plus new abstract records/numbers only; private full payload local",
   "historical_prompt3_automation_id": "257-3",
   "historical_prompt3_progress_snapshot": "chat_progress_20261101_v7",
-  "latest_experiment_status": "surface_v2_replay_20261102: all4 exact input and output reproduction; full root review/local8-body report pass; inherited semantic issues remain; own monitor deletion pending after result push"
+  "latest_experiment_status": "surface_v2_replay_20261102 complete: all4 original inputs and new output tokens/RAW/bodies exact; root full review/local8-body report/progress audit pass; inherited semantic issues remain; abstract result pushed; only own heartbeat deleted"
 }
