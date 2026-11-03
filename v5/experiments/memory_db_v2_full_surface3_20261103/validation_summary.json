@@ -127,9 +127,11 @@
   "heartbeat": {
     "id": "db3-v2-15",
     "interval_minutes": 15,
-    "mode": "brief_CPU_read_only_no_resident_wait"
+    "mode": "brief_CPU_read_only_no_resident_wait",
+    "status": "DELETED"
   },
   "progress_audit": "pass",
   "all22_report_bodies_inputs_RAW_exact": true,
-  "root_review_calls": 11
+  "root_review_calls": 11,
+  "abstract_result_commit": "5dc54061aa29d06de93124eb50726a1b5d2ea1a2"
 }
