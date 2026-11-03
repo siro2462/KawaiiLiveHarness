@@ -74,3 +74,8 @@ Baseline selected by user: saved listener-enhanced group4. Keep all data, CPU40/
 ### DB3 full-v2 transfer: launched
 
 Sourcef9a1766 pushed/remote exact, one bounded hidden11 launch, initial completed0/triple process identity matched/DB2 unchanged. Progress source/audit passed. Own fifteen-minute brief CPU heartbeat active, no resident waiting; new outputs unread and quality pending.
+
+
+## 2026-11-03 — DB3 full-v2 transfer completed
+
+New11 EOS/all exits0/sourceDB2 unchanged, root full review/manual105 actual-text units/localHTML22 exact. Listener-directed language returned, but output1451->3788 nonspace characters with longer explanation/repetition and unsupported specifics; not adopted. Full reports local, abstract conclusions/counts only published. Own monitor deletion follows result push.

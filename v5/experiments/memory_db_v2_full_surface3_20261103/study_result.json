@@ -1,0 +1,276 @@
+{
+  "status": "complete_technical_and_full_text_review",
+  "saved_calls": 11,
+  "new_calls": 11,
+  "samples": 3,
+  "source_fragments": 36,
+  "fixed_CPU_operations": 40,
+  "deferred": 1,
+  "all_current_exits0": true,
+  "source_DB_files_unchanged": 2,
+  "all_new_official_EOS": 11,
+  "format_held": 0,
+  "cap_hits": 0,
+  "LoRA_enabled_calls": 11,
+  "full_v2_template_unchanged": true,
+  "full_actual_inputs_and_history_replayed": true,
+  "root_full_text_review": true,
+  "actual_text_manual_annotation_units": 105,
+  "all22_local_report_bodies_and_inputs_RAW_exact": true,
+  "human_quality_labels": 0,
+  "actual_tts": false,
+  "quality_status": "not_adopted_more_listener_address_but_semantic_regressions",
+  "lengths": {
+    "rows": [
+      {
+        "call_id": "R0001",
+        "sample_id": "M06",
+        "operations": 4,
+        "old_chars": 158,
+        "new_chars": 423,
+        "old_input_tokens": 1672,
+        "new_input_tokens": 1633,
+        "old_output_tokens": 98,
+        "new_output_tokens": 227,
+        "old_seconds": 138.118,
+        "new_seconds": 240.086,
+        "old_history_calls": [],
+        "new_history_calls": [],
+        "eos": true,
+        "held": false
+      },
+      {
+        "call_id": "R0002",
+        "sample_id": "M06",
+        "operations": 4,
+        "old_chars": 118,
+        "new_chars": 408,
+        "old_input_tokens": 1831,
+        "new_input_tokens": 1976,
+        "old_output_tokens": 62,
+        "new_output_tokens": 221,
+        "old_seconds": 76.28,
+        "new_seconds": 211.123,
+        "old_history_calls": [
+          "R0001"
+        ],
+        "new_history_calls": [
+          "R0001"
+        ],
+        "eos": true,
+        "held": false
+      },
+      {
+        "call_id": "R0003",
+        "sample_id": "M06",
+        "operations": 4,
+        "old_chars": 133,
+        "new_chars": 292,
+        "old_input_tokens": 1844,
+        "new_input_tokens": 1904,
+        "old_output_tokens": 81,
+        "new_output_tokens": 157,
+        "old_seconds": 92.551,
+        "new_seconds": 174.976,
+        "old_history_calls": [
+          "R0001",
+          "R0002"
+        ],
+        "new_history_calls": [
+          "R0002"
+        ],
+        "eos": true,
+        "held": false
+      },
+      {
+        "call_id": "R0004",
+        "sample_id": "M06",
+        "operations": 2,
+        "old_chars": 58,
+        "new_chars": 339,
+        "old_input_tokens": 1579,
+        "new_input_tokens": 1799,
+        "old_output_tokens": 38,
+        "new_output_tokens": 184,
+        "old_seconds": 51.397,
+        "new_seconds": 183.647,
+        "old_history_calls": [
+          "R0002",
+          "R0003"
+        ],
+        "new_history_calls": [
+          "R0002",
+          "R0003"
+        ],
+        "eos": true,
+        "held": false
+      },
+      {
+        "call_id": "R0005",
+        "sample_id": "M17",
+        "operations": 4,
+        "old_chars": 161,
+        "new_chars": 305,
+        "old_input_tokens": 1618,
+        "new_input_tokens": 1585,
+        "old_output_tokens": 89,
+        "new_output_tokens": 181,
+        "old_seconds": 97.747,
+        "new_seconds": 188.147,
+        "old_history_calls": [],
+        "new_history_calls": [],
+        "eos": true,
+        "held": false
+      },
+      {
+        "call_id": "R0006",
+        "sample_id": "M17",
+        "operations": 4,
+        "old_chars": 142,
+        "new_chars": 287,
+        "old_input_tokens": 1733,
+        "new_input_tokens": 1818,
+        "old_output_tokens": 83,
+        "new_output_tokens": 164,
+        "old_seconds": 92.757,
+        "new_seconds": 159.188,
+        "old_history_calls": [
+          "R0005"
+        ],
+        "new_history_calls": [
+          "R0005"
+        ],
+        "eos": true,
+        "held": false
+      },
+      {
+        "call_id": "R0007",
+        "sample_id": "M17",
+        "operations": 4,
+        "old_chars": 127,
+        "new_chars": 321,
+        "old_input_tokens": 1886,
+        "new_input_tokens": 2057,
+        "old_output_tokens": 77,
+        "new_output_tokens": 182,
+        "old_seconds": 90.162,
+        "new_seconds": 175.459,
+        "old_history_calls": [
+          "R0005",
+          "R0006"
+        ],
+        "new_history_calls": [
+          "R0005",
+          "R0006"
+        ],
+        "eos": true,
+        "held": false
+      },
+      {
+        "call_id": "R0008",
+        "sample_id": "M17",
+        "operations": 2,
+        "old_chars": 82,
+        "new_chars": 340,
+        "old_input_tokens": 1608,
+        "new_input_tokens": 1770,
+        "old_output_tokens": 51,
+        "new_output_tokens": 199,
+        "old_seconds": 63.056,
+        "new_seconds": 206.134,
+        "old_history_calls": [
+          "R0006",
+          "R0007"
+        ],
+        "new_history_calls": [
+          "R0006",
+          "R0007"
+        ],
+        "eos": true,
+        "held": false
+      },
+      {
+        "call_id": "R0009",
+        "sample_id": "M23",
+        "operations": 4,
+        "old_chars": 166,
+        "new_chars": 253,
+        "old_input_tokens": 1630,
+        "new_input_tokens": 1607,
+        "old_output_tokens": 96,
+        "new_output_tokens": 141,
+        "old_seconds": 105.619,
+        "new_seconds": 143.486,
+        "old_history_calls": [],
+        "new_history_calls": [],
+        "eos": true,
+        "held": false
+      },
+      {
+        "call_id": "R0010",
+        "sample_id": "M23",
+        "operations": 4,
+        "old_chars": 140,
+        "new_chars": 438,
+        "old_input_tokens": 1762,
+        "new_input_tokens": 1791,
+        "old_output_tokens": 87,
+        "new_output_tokens": 250,
+        "old_seconds": 113.632,
+        "new_seconds": 255.044,
+        "old_history_calls": [
+          "R0009"
+        ],
+        "new_history_calls": [
+          "R0009"
+        ],
+        "eos": true,
+        "held": false
+      },
+      {
+        "call_id": "R0011",
+        "sample_id": "M23",
+        "operations": 4,
+        "old_chars": 166,
+        "new_chars": 382,
+        "old_input_tokens": 2041,
+        "new_input_tokens": 2244,
+        "old_output_tokens": 92,
+        "new_output_tokens": 210,
+        "old_seconds": 112.193,
+        "new_seconds": 200.492,
+        "old_history_calls": [
+          "R0009",
+          "R0010"
+        ],
+        "new_history_calls": [
+          "R0009",
+          "R0010"
+        ],
+        "eos": true,
+        "held": false
+      }
+    ],
+    "old_total_chars": 1451,
+    "new_total_chars": 3788,
+    "old_total_output_tokens": 854,
+    "new_total_output_tokens": 2116,
+    "old_total_seconds": 1033.512,
+    "new_total_seconds": 2137.782,
+    "all11_old_input_median": 1733,
+    "all11_new_input_median": 1799,
+    "four_op_old_input_median": 1762,
+    "four_op_new_input_median": 1818,
+    "four_op_old_body_median": 142,
+    "four_op_new_body_median": 321
+  },
+  "limitations": [
+    "one seed and known enriched materials including unreviewed sources",
+    "condition-aware designer-AI review, no human labels or real TTS",
+    "full instructions and presentation transfer bundled with removal of former style/example/sentence blocks",
+    "same history policy but downstream generated text and window contents diverge",
+    "fixed operation sequence rather than adaptive semantic planning",
+    "manual output function colors are not truth labels or operation-execution rates"
+  ],
+  "publication_scope": "generic code and newly authored abstract conclusions/counts only; no actual memory/input/decoded/RAW/body/HTML/source DB/model/chat export"
+}

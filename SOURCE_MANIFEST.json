@@ -1,5 +1,5 @@
 {
-  "version": "v5-current-20261103-db-v2-full-launched",
+  "version": "v5-current-20261103-db-v2-full-result",
   "client_date_jst": "2026-11-03",
   "kind": "Unchanged v5 default runtime plus completed role/A-G/stripe Surface and CPU-selection experiments; quality not approved",
   "old_v5_tag_unchanged": true,
@@ -619,8 +619,8 @@
     {
       "path": "v5/STATUS.md",
       "kind": "generated-publication-record",
-      "bytes": 7719,
-      "sha256": "bf0267a4bab9c40508955d57cb7bf26021709d5a08f5e6e6a0de80af10360281"
+      "bytes": 8141,
+      "sha256": "d261e4d8a84ae235e0e483b50e5e1042b71a51d24cb39689b184026a5ced9c50"
     },
     {
       "path": "v5/STRIPE_CONTROL.md",
@@ -4211,8 +4211,8 @@
     {
       "path": "v5/experiments/memory_db_v2_full_surface3_20261103/README.md",
       "kind": "generated-publication-record",
-      "bytes": 3935,
-      "sha256": "085886c51e23802ede3d66f60d136cf9c583b1f42c6f18c931f56d8580068e2d"
+      "bytes": 3478,
+      "sha256": "0ebe77840dd5c8da6362d51f4febe055ad6f300e8881fa33e89bd6154992f62f"
     },
     {
       "path": "v5/experiments/memory_db_v2_full_surface3_20261103/baseline_compact.py",
@@ -4359,6 +4359,14 @@
       "source_sha256": "4e5f548b3cd1d7598bb7adbce5620f7f313c3fa935481d270318f4768e83750d"
     },
     {
+      "path": "v5/experiments/memory_db_v2_full_surface3_20261103/read_result_views.py",
+      "kind": "source-byte-preserving",
+      "bytes": 5987,
+      "sha256": "6e9251407e38dd65b596360104200a6aa30e171d5ead1ce6b304eaa3b818c3ab",
+      "source_relative_to_talk": "harness_beta/read_db_v2_result_20261103.py",
+      "source_sha256": "6e9251407e38dd65b596360104200a6aa30e171d5ead1ce6b304eaa3b818c3ab"
+    },
+    {
       "path": "v5/experiments/memory_db_v2_full_surface3_20261103/report_presence.py",
       "kind": "source-byte-preserving",
       "bytes": 1831,
@@ -4373,6 +4381,12 @@
       "sha256": "ecbe1a33ef1cc2b0d01d8c013ec599503844ea92534c68dedf58cb2b3bd17489",
       "source_relative_to_talk": "harness_beta/runs/memory_db_v2_full_surface3_20261103_v1/executed_source/request_protocol.py",
       "source_sha256": "ecbe1a33ef1cc2b0d01d8c013ec599503844ea92534c68dedf58cb2b3bd17489"
+    },
+    {
+      "path": "v5/experiments/memory_db_v2_full_surface3_20261103/result.md",
+      "kind": "generated-publication-record",
+      "bytes": 3303,
+      "sha256": "ee4116a66debc9bf65ae7b9b81edef2b8cfc0bc093dc1e3d850a0ff03e74b211"
     },
     {
       "path": "v5/experiments/memory_db_v2_full_surface3_20261103/run_cpu.py",
@@ -4407,6 +4421,12 @@
       "source_sha256": "ae40d26ef28fa3ac50749c6b45e44951753de8667bd4cf4d7d5ee6eaac82c33a"
     },
     {
+      "path": "v5/experiments/memory_db_v2_full_surface3_20261103/study_result.json",
+      "kind": "generated-publication-record",
+      "bytes": 7761,
+      "sha256": "2098cff6931d8048d107d793890085a954952e31964255f8601171372c6e8752"
+    },
+    {
       "path": "v5/experiments/memory_db_v2_full_surface3_20261103/surface_prompt_v2.txt",
       "kind": "source-byte-preserving",
       "bytes": 5061,
@@ -4433,8 +4453,8 @@
     {
       "path": "v5/experiments/memory_db_v2_full_surface3_20261103/validation_summary.json",
       "kind": "generated-publication-record",
-      "bytes": 4117,
-      "sha256": "de674914da9c684eb2b1a2b4e4f77df4fdc4dfe371eb28576351e633819de55c"
+      "bytes": 4259,
+      "sha256": "d3b6e6203e30c167ed7f9427c910673591e9848285571005d26bca6fc5947cb9"
     },
     {
       "path": "v5/experiments/stripe_surface_abc_h06_20261027/common.py",
@@ -5984,5 +6004,5 @@
   "historical_prompt3_public_scope": "generic PG/instruction text plus new abstract records/numbers only; private full payload local",
   "historical_prompt3_automation_id": "257-3",
   "historical_prompt3_progress_snapshot": "chat_progress_20261101_v7",
-  "latest_experiment_status": "DB3 full-v2/plain Fact transfer launched max11, same36/CPU40/deferred1/groups11/LoRA/config1536; CPU305/dep8/report5/startup0; initial triple identity/DB2 check healthy; own15-minute heartbeat active; new outputs unread"
+  "latest_experiment_status": "DB3 full-v2 transfer complete: listener address restored but longer repetition/semantic regressions; root full review/manual actual colors/local22 report pass; not adopted; own monitor deletion pending"
 }

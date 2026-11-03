@@ -1,5 +1,5 @@
 {
-  "status": "launched_pending_results",
+  "status": "complete_technical_and_full_text_review",
   "cpu_checks": 305,
   "dependency_checks": 8,
   "synthetic_report_checks": 5,
@@ -12,7 +12,7 @@
   "deferred_items": 1,
   "new_surface_max": 11,
   "generation_max_new_tokens": 1536,
-  "actual_new_outputs_read": false,
+  "actual_new_outputs_read": true,
   "comparison_scope": "saved listener group4 vs new full-v2 plain Fact/Flow; same4-operation units",
   "equal_history_lengths": [
     {
@@ -115,7 +115,7 @@
       "old_card_parts_chars": 2747
     }
   ],
-  "quality_status": "pending",
+  "quality_status": "not_adopted_more_listener_address_but_semantic_regressions",
   "source_commit": "f9a17665df8a4ae8a8921ff6f55aabe89106cf18",
   "initial_observation": {
     "phase": "waiting_output",
@@ -129,5 +129,7 @@
     "interval_minutes": 15,
     "mode": "brief_CPU_read_only_no_resident_wait"
   },
-  "progress_audit": "pass"
+  "progress_audit": "pass",
+  "all22_report_bodies_inputs_RAW_exact": true,
+  "root_review_calls": 11
 }
