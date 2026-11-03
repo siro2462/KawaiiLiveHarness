@@ -84,3 +84,8 @@ New11 EOS/all exits0/sourceDB2 unchanged, root full review/manual105 actual-text
 ### DB3 full-v2 transfer records closed
 
 Abstract result5dc5406 pushed/remote exact, local full22-body/input report and progress audit passed; only owndb3-v2-15 heartbeat deleted. Listener-address improvement remains distinct from semantic approval. No additional generation or default adoption.
+
+
+## 2026-11-03 — Memory structure candidate prepared
+
+Root manually reviewed five known edited reference topics / 145 existing fragments and authored three independent fictional candidates / 36 fragments. A reusable recipe preserves personal stakes, concrete cues and changing appraisals without mandatory lessons. CPU118 technical checks passed; original DBs preserved. No operation selection, Surface generation or import was run, so speech-quality improvement is untested. Generic recipe/checker and abstract results only: experiments/v_memory_structure_20261103. Full material remains local.

@@ -1,5 +1,5 @@
 {
-  "version": "v5-current-20261103-db-v2-full-complete",
+  "version": "v5-current-20261103-memory-structure-candidate",
   "client_date_jst": "2026-11-03",
   "kind": "Unchanged v5 default runtime plus completed role/A-G/stripe Surface and CPU-selection experiments; quality not approved",
   "old_v5_tag_unchanged": true,
@@ -615,12 +615,6 @@
       "kind": "generated-publication-record",
       "bytes": 5830,
       "sha256": "b4ecf730f1faf38101a15a64e7673fd4e1ae4b0129d5d8e77ebfb38d2ae14690"
-    },
-    {
-      "path": "v5/STATUS.md",
-      "kind": "generated-publication-record",
-      "bytes": 8444,
-      "sha256": "98711d5dc151ace1340cc1dc9c9f284f5a2268e5e8a9856817ec9c7599952fb8"
     },
     {
       "path": "v5/STRIPE_CONTROL.md",
@@ -5689,12 +5683,6 @@
       "source_relative_to_talk": "harness_beta/runs/memory_db_group4_20261101_v1/reference/v5/memory_db/vendor/selector.py"
     },
     {
-      "path": "v5/progress/CURRENT_STATE.md",
-      "kind": "generated-publication-record",
-      "bytes": 2367,
-      "sha256": "fc3e9a9a3551aee95e5e8cbdb0ee337a0ec8294917fa50376cc4e55c844db948"
-    },
-    {
       "path": "v5/progress/NEXT_CONTROL_PLAN.md",
       "kind": "generated-publication-record",
       "bytes": 3017,
@@ -5969,6 +5957,40 @@
       "kind": "generated-publication-record",
       "bytes": 6587,
       "sha256": "8fe2fb8e64f83bc84300a38afb2f9343234b88ba0ac1a548245b1f08e2fa4c50"
+    },
+    {
+      "path": "v5/experiments/v_memory_structure_20261103/recipe.md",
+      "bytes": 4709,
+      "sha256": "09f46cb2404412e2001fa7cddfd334668208a501ed4f732a3fa850fc3f2d10d5",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/memory_structure/recipe.md",
+      "source_sha256": "09f46cb2404412e2001fa7cddfd334668208a501ed4f732a3fa850fc3f2d10d5"
+    },
+    {
+      "path": "v5/experiments/v_memory_structure_20261103/validate_candidates.py",
+      "bytes": 3979,
+      "sha256": "94b8719c93aecbdd0d5ed3e11e56600756b289a218b2e9da108925686dcd5461",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/memory_structure/validate_candidates.py",
+      "source_sha256": "94b8719c93aecbdd0d5ed3e11e56600756b289a218b2e9da108925686dcd5461"
+    },
+    {
+      "path": "v5/experiments/v_memory_structure_20261103/README.md",
+      "bytes": 1957,
+      "sha256": "2a03659dc8d5c6717d8e0ee70594471763903681173a48838c2c3d4e7f0176b2",
+      "kind": "generated-publication-record"
+    },
+    {
+      "path": "v5/STATUS.md",
+      "bytes": 9043,
+      "sha256": "56179a7de5090e2dbf4ee90b6bbdba1191650a1e0b455cd0a5001d1d45a7800f",
+      "kind": "generated-publication-record"
+    },
+    {
+      "path": "v5/progress/CURRENT_STATE.md",
+      "bytes": 2966,
+      "sha256": "ac1dbbfde2687eea72165f4408fc866f29c91f78c73dbc8b45699f829c714a01",
+      "kind": "generated-publication-record"
     }
   ],
   "viewpoint_candidate_sources": [

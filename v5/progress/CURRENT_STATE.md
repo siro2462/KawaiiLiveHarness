@@ -17,3 +17,8 @@ CPU404/依存8/report5/startup0。新11全EOS・形式保留/上限0。現行nat
 1seed/既知3素材/創作補完・未確認素材/条件既知設計者AI評価・人間0/実TTS0/固定列非適応/履歴窓/追加block内寄与未分離/下流履歴分岐。v2全文や文数目安の別対照、Memoryの粒度変更は未実施。v2全体が無効、またはMemoryだけが原因とは断定しない。
 
 元DB/model/旧runは保全。GitHubへは汎用PG・一般指示と新規抽象記録・数値だけ。全文Memory/実入力/RAW/生成本文/注釈/比較HTML/元DB/model/認証/チャットsourceはローカル保管。
+
+
+## 2026-11-03 — Memory structure candidate prepared
+
+Root manually reviewed five known edited reference topics / 145 existing fragments and authored three independent fictional candidates / 36 fragments. A reusable recipe preserves personal stakes, concrete cues and changing appraisals without mandatory lessons. CPU118 technical checks passed; original DBs preserved. No operation selection, Surface generation or import was run, so speech-quality improvement is untested. Generic recipe/checker and abstract results only: experiments/v_memory_structure_20261103. Full material remains local.
