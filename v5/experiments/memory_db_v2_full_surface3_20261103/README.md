@@ -1,0 +1,17 @@
+# Full v2 with unchanged DB memories: three-sample comparison
+
+The user selected the saved listener-enhanced, four-operation version as baseline. This experiment keeps the three complete sample dictionaries, fixed CPU forty-operation sequence, one deferred item, four-operation groups, independent initial histories, actual adopted last-two/800-character history policy, LoRA, seed and complete generation configuration unchanged. The cap remains 1536, matching that baseline; it is not changed to the historical v2 cap of 384.
+
+The candidate uses the full original v2 template and its original five-section plain Fact/Flow interface. The original contract, renderer and template bytes are unchanged. Up to four current operations remain in each group; the original contract permits up to six facts. No regrouping to one or two operations occurs. Raw memory contents are not summarized or rewritten. Only presentation changes: operation meanings enter Flow labels, and source certainty, time of wishes, unexecuted state, world/context, prior anchors and unknown/prohibited scope remain explicit.
+
+The former three reaction examples, two-to-three-sentence target and 288-character listener add-on are not appended to the candidate. Their archived files are retained for baseline reconstruction only. The full v2 instructions may make total input longer even when the material presentation is shorter; CPU measurements separate those quantities.
+
+CPU preflight305 passed: all eleven actual baseline prompts and official processor inputs reproduced, complete source contents/order and qualifiers delivered in the candidate decoded input, request tampering rejected, real controller exercised with synthetic delivered/held histories, and two source DB file hashes preserved. Dependency8, synthetic full-report5 and real child-guard startup exit0 also passed. No inference has been launched at this source publication point.
+
+The bounded runtime will make at most eleven new Surface calls: four, four and three. No cached output replay, quality retry, Planner, alpha re-selection, Guard, training, downloads, TTS, deployment or Memory registration. One hidden launch is followed by brief fifteen-minute scheduled CPU checks, with no resident waiting. New outputs remain unread until completion.
+
+Completion requires exit receipts, replayed actual requests/history, LoRA/token/RAW integrity, source DB hash preservation, root review of all distinct required source/input/output text, and local full old/new reports. Existing baseline colors are saved; new speech colors must be assigned from actual new text rather than planned operations. Technical checks are not semantic-quality approval.
+
+One seed, known samples, creative enrichment and unreviewed material, condition-aware designer-AI evaluation with no human labels/TTS, non-adaptive fixed operations and downstream history divergence limit interpretation. This combines full instructions and presentation transfer; their separate contributions are not isolated. It is not a claim that materials, fact count, historical fixed histories and token cap are identical to the original v2 experiment.
+
+Only generic program source, common instructions and newly authored abstract records/counts are published. Real memory values, requests/decoded inputs, RAW/generated prose, comparison HTML, source DBs, models, credentials and chat exports remain local.

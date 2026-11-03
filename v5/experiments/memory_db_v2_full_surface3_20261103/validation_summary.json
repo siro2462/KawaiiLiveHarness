@@ -1,0 +1,119 @@
+{
+  "status": "cpu_pass_unlaunched",
+  "cpu_checks": 305,
+  "dependency_checks": 8,
+  "synthetic_report_checks": 5,
+  "real_startup_exit": 0,
+  "unchanged_execution_core": 17,
+  "original_v2_sources_exact": 3,
+  "source_DB_files_unchanged": 2,
+  "complete_source_samples_unchanged": 3,
+  "CPU_operations_unchanged": 40,
+  "deferred_items": 1,
+  "new_surface_max": 11,
+  "generation_max_new_tokens": 1536,
+  "actual_new_outputs_read": false,
+  "comparison_scope": "saved listener group4 vs new full-v2 plain Fact/Flow; same4-operation units",
+  "equal_history_lengths": [
+    {
+      "unit_key": "M06:G01",
+      "old_input_tokens": 1672,
+      "new_equal_history_input_tokens": 1633,
+      "old_prompt_chars": 3230,
+      "new_equal_history_prompt_chars": 2657,
+      "new_plain_parts_chars": 833,
+      "old_card_parts_chars": 1986
+    },
+    {
+      "unit_key": "M06:G02",
+      "old_input_tokens": 1831,
+      "new_equal_history_input_tokens": 1847,
+      "old_prompt_chars": 3586,
+      "new_equal_history_prompt_chars": 3022,
+      "new_plain_parts_chars": 1198,
+      "old_card_parts_chars": 2355
+    },
+    {
+      "unit_key": "M06:G03",
+      "old_input_tokens": 1844,
+      "new_equal_history_input_tokens": 1846,
+      "old_prompt_chars": 3588,
+      "new_equal_history_prompt_chars": 3034,
+      "new_plain_parts_chars": 1210,
+      "old_card_parts_chars": 2355
+    },
+    {
+      "unit_key": "M06:G04",
+      "old_input_tokens": 1579,
+      "new_equal_history_input_tokens": 1564,
+      "old_prompt_chars": 2912,
+      "new_equal_history_prompt_chars": 2615,
+      "new_plain_parts_chars": 791,
+      "old_card_parts_chars": 1624
+    },
+    {
+      "unit_key": "M17:G01",
+      "old_input_tokens": 1618,
+      "new_equal_history_input_tokens": 1585,
+      "old_prompt_chars": 3145,
+      "new_equal_history_prompt_chars": 2591,
+      "new_plain_parts_chars": 767,
+      "old_card_parts_chars": 1897
+    },
+    {
+      "unit_key": "M17:G02",
+      "old_input_tokens": 1733,
+      "new_equal_history_input_tokens": 1727,
+      "old_prompt_chars": 3330,
+      "new_equal_history_prompt_chars": 2825,
+      "new_plain_parts_chars": 1001,
+      "old_card_parts_chars": 2084
+    },
+    {
+      "unit_key": "M17:G03",
+      "old_input_tokens": 1886,
+      "new_equal_history_input_tokens": 1885,
+      "old_prompt_chars": 3647,
+      "new_equal_history_prompt_chars": 3088,
+      "new_plain_parts_chars": 1264,
+      "old_card_parts_chars": 2418
+    },
+    {
+      "unit_key": "M17:G04",
+      "old_input_tokens": 1608,
+      "new_equal_history_input_tokens": 1584,
+      "old_prompt_chars": 2949,
+      "new_equal_history_prompt_chars": 2624,
+      "new_plain_parts_chars": 800,
+      "old_card_parts_chars": 1663
+    },
+    {
+      "unit_key": "M23:G01",
+      "old_input_tokens": 1630,
+      "new_equal_history_input_tokens": 1607,
+      "old_prompt_chars": 3163,
+      "new_equal_history_prompt_chars": 2634,
+      "new_plain_parts_chars": 810,
+      "old_card_parts_chars": 1916
+    },
+    {
+      "unit_key": "M23:G02",
+      "old_input_tokens": 1762,
+      "new_equal_history_input_tokens": 1746,
+      "old_prompt_chars": 3379,
+      "new_equal_history_prompt_chars": 2836,
+      "new_plain_parts_chars": 1012,
+      "old_card_parts_chars": 2134
+    },
+    {
+      "unit_key": "M23:G03",
+      "old_input_tokens": 2041,
+      "new_equal_history_input_tokens": 2036,
+      "old_prompt_chars": 3959,
+      "new_equal_history_prompt_chars": 3305,
+      "new_plain_parts_chars": 1481,
+      "old_card_parts_chars": 2747
+    }
+  ],
+  "quality_status": "pending"
+}

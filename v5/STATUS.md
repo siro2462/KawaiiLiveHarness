@@ -64,3 +64,8 @@ Four new Surface generations exactly matched all saved v2 output tokens, RAW and
 ### Reproduction record closed
 
 Abstract result0457dfb pushed/remote exact, local full report and progress audit passed, only ownv2-4-15 heartbeat deleted. No additional generation, current-DB adaptation or default adoption.
+
+
+## 2026-11-03 — Full v2 transferred to unchanged DB3 materials
+
+Baseline selected by user: saved listener-enhanced group4. Keep all data, CPU40/deferred1, grouping11, LoRA, seed and config1536. Change full original v2 instructions and plain five-section Fact/Flow presentation, preserving source qualifiers. CPU305/dep8/report5/real startup0 passed, source DB2 hashes unchanged. Maximum11 new Surface pending one hidden launch; outputs and quality unread. Generic source/abstract records only.
