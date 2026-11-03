@@ -15,3 +15,7 @@ Completion requires exit receipts, replayed actual requests/history, LoRA/token/
 One seed, known samples, creative enrichment and unreviewed material, condition-aware designer-AI evaluation with no human labels/TTS, non-adaptive fixed operations and downstream history divergence limit interpretation. This combines full instructions and presentation transfer; their separate contributions are not isolated. It is not a claim that materials, fact count, historical fixed histories and token cap are identical to the original v2 experiment.
 
 Only generic program source, common instructions and newly authored abstract records/counts are published. Real memory values, requests/decoded inputs, RAW/generated prose, comparison HTML, source DBs, models, credentials and chat exports remain local.
+
+## Launch update
+
+Source f9a1766 was pushed and the remote matched. One hidden maximum-eleven-call launch followed. The single initial CPU observation saw zero completed calls, matching controller/GPU/wrapper identities and unchanged source DB hashes. No new generated text was opened and no completion polling followed. The own fifteen-minute brief-check heartbeat is active. The progress snapshot passed its read-only source/provenance audit. Completion, full-text comparison and quality review remain pending.
