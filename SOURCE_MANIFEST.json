@@ -1,5 +1,5 @@
 {
-  "version": "v5-current-20261103-memory-structure-candidate",
+  "version": "v5-current-20261103-authored-memory-surface-prepared",
   "client_date_jst": "2026-11-03",
   "kind": "Unchanged v5 default runtime plus completed role/A-G/stripe Surface and CPU-selection experiments; quality not approved",
   "old_v5_tag_unchanged": true,
@@ -5981,16 +5981,342 @@
       "kind": "generated-publication-record"
     },
     {
+      "path": "v5/experiments/v_memory_surface3_20261103/baseline_compact.py",
+      "bytes": 4648,
+      "sha256": "da24dc65319ec47c53f24079a0eeea56730ce757dd11b9c0d9445bee913b93b0",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/executed_source/baseline_compact.py",
+      "source_sha256": "da24dc65319ec47c53f24079a0eeea56730ce757dd11b9c0d9445bee913b93b0"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/candidate_projection.py",
+      "bytes": 1933,
+      "sha256": "31a0472b967ffe87a1b78abbee282850270f41eeb66645ff4c00197b03515053",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/executed_source/candidate_projection.py",
+      "source_sha256": "31a0472b967ffe87a1b78abbee282850270f41eeb66645ff4c00197b03515053"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/common.py",
+      "bytes": 1928,
+      "sha256": "bd4a4b23679c6612420a3f62ec6d948d7d823f6a933eb1194c0c5a86b426a39f",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/executed_source/common.py",
+      "source_sha256": "bd4a4b23679c6612420a3f62ec6d948d7d823f6a933eb1194c0c5a86b426a39f"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/compact_surface.py",
+      "bytes": 4172,
+      "sha256": "04146c6e2024fa5ded2f7061df37c743f9f6a08cbe18c48423f5fbbce7f9ab9f",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/executed_source/compact_surface.py",
+      "source_sha256": "04146c6e2024fa5ded2f7061df37c743f9f6a08cbe18c48423f5fbbce7f9ab9f"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/contract_runtime.py",
+      "bytes": 3165,
+      "sha256": "543cd52feebb061712ecdc410f2e77208ed38a4dce8c5a0ab2fa8075b87110f6",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/executed_source/contract_runtime.py",
+      "source_sha256": "543cd52feebb061712ecdc410f2e77208ed38a4dce8c5a0ab2fa8075b87110f6"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/cpu_selector.py",
+      "bytes": 488,
+      "sha256": "8daa0415140d4e920d6d9a5c807c6a29177d4af6e6367b14ee849d5ffeb8d209",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/executed_source/cpu_selector.py",
+      "source_sha256": "8daa0415140d4e920d6d9a5c807c6a29177d4af6e6367b14ee849d5ffeb8d209"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/dependency_probe.py",
+      "bytes": 1733,
+      "sha256": "25e94d52af9b16b1e1060bc0862ffa8742ad35ca439ae80e391799d034bf86ca",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/executed_source/dependency_probe.py",
+      "source_sha256": "25e94d52af9b16b1e1060bc0862ffa8742ad35ca439ae80e391799d034bf86ca"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/driver_cpu.py",
+      "bytes": 2259,
+      "sha256": "35e4a40250fb8a4e7c96340cf3ee630e10b77ee0624dda3c66c04a1bd4749616",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/executed_source/driver_cpu.py",
+      "source_sha256": "35e4a40250fb8a4e7c96340cf3ee630e10b77ee0624dda3c66c04a1bd4749616"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/finalize_cpu.py",
+      "bytes": 6909,
+      "sha256": "9dd2adc2039858be1e793e59d7cefeef30c0da84b6f185edf66d03b32098a46a",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/executed_source/finalize_cpu.py",
+      "source_sha256": "9dd2adc2039858be1e793e59d7cefeef30c0da84b6f185edf66d03b32098a46a"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/flow_apply.py",
+      "bytes": 5356,
+      "sha256": "5a702f70baa100c2c90f23103f04fac8f8d3865ddf1fa7cd353fa9730072c18b",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/executed_source/flow_apply.py",
+      "source_sha256": "5a702f70baa100c2c90f23103f04fac8f8d3865ddf1fa7cd353fa9730072c18b"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/full_stripe_runtime.py",
+      "bytes": 1266,
+      "sha256": "e68f55e6dc4041510a3d61c6c7d6e50024c7e2e9ff61a7bb8fc16fe3884841f0",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/executed_source/full_stripe_runtime.py",
+      "source_sha256": "e68f55e6dc4041510a3d61c6c7d6e50024c7e2e9ff61a7bb8fc16fe3884841f0"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/gpu_worker.py",
+      "bytes": 5952,
+      "sha256": "e8c736f71f4e8d5e100571ca5919efe24bbd20dce1b45af2f504892169a8a995",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/executed_source/gpu_worker.py",
+      "source_sha256": "e8c736f71f4e8d5e100571ca5919efe24bbd20dce1b45af2f504892169a8a995"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/launch_once.py",
+      "bytes": 2824,
+      "sha256": "1ddba83288976794d14bf9658c7d22362a028319cfbbbb9e83004d769158f5d1",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/executed_source/launch_once.py",
+      "source_sha256": "1ddba83288976794d14bf9658c7d22362a028319cfbbbb9e83004d769158f5d1"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/observe_cpu.py",
+      "bytes": 6056,
+      "sha256": "e67c06cfad6b41c0fadd2041151f77cdffa9325d1805954e87ea3e9923e030d2",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/executed_source/observe_cpu.py",
+      "source_sha256": "e67c06cfad6b41c0fadd2041151f77cdffa9325d1805954e87ea3e9923e030d2"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/preflight_cpu.py",
+      "bytes": 9791,
+      "sha256": "5d8435964e074acc1bbbe58160176512782438802356f202b839bf0c4180a05e",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/executed_source/preflight_cpu.py",
+      "source_sha256": "5d8435964e074acc1bbbe58160176512782438802356f202b839bf0c4180a05e"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/prepare_inputs.py",
+      "bytes": 2493,
+      "sha256": "eb5e0af4d8b4c4ef70c4a89cfa9a20a8ff44e34427cce8590fb7668fc5bb4c34",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/executed_source/prepare_inputs.py",
+      "source_sha256": "eb5e0af4d8b4c4ef70c4a89cfa9a20a8ff44e34427cce8590fb7668fc5bb4c34"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/processor_cpu.py",
+      "bytes": 947,
+      "sha256": "311d0d846e74aa51a9909c09f942816f86de482ce9857666f2922355e2db2978",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/executed_source/processor_cpu.py",
+      "source_sha256": "311d0d846e74aa51a9909c09f942816f86de482ce9857666f2922355e2db2978"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/prompt_v2.py",
+      "bytes": 887,
+      "sha256": "4e5f548b3cd1d7598bb7adbce5620f7f313c3fa935481d270318f4768e83750d",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/executed_source/prompt_v2.py",
+      "source_sha256": "4e5f548b3cd1d7598bb7adbce5620f7f313c3fa935481d270318f4768e83750d"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/report_presence.py",
+      "bytes": 1876,
+      "sha256": "ef63b1b9d86f5d5d3373fb3d3be6e95b6247cab3daa110f5fe66b6f39d556005",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/executed_source/report_presence.py",
+      "source_sha256": "ef63b1b9d86f5d5d3373fb3d3be6e95b6247cab3daa110f5fe66b6f39d556005"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/request_protocol.py",
+      "bytes": 1512,
+      "sha256": "ecbe1a33ef1cc2b0d01d8c013ec599503844ea92534c68dedf58cb2b3bd17489",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/executed_source/request_protocol.py",
+      "source_sha256": "ecbe1a33ef1cc2b0d01d8c013ec599503844ea92534c68dedf58cb2b3bd17489"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/runtime.py",
+      "bytes": 4794,
+      "sha256": "9be06fa22b2b2f268e230335e6996e8d059e08b6e3ba7c90578db77bfb8a4f4e",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/executed_source/runtime.py",
+      "source_sha256": "9be06fa22b2b2f268e230335e6996e8d059e08b6e3ba7c90578db77bfb8a4f4e"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/run_cpu.py",
+      "bytes": 4897,
+      "sha256": "27944ab8b5629164461d1300c431856fe56d827962746c74829747a9473105c0",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/executed_source/run_cpu.py",
+      "source_sha256": "27944ab8b5629164461d1300c431856fe56d827962746c74829747a9473105c0"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/startup_probe.py",
+      "bytes": 311,
+      "sha256": "9aaa07399551a33bbe314cf7c8bfb72379557d859a34d899285aeabb0394aee4",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/executed_source/startup_probe.py",
+      "source_sha256": "9aaa07399551a33bbe314cf7c8bfb72379557d859a34d899285aeabb0394aee4"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/stripe_runtime.py",
+      "bytes": 4509,
+      "sha256": "ae40d26ef28fa3ac50749c6b45e44951753de8667bd4cf4d7d5ee6eaac82c33a",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/executed_source/stripe_runtime.py",
+      "source_sha256": "ae40d26ef28fa3ac50749c6b45e44951753de8667bd4cf4d7d5ee6eaac82c33a"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/surface_prompt_v2.txt",
+      "bytes": 5061,
+      "sha256": "0337ce744ecfbecc9fedb2a859b86d8507d2aab373a91db9f2743616952f8040",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/executed_source/surface_prompt_v2.txt",
+      "source_sha256": "0337ce744ecfbecc9fedb2a859b86d8507d2aab373a91db9f2743616952f8040"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/test_report_cpu.py",
+      "bytes": 2887,
+      "sha256": "cdecbc01ca550a91572d6a365d554b985c1dd34fa375066a48ce582e8eaea287",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/executed_source/test_report_cpu.py",
+      "source_sha256": "cdecbc01ca550a91572d6a365d554b985c1dd34fa375066a48ce582e8eaea287"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/token_journal.py",
+      "bytes": 901,
+      "sha256": "fd86eae0677c6ff0619c80c534783bfad02c329d58ac58faaf4c6b895ef8de1e",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/executed_source/token_journal.py",
+      "source_sha256": "fd86eae0677c6ff0619c80c534783bfad02c329d58ac58faaf4c6b895ef8de1e"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/reference/v5/memory_db/events.py",
+      "bytes": 4915,
+      "sha256": "47ab486b07eb71a3b81884ff8264def236a468dd992826dcf86f2ccd9e10fbbe",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/reference/v5/memory_db/events.py",
+      "source_sha256": "47ab486b07eb71a3b81884ff8264def236a468dd992826dcf86f2ccd9e10fbbe"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/reference/v5/memory_db/normalize.py",
+      "bytes": 9904,
+      "sha256": "dc1e1d4131d36a2a8fbc5083fd11c3c835210b59c16b1db5f2aa91cd9b874a34",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/reference/v5/memory_db/normalize.py",
+      "source_sha256": "dc1e1d4131d36a2a8fbc5083fd11c3c835210b59c16b1db5f2aa91cd9b874a34"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/reference/v5/memory_db/projection.py",
+      "bytes": 9644,
+      "sha256": "4123fe21b99344ad1df515392a84c0a92365bf679180156072f98f9199db09ac",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/reference/v5/memory_db/projection.py",
+      "source_sha256": "4123fe21b99344ad1df515392a84c0a92365bf679180156072f98f9199db09ac"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/reference/v5/memory_db/run_validation.py",
+      "bytes": 20185,
+      "sha256": "3bdeb8be5e942558fc05a0513b61540156aa035a988774621d26459ce8fccf7c",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/reference/v5/memory_db/run_validation.py",
+      "source_sha256": "3bdeb8be5e942558fc05a0513b61540156aa035a988774621d26459ce8fccf7c"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/reference/v5/memory_db/selector_adapter.py",
+      "bytes": 8181,
+      "sha256": "2f5f5bdca2df34f7e4a517413293400b9351e76c42e02027928d82e4b7dc4626",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/reference/v5/memory_db/selector_adapter.py",
+      "source_sha256": "2f5f5bdca2df34f7e4a517413293400b9351e76c42e02027928d82e4b7dc4626"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/reference/v5/memory_db/store.py",
+      "bytes": 11726,
+      "sha256": "f6dd476041f4d7cd81d4f8f3e30466b569f07a94dcfeb59954ac77fa0f627931",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/reference/v5/memory_db/store.py",
+      "source_sha256": "f6dd476041f4d7cd81d4f8f3e30466b569f07a94dcfeb59954ac77fa0f627931"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/reference/v5/memory_db/surface.py",
+      "bytes": 2979,
+      "sha256": "409bb7b7e1a769718e9833dd9d206dc63bdba1723510fdcc42aa0352de28c5cd",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/reference/v5/memory_db/surface.py",
+      "source_sha256": "409bb7b7e1a769718e9833dd9d206dc63bdba1723510fdcc42aa0352de28c5cd"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/reference/v5/memory_db/__init__.py",
+      "bytes": 299,
+      "sha256": "f7c3605601fac3a21dccae115d60ac589cf9e1aae7889a44bcb495906811fe29",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/reference/v5/memory_db/__init__.py",
+      "source_sha256": "f7c3605601fac3a21dccae115d60ac589cf9e1aae7889a44bcb495906811fe29"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/reference/v5/memory_db/__main__.py",
+      "bytes": 4311,
+      "sha256": "79a3256193a72beabd255b1cf1034f3f887fd46b2f0b8c30f64c22604d8cf8ba",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/reference/v5/memory_db/__main__.py",
+      "source_sha256": "79a3256193a72beabd255b1cf1034f3f887fd46b2f0b8c30f64c22604d8cf8ba"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/reference/v5/memory_db/vendor/adapted_selector.py",
+      "bytes": 28336,
+      "sha256": "64626f976b8bdf87c272a0f1d0ef8f21849728ac7b45de4eb74c00689068825c",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/reference/v5/memory_db/vendor/adapted_selector.py",
+      "source_sha256": "64626f976b8bdf87c272a0f1d0ef8f21849728ac7b45de4eb74c00689068825c"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/reference/v5/memory_db/vendor/selector.py",
+      "bytes": 28216,
+      "sha256": "1bed5d62d45750fc837e8afb812cdffaf43b745f0776357924b8d8ab48aded07",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/reference/v5/memory_db/vendor/selector.py",
+      "source_sha256": "1bed5d62d45750fc837e8afb812cdffaf43b745f0776357924b8d8ab48aded07"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/setup_local.py",
+      "bytes": 8167,
+      "sha256": "15147f38056a02b3b6f5d56a08a2f2a20e2cdae1b41519624cace30e49aeb05f",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/setup_local.py",
+      "source_sha256": "15147f38056a02b3b6f5d56a08a2f2a20e2cdae1b41519624cace30e49aeb05f"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/README.md",
+      "bytes": 2957,
+      "sha256": "e06217174da1313fb0fd7a2a628760232ddf372921cb0cbc23ada1f4934e19d7",
+      "kind": "generated-publication-record"
+    },
+    {
       "path": "v5/STATUS.md",
-      "bytes": 9043,
-      "sha256": "56179a7de5090e2dbf4ee90b6bbdba1191650a1e0b455cd0a5001d1d45a7800f",
+      "bytes": 9647,
+      "sha256": "f4aa0307a89d2714b21f2be7925fc972969d2ad3f3e9a113e220e3ce2eea74a2",
       "kind": "generated-publication-record"
     },
     {
       "path": "v5/progress/CURRENT_STATE.md",
-      "bytes": 2966,
-      "sha256": "ac1dbbfde2687eea72165f4408fc866f29c91f78c73dbc8b45699f829c714a01",
+      "bytes": 3570,
+      "sha256": "86a49661d13e171a60ddaa1583f2a7d9b5ae02eac26e9f5f06a62d6abce5dfdf",
       "kind": "generated-publication-record"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/reference/v5/memory_db/schema.sql",
+      "bytes": 4019,
+      "sha256": "ca97859b11087bc4831ae177d2f80cdbe96ba7810b5c2d904ce45ca459df4d9e",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/reference/v5/memory_db/schema.sql",
+      "source_sha256": "ca97859b11087bc4831ae177d2f80cdbe96ba7810b5c2d904ce45ca459df4d9e"
     }
   ],
   "viewpoint_candidate_sources": [

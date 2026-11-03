@@ -22,3 +22,8 @@ CPU404/依存8/report5/startup0。新11全EOS・形式保留/上限0。現行nat
 ## 2026-11-03 — Memory structure candidate prepared
 
 Root manually reviewed five known edited reference topics / 145 existing fragments and authored three independent fictional candidates / 36 fragments. A reusable recipe preserves personal stakes, concrete cues and changing appraisals without mandatory lessons. CPU118 technical checks passed; original DBs preserved. No operation selection, Surface generation or import was run, so speech-quality improvement is untested. Generic recipe/checker and abstract results only: experiments/v_memory_structure_20261103. Full material remains local.
+
+
+## 2026-11-03 — Authored-memory Surface experiment prepared
+
+Three fixed authored candidates / 36 fragments are mechanically projected with the existing rhythm selector: 40 operations, zero deferred, maximum12 full-v2 Surface calls in groups up to4. Same LoRA/revision/seed/full config1536 and actual adopted last2/800 history rules. CPU301/dependencies8/three synthetic report variants/real startup-import exit0 passed. New generation is not yet launched or assessed. Only generic source and abstract records are published; actual materials remain local. See experiments/v_memory_surface3_20261103.
