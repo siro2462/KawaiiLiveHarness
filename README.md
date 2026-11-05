@@ -1,5 +1,7 @@
 # ZIPちゃん Harness v5
 
+Latest result (2026-11-05): [authored-memory Surface experiment](v5/experiments/v_memory_surface3_20261103/result.md) completed twelve new calls and full local review. Technical checks pass; unsupported additions and repetition keep quality unapproved. Generic code and abstract results/counts only; full current experimental content remains local. [Current state](v5/progress/CURRENT_STATE.md).
+
 **現行構成と研究候補の保存版：v5-current-20261028。研究中のオフラインRuntimeです。**
 
 記憶α → 既存Base Planner LoRA → Flow→Fact適用 → 新Instruct Surface LoRA → 形式確認 → テキスト履歴・提示進捗 → 次のPlanner。不正Planner JSONはRAWを保存・Planを破棄し、元Fact固定順で継続します。Semantic Guardは現行経路で使用していません。

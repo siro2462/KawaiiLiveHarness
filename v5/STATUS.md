@@ -94,3 +94,8 @@ Root manually reviewed five known edited reference topics / 145 existing fragmen
 ## 2026-11-03 — Authored-memory Surface experiment prepared
 
 Three fixed authored candidates / 36 fragments are mechanically projected with the existing rhythm selector: 40 operations, zero deferred, maximum12 full-v2 Surface calls in groups up to4. Same LoRA/revision/seed/full config1536 and actual adopted last2/800 history rules. CPU301/dependencies8/three synthetic report variants/real startup-import exit0 passed. New generation is not yet launched or assessed. Only generic source and abstract records are published; actual materials remain local. See experiments/v_memory_surface3_20261103.
+
+
+## 2026-11-05 — Authored-memory Surface experiment completed
+
+New12 EOS/all current exits0/technical pass. Root read all3 specifications/36 fragments/full CPU traces/all12 actual inputs, RAW, bodies and histories. Cited12/3 review and93 manually classified prose spans reconstruct every body; independent local report-presence check passed. Listener address and reactions appeared, but unsupported additions/mental-certainty strengthening and long repetition remain. Not adopted. Totals2998 nonspace characters/1836 output tokens/2006.343 model seconds. One seed/known manual3/designer AI known conditions/human0/TTS0/no matched old baseline. Only generic helpers, abstract result and numbers published; full content local. Own heartbeat deletion follows verified result push. See experiments/v_memory_surface3_20261103/result.md.

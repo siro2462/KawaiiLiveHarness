@@ -1,6 +1,6 @@
 {
-  "version": "v5-current-20261103-authored-memory-surface-prepared",
-  "client_date_jst": "2026-11-03",
+  "version": "v5-current-20261105-authored-memory-surface-complete",
+  "client_date_jst": "2026-11-05",
   "kind": "Unchanged v5 default runtime plus completed role/A-G/stripe Surface and CPU-selection experiments; quality not approved",
   "old_v5_tag_unchanged": true,
   "old_v5_20261023_tag_unchanged": true,
@@ -47,8 +47,8 @@
     {
       "path": "README.md",
       "kind": "generated-publication-record",
-      "bytes": 6856,
-      "sha256": "7da5088088ec40563427ff08ed0fd57ff1ffe4e7d506b9f5948777861d18dddb"
+      "bytes": 7255,
+      "sha256": "8570e3962ca11e08d494b96ef522d7bb16f4af8f58f58dddd2162c5a1ae1dd6b"
     },
     {
       "path": "_talk/lora_v4_gemma_runtime/alpha_contract.py",
@@ -5690,9 +5690,9 @@
     },
     {
       "path": "v5/progress/checkpoint.json",
-      "kind": "new-abstract-record",
-      "bytes": 4763,
-      "sha256": "af28ef310b34505e6e4a423a0b0b256058a3401253cf8eaed18aa4e8a2ccfd54"
+      "kind": "generated-publication-record",
+      "bytes": 1812,
+      "sha256": "313d7dd7e2a5e8ba442765a0eab5c93e9bf3d7f1bc97dc4aaaefa39f6ac4e5f7"
     },
     {
       "path": "v5/progress/history/pre_group4_20261101/CURRENT_STATE.md",
@@ -6294,20 +6294,20 @@
     },
     {
       "path": "v5/experiments/v_memory_surface3_20261103/README.md",
-      "bytes": 2957,
-      "sha256": "e06217174da1313fb0fd7a2a628760232ddf372921cb0cbc23ada1f4934e19d7",
+      "bytes": 2486,
+      "sha256": "3a970d680d0b46314ceeeec056073b21f8c9ed611a1851eacd66645f7049803b",
       "kind": "generated-publication-record"
     },
     {
       "path": "v5/STATUS.md",
-      "bytes": 9647,
-      "sha256": "f4aa0307a89d2714b21f2be7925fc972969d2ad3f3e9a113e220e3ce2eea74a2",
+      "bytes": 10497,
+      "sha256": "0f9a8e01cd0a03127c0cb035fadda4d798d45a468f33758dc10b19c25bc0defb",
       "kind": "generated-publication-record"
     },
     {
       "path": "v5/progress/CURRENT_STATE.md",
-      "bytes": 3570,
-      "sha256": "86a49661d13e171a60ddaa1583f2a7d9b5ae02eac26e9f5f06a62d6abce5dfdf",
+      "bytes": 4654,
+      "sha256": "d9f34218f50a1a06316fd3acfbecff1bae1ad6aff0580db6f6efcf83f6741668",
       "kind": "generated-publication-record"
     },
     {
@@ -6317,6 +6317,34 @@
       "kind": "source-byte-preserving",
       "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/reference/v5/memory_db/schema.sql",
       "source_sha256": "ca97859b11087bc4831ae177d2f80cdbe96ba7810b5c2d904ce45ca459df4d9e"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/metrics.json",
+      "bytes": 1879,
+      "sha256": "e2cc5701c9f1687615c70c8c078ffb7e1b0d4fb3c61cace112ebc2e1ce854365",
+      "kind": "generated-publication-record"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/result.md",
+      "bytes": 3750,
+      "sha256": "10191ae3a2b8dd60b70c4b942c92cfd7a44c3c2fbf28f61df1d0148bdb4e1e9c",
+      "kind": "generated-publication-record"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/root_read/build_source_deltas.py",
+      "bytes": 2564,
+      "sha256": "c759677f9620502b8a3ef3113768c8f6cd813c98f07cf6bd1baf70c3bfa3b136",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/root_read/build_source_deltas.py",
+      "source_sha256": "c759677f9620502b8a3ef3113768c8f6cd813c98f07cf6bd1baf70c3bfa3b136"
+    },
+    {
+      "path": "v5/experiments/v_memory_surface3_20261103/root_read/build_views.py",
+      "bytes": 11694,
+      "sha256": "6e65ab7bf572d99bf82bf4a7d249c38b52f67ab35c6e0caaba76eca24606e8b3",
+      "kind": "source-byte-preserving",
+      "source_relative_to_talk": "harness_beta/runs/v_memory_surface3_20261103_v1/root_read/build_views.py",
+      "source_sha256": "6e65ab7bf572d99bf82bf4a7d249c38b52f67ab35c6e0caaba76eca24606e8b3"
     }
   ],
   "viewpoint_candidate_sources": [

@@ -1,3 +1,13 @@
+# Current result — 2026-11-05
+
+The authored-memory experiment completed twelve new generations and full root review. Technical delivery and independent local full-report checks pass. Direct address and reactions appear, while unsupported psychological/date/mental-certainty additions and heavy repetition remain; quality is not adopted. The fixed CPU sequence is not an adaptive planner. Full prose and inputs remain local; [abstract result](../experiments/v_memory_surface3_20261103/result.md) and numeric definitions are published.
+
+One seed/known manual3/36 fragments, designer AI known conditions/human0/TTS0, bounded actual history, no paired old baseline on the same new content. No claim of human equivalence or autonomous memory/emotion creation. Result push verification precedes own heartbeat closure; local completion checkpoint records the deletion outcome. No additional inference or default adoption is authorized by this completion record.
+
+---
+
+Earlier records follow; their pending statements describe the historical state at the stated dates.
+
 # 現在地（2026-11-02）
 
 ## 語りかけ・自問追加3件比較：完了・未採用
