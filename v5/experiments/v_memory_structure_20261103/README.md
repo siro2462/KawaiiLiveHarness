@@ -1,5 +1,7 @@
 # Memory structure abstraction candidate — 2026-11-03
 
+The [authoring recipe](recipe.md) was updated on 2026-11-08 to include public-post research before fictional specification authoring. The [method record](../memory_authoring_x_20261108/result.md) describes the verified X retrieval path and its limits. The following results describe the original 2026-11-03 work.
+
 Five saved edited topics from one known VTuber and 145 pre-existing manually interpreted fragments were reviewed by the root AI. A generic material-authoring recipe retains personal stakes, concrete cues, the interpretation at the time, immediate reactions, reasons for reconsideration, and unresolved mixed feelings. Existing desire/reaction/appraisal/about fields already support these relationships; field absence is not established as the cause of essay-like output.
 
 Three independent fictional specifications were saved and hashed before manually constructing 36 candidate fragments. Source wording, fictional specifications, candidate payloads and the full local comparison are not published. The recipe and candidates were authored by the root AI; CPU did not invent them or select an operation sequence.

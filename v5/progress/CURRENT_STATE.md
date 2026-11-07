@@ -1,3 +1,13 @@
+# Current authoring method — 2026-11-08
+
+Fictional-memory authoring now starts with a small review of relevant public X posts. The [recipe](../experiments/v_memory_structure_20261103/recipe.md) preserves the speaker's purpose, concrete cue, interpretation at that moment and next action, with source provenance and independent fictional specifications. The local reusable skill routes new memory requests to this method.
+
+The working twscrape route returned 5 connectivity posts and 10 age-keyword matches on 2026-11-07. Age and first-person experience suitability are reviewed separately from retrieval counts. The local reader now accepts a supplied HAR as well as cookie JSON; eighteen checks and skill validation passed. Speech-quality effects of the new method remain untested. See the [abstract method record](../experiments/memory_authoring_x_20261108/result.md).
+
+The following dated records describe their historical states.
+
+---
+
 # Current result — 2026-11-05
 
 The authored-memory experiment completed twelve new generations and full root review. Technical delivery and independent local full-report checks pass. Direct address and reactions appear, while unsupported psychological/date/mental-certainty additions and heavy repetition remain; quality is not adopted. The fixed CPU sequence is not an adaptive planner. Full prose and inputs remain local; [abstract result](../experiments/v_memory_surface3_20261103/result.md) and numeric definitions are published.
