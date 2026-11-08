@@ -1,3 +1,13 @@
+# Current result — 2026-11-08
+
+The first new three-memory speech probe using the saved public-post research workflow completed12 bounded calls and full local manual review. All12 EOS, technical outcome exits0 and independent full-report preservation checks pass. Concrete objects/locations/actions support local conversational passages, while state/time changes, added reactions and semantic content repetition remain; default adoption is on hold. [Abstract result](../experiments/v_memory_surface3_x_20261108/result.md) and [numeric definitions](../experiments/v_memory_surface3_x_20261108/numeric_summary.json).
+
+Three known manually authored memories /36 fragments; fixed CPU39 operations/zero deferred; same prior model/adapter/seed/full-v2/full config1536/last2-800. One seed, designer AI known conditions, human0/TTS0, no same-content A/B or autonomous-memory claim. Actual materials and full HTML remain local. No new automation, additional inference or deployment.
+
+The following records retain their historical states.
+
+---
+
 # Current authoring method — 2026-11-08
 
 Fictional-memory authoring now starts with a small review of relevant public X posts. The [recipe](../experiments/v_memory_structure_20261103/recipe.md) preserves the speaker's purpose, concrete cue, interpretation at that moment and next action, with source provenance and independent fictional specifications. The local reusable skill routes new memory requests to this method.

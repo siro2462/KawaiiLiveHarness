@@ -1,0 +1,77 @@
+{
+  "scope": "new aggregate numeric evidence only; full payloads stay local",
+  "conditions": {
+    "samples": 3,
+    "fragments": 36,
+    "self_age_checked_authors": 3,
+    "selected_posts": 5,
+    "retrieved_posts": 30,
+    "selected_operations": 39,
+    "deferred": 0,
+    "calls_per_sample": 4,
+    "total_calls": 12,
+    "seed": 20260925,
+    "max_new_tokens": 1536,
+    "quality_retry": 0,
+    "training": 0,
+    "human_ratings": 0,
+    "real_tts": 0
+  },
+  "totals": {
+    "calls": 12,
+    "eos": 12,
+    "delivered": 12,
+    "body_chars_non_whitespace": 3588,
+    "output_tokens": 2084,
+    "model_seconds": 2162.153,
+    "body_chars_range": [
+      215,
+      399
+    ],
+    "body_chars_median": 292.5
+  },
+  "samples": [
+    {
+      "sample_id": "N13",
+      "calls": 4,
+      "body_chars_non_whitespace": 1211,
+      "output_tokens": 712,
+      "model_seconds": 746.35,
+      "max_exact_shared_chars": 13,
+      "pairs_ge20": 0,
+      "pair_count": 6
+    },
+    {
+      "sample_id": "N14",
+      "calls": 4,
+      "body_chars_non_whitespace": 1178,
+      "output_tokens": 677,
+      "model_seconds": 700.066,
+      "max_exact_shared_chars": 13,
+      "pairs_ge20": 0,
+      "pair_count": 6
+    },
+    {
+      "sample_id": "N15",
+      "calls": 4,
+      "body_chars_non_whitespace": 1199,
+      "output_tokens": 695,
+      "model_seconds": 715.737,
+      "max_exact_shared_chars": 19,
+      "pairs_ge20": 0,
+      "pair_count": 6
+    }
+  ],
+  "literal_repetition_definition": "Per same-sample call pair, longest character-exact contiguous common substring including whitespace; not a semantic repetition score",
+  "semantic_repetition": "Qualitative full-output review found repeated content despite no20-character exact pair match.",
+  "operation_execution_rate": null,
+  "checks": {
+    "technical_audit": "pass",
+    "full_report_presence": "pass",
+    "highlight_exact_visible12": "pass",
+    "manual_spans": 88,
+    "current_exit0": true,
+    "source_dbs_unchanged": true
+  },
+  "quality": "not_approved_for_default_adoption"
+}

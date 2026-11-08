@@ -1,6 +1,6 @@
 # ZIPちゃん Harness v5
 
-Latest result (2026-11-05): [authored-memory Surface experiment](v5/experiments/v_memory_surface3_20261103/result.md) completed twelve new calls and full local review. Technical checks pass; unsupported additions and repetition keep quality unapproved. Generic code and abstract results/counts only; full current experimental content remains local. [Current state](v5/progress/CURRENT_STATE.md).
+Latest result (2026-11-08): [public-post-informed authored-memory Surface probe](v5/experiments/v_memory_surface3_x_20261108/result.md) completed twelve new calls and full local highlighted review. Technical checks pass; temporal/state changes, added reactions and content repetition keep quality unapproved. Generic code and abstract results/counts only; all current full experimental content remains local. [Current state](v5/progress/CURRENT_STATE.md).
 
 **現行構成と研究候補の保存版：v5-current-20261028。研究中のオフラインRuntimeです。**
 

@@ -1,11 +1,11 @@
 {
   "thread_id": "01a0a3fd-e058-7bd0-abbd-951f2864ba0e",
-  "cutoff_ordinal": 61858,
-  "cutoff_item_id": "01a1b867-41e9-7203-b895-ad37d1ef4626",
-  "scope": "Abstract authoring-method checkpoint. Chat source, source prose, HAR and authentication remain local.",
-  "source_public_item_sha256": "ce11455a7f050fb8486ed674e2ad391ac5c49c86cd46d6d59431120e869c6b35",
-  "latest_activity": "memory_authoring_x_20261108",
-  "current_execution": "authoring method saved and validated",
-  "quality_status": "speech effect unverified",
-  "evidence_scope": "Saved retrieval JSON and eighteen reader/source checks; inherited prior Surface findings."
+  "cutoff_ordinal": 62196,
+  "cutoff_item_id": "01a1b9db-f0d0-73b0-92ab-fa6a71c11d4b",
+  "source_public_item_sha256": "e4b73c962de9bdbfc0b9b04b57ab035e13c92fe7919407129629bc85f6b1c86e",
+  "scope": "Abstract result checkpoint and generic code only. Read-only chat source and all current experimental prose remain local.",
+  "latest_activity": "v_memory_surface3_x_20261108",
+  "current_execution": "12-call generation and full local highlighted review complete",
+  "quality_status": "not_approved_for_default_adoption",
+  "evidence_scope": "Actual exits, CPU replay, root full12 text review, actual-content manual88 spans and independent HTML parsers."
 }
