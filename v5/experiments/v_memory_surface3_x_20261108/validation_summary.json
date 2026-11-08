@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "material_checks": 104,
+  "material_samples": 3,
+  "material_fragments": 36,
+  "cpu_preflight_checks": 296,
+  "dependency_checks": 8,
+  "synthetic_report_variants": 3,
+  "new_model_calls": 0,
+  "same_execution_files": 27,
+  "launcher_only_change": true,
+  "same_reference_code": true,
+  "same_model_adapter_seed_generation_config": true,
+  "selected_operations": 39,
+  "deferred": 0,
+  "calls_bound": 12,
+  "source_payloads_in_publication": false,
+  "scope": "technical preparation; output quality unreviewed",
+  "startup_python_exit_code": 0,
+  "reference_files_exact": 17
+}
