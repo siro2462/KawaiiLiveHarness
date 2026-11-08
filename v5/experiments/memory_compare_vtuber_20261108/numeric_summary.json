@@ -1,0 +1,55 @@
+{
+  "scope": "saved-output observational comparison; aggregate values only",
+  "groups": {
+    "previous": {
+      "topics": 3,
+      "calls": 12,
+      "nonwhitespace_chars": 3504,
+      "output_tokens": 2064,
+      "mean_chars": 292,
+      "median_chars": 286.5,
+      "named_place_brand_topics": 0,
+      "within_topic_pairs": 18,
+      "pairs_with_exact_shared20plus": 3,
+      "max_exact_shared_chars": 22,
+      "opening_hear_me_topics": 3
+    },
+    "current": {
+      "topics": 3,
+      "calls": 12,
+      "nonwhitespace_chars": 3588,
+      "output_tokens": 2084,
+      "mean_chars": 299,
+      "median_chars": 292.5,
+      "named_place_brand_topics": 3,
+      "within_topic_pairs": 18,
+      "pairs_with_exact_shared20plus": 0,
+      "max_exact_shared_chars": 19,
+      "opening_hear_me_topics": 3
+    }
+  },
+  "parity": {
+    "same_model_adapter_complete_generation_config": true,
+    "same_seed": true,
+    "same_history_rule": true,
+    "same_call_budget": true
+  },
+  "reference_scope": {
+    "topics": 5,
+    "unique_speakers": 1,
+    "editorial_not_raw_audio": true
+  },
+  "definitions": {
+    "chars": "Actual body Unicode characters excluding whitespace.",
+    "exact_repetition": "Longest contiguous exact common substring for each different call pair within the same topic, including whitespace; threshold20. Not a semantic repetition score.",
+    "named_places_brands": "rootが全24本文を読み、実在する地名・施設・店舗/ブランドの出現を手動照合。一般物品名は数えず、出現話題数を数える。名詞数を自然さの点数にはしない。"
+  },
+  "new_model_calls": 0,
+  "human_quality_ratings": 0,
+  "limits": [
+    "Different topics and CPU-selected sequences; not matched same-content A/B.",
+    "Five edited text topics from one reference speaker; no new audio listening or blind human scoring.",
+    "Exact textual repetition and semantic repetition are distinct.",
+    "Proper-name topic counts are manual descriptive evidence, not a naturalness score."
+  ]
+}

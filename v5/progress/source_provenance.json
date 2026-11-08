@@ -1,11 +1,11 @@
 {
   "thread_id": "01a0a3fd-e058-7bd0-abbd-951f2864ba0e",
-  "cutoff_ordinal": 62196,
-  "cutoff_item_id": "01a1b9db-f0d0-73b0-92ab-fa6a71c11d4b",
-  "source_public_item_sha256": "e4b73c962de9bdbfc0b9b04b57ab035e13c92fe7919407129629bc85f6b1c86e",
-  "scope": "Abstract result checkpoint and generic code only. Read-only chat source and all current experimental prose remain local.",
-  "latest_activity": "v_memory_surface3_x_20261108",
-  "current_execution": "12-call generation and full local highlighted review complete",
+  "cutoff_ordinal": 63160,
+  "cutoff_item_id": "01a1bb65-b7d6-79a3-a53d-12b32d6b3d4f",
+  "source_public_item_sha256": "03e7ad1bdbc751c5e71592ca4f46f1f52c57c2c75f7083b91a7f647fe84cbe43",
+  "scope": "Generic comparison program and abstract observations/counts only. All full reference and generated prose remain local.",
+  "latest_activity": "memory_compare_vtuber_20261108",
+  "current_execution": "Read-only full24 AI / five edited VTuber topic comparison complete",
   "quality_status": "not_approved_for_default_adoption",
-  "evidence_scope": "Actual exits, CPU replay, root full12 text review, actual-content manual88 spans and independent HTML parsers."
+  "evidence_scope": "Root reread six source specs/24 AI bodies/five edited reference originals; source hashes and independent full24 HTML preservation pass. New model calls0."
 }

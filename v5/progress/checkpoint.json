@@ -2,8 +2,8 @@
   "client_date_jst": "2026-11-08",
   "execution_status": "complete",
   "quality_status": "not_approved_for_default_adoption",
-  "conclusion": "Three independently authored public-post-informed memories completed12 bounded Surface calls. Full local review/highlighting passed; temporal/state drift, added reactions and content repetition remain.",
-  "latest_activity": "v_memory_surface3_x_20261108",
+  "conclusion": "Read-only comparison of24 saved AI bodies and five edited topics from one VTuber supports more concrete scene anchoring in the new examples, limited/mixed conversational improvement, and unresolved fidelity/semantic repetition.",
+  "latest_activity": "memory_compare_vtuber_20261108",
   "latest_experiment": "v_memory_surface3_20261108_v1",
   "human_quality_labels": 0,
   "confirmed": [
@@ -11,14 +11,16 @@
     "Prior model/adapter/seed/full-v2/full generation config and actual last2/800 history rules preserved.",
     "Existing CPU selected39 operations/zero deferred and12 calls; no hand-order supplement.",
     "All12 EOS/format delivery, all current outcome exits0, technical audit and two independent full-report checks pass.",
-    "Root full12 input/RAW/body/history review,88 actual-content spans,3588 nonwhitespace characters,2084 output tokens."
+    "Root full12 input/RAW/body/history review,88 actual-content spans,3588 nonwhitespace characters,2084 output tokens.",
+    "All24 bodies, six source specifications and five edited reference originals reread; local full24 comparison preservation and source hashes pass."
   ],
   "known_limits": [
     "One seed, three known designer-authored examples and fixed manual fragment budgets; human0/TTS0.",
     "No matched same-content old-output A/B or isolated authoring-method effect.",
     "Nonchronological fixed CPU order and generated temporal/state changes are separate issues.",
     "Semantic content repeats despite zero20-character exact matches across18 within-sample call pairs.",
-    "No overall semantic operation-execution rate was scored; no default adoption."
+    "No overall semantic operation-execution rate was scored; no default adoption.",
+    "Reference comparison uses edited text from one known speaker; no new audio listening, matched topics or blind human scoring."
   ],
   "next_checkpoints": [
     "No new generation or deployment is authorized by this completion record."
@@ -27,5 +29,26 @@
   "code_publication": {
     "branch": "codex/v5-current-20261023",
     "this_commit": "Read git HEAD; no self-embedded hash"
+  },
+  "comparison": {
+    "previous_calls": 12,
+    "current_calls": 12,
+    "reference_topics": 5,
+    "reference_speakers": 1,
+    "average_chars": [
+      292,
+      299
+    ],
+    "named_place_brand_topics": [
+      0,
+      3
+    ],
+    "pairs_with20plus_exact_chars": [
+      3,
+      0
+    ],
+    "pairs_per_group": 18,
+    "new_model_calls": 0,
+    "human_ratings": 0
   }
 }

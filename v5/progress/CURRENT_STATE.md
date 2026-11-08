@@ -1,3 +1,13 @@
+# Current comparison — 2026-11-08
+
+The earlier and later three-topic/twelve-call groups were reread alongside five edited reference topics from one VTuber. Concrete scene anchoring is clearer in the newer group; conversational improvement is limited/mixed. Source fidelity and semantic content repetition remain unresolved. [Comparison result](../experiments/memory_compare_vtuber_20261108/result.md) and [defined aggregates](../experiments/memory_compare_vtuber_20261108/numeric_summary.json).
+
+Locations/facilities/brands appear in0/3 versus3/3 topics;20-character exact repeated substrings occur in3/18 versus0/18 within-topic call pairs. Mean body length292 versus299 characters. These measures are not semantic quality scores. Different topics/CPU sequences, one known edited reference speaker, no audio/blind human evaluation. New inference0; no default adoption or deployment. Full24-output highlights and source-specific findings remain local.
+
+Earlier dated records follow.
+
+---
+
 # Current result — 2026-11-08
 
 The first new three-memory speech probe using the saved public-post research workflow completed12 bounded calls and full local manual review. All12 EOS, technical outcome exits0 and independent full-report preservation checks pass. Concrete objects/locations/actions support local conversational passages, while state/time changes, added reactions and semantic content repetition remain; default adoption is on hold. [Abstract result](../experiments/v_memory_surface3_x_20261108/result.md) and [numeric definitions](../experiments/v_memory_surface3_x_20261108/numeric_summary.json).
