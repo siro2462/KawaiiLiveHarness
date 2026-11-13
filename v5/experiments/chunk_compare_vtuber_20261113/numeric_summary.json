@@ -1,0 +1,84 @@
+{
+  "status": "pass",
+  "groups": [
+    {
+      "id": "ai",
+      "label": "AI 最新N13〜N15",
+      "records": 12,
+      "topics": 3,
+      "chunks": 67,
+      "body_chars_nonspace": 3588,
+      "chunk_chars_median": 48,
+      "chunk_chars_mean": 53.55,
+      "chunk_chars_range": [
+        11,
+        127
+      ],
+      "primary_role_counts": {
+        "bridge": 10,
+        "context": 7,
+        "event": 19,
+        "reaction": 11,
+        "interpretation": 16,
+        "repair": 3,
+        "summary": 1
+      },
+      "manual_progress_counts": {
+        "interact": 11,
+        "introduce": 30,
+        "update": 7,
+        "mixed": 10,
+        "return": 9
+      },
+      "adjacent_same_role_merge": {
+        "chunks": 56,
+        "median_chars": 61
+      }
+    },
+    {
+      "id": "vtuber",
+      "label": "VTuber保存編集原文5話題",
+      "records": 5,
+      "topics": 5,
+      "chunks": 95,
+      "body_chars_nonspace": 2915,
+      "chunk_chars_median": 27,
+      "chunk_chars_mean": 30.68,
+      "chunk_chars_range": [
+        3,
+        91
+      ],
+      "primary_role_counts": {
+        "context": 9,
+        "reaction": 24,
+        "event": 32,
+        "interpretation": 16,
+        "interaction": 7,
+        "repair": 6,
+        "summary": 1
+      },
+      "manual_progress_counts": {
+        "introduce": 52,
+        "return": 18,
+        "mixed": 4,
+        "update": 17,
+        "interact": 4
+      },
+      "adjacent_same_role_merge": {
+        "chunks": 88,
+        "median_chars": 28.5
+      }
+    }
+  ],
+  "definitions": {
+    "chunk": "Root manual discourse-function/meaning unit; not acoustic, fixed-length or model-call unit.",
+    "length": "Unicode non-whitespace characters of the preserved text, not tokens or speaking duration.",
+    "role": "One primary manual functional label plus optional secondary roles; not F/E/T/N or CPU operation.",
+    "progress": "Relation to preceding material in same topic; introduce does not imply source-supported truth.",
+    "sensitivity": "Merge adjacent chunks of the same primary role within each preserved record; not a second independent review."
+  },
+  "human_ratings": 0,
+  "new_model_calls": 0,
+  "operation_execution_rate": null,
+  "publication_scope": "Aggregate counts and generic renderer/checker only; no source-specific text, boundaries or examples"
+}

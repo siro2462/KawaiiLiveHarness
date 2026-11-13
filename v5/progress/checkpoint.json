@@ -1,9 +1,9 @@
 {
-  "client_date_jst": "2026-11-08",
+  "client_date_jst": "2026-11-13",
   "execution_status": "complete",
   "quality_status": "not_approved_for_default_adoption",
-  "conclusion": "Read-only comparison of24 saved AI bodies and five edited topics from one VTuber supports more concrete scene anchoring in the new examples, limited/mixed conversational improvement, and unresolved fidelity/semantic repetition.",
-  "latest_activity": "memory_compare_vtuber_20261108",
+  "conclusion": "Manual discourse-chunk analysis of17 saved texts distinguishes reaction/appraisal elaboration from supported information/viewpoint progression. Both groups repeat; AI also progresses. Source-fidelity defects remain, no adoption.",
+  "latest_activity": "chunk_compare_vtuber_20261113",
   "latest_experiment": "v_memory_surface3_20261108_v1",
   "human_quality_labels": 0,
   "confirmed": [
@@ -12,7 +12,8 @@
     "Existing CPU selected39 operations/zero deferred and12 calls; no hand-order supplement.",
     "All12 EOS/format delivery, all current outcome exits0, technical audit and two independent full-report checks pass.",
     "Root full12 input/RAW/body/history review,88 actual-content spans,3588 nonwhitespace characters,2084 output tokens.",
-    "All24 bodies, six source specifications and five edited reference originals reread; local full24 comparison preservation and source hashes pass."
+    "All24 bodies, six source specifications and five edited reference originals reread; local full24 comparison preservation and source hashes pass.",
+    "Root reread latest12 AI bodies/three specs/five reference topics, manually segmented162 chunks and verified exact full17 HTML reconstruction."
   ],
   "known_limits": [
     "One seed, three known designer-authored examples and fixed manual fragment budgets; human0/TTS0.",
@@ -20,7 +21,8 @@
     "Nonchronological fixed CPU order and generated temporal/state changes are separate issues.",
     "Semantic content repeats despite zero20-character exact matches across18 within-sample call pairs.",
     "No overall semantic operation-execution rate was scored; no default adoption.",
-    "Reference comparison uses edited text from one known speaker; no new audio listening, matched topics or blind human scoring."
+    "Reference comparison uses edited text from one known speaker; no new audio listening, matched topics or blind human scoring.",
+    "Manual semantic/function chunks are not acoustic units or requested operations; unequal topic/call boundaries and no independent human chunking."
   ],
   "next_checkpoints": [
     "No new generation or deployment is authorized by this completion record."
@@ -50,5 +52,31 @@
     "pairs_per_group": 18,
     "new_model_calls": 0,
     "human_ratings": 0
+  },
+  "prior_activity": "memory_compare_vtuber_20261108",
+  "chunk_analysis": {
+    "ai_topics": 3,
+    "ai_calls": 12,
+    "ai_chunks": 67,
+    "ai_chars": 3588,
+    "reference_topics": 5,
+    "reference_speakers": 1,
+    "reference_chunks": 95,
+    "reference_chars": 2915,
+    "chunk_chars_median": [
+      48,
+      27
+    ],
+    "adjacent_same_role_merge_median": [
+      61,
+      28.5
+    ],
+    "manual_boundary_labels": true,
+    "full17_html_exact": true,
+    "source_hashes_unchanged": true,
+    "new_model_calls": 0,
+    "human_ratings": 0,
+    "audio_comparison": 0,
+    "operation_execution_rate": null
   }
 }

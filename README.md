@@ -1,6 +1,8 @@
 # ZIPちゃん Harness v5
 
-Latest result (2026-11-08): [saved AI/VTuber text comparison](v5/experiments/memory_compare_vtuber_20261108/result.md) finds clearer concrete scene anchoring in the newer examples, limited/mixed conversational improvement, and unresolved source fidelity/content repetition. Read-only review of24 AI bodies and five edited reference topics; no new inference. Full current prose remains local. [Current state](v5/progress/CURRENT_STATE.md).
+Latest analysis (2026-11-13): [manual discourse-chunk comparison](v5/experiments/chunk_compare_vtuber_20261113/result.md) preserves all17 saved texts/162 chunks locally. It separates longer reaction/appraisal elaboration from progression to new observations/actions, while retaining counterexamples and repetition in both groups. Manual text analysis only; no new inference or adoption. [Current state](v5/progress/CURRENT_STATE.md).
+
+Earlier result (2026-11-08): [saved AI/VTuber text comparison](v5/experiments/memory_compare_vtuber_20261108/result.md) finds clearer concrete scene anchoring in the newer examples, limited/mixed conversational improvement, and unresolved source fidelity/content repetition. Read-only review of24 AI bodies and five edited reference topics; no new inference. Full current prose remains local. [Current state](v5/progress/CURRENT_STATE.md).
 
 **現行構成と研究候補の保存版：v5-current-20261028。研究中のオフラインRuntimeです。**
 

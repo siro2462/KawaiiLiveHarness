@@ -1,3 +1,15 @@
+# Current chunk analysis — 2026-11-13
+
+Twelve latest AI bodies and five saved edited reference topics were manually divided into67 and95 discourse chunks. Median nonwhitespace lengths48 versus27 characters; adjacent-same-role merging gives61 versus28.5. These are descriptive counts of a designer-known segmentation, not speaking-time or naturalness scores.
+
+Both groups repeat. In representative reference passages, a short reaction leads to another observation, changed interpretation or action; some AI passages instead re-explain the same appraisal. AI also has real discourse progression, and some new material introduces unsupported source changes. All17 texts/162 chunks are exact in the local HTMLParser check, protected source hashes unchanged. One edited reference speaker, different topics, no audio/blind human evaluation, no new inference/adoption.
+
+The39 operation-to-call mapping and non-prescribed repeated opening were also verified in read-only checks; semantic operation_execution_rate remains unscored. [Abstract chunk result](../experiments/chunk_compare_vtuber_20261113/result.md) and [counts](../experiments/chunk_compare_vtuber_20261113/numeric_summary.json). Full texts/annotations/HTML and full chat ledger remain local.
+
+Earlier dated records follow.
+
+---
+
 # Current comparison — 2026-11-08
 
 The earlier and later three-topic/twelve-call groups were reread alongside five edited reference topics from one VTuber. Concrete scene anchoring is clearer in the newer group; conversational improvement is limited/mixed. Source fidelity and semantic content repetition remain unresolved. [Comparison result](../experiments/memory_compare_vtuber_20261108/result.md) and [defined aggregates](../experiments/memory_compare_vtuber_20261108/numeric_summary.json).

@@ -1,11 +1,11 @@
 {
   "thread_id": "01a0a3fd-e058-7bd0-abbd-951f2864ba0e",
-  "cutoff_ordinal": 63160,
-  "cutoff_item_id": "01a1bb65-b7d6-79a3-a53d-12b32d6b3d4f",
-  "source_public_item_sha256": "03e7ad1bdbc751c5e71592ca4f46f1f52c57c2c75f7083b91a7f647fe84cbe43",
+  "cutoff_ordinal": 63579,
+  "cutoff_item_id": "01a1d553-c3aa-7750-b2fe-bb439d6f8754",
+  "source_public_item_sha256": "57fab658b13362ddfc6d3e067cae9821427413a565b646e08f459db3d42a679a",
   "scope": "Generic comparison program and abstract observations/counts only. All full reference and generated prose remain local.",
-  "latest_activity": "memory_compare_vtuber_20261108",
-  "current_execution": "Read-only full24 AI / five edited VTuber topic comparison complete",
+  "latest_activity": "chunk_compare_vtuber_20261113",
+  "current_execution": "Read-only full17 saved text/manual162 discourse chunk comparison complete",
   "quality_status": "not_approved_for_default_adoption",
-  "evidence_scope": "Root reread six source specs/24 AI bodies/five edited reference originals; source hashes and independent full24 HTML preservation pass. New model calls0."
+  "evidence_scope": "Root full17 text and three specs review, manual chunk boundaries, exact independent full17 HTMLParser check and protected source hashes. Human0/audio0/new model calls0;39 operation instances not semantically scored."
 }

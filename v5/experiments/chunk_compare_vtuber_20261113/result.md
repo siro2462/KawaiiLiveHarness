@@ -1,0 +1,9 @@
+# Manual discourse-chunk comparison
+
+The latest three-topic/twelve-call AI sample and five saved edited reference topics from one speaker were manually segmented into discourse-function units. AI chunks often elaborate the meaning of a reaction within one longer unit and return to the same appraisal. Reference passages often switch between shorter reactions, concrete details and changed interpretations. Both contain substantial repetition and general conclusions; the AI sample also contains action and viewpoint progression.
+
+The manual segmentation produced 67 AI chunks from3588 nonwhitespace characters and95 reference chunks from2915 characters. Median lengths were48 and27 characters. Merging adjacent chunks with the same primary role within each saved record gives medians61 and28.5. These describe one known manual segmentation, not acoustic units, quality scores or statistical evidence of human equivalence.
+
+The key qualitative distinction is what follows a reaction: further explanation of an existing appraisal, or a supported new observation, interpretation or action. New material is not automatically faithful; unsupported time, state and emotion additions remain separate defects. Some AI questions receive explanations later; some reference questions remain uncertain. Neither shorter text, no repetition nor mandatory resolution is established as an improvement.
+
+All17 complete texts/162 chunks were preserved exactly in local HTML and independently parsed back to the originals. Protected source hashes remain unchanged. Boundaries and functional labels are designer-AI interpretations; human ratings0, new model calls0, audio comparison0. Different topics, unequal recording boundaries, one edited speaker and no matched A/B. This analysis does not score the39 selected operation instances or approve default adoption. Full current source/output text remains local.
