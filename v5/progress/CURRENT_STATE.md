@@ -1,3 +1,9 @@
+# Memory graph appearance — 2026-11-18
+
+The supplied memory graph now uses its original stylesheet, static markup, curated node positions, and initial viewport. It adds the 432 unresolved speech lines on the same SVG, to the right of the original nodes. The existing fit control includes the added region. Dashed edges show affiliation with source headings or existing topics. Original CSS, static HTML, 32 curated nodes and edges, initial viewport, and navigation passed offline checks. [Change record](../experiments/memory_graph_original_style_20261118/result.md).
+
+---
+
 # Current inline graph correction — 2026-11-18
 
 The user rejected the preceding separate card/list/page UI and clarified that unresolved material should be added inside the existing graph. That presentation is superseded. The corrected variant uses the original circle-node/edge renderer and SVG groups:432 unresolved line nodes plus11 editorial-heading topic nodes,475 nodes total including the original32. All lines are permanent, no cards/lists/paging/added HTML controls. Original source, curated mappings/data and demo routes remain exact; source-mode layout spacing and viewport bounds expand to fit the nodes.

@@ -1,6 +1,6 @@
 # ZIPちゃん Harness v5
 
-Latest correction (2026-11-18): [inline circle-graph integration](v5/experiments/memory_graph_inline_20261118/result.md) replaces the user-rejected separate card/list/page UI. All432 unresolved lines are circle nodes in the original SVG renderer, with no extra cards or controls. Source/mappings exact;10 offline checks pass; actual browser visual QA unverified.
+Latest correction (2026-11-18): [original graph appearance restored](v5/experiments/memory_graph_original_style_20261118/result.md). The original CSS, node positions and initial view are restored. The existing fit control includes the 432 added speech nodes.
 
 Superseded presentation update (2026-11-18): [unresolved source graph layer](v5/experiments/memory_graph_unmapped_20261118/result.md) exposes432 previously unmapped speech lines without changing source or curated semantics. Exact source/rebuild and11 offline DOM checks pass; browser visual QA remains unverified after a file-URL policy denial. [Current state](v5/progress/CURRENT_STATE.md).
 
