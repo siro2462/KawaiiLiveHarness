@@ -2,8 +2,8 @@
   "client_date_jst": "2026-11-18",
   "execution_status": "complete",
   "quality_status": "not_approved_for_default_adoption",
-  "conclusion": "The supplied standalone HTML was restored byte-for-byte. Its original graph contains 7 topic nodes and 25 attribute nodes. The preceding view created 432 nodes by adding one per speech line with no topic or attribute mapping. Its regular spacing came from a grid search for free positions. A literal search for the seven original topic labels found 4 distinct matches among those lines. The intended boundary is to prepare keyword candidates and retain source evidence in the database, then display selected topics and attributes in the graph.",
-  "latest_activity": "memory_graph_original_restored_20261118",
+  "conclusion": "A standalone review database uses one topic per original top-level heading. Each topic has three to six short attributes selected from keywords in its speech, for 19 topics and 75 attributes. Repeated mentions are collected under the same attribute. Each attribute records the original lines and exact keyword offsets. The database provides separate views for display and evidence.",
+  "latest_activity": "memory_topic_keywords_20261118",
   "latest_experiment": "v_memory_surface3_20261108_v1",
   "human_quality_labels": 0,
   "confirmed": [
@@ -57,7 +57,7 @@
     "new_model_calls": 0,
     "human_ratings": 0
   },
-  "prior_activity": "memory_graph_topic_layout_20261118",
+  "prior_activity": "memory_graph_original_restored_20261118",
   "chunk_analysis": {
     "ai_topics": 3,
     "ai_calls": 12,
@@ -111,5 +111,19 @@
     "new_training": 0,
     "memory_writes": 0,
     "scope": "Presentation coverage of source lines, not semantic organization quality or operation-execution rate."
+  },
+  "keyword_review": {
+    "source_lines": 520,
+    "speech_lines": 464,
+    "topics": 19,
+    "attributes": 75,
+    "attribute_range": [
+      3,
+      6
+    ],
+    "distinct_evidence_lines": 142,
+    "exact_keyword_links": 228,
+    "sqlite_integrity": "ok",
+    "standalone": true
   }
 }

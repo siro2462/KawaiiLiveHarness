@@ -1,3 +1,9 @@
+# Heading and keyword review database — 2026-11-18
+
+A standalone review database uses one topic per original top-level heading. Each topic has three to six short attributes selected from keywords in its speech, for 19 topics and 75 attributes. Repeated mentions are collected under the same attribute. Each attribute records the original lines and exact keyword offsets. The database provides separate views for display and evidence. [Change record](../experiments/memory_topic_keywords_20261118/result.md).
+
+---
+
 # Original memory graph restored — 2026-11-18
 
 The supplied standalone HTML was restored byte-for-byte. Its original graph contains 7 topic nodes and 25 attribute nodes. The preceding view created 432 nodes by adding one per speech line with no topic or attribute mapping. Its regular spacing came from a grid search for free positions. A literal search for the seven original topic labels found 4 distinct matches among those lines. The intended boundary is to prepare keyword candidates and retain source evidence in the database, then display selected topics and attributes in the graph.
