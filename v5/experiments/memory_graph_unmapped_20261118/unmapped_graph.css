@@ -1,0 +1,26 @@
+.pending-zone-title{font-size:22px;font-weight:850;fill:#805c28}
+.pending-group,.pending-line{cursor:pointer;outline:none}
+.pending-group-bg{fill:#fffaf1;stroke:#d6bb8d;stroke-width:1.5}
+.pending-group.current .pending-group-bg{stroke:#bb7d25;stroke-width:3}
+.pending-group:focus .pending-group-bg,.pending-line:focus .pending-line-bg{stroke:#255eb4;stroke-width:4}
+.pending-heading{fill:#4c422f;font-size:17px;font-weight:800}
+.pending-state{fill:#8a785d;font-size:13px}
+.pending-count-box{fill:#fff;stroke:#e4d8c5;stroke-width:1.2}
+.pending-count{fill:#7c602d;font-size:15px;font-weight:750}
+.pending-edge{stroke:#b9a582;stroke-width:1.8;stroke-dasharray:5 6;fill:none;pointer-events:none}
+.pending-line-bg{fill:#fff;stroke:#c6ced9;stroke-width:1.5}
+.pending-topic-missing .pending-line-bg{fill:#fffaf0;stroke:#cdae77}
+.pending-line.current .pending-line-bg{fill:#fff0c9;stroke:#b27820;stroke-width:4}
+.pending-line-status{fill:#8a692f;font-size:12px;font-weight:800}
+.pending-line-text{fill:#39475a;font-size:14px}
+.pending-badge{font-size:9px;letter-spacing:0;padding:2px 5px;border:1px solid #dcc694;border-radius:5px;background:#fff8e9;color:#94702e;font-weight:750;white-space:nowrap}
+.pending-badge.attribute{color:#63758b;border-color:#cdd6e2;background:#f1f5fa}
+.speechMeta{flex-wrap:wrap;gap:5px}
+#pendingPager{display:inline-flex;align-items:center;gap:7px;padding:5px 7px;background:#fff;border:1px solid #dbe5ef;border-radius:9px;font-size:11px}
+#pendingPager[hidden],#pendingBack[hidden],#nextPendingBtn[hidden]{display:none!important}
+#pendingPager button{border:0;border-radius:5px;background:#edf2f8;padding:4px 9px}
+#pendingPager button:disabled{opacity:.35;cursor:default}
+#pendingBtn{color:#8b6426;border-color:#d8c49e;background:#fff9ed}
+.sourceCount{line-height:1.7;white-space:pre-line}
+.sourceSearch[hidden],.routeSwitcher[hidden]{display:none!important}
+@media(max-width:760px){header{height:78px;flex-direction:column;align-items:stretch;gap:3px;padding:6px 10px}.workspace{height:calc(100dvh - 78px)}.brand{height:27px}.headCtl{max-width:none;justify-content:flex-start;flex-wrap:nowrap;overflow:auto;min-height:31px}.headCtl .chip{flex-shrink:0;font-size:10px;padding:0 7px}.headCtl .chip:disabled:not(#pendingBtn){display:none}.graphBottom{gap:4px}.mapButton{font-size:10px;padding:6px 8px}.graphHint{max-width:245px}.speechMeta{font-size:9px}}

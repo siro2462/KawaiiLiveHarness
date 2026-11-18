@@ -1,0 +1,23 @@
+{
+  "status": "logic_verified_visual_not_verified",
+  "source_lines": 520,
+  "speech_lines": 464,
+  "curated_attribute_lines": 32,
+  "unresolved_lines": 432,
+  "topic_and_attribute_missing": 331,
+  "attribute_only_missing": 101,
+  "original_heading_groups": 18,
+  "curated_topics": 7,
+  "curated_attributes": 25,
+  "all_unresolved_lines_reachable": true,
+  "original_text_and_mapping_unchanged": true,
+  "exact_patch_rebuild": true,
+  "offline_dom_scenarios": 11,
+  "browser_visual_check": false,
+  "browser_check_reason": "File protocol navigation denied by browser tool policy; no workaround used.",
+  "semantic_classification_changed": false,
+  "new_model_calls": 0,
+  "new_training": 0,
+  "memory_writes": 0,
+  "scope": "Presentation coverage of source lines, not semantic organization quality or operation-execution rate."
+}

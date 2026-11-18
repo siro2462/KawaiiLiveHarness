@@ -1,3 +1,13 @@
+# Current presentation update — 2026-11-18
+
+The supplied standalone memory graph now includes an unresolved source layer:432 speech lines in18 original-heading groups, with individual line nodes, pagination and transcript synchronization.331 lines lack both topic and attribute mappings,101 have a topic but no attribute;32 already have curated attributes. All source text and existing7 topic/25 attribute nodes/mappings remain unchanged. Dashed links encode source membership only, not semantic classification.
+
+Exact text/mapping preservation, reproducible patch output and11 offline DOM/logic scenarios pass. Browser file-protocol navigation was denied, so rendering/layout and real browser clicks were not verified; no workaround was attempted. Original source/HTML and full row lists remain local. New inference/training/deployment/memory writes0. [Result](../experiments/memory_graph_unmapped_20261118/result.md) / [defined counts](../experiments/memory_graph_unmapped_20261118/numeric_summary.json).
+
+Earlier dated results, including generation quality and Chunk analysis, follow.
+
+---
+
 # Current chunk analysis — 2026-11-13
 
 Twelve latest AI bodies and five saved edited reference topics were manually divided into67 and95 discourse chunks. Median nonwhitespace lengths48 versus27 characters; adjacent-same-role merging gives61 versus28.5. These are descriptive counts of a designer-known segmentation, not speaking-time or naturalness scores.

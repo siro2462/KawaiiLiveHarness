@@ -1,9 +1,9 @@
 {
-  "client_date_jst": "2026-11-13",
+  "client_date_jst": "2026-11-18",
   "execution_status": "complete",
   "quality_status": "not_approved_for_default_adoption",
-  "conclusion": "Manual discourse-chunk analysis of17 saved texts distinguishes reaction/appraisal elaboration from supported information/viewpoint progression. Both groups repeat; AI also progresses. Source-fidelity defects remain, no adoption.",
-  "latest_activity": "chunk_compare_vtuber_20261113",
+  "conclusion": "Unresolved source graph presentation added without semantic reclassification or source/mapping changes. All432 unresolved lines reachable in offline DOM checks; actual browser visual QA unverified after file-URL policy denial. Earlier generation quality remains unapproved.",
+  "latest_activity": "memory_graph_unmapped_20261118",
   "latest_experiment": "v_memory_surface3_20261108_v1",
   "human_quality_labels": 0,
   "confirmed": [
@@ -13,7 +13,8 @@
     "All12 EOS/format delivery, all current outcome exits0, technical audit and two independent full-report checks pass.",
     "Root full12 input/RAW/body/history review,88 actual-content spans,3588 nonwhitespace characters,2084 output tokens.",
     "All24 bodies, six source specifications and five edited reference originals reread; local full24 comparison preservation and source hashes pass.",
-    "Root reread latest12 AI bodies/three specs/five reference topics, manually segmented162 chunks and verified exact full17 HTML reconstruction."
+    "Root reread latest12 AI bodies/three specs/five reference topics, manually segmented162 chunks and verified exact full17 HTML reconstruction.",
+    "Unresolved source lines rendered as review nodes with exact source/mapping preservation and11 offline DOM scenarios."
   ],
   "known_limits": [
     "One seed, three known designer-authored examples and fixed manual fragment budgets; human0/TTS0.",
@@ -22,7 +23,8 @@
     "Semantic content repeats despite zero20-character exact matches across18 within-sample call pairs.",
     "No overall semantic operation-execution rate was scored; no default adoption.",
     "Reference comparison uses edited text from one known speaker; no new audio listening, matched topics or blind human scoring.",
-    "Manual semantic/function chunks are not acoustic units or requested operations; unequal topic/call boundaries and no independent human chunking."
+    "Manual semantic/function chunks are not acoustic units or requested operations; unequal topic/call boundaries and no independent human chunking.",
+    "Browser tool denied file-protocol navigation; offline DOM simulation is not visual/browser QA. Source-heading groups are editorial structure, not inferred semantic relations."
   ],
   "next_checkpoints": [
     "No new generation or deployment is authorized by this completion record."
@@ -53,7 +55,7 @@
     "new_model_calls": 0,
     "human_ratings": 0
   },
-  "prior_activity": "memory_compare_vtuber_20261108",
+  "prior_activity": "chunk_compare_vtuber_20261113",
   "chunk_analysis": {
     "ai_topics": 3,
     "ai_calls": 12,
@@ -78,5 +80,28 @@
     "human_ratings": 0,
     "audio_comparison": 0,
     "operation_execution_rate": null
+  },
+  "graph_presentation": {
+    "status": "logic_verified_visual_not_verified",
+    "source_lines": 520,
+    "speech_lines": 464,
+    "curated_attribute_lines": 32,
+    "unresolved_lines": 432,
+    "topic_and_attribute_missing": 331,
+    "attribute_only_missing": 101,
+    "original_heading_groups": 18,
+    "curated_topics": 7,
+    "curated_attributes": 25,
+    "all_unresolved_lines_reachable": true,
+    "original_text_and_mapping_unchanged": true,
+    "exact_patch_rebuild": true,
+    "offline_dom_scenarios": 11,
+    "browser_visual_check": false,
+    "browser_check_reason": "File protocol navigation denied by browser tool policy; no workaround used.",
+    "semantic_classification_changed": false,
+    "new_model_calls": 0,
+    "new_training": 0,
+    "memory_writes": 0,
+    "scope": "Presentation coverage of source lines, not semantic organization quality or operation-execution rate."
   }
 }

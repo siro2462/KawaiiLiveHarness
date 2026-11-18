@@ -1,11 +1,11 @@
 {
   "thread_id": "01a0a3fd-e058-7bd0-abbd-951f2864ba0e",
-  "cutoff_ordinal": 63579,
-  "cutoff_item_id": "01a1d553-c3aa-7750-b2fe-bb439d6f8754",
-  "source_public_item_sha256": "57fab658b13362ddfc6d3e067cae9821427413a565b646e08f459db3d42a679a",
+  "cutoff_ordinal": 63768,
+  "cutoff_item_id": "01a1ec95-da6f-78b2-9e46-ee2ddbcc743a",
+  "source_public_item_sha256": "659edc7f5b80676f077ac8a8f82e908c91b0fad015b3b968c1549a28dbdf3c2b",
   "scope": "Generic comparison program and abstract observations/counts only. All full reference and generated prose remain local.",
-  "latest_activity": "chunk_compare_vtuber_20261113",
-  "current_execution": "Read-only full17 saved text/manual162 discourse chunk comparison complete",
+  "latest_activity": "memory_graph_unmapped_20261118",
+  "current_execution": "Presentation-only unresolved source graph update; offline preservation/DOM checks pass; browser visual QA unavailable",
   "quality_status": "not_approved_for_default_adoption",
-  "evidence_scope": "Root full17 text and three specs review, manual chunk boundaries, exact independent full17 HTMLParser check and protected source hashes. Human0/audio0/new model calls0;39 operation instances not semantically scored."
+  "evidence_scope": "Original source and curated mapping exact;432 unresolved nodes reachable once across18 heading groups;11 offline DOM scenarios; file URL policy denial recorded; no semantic relabeling or model calls."
 }

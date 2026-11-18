@@ -1,0 +1,9 @@
+# Display unresolved source material on the graph
+
+The supplied graph retained the full source in its transcript sidebar but rendered only curated topic/attribute nodes. A separate source-derived layer now exposes432 unresolved speech lines in18 groups based on original editorial headings. Groups open individual line nodes, paged twelve at a time; node and transcript selection synchronize, and a next-unresolved action supports review. Missing topic/attribute and missing attribute alone have distinct labels. Dashed edges indicate only source-heading membership, not inferred semantic relations.
+
+The source has520 lines/464 speech lines. Curated attributes cover32 speech lines;331 lack both topic and attribute mapping, while101 have a topic mapping but no attribute. All source strings/row metadata and the existing7 topics/25 attributes remain unchanged. No editorial heading or blank line is counted as a spoken node. A rebuild from the original template is byte-exact with the delivered HTML.
+
+Eleven offline DOM/logic scenarios pass, including every unresolved line reached once across groups/pages, source text preservation, synchronized selection, curated-node highlighting, exact search, viewport tracking, demo/CPU/route changes and replay. The browser tool denied file-protocol navigation; no alternate browser or URL workaround was used. Actual rendering/layout and real browser clicks remain unverified. The offline checks do not imply visual QA.
+
+The requested local HTML was updated after checking the original hash, with the original preserved locally. Only generic patch/presentation/test code, abstract results and counts are published. Full source/HTML/headings and row lists remain local. Semantic classification and the generation runtime are unchanged; new model calls, training, deployment and memory database writes are zero.
