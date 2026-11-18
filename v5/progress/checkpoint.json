@@ -2,8 +2,8 @@
   "client_date_jst": "2026-11-18",
   "execution_status": "complete",
   "quality_status": "not_approved_for_default_adoption",
-  "conclusion": "Unresolved speech is arranged around the corresponding curated topic or source heading. Original CSS, curated coordinates and initial viewport match the original.",
-  "latest_activity": "memory_graph_topic_layout_20261118",
+  "conclusion": "The supplied standalone HTML was restored byte-for-byte. Its original graph contains 7 topic nodes and 25 attribute nodes. The preceding view created 432 nodes by adding one per speech line with no topic or attribute mapping. Its regular spacing came from a grid search for free positions. A literal search for the seven original topic labels found 4 distinct matches among those lines. The intended boundary is to prepare keyword candidates and retain source evidence in the database, then display selected topics and attributes in the graph.",
+  "latest_activity": "memory_graph_original_restored_20261118",
   "latest_experiment": "v_memory_surface3_20261108_v1",
   "human_quality_labels": 0,
   "confirmed": [
@@ -29,7 +29,7 @@
     "Previous technical passes were not evidence of intent fit. User acceptance of corrected variant not yet obtained; actual browser visual QA unverified."
   ],
   "next_checkpoints": [
-    "No new generation or deployment is authorized by this completion record."
+    "Keep the display separate from candidate extraction and source storage. Candidate design remains pending."
   ],
   "publication_scope": "Generic postprocessing/launcher code and newly authored abstract result/counts only",
   "code_publication": {
@@ -57,7 +57,7 @@
     "new_model_calls": 0,
     "human_ratings": 0
   },
-  "prior_activity": "memory_graph_original_style_20261118",
+  "prior_activity": "memory_graph_topic_layout_20261118",
   "chunk_analysis": {
     "ai_topics": 3,
     "ai_calls": 12,
@@ -84,17 +84,10 @@
     "operation_execution_rate": null
   },
   "graph_presentation": {
-    "original_css_exact": true,
-    "original_static_markup_exact": true,
-    "original_curated_positions_exact": true,
-    "original_initial_view_exact": true,
-    "unresolved_line_nodes": 432,
-    "total_source_graph_nodes": 475,
-    "verification": "offline DOM and geometry",
-    "actual_browser_visual_check": false,
-    "placement": "around curated topic or original section heading",
-    "known_topic_lines": 101,
-    "full_view_and_node_navigation": "pass"
+    "original_html_exact": true,
+    "topics": 7,
+    "attributes": 25,
+    "unresolved_line_nodes": 0
   },
   "prior_graph_presentation": {
     "status": "logic_verified_visual_not_verified",

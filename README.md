@@ -1,6 +1,6 @@
 # ZIPちゃん Harness v5
 
-Latest correction (2026-11-18): [topic-local graph placement](v5/experiments/memory_graph_topic_layout_20261118/result.md) places unresolved speech around its related topic with the original CSS and curated coordinates.
+Latest update (2026-11-18): The original memory graph is restored. [Current state](v5/progress/CURRENT_STATE.md).
 
 Superseded presentation update (2026-11-18): [unresolved source graph layer](v5/experiments/memory_graph_unmapped_20261118/result.md) exposes432 previously unmapped speech lines without changing source or curated semantics. Exact source/rebuild and11 offline DOM checks pass; browser visual QA remains unverified after a file-URL policy denial. [Current state](v5/progress/CURRENT_STATE.md).
 

@@ -1,3 +1,9 @@
+# Original memory graph restored — 2026-11-18
+
+The supplied standalone HTML was restored byte-for-byte. Its original graph contains 7 topic nodes and 25 attribute nodes. The preceding view created 432 nodes by adding one per speech line with no topic or attribute mapping. Its regular spacing came from a grid search for free positions. A literal search for the seven original topic labels found 4 distinct matches among those lines. The intended boundary is to prepare keyword candidates and retain source evidence in the database, then display selected topics and attributes in the graph.
+
+---
+
 # Memory graph placement — 2026-11-18
 
 The 432 unresolved speech lines now sit around their associated topics in the same graph. The 101 lines with an existing mapping use that curated node as their anchor. Lines without a curated mapping use their original section heading. The original stylesheet, static HTML, curated node and edge coordinates, and initial viewport match the supplied original. Fit, zoom, and source selection passed offline checks. [Change record](../experiments/memory_graph_topic_layout_20261118/result.md).
