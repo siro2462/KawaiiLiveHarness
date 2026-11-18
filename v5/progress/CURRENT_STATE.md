@@ -1,3 +1,13 @@
+# Current inline graph correction — 2026-11-18
+
+The user rejected the preceding separate card/list/page UI and clarified that unresolved material should be added inside the existing graph. That presentation is superseded. The corrected variant uses the original circle-node/edge renderer and SVG groups:432 unresolved line nodes plus11 editorial-heading topic nodes,475 nodes total including the original32. All lines are permanent, no cards/lists/paging/added HTML controls. Original source, curated mappings/data and demo routes remain exact; source-mode layout spacing and viewport bounds expand to fit the nodes.
+
+Ten offline DOM/logic/geometry checks and byte-exact rebuild pass; the requested local HTML is updated. Prior file-URL browser policy denial was not bypassed, so actual browser visual QA remains unverified. Technical checks do not imply user acceptance or semantic classification quality. [Result](../experiments/memory_graph_inline_20261118/result.md) / [counts](../experiments/memory_graph_inline_20261118/numeric_summary.json). Full source/HTML local, new model calls/DB writes0.
+
+Earlier dated records follow; the preceding separate UI describes a superseded approach.
+
+---
+
 # Current presentation update — 2026-11-18
 
 The supplied standalone memory graph now includes an unresolved source layer:432 speech lines in18 original-heading groups, with individual line nodes, pagination and transcript synchronization.331 lines lack both topic and attribute mappings,101 have a topic but no attribute;32 already have curated attributes. All source text and existing7 topic/25 attribute nodes/mappings remain unchanged. Dashed links encode source membership only, not semantic classification.

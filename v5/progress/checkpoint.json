@@ -2,8 +2,8 @@
   "client_date_jst": "2026-11-18",
   "execution_status": "complete",
   "quality_status": "not_approved_for_default_adoption",
-  "conclusion": "Unresolved source graph presentation added without semantic reclassification or source/mapping changes. All432 unresolved lines reachable in offline DOM checks; actual browser visual QA unverified after file-URL policy denial. Earlier generation quality remains unapproved.",
-  "latest_activity": "memory_graph_unmapped_20261118",
+  "conclusion": "Explicit user correction: remove separate card/list/page UI and integrate unresolved material directly into existing circle graph.432 unresolved line nodes,475 total, same renderer/SVG group, no extra controls. Source/mappings exact; ten offline checks; browser visual QA unverified.",
+  "latest_activity": "memory_graph_inline_20261118",
   "latest_experiment": "v_memory_surface3_20261108_v1",
   "human_quality_labels": 0,
   "confirmed": [
@@ -14,7 +14,8 @@
     "Root full12 input/RAW/body/history review,88 actual-content spans,3588 nonwhitespace characters,2084 output tokens.",
     "All24 bodies, six source specifications and five edited reference originals reread; local full24 comparison preservation and source hashes pass.",
     "Root reread latest12 AI bodies/three specs/five reference topics, manually segmented162 chunks and verified exact full17 HTML reconstruction.",
-    "Unresolved source lines rendered as review nodes with exact source/mapping preservation and11 offline DOM scenarios."
+    "Unresolved source lines rendered as review nodes with exact source/mapping preservation and11 offline DOM scenarios.",
+    "Corrected user-rejected card/page presentation to same circle-node renderer, with all432 lines permanent and no added HTML controls."
   ],
   "known_limits": [
     "One seed, three known designer-authored examples and fixed manual fragment budgets; human0/TTS0.",
@@ -24,7 +25,8 @@
     "No overall semantic operation-execution rate was scored; no default adoption.",
     "Reference comparison uses edited text from one known speaker; no new audio listening, matched topics or blind human scoring.",
     "Manual semantic/function chunks are not acoustic units or requested operations; unequal topic/call boundaries and no independent human chunking.",
-    "Browser tool denied file-protocol navigation; offline DOM simulation is not visual/browser QA. Source-heading groups are editorial structure, not inferred semantic relations."
+    "Browser tool denied file-protocol navigation; offline DOM simulation is not visual/browser QA. Source-heading groups are editorial structure, not inferred semantic relations.",
+    "Previous technical passes were not evidence of intent fit. User acceptance of corrected variant not yet obtained; actual browser visual QA unverified."
   ],
   "next_checkpoints": [
     "No new generation or deployment is authorized by this completion record."
@@ -55,7 +57,7 @@
     "new_model_calls": 0,
     "human_ratings": 0
   },
-  "prior_activity": "chunk_compare_vtuber_20261113",
+  "prior_activity": "memory_graph_unmapped_20261118",
   "chunk_analysis": {
     "ai_topics": 3,
     "ai_calls": 12,
@@ -82,6 +84,33 @@
     "operation_execution_rate": null
   },
   "graph_presentation": {
+    "status": "corrected_inline_graph_logic_verified_visual_not_verified",
+    "supersedes": "memory_graph_unmapped_20261118 card/page presentation rejected by user",
+    "speech_lines": 464,
+    "unresolved_line_nodes": 432,
+    "existing_topic_nodes": 7,
+    "existing_attribute_nodes": 25,
+    "new_heading_topic_nodes": 11,
+    "total_source_graph_nodes": 475,
+    "source_unresolved_topic_lines": 331,
+    "source_attribute_only_lines": 101,
+    "same_svg_node_group": true,
+    "same_circle_renderer": true,
+    "all_line_nodes_permanently_present": true,
+    "rectangular_cards": 0,
+    "separate_lists": 0,
+    "paging": false,
+    "added_html_controls": 0,
+    "original_source_and_curated_data_exact": true,
+    "patch_rebuild_byte_exact": true,
+    "offline_scenarios": 10,
+    "circle_overlap": false,
+    "actual_browser_visual_check": false,
+    "new_model_calls": 0,
+    "memory_db_writes": 0,
+    "scope": "Source-only visual projection, not semantic reclassification; no user acceptance claimed."
+  },
+  "prior_graph_presentation": {
     "status": "logic_verified_visual_not_verified",
     "source_lines": 520,
     "speech_lines": 464,

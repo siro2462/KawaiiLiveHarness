@@ -1,0 +1,9 @@
+# Correct the rejected separate UI to an inline graph
+
+The previous variant added a separate card/list/page presentation. The user explicitly rejected that approach and requested additions inside the existing graph. Its technical checks did not establish intent fit. That previous presentation is superseded for this request.
+
+The correction adds432 unresolved source-line nodes and11 source-heading topic nodes to the original7 topics/25 attributes:475 circle nodes in the same SVG nodes/edges groups, using the same renderer and navigation. All unresolved lines are permanently present, with no cards, separate list, paging or extra HTML controls. Dashed circles/edges distinguish unresolved source affiliation without asserting new semantic classifications. Existing source controls and demo routes remain; demo mode retains only its original32 nodes. Source layout spacing is enlarged to accommodate the additional nodes, with pan/zoom and tracking bounds adjusted.
+
+Original source strings, every source-row mapping and curated topic/attribute data remain exact. Node/transcript synchronization, curated highlights, search, keyboard selection, demo routes, permanent circle-node presence and nonoverlapping circle geometry passed ten offline DOM/logic checks. Rebuilding from the original template reproduces the delivered HTML byte-for-byte. The user-named local HTML was updated after checking its prior hash, with the prior variant backed up.
+
+No actual browser visual QA is claimed: the earlier file-URL policy denial was not bypassed. Offline logic checks are not user acceptance. Source headings remain editorial context, not newly confirmed semantic relations. Full source/HTML and row lists stay local; only generic code, abstract correction and counts are published. No new generation, learning, deployment or memory database writes.

@@ -1,0 +1,7 @@
+#map .node-unresolved .node-circle{fill:#f8fafc;stroke:#8190a8;stroke-dasharray:4 3;filter:none}
+#map .node-unresolved.current .node-circle{fill:#edf3fa;stroke:#446a99;stroke-dasharray:4 3}
+#map .edge-unresolved{stroke:#9ba8b9;stroke-dasharray:5 6;stroke-width:1.8}
+#map .node-unresolved.dim{opacity:.65}
+#map.overview .node-attr:not(.current) .node-title{display:none}
+#map .source-line-id{font-size:10px;fill:#7b8ca5;font-weight:600}
+.sourceSearch[hidden],.routeSwitcher[hidden]{display:none!important}
