@@ -1,11 +1,11 @@
 {
   "thread_id": "01a0a3fd-e058-7bd0-abbd-951f2864ba0e",
-  "cutoff_ordinal": 64270,
-  "cutoff_item_id": "01a1ed95-e581-7432-9e92-8cc59cbef6a9",
-  "source_public_item_sha256": "1b5d207dc1352c84b25c33605eeb222f61a6608404cb845b83b55842f69cf73d",
+  "cutoff_ordinal": 64399,
+  "cutoff_item_id": "01a1ed9f-85ed-7560-8570-0ce62907dcdb",
+  "source_public_item_sha256": "84e3a8e52180949e94926a95011b9318a36aaf5fa2ffdf90a075e2b50de622c8",
   "scope": "Generic comparison program and abstract observations/counts only. All full reference and generated prose remain local.",
-  "latest_activity": "memory_graph_original_style_20261118",
-  "current_execution": "Original stylesheet and curated graph appearance restored with source-only additions.",
+  "latest_activity": "memory_graph_topic_layout_20261118",
+  "current_execution": "Topic-local placement delivered with original styling and curated geometry.",
   "quality_status": "not_approved_for_default_adoption",
-  "evidence_scope": "Offline DOM comparison of static markup, source, curated nodes and edges, initial and curated viewports, and access to all unresolved lines."
+  "evidence_scope": "Offline comparisons of source, original stylesheet, original nodes and edges, viewports and the location of newly added nodes."
 }

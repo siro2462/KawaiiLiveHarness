@@ -1,3 +1,9 @@
+# Memory graph placement — 2026-11-18
+
+The 432 unresolved speech lines now sit around their associated topics in the same graph. The 101 lines with an existing mapping use that curated node as their anchor. Lines without a curated mapping use their original section heading. The original stylesheet, static HTML, curated node and edge coordinates, and initial viewport match the supplied original. Fit, zoom, and source selection passed offline checks. [Change record](../experiments/memory_graph_topic_layout_20261118/result.md).
+
+---
+
 # Memory graph appearance — 2026-11-18
 
 The supplied memory graph now uses its original stylesheet, static markup, curated node positions, and initial viewport. It adds the 432 unresolved speech lines on the same SVG, to the right of the original nodes. The existing fit control includes the added region. Dashed edges show affiliation with source headings or existing topics. Original CSS, static HTML, 32 curated nodes and edges, initial viewport, and navigation passed offline checks. [Change record](../experiments/memory_graph_original_style_20261118/result.md).

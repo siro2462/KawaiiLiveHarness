@@ -2,8 +2,8 @@
   "client_date_jst": "2026-11-18",
   "execution_status": "complete",
   "quality_status": "not_approved_for_default_adoption",
-  "conclusion": "Original CSS, static markup, curated coordinates, and initial viewport restored. The existing fit control includes all 432 unresolved lines in the same SVG.",
-  "latest_activity": "memory_graph_original_style_20261118",
+  "conclusion": "Unresolved speech is arranged around the corresponding curated topic or source heading. Original CSS, curated coordinates and initial viewport match the original.",
+  "latest_activity": "memory_graph_topic_layout_20261118",
   "latest_experiment": "v_memory_surface3_20261108_v1",
   "human_quality_labels": 0,
   "confirmed": [
@@ -57,7 +57,7 @@
     "new_model_calls": 0,
     "human_ratings": 0
   },
-  "prior_activity": "memory_graph_inline_20261118",
+  "prior_activity": "memory_graph_original_style_20261118",
   "chunk_analysis": {
     "ai_topics": 3,
     "ai_calls": 12,
@@ -91,7 +91,10 @@
     "unresolved_line_nodes": 432,
     "total_source_graph_nodes": 475,
     "verification": "offline DOM and geometry",
-    "actual_browser_visual_check": false
+    "actual_browser_visual_check": false,
+    "placement": "around curated topic or original section heading",
+    "known_topic_lines": 101,
+    "full_view_and_node_navigation": "pass"
   },
   "prior_graph_presentation": {
     "status": "logic_verified_visual_not_verified",
